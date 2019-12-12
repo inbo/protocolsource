@@ -1,0 +1,189 @@
+---
+title: "Titel protocol"
+subtitle: "optionele subtitel"
+author: voornaam naam1, voornaam naam2, ...
+date: YYYY-MM-DD
+output: 
+  bookdown::html_document2:
+    toc: true
+    toc_float: true
+    number_sections: true
+---
+
+<!--
+Instructies bij opmaak van veldprotocol:
+
+Hieronder vind je de verschillende onderdelen van een veldprotocol en een beschrijving wat er bij elk onderdeel vermeld moet worden. 
+Niet alle onderdelen zijn altijd van toepassing. Laat in die gevallen de titelhoofdingen staan en vermeld expliciet “niet van toepassing”.
+Probeer het veldprotocol generiek te maken in de mate van mogelijk en probeer te vermijden dat het veldprotocol enkel specifiek voor een bepaald project bruikbaar is. 
+Je kan het protocol generiek houden door bepaalde variabelen, zoals bijvoorbeeld de grootte van een proefvlak of de diepte van een bodembemonstering, niet vast te leggen in het protocol. 
+In bijlage kan je dan een tabel toevoegen waarin je per project aangeeft welke waardes gekozen moeten worden voor die variabelen. 
+Indien een bepaald onderdeel niet van toepassing is, laat je de hoofding staan en vermeld je hieronder ‘Niet van toepassing’. Op die manier is de nummering van alle protocols dezelfde.
+-->
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE, 
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = '100%',
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+```
+
+
+```{r metadata}
+# pas deze tabel aan
+metadata <- data.frame(
+  Reviewers = "naam1, naam2, ...",
+  Documentbeheerder = "naam",
+  Procedure = "SVP-###",
+  Revisie = "#.#"
+)
+
+kable(metadata)
+
+```
+
+
+# Wijzigingen vorige versies
+
+<!--
+Omschrijf hier welke wijzigingen er gebeurd zijn ten opzichte van de vorige versie. Vermeld de datum van de vorige versie, de reden van de wijziging en een beknopte beschrijving van de wijziging.
+-->
+
+# Afhankelijkheden (Indien van toepassing)
+
+<!--
+Procedures waarnaar in deze procedure verwezen wordt: bv SIP_xxx
+Procedures die verwijzen naar deze procedure: bv SVP_xxx
+-->
+
+# Onderwerp
+
+## Definities en afkortingen
+
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het veldprotocol op een gepaste manier te kunnen uitvoeren.  
+-->
+
+## Doelstelling en toepassingsgebied
+
+<!--
+Doelstelling: omschrijving in woorden waarvoor het veldprotocol dient. Voorbeelden wat er met de gegevens kan gedaan worden. Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het veldprotocol kan gebruikt worden.
+-->
+
+
+## Beperkingen tot de procedure (indien van toepassing)
+
+<!--
+Bespreek hieronder onder welke condities het veldprotocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol. Vermeld hier ook mogelijke interferenties, knelpunten, …
+-->
+
+# Principe
+
+<!--
+Korte omschrijving van de principes waarop het veldprotocol gebaseerd is. Bv principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, …
+-->
+
+# Vereiste competenties
+
+<!--
+Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het veldprotocol op een gepaste manier te kunnen uitvoeren. Eventueel kan er verwezen worden naar bepaalde opleidingen.
+-->
+
+
+# Benodigdheden
+
+## Apparatuur
+
+<!--
+Opsomming van de apparatuur die nodig is en verwijzingen naar de SIP’s (Standard Instrument Procedure) indien die er zijn. Indien geen specifiek SIP’s voorhanden, illustreer de toegelaten apparatuur met foto’s, geef het exacte type apparatuur mee, …
+-->
+
+## Materiaal
+
+<!--
+Opsomming van gebruikte materialen. Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen, materiaal, … vb. vermeld niet staalnamepotje, maar wel vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit PE, met afsluitbare deksel uit PP.
+-->
+
+## Reagentia en oplossingen (indien van toepassing)
+
+<!--
+Een opsomming van reagentia, welke zuiverheid, volume, veiligheidsvoorschriften. vb. Zwavelzuur (H2SO4), geconcentreerd (96%), pro analyse + veiligheidsinfo (sterk zuur, bijtend, gebruik handschoenen, bril en masker bij gebruik)
+Een opsomming van oplossingen, welke zuiverheid, volume, veiligheidsvoorschriften. Indien deze oplossingen zelf worden bereid, vermeld dan ook de bereidingswijze. vb; Zwavelzuur 1M: verdun zwavelzuur geconcentreerd 18 maal met ultrapuur water. Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
+-->
+
+
+# Werkwijze
+
+## Uitvoering
+
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het veldprotocol uit te voeren. Subtitels gebruiken om elke stap te omschrijven. 
+-->
+
+### Subtitel 1
+
+### Subtitel 2
+
+
+## Registratie en bewaring van resultaten
+
+<!--
+Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
+Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar SIP indien beschikbaar; indien geen SIP beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
+Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden. Geef aan of de stalen voorbehandeld moeten worden. 
+Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen. Geef eventueel aan welke bestandnamen aan de bestanden moeten gegeven worden.
+-->
+
+# Kwaliteitszorg
+
+<!--
+Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen. 
+Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld,…) 
+Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen. 
+In dit onderdeel kunnen ook bepaalde intercalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
+-->
+
+# Veiligheid
+
+<!--
+Alle aandachtspunten in verband met veilig werken.
+-->
+
+# Samenvatting
+
+<!--
+Een samenvattende opsomming van de te volgen stappen. Gebruik eventueel een stroomschema indien dit de procedure kan verduidelijken.
+-->
+
+
+# Referenties {-}
+<div id="refs"></div>
+
+
+
+<!--
+Eventueel opsplitsen in sleutelreferentie en overige referenties.
+-->
+
+# (APPENDIX) Bijlagen {-} 
+
+# Titel eerste bijlage
+
+<!--
+Oplijsting van de bijlages die toegevoegd zijn aan dit protocol. O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, …).
+-->
+
+# Titel tweede bijlage
+
+
+
+
