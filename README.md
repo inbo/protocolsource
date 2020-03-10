@@ -47,12 +47,14 @@ Tips & Tricks:
 ## How to contribute?
 
 
-### Using online editing functionalities
+### Suggesting changes to existing protocols
+
+#### Using online editing functionalities
+
+To do: write this section
 
 
-
-
-### Using Rstudio and git version control
+#### Using Rstudio and git version control
 
 Installing the repository on your local drive:
 
@@ -67,10 +69,25 @@ You will now have a local clone of the remote repository as an Rstudio project. 
 The same directories and files which can be seen on the remote (https://github.com/inbo/protocols) will be copied to your local drive. 
 Whenever you want to work in the project, you need to double-click `protocols.Rproj` file to start the Rstudio project. 
 
-However, multiple Rstudio projects are associated with subfolders beneath the root directory. 
-These projects will automatically be associated with the same `git` version control as the `protocols.Rproj`. 
+To refer to files use the `rprojroot` package. Here is an example to refer to the utils folder:
 
-Branching model:
+```r
+library(rprojroot)
+path_to_utils <- file.path(
+  find_root(is_git_root),
+  "src",
+  "utils"
+  )
+```
+
+
+*Branching model:*
+
+```
+  |- master branch <- contains only finished and approved protocols, both source code and html rendered github pages
+      | - develop branch <- contains development versions of protocols, this is the default branch
+          | - other, preferably short-lived branches which contain work in progress on a specific protocol
+```
 
 * We work with a simple branching model
     * one branch for one `Rmd` file
@@ -81,5 +98,14 @@ Branching model:
         * To do this go to https://github.com/inbo/protocols and click on new pull request for the branch you want to merge
         * The one who made the PR, will assign one or more reviewers
         * When approved the PR can be merged
+
+
+### Starting a new protocol
+
+The file `src/utils/maak_protocol.R` contains functions to aid the development of a new protocol. The function will write a template Rmarkdown file to a folder. The name and location of the file and folder will be automatically determined by means of the input that you provide to the arguments of the function. Some examples can be seen in the file `src/utils/setup_pre-existing_folders.R`
+
+After these folders are created, you can start working in the Rmarkdown file following the instructions given [in this section](#using-rstudio-and-git-version-control).
+
+
 
 
