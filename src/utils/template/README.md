@@ -1,0 +1,1 @@
+This folder contains Rmarkdown template(s) for INBO protocols.
