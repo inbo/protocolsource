@@ -93,7 +93,7 @@ path_to_utils <- file.path(
     * one branch to work on one `Rmd` file
     * shortlived branches
     * For support on the workflow, we advise you to follow [this workflow](https://inbo.github.io/git-course/workflow_rstudio.html).
-* Code of Conduct 
+* The workflow in short:
     * Merging a branch to the master will be done through a pull request (PR)
         * To do this go to https://github.com/inbo/protocols and click on `New pull request` for the branch you want to merge
         * The one who made the PR, will assign one or more reviewers
