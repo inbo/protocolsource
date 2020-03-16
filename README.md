@@ -107,5 +107,7 @@ The file `src/utils/maak_protocol.R` contains functions to aid the development o
 After these folders are created, you can start working in the Rmarkdown file following the instructions given [in this section](#using-rstudio-and-git-version-control).
 
 
+### Update NEWS.md
 
 
+Add instructions how to update NEWS.md files.
