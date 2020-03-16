@@ -185,7 +185,7 @@ maak_svp <- function(
 #'
 geef_protocolnummers <- function(protocol_type = c("svp", "sip", "sap", "sop")) {
   stopifnot(require(rprojroot))
-  require(stringr)
+  stopifnot(require(stringr))
   
   protocol_type <- match.arg(protocol_type)
   assert_that(is.string(protocol_type))
