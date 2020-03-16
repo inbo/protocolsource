@@ -125,7 +125,6 @@ maak_svp <- function(
     # create a new directory
     dir.create(file.path(path_to_protocol), 
                recursive = TRUE)
-  }
   
   # move all files from the template folder and add info
   files <- list.files(path = path_to_template, 
@@ -259,4 +258,3 @@ geef_korte_titels <- function(protocol_type = c("svp", "sip", "sap", "sop")) {
   
   return(lf)
 }
-
