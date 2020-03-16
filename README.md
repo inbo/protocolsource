@@ -25,7 +25,7 @@ Some useful resources for self-learning of **Rmarkdown**:
 
 [tutorial rmarkdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
 
-In Rstudio: 
+In RStudio: 
 
 * `File -> New -> R markdown` automatically gives a template 
 * `Help -> Markdown Quick Reference`
@@ -54,7 +54,7 @@ Tips & Tricks:
 To do: write this section
 
 
-#### Using Rstudio and git version control
+#### Using RStudio and git version control
 
 Installing the repository on your local drive:
 
@@ -65,9 +65,9 @@ Installing the repository on your local drive:
 * In the field `Create project as subdirectory of` select a folder on your local disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/GitRepositories`.
 * Click OK
 
-You will now have a local clone of the remote repository as an Rstudio project. The file `protocols.Rproj` will be automatically created as well as a `.git` directory (do not make changes in this directory - it is where version control takes place). 
+You will now have a local clone of the remote repository as an RStudio project. The file `protocols.Rproj` will be automatically created as well as a `.git` directory (do not make changes in this directory - it is where version control takes place). 
 The same directories and files which can be seen on the remote (https://github.com/inbo/protocols) will be copied to your local drive. 
-Whenever you want to work in the project, you need to double-click `protocols.Rproj` file to start the Rstudio project. 
+Whenever you want to work in the project, you need to double-click `protocols.Rproj` file to start the RStudio project. 
 
 To refer to files use the `rprojroot` package. Here is an example to refer to the utils folder:
 
@@ -90,12 +90,12 @@ path_to_utils <- file.path(
 ```
 
 * We work with a simple branching model
-    * one branch for one `Rmd` file
+    * one branch to work on one `Rmd` file
     * shortlived branches
-    * For support on the workflow, we advice you to follow [this workflow](https://inbo.github.io/git-course/workflow_rstudio.html).
-* Code of Conduct 
+    * For support on the workflow, we advise you to follow [this workflow](https://inbo.github.io/git-course/workflow_rstudio.html).
+* The workflow in short:
     * Merging a branch to the master will be done through a pull request (PR)
-        * To do this go to https://github.com/inbo/protocols and click on new pull request for the branch you want to merge
+        * To do this go to https://github.com/inbo/protocols and click on `New pull request` for the branch you want to merge
         * The one who made the PR, will assign one or more reviewers
         * When approved the PR can be merged
 
