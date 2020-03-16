@@ -145,7 +145,7 @@ maak_svp <- function(
     
     # add original file content from reference, changing values
     original_file <- file(original_file_path, "r")
-    original_file_content <- readLines(original_file)
+    original_file_content <- readLines(original_file_path)
     data <- list(titel = titel,
                  subtitel = subtitel,
                  auteurs = auteurs,
