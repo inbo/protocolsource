@@ -49,7 +49,7 @@ maak_svp <- function(
   # check parameters
   assert_that(is.string(titel))
   assert_that(is.string(subtitel))
-  assert_that(is.string(korte_titel) & length(korte_titel) <= 20)
+  assert_that(is.string(korte_titel), nchar(korte_titel) <= 20)
   assert_that(is.date(as.Date(datum)))
   assert_that(is.string(auteurs))
   assert_that(is.string(reviewers))
