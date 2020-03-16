@@ -121,7 +121,7 @@ maak_svp <- function(
   if (dir.exists(path_to_protocol)) {
     stop(sprintf(paste0("De protocol repository bevat reeds ",
                         "een map voor %s!"), path_to_protocol))
-  } else {
+  }
     # create a new directory
     dir.create(file.path(path_to_protocol), 
                recursive = TRUE)
@@ -259,5 +259,4 @@ geef_korte_titels <- function(protocol_type = c("svp", "sip", "sap", "sop")) {
   
   return(lf)
 }
-
 
