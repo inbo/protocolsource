@@ -83,10 +83,7 @@ maak_svp <- function(
   if (length(alle_nummers) == 0) {
     protocol_volgnummer <- "01"
   } else {
-    nummers <- alle_nummers[
-      str_detect(alle_nummers, 
-                 pattern = paste0("^", protocol_hoofdnummer)
-      )]
+    nummers <- str_subset(alle_nummers, paste0("^", protocol_hoofdnummer))
     protocol_volgnummer <- max(
       as.integer(
         str_extract(nummers, "\\d{2}$"))
@@ -188,8 +185,7 @@ geef_protocolnummers <- function(protocol_type = c("svp", "sip", "sap", "sop")) 
   stopifnot(require(stringr))
   
   protocol_type <- match.arg(protocol_type)
-  assert_that(is.string(protocol_type))
-  
+
   project_root <- find_root(is_git_root)
   path_to_src <- file.path(project_root, "src")
   lf <- list.files(path = path_to_src, 
@@ -197,14 +193,13 @@ geef_protocolnummers <- function(protocol_type = c("svp", "sip", "sap", "sop")) 
                    full.names = FALSE, 
                    ignore.case = TRUE
   )
-  lf <- lf[str_detect(string = lf,
-                      pattern = "^(.*)\\/(.*)(\\.Rmd)$")]
-  lf <- gsub(pattern = "^(.*)\\/(.*)(\\.Rmd)$",
-             replacement = "\\2",
-             x = lf
-  )
-  lf <- lf[str_detect(string = lf,
-                      pattern = protocol_type)]
+  lf <- str_subset(string = lf,
+                   pattern = "^(.*)\\/(.*)(\\.Rmd)$")
+  lf <- str_replace(string = lf, 
+                    pattern = "^(.*)\\/(.*)(\\.Rmd)$",
+                    replacement = "\\2")
+  lf <- str_subset(string = lf,
+                   pattern = protocol_type)
   lf <- str_extract(string = lf, 
                     pattern = "(?<=p-)\\d{3}")
   lf <- lf[!is.na(lf)]
