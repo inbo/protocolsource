@@ -133,7 +133,7 @@ maak_svp <- function(
                       pattern = protocol_type)
   
   for (filename in files) {
-    print(paste0("Preparing: ", filename))
+    message("Preparing: ", filename)
     new_file_path <- file.path(path_to_protocol, filename)
     original_file_path <- file.path(path_to_template, filename)
    
