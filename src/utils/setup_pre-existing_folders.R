@@ -1,59 +1,51 @@
-library(rprojroot)
-path_to_utils <- file.path(
-  find_root(is_git_root),
-  "src",
-  "utils"
-  )
-source(file.path(path_to_utils, "maak_protocol.R"))
+# one time setup
 
-maak_svp(titel = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
-         subtitel = "", 
-         korte_titel = "vegetatieopname terrestrisch",
-         auteurs = "Els De Bie", 
-         datum = "2016-07-19", 
-         reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
-         documentbeheerder = "Hans Van Calster", 
-         revisie = "1.1", 
-         thematiek = "vegetatie"
-         )
+library(protocolshelper)
 
-maak_svp(titel = "Vegetatie-opname met behulp van de Tansley-schaal",
-         subtitel = "", 
-         korte_titel = "vegetatieopname tansley",
-         auteurs = "Patrik Oosterlynck, Hans Van Calster", 
-         datum = "2017-04-01", 
+create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
+           subtitle = "", 
+           short_title = "vegopname terrest",
+           authors = "Els De Bie", 
+           date = "2016-07-19", 
+           reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
+           file_manager = "Hans Van Calster", 
+           theme = "vegetatie")
+
+
+create_sfp(title = "Vegetatie-opname met behulp van de Tansley-schaal",
+           subtitle = "", 
+         short_title = "vegetatieopname tansley",
+         authors = "Patrik Oosterlynck, Hans Van Calster", 
+         date = "2017-04-01", 
          reviewers = "Els Lommelen, Lieve Vriens, Jan Wouters, Bart Vandevoorde, Sam Provoost, Els De Bie, Steven Desaeger", 
-         documentbeheerder = "Hans Van Calster", 
-         revisie = "0.9.4", 
-         thematiek = "vegetatie"
+         file_manager = "Hans Van Calster", 
+         theme = "vegetatie"
 )
 
 
-maak_svp(titel = "Vegetatieopname en LSVI-bepaling habitat 3260",
-         subtitel = "", 
-         korte_titel = "vegetatieopname habitat 3260",
-         auteurs = "An Leyssen", 
-         datum = "2017-02-07", 
+create_sfp(title = "Vegetatieopname en LSVI-bepaling habitat 3260",
+         subtitle = "", 
+         short_title = "vegetatieopname habitat 3260",
+         authors = "An Leyssen", 
+         date = "2017-02-07", 
          reviewers = "Luc Denys, Toon Westra, Hans Van Calster", 
-         documentbeheerder = "Toon Westra", 
-         revisie = "1.0", 
-         thematiek = "vegetatie"
+         file_manager = "Toon Westra", 
+         theme = "vegetatie"
 )
 
 
-maak_svp(titel = "Beslisboom vegetatieopnames",
-         subtitel = "bepalen vegetatiesamenstelling en relatieve abundanties", 
-         korte_titel = "beslisboom vegetatieprotocols",
-         auteurs = "Els De Bie, Hans Van Calster", 
-         datum = "2016-09-15", 
+create_sfp(title = "Beslisboom vegetatieopnames",
+         subtitle = "bepalen vegetatiesamenstelling en relatieve abundanties", 
+         short_title =  "beslisboom vegetatieprotocols",
+         authors = "Els De Bie, Hans Van Calster", 
+         date = "2016-09-15", 
          reviewers = "", 
-         documentbeheerder = "Hans Van Calster", 
-         revisie = "0.0", 
-         thematiek = "vegetatie"
+         file_manager = "Hans Van Calster", 
+         theme = "vegetatie"
 )
 
 
-maak_svp(titel = "Vegetatie-opname met behulp van de beheermonitoringschaal",
+create_sfp(title = "Vegetatie-opname met behulp van de beheermonitoringschaal",
          subtitel = "", 
          korte_titel = "vegetatieopnamen beheermonitoring",
          auteurs = "Patrik Oosterlynck, Hans Van Calster", 
