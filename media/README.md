@@ -1,1 +1,0 @@
-This folder is for media files (`*.png`, `*.jpg`, ...). It is advised to use a subfolder structure that respects the naming conventions of the protocols (e.g. `SVP-401`).
