@@ -1,6 +1,6 @@
 # one time setup
 
-library(protocolshelper)
+library(protocolhelper)
 library(rprojroot)
 git_root <- find_root(is_git_root)
 path_to_from_docx <- file.path(git_root, "from_docx")
