@@ -14,13 +14,14 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
            date = "2016-07-19", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
            file_manager = "Hans Van Calster", 
+           revision = "1.1.0.9000",
+           theme = "vegetation",
+           language = "nl",
            from_docx = 
              file.path(path_to_from_docx, 
                        "SVP_401_VegetatieOpnamePV_Terrestrisch_v1.1.docx"),
-           protocol_number = "401",
-           revision = "1.1.0.9000",
-           theme = "vegetation",
-           language = "nl")
+           protocol_number = "401", 
+           render = TRUE)
 
 
 
