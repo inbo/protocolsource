@@ -9,7 +9,8 @@ INBO protocols for monitoring
 ```
   |- README.md <- up to date description of the repo content
   |- docs <- contains rendered versions of protocols
-  |- from_docx <- contains docx protocols which were converted to markdown
+  |- from_docx <- contains Microsoft Word docx protocols which were converted to 
+                  markdown
   |- src
   |    |- thematic 
   |    |   |- 0_generic
