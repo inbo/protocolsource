@@ -1,5 +1,0 @@
-# Samenvatting
-
-<!--
-Een samenvattende opsomming van de te volgen stappen. Gebruik eventueel een stroomschema indien dit de procedure kan verduidelijken.
--->
