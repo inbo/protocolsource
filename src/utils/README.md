@@ -1,1 +1,0 @@
-This folder is for utility functions (`*.R` files)
