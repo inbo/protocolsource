@@ -2,7 +2,8 @@
 
 INBO protocols for monitoring
 
-*experimental*: we are in the process of trying out git-version control for INBO protocols. In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/a/inbo.be/veldprotocols/) (only accessible to INBO collaborators). Developmental versions are at [this google drive folder](https://drive.google.com/drive/folders/0BzUqT1wpznBXY2ZqaXh2a0tyd2M) (only accessible to INBO collaborators). 
+*experimental*: we are in the process of trying out git-version control for INBO protocols. In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/a/inbo.be/veldprotocols/) (only accessible to INBO collaborators). 
+Developmental versions are at [this google drive folder](https://drive.google.com/drive/folders/0BzUqT1wpznBXY2ZqaXh2a0tyd2M) (only accessible to INBO collaborators). 
 
 ## Repository structure
 
@@ -27,29 +28,20 @@ INBO protocols for monitoring
 
 Installing the repository on your local drive:
 
-* go to the [protocols repository](https://github.com/inbo/protocols/) and press 
-clone button
+* go to the [protocols repository](https://github.com/inbo/protocols/) and press  clone button
 * copy the URL to the clipboard
-* start RStudio and select `File -> New project -> Version Control -> Git` -> 
-paste the URL
+* start RStudio and select `File -> New project -> Version Control -> Git` -> paste the URL
 * `protocols` will be automatically suggested as project directory name (keep it
 that way)
-* In the field `Create project as subdirectory of` select a folder on your local 
-disc (do *not* use a folder that google drive file stream synchronizes). 
-For instance `C:/R/GitRepositories`.
+* In the field `Create project as subdirectory of` select a folder on your local  disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/GitRepositories`.
 * Click OK
 
-You will now have a local clone of the remote repository as an RStudio project. 
-The file `protocols.Rproj` will be automatically created as well as a `.git` 
-directory (do not make changes in this directory - it is where version control 
-takes place). 
+You will now have a local clone of the remote repository as an RStudio project. The file `protocols.Rproj` will be automatically created as well as a `.git` directory (do not make changes in this directory - it is where version control takes place). 
 
-The same directories and files which can be seen on the  [remote](https://github.com/inbo/protocols) will be copied to your local drive. 
-Whenever you want to work in the project, you need to double-click 
-`protocols.Rproj` file to start the RStudio project. 
+The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive. Whenever you want to work in the project, you need to double-click `protocols.Rproj` file to start the RStudio project. 
 
-To refer to files use the `rprojroot` package. Here is an example to refer to 
-the project folder:
+To refer to files use the `rprojroot` package. 
+Here is an example to refer to the project folder:
 
 ```r
 library(rprojroot)
@@ -67,23 +59,17 @@ path_to_project <- file.path(
 
 
 We use a simple branching model. 
-The master branch is protected and can only receive commits from reviewed pull
-requests.
-Development of a protocol (see [Workflow](#workflow)) is done in a protocol-
-specific branch that branches off the master branch.
+The master branch is protected and can only receive commits from reviewed pull requests.
+Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the master branch.
 
-Protocols can depend on other protocols (protocol dependencies) only if these 
-dependent protocols have been approved (and are published). 
+Protocols can depend on other protocols (protocol dependencies) only if these dependent protocols have been approved (and are published). 
 Cirular dependencies are not allowed.
 
 Whenever a pull request is reviewed and finalized. 
-A repo-admin will merge the branch to the master and add general and specific 
-tags. 
+A repo-admin will merge the branch to the master and add general and specific tags. 
 The general tag is of the form `protocols-YYYY.number`.
 The specific tag is of the form `protocol-code-YYYY.number`.
-Note that the merge commit to which these tags are attached represent an entire 
-snapshot of the complete repository - not only the part of the repository that 
-refers to the specific protocol. 
+Note that the merge commit to which these tags are attached represent an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol. 
 
 These tags serve several purposes:
 
@@ -95,17 +81,10 @@ added or updated
     the full history of versions for that protocol
 - the general tag 
     - is incremental, meaning that general tags can be put in a time sequence
-    - will be used as tag to base a GitHub Release on. A GitHub Release is just
-    a zip-file containing all files in the repository at that moment. The repository
-    is setup in such a way that with each release a Zenodo archive will be created
-    as well. The added benefit of this is (1) guaranteed long-term archiving, 
-    (2) creation of a DOI.
+    - will be used as tag to base a GitHub Release on. A GitHub Release is just     a zip-file containing all files in the repository at that moment. The repository is setup in such a way that with each release a Zenodo archive will be created as well. The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
 
 
-Each time a merge commit is made to the master branch of the `protocols` repo,
-a 'mirror read-only' repository (protocols-website) will be automatically 
-triggered to build the rendered html versions of the protocols using Travis 
-Continuous Integration.
+Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using Travis Continuous Integration.
 The resulting website is hosted at **TO BE ADDED**.
 This website will host all approved and published versions of all protocols.
 
@@ -116,10 +95,8 @@ The workflow is as follows for a _new_ protocol:
 
 - make sure your local clone of the remote repository is up to date:
     - with the master branch checked out, press the pull button in the Git pane
-- a subject-matter specialist uses `protocolhelper::create_sfp()` to start 
-a new protocol from a template
-- the generated protocol-code (e.g. sfp-401) is noted and a new branch named 
-after the protocol-code is created:
+- a subject-matter specialist uses `protocolhelper::create_sfp()` to start a new protocol from a template
+- the generated protocol-code (e.g. sfp-401) is noted and a new branch named after the protocol-code is created:
     - in the Git pane press the icon to create a new branch
 - a first commit is made:
     - stage the files generated from the template in the git pane
@@ -140,53 +117,37 @@ after the protocol-code is created:
     - add text, media, ... to the Rmarkdown files
     - save your changes
     - stage, commit, push changes
-- When finished go to your draft pull request and press 'ready for review' 
-and add reviewers. At least one repo admin and one other subject-matter specialist
-must review the protocol. The subject-matter specialist reviews the contents of 
-the protocol and the repo-admin reviews technical aspects.
+- When finished go to your draft pull request and press 'ready for review' and add reviewers. At least one repo admin and one other subject-matter specialist must review the protocol. The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
     ![](pr-on-github-4.png)
 
-- If the reviewers raise concerns, changes can be made to the protocol that 
-address these concerns (stage, commit, push)
+- If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
 - When all reviewers have given their approval, the repo admin 
     - adds tags with definitive version numbers to the YAML header 
     - updates the repo NEWS.md file
     - and merges the PR to the master
-- The GitHub protocols repo is setup in such a way that branches that are merged 
-with the master branch will be deleted automatically.
+- The GitHub protocols repo is setup in such a way that branches that are merged with the master branch will be deleted automatically.
 
 
 For an _update_ of an existing protocol all steps are the same, except for:
 
-- the creation of the new branch can (re-)use the protocol-code of the existing
-protocol
-- after review is finished, the protocol-specific `NEWS.Rmd` should be updated 
-to document the substantive changes between the updated version of the previous 
-version.
+- the creation of the new branch can (re-)use the protocol-code of the existing protocol
+- after review is finished, the protocol-specific `NEWS.Rmd` should be updated to document the substantive changes between the updated version of the previous version.
 
 
 ## Relationships to other repositories
 
 This repository contains the Rmarkdown versions of protocols. 
 
-A companioning repository `protocols-website` hosts the rendered versions of
-these protocols.
+A companioning repository `protocols-website` hosts the rendered versions of these protocols.
 
-A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) 
-has several utility functions that aid in setting up a new protocol from a 
-template and functions to aid management of the `protocols` repository.
-
-
-
+A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocols` repository.
 
 ## Starting a new protocol with the aid of protocolhelper functions
 
-The name and location of the file and folder will be automatically determined by 
-means of the input that you provide to the arguments of the `create_`-family of 
+The name and location of the file and folder will be automatically determined by means of the input that you provide to the arguments of the `create_`-family of 
 functions. 
-With `render = TRUE` the Rmarkdown files will be rendered to `html` output in a 
-corresponding folder beneath `docs`. 
+With `render = TRUE` the Rmarkdown files will be rendered to `html` output in a corresponding folder beneath `docs`. 
 This will allow you to check the resulting output locally.
 
 ### From an existing docx protocol
