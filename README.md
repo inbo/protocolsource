@@ -28,7 +28,7 @@ Development versions are in [this google drive folder](https://drive.google.com/
 
 Installing the repository on your local drive:
 
-* go to the [protocols repository](https://github.com/inbo/protocols/) and press  clone button
+* go to the [protocols repository](https://github.com/inbo/protocols/) and press the `Clone` button
 * copy the URL to the clipboard
 * start RStudio and select `File -> New project -> Version Control -> Git` -> paste the URL
 * `protocols` will be automatically suggested as project directory name (keep it
@@ -223,4 +223,3 @@ Tips & Tricks:
 Using online editing functionalities
 
 To do: write this section
-
