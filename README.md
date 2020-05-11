@@ -45,10 +45,9 @@ Here is an example to refer to the project folder:
 
 ```r
 library(rprojroot)
-path_to_project <- file.path(
-  find_root(is_git_root),
-  "src",
-  "project"
+path_to_project <- find_root_file(
+  "src/project",
+  criterion = is_git_root
   )
 ```
 
