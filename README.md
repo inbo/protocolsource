@@ -39,7 +39,8 @@ that way)
 You will now have a local clone of the remote repository as an RStudio project.
 The `.git` directory is used by the version control system (do not make changes in this directory). 
 
-The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive. Whenever you want to work in the project, you need to double-click `protocols.Rproj` file to start the RStudio project. 
+The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive.
+Whenever you want to work in the project, you need to open `protocols.Rproj` file to start the RStudio project. 
 
 To refer to files use the `rprojroot` package. 
 Here is an example to refer to the project folder:
