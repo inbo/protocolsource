@@ -109,7 +109,7 @@ The workflow is as follows for a _new_ protocol:
 - a subject-matter specialist uses `protocolhelper::create_sfp()` to start a new [protocol from a template](#from-a-new-template)
 - the generated protocol-code (e.g. sfp-406) is noted and a new branch named after the protocol-code is created:
     - in the Git pane press the icon to create a new branch
-- a first commit is made:
+- after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
     - stage the files generated from the template in the git pane
     - press commit button and add a commit message
     - press the commit button
