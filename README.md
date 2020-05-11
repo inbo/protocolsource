@@ -11,7 +11,7 @@ Development versions are in [this google drive folder](https://drive.google.com/
   |- README.md <- up to date description of the repo content
   |- docs <- can be used to locally inspect rendered versions of protocols; is git-ignored
   |- from_docx <- contains Microsoft Word docx protocols which were converted to 
-                  markdown
+                  markdown; is git-ignored
   |- src
   |    |- thematic <- thematic protocols
   |    |   |- 0_generic
@@ -198,7 +198,9 @@ create_sfp(title = "titel van het protocol",
 
 Some useful resources for self-learning of **Rmarkdown**:
 
-[tutorial rmarkdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
+* [rmarkdown book](https://bookdown.org/yihui/rmarkdown/)
+* [bookdown book](https://bookdown.org/yihui/bookdown/)
+* [tutorial rmarkdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
 
 In RStudio: 
 
