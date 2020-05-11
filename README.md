@@ -70,7 +70,8 @@ added or updated
     - searching tags that have the protocol-code as string, allows reconstructing
     the full history of versions for that protocol
 - the general tag 
-    - is incremental, meaning that general tags can be put in a time sequence
+    - is incremental regardless of which protocol is updated when.
+    This means that general tags reflect the time sequence of protocol releases in the whole repository.
     - will be used as tag to base a GitHub Release on. A GitHub Release is just     a zip-file containing all files in the repository at that moment. The repository is setup in such a way that with each release a Zenodo archive will be created as well. The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
 
 
