@@ -128,7 +128,7 @@ The workflow is as follows for a _new_ protocol:
     - add text, media, ... to the Rmarkdown files
     - save your changes
     - stage, commit, push changes
-- When finished go to your draft pull request and press 'ready for review' and add reviewers. At least one repo admin and one other subject-matter specialist must review the protocol. The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
+- When finished, go to your draft pull request and press 'ready for review' and add reviewers. At least one repo admin and one other subject-matter specialist must review the protocol. The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
     ![](src/management/pr-on-github-4.png)
 
