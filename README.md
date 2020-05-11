@@ -24,7 +24,7 @@ Development versions are in [this google drive folder](https://drive.google.com/
   |    |- management <- for repo admins only
 ```
 
-## Installation instructions
+## Setup your local repository
 
 Installing the repository on your local drive:
 
@@ -53,13 +53,12 @@ We use a simple branching model.
 The master branch is protected and can only receive commits from reviewed pull requests.
 Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the master branch.
 
-Protocols can depend on other protocols (protocol dependencies) only if these dependent protocols have been approved (and are published). 
-Cirular dependencies are not allowed.
+Protocols can depend on other protocols (protocol dependencies) only if these dependency protocols have been approved (and are published). 
+Circular dependencies are not allowed.
 
-Whenever a pull request is reviewed and finalized. 
-A repo-admin will merge the branch to the master and add general and specific tags. 
+Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags. 
 The general tag is of the form `protocols-YYYY.number`.
-The specific tag is of the form `protocol-code-YYYY.number`.
+The specific tag is of the form `protocol-code-YYYY.number` (see [protocol-code](#-protocol-code)).
 Note that the merge commit to which these tags are attached represent an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol. 
 
 These tags serve several purposes:
@@ -79,6 +78,26 @@ Each time a merge commit is made to the master branch of the `protocols` repo, a
 The resulting website is hosted at **TO BE ADDED**.
 This website will host all approved and published versions of all protocols.
 
+## Protocol-code
+
+A protocol-code consists of three characters and three digits separated by a dash.
+
+|type             |theme      |theme_number |protocol-code
+|:----------------|:----------|:------------|:------------|
+|field            |generic    |0            |sfp-0##
+|field            |water      |1            |sfp-1##
+|field            |air        |2            |sfp-2##
+|field            |soil       |3            |sfp-3##
+|field            |vegetation |4            |sfp-4##
+|field            |species    |5            |sfp-5##
+|instrument       |           |             |sip-###
+|operating        |           |             |sop-###
+|activity         |           |             |sap-###
+|project          |           |             |spp-###
+
+The `##` indicates an incremental number. For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
+
+Together with a version number, a language identifier and the protocol-code, a unique version of a protocol will be identified.
 
 ## Workflow 
 
