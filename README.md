@@ -137,7 +137,7 @@ The workflow is as follows for a _new_ protocol:
     - adds tags with definitive version numbers to the YAML header 
     - updates the repo NEWS.md file
     - and merges the PR to the master
-- The GitHub protocols repo is setup in such a way that branches that are merged with the master branch will be deleted automatically.
+- The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
 
 
 For an _update_ of an existing protocol all steps are the same, except for:
