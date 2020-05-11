@@ -36,7 +36,8 @@ that way)
 * In the field `Create project as subdirectory of` select a folder on your local  disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/GitRepositories`.
 * Click OK
 
-You will now have a local clone of the remote repository as an RStudio project. The file `protocols.Rproj` will be automatically created as well as a `.git` directory (do not make changes in this directory - it is where version control takes place). 
+You will now have a local clone of the remote repository as an RStudio project.
+The `.git` directory is used by the version control system (do not make changes in this directory). 
 
 The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive. Whenever you want to work in the project, you need to double-click `protocols.Rproj` file to start the RStudio project. 
 
