@@ -104,40 +104,40 @@ Together with a version number, a language identifier and the protocol-code, a u
 
 The workflow is as follows for a _new_ protocol:
 
-- make sure your local clone of the remote repository is up to date:
-    - with the master branch checked out, press the pull button in the Git pane
-- a subject-matter specialist uses `protocolhelper::create_sfp()` to start a new [protocol from a template](#from-a-new-template)
-- the generated protocol-code (e.g. sfp-406) is noted and a new branch named after the protocol-code is created:
-    - in the Git pane press the icon to create a new branch
-- after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
-    - stage the files generated from the template in the git pane
-    - press commit button and add a commit message
-    - press the commit button
-    - press the push button
-- the subject-matter specialist visits [github protocols](https://github.com/inbo/protocols) and starts a Pull Request (PR)
+1. make sure your local clone of the remote repository is up to date:
+    1. with the master branch checked out, press the pull button in the Git pane
+1. a subject-matter specialist uses `protocolhelper::create_sfp()` to start a new [protocol from a template](#from-a-new-template)
+1. the generated protocol-code (e.g. sfp-406) is noted and a new branch named after the protocol-code is created:
+    1. in the Git pane press the icon to create a new branch
+1. after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
+    1. stage the files generated from the template in the git pane
+    1. press commit button and add a commit message
+    1. press the commit button
+    1. press the push button (or postpone pushing until several commits have been made)
+1. the subject-matter specialist visits [github protocols](https://github.com/inbo/protocols) and starts a Pull Request (PR)
 
     ![](src/management/pr-on-github-1.png)
 
     ![](src/management/pr-on-github-1.png) 
 
-- Mark the PR as a draft
+1. Mark the PR as a draft
 
     ![](src/management/pr-on-github-3.png)
 
-- Continue work on the protocol
-    - add text, media, ... to the Rmarkdown files
-    - save your changes
-    - stage, commit, push changes
-- When finished, go to your draft pull request and press 'ready for review' and add reviewers. At least one repo admin and one other subject-matter specialist must review the protocol. The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
+1. Continue work on the protocol
+    1. add text, media, ... to the Rmarkdown files
+    1. save your changes
+    1. stage, commit, push changes
+1. When finished, go to your draft pull request and press 'ready for review' and add reviewers. At least one repo admin and one other subject-matter specialist must review the protocol. The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
     ![](src/management/pr-on-github-4.png)
 
-- If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
-- When all reviewers have given their approval, the repo admin:
-    - adds tags with definitive version numbers to the YAML header 
-    - updates the repo NEWS.md file
-    - and merges the PR to the master
-- The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
+1. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
+1. When all reviewers have given their approval, the repo admin:
+    1. adds tags with definitive version numbers to the YAML header 
+    1. updates the repo NEWS.md file
+    1. and merges the PR to the master
+1. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
 
 
 For an _update_ of an existing protocol all steps are the same, except for:
