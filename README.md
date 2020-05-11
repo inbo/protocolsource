@@ -55,7 +55,7 @@ path_to_project <- file.path(
 
 ## Branching model
 
-![](protocols-gitflow-model.png)
+![](src/management/protocols-gitflow-model.png)
 
 
 We use a simple branching model. 
@@ -105,13 +105,13 @@ The workflow is as follows for a _new_ protocol:
     - press the push button
 - the subject-matter specialist visits [github protocols](https://github.com/inbo/protocols) and starts a Pull Request (PR)
 
-    ![](pr-on-github-1.png)
+    ![](src/management/pr-on-github-1.png)
 
-    ![](pr-on-github-1.png) 
+    ![](src/management/pr-on-github-1.png) 
 
 - Mark the PR as a draft
 
-    ![](pr-on-github-3.png)
+    ![](src/management/pr-on-github-3.png)
 
 - Continue work on the protocol
     - add text, media, ... to the Rmarkdown files
@@ -119,7 +119,7 @@ The workflow is as follows for a _new_ protocol:
     - stage, commit, push changes
 - When finished go to your draft pull request and press 'ready for review' and add reviewers. At least one repo admin and one other subject-matter specialist must review the protocol. The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
-    ![](pr-on-github-4.png)
+    ![](src/management/pr-on-github-4.png)
 
 - If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
 - When all reviewers have given their approval, the repo admin 
