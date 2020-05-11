@@ -142,6 +142,7 @@ The workflow is as follows for a _new_ protocol:
 
 For an _update_ of an existing protocol all steps are the same, except for:
 
+- you don't need `protocolhelper::create_sfp()`
 - the creation of the new branch can (re-)use the protocol-code of the existing protocol
 - after review is finished, the protocol-specific `NEWS.Rmd` should be updated to document the substantive changes between the updated version of the previous version.
 
