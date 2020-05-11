@@ -59,7 +59,7 @@ Circular dependencies are not allowed.
 Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags. 
 The general tag is of the form `protocols-YYYY.number`.
 The specific tag is of the form `protocol-code-YYYY.number` (see [protocol-code](#-protocol-code)).
-Note that the merge commit to which these tags are attached represent an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol. 
+Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol. 
 
 These tags serve several purposes:
 
