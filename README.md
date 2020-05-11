@@ -3,7 +3,7 @@
 INBO protocols for monitoring
 
 *experimental*: we are in the process of trying out git-version control for INBO protocols. In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/a/inbo.be/veldprotocols/) (only accessible to INBO collaborators). 
-Developmental versions are at [this google drive folder](https://drive.google.com/drive/folders/0BzUqT1wpznBXY2ZqaXh2a0tyd2M) (only accessible to INBO collaborators). 
+Development versions are in [this google drive folder](https://drive.google.com/drive/folders/0BzUqT1wpznBXY2ZqaXh2a0tyd2M) (only accessible to INBO collaborators). 
 
 ## Repository structure
 
@@ -223,6 +223,5 @@ Tips & Tricks:
 Using online editing functionalities
 
 To do: write this section
-
 
 
