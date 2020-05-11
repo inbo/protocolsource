@@ -158,7 +158,7 @@ For adding a pre-existing version of a protocol that was written in `docx` forma
 
 This repository contains the Rmarkdown versions of protocols. 
 
-A companioning repository `protocols-website` hosts the rendered versions of these protocols.
+A companion repository `protocols-website` hosts the rendered versions of these protocols.
 
 A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocols` repository.
 
