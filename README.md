@@ -133,7 +133,7 @@ The workflow is as follows for a _new_ protocol:
     ![](src/management/pr-on-github-4.png)
 
 - If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
-- When all reviewers have given their approval, the repo admin 
+- When all reviewers have given their approval, the repo admin:
     - adds tags with definitive version numbers to the YAML header 
     - updates the repo NEWS.md file
     - and merges the PR to the master
