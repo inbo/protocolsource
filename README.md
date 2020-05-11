@@ -145,7 +145,7 @@ A small R package called [protocolhelper](https://github.com/inbo/protocolhelper
 
 ## Starting a new protocol with the aid of protocolhelper functions
 
-The name and location of the file and folder will be automatically determined by means of the input that you provide to the arguments of the `create_`-family of 
+The name and location of the protocol files and folder will be automatically determined by means of the input that you provide as arguments of the `create_`-family of 
 functions. 
 With `render = TRUE` the Rmarkdown files will be rendered to `html` output in a corresponding folder beneath `docs`. 
 This will allow you to check the resulting output locally.
