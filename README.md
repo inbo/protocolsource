@@ -95,8 +95,8 @@ The workflow is as follows for a _new_ protocol:
 
 - make sure your local clone of the remote repository is up to date:
     - with the master branch checked out, press the pull button in the Git pane
-- a subject-matter specialist uses `protocolhelper::create_sfp()` to start a new protocol from a template
-- the generated protocol-code (e.g. sfp-401) is noted and a new branch named after the protocol-code is created:
+- a subject-matter specialist uses `protocolhelper::create_sfp()` to start a new [protocol from a template](#from-a-new-template)
+- the generated protocol-code (e.g. sfp-406) is noted and a new branch named after the protocol-code is created:
     - in the Git pane press the icon to create a new branch
 - a first commit is made:
     - stage the files generated from the template in the git pane
@@ -133,6 +133,13 @@ For an _update_ of an existing protocol all steps are the same, except for:
 
 - the creation of the new branch can (re-)use the protocol-code of the existing protocol
 - after review is finished, the protocol-specific `NEWS.Rmd` should be updated to document the substantive changes between the updated version of the previous version.
+
+For adding a pre-existing version of a protocol that was written in `docx` format, follow the steps to create a new protocol, except in the second step:
+
+- a subject-matter specialist uses `protocolhelper::create_sfp()` to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
+- use the protocol-code from the pre-existing `docx` protocol to create a new branch and continue the steps outlined for a new protocol.
+
+
 
 
 ## Relationships to other repositories
