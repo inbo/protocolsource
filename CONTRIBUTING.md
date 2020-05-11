@@ -2,7 +2,8 @@
 
 ## Welcome!
 
-
+Thank you for considering to contribute to this repository!  
+If you have not done so yet, take a look at the [branching model](README.md#branching-model) for a general picture of the way git version control is used to add or update, review and approve a protocol.
 
 ## Setup your local repository
 
