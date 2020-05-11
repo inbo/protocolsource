@@ -79,7 +79,9 @@ Each time a merge commit is made to the master branch of the `protocols` repo, a
 The resulting website is hosted at **TO BE ADDED**.
 This website will host all approved and published versions of all protocols.
 
-## Protocol-code
+## Fixed protocol features
+
+### Protocol-code
 
 A protocol-code consists of three characters and three digits separated by a dash.
 
@@ -98,7 +100,42 @@ A protocol-code consists of three characters and three digits separated by a das
 
 The `##` indicates an incremental number. For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
 
+### Version number
+
+The version number is of the form `YYYY.number`. `YYYY` indicates the year in which the protocol was released. The `number` indicates the order of release within that year.
+
+### Language identifier
+
+Protocols can be either written in one or multiple languages. The functions in the `protocolhelper` package support Dutch (language = 'nl') and English (language = 'en').
+
 Together with a version number, a language identifier and the protocol-code, a unique version of a protocol will be identified.
+
+### Dependencies
+
+#### In sfp, sip, sap or sop
+
+In general, protocols should be as self-contained as possible, but in some cases, it could be useful to refer to other protocols.
+
+For instance, a `sfp` in which a RTK-GPS is needed to accurately locate some sampling units can refer to a `sip` that explains the use of an RTK-GPS instrument.
+
+#### In project-specific protocols (spp)
+
+Project-specific protocols should address the need of fieldworkers to have an overview of tasks that need to be done sequentially, where each task or set of tasks would typically refer to a sfp, sip, sap or sop protocol.
+
+For this specific purpose, we can make use of Rmarkdown's ability to recycle  specific parts of another protocol using a child chunk in the (parent) project-specific protocol.
+
+Such child-reference will need to be version-specific if it is not to cause clashes with version numbering: a project-protocol at some version should not have evolving compiled counterparts.
+
+## Dynamic protocol features
+
+For some protocols, it may be worthwhile to parametrize parts of the protocol. 
+For instance, in a protocol that explains how to visually estimate plant cover using cover classes, the following parameters could be considered dynamic:
+
+- shape of the sampling unit
+- area of the sampling unit
+
+The subject-matter specialist will then give sensible default values for these parameters, but these values can be changed in project-specific protocols.
+
 
 ## Workflow 
 
