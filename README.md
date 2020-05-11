@@ -9,7 +9,7 @@ Development versions are in [this google drive folder](https://drive.google.com/
 
 ```
   |- README.md <- up to date description of the repo content
-  |- docs <- can be used to locally inspect rendered versions of protocols, gitignored
+  |- docs <- can be used to locally inspect rendered versions of protocols; is git-ignored
   |- from_docx <- contains Microsoft Word docx protocols which were converted to 
                   markdown
   |- src
@@ -223,5 +223,4 @@ Tips & Tricks:
 Using online editing functionalities
 
 To do: write this section
-
 
