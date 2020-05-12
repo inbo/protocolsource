@@ -188,8 +188,9 @@ Here is an example to refer to the project folder:
 
 ## Other ways of contributing
 
-### Suggesting changes to existing protocols
+### Suggesting changes to draft protocols
 
-Using online editing functionalities
+If you are not familiar with git and RStudio, there are still ways to contribute.
+The GitHub website has [online editing functionalities](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) which can be used to suggest changes to draft protocols. 
 
-To do: write this section
+<!--To do: instead of the link, use own screenshots to explain this-->
