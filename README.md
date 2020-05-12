@@ -50,7 +50,7 @@ Tags are associated to each GitHub release.
 To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
 
 The general tag is of the form `protocols-YYYY.number`.
-The specific tag is of the form `protocol-code-YYYY.number` (see [protocol-code](#-protocol-code) and [version number](#-version-number)).
+The specific tag is of the form `protocol-code-YYYY.number` (see [protocol-code](#protocol-code) and [version number](#version-number)).
 
 These tags serve several purposes:
 
