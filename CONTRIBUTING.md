@@ -144,13 +144,15 @@ create_sfp(title = "titel van het protocol",
 
 ## Translations of protocols
 
-Protocols can be either written in one or multiple languages. 
+Protocols can be written in either one or multiple languages. 
 The functions in the `protocolhelper` package support Dutch (language = 'nl') and English (language = 'en').
 
 All language versions of the same protocol-version should be updated in the same Pull Request. 
 Hence they get the same new protocol version number. 
 If you plan a translated version, use it to first update the current version. 
 If you update the original version, then you should update the translations accordingly.
+
+In case one of the languages of a multi-language protocol is discontinued for some reason, the Rmarkdown files for the discontinued language should be deleted in the protocols repo (they are still available in the older commits of the protocols repo and the rendered version of all versions of protocols are kept at the `protocols-website` repo.
 
 ## Rmarkdown
 
