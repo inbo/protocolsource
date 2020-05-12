@@ -102,7 +102,7 @@ The version number is of the form `YYYY.number`. `YYYY` indicates the year in wh
 
 Protocols can be either written in one or multiple languages. The functions in the `protocolhelper` package support Dutch (language = 'nl') and English (language = 'en').
 
-Together with a version number, a language identifier and the protocol-code, a unique version of a protocol will be identified.
+The protocol-code, a version number and a language identifier together will identify a unique version of a protocol.
 
 ### Dependencies
 
@@ -129,5 +129,4 @@ For instance, in a protocol that explains how to visually estimate plant cover u
 - area of the sampling unit
 
 The subject-matter specialist will then give sensible default values for these parameters, but these values can be changed in project-specific protocols.
-
 
