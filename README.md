@@ -30,54 +30,50 @@ If you want to contribute a new protocol or update an existing protocol, check t
 
 ## Relationships to other repositories
 
-This repository contains the Rmarkdown versions of protocols. 
+This repository contains the Rmarkdown files of the protocols. 
 
-A companion repository `protocols-website` hosts the rendered versions of these protocols.
+A companion repository `protocols-website` hosts the rendered html files for all versions of these protocols, which can be viewed at [insert website address here]().
 
 A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocols` repository.
 
 
 
-## Branching model
+## Release model
 
-![](src/management/protocols-gitflow-model.png)
+Whenever a new protocol is added or an existing protocol is updated and approved, a new _GitHub release_ of the repository will be made.
+A GitHub Release is just a zip-file containing all files in the repository at that moment. 
+The repository is setup in such a way that with each release a Zenodo archive will be created as well. 
+The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
+A release will also trigger the `protocols-website` to update the rendered versions of the protocols.
 
+Tags are associated to each GitHub release.
+To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
 
-We use a simple branching model. 
-The master branch is protected and can only receive commits from reviewed pull requests.
-Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the master branch.
-
-Protocols can depend on other protocols (protocol dependencies) only if these dependency protocols have been approved (and are published). 
-Circular dependencies are not allowed.
-
-Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags. 
 The general tag is of the form `protocols-YYYY.number`.
-The specific tag is of the form `protocol-code-YYYY.number` (see [protocol-code](#-protocol-code)).
-Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol. 
+The specific tag is of the form `protocol-code-YYYY.number` (see [protocol-code](#-protocol-code) and [version number](#-version-number)).
 
 These tags serve several purposes:
 
-- the specific tag 
+- the specific tag: 
     - identifies which protocol has been added or updated 
     - identifies the version number of the protocol that has been 
 added or updated
-    - searching tags that have the protocol-code as string, allows reconstructing
-    the full history of versions for that protocol
-- the general tag 
-    - is incremental regardless of which protocol is updated when.
-    This means that general tags reflect the time sequence of protocol releases in the whole repository.
-    - will be used as tag to base a GitHub Release on. A GitHub Release is just     a zip-file containing all files in the repository at that moment. The repository is setup in such a way that with each release a Zenodo archive will be created as well. The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
+
+Searching tags that have the same `protocol-code` as string, allows reconstructing the full history of versions for that protocol.
+
+- the general tag:
+    - is incremental regardless of which protocol is updated when
+    - will be used as tag to base a GitHub Release on 
+
+The incremental nature means that general tags reflect the time sequence of protocol releases in the whole repository.
 
 
-Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using Travis Continuous Integration.
-The resulting website is hosted at **TO BE ADDED**.
-This website will host all approved and published versions of all protocols.
 
 ## Fixed protocol features
 
 ### Protocol-code
 
-A protocol-code consists of three characters and three digits separated by a dash.
+A protocol-code consists of three characters and three digits separated by a hyphen.
 
 |type             |theme      |theme_number |protocol-code
 |:----------------|:----------|:------------|:------------|
@@ -97,12 +93,8 @@ The `##` indicates an incremental number. For instance, the first field protocol
 ### Version number
 
 The version number is of the form `YYYY.number`. `YYYY` indicates the year in which the protocol was released. The `number` indicates the order of release within that year.
+The same version of a protocol may or may not be available in multiple languages.
 
-### Language identifier
-
-Protocols can be either written in one or multiple languages. The functions in the `protocolhelper` package support Dutch (language = 'nl') and English (language = 'en').
-
-The protocol-code, a version number and a language identifier together will identify a unique version of a protocol.
 
 ### Dependencies
 

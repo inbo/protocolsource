@@ -3,7 +3,6 @@
 ## Welcome!
 
 Thank you for considering to contribute to this repository!  
-If you have not done so yet, take a look at the [branching model](README.md#branching-model) for a general picture of the way git version control is used to add or update, review and approve a protocol.
 
 ## Setup your local repository
 
@@ -22,6 +21,24 @@ The `.git` directory is used by the version control system (do not make changes 
 
 The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive.
 Whenever you want to work in the project, you need to open `protocols.Rproj` file to start the RStudio project. 
+
+## Branching model
+
+![](src/management/protocols-gitflow-model.png)
+
+We use a simple branching model. 
+The master branch is protected and can only receive commits from reviewed pull requests.
+Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the master branch.
+
+Protocols can depend on other protocols (protocol dependencies) only if these dependency protocols have been approved (and are published). 
+Circular dependencies are not allowed.
+
+Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags (see [release model](README.md#release-model)). 
+Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol. 
+
+Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using Travis Continuous Integration.
+The resulting website is hosted at **TO BE ADDED**.
+This website will host all approved and published versions of all protocols.
 
 ## Workflow 
 
@@ -124,6 +141,17 @@ create_sfp(title = "titel van het protocol",
            render = TRUE)
 ```
 
+
+## Translations of protocols
+
+Protocols can be either written in one or multiple languages. 
+The functions in the `protocolhelper` package support Dutch (language = 'nl') and English (language = 'en').
+
+All language versions of the same protocol-version should be updated in the same Pull Request. 
+Hence they get the same new protocol version number. 
+If you plan a translated version, use it to first update the current version. 
+If you update the original version, then you should update the translations accordingly.
+
 ## Rmarkdown
 
 Some useful resources for self-learning of **Rmarkdown**:
@@ -156,8 +184,6 @@ Here is an example to refer to the project folder:
       criterion = is_git_root
       )
     ```
-
-
 
 
 ## Other ways of contributing
