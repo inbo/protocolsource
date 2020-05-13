@@ -152,7 +152,7 @@ Hence they get the same new protocol version number.
 If you plan a translated version, use it to first update the current version. 
 If you update the original version, then you should update the translations accordingly.
 
-In case one of the languages of a multi-language protocol is discontinued for some reason, the Rmarkdown files for the discontinued language should be deleted in the protocols repo (they are still available in the older commits of the protocols repo and the rendered version of all versions of protocols are kept at the `protocols-website` repo.
+In case one of the languages of a multi-language protocol is discontinued for some reason, the Rmarkdown files for the discontinued language should be deleted in the protocols repo (they are still available in the older commits of the protocols repo and the rendered version of all versions of protocols are kept at the `protocols-website` repo).
 
 ## Rmarkdown
 
