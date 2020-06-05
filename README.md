@@ -71,7 +71,7 @@ The incremental nature means that general tags reflect the time sequence of prot
 
 ## Fixed protocol features
 
-### Protocol-code
+### Protocol-code and protocol-number
 
 A protocol-code consists of three characters and three digits separated by a hyphen.
 
@@ -89,6 +89,9 @@ A protocol-code consists of three characters and three digits separated by a hyp
 |project          |           |             |spp-###
 
 The `##` indicates an incremental number. For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
+
+The last three digits of the protocol-code will be refered to as the protocol-number. 
+In case of thematic protocols, the first digit of the protocol-number corresponds with the theme-number.
 
 ### Version number
 
