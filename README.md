@@ -71,7 +71,7 @@ The incremental nature means that general tags reflect the time sequence of prot
 
 ## Fixed protocol features
 
-### Protocol-code and protocol-number {#protocol-code}
+### Protocol-code and protocol-number <a name="protocol-code"></a>
 
 A **protocol-code** consists of three characters and three digits separated by a hyphen.
 
