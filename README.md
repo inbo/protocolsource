@@ -92,7 +92,7 @@ The `##` indicates an incremental number.
 For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
 The `s` and `p` refer to **s**tandard **p**rotocol, while `f, i, o, a, p` indicate the first letter of the protocol type.
 
-The last three digits of the protocol-code will be refered to as the protocol-number. 
+The last three digits of the protocol-code will be referred to as the **protocol-number**. 
 In case of thematic protocols, the first digit of the protocol-number corresponds with the theme-number.
 
 ### Version number
@@ -142,7 +142,6 @@ Apart from this file, other `Rmarkdown` files contain the contents of the indivi
 The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
 The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol.
 The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `protocol-code_short-title_language-code`) to which the rendered version of the protocol will be written.
-
 
 
 
