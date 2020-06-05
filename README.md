@@ -132,7 +132,7 @@ The subject-matter specialist will then give sensible default values for these p
 
 In this section, we describe the conventions we adhere to for naming of files and folders.
 Each protocol will be placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)). 
-The naming syntaxis for the subfolder is `protocol-code_short-title_language-code` and will be automatically generated from input you provide to [protocolhelper functions](#starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
+The naming syntaxis for the subfolder is **`protocol-code_short-title_language-code`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
 
 Note that this subfolder name is stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control. 
 The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and two folders, named `data` and `media`. 
@@ -142,6 +142,5 @@ Apart from this file, other `Rmarkdown` files contain the contents of the indivi
 The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
 The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol.
 The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `protocol-code_short-title_language-code`) to which the rendered version of the protocol will be written.
-
 
 
