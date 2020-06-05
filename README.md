@@ -88,7 +88,9 @@ A protocol-code consists of three characters and three digits separated by a hyp
 |activity         |           |             |sap-###
 |project          |           |             |spp-###
 
-The `##` indicates an incremental number. For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
+The `##` indicates an incremental number. 
+For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
+The `s` and `p` refer to _s_tandard _p_rotocol, while `f, i, o, a, p` indicate the first letter of the protocol type.
 
 The last three digits of the protocol-code will be refered to as the protocol-number. 
 In case of thematic protocols, the first digit of the protocol-number corresponds with the theme-number.
