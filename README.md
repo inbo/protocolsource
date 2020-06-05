@@ -134,7 +134,7 @@ In this section, we describe the conventions we adhere to for naming of files an
 Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)). 
 The naming syntaxis for the subfolder is **`protocol-code_short-title_language-code`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
 
-Note that this subfolder name is stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control. 
+Note that the names of this subfolder and of its files are stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control and the version number is kept inside the special file `index.Rmd`. 
 The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and two folders, named `data` and `media`. 
 Together, these files form a [bookdown book](https://bookdown.org/yihui/bookdown/), i.e. a collection of files to be read in a linear sequence that can be rendered into a 'book' (a protocol in our case) in any of a number of possible formats.
 With each release of a protocol a version number will be added to the metadata in the `index.Rmd` file.
@@ -142,4 +142,3 @@ Apart from this file, other `Rmarkdown` files contain the contents of the indivi
 The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
 The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol.
 The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `protocol-code_short-title_language-code`) to which the rendered version of the protocol will be written.
-
