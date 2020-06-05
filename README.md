@@ -73,7 +73,7 @@ The incremental nature means that general tags reflect the time sequence of prot
 
 ### Protocol-code and protocol-number {#protocol-code}
 
-A protocol-code consists of three characters and three digits separated by a hyphen.
+A **protocol-code** consists of three characters and three digits separated by a hyphen.
 
 |type             |theme      |theme_number |protocol-code
 |:----------------|:----------|:------------|:------------|
@@ -142,7 +142,6 @@ Apart from this file, other `Rmarkdown` files contain the contents of the indivi
 The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
 The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol.
 The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `protocol-code_short-title_language-code`) to which the rendered version of the protocol will be written.
-
 
 
 
