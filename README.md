@@ -75,9 +75,9 @@ The incremental nature means that general tags reflect the time sequence of prot
 
 ## Fixed protocol features
 
-### Protocol-code
+### Protocol-code and protocol-number <a name="protocol-code"></a>
 
-A protocol-code consists of three characters and three digits separated by a hyphen.
+A **protocol-code** consists of three characters and three digits separated by a hyphen.
 
 |type             |theme      |theme_number |protocol-code
 |:----------------|:----------|:------------|:------------|
@@ -92,12 +92,17 @@ A protocol-code consists of three characters and three digits separated by a hyp
 |activity         |           |             |sap-###
 |project          |           |             |spp-###
 
-The `##` indicates an incremental number. For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
+The `##` indicates an incremental number. 
+For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
+The `s` and `p` refer to **s**tandard **p**rotocol, while `f, i, o, a, p` indicate the first letter of the protocol type.
+
+The last three digits of the protocol-code will be referred to as the **protocol-number**. 
+In case of thematic protocols, the first digit of the protocol-number corresponds with the theme-number.
 
 ### Version number
 
 The version number is of the form `YYYY.number`. `YYYY` indicates the year in which the protocol was released. The `number` indicates the order of release within that year.
-The same version of a protocol may or may not be available in multiple languages.
+The same version of a protocol may or may not be available in multiple languages (see [Folder and filename syntaxis](#folder-and-filename-syntaxis) and [Translations of protocols](CONTRIBUTING.md#translations-of-protocols)).
 
 
 ### Dependencies
@@ -126,3 +131,18 @@ For instance, in a protocol that explains how to visually estimate plant cover u
 
 The subject-matter specialist will then give sensible default values for these parameters, but these values can be changed in project-specific protocols.
 
+
+## Folder and filename syntaxis
+
+In this section, we describe the conventions we adhere to for naming of files and folders.
+Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)). 
+The naming syntaxis for the subfolder is **`protocol-code_short-title_language-code`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
+
+Note that the names of this subfolder and of its files are stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control and the version number is kept inside the special file `index.Rmd`. 
+The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and optionally two folders, named `data` and `media`. 
+Together, these files form a [bookdown book](https://bookdown.org/yihui/bookdown/), i.e. a collection of files to be read in a linear sequence that can be rendered into a 'book' (a protocol in our case) in any of a number of possible formats.
+
+- Apart from the `index.Rmd` file, other `Rmarkdown` files contain the contents of the individual chapters of a protocol. 
+- The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
+- The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol. When no tabular data or graphics files are needed for the protocol, these folders can be left empty (they will only be visible in a local clone of the repository and not appear on the remote repository).
+- The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `protocol-code_short-title_language-code`) to which the rendered version of the protocol will be written.

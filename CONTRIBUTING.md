@@ -58,7 +58,7 @@ The workflow is as follows for a _new_ protocol:
 
     ![](src/management/pr-on-github-1.png)
 
-    ![](src/management/pr-on-github-1.png) 
+    ![](src/management/pr-on-github-2.png) 
 
 1. Mark the PR as a draft
 
@@ -186,6 +186,9 @@ Here is an example to refer to the project folder:
       criterion = is_git_root
       )
     ```
+
+* Use `knitr::include_graphics()` to insert `png`, `jpg`, ... files that you put into the `media` folder of the protocol
+* In case your protocol contains video material, do not store the video in the `media` folder, but publish it on the INBO vimeo channel and embed them following the instructions given [here](https://bookdown.org/yihui/rmarkdown/learnr-videos.html).
 
 
 ## Other ways of contributing
