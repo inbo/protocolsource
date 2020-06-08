@@ -135,10 +135,10 @@ Each protocol is placed in a subfolder of the folder corresponding to the theme 
 The naming syntaxis for the subfolder is **`protocol-code_short-title_language-code`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
 
 Note that the names of this subfolder and of its files are stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control and the version number is kept inside the special file `index.Rmd`. 
-The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and two folders, named `data` and `media`. 
+The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and optionally two folders, named `data` and `media`. 
 Together, these files form a [bookdown book](https://bookdown.org/yihui/bookdown/), i.e. a collection of files to be read in a linear sequence that can be rendered into a 'book' (a protocol in our case) in any of a number of possible formats.
 
 - Apart from the `index.Rmd` file, other `Rmarkdown` files contain the contents of the individual chapters of a protocol. 
 - The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
-- The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol.
+- The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol. When no tabular data or graphics files are needed for the protocol, these folders can be left empty (they will only be visible in a local clone of the repository and not appear on the remote repository).
 - The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `protocol-code_short-title_language-code`) to which the rendered version of the protocol will be written.
