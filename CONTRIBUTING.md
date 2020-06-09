@@ -73,10 +73,7 @@ The workflow is as follows for a _new_ protocol:
     ![](src/management/pr-on-github-4.png)
 
 1. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
-1. When all reviewers have given their approval, the repo admin:
-    1. adds tags with definitive version numbers to the YAML header 
-    1. updates the repo NEWS.md file
-    1. and merges the PR to the master
+1. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging (RELEASES.md)
 1. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
 
 
