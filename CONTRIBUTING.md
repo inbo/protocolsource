@@ -42,7 +42,7 @@ This website will host all approved and published versions of all protocols.
 
 ## Workflow 
 
-The workflow is as follows for a _new_ protocol:
+The workflow is as follows for a **new** protocol:
 
 1. make sure your local clone of the remote repository is up to date:
     1. with the master branch checked out, press the pull button in the Git pane
@@ -77,16 +77,22 @@ The workflow is as follows for a _new_ protocol:
 1. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
 
 
-For an _update_ of an existing protocol all steps are the same, except for:
+For an **update** of an existing protocol all steps are the same, except for:
 
 - you don't need `protocolhelper::create_sfp()`
 - the creation of the new branch can (re-)use the protocol-code of the existing protocol
 - after review is finished, the protocol-specific `NEWS.Rmd` should be updated to document the substantive changes between the updated version of the previous version.
 
-For adding a pre-existing version of a protocol that was written in `docx` format, follow the steps to create a new protocol, except in the second step:
+For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
 
 - a subject-matter specialist uses `protocolhelper::create_sfp()` to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
-- use the protocol-code from the pre-existing `docx` protocol to create a new branch and continue the steps outlined for a new protocol.
+- use the protocol-code from the pre-existing `docx` protocol to create a new branch
+- in case the chapter titles and Rmarkdown file names differ from the template, change them so they comply with the current template:
+    - go to [templates](https://github.com/inbo/protocolhelper/tree/master/inst/rmarkdown/templates)
+    - navigate to the template that you need and then navigate to the skeleton folder
+    - inspect the Rmarkdown file names and chapter titles
+    - the file `skeleton.Rmd` should be read as `index.Rmd`
+- continue the steps outlined for a new protocol.
 
 ## Starting a new protocol with the aid of protocolhelper functions
 
