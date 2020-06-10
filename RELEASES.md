@@ -14,4 +14,6 @@ After review of a protocol-branch and before each release the following steps ar
     1. general tag: `protocols-YYYY.NN`
     1. specific tag: `protocol-code-YYYY.NN`
 1. Check if continuous integration proceeded without problems
+1. Make a GitHub release from the general tag
+1. Check success of publication steps at protocols.inbo.be and at Zenodo (records both source and rendered) 
 

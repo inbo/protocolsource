@@ -73,7 +73,7 @@ The workflow is as follows for a **new** protocol:
     ![](src/management/pr-on-github-4.png)
 
 1. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
-1. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging (RELEASES.md)
+1. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 1. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
 
 
@@ -112,14 +112,13 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
            date = "2016-07-19", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
            file_manager = "Hans Van Calster", 
-           version_number = "2020.00.dev",
            theme = "vegetation",
            language = "nl",
            from_docx = 
              file.path(path_to_from_docx, 
                        "SVP_401_VegetatieOpnamePV_Terrestrisch_v1.1.docx"),
            protocol_number = "401", 
-           render = TRUE)
+           render = FALSE)
 ```
 
 
@@ -136,12 +135,11 @@ create_sfp(title = "titel van het protocol",
            date = "`r Sys.Date()`", 
            reviewers = "Voornaam Naam, ...", 
            file_manager = "Voornaam Naam", 
-           version_number = "2020.00.dev",
            theme = "vegetation",
            language = "nl",
            from_docx = NULL,
            protocol_number = NULL, 
-           render = TRUE)
+           render = FALSE)
 ```
 
 
