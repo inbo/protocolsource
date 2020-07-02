@@ -1,6 +1,6 @@
 {
     "title": "Source code of protocols of the Research Institute for Nature and Forest (INBO)",
-    "description": "Source code of protocols used at the Research Institute for Nature and Forest (INBO), Brussels, Belgium. The protocols are written in R markdown and are compiled as html using the bookdown package. Website with compiled protocols (including older versions as well): <a href=\"https://protocols.inbo.be\">https://protocols.inbo.be</a>.",
+    "description": "This archive provides the source code of protocols used at the Research Institute for Nature and Forest (INBO), Brussels, Belgium (<a href=\"https://www.inbo.be/en\">www.inbo.be</a>). The protocols are written in R markdown and are compiled as html using the bookdown package. The website with the compiled protocols (including older versions) is at <a href=\"https://protocols.inbo.be\">https://protocols.inbo.be</a>.",
     "license": "GPL-3.0",
     "upload_type": "other",
     "access_right": "open",
