@@ -42,7 +42,7 @@ This website will host all approved and published versions of all protocols.
 
 ## Workflow 
 
-The workflow is as follows for a _new_ protocol:
+The workflow is as follows for a **new** protocol:
 
 1. make sure your local clone of the remote repository is up to date:
     1. with the master branch checked out, press the pull button in the Git pane
@@ -73,23 +73,26 @@ The workflow is as follows for a _new_ protocol:
     ![](src/management/pr-on-github-4.png)
 
 1. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
-1. When all reviewers have given their approval, the repo admin:
-    1. adds tags with definitive version numbers to the YAML header 
-    1. updates the repo NEWS.md file
-    1. and merges the PR to the master
+1. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 1. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
 
 
-For an _update_ of an existing protocol all steps are the same, except for:
+For an **update** of an existing protocol all steps are the same, except for:
 
 - you don't need `protocolhelper::create_sfp()`
 - the creation of the new branch can (re-)use the protocol-code of the existing protocol
 - after review is finished, the protocol-specific `NEWS.Rmd` should be updated to document the substantive changes between the updated version of the previous version.
 
-For adding a pre-existing version of a protocol that was written in `docx` format, follow the steps to create a new protocol, except in the second step:
+For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
 
 - a subject-matter specialist uses `protocolhelper::create_sfp()` to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
-- use the protocol-code from the pre-existing `docx` protocol to create a new branch and continue the steps outlined for a new protocol.
+- use the protocol-code from the pre-existing `docx` protocol to create a new branch
+- in case the chapter titles and Rmarkdown file names differ from the template, change them so they comply with the current template:
+    - go to [templates](https://github.com/inbo/protocolhelper/tree/master/inst/rmarkdown/templates)
+    - navigate to the template that you need and then navigate to the skeleton folder
+    - inspect the Rmarkdown file names and chapter titles
+    - the file `skeleton.Rmd` should be read as `index.Rmd`
+- continue the steps outlined for a new protocol.
 
 ## Starting a new protocol with the aid of protocolhelper functions
 
@@ -109,14 +112,13 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
            date = "2016-07-19", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
            file_manager = "Hans Van Calster", 
-           revision = "1.1.0.9000",
            theme = "vegetation",
            language = "nl",
            from_docx = 
              file.path(path_to_from_docx, 
                        "SVP_401_VegetatieOpnamePV_Terrestrisch_v1.1.docx"),
            protocol_number = "401", 
-           render = TRUE)
+           render = FALSE)
 ```
 
 
@@ -133,12 +135,11 @@ create_sfp(title = "titel van het protocol",
            date = "`r Sys.Date()`", 
            reviewers = "Voornaam Naam, ...", 
            file_manager = "Voornaam Naam", 
-           revision = "0.0.0.9000",
            theme = "vegetation",
            language = "nl",
            from_docx = NULL,
            protocol_number = NULL, 
-           render = TRUE)
+           render = FALSE)
 ```
 
 

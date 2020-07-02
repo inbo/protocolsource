@@ -53,8 +53,8 @@ A release will also trigger the `protocols-website` to update the rendered versi
 Tags are associated to each GitHub release.
 To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
 
-The general tag is of the form `protocols-YYYY.number`.
-The specific tag is of the form `protocol-code-YYYY.number` (see [protocol-code](#protocol-code) and [version number](#version-number)).
+The general tag is of the form `protocols-YYYY.NN`.
+The specific tag is of the form `protocol-code-YYYY.NN` (see [protocol-code](#protocol-code) and [version number](#version-number)).
 
 These tags serve several purposes:
 
@@ -101,8 +101,11 @@ In case of thematic protocols, the first digit of the protocol-number correspond
 
 ### Version number
 
-The version number is of the form `YYYY.number`. `YYYY` indicates the year in which the protocol was released. The `number` indicates the order of release within that year.
+The version number is of the form `YYYY.NN`. `YYYY` indicates the year in which the protocol was released. The `NN` is a number that indicates the order of release within that year (starting with 01).
 The same version of a protocol may or may not be available in multiple languages (see [Folder and filename syntaxis](#folder-and-filename-syntaxis) and [Translations of protocols](CONTRIBUTING.md#translations-of-protocols)).
+
+The version number is protocol-*aspecific* by definition, i.e. it spans the whole protocols repository (e.g. sfp-401 version `2020.02` will be followed by sfp-401 version `2020.04` if sfp-401 was not updated in the `protocols-2020.03` release).
+
 
 
 ### Dependencies
