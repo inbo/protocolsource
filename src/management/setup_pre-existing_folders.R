@@ -2,8 +2,8 @@
 
 library(protocolhelper)
 library(rprojroot)
-git_root <- find_root(is_git_root)
-path_to_from_docx <- file.path(git_root, "from_docx")
+path_to_from_docx <- find_root_file("from_docx", 
+                                    criterion = is_git_root)
 
 debugonce(create_sfp)
 
@@ -12,9 +12,9 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
            short_title = "vegopname terrest",
            authors = "Els De Bie", 
            date = "2016-07-19", 
-           reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
+           reviewers = c("Hans Van Calster", "Lieve Vriens", "Jan Wouters", "Wouter Van Gompel","Els Lommelen"), 
            file_manager = "Hans Van Calster", 
-           revision = "1.1.0.9000",
+           version_number = "1.1.0.9000",
            theme = "vegetation",
            language = "nl",
            from_docx = 
