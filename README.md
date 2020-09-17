@@ -54,7 +54,7 @@ Tags are associated to each GitHub release.
 To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
 
 The general tag is of the form `protocols-YYYY.NN`.
-The specific tag is of the form `protocol-code-YYYY.NN` (see [protocol-code](#protocol-code) and [version number](#version-number)).
+The specific tag is of the form `<protocol-code>-YYYY.NN` (see [protocol-code](#protocol-code) and [version number](#version-number)).
 
 These tags serve several purposes:
 
@@ -63,7 +63,7 @@ These tags serve several purposes:
     - identifies the version number of the protocol that has been 
 added or updated
 
-Searching tags that have the same `protocol-code` as string, allows reconstructing the full history of versions for that protocol.
+Searching tags that have the same `<protocol-code>` as string, allows reconstructing the full history of versions for that protocol.
 
 - the general tag:
     - is incremental regardless of which protocol is updated when
@@ -139,7 +139,7 @@ The subject-matter specialist will then give sensible default values for these p
 
 In this section, we describe the conventions we adhere to for naming of files and folders.
 Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)). 
-The naming syntaxis for the subfolder is **`protocol-code_short-title_language-code`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
+The naming syntaxis for the subfolder is **`<protocol-code>_<short-title>_<language-code>`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
 
 Note that the names of this subfolder and of its files are stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control and the version number is kept inside the special file `index.Rmd`. 
 The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and optionally two folders, named `data` and `media`. 
@@ -148,4 +148,4 @@ Together, these files form a [bookdown book](https://bookdown.org/yihui/bookdown
 - Apart from the `index.Rmd` file, other `Rmarkdown` files contain the contents of the individual chapters of a protocol. 
 - The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
 - The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol. When no tabular data or graphics files are needed for the protocol, these folders can be left empty (they will only be visible in a local clone of the repository and not appear on the remote repository).
-- The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `protocol-code_short-title_language-code`) to which the rendered version of the protocol will be written.
+- The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `<protocol-code>_<short-title>_<language-code>`) to which the rendered version of the protocol will be written.
