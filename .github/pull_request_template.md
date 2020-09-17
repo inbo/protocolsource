@@ -10,8 +10,9 @@ Steps by contributor:
 - [ ] Add description to this pull request (see #-description)
 - [ ] Submit the pull request by clicking 'create pull request'
 - [ ] Mark the pull request as draft
+- [ ] Check if the version number in the `index.Rmd` yaml section is of format `yyyy.nn.dev`
 - [ ] Add further commits and push commits to GitHub if needed
-- [ ] Update the protocol-specific NEWS.Rmd
+- [ ] Update the protocol-specific `NEWS.Rmd`
 - [ ] Mark the pull request as 'ready for review'
 
 
