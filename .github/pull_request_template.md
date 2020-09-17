@@ -17,7 +17,7 @@ Steps by contributor:
 - [ ] Mark the pull request as 'ready for review'
 
 
-Review steps:
+Review steps for the author(s):
 
 - [ ] Add reviewers, at least one subject-matter specialist and one administrator
 - [ ] Wait for review comments and address them
