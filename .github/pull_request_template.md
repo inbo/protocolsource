@@ -29,17 +29,10 @@ To be done by an administrator after review, but before merging the pull request
 - [ ] Bump the version number in the `index.Rmd` yaml section from `yyyy.nn.dev` to `YYYY.NN`.
 - [ ] Update the repo `NEWS.md` file
 
-1. merge the branch to the master and add general and specific tags (see [release model](README.md#release-model)):
-    1. general tag: `protocols-YYYY.NN`
-    1. specific tag: `protocol-code-YYYY.NN`
-1. Check if continuous integration proceeded without problems
-1. Make a GitHub release from the general tag
-1. Check success of publication steps at protocols.inbo.be and at Zenodo (records both source and rendered) 
-
 To be done by an administrator after merging this pull request:
 
-- [ ] Add general tag to the merge commit (`protocols-YYYY.NN`)
-- [ ] Add specific tag to the merge commit (`protocol-code-YYYY.NN`)
+- [ ] Add general tag to the merge commit (`protocols-YYYY.NN`)  (see [release model](README.md#release-model))
+- [ ] Add specific tag to the merge commit (`protocol-code-YYYY.NN`)  (see [release model](README.md#release-model))
 - [ ] Check if continuous integration proceeded without problems
 - [ ] Go to releases and create a new release based on a general tag
 - [ ] Check success of publication steps at protocols.inbo.be and at Zenodo (records both source and rendered) 
