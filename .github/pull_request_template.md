@@ -7,7 +7,7 @@ for an explanation on how to use task lists-->
 
 Steps by contributor:
 
-- [ ] Add description to this pull request (see #-description)
+- [ ] Add description to this pull request (under "## Description")
 - [ ] Submit the pull request by clicking 'create pull request'
 - [ ] Mark the pull request as draft
 - [ ] Check if the version number in the `index.Rmd` yaml section is of format `yyyy.nn.dev`
@@ -47,5 +47,4 @@ To be done by an administrator after merging this pull request:
 <!--- if this closes an issue make sure include e.g., "closes #4"
 or similar - or if just relates to an issue make sure to mention
 it like "#4" -->
-
 
