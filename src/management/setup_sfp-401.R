@@ -24,9 +24,7 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
            render = FALSE)
 
 protocolhelper::render_protocol(
-  protocol_folder_name = find_root_file(
-    "src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl",
-    criterion = is_git_root))
+  protocol_folder_name = "sfp-401_vegopname-terrest_nl")
 
 
 
