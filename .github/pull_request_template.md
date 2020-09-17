@@ -10,7 +10,7 @@ Steps by contributor:
 - [ ] Add description to this pull request (under "## Description")
 - [ ] Submit the pull request by clicking 'create pull request'
 - [ ] Mark the pull request as draft
-- [ ] Check if the version number in the `index.Rmd` yaml section is of format `yyyy.nn.dev`
+- [ ] Check whether the version number in the `index.Rmd` yaml section is of format `yyyy.nn.dev`
 - [ ] In case of a protocol created from a pre-existing `docx` protocol, check if all sections comply with current template for a new protocol
 - [ ] Add further commits and push commits to GitHub if needed
 - [ ] Update the protocol-specific `NEWS.Rmd`
@@ -47,4 +47,3 @@ To be done by an administrator after merging this pull request:
 <!--- if this closes an issue make sure include e.g., "closes #4"
 or similar - or if just relates to an issue make sure to mention
 it like "#4" -->
-
