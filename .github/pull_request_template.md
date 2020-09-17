@@ -11,6 +11,7 @@ Steps by contributor:
 - [ ] Submit the pull request by clicking 'create pull request'
 - [ ] Mark the pull request as draft
 - [ ] Check if the version number in the `index.Rmd` yaml section is of format `yyyy.nn.dev`
+- [ ] In case of a protocol created from a pre-existing `docx` protocol, check if all sections comply with current template for a new protocol
 - [ ] Add further commits and push commits to GitHub if needed
 - [ ] Update the protocol-specific `NEWS.Rmd`
 - [ ] Mark the pull request as 'ready for review'
