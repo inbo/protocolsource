@@ -92,10 +92,10 @@ Bossen 16 m x 16 m
 
 Zie lijst actieve opnameschalen in INBOVEG
 
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image12.png){width="5.90625in" height="2.9479166666666665in"}
-
 ##  Bijlage 4 oefenen schatten bedekkingen
 
+
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image12.png){width="5.90625in" height="2.9479166666666665in"}
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image13.png){width="5.90625in" height="2.9479166666666665in"}
   ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image14.png){width="5.90625in" height="2.9479166666666665in"}
