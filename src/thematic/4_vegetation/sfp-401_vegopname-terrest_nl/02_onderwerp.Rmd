@@ -69,25 +69,3 @@ bijlage worden alleen maar de variabelen benoemd die projectspecifiek kunnen
 ingevuld worden. De bijlage is dus te beschouwen als een projectfiche waarmee
 dit generieke protocol op de leest van het project wordt geschoeid.
 
-## Beperkingen tot de procedure
-
-Voor aquatische vegetaties wordt verwezen naar 'SVP-403' en SVP-40x. Voor een
-Tansley-opname op perceelsniveau, vaak gebruikt bij een volledige
-gebiedsanalyse, wordt verwezen naar 'SVP-402'.
-
-Het gebruik van dit protocol buiten het vegetatieseizoen leidt mogelijk tot een
-onvolledige dataset, en eventueel interpretatiefouten. In dit protocol is
-aangegeven welke de beste periodes zijn om de vegetatieopnamen uit te voeren
-(Figuur 1).
-
-De inschattingen zijn zeker niet vrij van meetfouten. Mogelijke foutenbronnen
-zijn: (1) niet waarnemen van een soort in het proefvlak, (2) fout determineren
-van een soort, (3) de abundantie/bedekking fout inschatten. Het veldprotocol in
-combinatie met opleidingen moet bijdragen om deze fouten en verschillen in
-interpretatie tussen veldwerkers (waarnemer-effecten) zo klein mogelijk te
-maken.
-
-De selectie van locaties valt buiten de context van dit protocol. Dit is
-afhankelijk van de doelstelling van het project en dient via de beslisboom
-beschreven in SVP-40X te gebeuren.
-
