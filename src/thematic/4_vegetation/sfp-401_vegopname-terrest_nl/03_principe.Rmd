@@ -1,0 +1,31 @@
+# PRINCIPE
+
+Een klassieke vegetatieopname is een opsomming van alle plantensoorten
+(soortensamenstelling) die op een bepaald tijdstip samen voorkomen binnen een
+afgebakende plek (proefvlak), samen met een schatting van de
+abundantie/bedekking per soort en per vegetatielaag. Aangezien het onmogelijk is
+om elk plantenindividu te tellen wordt het voorkomen per soort ingeschat op
+basis van een speciaal voor visuele schattingen aangepaste bedekkingsschaal.
+Wanneer dit proefvlak op regelmatige tijdstippen wordt beschreven spreekt men
+van een permanent kwadraat of afgekort PQ.
+
+De oorspronkelijke doelstelling van klassieke vegetatieopnamen (rélevé
+phytosociologique) was meestal data verzamelen om achteraf vegetatietypes
+(klassen, verbonden, associaties ...; cf. syntaxonomie) te kunnen classificeren.
+De oorspronkelijke Braun-Blanquet methode (Braun-Blanquet, 1964) was enerzijds
+een schaal om de bedekking te schatten, anderzijds een veldmethodiek. De
+proefvlaklocaties werden zo gekozen dat ze lagen in een goed ontwikkelde,
+homogene vegetatie (in termen van het type vegetatie, dus geen randsituaties,
+geen gradiënten, ...). De grootte van het proefvlak werd zo gekozen dat de
+soortenrijkdom weinig of niet veel meer toenam bij het vergroten van de bekeken
+oppervlakte (empirisch bepaald aan de hand van soort -- oppervlakte
+accumulatiecurves; = minimal area concept) (Kent & Coker, 1994).
+
+De bedekkingsschalen om visueel bedekkingen in te schatten zijn meestal
+opgebouwd volgens een geometrische reeks (de afstand tussen opeenvolgende
+klassen is klein bij lage bedekkingen en wordt groter bij hogere bedekkingen).
+Het menselijk oog kan immers gemakkelijker verschillen in bedekking
+onderscheiden bij lage bedekkingen. Een verschil tussen 1% en 2% bedekking is
+een verdubbeling in oppervlakte en vrij goed te zien, terwijl een verschil
+tussen 50% en 51% bedekking visueel niet in te schatten is.
+
