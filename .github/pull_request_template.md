@@ -40,7 +40,7 @@ To be done by an administrator after merging this pull request:
 
 
 ## Description
-<!--- Describe your protocol proposal -->
+<!--- Describe your protocol proposal or your proposed changes-->
 <!--- You can mention collaborators with "@githubname"-->
 
 ## Related Issue
