@@ -1,0 +1,43 @@
+# Werkwijze
+
+## Uitvoering
+
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het veldprotocol uit te voeren. Subtitels gebruiken om elke stap te omschrijven. 
+-->
+
+### Voorbereiding van het veldwerk
+
+Bij voorkeur maak je gebruik van een veldcomputer met GIS-omgeving waarin je volgende GIS-lagen invoert:
+
++ de steekproefeenheden van het meetnet in kwestie;
++ de polygonen uit de habitatkaart die steekproefeenheden bevatten;
++ de rastercellen met bijhorend rangnummer van de GRTS-master steekproef die in bovenstaande polygonen gelegen zijn, exclusief de rastercellen die al zijn geselecteerd voor het meetnet (dit zijn de potentiële vervangpunten)
+
+Binnen elke polygoon ken je dan alle mogelijke vervangpunten een relatief rangnummer toe (startend van 1) op basis van het (absolute) rangnummer. Zo heb je op het terrein een beter zicht op de volgorde van de punten.
+
+Bijkomend kan er een script aangemaakt worden waarmee alle mogelijke vervangpunten voor een bepaalde steekproefeenheid kan geselecteerd worden. Op basis hiervan kan je dan makkelijker op terrein de mogelijke vervangpunten visualiseren.
+
+
+
+### Start van de vervangingsprocedure op terrein
+
+Je zoekt enkel een vervangpunt voor een steekproefeenheid als de steekproefeenheid niet geschikt is zoals gespecificeerd in het projectprotocol. 
+
+### Visualisatie van mogelijke vervangpunten en het te onderzoeken gebied op de veldcomputer
+
+Op de veldcomputer visualiseer je het te onderzoeken gebied (de habitatkaarpolygoon) en de mogelijke vervangpunten met bijhorende relatieve rangnummer met als achtergrond een recente orthofoto zodat je je kan oriënteren op het terrein. Zie figuur.
+
+### Eerste verkenning van het te onderzoeken gebied
+
+Op basis van de kaart op de veldcomputer probeer je in de mate van mogelijk het te onderzoeken gebied te visualiseren op het terrein. Je verkent eventueel al mogelijke zones waar het doeltype aanwezig kan zijn.    
+
+## Registratie en bewaring van resultaten
+
+<!--
+Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
+Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar SIP indien beschikbaar; indien geen SIP beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
+Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden. Geef aan of de stalen voorbehandeld moeten worden. 
+Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen. Geef eventueel aan welke bestandnamen aan de bestanden moeten gegeven worden.
+-->
+.

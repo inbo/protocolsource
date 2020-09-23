@@ -1,0 +1,9 @@
+# Principe
+
+<!--
+Korte omschrijving van de principes waarop het veldprotocol gebaseerd is. Bv principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, …
+-->
+
+Dit protocol is gebaseerd op het principe van een GRTS-steekproef voor terrestrische types. Een dergelijke steekproef maakt gebruik van een GRTS-master steekproef die heel Vlaanderen bedekt. Deze bestaat uit een raster met cellen van een bepaalde dimensie (bijvoorbeeld 32m x 32m) waarbij elke cel een rangnummer krijgt volgens een bepaald algoritme. Uit de GRTS-master steekproef kunnen we dan een steekproefkader afleiden voor een bepaald type door alle rastercellen te selecteren in de polygonen van de Habitatkaart die het type bevatten. We ordenen de rastercellen dan van laag naar hoog volgens het rangnummer en verkrijgen dan een GRTS-steekproef door de het aantal rastercellen met de laagste ranking te selecteren in overeenstemming met de gewenste steekproefgrootte.
+
+De Habitatkaart bestaat vaak uit polygonen die maar gedeeltelijk een bepaald type bevatten, bijvoorbeeld een polygoon die voor 30% uit type x bestaat. Wanneer een steekproefeenheid geselecteerd wordt in een dergelijke polygoon, is er dus een aanzienlijke kans dat deze niet geschikt is. In dat geval kan de steekproefeenheid vervangen worden door de rastercel van de GRTS-master steekproef met het laagste rangnummer die binnen de polygoon gelegen is en wel geschikt is (omdat bijvoorbeeld het doeltype wel aanwezig is in de centroïde van de rastercel).          
