@@ -14,11 +14,9 @@ Bij voorkeur maak je gebruik van een veldcomputer met GIS-omgeving waarin je vol
 + de polygonen uit de habitatkaart die steekproefeenheden bevatten;
 + de rastercellen met bijhorend rangnummer van de GRTS-master steekproef die in bovenstaande polygonen gelegen zijn, exclusief de rastercellen die al zijn geselecteerd voor het meetnet (dit zijn de potentiële vervangpunten)
 
-Binnen elke polygoon ken je dan alle mogelijke vervangpunten een relatief rangnummer toe (startend van 1) op basis van het (absolute) rangnummer. Zo heb je op het terrein een beter zicht op de volgorde van de punten.
+Binnen elke polygoon ken je dan alle mogelijke vervangpunten een relatief rangnummer toe (startend van 1) op basis van het (absolute) rangnummer. Zo heb je op het terrein een beter zicht op de volgorde van de punten.Bijkomend kan er een script aangemaakt worden waarmee alle mogelijke vervangpunten voor een bepaalde steekproefeenheid kan geselecteerd worden. Op basis hiervan kan je dan makkelijker op terrein de mogelijke vervangpunten visualiseren.
 
-Bijkomend kan er een script aangemaakt worden waarmee alle mogelijke vervangpunten voor een bepaalde steekproefeenheid kan geselecteerd worden. Op basis hiervan kan je dan makkelijker op terrein de mogelijke vervangpunten visualiseren.
-
-
+Als alternatief kan er gewerkt worden met afgedrukte kaarten.
 
 ### Start van de vervangingsprocedure op terrein
 
@@ -26,13 +24,85 @@ Je zoekt enkel een vervangpunt voor een steekproefeenheid als de steekproefeenhe
 
 ### Visualisatie van mogelijke vervangpunten en het te onderzoeken gebied op de veldcomputer
 
-Op de veldcomputer visualiseer je het te onderzoeken gebied (de habitatkaarpolygoon) en de mogelijke vervangpunten met bijhorende relatieve rangnummer met als achtergrond een recente orthofoto zodat je je kan oriënteren op het terrein. Zie figuur.
+Op de veldcomputer visualiseer je het te onderzoeken gebied (de habitatkaarpolygoon) en de mogelijke vervangpunten met bijhorende relatieve rangnummers met als achtergrond een recente orthofoto zodat je je kan oriënteren op het terrein. Figuur \@ref(fig:fig1) toont als voorbeeld een een polygoon uit de Habitatkaart, waarin de gele bol een geselecteerde steekproefeenheid voorstelt voor kalkrijk kamgrasland (habitattype 6510_huk). De mogelijke vervangpunten worden in het wit weergegeven. Volgens de Habitatkaart bestaat de polygoon voor 20 % uit 6510_huk.    
 
-### Eerste verkenning van het te onderzoeken gebied
+```{r fig1, fig.cap = "Geselecteerde steekproefeenheid (geel) en mogelijke vervangingspunten met relatief rangnummer"}
 
-Op basis van de kaart op de veldcomputer probeer je in de mate van mogelijk het te onderzoeken gebied te visualiseren op het terrein. Je verkent eventueel al mogelijke zones waar het doeltype aanwezig kan zijn.    
+knitr::include_graphics("media/vervangingsprocedure_1_stap1_metraster.png")
+
+```
+
+
+
+### Eerste verkenning van de habitatkaartpolygoon
+
+Op basis van de kaart probeer je de habitatkaartpolygoon waarbinnen je een vervangpunt moet selecteren te visualiseren op het terrein. Je verkent eventueel al mogelijke zones waar het doeltype aanwezig kan zijn.  
+
+### Zoeken naar geschikt vervangpunt
+
+#### Werkwijze 1: kartering van doelhabitat binnen polygoon {#werkwijze1}
+
+De eerste werkwijze wordt geïllustreerd in Figuur \@ref(fig:fig2) waarbij alle aanwezige doelhabitat wordt gekarteerd binnen de polygoon. Alle habitatvlekken van het doelhabitat worden dus in kaart gebracht. Bij voorkeur gebeurt deze kartering in de GIS-omgeving op de veldcomputer. Vervolgens kijk je welke potentiële vervangpunten in de gekaartede habitatvlekken vallen en selecteer je het vervangpunt met het laagste rangnummer. In het (fictieve) voorbeeld in Figuur \@ref(fig:fig2) selecteren we vervangpunt met rangnummer 3. Dit is het punt binnen het doelhabitat met het laagste relatieve rangnummer. 
+
+```{r fig2, fig.cap = "De geselecteerde steekproefeenheid (geel) is niet geschikt. Na kartering van het doelhabitat (gearceerde polygoon), wordt het vervangpunt met laagste rangnummer binnen het doelhabitat als vervangpunt geselecteerd"}
+
+knitr::include_graphics("media/vervangingsprocedure_1_stap2_metraster.png")
+
+```
+
+#### Wekwijze 2: evalueer de mogelijke vervangpunten in volgorde volgens rangnummer {#werkwijze2}
+
+Figuur \@ref(fig:fig3) illustreert een tweede mogelijkheid waarbij de potentiële vervangpunten in volgorde worden bezocht tot er een geschikt vervangpunt wordt gevonden. In het (fictieve) voorbeeld in Figuur\@ref(fig:fig3) wandel je dus eerst naar punt 1 (= niet geschikt), vervolgens naar punt 2 (= niet geschikt) en kom je vervolgens bij punt 3 dat wel geschikt blijkt te zijn. Als je onderweg in de buurt van andere punten passeert waarvan je snel kan inschatten dat ze niet in doelhabitat vallen, kan je dit uiteraard ook al noteren, zodat je daar niet meer moet terugkomen. Bijvoorbeeld, als je van punt 1 naar punt 2 wandelt, kan je mogelijks al zien dat punt 4 en 5 in een bosrand liggen. Dan kan je die punten al elimineren als mogelijke vervangpunten. 
+
+Deze werkwijze is minder aangewezen voor polygonen met een grote oppervlakte omdat de kans dan groot is dat je dan heel wat heen en weer moet wandelen. Uiteraard moeten beide mogelijke werwijzes tot het zelfde resultaat leiden.  
+
+```{r fig3, fig.cap = "De geselecteerde steekproefeenheid (geel) is niet geschikt. De potentiële vervangpunten worden in volgorde afgelopen en geëvalueerd tot een geschikt vervangpunt wordt gevonden"}
+
+knitr::include_graphics("media/vervangingsprocedure_1_stap2_bis_metraster.png")
+
+```
+#### Wat als er geen geschikt vervangpunt wordt gevonden?
+
+Wanneer er geen doelhabitat wordt gevonden in de polygoon zal er uiteraard geen vervangpunt kunnen geselecteerd worden. De vervangprocedure wordt afgerond en er wordt dus geen bemonstering uitgevoerd in de polygoon.
+
+Het kan ook voorkomen dat er wel doelhabitat aanwezig is, maar dat geen enkel vervangpunt (centroïde van een rastercel) in doelhabitat gelegen is. Dit komt voor in het (fictieve) voorbeeld in Figuur \@ref(fig:fig4). Ook in dit geval wordt er dus geen bemonstering uitgevoerd in de polygoon.
+
+*Moeten we voorzien dat er optioneel toch nog een verplaatsing kan gebeuren?*
+
+```{r fig4, fig.cap = "Het doelhabitat is aanwezig in de polygoon maar er is geen enkel vervangpunt dat binnen het doelhabitat valt"}
+
+knitr::include_graphics("media/vervangingsprocedure_geenvervangpunt.png")
+
+```
+
+#### Wat als delen van de habitatkaartpolygoon niet toegankelijk zijn of niet beoordeeld kunnen worden?
+
+*Wanneer wordt bij BWK-kartering iets als ontoegankelijk beschouwd?*
+
+Wanneer delen van de habitatkaartpolygoon **permanent (of voor een lange tijd) ontoegankelijk** zijn (bv. omdat er een hek aanwezig is), mogen de vervangpunten die hierin vallen genegeerd worden en kan de vervangprocedure gewoon verder gezet worden. De ontoegankelijke delen vallen immers weg uit het steekproefkader en komen sowieso niet in aanmerking voor bemonstering.
+
+Wanneer delen van de habitatkaartpolygoon tijdelijk ontoegankelijk zijn (bv. door een uitzonderlijke overstroming) of niet beoordeeld kunnen worden (bv. er is recent gemaaid) zal in sommige gevallen de vervangingsprocedure niet kunnen doorgaan. We volgen hiervoor volgende regels:
+
++ de **vervanginsprocedure kan doorgaan** als een geschikt vervangpunt wordt gevonden met een rangnummer lager dan het laagste rangnummer in de tijdelijk ontoegankelijke of niet te beoordelen zone (bv. als in Figuur \@ref(fig:fig2) vervangpunten 6 en 8 tijdelijk ontoegankelijk zijn kan er wel een bemonstering in het geschikte vervangpunt 3 gebeuren);
+
++ de **vervanginsprocedure kan niet doorgaan** als het eerste geschikte vervangpunt een hoger rangnummer heeft dan het laagste rangnummer in de tijdelijk ontoegankelijke of niet te beoordelen zone (bv. als in Figuur \@ref(fig:fig2) vervangpunten 2 en 4 tijdelijk ontoegankelijk zijn kan het zijn dat vervangpunt 2 het gepaste vervangpunt is en niet vervangpunt 3).
+
+In het laatste geval wordt de vervangprocedure op een ander moment uitgevoerd.
+
+#### Wat als er meerdere vervangpunten gezocht moeten worden?
+
+Het komt voor dat er meerdere steekproefeenheden in een polygoon gelegen zijn en dat er meerdere vervangpunten geselecteerd moeten worden. Je gaat dan gewoon verder met [werkwijze 1](#werkwijze1) of [werkwijze 2](#werkwijze1) tot je een volgend geschikt vervangpunt vindt.
+
+Het kan zijn dat de veldwerkplanning voorschrijft dat de steekproefeenheden binnen een polygoon in verschillende jaren bemonsterd moeten worden. Dan kan je toch best tijdens je eerste bezoek alle steekproefeenheden evalueren en indien nodig de geschikte vervangingspunten selecteren. De eigenlijke bemonstering doe je dan in de jaren zoals de de veldwerkplanning het voorschrijft. Het voordeel is dan dat je de vervangingsprocedure maar eenmaal moet doorlopen en dat je tijdens een tweede bezoek rechtstreeks naar het geschikte punt kunt navigeren.    
+
 
 ## Registratie en bewaring van resultaten
+
+Voor alle beoordeelde (potentiële) vervangpunten wordt minstens de aan- of afwezigheid van het doelhabitat genoteerd. Bij voorkeur wordt bij afwezigheid van het doelhabitat, het geobserveerde habitattype of rbb genoteerd.
+
+Vervolgens wordt voor elke te vervangen steekproefeenheid het relatieve rangnummer van het vervangpunt genoteerd. 
+
+*nog verder uit te werken hoe we dit concreet invoeren*
 
 <!--
 Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
@@ -40,4 +110,8 @@ Voor metingen of observaties: verwijs naar invulformulier (met versienummer; inv
 Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden. Geef aan of de stalen voorbehandeld moeten worden. 
 Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen. Geef eventueel aan welke bestandnamen aan de bestanden moeten gegeven worden.
 -->
-.
+
+
+
+
+

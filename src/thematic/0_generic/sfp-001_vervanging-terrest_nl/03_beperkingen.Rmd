@@ -3,3 +3,8 @@
 <!--
 Bespreek hieronder onder welke condities het veldprotocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol. Vermeld hier ook mogelijke interferenties, knelpunten, …
 -->
+
+*Minder geschikt voor meetnetten voor habitattypen die vooral uit grote polygonen bestaan, zoals heide?*
+*Niet geschikt voor meetnetten voor habitattypen die niet goed toegankelijk zijn of weinig overzichtelijk zijn, zoals bossen?*
+
+

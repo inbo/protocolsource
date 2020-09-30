@@ -6,6 +6,8 @@
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het veldprotocol op een gepaste manier te kunnen uitvoeren.  
 -->
 
+*Definities nog toe te voegen*
+
 + GRTS
 
 + GRTS-steekproef
