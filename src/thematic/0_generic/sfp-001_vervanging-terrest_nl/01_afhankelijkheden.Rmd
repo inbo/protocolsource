@@ -1,8 +1,9 @@
-# Afhankelijkheden (Indien van toepassing)
+# Afhankelijkheden
 
 <!--
 Protocols waarnaar in dit protocol verwezen wordt: bv SIP_xxx
 Protocols die verwijzen naar dit protocol: bv SVP_xxx
 -->
 
-*Eventueel SIP voor RTK-GPS*
++ SIP_xxx - Gebruik van RTK-GPS (Te ontwerpen)
++ SVP_0xx - Navigatie naar meetpunten (Te ontwerpen)
