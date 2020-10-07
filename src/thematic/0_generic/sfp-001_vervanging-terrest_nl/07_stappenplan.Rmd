@@ -50,7 +50,7 @@ knitr::include_graphics("media/vervangingsprocedure_1_stap2_metraster.png")
 
 ```
 
-#### Wekwijze 2: evalueer de mogelijke vervangpunten in volgorde volgens rangnummer {#werkwijze2}
+#### Werkwijze 2: evalueer de mogelijke vervangpunten in volgorde volgens rangnummer {#werkwijze2}
 
 Figuur \@ref(fig:fig3) illustreert een tweede mogelijkheid waarbij de potentiële vervangpunten in volgorde worden bezocht tot er een geschikt vervangpunt wordt gevonden. In het (fictieve) voorbeeld in Figuur\@ref(fig:fig3) wandel je dus eerst naar punt 1 (= niet geschikt), vervolgens naar punt 2 (= niet geschikt) en kom je vervolgens bij punt 3 dat wel geschikt blijkt te zijn. Als je onderweg in de buurt van andere punten passeert waarvan je snel kan inschatten dat ze niet in doelhabitat vallen, kan je dit uiteraard ook al noteren, zodat je daar niet meer moet terugkomen. Bijvoorbeeld, als je van punt 1 naar punt 2 wandelt, kan je mogelijks al zien dat punt 4 en 5 in een bosrand liggen. Dan kan je die punten al elimineren als mogelijke vervangpunten. 
 
@@ -110,7 +110,6 @@ Voor metingen of observaties: verwijs naar invulformulier (met versienummer; inv
 Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden. Geef aan of de stalen voorbehandeld moeten worden. 
 Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen. Geef eventueel aan welke bestandnamen aan de bestanden moeten gegeven worden.
 -->
-
 
 
 
