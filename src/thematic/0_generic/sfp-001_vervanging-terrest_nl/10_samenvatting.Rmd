@@ -6,9 +6,9 @@ Een samenvattende opsomming van de te volgen stappen. Gebruik eventueel een stro
 
 Samenvattend bestaat dit veldprotocol uit volgende stappen:
 
-1. als voorbereiding van het veldwerk laad je de nodige gegevens in een veldcomputer zodat je op terrein de mogelijke vervangpuntenen de volgorde ervan kan visualiseren
-2. op terrein start je de vervangingsprocedure als een steekproefeenheid niet geschikt blijkt
-3. je selecteert een geschikt vervangpunt door:
-  + werkwijze 1: het doelhabitat te karteren binnen de polygoon en het vervangpunt te selecteren dat in doelhabitat gelegen is met het laagste rangnummer
-  + werkwijze 2: de vervangpunten in volgorde af te lopen tot je een geschikt vervangpunt vindt dat in doelhabitat valt
-4. je noteert welk vervangpunt je hebt geregistreerd voor welke steekproefeenheid en je noteert ook het resultaat van de beoordeling van alle geëvalueerde vervangpunten
+1. als voorbereiding van het veldwerk laad je de nodige gegevens in een veldcomputer zodat je op terrein de mogelijke vervangende rastercellen en de volgorde ervan kan visualiseren
+2. op terrein start je de vervangprocedure als een steekproefeenheid niet geschikt blijkt
+3. je selecteert een geschikte rastercel door:
+  + werkwijze 1: het doelhabitat te karteren binnen de polygoon en de geschilte rastercel te selecteren met het laagste rangnummer
+  + werkwijze 2: de rastercellen in volgorde af te lopen tot je een geschikte rastercel vindt
+4. je noteert welke rastercel je hebt geselecteerd als vervanging voor de steekproefeenheid en je noteert ook het resultaat van de beoordeling van alle rastercellen

@@ -27,8 +27,18 @@ Doelstelling: omschrijving in woorden waarvoor het veldprotocol dient. Voorbeeld
 Toepassingsgebied: bespreek hier onder welke condities het veldprotocol kan gebruikt worden.
 -->
 
-Wanneer je een steekproefeenheid van een bepaald meetnet bezoekt op het terrein en de steekproefeenheid blijkt niet geschikt voor bemonstering, kan je via de vervangingsprocedure binnen een vooraf bepaald gebied een andere steekproefeenheid selecteren dat wel geschikt is. Dit vergroot de kans dat je tijdens een terreinbezoek in een gebied een bemonstering kan uitvoeren. Het is echter niet gegarandeerd dat in het gebied via de vervangsprocedure een geschikte steekproefeenheid wordt gevonden.
+Wanneer je een steekproefeenheid van een bepaald meetnet bezoekt op het terrein en de steekproefeenheid blijkt niet geschikt voor bemonstering, kan je via de vervangprocedure binnen een vooraf bepaald gebied een andere steekproefeenheid selecteren die wel geschikt is. Dit vergroot de kans dat je tijdens een terreinbezoek in een gebied een bemonstering kan uitvoeren. Het is echter niet gegarandeerd dat in het gebied via de vervangsprocedure een geschikte steekproefeenheid wordt gevonden.
 
-De beoordeling of een steekproefeenheid geschikt is voor bemonstering hangt af van meetnet tot meetnet en moet gespecificeerd worden in een projectprotocol. In de meeste gevallen wordt een steekproefeenheid als geschikt beoordeeld als het doeltype (of één van meerdere doeltypes) aanwezig is in de centroïde van de steekproefeenheid.   
+Deze vervangprocedure kan enkel toegepast worden bij een GRTS-steekproef waarbij de steekproefeenheid een GRTS-rastercel (van bijvoorbeeld 32m x 32m) is. 
+Dit is het geval voor de meeste terrestrische habitattypen en regionaal belangrijke biotopen (rbb) die op Vlaams niveau worden gemonitord voor hun specifieke structuren en functies, drukken en bedreigingen.
 
-Deze vervangingsprocedure kan enkel toegepast worden bij een GRTS-steekproef waarbij de steekproefeenheid een GRTS-rastercel (van bijvoorbeeld 32m x 32m) is. Dit is het geval voor de meeste terrestrische habitattypen en regionaal belangrijke biotopen (rbb).
+De beoordeling of een steekproefeenheid geschikt is voor bemonstering kan verschillen van meetnet tot meetnet en wordt gespecificeerd in het projectprotocol.
+We onderscheiden twee verschillende beoordelingen:
+
++ beoordeling in de centroïde van de steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in de centroïde van de steekproefeenheid;
+
++ beoordeling in de volledige steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in (een deel) van de steekproefeenheid (maar niet noodzakelijk in de centroïde van de steekproefeenheid).
+
+De vervangprocedure kan voor beide type beoordelingen gebruikt worden.   
+
+

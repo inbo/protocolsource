@@ -1,5 +1,5 @@
 ---
-title: Vervangingsprocedure voor geselecteerde steekproefeenheden van terrestrische types
+title: Vervangprocedure voor geselecteerde steekproefeenheden van terrestrische types
 subtitle:  
 author: [Toon Westra]
 date: 2020-09-23
@@ -7,9 +7,11 @@ params:
   reviewers: [Patrik Oosterlynck,Floris Vanderhaeghe]
   file_manager: Toon Westra
   protocol_code: sfp-001
-  version_number: "2020.00.dev"
+  version_number: "2020.01.dev"
   language: nl
   theme: generic
+bibliography: references_habitats.bib
+link-citations: TRUE
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
