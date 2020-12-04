@@ -2,7 +2,7 @@
 title: Vervangprocedure voor geselecteerde steekproefeenheden van terrestrische types
 subtitle:  
 author: [Toon Westra]
-date: 2020-09-23
+date: "`r Sys.Date()`"
 params:
   reviewers: [Patrik Oosterlynck,Floris Vanderhaeghe]
   file_manager: Toon Westra
