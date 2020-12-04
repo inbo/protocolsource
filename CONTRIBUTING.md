@@ -65,6 +65,7 @@ The workflow is as follows for a **new** protocol:
     ![](src/management/pr-on-github-3.png)
 
 1. Continue work on the protocol
+    1. regularly preview the html version of the protocol with `protocolhelper::render_protocol(protocol_folder_name = "name-of-your-protocol-folder")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol)
     1. add text, media, ... to the Rmarkdown files
     1. save your changes
     1. stage, commit, push changes
