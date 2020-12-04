@@ -27,7 +27,7 @@ Je zoekt enkel een vervangende rastercel voor een steekproefeenheid als de steek
 Ter herhaling, we onderscheiden twee types van beoordelingen:
 
 + beoordeling in de centroïde van de steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in de centroïde van de steekproefeenheid;
-+ beoordeling in de volledige steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in (een deel) de steekproefeenheid (maar niet noodzakelijk in de centroïde van de steekproefeenheid).
++ beoordeling in de volledige steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in (een deel van) de steekproefeenheid (maar niet noodzakelijk in de centroïde van de steekproefeenheid).
 
 Het projectprotocol vermeldt welke beoordeling wordt toegepast.
 In de voorbeelden hieronder wordt er steeds vanuit gegaan dat de beoordeling in de centroïde van de steekproefeenheid gebeurt. De werkwijze bij een beoordeling in de volledige steekproefeenheid is echter volledig analoog.
@@ -52,7 +52,7 @@ Op basis van de kaart probeer je de habitatkaartpolygoon waarbinnen je een verva
 
 #### Werkwijze 1: kartering van doelhabitat binnen polygoon {#werkwijze1}
 
-De eerste werkwijze wordt geïllustreerd in Figuur \@ref(fig:fig2) waarbij alle aanwezige doelhabitat wordt gekarteerd binnen de polygoon. Alle habitatvlekken van het doelhabitat worden dus in kaart gebracht. Bij voorkeur gebeurt deze kartering in de GIS-omgeving op de veldcomputer. Vervolgens kijk je welke vevangende rastercellen geschikt zijn en selecteer je de rastercellen met het laagste rangnummer. In het (fictieve) voorbeeld in Figuur \@ref(fig:fig2) zijn 3 rastercellen (met relatief rangnummer 3, 6 en 8) geschikt voor vervanging omdat de centroïde in het gekarteerde doeltype valt. We selecteren dan de rastercel met het laagste rangnummer (3) ter vervanging van de steekproefeenheid. 
+De eerste werkwijze wordt geïllustreerd in Figuur \@ref(fig:fig2) waarbij alle aanwezige doelhabitat wordt gekarteerd binnen de polygoon. Alle habitatvlekken van het doelhabitat worden dus in kaart gebracht. Bij voorkeur gebeurt deze kartering in de GIS-omgeving op de veldcomputer. Vervolgens kijk je welke vevangende rastercellen geschikt zijn en selecteer je de rastercel met het laagste rangnummer. In het (fictieve) voorbeeld in Figuur \@ref(fig:fig2) zijn 3 rastercellen (met relatief rangnummer 3, 6 en 8) geschikt voor vervanging omdat de centroïde in het gekarteerde doeltype valt. We selecteren dan de rastercel met het laagste rangnummer (3) ter vervanging van de steekproefeenheid. 
 
 ```{r fig2, fig.cap = "De geselecteerde steekproefeenheid (met gele centroïde) is niet geschikt. Na kartering van het doelhabitat (gearceerde polygoon), wordt de rastercel met laagste rangnummer waarvan de centroïde binnen het doelhabitat ligt geselecteerd"}
 
@@ -103,9 +103,9 @@ In het laatste geval wordt de vervangprocedure op een ander moment uitgevoerd.
 
 #### Wat als er meerdere vervangpunten gezocht moeten worden?
 
-Het komt voor dat er meerdere steekproefeenheden in een polygoon gelegen zijn en dat er meerdere vervangende rastercellen geselecteerd moeten worden. Je gaat dan gewoon verder met [werkwijze 1](#werkwijze1) of [werkwijze 2](#werkwijze1) tot je een volgend geschikte rastercel vindt.
+Het komt voor dat er meerdere steekproefeenheden in een polygoon gelegen zijn en dat er meerdere vervangende rastercellen geselecteerd moeten worden. Je gaat dan gewoon verder met [werkwijze 1](#werkwijze1) of [werkwijze 2](#werkwijze2) tot je een volgende geschikte rastercel vindt.
 
-Het kan zijn dat de veldwerkplanning voorschrijft dat de steekproefeenheden binnen een polygoon in verschillende jaren bemonsterd moeten worden. Dan kan je toch best tijdens je eerste bezoek alle steekproefeenheden evalueren en indien nodig de geschikte vervangende rastercellen selecteren. De eigenlijke bemonstering doe je dan in de jaren zoals de de veldwerkplanning het voorschrijft. 
+Het kan zijn dat de veldwerkplanning voorschrijft dat de steekproefeenheden binnen een polygoon in verschillende jaren bemonsterd moeten worden. Dan kan je toch best tijdens je eerste bezoek alle steekproefeenheden evalueren en indien nodig de geschikte vervangende rastercellen selecteren. De eigenlijke bemonstering doe je dan in de jaren zoals de veldwerkplanning het voorschrijft. 
 Het voordeel is dan dat je de vervangprocedure maar eenmaal moet doorlopen en dat je tijdens een tweede bezoek rechtstreeks naar de geschikte rastercel kunt navigeren.    
 
 

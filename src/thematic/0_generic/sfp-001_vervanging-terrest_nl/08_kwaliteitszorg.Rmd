@@ -11,4 +11,4 @@ Na het doorlopen van de vervangprocedure controleer je volgende zaken:
 
 + Heb je alle (toegankelijke) rastercellen met een lager rangnummer dan het rangnummer van de geselecteerde vervangende rastercel beoordeeld en is de beoordeling geregistreerd?  
 
-+ Zijn er nog andere steekproefeenhden in de polygoon die beoordeeld moeten worden en waarvoor er mogelijks een vervangende rastercel gezocht moet worden?
++ Zijn er nog andere steekproefeenheden in de polygoon die beoordeeld moeten worden en waarvoor er mogelijks een vervangende rastercel gezocht moet worden?

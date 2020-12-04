@@ -7,5 +7,5 @@ Protocols die verwijzen naar dit protocol: bv SVP_xxx
 
 Dit protocol verwijst naar:
 
-+ SIP_xxx - Gebruik van RTK-GPS (Te ontwerpen)
-+ SVP_0xx - Navigatie naar meetpunten (Te ontwerpen)
++ sip-xxx - Gebruik van RTK-GPS (Te ontwerpen)
++ sfp-0xx - Navigatie naar meetpunten (Te ontwerpen)

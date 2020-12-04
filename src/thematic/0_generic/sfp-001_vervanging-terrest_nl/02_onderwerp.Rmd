@@ -35,7 +35,7 @@ Dit is het geval voor de meeste terrestrische habitattypen en regionaal belangri
 De beoordeling of een steekproefeenheid geschikt is voor bemonstering kan verschillen van meetnet tot meetnet en wordt gespecificeerd in het projectprotocol.
 We onderscheiden twee verschillende beoordelingen:
 
-+ beoordeling in de centroïde van de steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in de centroïde van de steekproefeenheid;
++ beoordeling in de centroïde van de steekproefeenheid (het midden van de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in de centroïde van de steekproefeenheid;
 
 + beoordeling in de volledige steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in (een deel) van de steekproefeenheid (maar niet noodzakelijk in de centroïde van de steekproefeenheid).
 
