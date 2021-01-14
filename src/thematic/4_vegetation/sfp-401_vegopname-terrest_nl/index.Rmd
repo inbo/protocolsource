@@ -7,7 +7,7 @@ params:
   reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
   file_manager: Hans Van Calster
   protocol_code: sfp-401
-  version_number: "1.1.0.9000"
+  version_number: "2021.00.dev"
   language: nl
   theme: vegetation
 site: bookdown::bookdown_site
