@@ -1,10 +1,10 @@
-# AFHANKELIJKHEDEN
+# Afhankelijkheden (indien van toepassing)
 
 Procedures waarnaar in deze procedure verwezen wordt:
 
--   SVP-402, SVP-40X, Foto-protocol
+-   sfp-402, sfp-40X, Foto-protocol
 
 Procedures die verwijzen naar deze procedure: bv.
 
--   SVP-402, SVP-40X
+-   sfp-402, sfp-40X
 

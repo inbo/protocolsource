@@ -1,4 +1,6 @@
-# REFERENTIES
+# Referenties {-}
+<div id="refs"></div>
+
 
 Braun-Blanquet J. (1964). Pflanzensoziologie, Grundzüge der Vegetationskunde,
 3rd ed. Springer Verlag, Wien.Kent M., & Coker P. (1994). Vegetation Description

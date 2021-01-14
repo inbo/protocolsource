@@ -1,4 +1,4 @@
-# BIJLAGE
+# (APPENDIX) Bijlagen {-} 
 
 ##  Bijlage 1 INBO-defaultwaarden en projectfiche
 
