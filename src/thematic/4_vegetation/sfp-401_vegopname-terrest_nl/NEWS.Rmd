@@ -12,3 +12,7 @@ Gesorteerd van recent naar oud. E.g.
   - Eerste versie van het protocol
 -->
 
+- [2021.01](https://protocols.inbo.io/2021.01/nl/index.html)
+    - overzetting van protocol van docx formaat naar html formaat
+- v1.1 (docx versie)
+    - Eerste versie van het protocol
