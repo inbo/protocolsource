@@ -60,8 +60,7 @@ het seizoen worden gezien als twee aparte opnames. Voor analyse achteraf, kunnen
 deze worden samengevoegd met per soort het maximum van beide ingeschatte
 bedekkingen.
 
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image1.png){width="6.3in"
-height="3.161111111111111in"}
+![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image1.png){width="100%"}
 
 Figuur 1 - Monitoringsperiode naargelang biotoopgroep (Vriens *et al.*, 2011)
 
@@ -151,9 +150,7 @@ weer te geven (Figuur 3). We raden aan om op een tabletje deze gegevens te
 noteren en mee te fotograferen. Het is ook mogelijk om het invulformulier mee op
 de foto te zetten (of als eerste te fotograferen).
 
-![P:\\publiek\_bxl\\els\_debie\\foto
-pq\_bordjes\\zw\_24\_20150731.JPG](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image6.jpeg){width="5.864583333333333in"
-height="4.397443132108487in"}
+![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image6.jpeg){width="100%"}
 
 Figuur 3 - Foto met duidelijke identificatiecode van de locatie van de
 vegetatieopname a.d.h.v. een krijtbordje (foto: Wouter Van Gompel).
@@ -335,11 +332,8 @@ met een fenopaal (Figuur **5**). Indien maaibeheer, fenopalen diep genoeg steken
 (= maaiveld) door een zode uit te graven, alvorens de fenopaal te plaatsen. Een
 metaaldetector is nadien wel handig.
 
-![C:\\Users\\els\_debie\\Downloads\\Tielenkamp\_G
-(7).JPG](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image8.jpeg){width="2.396227034120735in"
-height="1.7972090988626421in"}
-![C:\\Users\\els\_debie\\Downloads\\DSC\_0082\_2009.JPG](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image9.jpeg){width="2.716981627296588in"
-height="1.8047255030621172in"}
+![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image8.jpeg){width="45%"}
+![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image9.jpeg){width="45%"}
 
 Figuur 5 - Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS
 werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))

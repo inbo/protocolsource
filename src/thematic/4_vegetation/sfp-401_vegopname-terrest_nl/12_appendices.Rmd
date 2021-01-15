@@ -1,6 +1,6 @@
 # (APPENDIX) Bijlagen {-} 
 
-##  Bijlage 1 INBO-defaultwaarden en projectfiche
+#  Bijlage: INBO-defaultwaarden en projectfiche
 
 +-------------------------+-------------------------+-------------------------+
 | **Variabelen**          | **INBO-defaultwaarden** | **Projectspecifieke     |
@@ -45,10 +45,9 @@
 Indien afgeweken wordt van de defaultwaarden, geef dan hier een korte motivatie
 waarom hiervan afgeweken wordt (of verwijs naar een rapport / referentie):
 
-##  Bijlage 2 opnameformulier
+#  Bijlage: opnameformulier
 
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image11.png){width="7.354166666666667in"
-height="4.5053127734033245in"}
+![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image11.png){width="100%"}
 
 **[Achtergrondinformatie]{.underline}**
 
@@ -61,7 +60,7 @@ Bossen 16 m x 16 m
 
 2.56 m^2^ = 1% 30 cm x 30 cm = 1%
 
-##  Bijlage 3 opnameschalen
+#  Bijlage: opnameschalen
 
 **Schaal van Londo**
 
@@ -92,23 +91,23 @@ Bossen 16 m x 16 m
 
 Zie lijst actieve opnameschalen in INBOVEG
 
-##  Bijlage 4 oefenen schatten bedekkingen
+#  Bijlage: oefenen schatten bedekkingen
 
 
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image12.png){width="5.90625in" height="2.9479166666666665in"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image12.png){width="100%"}
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image13.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image14.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image15.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image16.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image17.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image18.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image19.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image20.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image21.png){width="5.90625in" height="2.9479166666666665in"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image22.png){width="5.90625in" height="2.9479166666666665in"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image13.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image14.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image15.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image16.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image17.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image18.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image19.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image20.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image21.png){width="100%"}
+  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image22.png){width="100%"}
 
-##  Bijlage 5 Fenologiecodes INBO
+#  Bijlage: Fenologiecodes INBO
 
   Code   Verklaring
   ------ ----------------------------------------------
