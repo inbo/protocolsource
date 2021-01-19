@@ -48,7 +48,7 @@ H.  Zorg indien mogelijk dat je de toestemming hebt om de percelen te betreden.
 C. Keuze periode
 
 Het is belangrijk het tijdstip optimaal te kiezen in functie van het
-groeiseizoen van de meest voorkomende planten (zie Figuur 1). Afhankelijk van
+groeiseizoen van de meest voorkomende planten (zie Figuur \@ref(fig:image1)). Afhankelijk van
 het vegetatietype of de opzet van het project kunnen twee bezoeken binnen
 eenzelfde vegetatieseizoen noodzakelijk zijn. Dit doordat er twee in de tijd
 gescheiden coherente bloeiperioden van planten zijn. Een duidelijk voorbeeld is
@@ -60,9 +60,12 @@ het seizoen worden gezien als twee aparte opnames. Voor analyse achteraf, kunnen
 deze worden samengevoegd met per soort het maximum van beide ingeschatte
 bedekkingen.
 
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image1.png){width="100%"}
 
-Figuur 1 - Monitoringsperiode naargelang biotoopgroep (Vriens *et al.*, 2011)
+```{r image1, fig.cap = 'Monitoringsperiode naargelang biotoopgroep (Vriens *et al.*, 2011)', out.width= '100%' }
+include_graphics(path = './media/image1.png')
+```
+
+
 
 Bij een maaibeheer is het belangrijk om een vegetatieopname uit te voeren
 voordat er gemaaid is. Na het maaien is het moeilijk om de soortensamenstelling
@@ -124,7 +127,7 @@ Voor de N-Z oriëntatie is het belangrijk om de 2^de^ markeerstok in NW richting
 verduidelijking.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image2.jpeg){width="2.236220472440945in" height="1.873403324584427in"}   ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image4.png){width="1.7708333333333333in" height="1.8729166666666666in"}   ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image5.png){width="1.811023622047244in" height="2.0083300524934384in"}
+  ![](./media/image2.jpeg){width="2.236220472440945in" height="1.873403324584427in"}   ![](./media/image4.png){width="1.7708333333333333in" height="1.8729166666666666in"}   ![](./media/image5.png){width="1.811023622047244in" height="2.0083300524934384in"}
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Figuur 2 - Schema voor het uitzetten van een 3 m x 3 m proefvlak
@@ -150,7 +153,7 @@ weer te geven (Figuur 3). We raden aan om op een tabletje deze gegevens te
 noteren en mee te fotograferen. Het is ook mogelijk om het invulformulier mee op
 de foto te zetten (of als eerste te fotograferen).
 
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image6.jpeg){width="100%"}
+![](./media/image6.jpeg){width="100%"}
 
 Figuur 3 - Foto met duidelijke identificatiecode van de locatie van de
 vegetatieopname a.d.h.v. een krijtbordje (foto: Wouter Van Gompel).
@@ -295,7 +298,7 @@ correctiefactor \< 1) voor de ijlheid van het gebladerte. Deze correctiefactor
 is opnieuw een visuele schatting, maar dan één die éénmalig kan geschat worden
 en daarna consequent gebruikt.
 
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image7.png){width="2.8645833333333335in"
+![](./media/image7.png){width="2.8645833333333335in"
 height="1.9166666666666667in"}
 
 Figuur 4 - Kroonprojectie houdt, in tegenstelling tot de definitie van
@@ -332,8 +335,8 @@ met een fenopaal (Figuur **5**). Indien maaibeheer, fenopalen diep genoeg steken
 (= maaiveld) door een zode uit te graven, alvorens de fenopaal te plaatsen. Een
 metaaldetector is nadien wel handig.
 
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image8.jpeg){width="45%"}
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image9.jpeg){width="45%"}
+![](./media/image8.jpeg){width="45%"}
+![](./media/image9.jpeg){width="45%"}
 
 Figuur 5 - Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS
 werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))
