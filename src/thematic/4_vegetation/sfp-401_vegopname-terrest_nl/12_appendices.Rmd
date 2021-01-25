@@ -47,7 +47,10 @@ waarom hiervan afgeweken wordt (of verwijs naar een rapport / referentie):
 
 #  Bijlage: opnameformulier
 
-![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image11.png){width="100%"}
+```{r image11, out.width= '100%'}
+knitr::include_graphics(path = './media/image11.png')
+```
+
 
 **[Achtergrondinformatie]{.underline}**
 
@@ -94,18 +97,54 @@ Zie lijst actieve opnameschalen in INBOVEG
 #  Bijlage: oefenen schatten bedekkingen
 
 
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image12.png){width="100%"}
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image13.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image14.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image15.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image16.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image17.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image18.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image19.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image20.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image21.png){width="100%"}
-  ![](C:/R/GitRepositories/protocols/src/thematic/4_vegetation/sfp-401_vegopname-terrest_nl/media/image22.png){width="100%"}
+```{r image12, out.width= '100%'}
+knitr::include_graphics(path = './media/image12.png')
+```
+
+```{r image13, out.width= '100%'}
+knitr::include_graphics(path = './media/image13.png')
+```
+
+```{r image14, out.width= '100%'}
+knitr::include_graphics(path = './media/image14.png')
+```
+
+```{r image15, out.width= '100%'}
+knitr::include_graphics(path = './media/image15.png')
+```
+
+```{r image16, out.width= '100%'}
+knitr::include_graphics(path = './media/image16.png')
+```
+
+```{r image17, out.width= '100%'}
+knitr::include_graphics(path = './media/image17.png')
+```
+
+
+```{r image18, out.width= '100%'}
+knitr::include_graphics(path = './media/image18.png')
+```
+
+
+```{r image19, out.width= '100%'}
+knitr::include_graphics(path = './media/image19.png')
+```
+
+
+```{r image20, out.width= '100%'}
+knitr::include_graphics(path = './media/image20.png')
+```
+
+```{r image21, out.width= '100%'}
+knitr::include_graphics(path = './media/image21.png')
+```
+
+
+```{r image22, out.width= '100%'}
+knitr::include_graphics(path = './media/image22.png')
+```
+
 
 #  Bijlage: Fenologiecodes INBO
 
