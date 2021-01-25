@@ -60,11 +60,11 @@ het seizoen worden gezien als twee aparte opnames. Voor analyse achteraf, kunnen
 deze worden samengevoegd met per soort het maximum van beide ingeschatte
 bedekkingen.
 
+> ![](./media/image1.png){width="100%"}
 
 ```{r image1, fig.cap = 'Monitoringsperiode naargelang biotoopgroep (Vriens *et al.*, 2011)', out.width= '100%' }
 include_graphics(path = './media/image1.png')
 ```
-
 
 
 Bij een maaibeheer is het belangrijk om een vegetatieopname uit te voeren
@@ -116,21 +116,24 @@ Een heel snelle manier om proefvlakken (3 m x 3 m) uit te zetten is door gebruik
 te maken van een touw van 6 m, aan de uiteinden voorzien van een lus. Op het
 touw brengt men twee merktekens aan: de diameter van een vierkant van 3 m x 3 m
 (= 4.24 m) en een teken op 3 m (= een zijde van het proefvlak). Men plaatst
-vervolgens een stokje (1 in Figuur 2) en hangt het uiteinde van het touw over
+vervolgens een stokje (1 in (Figuur \@ref(fig:image2)) en hangt het uiteinde van het touw over
 dat stokje. Het tweede stokje plaatst men ter hoogte van de aangeduide diameter
-(touw dus wel opspannen, 2 in Figuur 2). Hier maak je het andere uiteinde van
+(touw dus wel opspannen, 2 in (Figuur \@ref(fig:image2))). Hier maak je het andere uiteinde van
 het touw vast. Vervolgens hoeft men enkel nog het touw op te spannen op het 3
-m-punt (3 of 4 in Figuur 2) en de helft van het proefvlak is al in orde. Best is
+m-punt (3 of 4 in (Figuur \@ref(fig:image2))) en de helft van het proefvlak is al in orde. Best is
 om ook twee zulke touwen mee te nemen. Dit kan uiteraard ook met een lintmeter.
 Voor de N-Z oriëntatie is het belangrijk om de 2^de^ markeerstok in NW richting
-(2) te plaatsen met behulp van een kompas. Zie Figuur 2 voor meer
+(2) te plaatsen met behulp van een kompas. Zie figuur \@ref(fig:image2) voor meer
 verduidelijking.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image2.jpeg){width="2.236220472440945in" height="1.873403324584427in"}   ![](./media/image4.png){width="1.7708333333333333in" height="1.8729166666666666in"}   ![](./media/image5.png){width="1.811023622047244in" height="2.0083300524934384in"}
+  ![](./media/image2_2.png){width="100%"}   
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Figuur 2 - Schema voor het uitzetten van een 3 m x 3 m proefvlak
+```{r image2, fig.cap = 'Schema voor het uitzetten van een 3 m x 3 m proefvlak', out.width= '100%' }
+include_graphics(path = './media/image2_2.png')
+```
+
 
 Voor grotere proefvlakken met hoge vegetatie (bv. in bos 16 m x 16 m) is
 bovenstaande werkwijze niet praktisch. Daar gebruikt men best kompas, lintmeter
@@ -149,14 +152,18 @@ oosten) bij benadering aangegeven van waaruit de foto genomen werd.
 
 Om problemen te vermijden bij de latere verwerking wordt aangeraden om op de
 foto een duidelijk zichtbare identificatiecode van het proefvlak en oriëntatie
-weer te geven (Figuur 3). We raden aan om op een tabletje deze gegevens te
+weer te geven (Figuur \@ref(fig:image6)). We raden aan om op een tabletje deze gegevens te
 noteren en mee te fotograferen. Het is ook mogelijk om het invulformulier mee op
 de foto te zetten (of als eerste te fotograferen).
 
 ![](./media/image6.jpeg){width="100%"}
 
-Figuur 3 - Foto met duidelijke identificatiecode van de locatie van de
-vegetatieopname a.d.h.v. een krijtbordje (foto: Wouter Van Gompel).
+
+```{r image6, fig.cap = 'Foto met duidelijke identificatiecode van de locatie van de
+vegetatieopname a.d.h.v. een krijtbordje (foto: Wouter Van Gompel)', out.width= '100%' }
+include_graphics(path = './media/image6.jpeg')
+```
+
 
 Indien dit onmogelijk is, codeer dan duidelijk in het daartoe voorziene veld op
 het veldformulier of bij afwezigheid daarvan in het vrije veld 'opmerkingen'.
@@ -293,7 +300,7 @@ bedekking te overschatten omdat het omhullende volume dat de planten innemen
 groot is ten opzichte van hun bladoppervlakte (ze hebben een lage Leaf Area
 Index). Een strategie om de bedekking van zulke soorten in te schatten is dan
 ook de bedekking voor de verticale projectie van de omhullenden te schatten (=
-kroonprojectie, Figuur 4) en deze naar beneden te corrigeren (0 \<
+kroonprojectie, Figuur \@ref(fig:image7)) en deze naar beneden te corrigeren (0 \<
 correctiefactor \< 1) voor de ijlheid van het gebladerte. Deze correctiefactor
 is opnieuw een visuele schatting, maar dan één die éénmalig kan geschat worden
 en daarna consequent gebruikt.
@@ -301,8 +308,12 @@ en daarna consequent gebruikt.
 ![](./media/image7.png){width="2.8645833333333335in"
 height="1.9166666666666667in"}
 
-Figuur 4 - Kroonprojectie houdt, in tegenstelling tot de definitie van
-bedekking, geen rekening met ijlheid van het bladerdak.
+
+```{r image7, fig.cap = 'Kroonprojectie houdt, in tegenstelling tot de definitie van
+bedekking, geen rekening met ijlheid van het bladerdak.', out.width= '100%' }
+include_graphics(path = './media/image7.jpeg')
+```
+
 
 Maak aan het einde eens de som van bedekkingen ter controle. De totale som van
 alle bedekkingen is in grasland in regel meer dan 100% en kan oplopen tot 200%
@@ -331,15 +342,20 @@ proefvlak. Vanuit dit hoekpunt kan dan gemakkelijk het volledige proefvlak
 worden gereconstrueerd met een kompas. Een duurdere maar met langere levensduur
 is het ingraven van een metalen staaf, die naderhand met een metaaldetector
 terug kan gezocht worden. Een andere oplossing is de proefvlakken te markeren
-met een fenopaal (Figuur **5**). Indien maaibeheer, fenopalen diep genoeg steken
+met een fenopaal (Figuur \@ref(fig:image8+9)). Indien maaibeheer, fenopalen diep genoeg steken
 (= maaiveld) door een zode uit te graven, alvorens de fenopaal te plaatsen. Een
 metaaldetector is nadien wel handig.
 
 ![](./media/image8.jpeg){width="45%"}
-![](./media/image9.jpeg){width="45%"}
+![](./media/image9.jpeg){width="50%"}
 
-Figuur 5 - Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS
-werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))
+
+```{r image8+9, fig.cap = 'Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS
+werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))', out.width= '100%' }
+include_graphics(path = './media/image8.jpeg',
+include_graphics(path = './media/image9.jpeg')
+```
+
 
 ## Registratie en bewaring van resultaten
 
