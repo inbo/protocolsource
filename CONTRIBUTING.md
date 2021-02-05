@@ -46,7 +46,7 @@ The workflow is as follows for a **new** protocol:
 
 1. make sure your local clone of the remote repository is up to date:
     1. with the master branch checked out, press the pull button in the Git pane
-1. a subject-matter specialist uses `protocolhelper::create_protocol()` to start a new [protocol from a template](#from-a-new-template)
+1. a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
 1. the generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
     1. in the Git pane press the icon to create a new branch
 1. after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
