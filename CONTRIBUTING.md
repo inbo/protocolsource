@@ -160,6 +160,8 @@ create_spp(title = "Bodemstalen nemen",
 ```
 
 For project-specific protocols, `protocolhelper::add_subprotocol()` can be used subsequently to add (sections of) published standard field protocols as subprotocols.
+A specific version needs to be set for each subprotocol (it should not evolve dynamically within a project protocol version). 
+Optionally, project-specific parameters can be passed.
 
 ## Protocol language
 
