@@ -77,7 +77,7 @@ The incremental nature means that general tags reflect the time sequence of prot
 
 ### Protocol-code and protocol-number <a name="protocol-code"></a>
 
-A **protocol-code** consists of three characters, three digits and two characters separated by a hyphen.
+A **protocol-code** consists of a prefix (three characters), a protocol-number (three digits) and a language tag (two characters), all separated by a hyphen.
 
 |type             |theme      |theme_number |protocol-code
 |:----------------|:----------|:------------|:------------|
@@ -155,4 +155,3 @@ For instance, in a protocol that explains how to visually estimate plant cover u
 - area of the sampling unit
 
 The subject-matter specialist will then give sensible default values for these parameters, but these values can be changed in project-specific protocols.
-
