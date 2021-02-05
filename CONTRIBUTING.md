@@ -169,7 +169,7 @@ A translation of the same protocol will be evident from the protocol-code, e.g.:
 Note that these must be considered as just two different protocols (with a different protocol code), although the protocol prefix+number shows their relationship.
 To indicate that a specific version of `sfp-001-en` is a literal translation of a version of `sfp-001-nl`, the `NEWS.Rmd` file of `sfp-001-en` should mention this, in a version-specific way.
 Different language variants of the 'same' protocol should be added to the repo in a separate pull request.
-Note that in subsequent versions of - say - `sfp-001-en` it is allowed that it's contents diverges from the version of `sfp-001-nl` of which it was a literal translation.
+Note that in subsequent versions of - say - `sfp-001-en` it is allowed that its contents diverge from the version of `sfp-001-nl` of which it was a literal translation.
 
 
 ## Rmarkdown
