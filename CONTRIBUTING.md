@@ -86,7 +86,7 @@ For an **update** of an existing protocol all steps are the same, except for:
 
 For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
 
-- a subject-matter specialist uses `protocolhelper::create_protocol()` to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
+- a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
 - use the protocol-code from the pre-existing `docx` protocol to create a new branch
 - in case the chapter titles and Rmarkdown file names differ from the template, change them so they comply with the current template:
     - go to [templates](https://github.com/inbo/protocolhelper/tree/master/inst/rmarkdown/templates)
