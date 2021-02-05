@@ -98,7 +98,7 @@ The three digits of the protocol-code will be referred to as the **protocol-numb
 In case of thematic protocols, the first digit of the protocol-number corresponds with the theme-number.
 The `##` indicates an incremental number. 
 For instance, the first field protocol for "theme water" will have protocol code `sfp-101-nl`.
-The `s*p-###` part of the protocol can be thought of as a code that corresponds one to one with the title of the protocol.
+The `s*p-###` part of the protocol can be thought of as a code that corresponds one-to-one with the title of the protocol (when ignoring language).
 
 The final two characters identify the language the protocol is written in.
 This can be either Dutch (`nl`) or English (`en`).
@@ -155,5 +155,4 @@ For instance, in a protocol that explains how to visually estimate plant cover u
 - area of the sampling unit
 
 The subject-matter specialist will then give sensible default values for these parameters, but these values can be changed in project-specific protocols.
-
 
