@@ -36,7 +36,7 @@ Circular dependencies are not allowed.
 Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags (see [release model](README.md#release-model)). 
 Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol. 
 
-Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using Travis Continuous Integration.
+Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
 The resulting website is hosted at **TO BE ADDED**.
 This website will host all approved and published versions of all protocols.
 
@@ -46,8 +46,8 @@ The workflow is as follows for a **new** protocol:
 
 1. make sure your local clone of the remote repository is up to date:
     1. with the master branch checked out, press the pull button in the Git pane
-1. a subject-matter specialist uses `protocolhelper::create_sfp()` to start a new [protocol from a template](#from-a-new-template)
-1. the generated protocol-code (e.g. sfp-406) is noted and a new branch named after the protocol-code is created:
+1. a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
+1. the generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
     1. in the Git pane press the icon to create a new branch
 1. after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
     1. stage the files generated from the template in the git pane
@@ -65,6 +65,7 @@ The workflow is as follows for a **new** protocol:
     ![](src/management/pr-on-github-3.png)
 
 1. Continue work on the protocol
+    1. regularly preview the html version of the protocol with `protocolhelper::render_protocol(protocol_folder_name = "name-of-your-protocol-folder")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol)
     1. add text, media, ... to the Rmarkdown files
     1. save your changes
     1. stage, commit, push changes
@@ -79,13 +80,13 @@ The workflow is as follows for a **new** protocol:
 
 For an **update** of an existing protocol all steps are the same, except for:
 
-- you don't need `protocolhelper::create_sfp()`
+- you don't need `protocolhelper::create_protocol()`
 - the creation of the new branch can (re-)use the protocol-code of the existing protocol
 - after review is finished, the protocol-specific `NEWS.Rmd` should be updated to document the substantive changes between the updated version of the previous version.
 
 For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
 
-- a subject-matter specialist uses `protocolhelper::create_sfp()` to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
+- a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
 - use the protocol-code from the pre-existing `docx` protocol to create a new branch
 - in case the chapter titles and Rmarkdown file names differ from the template, change them so they comply with the current template:
     - go to [templates](https://github.com/inbo/protocolhelper/tree/master/inst/rmarkdown/templates)
@@ -96,9 +97,8 @@ For adding a **pre-existing version of a protocol that was written in `docx` for
 
 ## Starting a new protocol with the aid of protocolhelper functions
 
-The name and location of the protocol files and folder will be automatically determined by means of the input that you provide as arguments of the `create_`-family of 
-functions. 
-With `render = TRUE` the Rmarkdown files will be rendered to `html` output in a corresponding folder inside `docs`. 
+The name and location of the protocol files and folder will be automatically determined by means of the input that you provide as arguments of the `create_`-family of functions (`create_protocol()`, `create_spp()`, `create_sfp()`). 
+With `render = TRUE` the Rmarkdown files will be rendered to `html` output in a corresponding folder inside `docs`.
 This will allow you to check the resulting output locally.
 
 ### From an existing docx protocol
@@ -142,18 +142,37 @@ create_sfp(title = "titel van het protocol",
            render = FALSE)
 ```
 
+Alternatively, for a project-specific protocol:
 
-## Translations of protocols
+```r
+library(protocolhelper)
+create_spp(title = "Bodemstalen nemen", 
+           subtitle = "", 
+           short_title = "bodemstalen", 
+           authors = c("Jon Beton", "Jef Plastiek"), 
+           date = Sys.Date(), 
+           reviewers = c("reviewer1, reviewer2"), 
+           file_manager = "manager",
+           project_name = "mne",
+           language = "nl",
+           version_number = "2021.01",
+           render = FALSE)
+```
+
+For project-specific protocols, `protocolhelper::add_subprotocol()` can be used subsequently to add (sections of) published standard field protocols as subprotocols.
+A specific version needs to be set for each subprotocol (it should not evolve dynamically within a project protocol version). 
+Optionally, project-specific parameters can be passed.
+
+## Protocol language
 
 Protocols can be written in either one or multiple languages. 
 The functions in the `protocolhelper` package support Dutch (language = 'nl') and English (language = 'en').
+A translation of the same protocol will be evident from the protocol-code, e.g.: `sfp-001-nl` and `sfp-001-en`.
+Note that these must be considered as just two different protocols (with a different protocol code), although the protocol prefix+number shows their relationship.
+To indicate that a specific version of `sfp-001-en` is a literal translation of a version of `sfp-001-nl`, the `NEWS.Rmd` file of `sfp-001-en` should mention this, in a version-specific way.
+Different language variants of the 'same' protocol should be added to the repo in a separate pull request.
+Note that in subsequent versions of - say - `sfp-001-en` it is allowed that its contents diverge from the version of `sfp-001-nl` of which it was a literal translation.
 
-All language versions of the same protocol-version should be updated in the same Pull Request. 
-Hence they get the same new protocol version number. 
-If you plan a translated version, use it to first update the current version. 
-If you update the original version, then you should update the translations accordingly.
-
-In case one of the languages of a multi-language protocol is discontinued for some reason, the Rmarkdown files for the discontinued language should be deleted in the protocols repo (they are still available in the older commits of the protocols repo and the rendered version of all versions of protocols are kept at the `protocols-website` repo).
 
 ## Rmarkdown
 

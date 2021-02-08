@@ -77,34 +77,39 @@ The incremental nature means that general tags reflect the time sequence of prot
 
 ### Protocol-code and protocol-number <a name="protocol-code"></a>
 
-A **protocol-code** consists of three characters and three digits separated by a hyphen.
+A **protocol-code** consists of a prefix (three characters), a protocol-number (three digits) and a language tag (two characters), all separated by a hyphen.
 
 |type             |theme      |theme_number |protocol-code
 |:----------------|:----------|:------------|:------------|
-|field            |generic    |0            |sfp-0##
-|field            |water      |1            |sfp-1##
-|field            |air        |2            |sfp-2##
-|field            |soil       |3            |sfp-3##
-|field            |vegetation |4            |sfp-4##
-|field            |species    |5            |sfp-5##
-|instrument       |           |             |sip-###
-|operating        |           |             |sop-###
-|activity         |           |             |sap-###
-|project          |           |             |spp-###
+|field            |generic    |0            |sfp-0##-nl
+|field            |water      |1            |sfp-1##-nl
+|field            |air        |2            |sfp-2##-nl
+|field            |soil       |3            |sfp-3##-nl
+|field            |vegetation |4            |sfp-4##-nl
+|field            |species    |5            |sfp-5##-nl
+|instrument       |           |             |sip-###-nl
+|operating        |           |             |sop-###-nl
+|activity         |           |             |sap-###-nl
+|project          |           |             |spp-###-nl
 
-The `##` indicates an incremental number. 
-For instance, the first field protocol for "theme water" will have protocol code `sfp-101`.
 The `s` and `p` refer to **s**tandard **p**rotocol, while `f, i, o, a, p` indicate the first letter of the protocol type.
 
-The last three digits of the protocol-code will be referred to as the **protocol-number**. 
+The three digits of the protocol-code will be referred to as the **protocol-number**.
 In case of thematic protocols, the first digit of the protocol-number corresponds with the theme-number.
+The `##` indicates an incremental number. 
+For instance, the first field protocol for "theme water" will have protocol code `sfp-101-nl`.
+The `s*p-###` part of the protocol can be thought of as a code that corresponds one-to-one with the title of the protocol (when ignoring language).
+
+The final two characters identify the language the protocol is written in.
+This can be either Dutch (`nl`) or English (`en`).
+
 
 ### Version number
 
 The version number is of the form `YYYY.NN`. `YYYY` indicates the year in which the protocol was released. The `NN` is a number that indicates the order of release within that year (starting with 01).
 The same version of a protocol may or may not be available in multiple languages (see [Folder and filename syntaxis](#folder-and-filename-syntaxis) and [Translations of protocols](CONTRIBUTING.md#translations-of-protocols)).
 
-The version number is protocol-*aspecific* by definition, i.e. it spans the whole protocols repository (e.g. sfp-401 version `2020.02` will be followed by sfp-401 version `2020.04` if sfp-401 was not updated in the `protocols-2020.03` release).
+The version number is protocol-*aspecific* by definition, i.e. it spans the whole protocols repository (e.g. `sfp-401-nl` version `2020.02` will be followed by `sfp-401-nl` version `2020.04` if `sfp-401-nl` was not updated in the `protocols-2020.03` release).
 
 
 
@@ -120,26 +125,16 @@ For instance, a `sfp` in which a RTK-GPS is needed to accurately locate some sam
 
 Project-specific protocols should address the need of fieldworkers to have an overview of tasks that need to be done sequentially, where each task or set of tasks would typically refer to a sfp, sip, sap or sop protocol.
 
-For this specific purpose, we can make use of Rmarkdown's ability to recycle  specific parts of another protocol using a child chunk in the (parent) project-specific protocol.
+For this specific purpose, we can make use of Rmarkdown's ability to recycle specific parts of another protocol and insert them as subprotocols.
+The `protocolhelper` package has `protocolhelper::add_subprotocol()` for this purpose.
 
-Such child-reference will need to be version-specific if it is not to cause clashes with version numbering: a project-protocol at some version should not have evolving compiled counterparts.
-
-## Dynamic protocol features
-
-For some protocols, it may be worthwhile to parametrize parts of the protocol. 
-For instance, in a protocol that explains how to visually estimate plant cover using cover classes, the following parameters could be considered dynamic:
-
-- shape of the sampling unit
-- area of the sampling unit
-
-The subject-matter specialist will then give sensible default values for these parameters, but these values can be changed in project-specific protocols.
-
+Such subprotocols will need to be version-specific if it is not to cause clashes with version numbering: a project-protocol at some version should not have evolving compiled counterparts.
 
 ## Folder and filename syntaxis
 
 In this section, we describe the conventions we adhere to for naming of files and folders.
 Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)). 
-The naming syntaxis for the subfolder is **`<protocol-code>_<short-title>_<language-code>`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
+The naming syntax for the subfolder is **`<protocol-code>_<short-title>`** and _will be automatically generated_ from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
 
 Note that the names of this subfolder and of its files are stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control and the version number is kept inside the special file `index.Rmd`. 
 The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and optionally two folders, named `data` and `media`. 
@@ -148,4 +143,15 @@ Together, these files form a [bookdown book](https://bookdown.org/yihui/bookdown
 - Apart from the `index.Rmd` file, other `Rmarkdown` files contain the contents of the individual chapters of a protocol. 
 - The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
 - The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol. When no tabular data or graphics files are needed for the protocol, these folders can be left empty (they will only be visible in a local clone of the repository and not appear on the remote repository).
-- The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `<protocol-code>_<short-title>_<language-code>`) to which the rendered version of the protocol will be written.
+- The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `<protocol-code>_<short-title>`) to which the rendered version of the protocol will be written.
+
+
+## Dynamic protocol features
+
+For some protocols, it may be worthwhile to [parameterize](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html) parts of the protocol. 
+For instance, in a protocol that explains how to visually estimate plant cover using cover classes, the following parameters could be considered dynamic:
+
+- shape of the sampling unit
+- area of the sampling unit
+
+The subject-matter specialist will then give sensible default values for these parameters, but these values can be changed in project-specific protocols.
