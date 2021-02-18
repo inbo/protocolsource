@@ -339,7 +339,7 @@ metaaldetector is nadien wel handig.
 
 
 ```{r image8, fig.cap = 'Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))', out.width= '50%' }
-knitr::include_graphics(c((path = './media/image8.jpeg'),(path = './media/image9.jpeg')))
+knitr::include_graphics(path = c('./media/image8.jpeg',  './media/image9.jpeg'))
 ```
 
 
@@ -353,4 +353,3 @@ De foto's worden gearchiveerd (in een latere fase zal hiervoor een Digital Asset
 Management-tool beschikbaar komen) waarbij een link mogelijk is naar een unieke
 identificatiecode voor de locatie of de vegetatieopname. De naam van de foto
 wordt "Identificatiecode\_Orientatie\_Datum".
-
