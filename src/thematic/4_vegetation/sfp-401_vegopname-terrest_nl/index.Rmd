@@ -15,6 +15,7 @@ output:
   bookdown::gitbook:
     split_by: none
     split_bib: FALSE
+bibliography: sfp-401.bib
 ---
 
 <!--

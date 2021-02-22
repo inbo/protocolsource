@@ -24,8 +24,7 @@
 
 -   voldoende schrijfmateriaal
 
--   flora (naamgeving volgens Flora van België het Groothertogdom Luxemburg,
-    > Noord Frankrijk en de aangrenzende gebieden (Lambinon *et al.*, 1998))
+-   flora [(]@RN157]
 
 -   loep (8x, 10x, 15x)
 
@@ -35,8 +34,7 @@
 
 -   eventueel markeerverf voor in bossystemen
 
--   recipiënten (mapjes, krantenpapier, plastic zakje) om niet gedetermineerde
-    > planten te bewaren
+-   recipiënten (mapjes, krantenpapier, plastic zakje) om niet gedetermineerde planten te bewaren
 
 -   paraplu (om papieren droog te houden)
 

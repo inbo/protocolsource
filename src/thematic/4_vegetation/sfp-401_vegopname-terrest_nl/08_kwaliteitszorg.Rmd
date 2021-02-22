@@ -2,17 +2,14 @@
 
 A)  Voor de campagne
 
--   opleiding voor de terreinmedewerkers (soortenkennis, inschatting
-    > bedekkingen: zie bijlage 4)
+-   opleiding voor de terreinmedewerkers (soortenkennis, inschatting bedekkingen: zie bijlage 4)
 
 -   nakijken of alle nodige apparatuur en materiaal aanwezig is en functioneert
 
 -   verzeker je dat je de toelating hebt om het perceel te betreden.
 
--   bij moeilijk terug te vinden proefvlakken kun je best net voor het
-    > vegetatieseizoen de locatie al terugzoeken (mbv RTK\_GPS, metaaldetector,
-    > ...) en goed markeren (paaltjes). De fenopalen verdwijnen soms onder
-    > molshopen, verstuivingen, vegetatie, ...
+-   bij moeilijk terug te vinden proefvlakken kun je best net voor het vegetatieseizoen de locatie al terugzoeken (mbv RTK\_GPS, metaaldetector,
+     ...) en goed markeren (paaltjes). De fenopalen verdwijnen soms onder molshopen, verstuivingen, vegetatie, ...
 
 B)  Tijdens de campagne
 

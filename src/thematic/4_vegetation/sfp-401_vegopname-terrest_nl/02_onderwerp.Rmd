@@ -18,7 +18,7 @@ de bedekking van een plantensoort (of laag van de vegetatie, bv. boomlaag) is de
 proportie van de bodem die bedekt is door een soort, indien alle andere soorten
 verwijderd zouden worden. M.a.w. het is de verticale projectie van alle
 bovengrondse plantendelen van alle individuen van een soort op de bodem binnen
-een proefvlak (Wilson, 2011). De bedekking wordt uitgedrukt als een proportie of
+een proefvlak [@RN155]. De bedekking wordt uitgedrukt als een proportie of
 een percentage.
 
 **Bedekkingsschaal** = een meestal ordinale schaal die gebruikt wordt om in het
