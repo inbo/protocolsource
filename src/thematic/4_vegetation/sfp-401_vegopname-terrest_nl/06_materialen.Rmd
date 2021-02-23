@@ -24,7 +24,7 @@
 
 -   voldoende schrijfmateriaal
 
--   flora [(]@RN157]
+-   flora [@RN157]
 
 -   loep (8x, 10x, 15x)
 
@@ -39,4 +39,3 @@
 -   paraplu (om papieren droog te houden)
 
 -   (eventueel) materiaal voor permanente markering (bv. Fenopaal)
-
