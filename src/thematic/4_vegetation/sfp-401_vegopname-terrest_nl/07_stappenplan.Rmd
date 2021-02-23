@@ -61,7 +61,10 @@ deze worden samengevoegd met per soort het maximum van beide ingeschatte
 bedekkingen.
 
 
-```{r image1, fig.cap = 'Monitoringsperiode naargelang biotoopgroep [@RN158]', out.width= '100%' }
+
+(ref:image1) Monitoringsperiode naargelang biotoopgroep [@RN158]
+
+```{r image1, fig.cap = '(ref:image1)', out.width= '100%' }
 knitr::include_graphics(path = './media/image1.png')
 ```
 
