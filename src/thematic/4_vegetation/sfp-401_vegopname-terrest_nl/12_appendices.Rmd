@@ -67,8 +67,9 @@ Bossen 16 m x 16 m
 
 **Schaal van Londo**
 
-  r\.   1 -2 ex. (sporadisch -- raro)
+  code  aantallen - percentage
   ----- -------------------------------------
+  r\.   1 -2 ex. (sporadisch -- raro)
   p\.   10-tal (weinig talrijk -- paululum)
   a\.   100-tal (talrijk -- amplius)
   m\.   1000-tal (zeer talrijk - multum)
@@ -94,7 +95,7 @@ Bossen 16 m x 16 m
 
 Zie lijst actieve opnameschalen in INBOVEG
 
-#  Bijlage: oefenen schatten bedekkingen
+#  Bijlage: inschatting bedekkingen oefenen
 
 
 ```{r image12, out.width= '100%'}
@@ -161,5 +162,5 @@ knitr::include_graphics(path = './media/image22.png')
   sp     Sporenvormend
   V      Vegetatief
 
-Enkel de codes + en kn moeten toegevoegd worden indien van toepassing. De andere
+Enkel de codes + (dood) en K (kiemplant) moeten toegevoegd worden indien van toepassing. De andere
 codes zijn facultatief.
