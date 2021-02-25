@@ -2,35 +2,4 @@
 <div id="refs"></div>
 
 
-Braun-Blanquet J. (1964). Pflanzensoziologie, Grundzüge der Vegetationskunde,
-3rd ed. Springer Verlag, Wien.
-
-Kent M., & Coker P. (1994). Vegetation Description
-and Analysis. John Wiley & Sons, Chichester.
-
-Lambinon J., De Langhe J.-E., Delvosalle L., & Duvigneaud J. (1998). 
-Flora van België, het Groothertogdom
-Luxemburg, Noord-Frankrijk en de aangrenzende gebieden (Pteridofyten en
-Spermatofyten)
-
-Londo G. (1976). The decimal scale for releves of permanent
-quadrats. Vegetatio 33(1): 61--64 doi: 10.1007/BF00055300
-
-Vriens L., Bosch H., De Knijf G., De Saeger S., Guelinckx R., Oosterlynck P., 
-Van Hove M., & Paelinckx
-D. (2011). De Biologische Waarderingskaart: biotopen en hun vespreiding in
-Vlaanderen en het Brussels Hoofdstedelijke Gewest., Mededelingen van het
-Instituut voor Natuur- en Bosonderzoek. Instituut voor Natuur- en Bosonderzoek
-(INBO), Brussel.
-
-Westra T., Oosterlynck P., Van Calster H., Paelinckx D., Denys L., Leyssen A., 
-Packet J., Onkelinx T., Louette G., Waterinckx M., et al.(2014). 
-Monitoring Natura 2000 - habitats: Meetnet habitatkwaliteit. Rapporten
-van het Instituut voor Natuur- en Bosonderzoek, Brussel.
-
-Wilson J.B. (2011). Cover plus: ways of measuring plant canopies and the terms used for them.
-Journal of Vegetation Science 22(2): 197--206 URL:
-http://doi.wiley.com/10.1111/j.1654-1103.2010.01238.x doi:
-10.1111/j.1654-1103.2010.01238.x
-
 

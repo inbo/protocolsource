@@ -341,7 +341,7 @@ metaaldetector is nadien wel handig.
 
 
 
-```{r image8, fig.cap = 'Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))', out.width= '25%' }
+```{r image8, out.width=c('44.13%', '50%'), fig.show='hold', fig.cap = 'Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))'}
 knitr::include_graphics(path = c('./media/image8.jpeg','./media/image9.jpeg'))
 ```
 
