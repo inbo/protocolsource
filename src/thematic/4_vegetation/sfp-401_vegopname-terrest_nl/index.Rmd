@@ -10,6 +10,11 @@ params:
   version_number: "2021.00.dev"
   language: nl
   theme: vegetation
+  width_OV_m: 3
+  length_OV_m: 3
+  width_B_m: 16
+  length_B_m: 16
+  cover_scale: Londo
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:

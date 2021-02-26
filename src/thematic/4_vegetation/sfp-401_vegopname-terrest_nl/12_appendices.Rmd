@@ -6,10 +6,11 @@
 | **Variabelen**          | **INBO-defaultwaarden** | **Projectspecifieke     |
 |                         |                         | waarde**                |
 +=========================+=========================+=========================+
-| Grootte proefvlak       | 3m \* 3m (open          |                         |
-|                         | vegetatie)              |                         |
+| Grootte proefvlak       |`r params$length_OV_m`m \* `r params$width_OV_m`m  |
+|                         |(open vegetatie)         |                         |
 |                         |                         |                         |
-|                         | 16m \* 16m (bossen)     |                         |
+|                         |`r params$length_B_m`m \* `r params$width_B_m`m    |
+|                         |(bossen)                 |                         |
 +-------------------------+-------------------------+-------------------------+
 | Vorm proefvlak          | vierkant                |                         |
 +-------------------------+-------------------------+-------------------------+
@@ -33,7 +34,7 @@
 | Fenologie-waarden       | Standaard               |                         |
 |                         | inbo-fenologiecodes     |                         |
 +-------------------------+-------------------------+-------------------------+
-| Opnameschaal            | Londo 1976              |                         |
+| Opnameschaal            | `r params$cover_scale` 1976                       |
 +-------------------------+-------------------------+-------------------------+
 | Bedekking               | INBO-structuur-schaal   |                         |
 | structuurlagen          | (0, 1, 2, 3, 4, 5, 10,  |                         |
@@ -57,9 +58,9 @@ knitr::include_graphics(path = './media/image11.png')
 
 Grootte van het proefvlak:
 
-Open vegetaties 3 m x 3 m
+Open vegetaties `r params$length_OV_m`m \*`r params$width_OV_m`m
 
-Bossen 16 m x 16 m
+Bossen `r params$length_B_m`m \* `r params$width_B_m` m
 
 2.56 m^2^ = 1% 30 cm x 30 cm = 1%
 
@@ -91,9 +92,37 @@ Bossen 16 m x 16 m
   9     85-95 %
   10    100%
 
-**Andere mogelijke opnameschalen zijn:**
+#  Bijlage: Andere mogelijke opnameschalen
 
-Zie lijst actieve opnameschalen in INBOVEG
+Tabel met actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames
+
+```{r data.frame, include = FALSE}
+
+library(inbodb)
+library(glue)
+library(dplyr)
+
+con <- connect_inbo_dbase("D0013_00_Futon")
+
+cover <- glue_sql("SELECT ListName
+, Code
+, PctValue
+from [dbo].[ftCoverValues] CV
+inner join [dbo].[ftActionGroupList] AGL on AGL.ListGIVID = CV.ListGIVID
+where 1 = 1 
+AND (ListName LIKE 'Londo%'
+     OR ListName LIKE 'Braun%')
+AND InUse = '1'
+ORDER BY ListName DESC, SortCode ASC", 
+                  .con = con) 
+
+cover_result <- tbl(con, sql(cover))
+
+knitr::kable(cover, caption = "Table with active Cover scales in InboVeg")
+
+```
+
+
 
 #  Bijlage: inschatting bedekkingen oefenen
 

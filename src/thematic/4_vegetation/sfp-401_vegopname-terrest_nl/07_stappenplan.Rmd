@@ -78,8 +78,8 @@ D. Grootte en vorm van het proefvlak
 De vorm en grootte van het proefvlak is afhankelijk van het vegetatietype en/of
 het project waarin de opnamen kaderen. We raden nadrukkelijk aan om de
 standaardwaarden te gebruiken (zie bijlage 1) en hier enkel van af te wijken om
-gemotiveerde redenen. Voor niet-bosvegetatie is binnen INBO de standaard een 3 m
-x 3 m proefvlak. Voor bossen gaat het om 16 m x 16 m. Voor de onderbouwing van
+gemotiveerde redenen. Voor niet-bosvegetatie is binnen INBO de standaard `r params$length_OV_m`m x 
+`r params$width_OV_m`m proefvlak. Voor bossen gaat het om `r params$length_B_m`m x `r params$width_B_m`m. Voor de onderbouwing van
 deze keuze van proefvlakgrootte zie @RN159, § 4.1.3.3. Er kan
 afgeweken worden van zowel grootte als vorm met een duidelijke motivatie van de
 reden. Bijvoorbeeld, voor slenken in natte heides kan dit gereduceerd worden
@@ -217,8 +217,8 @@ begonnen met de meest opvallende of talrijkere soorten om dan af te zakken naar
 de minder opvallende.
 
 Er worden enkel wetenschappelijke soortnamen gebruikt. Deze zijn opgenomen in de
-INBO-standaardlijst: INBO-Sci 2011 (in het programma INBOVEG), cfr. Lambinon *et
-al.*, 1998. Het werken met Nederlandse namen laat verwarring toe in bepaalde
+INBO-standaardlijst: INBO-Sci 2011 (in het programma INBOVEG), cfr. @RN157.
+Het werken met Nederlandse namen laat verwarring toe in bepaalde
 gevallen, namelijk of het om het genus of de species gaat.
 
 De fenologie wordt ook genoteerd per soort. Een soort met 2 verschillende
@@ -242,7 +242,7 @@ bekijken, maar ook deze met een duidelijke bedekking in het proefvlak, bv.
 overhangende vegetatie met wortels buiten het proefvlak.
 
 Voor de vegetatieopname maken we als INBO-standaard gebruik van de schaal van
-Londo (extra schalen enkel deze actief in INBOVEG). Dit is een vrij
+`r params$cover_scale` (extra schalen enkel deze actief in INBOVEG). Dit is een vrij
 gedetailleerde schaal, vooral voor de soorten met een lage bedekking. Soorten
 met een hoge presentie, maar lage bedekking worden op die manier niet
 onderschat. We spreken hier van een gecombineerde abundantie-bedekking schaal
