@@ -6,7 +6,7 @@ date: 2016-07-19
 params:
   reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
   file_manager: Hans Van Calster
-  protocol_code: sfp-401
+  protocol_code: sfp-401-nl
   version_number: "2021.00.dev"
   language: nl
   theme: vegetation
@@ -14,7 +14,7 @@ params:
   length_OV_m: 3
   width_B_m: 16
   length_B_m: 16
-  cover_scale: Londo
+  cover_scale: "Londo origineel"
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
@@ -49,6 +49,13 @@ opts_chunk$set(
   error = TRUE,
   message = FALSE
 )
+library(tidyverse)
+library(git2rdata)
+library(rprojroot)
+
+protocol_path <- find_root_file("src/thematic/4_vegetation/",
+                                "sfp-401-nl_vegopname-terrest", 
+                                criterion = is_git_root)
 ```
 
 
