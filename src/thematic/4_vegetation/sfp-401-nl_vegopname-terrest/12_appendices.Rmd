@@ -94,18 +94,19 @@ Bossen `r params$length_B_m`m \* `r params$width_B_m` m
 
 #  Bijlage: Andere mogelijke opnameschalen
 
-Tabel met actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames
+Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames
 
-```{r data.frame, include = FALSE}
-
+```{r coverscales-db, eval = !file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+# this chunk only needs to be executed interactively once
+# each time a new version of the protocol is made
 library(inbodb)
 library(glue)
-library(dplyr)
 
 con <- connect_inbo_dbase("D0013_00_Futon")
 
 cover <- glue_sql("SELECT ListName
 , Code
+, SortCode
 , PctValue
 from [dbo].[ftCoverValues] CV
 inner join [dbo].[ftActionGroupList] AGL on AGL.ListGIVID = CV.ListGIVID
@@ -113,15 +114,31 @@ where 1 = 1
 AND (ListName LIKE 'Londo%'
      OR ListName LIKE 'Braun%')
 AND InUse = '1'
-ORDER BY ListName DESC, SortCode ASC", 
+ORDER BY ListName DESC, SortCode ASC OFFSET 0 ROWS", 
                   .con = con) 
 
-cover_result <- tbl(con, sql(cover))
+cover_result <- tbl(con, sql(cover)) %>%
+  collect()
 
-knitr::kable(cover, caption = "Table with active Cover scales in InboVeg")
 
+#close connection
+dbDisconnect(con)
+
+write_vc(cover_result, 
+         file = "cover_scales", 
+         sorting = c("ListName", "SortCode", "PctValue", "Code"),
+         root = file.path(protocol_path, "data"))
 ```
 
+```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+cover_scales <- read_vc(
+  file = "cover_scales", 
+  root = file.path(protocol_path, "data")
+)
+
+kable(cover_scales %>% select(-SortCode), 
+      caption = "Table with active cover scales in InboVeg")
+```
 
 
 #  Bijlage: inschatting bedekkingen oefenen
