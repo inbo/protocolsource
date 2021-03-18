@@ -59,6 +59,9 @@ protocol_path <- find_root_file("src/thematic/4_vegetation/",
 ```
 
 
+# Metadata {-}
+
+
 | Reviewers | Documentbeheerder | Protocol code | Versienummer | Taal | Thema |
 | --------- | ----------------- | ------------- | ------------ | ---- | ----- |
 | `r paste(params$reviewers, collapse = ", ")` | `r params$file_manager` | `r sprintf("[%1$s](../%1$s/index.html)", params$protocol_code)` | `r params$version_number` | `r params$language` | `r params$theme` |
