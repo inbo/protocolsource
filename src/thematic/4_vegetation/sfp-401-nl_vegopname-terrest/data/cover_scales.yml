@@ -1,0 +1,19 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ListName
+  - SortCode
+  - PctValue
+  - Code
+  hash: 8fa05537ede33234e9c66c98541611e016e72504
+  data_hash: 82458fa3fdf41fdf7640f99c5f9cdcdaeef7ce84
+ListName:
+  class: character
+Code:
+  class: character
+SortCode:
+  class: integer
+PctValue:
+  class: numeric
