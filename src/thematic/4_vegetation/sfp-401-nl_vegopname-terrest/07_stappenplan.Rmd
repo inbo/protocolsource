@@ -6,7 +6,8 @@
 
 De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de
 doelstelling en voorgeschiedenis van het project en van het beschikbare
-materiaal en apparatuur voor het project. Zie ook de beslisboom SVP-40x.
+materiaal en apparatuur voor het project. 
+Zie ook de beslisboom SVP-40x.
 
 A.  Kaartmateriaal met te bezoeken locaties wordt voorbereid in een
     GIS-omgeving. Indien geen veldcomputer/tablet voorhanden, worden de kaarten
@@ -45,20 +46,22 @@ G.  Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist §4).
 
 H.  Zorg indien mogelijk dat je de toestemming hebt om de percelen te betreden.
 
-C. Keuze periode
+### Keuze periode
 
 Het is belangrijk het tijdstip optimaal te kiezen in functie van het
-groeiseizoen van de meest voorkomende planten (zie Figuur \@ref(fig:image1)). Afhankelijk van
-het vegetatietype of de opzet van het project kunnen twee bezoeken binnen
-eenzelfde vegetatieseizoen noodzakelijk zijn. Dit doordat er twee in de tijd
-gescheiden coherente bloeiperioden van planten zijn. Een duidelijk voorbeeld is
-de voorjaarsflora in bossen. Deze kan enkel in de maanden maart -- april worden
-opgenomen, op het moment dat deze flora optimaal zichtbaar is. De andere
-ondergroei zal pas later op het jaar zijn maximum bereiken (periode
-juli-augustus). Deze twee opnames op eenzelfde locatie maar ander tijdstip in
-het seizoen worden gezien als twee aparte opnames. Voor analyse achteraf, kunnen
-deze worden samengevoegd met per soort het maximum van beide ingeschatte
-bedekkingen.
+groeiseizoen van de meest voorkomende planten (zie Figuur \@ref(fig:image1)).
+Afhankelijk van het vegetatietype of de opzet van het project kunnen twee 
+bezoeken binnen eenzelfde vegetatieseizoen noodzakelijk zijn.
+Dit doordat er twee in de tijd gescheiden coherente bloeiperioden van planten 
+zijn. 
+Een duidelijk voorbeeld is de voorjaarsflora in bossen.
+Deze kan enkel in de maanden maart -- april worden opgenomen, op het moment dat
+deze flora optimaal zichtbaar is.
+De andere ondergroei zal pas later op het jaar zijn maximum bereiken (periode
+juli-augustus).
+Deze twee opnames op eenzelfde locatie maar ander tijdstip in het seizoen worden
+gezien als twee aparte opnames. Voor analyse achteraf, kunnen deze worden
+samengevoegd met per soort het maximum van beide ingeschatte bedekkingen.
 
 
 
@@ -70,24 +73,25 @@ knitr::include_graphics(path = './media/image1.png')
 
 
 Bij een maaibeheer is het belangrijk om een vegetatieopname uit te voeren
-voordat er gemaaid is. Na het maaien is het moeilijk om de soortensamenstelling
-en bedekking van de vegetatie correct in te schatten.
+voordat er gemaaid is.
+Na het maaien is het moeilijk om de soortensamenstelling en bedekking van de
+vegetatie correct in te schatten.
 
-D. Grootte en vorm van het proefvlak
+### Grootte en vorm van het proefvlak
 
 De vorm en grootte van het proefvlak is afhankelijk van het vegetatietype en/of
 het project waarin de opnamen kaderen.
-We raden nadrukkelijk aan om de
-standaardwaarden te gebruiken (zie bijlage 1) en hier enkel van af te wijken om
-gemotiveerde redenen.
+We raden nadrukkelijk aan om de standaardwaarden te gebruiken en
+hier enkel van af te wijken om gemotiveerde redenen.
+
 Voor niet-bosvegetatie is binnen INBO de standaard 
 `r params$plot_length_openveg_m` m x `r params$plot_width_openveg_m` m 
 proefvlak.
 Voor bossen gaat het om `r params$plot_length_forest_m` m x 
 `r params$plot_width_forest_m` m.
 Voor de onderbouwing van deze keuze van proefvlakgrootte zie @RN159, § 4.1.3.3.
-Er kan afgeweken worden van zowel grootte als vorm met een duidelijke motivatie van de
-reden.
+Er kan afgeweken worden van zowel grootte als vorm met een duidelijke motivatie 
+van de reden.
 Bijvoorbeeld, voor slenken in natte heides kan dit gereduceerd worden
 naar een oppervlak van 1 m² waarbij afgeweken wordt van het vierkant door het
 lineaire karakter van het vegetatietype.
@@ -248,25 +252,26 @@ bekijken, maar ook deze met een duidelijke bedekking in het proefvlak, bv.
 overhangende vegetatie met wortels buiten het proefvlak.
 
 Voor de vegetatieopname maken we als INBO-standaard gebruik van de schaal van
-`r params$cover_scale` (extra schalen enkel deze actief in INBOVEG). Dit is een vrij
-gedetailleerde schaal, vooral voor de soorten met een lage bedekking. Soorten
-met een hoge presentie, maar lage bedekking worden op die manier niet
-onderschat. We spreken hier van een gecombineerde abundantie-bedekking schaal
-waarbij abundantie in combinatie met bedekking wordt gebruikt voor de soorten
-die weinig bedekken, nl. minder dan 5%. Vier abundatieklassen worden hiervoor
-gebruikt nl, 1 tot 2 individuen (r), enkele individuen (p; 10-tal), veel
-individuen (a; 100-tal) en zeer veel (m; 1000-tal). Basisregel daarbij is dat
-pollen van éénzelfde soort als 1 individu geteld worden. Bij het geclusterd
-voorkomen van niet-pollenvormende plantensoorten worden echter de individuele
-exemplaren of scheuten geteld of geschat voor het benaderen van de densiteit.
+`r params$coverscale_species` (extra schalen enkel deze actief in INBOVEG). 
+Dit is een vrij gedetailleerde schaal, vooral voor de soorten met een lage
+bedekking. Soorten met een hoge presentie, maar lage bedekking worden op die
+manier niet onderschat. We spreken hier van een gecombineerde
+abundantie-bedekking schaal waarbij abundantie in combinatie met bedekking wordt
+gebruikt voor de soorten die weinig bedekken, nl. minder dan 5%. Vier
+abundatieklassen worden hiervoor gebruikt nl, 1 tot 2 individuen (r), enkele
+individuen (p; 10-tal), veel individuen (a; 100-tal) en zeer veel (m; 1000-tal).
+Basisregel daarbij is dat pollen van éénzelfde soort als 1 individu geteld
+worden. Bij het geclusterd voorkomen van niet-pollenvormende plantensoorten
+worden echter de individuele exemplaren of scheuten geteld of geschat voor het
+benaderen van de densiteit.
 
 Naast deze letter wordt ook een bedekkingsklasse gegeven nl. ".1" (minder dan
 1%), ".2" (1 tot 3 %) en ".4" (3 tot 5%). Bedekkingen boven de 5% worden
 ingedeeld in 11 klassen. Voor mossen wordt enkel bedekking genoteerd (.1, .2,
 .4).
 
-Tabel 1- Schaal van Londo [@RN154]. De aantalsgrenzen die vermeld worden
-bij r (raro), p (paululum), a (amplius) en m (multum) zijn toegevoegd. De
+Tabel 1- Schaal van Londo [@RN154]. De aantalsgrenzen die vermeld worden bij r
+(raro), p (paululum), a (amplius) en m (multum) zijn toegevoegd. De
 drempelwaarde ligt binnen de lagere klasse dus 5-10% betekent ≤ 10%; 10 tot 15%
 betekent \>10% ≤15%.
 
@@ -303,10 +308,10 @@ bedekking te overschatten omdat het omhullende volume dat de planten innemen
 groot is ten opzichte van hun bladoppervlakte (ze hebben een lage Leaf Area
 Index). Een strategie om de bedekking van zulke soorten in te schatten is dan
 ook de bedekking voor de verticale projectie van de omhullenden te schatten (=
-kroonprojectie, Figuur \@ref(fig:image7)) en deze naar beneden te corrigeren (0 \<
-correctiefactor \< 1) voor de ijlheid van het gebladerte. Deze correctiefactor
-is opnieuw een visuele schatting, maar dan één die éénmalig kan geschat worden
-en daarna consequent gebruikt.
+kroonprojectie, Figuur \@ref(fig:image7)) en deze naar beneden te corrigeren (0
+\< correctiefactor \< 1) voor de ijlheid van het gebladerte. Deze
+correctiefactor is opnieuw een visuele schatting, maar dan één die éénmalig kan
+geschat worden en daarna consequent gebruikt.
 
 
 ```{r image7, fig.cap = 'Kroonprojectie houdt, in tegenstelling tot de definitie van bedekking, geen rekening met ijlheid van het bladerdak.', out.width= '50%'}
@@ -318,7 +323,7 @@ Maak aan het einde eens de som van bedekkingen ter controle. De totale som van
 alle bedekkingen is in grasland in regel meer dan 100% en kan oplopen tot 200%
 en meer (maar dat hoeft niet!).
 
-#### Permanente markering van het proefvlak
+### Permanente markering van het proefvlak
 
 Wanneer het proefvlak in de toekomst niet opnieuw bezocht wordt en er is geen
 X-/Y-coördinaat voorhanden, wordt het middelpunt van het proefvlak ingelezen met
@@ -341,9 +346,9 @@ proefvlak. Vanuit dit hoekpunt kan dan gemakkelijk het volledige proefvlak
 worden gereconstrueerd met een kompas. Een duurdere maar met langere levensduur
 is het ingraven van een metalen staaf, die naderhand met een metaaldetector
 terug kan gezocht worden. Een andere oplossing is de proefvlakken te markeren
-met een fenopaal (Figuur \@ref(fig:image8)). Indien maaibeheer, fenopalen diep genoeg steken
-(= maaiveld) door een zode uit te graven, alvorens de fenopaal te plaatsen. Een
-metaaldetector is nadien wel handig.
+met een fenopaal (Figuur \@ref(fig:image8)). Indien maaibeheer, fenopalen diep
+genoeg steken (= maaiveld) door een zode uit te graven, alvorens de fenopaal te
+plaatsen. Een metaaldetector is nadien wel handig.
 
 
 
