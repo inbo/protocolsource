@@ -1,0 +1,85 @@
+---
+title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie
+subtitle: 
+author: [Els De Bie]
+date: 2016-07-19
+params:
+  reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
+  file_manager: Hans Van Calster
+  protocol_code: sfp-401-nl
+  version_number: "2021.00.dev"
+  language: nl
+  theme: vegetation
+  dependencies_protocolcode: !r NA
+  dependencies_versionnumber: !r NA
+  dependencies_params: !r NA
+  dependencies_appendix: !r NA
+  width_OV_m: 3
+  length_OV_m: 3
+  width_B_m: 16
+  length_B_m: 16
+  cover_scale: "Londo origineel"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    split_by: none
+    split_bib: FALSE
+bibliography: sfp-401.bib
+---
+
+<!--
+Instructies bij declaratie van dependencies in de yaml header:
+Er zijn vier velden in de yaml header die je moet aanpassen voor project-specifieke protocols:
+dependencies_protocolcode, dependencies_versionnumber, dependencies_params en dependencies_appendix.
+Elk van deze 'keys' worden gedefinieerd als onderdeel van het 'params' yaml veld.
+Aan elk van deze keys moet je informatie doorgeven over de dependencies van je protocol.
+Deze informatie wordt doorgegeven als een vector tussen vierkante haken en komma als scheidingsteken.
+Elk van de vier vectoren moet even lang zijn en de volgorde van de elementen moet overeenkomen (dus eerste element van dependencies_protocolcode komt overeen met eerste element van dependencies_versionnumber)
+
+dependencies_protocolcode: hier geef je de protocolcodes door waar het project-specifieke protocol van afhankelijk is. [sfp-###-en, sfp-###-en]
+
+dependencies_versionnumber: hier geef je de versienummers door waar het project-specifieke protocol van afhankelijk is. [YYYY.NN, YYYY.NN]
+
+dependencies_params: Hier geef je de key-value pairs door van de parameters waar je van de defaultwaarden wil afwijken. Je geeft deze door als ["list(width_m = 4, length_m = 4)", "list()"]. In dit voorbeeld zijn width_m en length_m twee namen van de keys. 
+Indien je niet van de defaultwaarden wil afwijken, geef je een lege lijst door als "list()".
+
+dependencies_appendix: een TRUE FALSE vector die aangeeft welke dependencies je als bijlage wil opnemen in het projectspecifieke protocol. bv [TRUE, FALSE]
+
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse Rmd bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titelhoofdingen staan en vermeld expliciet “niet van toepassing”.
+-->
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE, 
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = '100%',
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(tidyverse)
+library(git2rdata)
+library(rprojroot)
+
+protocol_path <- find_root_file("src/thematic/4_vegetation/",
+                                "sfp-401-nl_vegopname-terrest", 
+                                criterion = is_git_root)
+```
+
+
+# Metadata {-}
+
+
+| Reviewers | Documentbeheerder | Protocol code | Versienummer | Taal | Thema |
+| --------- | ----------------- | ------------- | ------------ | ---- | ----- |
+| `r paste(params$reviewers, collapse = ", ")` | `r params$file_manager` | `r params$protocol_code` | `r params$version_number` | `r params$language` | `r params$theme` |

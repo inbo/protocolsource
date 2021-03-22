@@ -1,0 +1,119 @@
+ListName	Code	SortCode	PctValue
+Braun/Blanquet	r	5	1
+Braun/Blanquet	+	10	2
+Braun/Blanquet	1	20	3
+Braun/Blanquet	2	30	13
+Braun/Blanquet	3	40	38
+Braun/Blanquet	4	50	68
+Braun/Blanquet	5	60	88
+Braun/Blanquet (B,D&S)	r	100	1
+Braun/Blanquet (B,D&S)	+	200	2
+Braun/Blanquet (B,D&S)	1	300	3
+Braun/Blanquet (B,D&S)	2m	400	4
+Braun/Blanquet (B,D&S)	2a	500	8
+Braun/Blanquet (B,D&S)	2b	600	18
+Braun/Blanquet (B,D&S)	3	700	38
+Braun/Blanquet (B,D&S)	4	800	68
+Braun/Blanquet (B,D&S)	5	900	88
+BraunBlanquet (BDS) Nr	1	10	1
+BraunBlanquet (BDS) Nr	2	20	2
+BraunBlanquet (BDS) Nr	3	30	3
+BraunBlanquet (BDS) Nr	4	40	4
+BraunBlanquet (BDS) Nr	5	50	8
+BraunBlanquet (BDS) Nr	6	60	18
+BraunBlanquet (BDS) Nr	7	70	38
+BraunBlanquet (BDS) Nr	8	80	68
+BraunBlanquet (BDS) Nr	9	90	88
+BraunBlanquet Numeriek	1	10	1
+BraunBlanquet Numeriek	2	20	2
+BraunBlanquet Numeriek	3	30	3
+BraunBlanquet Numeriek	4	40	13
+BraunBlanquet Numeriek	5	50	38
+BraunBlanquet Numeriek	6	60	68
+BraunBlanquet Numeriek	7	70	88
+Londo (1) volledig	.1	10	1
+Londo (1) volledig	.2	20	2
+Londo (1) volledig	.4	30	4
+Londo (1) volledig	1-	35	7
+Londo (1) volledig	1	40	10
+Londo (1) volledig	1+	60	12
+Londo (1) volledig	2-	75	17
+Londo (1) volledig	2	80	20
+Londo (1) volledig	2+	100	22
+Londo (1) volledig	3-	105	27
+Londo (1) volledig	3	110	30
+Londo (1) volledig	3+	130	32
+Londo (1) volledig	4-	135	37
+Londo (1) volledig	4	140	40
+Londo (1) volledig	4+	160	42
+Londo (1) volledig	5-	165	47
+Londo (1) volledig	5	170	50
+Londo (1) volledig	5+	190	52
+Londo (1) volledig	6-	195	57
+Londo (1) volledig	6	200	60
+Londo (1) volledig	6+	220	62
+Londo (1) volledig	7-	225	67
+Londo (1) volledig	7	230	70
+Londo (1) volledig	7+	250	72
+Londo (1) volledig	8-	255	77
+Londo (1) volledig	8	260	80
+Londo (1) volledig	8+	280	82
+Londo (1) volledig	9-	285	87
+Londo (1) volledig	9	290	90
+Londo (1) volledig	9+	310	92
+Londo (1) volledig	10	315	97
+Londo (1) volledig	a1	320	1
+Londo (1) volledig	a2	330	2
+Londo (1) volledig	a4	340	4
+Londo (1) volledig	m1	350	1
+Londo (1) volledig	m2	360	2
+Londo (1) volledig	m4	370	4
+Londo (1) volledig	p1	380	1
+Londo (1) volledig	p2	390	2
+Londo (1) volledig	p4	400	4
+Londo (1) volledig	r1	410	1
+Londo (1) volledig	r2	420	2
+Londo (1) volledig	r4	430	4
+Londo (2) verkort	1	10	10
+Londo (2) verkort	10	20	97
+Londo (2) verkort	2	30	20
+Londo (2) verkort	3	40	30
+Londo (2) verkort	4	50	40
+Londo (2) verkort	5	60	50
+Londo (2) verkort	6	70	60
+Londo (2) verkort	7	80	70
+Londo (2) verkort	8	90	80
+Londo (2) verkort	9	100	90
+Londo (2) verkort	a	110	3
+Londo (2) verkort	m	120	4
+Londo (2) verkort	p	130	2
+Londo (2) verkort	r	140	1
+Londo origineel	.1	10	1
+Londo origineel	.2	20	2
+Londo origineel	.4	30	4
+Londo origineel	1-	40	7
+Londo origineel	1	55	10
+Londo origineel	1+	60	12
+Londo origineel	2	80	20
+Londo origineel	3	110	30
+Londo origineel	4	140	40
+Londo origineel	5-	160	47.5
+Londo origineel	5	170	50
+Londo origineel	5+	180	52.5
+Londo origineel	6	200	60
+Londo origineel	7	230	70
+Londo origineel	8	260	80
+Londo origineel	9	290	90
+Londo origineel	10	300	97
+Londo origineel	a1	320	1
+Londo origineel	a2	330	2
+Londo origineel	a4	340	4
+Londo origineel	m1	350	1
+Londo origineel	m2	360	2
+Londo origineel	m4	370	4
+Londo origineel	p1	380	1
+Londo origineel	p2	390	2
+Londo origineel	p4	400	4
+Londo origineel	r1	410	1
+Londo origineel	r2	420	2
+Londo origineel	r4	430	4
