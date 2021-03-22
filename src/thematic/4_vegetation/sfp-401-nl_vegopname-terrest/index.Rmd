@@ -2,7 +2,7 @@
 title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie
 subtitle: 
 author: [Els De Bie]
-date: 2016-07-19
+date: "`r Sys.Date()`"
 params:
   reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
   file_manager: Hans Van Calster
