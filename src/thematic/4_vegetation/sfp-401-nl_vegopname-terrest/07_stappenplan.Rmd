@@ -76,13 +76,19 @@ en bedekking van de vegetatie correct in te schatten.
 D. Grootte en vorm van het proefvlak
 
 De vorm en grootte van het proefvlak is afhankelijk van het vegetatietype en/of
-het project waarin de opnamen kaderen. We raden nadrukkelijk aan om de
+het project waarin de opnamen kaderen.
+We raden nadrukkelijk aan om de
 standaardwaarden te gebruiken (zie bijlage 1) en hier enkel van af te wijken om
-gemotiveerde redenen. Voor niet-bosvegetatie is binnen INBO de standaard `r params$length_OV_m`m x 
-`r params$width_OV_m`m proefvlak. Voor bossen gaat het om `r params$length_B_m`m x `r params$width_B_m`m. Voor de onderbouwing van
-deze keuze van proefvlakgrootte zie @RN159, § 4.1.3.3. Er kan
-afgeweken worden van zowel grootte als vorm met een duidelijke motivatie van de
-reden. Bijvoorbeeld, voor slenken in natte heides kan dit gereduceerd worden
+gemotiveerde redenen.
+Voor niet-bosvegetatie is binnen INBO de standaard 
+`r params$plot_length_openveg_m` m x `r params$plot_width_openveg_m` m 
+proefvlak.
+Voor bossen gaat het om `r params$plot_length_forest_m` m x 
+`r params$plot_width_forest_m` m.
+Voor de onderbouwing van deze keuze van proefvlakgrootte zie @RN159, § 4.1.3.3.
+Er kan afgeweken worden van zowel grootte als vorm met een duidelijke motivatie van de
+reden.
+Bijvoorbeeld, voor slenken in natte heides kan dit gereduceerd worden
 naar een oppervlak van 1 m² waarbij afgeweken wordt van het vierkant door het
 lineaire karakter van het vegetatietype.
 
