@@ -2,7 +2,7 @@
 title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie
 subtitle: 
 author: [Els De Bie]
-date: 2016-07-19
+date: "`r Sys.Date()`"
 params:
   reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
   file_manager: Hans Van Calster
@@ -14,11 +14,19 @@ params:
   dependencies_versionnumber: !r NA
   dependencies_params: !r NA
   dependencies_appendix: !r NA
-  width_OV_m: 3
-  length_OV_m: 3
-  width_B_m: 16
-  length_B_m: 16
-  cover_scale: "Londo origineel"
+  plot_width_openveg_m: 3
+  plot_length_openveg_m: 3
+  plot_width_forest_m: 16
+  plot_length_forest_m: 16
+  plot_shape: "rectangle"
+  height_herbshrublayer_openveg_m: 0.8
+  height_herbshrublayer_forest_m: 2
+  height_shrubtreelayer_openveg_m: 6
+  height_shrubtreelayer_forest_m: 8
+  species_list: ["vaatplanten", "mossen", "lichenen"]
+  phenology_values: "standaard inbo-fenologiecodes"
+  coverscale_species: "Londo origineel"
+  coverscale_structure: "inbo-structuur-schaal"
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
