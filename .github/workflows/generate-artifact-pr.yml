@@ -1,0 +1,40 @@
+name: On PR, build the protocol and save the result to an artifact
+
+on:
+  pull_request
+
+jobs:
+  build-and-save:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }} # checkout PR head commit
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
+
+      - name: Install pandoc
+        run: |
+          brew install pandoc
+
+      - name: Install packages
+        run: |
+          R -e 'install.packages("bookdown")'
+
+      - name: Render protocol (only the one that is the focus of the PR) 
+        run: |
+          RMD_PATH=($(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep 'index[.]Rmd$'))
+          Rscript -e 'for (f in commandArgs(TRUE)) if (file.exists(f)) bookdown::render_book(f)' ${RMD_PATH[*]} 
+          
+      - name: Archive protocol to an artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: pr-${{ env.PR_NUMBER }}-inbo-protocol
+          path: public
+        env:
+          PR_NUMBER: ${{ github.event.number }}
