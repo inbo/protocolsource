@@ -24,14 +24,16 @@ jobs:
 
       - name: Install packages
         run: |
-          R -e 'install.packages("bookdown")'
+          R -e 'install.packages("remotes")'
+          R -e 'remotes::install_github("protocolhelper")
 
       - name: Render protocol (only the one that is the focus of the PR) 
         run: |
-          RMD_PATH=($(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep 'index[.]Rmd$'))
-          Rscript -e 'for (f in commandArgs(TRUE)) if (file.exists(f)) bookdown::render_book(f)' ${RMD_PATH[*]} 
+          mkdir -p artifact
+          Rscript -e 'protocolhelper::render_protocol(${{ GITHUB_HEAD_REF }}, "artifact")'
           
       - name: Archive protocol to an artifact
+        if: ${{ success() }}
         uses: actions/upload-artifact@v2
         with:
           name: pr-${{ env.PR_NUMBER }}-inbo-protocol
