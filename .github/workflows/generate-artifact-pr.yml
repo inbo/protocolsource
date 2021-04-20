@@ -30,10 +30,8 @@ jobs:
       - name: Render protocol (only the one that is the focus of the PR) 
         run: |
           mkdir -p artifact
-          Rscript -e 'protocolhelper::render_protocol(${{ env.PROTOCOL_CODE}}, "artifact")'
-        env:
-          PROTOCOL_CODE: ${{ GITHUB_HEAD_REF }}
-          
+          Rscript -e 'protocolhelper::render_protocol(${{ env.GITHUB_HEAD_REF}}, "artifact")'
+        
       - name: Archive protocol to an artifact
         if: ${{ success() }}
         uses: actions/upload-artifact@v2
