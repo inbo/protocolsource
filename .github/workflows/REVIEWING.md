@@ -2,7 +2,7 @@
 
 Thanks to GitHub Actions, an artifact (=zip file) of the rendered protocol is now automatically created on each pull request.
 
-Reviewers can proceed like that:
+Reviewers can proceed like this:
 
 1) On the PR page, you can find a "details" link under "checks - On PR, build the site and ...". Go there, click on the top link in the left sidebar, and download the generated artifact at the bottom of the page.
 2) Decompress it and make sure the target directory is called 'protocols' (you may need to rename it)
