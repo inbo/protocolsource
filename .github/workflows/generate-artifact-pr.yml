@@ -27,11 +27,16 @@ jobs:
           R -e 'install.packages("remotes")'
           R -e 'remotes::install_github("inbo/protocolhelper")'
           
-        
+      - name: Get branch name
+        run: echo "::set-env name=BRANCH_NAME::$(echo ${GITHUB_HEAD_REF})"
+
+      - name: print branch name
+        run: echo 'The branch name is' $BRANCH_NAME
+
       - name: Render protocol (only the one that is the focus of the PR) 
         run: |
           mkdir -p artifact
-          Rscript -e 'protocolhelper::render_protocol("${GITHUB_HEAD_REF}", "artifact")'
+          Rscript -e 'protocolhelper::render_protocol("$BRANCH_NAME", "artifact")'
         
       - name: Archive protocol to an artifact
         if: ${{ success() }}
