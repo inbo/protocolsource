@@ -1,0 +1,52 @@
+name: On PR, build the protocol and save the result to an artifact
+
+on:
+  pull_request
+
+jobs:
+  build-and-save:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }} # checkout PR head commit
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
+
+      - name: Install pandoc
+        run: |
+          brew install pandoc
+
+      - name: Install packages
+        run: |
+          R -e 'install.packages("remotes")'
+          R -e 'remotes::install_github("inbo/protocolhelper")'
+          R -e 'install.packages("dplyr")'
+          R -e 'install.packages("purrr")'
+          
+      - name: Set branch name
+        run: |
+          echo "branch_name=$(echo ${GITHUB_HEAD_REF})" >> $GITHUB_ENV
+  
+      - name: Print branch name
+        run: |
+          echo 'The branch name is' '${{ env.branch_name }}'
+          echo 'The branch name is' $branch_name
+      
+      - name: Render protocol (only the one that is the focus of the PR) 
+        run: |
+          Rscript -e 'protocolhelper::render_protocol("${{ env.branch_name }}", "artifact")'
+        
+      - name: Archive protocol to an artifact
+        if: ${{ success() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: pr-${{ env.PR_NUMBER }}-inbo-protocol
+          path: ./**/artifact/
+        env:
+          PR_NUMBER: ${{ github.event.number }}
