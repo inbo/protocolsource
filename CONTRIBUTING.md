@@ -65,7 +65,9 @@ The workflow is as follows for a **new** protocol:
     ![](src/management/pr-on-github-3.png)
 
 1. Continue work on the protocol
-    1. regularly preview the html version of the protocol with `protocolhelper::render_protocol(protocol_folder_name = "name-of-your-protocol-folder")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol)
+    1. regularly preview the html version of the protocol:
+        1. with `protocolhelper::render_protocol(protocol_folder_name = "name-of-your-protocol-folder")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol)
+        1. alternatively, download the rendered version: see [these instructions](.github/workflows/REVIEWING.md)
     1. add text, media, ... to the Rmarkdown files
     1. save your changes
     1. stage, commit, push changes
@@ -73,6 +75,7 @@ The workflow is as follows for a **new** protocol:
 
     ![](src/management/pr-on-github-4.png)
 
+1. Reviewers can follow [these guidelines](.github/workflows/REVIEWING.md)
 1. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
 1. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 1. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
