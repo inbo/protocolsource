@@ -26,6 +26,8 @@ jobs:
         run: |
           R -e 'install.packages("remotes")'
           R -e 'remotes::install_github("inbo/protocolhelper")'
+          R -e 'install.packages("dplyr")'
+          R -e 'install.packages("purrr")'
           
       - name: Set branch name
         run: |
