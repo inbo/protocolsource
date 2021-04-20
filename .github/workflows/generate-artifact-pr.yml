@@ -40,7 +40,6 @@ jobs:
       
       - name: Render protocol (only the one that is the focus of the PR) 
         run: |
-          mkdir -p artifact
           Rscript -e 'protocolhelper::render_protocol("${{ env.branch_name }}", "artifact")'
         
       - name: Archive protocol to an artifact
@@ -48,6 +47,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: pr-${{ env.PR_NUMBER }}-inbo-protocol
-          path: artifact/
+          path: **/artifact/
         env:
           PR_NUMBER: ${{ github.event.number }}
