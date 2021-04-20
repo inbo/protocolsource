@@ -25,7 +25,7 @@ jobs:
       - name: Install packages
         run: |
           R -e 'install.packages("remotes")'
-          R -e 'remotes::install_github("protocolhelper")'
+          R -e 'remotes::install_github("inbo/protocolhelper")'
 
       - name: Render protocol (only the one that is the focus of the PR) 
         run: |
