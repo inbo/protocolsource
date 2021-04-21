@@ -22,13 +22,32 @@ jobs:
         run: |
           brew install pandoc
 
-      - name: Install packages
+      - name: Query dependencies
         run: |
-          R -e 'install.packages("remotes")'
-          R -e 'remotes::install_github("inbo/protocolhelper")'
-          R -e 'install.packages("dplyr")'
-          R -e 'install.packages("purrr")'
-          
+          install.packages('remotes')
+          saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+        shell: Rscript {0}
+
+      - name: Restore R package cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+
+      - name: Install dependencies
+        run: |
+          remotes::install_deps(dependencies = TRUE)
+        shell: Rscript {0}
+
+      - name: Session info
+        run: |
+          options(width = 100)
+          pkgs <- installed.packages()[, "Package"]
+          sessioninfo::session_info(pkgs, include_base = TRUE)
+        shell: Rscript {0}
+
       - name: Set branch name
         run: |
           echo "branch_name=$(echo ${GITHUB_HEAD_REF})" >> $GITHUB_ENV
