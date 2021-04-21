@@ -15,8 +15,13 @@ If you want to contribute a new protocol or update an existing protocol, check t
 ## Repository structure
 
 ```
-  |- README.md <- up to date description of the repo content
   |- CONTRIBUTING.md <- Contributing guidelines
+  |- DESCRIPTION <- file used to document which R packages are used in the repo
+  |- LICENSE <- license file
+  |- NEWS.md <- repo-wide news file; contains one entry for each release
+  |- README.md <- up to date description of the repo content
+  |- RELEASES.md <- description of how protocols are released/published
+  |- .github <- folder containing a pull request template and github action workflows
   |- docs <- can be used to locally inspect rendered versions of protocols; is git-ignored
   |- from_docx <- contains Microsoft Word docx protocols which were converted to 
                   markdown; is git-ignored

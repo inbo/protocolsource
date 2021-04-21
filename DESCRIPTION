@@ -25,4 +25,5 @@ Imports:
     git2rdata,
     knitr,
     protocolhelper,
-    rprojroot
+    rprojroot,
+    sessioninfo
