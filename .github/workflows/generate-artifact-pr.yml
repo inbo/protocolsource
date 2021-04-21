@@ -45,7 +45,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          remotes::install_deps(dependencies = NA)
+          remotes::install_deps(dependencies = NA) #fails to install protocolhelper
+          remotes::install_github("inbo/protocolhelper")
         shell: Rscript {0}
 
       - name: Session info
