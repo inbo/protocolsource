@@ -75,7 +75,7 @@ opts_chunk$set(
   error = TRUE,
   message = FALSE
 )
-library(tidyverse)
+library(dplyr)
 library(git2rdata)
 library(rprojroot)
 
