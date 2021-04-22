@@ -19,6 +19,8 @@ Language: en-GB
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Remotes:
+    github::inbo/protocolhelper
 Imports: 
     dplyr,
     ggplot2,
@@ -26,4 +28,5 @@ Imports:
     knitr,
     protocolhelper,
     rprojroot,
-    sessioninfo
+    sessioninfo,
+    tibble
