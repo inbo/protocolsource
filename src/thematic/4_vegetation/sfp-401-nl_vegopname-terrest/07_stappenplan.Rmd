@@ -8,40 +8,31 @@ De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de
 doelstelling en voorgeschiedenis van het project en van het beschikbare
 materiaal en apparatuur voor het project.
 
-A. Kaartmateriaal met te bezoeken locaties wordt voorbereid in een GIS-omgeving.
+1. Kaartmateriaal met te bezoeken locaties wordt voorbereid in een GIS-omgeving.
 Indien geen veldcomputer/tablet voorhanden, worden de kaarten in kleur geprint,
 met een duidelijke schaalvermelding. Eventueel worden overzichtskaarten gemaakt
 zodat de kortste afstand, of de gemakkelijkste weg tot het punt of perceel
 duidelijk is (bv. brugjes over rivieren, onverharde wegen, ...).
-
-B. Coördinaten worden ingelezen in een GPS (WGS84 !) of in Fieldmap, indien
+2. Coördinaten worden ingelezen in een GPS (WGS84 !) of in Fieldmap, indien
 voorhanden. Zo kan er makkelijker genavigeerd worden naar het specifieke punt.
-
-C. Voor elke locatie is de optimale periode bepaald waarin het veldwerk wordt
+3. Voor elke locatie is de optimale periode bepaald waarin het veldwerk wordt
 uitgevoerd.
-
-D. Voor elke locatie is op voorhand de grootte en vorm van het proefvlak
+4. Voor elke locatie is op voorhand de grootte en vorm van het proefvlak
 vastgelegd afhankelijk van de doelstellingen van het onderzoek.
-
-E. Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen
+5. Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen
 worden, indien voorhanden. Er is wel per project een afweging nodig van de voor-
 en nadelen die hieraan verbonden zijn. Aan de hand van oude opnames een globale
 soortenlijst van het gebied samenstellen is aan te raden om op voorhand
 vertrouwd te geraken met de soorten.
-
     -   Mogelijke voordelen: kan helpen bij herlokalisatie, leereffect, ...
-
     -   Mogelijke nadelen: overnemen van foute determinaties, onbewuste
         vertekening door verhoogde zoekinspanning naar ontbrekende soorten of
         door bijstellen van de bedekking, ...
-
-F. Print voldoende veldformulieren (+ enkele extra) af, per proefvlak minstens 1
+6. Print voldoende veldformulieren (+ enkele extra) af, per proefvlak minstens 1
 veldformulier.
-
-G. Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist
-\@ref(benodigdheden)).
-
-H. Zorg indien mogelijk dat je de toestemming hebt om de percelen te betreden.
+7. Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist, zie
+hoofdstuk \@ref(benodigdheden)).
+8. Zorg indien mogelijk dat je de toestemming hebt om de percelen te betreden.
 
 ### Keuze periode
 
@@ -225,7 +216,7 @@ rastercel een gemiddelde hoogte voor het volledige proefvlak oplevert.
 #### Soortensamenstelling
 
 Alle plantensoorten binnen het proefvlak worden systematisch genoteerd
-(`r cat(params$species_list, sep = ", ")`). Het
+(`r paste(params$species_list, collapse = ", ")`). Het
 handigst is hier te beginnen bij de hoogste structuurlaag om dan af te zakken
 naar de finale moslaag (indien mossen dienen opgenomen te worden). Vaak wordt
 begonnen met de meest opvallende of talrijkere soorten om dan af te zakken naar
