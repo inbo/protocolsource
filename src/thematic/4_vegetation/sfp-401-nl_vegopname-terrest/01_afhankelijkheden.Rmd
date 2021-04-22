@@ -5,14 +5,6 @@ Hier niets invullen.
 Indien er dependencies zijn deze invullen in de yaml sectie van index.Rmd
 -->
 
-Procedures waarnaar in deze procedure verwezen wordt:
-
--   sfp-402, sfp-40X, Foto-protocol
-
-Procedures die verwijzen naar deze procedure: bv.
-
--   sfp-402, sfp-40X
-
 
 ```{r dependencies}
 dependencies <- tibble(
