@@ -6,32 +6,28 @@
 
 De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de
 doelstelling en voorgeschiedenis van het project en van het beschikbare
-materiaal en apparatuur voor het project. 
-Zie ook de beslisboom SVP-40x.
+materiaal en apparatuur voor het project.
 
-A.  Kaartmateriaal met te bezoeken locaties wordt voorbereid in een
-    GIS-omgeving. Indien geen veldcomputer/tablet voorhanden, worden de kaarten
-    in kleur geprint, met een duidelijke schaalvermelding. Eventueel worden
-    overzichtskaarten gemaakt zodat de kortste afstand, of de gemakkelijkste weg
-    tot het punt of perceel duidelijk is (bv. brugjes over rivieren, onverharde
-    wegen, ...).
+A. Kaartmateriaal met te bezoeken locaties wordt voorbereid in een GIS-omgeving.
+Indien geen veldcomputer/tablet voorhanden, worden de kaarten in kleur geprint,
+met een duidelijke schaalvermelding. Eventueel worden overzichtskaarten gemaakt
+zodat de kortste afstand, of de gemakkelijkste weg tot het punt of perceel
+duidelijk is (bv. brugjes over rivieren, onverharde wegen, ...).
 
-B.  Coördinaten worden ingelezen in een GPS (WGS84 !) of in Fieldmap, indien
-    voorhanden. Zo kan er makkelijker genavigeerd worden naar het specifieke
-    punt.
+B. Coördinaten worden ingelezen in een GPS (WGS84 !) of in Fieldmap, indien
+voorhanden. Zo kan er makkelijker genavigeerd worden naar het specifieke punt.
 
-C.  Voor elke locatie is de optimale periode bepaald waarin het veldwerk wordt
-    uitgevoerd.
+C. Voor elke locatie is de optimale periode bepaald waarin het veldwerk wordt
+uitgevoerd.
 
-D.  Voor elke locatie is op voorhand de grootte en vorm van het proefvlak
-    vastgelegd afhankelijk van de doelstellingen van het onderzoek (zie
-    beslisboom SVP-40x).
+D. Voor elke locatie is op voorhand de grootte en vorm van het proefvlak
+vastgelegd afhankelijk van de doelstellingen van het onderzoek.
 
-E.  Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen
-    worden, indien voorhanden. Er is wel per project een afweging nodig van de
-    voor- en nadelen die hieraan verbonden zijn. Aan de hand van oude opnames
-    een globale soortenlijst van het gebied samenstellen is aan te raden om op
-    voorhand vertrouwd te geraken met de soorten.
+E. Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen
+worden, indien voorhanden. Er is wel per project een afweging nodig van de voor-
+en nadelen die hieraan verbonden zijn. Aan de hand van oude opnames een globale
+soortenlijst van het gebied samenstellen is aan te raden om op voorhand
+vertrouwd te geraken met de soorten.
 
     -   Mogelijke voordelen: kan helpen bij herlokalisatie, leereffect, ...
 
@@ -39,12 +35,13 @@ E.  Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen
         vertekening door verhoogde zoekinspanning naar ontbrekende soorten of
         door bijstellen van de bedekking, ...
 
-F.  Print voldoende veldformulieren (+ enkele extra) af, per proefvlak minstens
-    1 veldformulier.
+F. Print voldoende veldformulieren (+ enkele extra) af, per proefvlak minstens 1
+veldformulier.
 
-G.  Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist §4).
+G. Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist
+\@ref(benodigdheden)).
 
-H.  Zorg indien mogelijk dat je de toestemming hebt om de percelen te betreden.
+H. Zorg indien mogelijk dat je de toestemming hebt om de percelen te betreden.
 
 ### Keuze periode
 
@@ -124,16 +121,17 @@ lopen. Als 1 hoekpunt gekend of vastgelegd is, wordt hier een markeerstok in de
 grond gestoken. Via een vaste oriëntatie (steeds N-Z) wordt het proefvlak
 uitgezet.
 
-Een heel snelle manier om proefvlakken (3 m x 3 m) uit te zetten is door gebruik
-te maken van een touw van 6 m, aan de uiteinden voorzien van een lus. Op het
-touw brengt men twee merktekens aan: de diameter van een vierkant van 3 m x 3 m
-(= 4.24 m) en een teken op 3 m (= een zijde van het proefvlak). Men plaatst
-vervolgens een stokje (1 in figuur \@ref(fig:image2)) en hangt het uiteinde van het touw over
-dat stokje. Het tweede stokje plaatst men ter hoogte van de aangeduide diameter
-(touw dus wel opspannen, 2 in Figuur \@ref(fig:image2)). Hier maak je het andere uiteinde van
-het touw vast. Vervolgens hoeft men enkel nog het touw op te spannen op het 3
-m-punt (3 of 4 in Figuur \@ref(fig:image2)) en de helft van het proefvlak is al in orde. Best is
-om ook twee zulke touwen mee te nemen. Dit kan uiteraard ook met een lintmeter.
+Een heel snelle manier om proefvlakken (bv voor een 3 m x 3 m proefvlak) uit te
+zetten is door gebruik te maken van een touw van 6 m, aan de uiteinden voorzien
+van een lus. Op het touw brengt men twee merktekens aan: de diameter van een
+vierkant van 3 m x 3 m (= 4.24 m) en een teken op 3 m (= een zijde van het
+proefvlak). Men plaatst vervolgens een stokje (1 in figuur \@ref(fig:image2)) en
+hangt het uiteinde van het touw over dat stokje. Het tweede stokje plaatst men
+ter hoogte van de aangeduide diameter (touw dus wel opspannen, 2 in Figuur
+\@ref(fig:image2)). Hier maak je het andere uiteinde van het touw vast.
+Vervolgens hoeft men enkel nog het touw op te spannen op het 3 m-punt (3 of 4 in
+Figuur \@ref(fig:image2)) en de helft van het proefvlak is al in orde. Best is om
+ook twee zulke touwen mee te nemen. Dit kan uiteraard ook met een lintmeter.
 Voor de N-Z oriëntatie is het belangrijk om de 2^de^ markeerstok in NW richting
 (2) te plaatsen met behulp van een kompas. Zie figuur \@ref(fig:image2) voor meer
 verduidelijking.
@@ -161,9 +159,9 @@ oosten) bij benadering aangegeven van waaruit de foto genomen werd.
 
 Om problemen te vermijden bij de latere verwerking wordt aangeraden om op de
 foto een duidelijk zichtbare identificatiecode van het proefvlak en oriëntatie
-weer te geven (Figuur \@ref(fig:image6)). We raden aan om op een tabletje deze gegevens te
-noteren en mee te fotograferen. Het is ook mogelijk om het invulformulier mee op
-de foto te zetten (of als eerste te fotograferen).
+weer te geven (Figuur \@ref(fig:image6)). We raden aan om op een tabletje deze
+gegevens te noteren en mee te fotograferen. Het is ook mogelijk om het
+invulformulier mee op de foto te zetten (of als eerste te fotograferen).
 
 
 
@@ -178,7 +176,7 @@ Met de nieuwe smartphones is het trouwens mogelijk om de locatie van de genomen
 foto te taggen.
 
 Het is belangrijk om achteraf de fotobestanden een gestructureerde naam (bv.
-Identificatiecode\_Oriëntatie\_Datum) te geven. Voor opslag en beheer van
+identificatiecode\_oriëntatie\_datum) te geven. Voor opslag en beheer van
 fotobestanden zal in een latere fase hiervoor een Digital Asset Management-tool
 beschikbaar komen.
 
@@ -194,13 +192,20 @@ Bij een gelaagde vegetatie wordt de bedekking van de verschillende
 structuurlagen, zijnde strooisellaag, algenlaag, moslaag, kruidlaag, struiklaag
 en boomlaag geschat. Voor INBO gelden volgende defaultwaarden:
 
-De moslaag betreft alle terrestrische mossen, inclusief veenmossen. De kruidlaag
-bevat alle niet-houtige kruiden, en alle houtige planten met een hoogte tot
-maximaal 0.8 m. Kiemplanten en zaailingen van houtige gewassen aanwezig in de
-kruidlaag worden genoteerd met vermelding kiemplant (k) bij de fenologie. Tot de
-struiklaag worden de houtige planten van 0.8 tot 6 m gerekend. De boomlaag
-bestaat uit houtige planten hoger dan 6 m. Voor bossen ligt de opdeling tussen
-kruid- en struiklaag op 2 m, voor struik- en boomlaag op 8 m.
+De moslaag betreft alle terrestrische mossen, inclusief veenmossen.
+
+*Open vegetaties* De kruidlaag bevat alle niet-houtige kruiden, en alle houtige
+planten met een hoogte tot maximaal `r params$height_herbshrublayer_openveg_m`
+m. Kiemplanten en zaailingen van houtige gewassen aanwezig in de kruidlaag
+worden genoteerd met vermelding kiemplant (k) bij de fenologie. Tot de
+struiklaag worden in open vegetaties de houtige planten van
+`r params$height_herbshrublayer_openveg_m` tot
+`r params$height_shrubtreelayer_openveg_m` m gerekend. De boomlaag bestaat uit
+houtige planten hoger dan `r params$height_shrubtreelayer_openveg_m` m.
+
+*Bossen* Voor bossen ligt de opdeling tussen kruid- en struiklaag op
+`r params$height_herbshrublayer_forest_m` m, voor struik- en boomlaag op
+`r params$height_shrubtreelayer_forest_m` m.
 
 De totale bedekkingen van strooisellaag, algenlaag, moslaag, kruidlaag, boom- en
 struiklaag worden afzonderlijk ingeschat met telkens maximaal 100% bedekking.
@@ -220,7 +225,7 @@ rastercel een gemiddelde hoogte voor het volledige proefvlak oplevert.
 #### Soortensamenstelling
 
 Alle plantensoorten binnen het proefvlak worden systematisch genoteerd
-(INBO-default is vaatplanten, terrestrische mossoorten en lichenen). Het
+(`r cat(params$species_list, sep = ", ")`). Het
 handigst is hier te beginnen bij de hoogste structuurlaag om dan af te zakken
 naar de finale moslaag (indien mossen dienen opgenomen te worden). Vaak wordt
 begonnen met de meest opvallende of talrijkere soorten om dan af te zakken naar
@@ -251,8 +256,8 @@ Het is belangrijk om niet enkel wortelende planten binnen het proefvlak te
 bekijken, maar ook deze met een duidelijke bedekking in het proefvlak, bv.
 overhangende vegetatie met wortels buiten het proefvlak.
 
-Voor de vegetatieopname maken we als INBO-standaard gebruik van de schaal van
-`r params$coverscale_species` (extra schalen enkel deze actief in INBOVEG). 
+Voor de vegetatieopname maken we gebruik van de schaal van
+`r params$coverscale_species`. 
 Dit is een vrij gedetailleerde schaal, vooral voor de soorten met een lage
 bedekking. Soorten met een hoge presentie, maar lage bedekking worden op die
 manier niet onderschat. We spreken hier van een gecombineerde
