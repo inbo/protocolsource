@@ -46,7 +46,7 @@
 Indien afgeweken wordt van de defaultwaarden, geef dan hier een korte motivatie
 waarom hiervan afgeweken wordt (of verwijs naar een rapport / referentie):
 
-#  Bijlage: opnameformulier
+#  Bijlage: opnameformulier {#bijlage-opnameformulier}
 
 ```{r image11, out.width= '100%'}
 knitr::include_graphics(path = './media/image11.png')

@@ -275,10 +275,10 @@ Naast deze letter wordt ook een bedekkingsklasse gegeven nl. ".1" (minder dan
 ingedeeld in 11 klassen. Voor mossen wordt enkel bedekking genoteerd (.1, .2,
 .4).
 
-Tabel 1- Schaal van Londo [@RN154]. De aantalsgrenzen die vermeld worden bij r
-(raro), p (paululum), a (amplius) en m (multum) zijn toegevoegd. De
-drempelwaarde ligt binnen de lagere klasse dus 5-10% betekent ≤ 10%; 10 tot 15%
-betekent \>10% ≤15%.
+Tabel 1- Schaal van `r params$coverscale_species` [@RN154]. De aantalsgrenzen
+die vermeld worden bij r (raro), p (paululum), a (amplius) en m (multum) zijn
+toegevoegd. De drempelwaarde ligt binnen de lagere klasse dus 5-10% betekent
+≤ 10%; 10 tot 15% betekent \>10% ≤15%.
 
   **soorten met bedekking minder dan 5%**                                                   
   ----------------------------------------- ---------------------- ------------------------ ----------------
@@ -365,10 +365,11 @@ knitr::include_graphics(path = c('./media/image8.jpeg','./media/image9.jpeg'))
 ## Registratie en bewaring van resultaten
 
 De resultaten van de vegetatieopnames worden genoteerd op de desbetreffende
-invulformulieren (zie bijlage 2) en worden bewaard in een daarvoor bestemde
-archiefmap na inscannen. Alle opnames worden later ingegeven in INBOVEG.
+invulformulieren (zie bijlage \@ref(bijlage-opnameformulier)) en worden bewaard
+in een daarvoor bestemde archiefmap na inscannen. Alle opnames worden later
+ingegeven in INBOVEG.
 
 De foto's worden gearchiveerd (in een latere fase zal hiervoor een Digital Asset
 Management-tool beschikbaar komen) waarbij een link mogelijk is naar een unieke
 identificatiecode voor de locatie of de vegetatieopname. De naam van de foto
-wordt "Identificatiecode\_Orientatie\_Datum".
+wordt "identificatiecode\_orientatie\_datum".
