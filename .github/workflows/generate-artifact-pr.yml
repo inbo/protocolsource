@@ -28,6 +28,11 @@ jobs:
           writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
 
+      - name: Install pandoc
+        run: |
+          brew install pandoc
+          brew install pandoc-citeproc
+      
       - name: Install system dependencies # will install pandoc
         if: runner.os == 'Linux'
         run: |
@@ -64,7 +69,7 @@ jobs:
         run: |
           echo 'The branch name is' '${{ env.branch_name }}'
           echo 'The branch name is' $branch_name
-      
+
       - name: Render protocol (only the one that is the focus of the PR) 
         run: |
           Rscript -e 'protocolhelper::render_protocol("${{ env.branch_name }}", "artifact")'
