@@ -18,7 +18,7 @@ params:
   plot_length_openveg_m: 3
   plot_width_forest_m: 16
   plot_length_forest_m: 16
-  plot_shape: "rectangle"
+  plot_shape: "vierkant"
   height_herbshrublayer_openveg_m: 0.8
   height_herbshrublayer_forest_m: 2
   height_shrubtreelayer_openveg_m: 6

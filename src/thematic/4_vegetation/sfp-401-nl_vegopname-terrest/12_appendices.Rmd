@@ -1,5 +1,32 @@
 # (APPENDIX) Bijlagen {-} 
 
+#  Bijlage: instelwaarden {#bijlage-params}
+
+```{r params-tabel}
+vertaal <- c(
+  plot_width_openveg_m = "breedte proefvlak in open vegetaties in meter",
+  plot_length_openveg_m = "lengte proefvlak in open vegetaties in meter",
+  plot_width_forest_m = "breedte proefvlak in bosvegetaties in meter",
+  plot_length_forest_m = "lengte proefvlak in bosvegetaties in meter",
+  plot_shape = "vorm proefvlak",
+  height_herbshrublayer_openveg_m = "hoogte overgang kruid/struiklaag in open vegetaties in meter",
+  height_herbshrublayer_forest_m = "hoogte overgang kruidlaag/struiklaag in bosvegetaties in meter",
+  height_shrubtreelayer_openveg_m = "hoogte overgang struik/boomlaag in open vegetaties in meter",
+  height_shrubtreelayer_forest_m = "hoogte overgang struik/boomlaag in bosvegetaties in meter",
+  species_list = "soortenlijsten",
+  phenology_values = "fenologieschaal",
+  coverscale_species = "bedekkingsschaal voor soorten",
+  coverscale_structure = "bedekkingsschaal voor structuur")
+
+params %>%
+  tibble::enframe() %>%
+  slice(-(1:10)) %>%
+  mutate(name = recode(name, !!!vertaal)) %>%
+  rename(naam = name, waarde = value) %>%
+  kable()
+```
+
+
 #  Bijlage: opnameformulier {#bijlage-opnameformulier}
 
 ```{r image11, out.width= '100%'}
@@ -12,11 +39,12 @@ knitr::include_graphics(path = './media/image11.png')
 
 Grootte van het proefvlak:
 
-Open vegetaties `r params$length_OV_m`m \*`r params$width_OV_m`m
-
-Bossen `r params$length_B_m`m \* `r params$width_B_m` m
-
-2.56 m^2^ = 1% 30 cm x 30 cm = 1%
+- Open vegetaties
+    - `r params$plot_length_openveg_m` m x `r params$plot_width_openveg_m` m
+    - 1% = `r params$plot_length_openveg_m/10` m x `r params$plot_width_openveg_m/10` m
+- Bossen
+    - `r params$plot_length_forest_m` m x `r params$plot_width_forest_m` m
+    - 1% = `r params$plot_length_forest_m/10` m x `r params$plot_width_forest_m/10` m
 
 #  Bijlage: opnameschalen
 
