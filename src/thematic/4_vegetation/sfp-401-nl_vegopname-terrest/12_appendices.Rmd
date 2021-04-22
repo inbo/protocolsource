@@ -1,6 +1,6 @@
 # (APPENDIX) Bijlagen {-} 
 
-#  Bijlage: INBO-defaultwaarden en projectfiche
+#  Bijlage: INBO-defaultwaarden en projectfiche {#bijlage-1}
 
 +-------------------------+-------------------------+-------------------------+
 | **Variabelen**          | **INBO-defaultwaarden** | **Projectspecifieke     |
