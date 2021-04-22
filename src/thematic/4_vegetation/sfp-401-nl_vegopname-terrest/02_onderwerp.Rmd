@@ -64,9 +64,5 @@ te karakteriseren.
 De hier beschreven procedure is uitsluitend van toepassing op vegetaties in
 terrestrische al dan niet grondwaterafhankelijke situaties. De grootte en vorm
 van het proefvlak kan variëren, afhankelijk van de doelstelling of van het
-bestudeerde vegetatietype. Zie bijlage \@ref(bijlage-1) voor de
-INBO-standaardwaarden. In deze bijlage worden alleen maar de variabelen benoemd
-die projectspecifiek kunnen ingevuld worden. De bijlage is dus te beschouwen als
-een projectfiche waarmee dit generieke protocol op de leest van het project
-wordt geschoeid.
+bestudeerde vegetatietype.
 

@@ -1,51 +1,5 @@
 # (APPENDIX) Bijlagen {-} 
 
-#  Bijlage: INBO-defaultwaarden en projectfiche {#bijlage-1}
-
-+-------------------------+-------------------------+-------------------------+
-| **Variabelen**          | **INBO-defaultwaarden** | **Projectspecifieke     |
-|                         |                         | waarde**                |
-+=========================+=========================+=========================+
-| Grootte proefvlak       |`r params$length_OV_m`m \* `r params$width_OV_m`m  |
-|                         |(open vegetatie)         |                         |
-|                         |                         |                         |
-|                         |`r params$length_B_m`m \* `r params$width_B_m`m    |
-|                         |(bossen)                 |                         |
-+-------------------------+-------------------------+-------------------------+
-| Vorm proefvlak          | vierkant                |                         |
-+-------------------------+-------------------------+-------------------------+
-| Hoogte kruidlaag --     | \< 0.8 m (open          |                         |
-|                         | vegetatie)              |                         |
-| houtige gewassen        |                         |                         |
-|                         | \< 2 m (bossen)         |                         |
-+-------------------------+-------------------------+-------------------------+
-| Hoogte struiklaag --    | 0.8 - 6 m (open         |                         |
-|                         | vegetatie)              |                         |
-| houtige gewassen        |                         |                         |
-|                         | 2 m -- 8 m (bossen)     |                         |
-+-------------------------+-------------------------+-------------------------+
-| Hoogte boomlaag         | \> 6 m (open vegetatie  |                         |
-|                         |                         |                         |
-|                         | \> 8 m (bossen)         |                         |
-+-------------------------+-------------------------+-------------------------+
-| Soortenlijst            | Vaatplanten, mossen en  |                         |
-|                         | lichenen                |                         |
-+-------------------------+-------------------------+-------------------------+
-| Fenologie-waarden       | Standaard               |                         |
-|                         | inbo-fenologiecodes     |                         |
-+-------------------------+-------------------------+-------------------------+
-| Opnameschaal            | `r params$cover_scale` 1976                       |
-+-------------------------+-------------------------+-------------------------+
-| Bedekking               | INBO-structuur-schaal   |                         |
-| structuurlagen          | (0, 1, 2, 3, 4, 5, 10,  |                         |
-|                         | 15, 20, 30, 40, 50, 60, |                         |
-|                         | 70, 80, 85, 90, 95, 96, |                         |
-|                         | 97, 98, 99, 100)        |                         |
-+-------------------------+-------------------------+-------------------------+
-
-Indien afgeweken wordt van de defaultwaarden, geef dan hier een korte motivatie
-waarom hiervan afgeweken wordt (of verwijs naar een rapport / referentie):
-
 #  Bijlage: opnameformulier {#bijlage-opnameformulier}
 
 ```{r image11, out.width= '100%'}
