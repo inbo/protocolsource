@@ -18,8 +18,14 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }} # checkout PR head commit
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
+
+      - name: Setup pandoc and pandoc-citeproc
+        uses: r-lib/actions/setup-pandoc@v1
+        with:
+          pandoc-version: '2.7.3' # The pandoc version to download (if necessary) and use.
 
       - name: Query dependencies
         run: |
@@ -27,19 +33,6 @@ jobs:
           saveRDS(remotes::dev_package_deps(dependencies = NA), ".github/depends.Rds", version = 2)
           writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
-
-      - name: Install pandoc
-        run: |
-          brew install pandoc
-          brew install pandoc-citeproc
-      
-      - name: Install system dependencies # will install pandoc
-        if: runner.os == 'Linux'
-        run: |
-          while read -r cmd
-          do
-            eval sudo $cmd
-          done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
 
       - name: Restore R package cache
         uses: actions/cache@v2
