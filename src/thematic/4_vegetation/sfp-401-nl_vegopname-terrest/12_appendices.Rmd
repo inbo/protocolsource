@@ -46,79 +46,32 @@ Grootte van het proefvlak:
     - `r params$plot_length_forest_m` m x `r params$plot_width_forest_m` m
     - 1% = `r params$plot_length_forest_m/10` m x `r params$plot_width_forest_m/10` m
 
-#  Bijlage: opnameschalen
+#  Bijlage: `r params$coverscale_species`
 
-**Schaal van Londo**
-
-  code  aantallen - percentage
-  ----- -------------------------------------
-  r\.   1 -2 ex. (sporadisch -- raro)
-  p\.   10-tal (weinig talrijk -- paululum)
-  a\.   100-tal (talrijk -- amplius)
-  m\.   1000-tal (zeer talrijk - multum)
-  .1    \< 1%
-  .2    1-2%
-  .4    3-4 %
-  1-    5-10 %
-  1     5-15 %
-  1+    10-15 %
-  2     15-25 %
-  3     25-35 %
-  4     35-45 %
-  5-    45 -50 %
-  5     45-55 %
-  5+    50-55 %
-  6     55-65 %
-  7     65-75 %
-  8     75-85 %
-  9     85-95 %
-  10    100%
-
-#  Bijlage: Andere mogelijke opnameschalen
-
-Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames
-
-```{r coverscales-db, eval = !file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
-# this chunk only needs to be executed interactively once
-# each time a new version of the protocol is made
-library(inbodb)
-library(glue)
-
-con <- connect_inbo_dbase("D0013_00_Futon")
-
-cover <- glue_sql("SELECT ListName
-, Code
-, SortCode
-, PctValue
-from [dbo].[ftCoverValues] CV
-inner join [dbo].[ftActionGroupList] AGL on AGL.ListGIVID = CV.ListGIVID
-where 1 = 1 
-AND (ListName LIKE 'Londo%'
-     OR ListName LIKE 'Braun%')
-AND InUse = '1'
-ORDER BY ListName DESC, SortCode ASC OFFSET 0 ROWS", 
-                  .con = con) 
-
-cover_result <- tbl(con, sql(cover)) %>%
-  collect()
-
-
-#close connection
-dbDisconnect(con)
-
-write_vc(cover_result, 
-         file = "cover_scales", 
-         sorting = c("ListName", "SortCode", "PctValue", "Code"),
-         root = file.path(protocol_path, "data"))
-```
-
-```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
-cover_scales <- read_vc(
+```{r coverscale-protocol, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+cover_scales <- git2rdata::read_vc(
   file = "cover_scales", 
   root = file.path(protocol_path, "data")
 )
 
-kable(cover_scales %>% select(-SortCode), 
+kable(cover_scales %>% 
+        filter(ListName == params$coverscale_species) %>%
+        select(-SortCode), 
+      caption = paste0("Table with cover scale ", params$coverscale_species))
+```
+
+
+#  Bijlage: Andere mogelijke opnameschalen
+
+Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames.
+
+
+```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+kable(cover_scales %>%
+        filter(ListName != params$coverscale_species) %>%
+        select(-SortCode) %>%
+        group_by(ListName) %>%
+        summarise(codes = paste(Code, collapse = ", ")), 
       caption = "Table with active cover scales in InboVeg")
 ```
 

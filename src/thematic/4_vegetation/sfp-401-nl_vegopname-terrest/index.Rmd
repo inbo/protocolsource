@@ -84,6 +84,44 @@ protocol_path <- find_root_file("src/thematic/4_vegetation/",
                                 criterion = is_git_root)
 ```
 
+```{r coverscales-db, eval = !file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+# this chunk only needs to be executed interactively once
+# each time a new version of the protocol is made
+library(inbodb)
+library(glue)
+
+con <- connect_inbo_dbase("D0013_00_Futon")
+
+cover <- glue_sql("SELECT ListName
+, Code
+, SortCode
+, PctValue
+from [dbo].[ftCoverValues] CV
+inner join [dbo].[ftActionGroupList] AGL on AGL.ListGIVID = CV.ListGIVID
+where 1 = 1 
+AND (ListName LIKE 'Londo%'
+     OR ListName LIKE 'Braun%'
+     OR ListName LIKE 'Pct%'
+     OR ListName LIKE 'Provoost%'
+     OR ListName LIKE 'Barkman%'
+     OR ListName LIKE '%onitoring%')
+AND InUse = '1'
+ORDER BY ListName DESC, SortCode ASC OFFSET 0 ROWS", 
+                  .con = con) 
+
+cover_result <- tbl(con, sql(cover)) %>%
+  collect()
+
+
+#close connection
+dbDisconnect(con)
+
+write_vc(cover_result, 
+         file = "cover_scales", 
+         sorting = c("ListName", "SortCode", "PctValue", "Code"),
+         root = file.path(protocol_path, "data"))
+```
+
 
 # Metadata {-}
 
