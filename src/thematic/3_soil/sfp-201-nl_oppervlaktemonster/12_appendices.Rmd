@@ -1,0 +1,16 @@
+# (APPENDIX) Bijlagen {-} 
+
+# Afmetingen proefvlak en bemonsteringsdiepte van de bodemmonsters
+
+  **Project**     **Vegetatietype**   **Dimensies proefvlak/permanent quadraat**   **Bemonsterde diepte-intervallen**   
+  --------------- ------------------- -------------------------------------------- ------------------------------------ ---------
+                                      **Zijde**                                    **Diagonaal**                        
+  HabNorm         Open vegetaties     3 m \*3 m                                    4.24 m                               0-10 cm
+  HabNorm         Bos                 16 m \* 16 m                                 22.63 m                              0-10 cm
+  Bosreservaten   Bos                 10 m \* 10 m                                 14.14 m                              0-10 cm
+
+# Opnameformulier voor oppervlaktemonsters
+
+Dit formulier wordt in een afzonderlijk PDF document bewaard zodat het duidelijk
+op twee zijden van een A4 blad kan afgedrukt worden.
+

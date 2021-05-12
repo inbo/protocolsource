@@ -1,0 +1,28 @@
+# Referenties {-}
+<div id="refs"></div>
+
+<!--
+Eventueel opsplitsen in sleutelreferentie en overige referenties.
+-->
+
+
+<!--
+Emis. Ministerieel besluit van 29 januari 2015. Belgisch Staatsblad van 18
+februari 2015. Compendium voor monsterneming en analyse in uitvoering van het
+Materialendecreet en het Bodemdecreet. Versie november 2013. Vaste deel van de
+aarde CMA/1/A.1 [[http://www.emis.vito.be]{.underline}](http://www.emis.vito.be)
+
+Emis. Ministerieel besluit van 8 juli 2014. Belgisch Staatsblad van 6 augustus
+2014. Compendium voor monsterneming, meting en analyse in het kader van
+bodembescherming (BOC) Versie 1.3, mei 2014.
+[[http://www.emis.vito.be]{.underline}](http://www.emis.vito.be)
+
+Eijkelkamp Agrisearch Equipment. Februari 2015. Gouge augers. Operating
+instructions. M1.04.E. downloaded from <http://www.eijkelkamp.com>
+
+Van Delft, B., de Waal, R., Kemmers, R., Mekkink, P. 2004. Veldgids humusvormen.
+Beschrijving en classificatie van humusprofielen voor ecologische toepassingen.
+Versie 1.03 12-12-2006.
+
+
+-->

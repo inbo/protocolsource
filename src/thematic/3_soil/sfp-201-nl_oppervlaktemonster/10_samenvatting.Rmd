@@ -1,0 +1,33 @@
+# Samenvatting
+
+<!--
+Een samenvattende opsomming van de te volgen stappen.
+Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
+-->
+
+## Methoderecept
+
+-   Baken het proefvlak af en verdeel het in het gewenste aantal kwadranten
+
+-   Neem eerst van elk kwadrant een monster kloksgewijs (in wijzerzin), eindig
+    > met het centrale monster
+
+-   Verwijder bij elk monsters het overtollig materiaal van de guts
+
+-   Neem van elk monster het gewenste materiaal (bvb. over een diepte van de
+    > eerste 10 cm) en breng in een mengemmertje
+
+-   Verwijder zoveel mogelijk het materiaal dat niet mee opgenomen mag worden in
+    > het laboratoriummonster (levend materiaal, steentjes, ...)
+
+-   Homogeniseer het mengmonster in een mengemmertje en breng over in een
+    > monsterbakje
+
+-   Etiketteer het mengmonster
+
+-   Vul het opnameformulier in (voorbeeld in bijlage 2)
+
+-   Sluit de boorgaten af met overtollig monster
+
+-   Bewaar het mengmonster
+
