@@ -33,27 +33,26 @@ Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen,
 vb. vermeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit PE, met afsluitbare deksel uit PP.
 -->
 
--   **Gutsboor:** Een grondboor van het type 'guts' (Eng. Gouge auger, foto's 1
-    en 2). bestaat uit een cilindervormig boorlichaam waarvan het werkzame deel
+-   **Gutsboor:** Een grondboor van het type 'guts' (Eng. Gouge auger, figuur \@ref(fig:gutsboren)). bestaat uit een cilindervormig boorlichaam waarvan het werkzame deel
     half cilindrisch is en van boven naar beneden een evenwijdig verloop heeft.
     Aan de onderzijde bevindt zich een scherpe snijrand. De minimale lengte van
     de holle buis moet 10 cm langer zijn dan de vooropgestelde
     bemonsteringsdiepte. De bemonsteringsdiepten moeten aangegeven zijn op de
     boor. Een diameter van 25 mm is meest geschikt voor de hier beschreven
     toepassing (minimale verstoring en toch voldoende monster). In zachte
-    gronden wordt een gutsboor gebruikt zonder slagkop (foto 1); in hardere
-    gronden een gutsboor mét slagkop (foto 2).
+    gronden wordt een gutsboor gebruikt zonder slagkop (figuur \@ref(fig:gutsboren) links); in hardere gronden een gutsboor mét slagkop (figuur \@ref(fig:gutsboren) rechts).
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![https://www.eijkelkamp.com/images/articles/1012/2f036e4b81700f990936f8ffdf5af7ac.jpg](./media/image1.jpg){width="3.3280610236220474in" height="2.9600820209973753in"}   ![http://www.envco.ro/public/uploaded/640x480/soil-core-sampler-specific-1297995531.jpg](./media/image2.jpg){width="3.4609317585301835in" height="5.1421183289588805in"}
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Links (Foto 1):** Set van gutsboren voor gebruik in zachte gronden
-*©Eijkelkamp*
+(ref:gutsboren) **Links (Foto 1):** Set van gutsboren voor gebruik in zachte gronden [*©Eijkelkamp*](https://www.eijkelkamp.com/images/articles/1012/2f036e4b81700f990936f8ffdf5af7ac.jpg); **Rechts (Foto 2):** Set van gutsboren voor een iets hardere bodem. De gutsen zijn voorzien van een slagkop waarop men met een terugslagvrije hamer kan slaan om de guts dieper in de grond te brengen. [*©Eijkelkamp*](http://www.envco.ro/public/uploaded/640x480/soil-core-sampler-specific-1297995531.jpg)
 
-**Rechts (Foto 2):** Set van gutsboren voor een iets hardere bodem. De gutsen
-zijn voorzien van een slagkop waarop men met een terugslagvrije hamer kan slaan
-om de guts dieper in de grond te brengen. *©Eijkelkamp*
+```{r gutsboren, fig.cap = "(ref:gutsboren)", fig.show = "hold", out.width = "50%", fig.align = "default"}
+include_graphics(
+  path = c("./media/image1.jpg", 
+           "./media/image2.jpg"))
+```
+
+
+
 
 -   1 **Afvalemmertje** (2,5 tot 3,0 L, polypropyleen)
 
