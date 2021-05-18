@@ -13,7 +13,7 @@ de ecto-organische en de organische bodem of veenbodem.
 het organische materiaal afkomstig van strooisel van planten dat bovenop het
 profiel is geaccumuleerd maar nog niet ingewerkt is en een organisch
 koolstofgehalte heeft van meer dan 20% bvb. strooisel, hooi - of rietresten,
-maaisel, mossen, schapenkeutels, koeienvlaaien, takken, vruchten, bladeren,\...
+maaisel, mossen, schapenkeutels, koeienvlaaien, takken, vruchten, bladeren, ...
 
 **Endo-organische laag (of endorganische laag):** Een endorganische laag is een
 combinatie van minerale bodem met ingewerkt organisch materiaal van welke
@@ -71,7 +71,7 @@ standplaatsniveau. Korte afstandsvariabiliteit wordt gestabiliseerd door middel
 van mengmonsters.
 
 **Toepassingsgebied:** Dit veldprotocol betreft het nemen van bodemmonsters van
-de *vaste bo.pngase* *in terrestrische en semi-terrestrische systemen*, dus het
+de *vaste bodemfase* *in terrestrische en semi-terrestrische systemen*, dus het
 vaste deel van de bodem met de daaraan gebonden stoffen. De techniek is erop
 gericht om via het nemen van deelmonsters een representatief beeld te krijgen
 van de bemonsterde *puntlocatie* (proefvlak met beperkte oppervlakte). De
@@ -87,6 +87,6 @@ aan minerale bodemdeeltjes bevatten.
 De laboratoriumanalyses worden uitgevoerd op het (gedroogd) bodemmonster. Bij
 het maken van een monster voor laboratoriumanalysen wordt bodemvreemd materiaal
 verwijderd. Het monster wordt reeds op terrein zoveel mogelijk ontdaan van
-levende materie (plantendelen, levende wortels (diameter \> 2mm,
-bo.pngauna,...), grind en stenen. Verdere voorbehandeling van het staal (drogen,
+levende materie (plantendelen, levende wortels (diameter > 2 mm,
+bodemfauna,...), grind en stenen. Verdere voorbehandeling van het staal (drogen,
 zeven, verkleinen) gebeurt in het laboratorium.
