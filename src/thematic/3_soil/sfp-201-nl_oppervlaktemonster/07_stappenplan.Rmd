@@ -16,7 +16,7 @@ maken. Het gehomogeniseerd mengmonster wordt overgebracht in een laboratorium
 recipiënt, getransporteerd en bewaard volgens de voorschriften tot verdere
 behandeling.
 
-### **Bemonsteringsstrategie**
+### Bemonsteringsstrategie
 
 [Uitzetten van het bemonsterinsproefvlak]{.underline}
 
@@ -28,11 +28,11 @@ bamboestokje. Meet de zijde af in zuidelijke richting, loodrecht op de eerste
 zijde. Plaats een derde bamboestokje. Controleer de lengte van die diagonaal en
 corrigeer de plaats van het derde bamboestokje. Plaats het vierde bamboestokje
 westelijk van het derde en zuidelijk van het eerste bamboestokje. Controleer de
-afstanden er corrigeer de plaatsing van de bamboestokjes indien nodig.
+afstanden en corrigeer de plaatsing van de bamboestokjes indien nodig.
 
 [Aantal deelmonsters]{.underline}
 
-De oppervlakte van het proefvlak wordt opgedeeld in een gelijke vierkanten van
+De oppervlakte van het proefvlak wordt opgedeeld in gelijke vierkanten
 (zie voorbeeld in figuur 1 waar 9 gelijke vierkanten worden onderscheiden). In
 elk van die vierkanten wordt één deelmonster zo centraal mogelijk genomen. Om
 voldoende staal te verzekeren zodat de meest courante bodemanalyses kunnen
@@ -52,11 +52,11 @@ deelmonsters (rode punten) over het proefvlak
 
 De oppervlaktestalen betreffen bodemmonsters standaard genomen op diepte van 0
 -- 10 cm onder het bodemoppervlak. Dit protocol kan op analoge wijze toegepast
-worden op diepte van 0 -20 cm of 0 -- 30 cm.
+worden op diepte van 0 -- 20 cm of 0 -- 30 cm.
 
-### **Praktische werkwijze voor het nemen van één deelmonster**
+### Praktische werkwijze voor het nemen van één deelmonster
 
-● Breng de guts handmatig zo verticaal mogelijk in de grond zonder de guts
+- Breng de guts handmatig zo verticaal mogelijk in de grond zonder de guts
 daarbij te draaien. Bij harde bodem gebruik je een guts met slagkop (zie Figuur
 2) zodat je de guts met een terugslagvrije hamer (Foto 2, Figuur 2) dieper de
 grond kan inhameren. Zo wordt de holle buis van de guts gevuld met
@@ -71,10 +71,10 @@ bodemmateriaal.
 **Figuur 3 (rechts):** Afsnijden van het bodemmateriaal langs de gutsboorranden
 *©Eijkelkamp*
 
-● Vervolgens draai je de guts éénmaal om zijn as waardoor het bodemmonster wordt
+- Vervolgens draai je de guts éénmaal om zijn as waardoor het bodemmonster wordt
 'losgesneden'. Let op dat je de guts niet dieper de grond induwt.
 
-● Trek vervolgens de guts zachtjes met een draaibeweging uit de grond. Het
+- Trek vervolgens de guts zachtjes met een draaibeweging uit de grond. Het
 draaien zorgt voor minder bodemverlies en werkt de onderdruk tegen die onder de
 guts aanwezig is. Zo bekomt men dus een minimaal geroerd monster (foto 3).
 
@@ -84,40 +84,40 @@ height="3.2283147419072615in"}
 **Foto 3:** Minimaal geroerd bodemmateriaal bij bodembemonstering met een guts ©
 *N. Cools*
 
-● Het materiaal in de guts zal aan open zijde van de holle buis steeds wat
+- Het materiaal in de guts zal aan open zijde van de holle buis steeds wat
 materiaal bevatten van de bovenliggende lagen. Dit materiaal wordt verwijderd
 met de spatel of een mes en opgevangen in een 'afvalbakje'.
 
-● Vervolgens snijd je met de gebogen spatel de cilindrische kolom bodemmateriaal
+- Vervolgens snijd je met de gebogen spatel de cilindrische kolom bodemmateriaal
 af langs de gutsboorranden (zie figuur 3). Het achtergebleven bodemmateriaal is
 geschikt voor bemonstering.
 
-● Vervolgens duid je met de spatel het te bemonsteren diepte-interval aan (bvb.
+- Vervolgens duid je met de spatel het te bemonsteren diepte-interval aan (bvb.
 0 -- 10 cm) op het materiaal in de boor door dit lichtjes in te snijden. Dit is
 het moment voor het nemen van een foto.
 
-● Vervolgens verwijder je het teveel aan materiaal in het 'afvalemmertje' en
+- Vervolgens verwijder je het teveel aan materiaal in het 'afvalemmertje' en
 verzamel je het bodemmateriaal uit het gewenste diepte-interval in het
 mengemmertje.
 
-● Verwijder alle levende materie (plantendelen zoals knolletjes, bodemdiertjes,
+- Verwijder alle levende materie (plantendelen zoals knolletjes, bodemdiertjes,
 levende wortels,...). Grind en stenen worden handmatig zo goed mogelijk uit het
 mengemmertje verwijderd. Herhaal dit voor alle deelmonsters (foto is slechts
 noodzakelijk voor één deelmonster).
 
-● **Bereiden van een mengmonster**
+- **Bereiden van een mengmonster**:
 
-Het materiaal wordt in het mengemmertje manueel gemengd en gehomogeniseerd met
-behulp van een spatel. De bodemstructuren worden hierbij opgebroken en stenen,
-levende wortels of andere plantendelen worden manueel verwijderd.
-
-Noot: in een kleiige bodem is dit niet eenvoudig en moet het ganse mengstaal in
-zijn geheel meegenomen worden.
-
-Het monster wordt vervolgens overgebracht in het monsterbakje. Het eventueel
-teveel aan bodemmateriaal wordt in het afvalemmertje verzameld. Het materiaal
-uit het afvalemmertje verdeel je over de boorgaten zodat de boorgaten terug min
-of meer afgesloten zijn.
+    - Het materiaal wordt in het mengemmertje manueel gemengd en gehomogeniseerd
+    met behulp van een spatel.
+    De bodemstructuren worden hierbij opgebroken en stenen, levende wortels of
+    andere plantendelen worden manueel verwijderd.
+    Noot: in een kleiige bodem is dit niet eenvoudig en moet het ganse mengstaal
+    in zijn geheel meegenomen worden.
+    - Het monster wordt vervolgens overgebracht in het monsterbakje.
+    Het eventueel teveel aan bodemmateriaal wordt in het afvalemmertje 
+    verzameld.
+    Het materiaal uit het afvalemmertje verdeel je over de boorgaten zodat de
+    boorgaten terug min of meer afgesloten zijn.
 
 
 ## Registratie en bewaring van resultaten
@@ -132,7 +132,7 @@ Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
 
 
-### **Invullen van het opnameformulier**
+### Invullen van het opnameformulier
 
 Per mengmonster wordt het opnameformulier volledig ingevuld en de aan- of
 afwezigheid van de relevante kenmerken genoteerd (voorbeeld: zie bijlage 2).
@@ -144,7 +144,7 @@ die alle opnameformulieren van de survey centraal bewaart. Elke staalnemer voert
 de informatie van het opnameformulier digitaal in zoals voorzien binnen het
 betreffende onderzoeksproject.
 
-### **Nemen van foto's van het bemonsterd proefvlak**
+### Nemen van foto's van het bemonsterd proefvlak
 
 Er worden twee foto's van het proefvlak genomen: één voor de bodembemonstering
 en één na de bemonstering (waar de bemonsteringspunten in het proefvlak maximaal
@@ -159,29 +159,23 @@ en gefotografeerd kenmerk en op een centrale locatie bvb. Google Drive bewaard.
 De volgende principes worden gehanteerd bij de naamgeving van de foto's: de naam
 van de foto gaat van algemeen naar specifiek. Een voorbeeldje:
 
--   De Omgevingsfoto: CODEPROEFVLAK\_O
+-   De Omgevingsfoto: CODEPROEFVLAK_O
+-   De foto van het proefvlak/plot: CODEPROEFVLAK_PLOT
+-   De foto van het 0 -- 10 cm staal: CODEPROEFVLAK_M01
 
--   De foto van het proefvlak/plot: CODEPROEFVLAK\_PLOT
-
--   De foto van het 0 - 10 cm staal: CODEPROEFVLAK\_M01
-
-### **Identificatie (etikettering) van de monsters**
+### Identificatie (etikettering) van de monsters
 
 De volgende informatie moet minimaal op de recipiënten aanwezig zijn. Bij
 voorkeur wordt deze informatie vooraf (indien reeds beschikbaar) op 'heavy duty'
 etiketten afgedrukt.
 
-● Plaatsnaam (hoofdgemeente en toponiem)
+- Plaatsnaam (hoofdgemeente en toponiem)
+- Unieke veldidentificatiecode van het proefvlak
+- Bemonsteringsdiepte (in dit geval 0-10 cm)
+- Datum van bemonstering
+- Naam staalnemer
 
-● Unieke veldidentificatiecode van het proefvlak
-
-● Bemonsteringsdiepte (in dit geval 0-10 cm)
-
--   Datum van bemonstering
-
-● Naam staalnemer
-
-### **Transport , bewaring en documentatie van de monsters**
+### Transport , bewaring en documentatie van de monsters
 
 Monsters kunnen ten gevolge van fysische, chemische of biologische reacties
 wijzigingen ondergaan tussen het ogenblik waarop ze worden genomen en de
@@ -189,10 +183,8 @@ analyse. Om dit te voorkomen worden de volgende voorzorgsmaatregelen getroffen:
 
 -   De stalen worden op het terrein in de monsterbakjes gebracht en onmiddellijk
     afgesloten en buiten het bereik van direct zonlicht geplaatst.
-
 -   De stalen worden op terrein voor het transport bewaard in een koelbox met
     koelelementen.
-
 -   De stalen worden dezelfde dag overgebracht naar een koelkast of koelcel (\<
     4°C) totdat de verdere voorbehandeling kan voortgezet worden.
 
@@ -201,19 +193,11 @@ staalvoorbereiding (drogen en verkleinen). De stalenlijst bevat minimaal de
 volgende informatie:
 
 -   Projectnaam of projectcode
-
 -   Naam staalnemer
-
 -   Naam projectverantwoordelijke
-
 -   Datum van bemonstering
-
 -   Plaatsnaam (hoofdgemeente en toponiem)
-
 -   Matrixtype (organisch, mineraal)
-
 -   Veldidentificatiecode van het staal
-
 -   GPS coördinaten (Lambert72 of/en geografische coördinaten WGS84, graden(°),
     > minuten ('), seconden (") of in decimale graden)
-
