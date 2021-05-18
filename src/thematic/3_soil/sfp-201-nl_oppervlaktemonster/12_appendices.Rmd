@@ -7,7 +7,8 @@ vertaal <- c(
   proefvlak_vorm = "Proefvlak vorm",
   begin_diepte_cm = "Bemonsteringsdiepte begin (cm)",
   eind_diepte_cm = "Bemonsteringsdiepte einde (cm)",
-  aantal_steken = "Aantal steken")
+  aantal_steken = "Aantal steken",
+  guts_diameter_mm = "Guts diameter (mm)")
 
 params %>%
   tibble::enframe() %>%

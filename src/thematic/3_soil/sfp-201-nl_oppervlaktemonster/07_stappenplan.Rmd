@@ -33,20 +33,50 @@ afstanden en corrigeer de plaatsing van de bamboestokjes indien nodig.
 #### Aantal deelmonsters
 
 De oppervlakte van het proefvlak wordt opgedeeld in gelijke vierkanten
-(zie voorbeeld in figuur 1 waar 9 gelijke vierkanten worden onderscheiden). In
+(zie voorbeeld in figuur \@ref(fig:rastercellen) waar `r params$aantal_steken`
+gelijke vierkanten worden onderscheiden). In
 elk van die vierkanten wordt één deelmonster zo centraal mogelijk genomen. Om
 voldoende staal te verzekeren zodat de meest courante bodemanalyses kunnen
-uitgevoerd worden, wordt bij een keuze van 9 deelmonsters en een
-bemonsteringsdiepte van 10 cm, best een guts van 25 mm diameter gebruikt (1
+uitgevoerd worden, wordt bij een keuze van `r params$aantal_steken` deelmonsters
+en een
+bemonsteringsdiepte van `r params$eind_diepte_cm` cm, best een guts van `r params$guts_diameter_mm` mm diameter gebruikt (1
 steek met de guts = 1 deelmonster). Het verminderen van het aantal steken bij
 het gebruik van een guts met een grotere diameter is niet toegelaten omdat dit
 de representativiteit van het mengmonster verkleint.
 
-![](./media/image3.png){width="3.26415135608049in"
-height="2.9298501749781276in"}
+(ref:rastercellen) Schematische weergave van de oriëntatie en spreiding van de deelmonsters (rode punten) over het proefvlak
 
-**Figuur 1:** Schematische weergave van de oriëntatie en spreiding van de
-deelmonsters (rode punten) over het proefvlak
+```{r rastercellen, fig.cap = "(ref:rastercellen)"}
+punten <- expand.grid(x = 1:sqrt(params$aantal_steken),
+                      y = 1:sqrt(params$aantal_steken))
+
+labels <- data.frame(
+  x = c(0.4, 0.4, max(punten$x) + 0.6, max(punten$x) + 0.6),
+  y = c(0.4, max(punten$x) + 0.6, max(punten$x) + 0.6, 0.4),
+  label = c(4, 1, 2, 3)
+)
+
+ggplot(punten,
+       aes(x = x, y = y)) +
+  geom_tile(colour = "black", fill = "white") + 
+  geom_point(colour = "red", size = 2) +
+  theme_void() +
+  coord_equal() +
+  geom_text(data = labels, aes(label = label)) +
+  geom_text(aes(x = 0, y = 2.5, label = "N"), size = 11) +
+  geom_segment(aes(x = 0, y = 2.8, xend = 0, yend = 3.6),
+               arrow = arrow(length = unit(0.03, "npc"))) +
+  geom_segment(aes(y = max(punten$x) + 1,
+                   x = 0.5,
+                   yend = max(punten$x) + 1,
+                   xend = 3.5),
+               arrow = arrow(ends = "both", length = unit(0.03, "npc"))) +
+  geom_text(aes(x = mean(punten$x), 
+                y = max(punten$x) + 1.25), 
+            label = "x meter")
+
+```
+
 
 #### Bemonsteringsdiepte
 
