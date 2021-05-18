@@ -18,7 +18,7 @@ behandeling.
 
 ### Bemonsteringsstrategie
 
-[Uitzetten van het bemonsterinsproefvlak]{.underline}
+#### Uitzetten van het bemonsterinsproefvlak
 
 De staalname van de oppervlaktemonsters gebeurt in vierkante proefvlakken.
 Afmetingen zijn gespecifieerd in bijlage 1 aan dit protocol. Het hoekpunt dat
@@ -30,7 +30,7 @@ corrigeer de plaats van het derde bamboestokje. Plaats het vierde bamboestokje
 westelijk van het derde en zuidelijk van het eerste bamboestokje. Controleer de
 afstanden en corrigeer de plaatsing van de bamboestokjes indien nodig.
 
-[Aantal deelmonsters]{.underline}
+#### Aantal deelmonsters
 
 De oppervlakte van het proefvlak wordt opgedeeld in gelijke vierkanten
 (zie voorbeeld in figuur 1 waar 9 gelijke vierkanten worden onderscheiden). In
@@ -48,7 +48,7 @@ height="2.9298501749781276in"}
 **Figuur 1:** Schematische weergave van de oriëntatie en spreiding van de
 deelmonsters (rode punten) over het proefvlak
 
-[Bemonsteringsdiepte]{.underline}
+#### Bemonsteringsdiepte
 
 De oppervlaktestalen betreffen bodemmonsters standaard genomen op diepte van 0
 -- 10 cm onder het bodemoppervlak. Dit protocol kan op analoge wijze toegepast
@@ -57,19 +57,24 @@ worden op diepte van 0 -- 20 cm of 0 -- 30 cm.
 ### Praktische werkwijze voor het nemen van één deelmonster
 
 - Breng de guts handmatig zo verticaal mogelijk in de grond zonder de guts
-daarbij te draaien. Bij harde bodem gebruik je een guts met slagkop (zie Figuur
-2) zodat je de guts met een terugslagvrije hamer (Foto 2, Figuur 2) dieper de
-grond kan inhameren. Zo wordt de holle buis van de guts gevuld met
-bodemmateriaal.
+    daarbij te draaien. Bij harde bodem gebruik je een guts met slagkop (zie
+    Figuur \@ref(fig:werkwijze-guts)) zodat je de guts met een terugslagvrije
+    hamer (Figuren \@ref(fig:gutsboren) en \@ref(fig:werkwijze-guts)) dieper de
+    grond kan inhameren. Zo wordt de holle buis van de guts gevuld met
+    bodemmateriaal.
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image4.png){width="1.6958333333333333in" height="3.4868055555555557in"}   ![](./media/image5.png){width="1.632075678040245in" height="3.3614271653543306in"}
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Figuur 2 (links):** Gebruik van een guts met slagkop *©Eijkelkamp*
+(ref:werkwijze-guts) **Links:** Gebruik van een guts met slagkop *©Eijkelkamp* **Rechts:** Afsnijden van het bodemmateriaal langs de gutsboorranden *©Eijkelkamp*
 
-**Figuur 3 (rechts):** Afsnijden van het bodemmateriaal langs de gutsboorranden
-*©Eijkelkamp*
+  
+  ```{r werkwijze-guts, fig.cap = "(ref:werkwijze-guts)", fig.show = "hold", out.width = "50%", fig.align = "default"}
+  include_graphics(
+    path = c("./media/image4.png", 
+             "./media/image5.png"))
+  ```
+
+
+
 
 - Vervolgens draai je de guts éénmaal om zijn as waardoor het bodemmonster wordt
 'losgesneden'. Let op dat je de guts niet dieper de grond induwt.
@@ -78,7 +83,7 @@ bodemmateriaal.
 draaien zorgt voor minder bodemverlies en werkt de onderdruk tegen die onder de
 guts aanwezig is. Zo bekomt men dus een minimaal geroerd monster (foto 3).
 
-![](./media/image6.jpg){width="4.304419291338583in"
+  ![](./media/image6.jpg){width="4.304419291338583in"
 height="3.2283147419072615in"}
 
 **Foto 3:** Minimaal geroerd bodemmateriaal bij bodembemonstering met een guts ©
