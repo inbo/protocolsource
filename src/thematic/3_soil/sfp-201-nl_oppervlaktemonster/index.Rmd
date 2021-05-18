@@ -14,6 +14,10 @@ params:
   dependencies_versionnumber: !r NA
   dependencies_params: !r NA
   dependencies_appendix: !r NA
+  proefvlak_vorm: "vierkant",
+  begin_diepte_cm: 0
+  eind_diepte_cm: 10
+  aantal_steken: !r 3^2
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:

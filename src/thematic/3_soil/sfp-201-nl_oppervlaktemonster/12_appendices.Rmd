@@ -1,6 +1,24 @@
 # (APPENDIX) Bijlagen {-} 
 
-# Afmetingen proefvlak en bemonsteringsdiepte van de bodemmonsters
+# Bijlage: instelwaarden {#bijlage-params}
+
+```{r params-tabel}
+vertaal <- c(
+  proefvlak_vorm = "Proefvlak vorm",
+  begin_diepte_cm = "Bemonsteringsdiepte begin (cm)",
+  eind_diepte_cm = "Bemonsteringsdiepte einde (cm)",
+  aantal_steken = "Aantal steken")
+
+params %>%
+  tibble::enframe() %>%
+  slice(-(1:10)) %>%
+  mutate(name = recode(name, !!!vertaal)) %>%
+  rename(naam = name, waarde = value) %>%
+  kable()
+```
+
+
+## Afmetingen proefvlak en bemonsteringsdiepte van de bodemmonsters
 
   **Project**     **Vegetatietype**   **Dimensies proefvlak/permanent quadraat**   **Bemonsterde diepte-intervallen**   
   --------------- ------------------- -------------------------------------------- ------------------------------------ ---------
@@ -9,7 +27,7 @@
   HabNorm         Bos                 16 m \* 16 m                                 22.63 m                              0-10 cm
   Bosreservaten   Bos                 10 m \* 10 m                                 14.14 m                              0-10 cm
 
-# Opnameformulier voor oppervlaktemonsters
+# Bijlage: Opnameformulier voor oppervlaktemonsters
 
 Dit formulier wordt in een afzonderlijk PDF document bewaard zodat het duidelijk
 op twee zijden van een A4 blad kan afgedrukt worden.
