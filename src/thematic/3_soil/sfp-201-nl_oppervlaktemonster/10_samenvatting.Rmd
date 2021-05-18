@@ -7,9 +7,10 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
 
 ## Methoderecept
 
--   Baken het proefvlak af en verdeel het in het gewenste aantal kwadranten
+-   Baken het proefvlak af en verdeel het in `r params$aantal_steken`
+    rastercellen
 
--   Neem eerst van elk kwadrant een monster kloksgewijs (in wijzerzin), eindig
+-   Neem eerst van elke rastercel een monster kloksgewijs (in wijzerzin), eindig
     met het centrale monster
 
 -   Verwijder bij elk monsters het overtollig materiaal van de guts

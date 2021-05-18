@@ -7,10 +7,10 @@ Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het 
 Subtitels gebruiken om elke stap te omschrijven.
 -->
 
-In elk kwadrant van het proefvlak worden de monsters manueel genomen met een
+In elke rastercel van het proefvlak worden de monsters manueel genomen met een
 gutsboor. Het overtollig bodemmateriaal wordt verwijderd van de boor en
 verzameld in het afvalemmertje om na de bemonstering de boorgaten opnieuw te
-vullen. De verschillende deelmonsters (één per kwadrant) worden ontdaan van
+vullen. De verschillende deelmonsters (één per rastercel) worden ontdaan van
 bodemvreemd materiaal en samengebracht in het mengemmertje om een mengmonster te
 maken. Het gehomogeniseerd mengmonster wordt overgebracht in een laboratorium
 recipiënt, getransporteerd en bewaard volgens de voorschriften tot verdere

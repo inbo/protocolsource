@@ -29,8 +29,8 @@ Om je tel niet te vergeten bij het nemen van de deelstalen, enkele tips:
     (bamboestokje nummer 1) en sluit af met het staal in het centrum van het
     proefvlak.
 
--   Sluit de boorgaatjes niet onmiddellijk af. Zo kan je zien welk kwadrant je
-    al dan niet bemonsterd hebt.
+-   Sluit de boorgaatjes niet onmiddellijk af. Zo kan je zien welke rastercellen
+    je al dan niet bemonsterd hebt.
 
 -   Meng het staal pas nadat je alle deelmonsters hebt verzameld in je
     mengbakje. Als het staal voldoende cohesief is, kan je de deelmonsters nog
