@@ -30,8 +30,8 @@ opgesteld voor het veldwerk dienen gevolgd te worden.
     beter opnieuw op een andere plaats (bvb. in geval van een stenige bodem).
 
 -   In het geval dat je een hamer moet gebruiken op een guts met een slagkop,
-    gebruik steeds een terugslagvrije hamer (foto 2). Gebruik zeker nooit
-    metalen hamers.
+    gebruik steeds een terugslagvrije hamer (Figuur \@ref(fig:gutsboren)).
+    Gebruik zeker nooit metalen hamers.
 
 -   Houd de guts steeds vast bij de synthetische handvaten tijdens het boren.
     Deze zorgen voor isolatie indien je een ondergrondse elektriciteitskabel zou

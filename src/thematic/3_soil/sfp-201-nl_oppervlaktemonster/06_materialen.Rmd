@@ -78,7 +78,8 @@ include_graphics(
 
 -   **Doek** (synthetisch of katoen) om materiaal te reinigen en af te drogen
 
--   **Hamer**, terugslagvrije, staal met nylon kop (zie foto 2)
+-   **Hamer**, terugslagvrije, staal met nylon kop (zie Figuur
+\@ref(fig:gutsboren))
 
 -   **Koelbox of koeltas** met vooraf gekoelde koelelementen
 
@@ -92,7 +93,7 @@ include_graphics(
 -   (Voorgedrukte met proefvlakcode) zelfklevende **etiketten**, type 'Heavy
     Duty', aantal: 1 per monster
 
--   1 **spatel**, gebogen (Spatel 20, Eijkelkamp, foto 1 of 2)
+-   1 **spatel**, gebogen (Spatel 20, Eijkelkamp, Figuur \@ref(fig:gutsboren))
 
 -   **Opnameformulier** (zie voorbeeld in bijlage 
 \@ref(bijlage-opnameformulier))
