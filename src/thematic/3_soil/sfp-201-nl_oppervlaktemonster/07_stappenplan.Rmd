@@ -83,7 +83,7 @@ ggplot(punten,
 
 De oppervlaktestalen betreffen bodemmonsters standaard genomen op diepte van `r params$begin_diepte_cm`
 -- `r params$eind_diepte_cm` cm onder het bodemoppervlak. Dit protocol kan op
-analoge wijze toegepast worden op andere diepten.
+analoge wijze toegepast worden op andere diepten startend vanaf het bodemoppervlak.
 
 ### Praktische werkwijze voor het nemen van één deelmonster
 
