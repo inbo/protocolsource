@@ -48,8 +48,7 @@ het bodemoppervlak zonder de strooisellaag, op een diepte tot maximaal 30 cm
 diepte.
 
 **Proefvlak:** dit is de oppervlakte waarbinnen biotische en/of abiotische
-waarnemingen worden verricht. De dimensies zijn project-specifiek. Zie bijlage
-1.
+waarnemingen worden verricht. De dimensies zijn project-specifiek.
 
 **(Semi)-terrestrisch:** terrestrisch betekent voorkomend op het land, op of in
 de grond levend, voorkomend op minerale substraten. Semi-terrestrisch betekent

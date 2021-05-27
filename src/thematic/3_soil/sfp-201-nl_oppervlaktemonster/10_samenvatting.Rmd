@@ -26,7 +26,8 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
 
 -   Etiketteer het mengmonster
 
--   Vul het opnameformulier in (voorbeeld in bijlage 2)
+-   Vul het opnameformulier in (voorbeeld in bijlage
+\@ref(bijlage-opnameformulier))
 
 -   Sluit de boorgaten af met overtollig monster
 

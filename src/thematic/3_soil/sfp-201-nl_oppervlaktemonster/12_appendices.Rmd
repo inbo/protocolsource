@@ -20,7 +20,7 @@ params %>%
 
 
 
-# Bijlage: Opnameformulier voor oppervlaktemonsters
+# Bijlage: Opnameformulier voor oppervlaktemonsters {#bijlage-opnameformulier}
 
 Dit formulier wordt in een afzonderlijk PDF document bewaard zodat het duidelijk
 op twee zijden van een A4 blad kan afgedrukt worden.

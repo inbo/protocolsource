@@ -21,14 +21,15 @@ behandeling.
 #### Uitzetten van het bemonsterinsproefvlak
 
 De staalname van de oppervlaktemonsters gebeurt in vierkante proefvlakken.
-Afmetingen zijn gespecifieerd in bijlage 1 aan dit protocol. Het hoekpunt dat
-het meest naar het noorden gericht is, krijgt het volgnummer 1. Plaats hier een
-eerste bamboestokje. Meet de zijde af in oostelijke richting. Plaats een tweede
-bamboestokje. Meet de zijde af in zuidelijke richting, loodrecht op de eerste
-zijde. Plaats een derde bamboestokje. Controleer de lengte van die diagonaal en
-corrigeer de plaats van het derde bamboestokje. Plaats het vierde bamboestokje
-westelijk van het derde en zuidelijk van het eerste bamboestokje. Controleer de
-afstanden en corrigeer de plaatsing van de bamboestokjes indien nodig.
+Afmetingen van het proefvlak zijn projectspecifiek te bepalen. Het hoekpunt dat
+het meest naar het noorden gericht is, krijgt het volgnummer 1 (zie figuur
+\@ref(fig:rastercellen)). Plaats hier een eerste bamboestokje. Meet de zijde af
+in oostelijke richting. Plaats een tweede bamboestokje. Meet de zijde af in
+zuidelijke richting, loodrecht op de eerste zijde. Plaats een derde
+bamboestokje. Controleer de lengte van die diagonaal en corrigeer de plaats van
+het derde bamboestokje. Plaats het vierde bamboestokje westelijk van het derde
+en zuidelijk van het eerste bamboestokje. Controleer de afstanden en corrigeer
+de plaatsing van de bamboestokjes indien nodig.
 
 #### Aantal deelmonsters
 
@@ -168,7 +169,8 @@ Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 ### Invullen van het opnameformulier
 
 Per mengmonster wordt het opnameformulier volledig ingevuld en de aan- of
-afwezigheid van de relevante kenmerken genoteerd (voorbeeld: zie bijlage 2).
+afwezigheid van de relevante kenmerken genoteerd (voorbeeld: zie bijlage
+\@ref(bijlage-opnameformulier)).
 
 Het opnameformulier wordt, nadat het volledig werd ingevuld met onuitwisbare
 inkt, ingescand en digitaal bewaard op een centrale locatie (bvb. Google Drive).

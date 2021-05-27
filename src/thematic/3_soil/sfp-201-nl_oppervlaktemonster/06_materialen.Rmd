@@ -94,7 +94,8 @@ include_graphics(
 
 -   1 **spatel**, gebogen (Spatel 20, Eijkelkamp, foto 1 of 2)
 
--   **Opnameformulier** (zie voorbeeld in bijlage 2)
+-   **Opnameformulier** (zie voorbeeld in bijlage 
+\@ref(bijlage-opnameformulier))
 
 -   **Schrijfmateriaal**: potlo(o)d(en), gum, slijper, dikke permanente
     markeerstift,
