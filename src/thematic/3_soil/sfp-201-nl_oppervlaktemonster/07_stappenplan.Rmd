@@ -111,21 +111,19 @@ analoge wijze toegepast worden op andere diepten.
 
 - Trek vervolgens de guts zachtjes met een draaibeweging uit de grond. Het
 draaien zorgt voor minder bodemverlies en werkt de onderdruk tegen die onder de
-guts aanwezig is. Zo bekomt men dus een minimaal geroerd monster (foto 3).
+guts aanwezig is. Zo bekomt men dus een minimaal geroerd monster (Figuur \@ref(fig:Foto3)).
 
-  ![](./media/image6.jpg){width="4.304419291338583in"
+  ![(#fig:Foto3) Minimaal geroerd bodemmateriaal bij bodembemonstering met een guts ©
+*N. Cools*](./media/image6.jpg){width="4.304419291338583in"
 height="3.2283147419072615in"}
-
-**Foto 3:** Minimaal geroerd bodemmateriaal bij bodembemonstering met een guts ©
-*N. Cools*
 
 - Het materiaal in de guts zal aan open zijde van de holle buis steeds wat
 materiaal bevatten van de bovenliggende lagen. Dit materiaal wordt verwijderd
 met de spatel of een mes en opgevangen in een 'afvalbakje'.
 
 - Vervolgens snijd je met de gebogen spatel de cilindrische kolom bodemmateriaal
-af langs de gutsboorranden (zie figuur 3). Het achtergebleven bodemmateriaal is
-geschikt voor bemonstering.
+af langs de gutsboorranden (zie Figuur \@ref(fig:werkwijze-guts)). Het
+achtergebleven bodemmateriaal is geschikt voor bemonstering.
 
 - Vervolgens duid je met de spatel het te bemonsteren diepte-interval aan (bvb.
 0 -- 10 cm) op het materiaal in de boor door dit lichtjes in te snijden. Dit is
@@ -234,5 +232,6 @@ volgende informatie:
 -   Plaatsnaam (hoofdgemeente en toponiem)
 -   Matrixtype (organisch, mineraal)
 -   Veldidentificatiecode van het staal
--   GPS coördinaten (Lambert72 of/en geografische coördinaten WGS84, graden(°),
-    > minuten ('), seconden (") of in decimale graden)
+-   GPS coördinaten (Lambert72 of/en geografische coördinaten WGS84, graden (°),
+    minuten ('), seconden (") of in decimale graden)
+
