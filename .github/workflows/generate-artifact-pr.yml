@@ -1,7 +1,8 @@
 name: On PR, build the protocol and save the result to an artifact
 
 on:
-  pull_request
+  push:
+    branches: 's[fpioa]p**'
 
 jobs:
   build-and-save:
