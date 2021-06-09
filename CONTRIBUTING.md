@@ -99,7 +99,7 @@ The workflow is as follows for a **new** protocol:
             where you can find and preview the rendered version of your
             protocol)
         2.  alternatively, download the rendered version: see [these
-            instructions](.github/workflows/REVIEWING.md)
+            instructions](REVIEWING.md)
     5.  add text, media, ... to the Rmarkdown files
     6.  save your changes
     7.  stage, commit, push changes
@@ -110,7 +110,7 @@ The workflow is as follows for a **new** protocol:
 
     ![](src/management/pr-on-github-4.png)
 
-1.  Reviewers can follow [these guidelines](.github/workflows/REVIEWING.md)
+1.  Reviewers can follow [these guidelines](REVIEWING.md)
 2.  If the reviewers raise concerns, changes can be made to the protocol that
     address these concerns (stage, commit, push)
 3.  When all reviewers have given their approval, the **repo admin** needs to do
