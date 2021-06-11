@@ -148,7 +148,7 @@ The subject-matter specialist will then give sensible default values for these p
 Dependencies are protocols on which another protocol depends.
 At a minimum, a dependency is declared based on the protocol-code and a version number.
 Only protocols that have been published on the protocols website can be declared as a dependency.
-In each protocol-template, a `Subprotocols` part is foreseen that can be used to include a printed version of such a dependency.
+In each protocol-template, a `Subprotocols` part is provided that can be used to include a printed version of such a dependency.
 The latter is optional except for dependencies that are parameterized and non-default parameter values are used.
 
 #### In sfp, sip, sap or sop
