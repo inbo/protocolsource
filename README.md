@@ -89,7 +89,7 @@ The incremental nature means that general tags reflect the time sequence of prot
 
 In this section, we describe the conventions we adhere to for naming of files and folders.
 Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)).
-The naming syntax for the subfolder is **`<protocol-code>_<short-title>`** and *will be automatically generated* from input you provide to [protocolhelper functions](CONTRIBUTING.md##starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
+The naming syntax for the subfolder is **`<protocol-code>_<short-title>`** and *will be automatically generated* from input you provide to [protocolhelper functions](CONTRIBUTING.md#starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
 
 Note that the names of this subfolder and of its files are stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control and the version number is kept inside the special file `index.Rmd`.
 The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and optionally two folders, named `data` and `media`.

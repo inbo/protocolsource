@@ -44,7 +44,7 @@ Note that the merge commit to which these tags are attached represents an entire
 Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
 The resulting website is hosted at **TO BE ADDED**. This website will host all approved and published versions of all protocols.
 
-## Workflow {#workflow}
+## <a name="workflow"></a>Workflow {#workflow}
 
 The workflow is as follows for a **new** protocol:
 
@@ -130,7 +130,7 @@ The name and location of the protocol files and folder will be automatically det
 With `render = TRUE` the Rmarkdown files will be rendered to `html` output in a corresponding folder inside `docs`.
 This will allow you to check the resulting output locally.
 
-### From an existing docx protocol {#from-an-existing-docx-protocol}
+### <a name="from-an-existing-docx-protocol"></a>From an existing docx protocol {#from-an-existing-docx-protocol}
 
 ``` {.r}
 library(protocolhelper)
@@ -151,7 +151,7 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
            render = FALSE)
 ```
 
-### From a new template {#from-a-new-template}
+### <a name="from-a-new-template"></a>From a new template {#from-a-new-template}
 
 ``` {.r}
 library(protocolhelper)
