@@ -213,6 +213,7 @@ volume_sampled_cm3 <- params$soil_depth_cm *
 ## <a name="dependencies"></a>What to do in case of dependencies?
 
 When a protocol [depends on other protocols](README.md#dependencies), they need to be declared in the `params` section of the YAML header of the `ìndex.Rmd` file.
+The easiest way to do this is with the aid of `protocolhelper::add_dependencies()`.
 Moreover, if a subprotocol uses [parameters](#parameterized), the subprotocol parameter values can be customized at the level of the main protocol.
 Instead of creating the YAML section manually as in [What to do in case of parameterized protocols?](#parameterized),
 we use the function ´protocolhelper::add_dependencies()´.
@@ -335,4 +336,3 @@ If you are not familiar with git and RStudio, there are still ways to contribute
 The GitHub website has [online editing functionalities](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) which can be used to suggest changes to draft protocols.
 
 <!--To do: instead of the link, use own screenshots to explain this-->
-
