@@ -71,11 +71,14 @@ The workflow is as follows for a **new** protocol:
 
 7.  Continue work on the protocol
 
-    1.  See [What to do in case of parameterized protocols?](#parameterized) for specific guidelines about parameterizing parts of a protocol
+    1.  See [What to do in case of parameterized protocols?](#parameterized)
+        for specific guidelines about parameterizing parts of a protocol
 
-    2.  See [What to do in case of dependencies?](#dependencies) for how to declare protocol dependencies and adding them as subprotocols
+    2.  See [What to do in case of dependencies?](#dependencies)
+        for how to declare protocol dependencies and adding them as subprotocols
 
-    3.  See [What to do in case of translations?](#translations) for guidance about translations of protocols
+    3.  See [What to do in case of translations?](#translations)
+        for guidance about translations of protocols
 
     4.  regularly preview the html version of the protocol:
 
@@ -216,7 +219,7 @@ we use the function ´protocolhelper::add_dependencies()´.
 The reason to use a function here is twofold:
 
 -   the function does some basic checks to see if the dependencies are correctly specified
--   the dependencies need to be specified as a nested list and it is easy to make mistakes if not carefully specified
+-   the YAML syntaxis for specifying the dependencies is complicated
 
 Here is an example of using the function:
 
@@ -332,3 +335,4 @@ If you are not familiar with git and RStudio, there are still ways to contribute
 The GitHub website has [online editing functionalities](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) which can be used to suggest changes to draft protocols.
 
 <!--To do: instead of the link, use own screenshots to explain this-->
+
