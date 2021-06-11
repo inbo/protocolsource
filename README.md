@@ -129,7 +129,7 @@ This can be either Dutch (`nl`) or English (`en`).
 The version number is of the form `YYYY.NN`.
 `YYYY` indicates the year in which the protocol was released.
 The `NN` is a number that indicates the order of release within that year (starting with 01).
-The same version of a protocol may or may not be available in multiple languages (see [Folder and filename syntaxis](#folder-and-filename-syntaxis) and [Translations of protocols](CONTRIBUTING.md#translations-of-protocols)).
+The same version of a protocol may or may not be available in multiple languages (see [Folder and filename syntaxis](#folder-and-filename-syntaxis) and [Translations of protocols](CONTRIBUTING.md#what-to-do-in-case-of-translations-of-protocols-?)).
 
 The version number is protocol-*aspecific* by definition, i.e. it spans the whole protocols repository (e.g. `sfp-401-nl` version `2020.02` will be followed by `sfp-401-nl` version `2020.04` if `sfp-401-nl` was not updated in the `protocols-2020.03` release).
 
