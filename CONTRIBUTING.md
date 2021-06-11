@@ -209,8 +209,9 @@ volume_sampled_cm3 <- params$soil_depth_cm *
 
 ## <a name="dependencies"></a>What to do in case of dependencies?
 
-When a protocol [depends on other protocols](README.md#dependencies), they need to be declared in the params section of the YAML header of the `ìndex.Rmd` file.
-Instead of doing this manually as explained in [What to do in case of parameterized protocols?](#parameterized),
+When a protocol [depends on other protocols](README.md#dependencies), they need to be declared in the `params` section of the YAML header of the `ìndex.Rmd` file.
+Moreover, if a subprotocol uses [parameters](#parameterized), the subprotocol parameter values can be customized at the level of the main protocol.
+Instead of creating the YAML section manually as in [What to do in case of parameterized protocols?](#parameterized),
 we use the function ´protocolhelper::add_dependencies()´.
 The reason to use a function here is twofold:
 
