@@ -158,7 +158,7 @@ In general, protocols should be as self-contained as possible, but in some cases
 For instance, a `sfp` in which an RTK-GPS is needed to accurately locate some sampling units can refer to a `sip` that explains the use of an RTK-GPS instrument.
 These dependencies need to be declared in the YAML header of the `index.Rmd` file.
 The easiest way to do this is with the aid of `protocolhelper::add_dependencies()`.
-These dependencies can be included in the ´Subprotocols´ part of a protocol with the aid of `protocolhelper::add_subprotocols()`.
+The dependent protocols themselves can be included in the `Subprotocols` part of a protocol with the aid of `protocolhelper::add_subprotocols()`.
 
 #### In project-specific protocols (spp)
 
