@@ -1,3 +1,9 @@
+---
+editor_options:
+  markdown:
+    mode: gfm
+---
+
 # Contributing guidelines
 
 ## Welcome!

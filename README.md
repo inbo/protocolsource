@@ -1,3 +1,9 @@
+---
+editor_options:
+  markdown:
+    mode: gfm
+---
+
 <!-- badges: start -->
 
 ![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)

@@ -1,3 +1,9 @@
+---
+editor_options:
+  markdown:
+    mode: gfm
+---
+
 # Reviewing pull requests
 
 Thanks to GitHub Actions, an artifact (=zip file) of the rendered protocol (= version with layout applied in html output format) is now automatically created on each pull request.
