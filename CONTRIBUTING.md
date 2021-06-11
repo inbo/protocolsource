@@ -217,7 +217,7 @@ The reason to use a function here is twofold:
 -   the function does some basic checks to see if the dependencies are correctly specified
 -   the dependencies need to be specified as a nested list and it is easy to make mistakes if not carefully specified
 
-Here is an example of the use of the function:
+Here is an example of using the function:
 
 ``` {.r}
 protocolhelper::add_dependencies(
