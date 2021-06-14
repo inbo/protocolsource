@@ -1,38 +1,31 @@
 # Kwaliteitszorg
 
+```{=html}
 <!--
 Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen.
 Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld, ...).
 Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen.
 In dit onderdeel kunnen ook bepaalde intercalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
 -->
+```
+Het is van essentieel belang dat het gebruikte materiaal en recipiënten zuiver zijn.
+Men dient steeds nauwkeurig en proper te werken.
+De guts wordt met de borstel schoongeveegd na elke steek.
+De gutsen dienen jaarlijks en zo nodig bijgesneden te worden.
 
-Het is van essentieel belang dat het gebruikte materiaal en recipiënten zuiver
-zijn. Men dient steeds nauwkeurig en proper te werken. De guts wordt met de
-borstel schoongeveegd na elke steek. De gutsen dienen jaarlijks en zo nodig
-bijgesneden te worden.
+Een guts vertoont slechts 10 cm diepte intervallen, maar het betreffende segment (bvb. 0 - 10 cm) van de bodemlaag bevindt zich zelden perfect tussen deze aanduidingen.
+De diepte dient steeds gemeten te worden met vouw- of plooimeter, of meetlat.
 
-Een guts vertoont slechts 10 cm diepte intervallen, maar het betreffende segment
-(bvb. 0 - 10 cm) van de bodemlaag bevindt zich zelden perfect tussen deze
-aanduidingen. De diepte dient steeds gemeten te worden met vouw- of plooimeter,
-of meetlat.
-
-Om het niet kleven van de etiketten (bvb. bij nat weer of vuile handen) te
-voorkomen, kunnen de etiketten best vooraf geprint worden en op de monsterbakjes
-worden gekleefd. Gebruik 'heavy duty' (waterbestendige) etiketten, aangezien
-deze beter kleven en beter tegen vocht en vuil kunnen dan gewone etiketten.
+Om het niet kleven van de etiketten (bvb. bij nat weer of vuile handen) te voorkomen, kunnen de etiketten best vooraf geprint worden en op de monsterbakjes worden gekleefd.
+Gebruik 'heavy duty' (waterbestendige) etiketten, aangezien deze beter kleven en beter tegen vocht en vuil kunnen dan gewone etiketten.
 
 Om je tel niet te vergeten bij het nemen van de deelstalen, enkele tips:
 
--   Werk het proefvlak steeds volgens hetzelfde bemonsteringspatroon af bvb. je
-    werkt kloksgewijs (wijzerzin), beginnende bij het meest noordelijk hoekpunt
-    (bamboestokje nummer 1) en sluit af met het staal in het centrum van het
-    proefvlak.
+-   Werk het proefvlak steeds volgens hetzelfde bemonsteringspatroon af bvb.
+    je werkt kloksgewijs (wijzerzin), beginnende bij het meest noordelijk hoekpunt (bamboestokje nummer 1) en sluit af met het staal in het centrum van het proefvlak.
 
--   Sluit de boorgaatjes niet onmiddellijk af. Zo kan je zien welke rastercellen
-    je al dan niet bemonsterd hebt.
+-   Sluit de boorgaatjes niet onmiddellijk af.
+    Zo kan je zien welke rastercellen je al dan niet bemonsterd hebt.
 
--   Meng het staal pas nadat je alle deelmonsters hebt verzameld in je
-    mengbakje. Als het staal voldoende cohesief is, kan je de deelmonsters nog
-    tellen.
-
+-   Meng het staal pas nadat je alle deelmonsters hebt verzameld in je mengbakje.
+    Als het staal voldoende cohesief is, kan je de deelmonsters nog tellen.

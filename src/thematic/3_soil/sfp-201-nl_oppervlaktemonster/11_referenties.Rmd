@@ -1,11 +1,14 @@
-# Referenties {-}
-<div id="refs"></div>
+# Referenties {.unnumbered}
 
+::: {#refs}
+:::
+
+```{=html}
 <!--
 Eventueel opsplitsen in sleutelreferentie en overige referenties.
 -->
-
-
+```
+```{=html}
 <!--
 Emis. Ministerieel besluit van 29 januari 2015. Belgisch Staatsblad van 18
 februari 2015. Compendium voor monsterneming en analyse in uitvoering van het
@@ -26,3 +29,4 @@ Versie 1.03 12-12-2006.
 
 
 -->
+```

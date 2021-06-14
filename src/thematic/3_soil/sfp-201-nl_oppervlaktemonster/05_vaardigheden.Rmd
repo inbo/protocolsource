@@ -1,12 +1,10 @@
 # Vereiste competenties
 
+```{=html}
 <!--
 Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het protocol op een gepaste manier te kunnen uitvoeren.
 Eventueel kan er verwezen worden naar bepaalde opleidingen.
 -->
-
-De basisvaardigheden voor het uitvoeren van dit protocol zijn (1) het kunnen
-gebruiken van een GPS-toestel en (2) het gebruik van een gutsboor. De
-bodembemonstering beschreven in dit protocol kan dus uitgevoerd worden door alle
-INBO medewerkers mits het volgen van een ééndagsopleiding op het terrein.
-
+```
+De basisvaardigheden voor het uitvoeren van dit protocol zijn (1) het kunnen gebruiken van een GPS-toestel en (2) het gebruik van een gutsboor.
+De bodembemonstering beschreven in dit protocol kan dus uitgevoerd worden door alle INBO medewerkers mits het volgen van een ééndagsopleiding op het terrein.

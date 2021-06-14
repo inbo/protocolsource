@@ -3,89 +3,62 @@
 ## Definities en afkortingen
 
 **Bodemoppervlak:** het bodemoppervlak vormt de referentie voor de 0 cm lijn.
-Het is de bovenkant van het bodemlichaam waarvan een oppervlakte staal wordt
-genomen. De matrix van het bodemlichaam kan zowel organisch als mineraal zijn.
-In terrestrische systemen is het de scheiding tussen de ecto-organische en de
-endo-organische laag. In semiterrestrische systemen is het de scheiding tussen
-de ecto-organische en de organische bodem of veenbodem.
+Het is de bovenkant van het bodemlichaam waarvan een oppervlakte staal wordt genomen.
+De matrix van het bodemlichaam kan zowel organisch als mineraal zijn.
+In terrestrische systemen is het de scheiding tussen de ecto-organische en de endo-organische laag.
+In semiterrestrische systemen is het de scheiding tussen de ecto-organische en de organische bodem of veenbodem.
 
-**Ecto-organische laag (of ectorganische laag):** Bij een ectorganische laag is
-het organische materiaal afkomstig van strooisel van planten dat bovenop het
-profiel is geaccumuleerd maar nog niet ingewerkt is en een organisch
-koolstofgehalte heeft van meer dan 20% bvb. strooisel, hooi - of rietresten,
-maaisel, mossen, schapenkeutels, koeienvlaaien, takken, vruchten, bladeren, ...
+**Ecto-organische laag (of ectorganische laag):** Bij een ectorganische laag is het organische materiaal afkomstig van strooisel van planten dat bovenop het profiel is geaccumuleerd maar nog niet ingewerkt is en een organisch koolstofgehalte heeft van meer dan 20% bvb.
+strooisel, hooi - of rietresten, maaisel, mossen, schapenkeutels, koeienvlaaien, takken, vruchten, bladeren, ...
 
-**Endo-organische laag (of endorganische laag):** Een endorganische laag is een
-combinatie van minerale bodem met ingewerkt organisch materiaal van welke
-oorsprong dan ook.
+**Endo-organische laag (of endorganische laag):** Een endorganische laag is een combinatie van minerale bodem met ingewerkt organisch materiaal van welke oorsprong dan ook.
 
--   In terrestrische systemen is het organische materiaal veelal door
-    biologische en fysische processen in de bodem opgenomen. Het organische
-    koolstof (OC) gehalte is lager dan 20%.
+-   In terrestrische systemen is het organische materiaal veelal door biologische en fysische processen in de bodem opgenomen.
+    Het organische koolstof (OC) gehalte is lager dan 20%.
 
--   In semi-terrestrische systemen worden veenlagen en (levende) wortelmatten
-    ook tot de endorganische laag gerekend.
+-   In semi-terrestrische systemen worden veenlagen en (levende) wortelmatten ook tot de endorganische laag gerekend.
 
 -   De ecto - en de endo-organische laag vormen samen de holorganische laag.
 
-**Monster of staal:** in Vlaanderen zijn de begrippen 'monster' en 'staal'
-onderling inwisselbaar. Ze betekenen dus exact hetzelfde. 'Monster' is een meer
-gangbare term in Nederland en wordt ook gehandhaafd in dit protocol. Het is een
-portie materiaal dat geselecteerd werd uit een grotere hoeveelheid materiaal.
+**Monster of staal:** in Vlaanderen zijn de begrippen 'monster' en 'staal' onderling inwisselbaar.
+Ze betekenen dus exact hetzelfde.
+'Monster' is een meer gangbare term in Nederland en wordt ook gehandhaafd in dit protocol.
+Het is een portie materiaal dat geselecteerd werd uit een grotere hoeveelheid materiaal.
 
-**Mengmonster:** is hier een ruimtelijk mengmonster. Het is dus een samengesteld
-monster dat verkregen wordt door (deel)monsters te mengen. De deelmonsters zijn
-genomen op meerdere plaatsen volgens een specifiek diepte-interval.
+**Mengmonster:** is hier een ruimtelijk mengmonster.
+Het is dus een samengesteld monster dat verkregen wordt door (deel)monsters te mengen.
+De deelmonsters zijn genomen op meerdere plaatsen volgens een specifiek diepte-interval.
 
-**Laboratoriummonster:** een monster binnengebracht in het laboratorium na
-bemonstering waarop geen verdere behandelingen zijn uitgevoerd. Het
-laboratoriummonster is het finale monster vanuit het standpunt van bemonstering,
-maar het initiële monster vanuit het standpunt van het laboratorium. In
-laboratoriumtermen is dit het 'natief staal'.
+**Laboratoriummonster:** een monster binnengebracht in het laboratorium na bemonstering waarop geen verdere behandelingen zijn uitgevoerd.
+Het laboratoriummonster is het finale monster vanuit het standpunt van bemonstering, maar het initiële monster vanuit het standpunt van het laboratorium.
+In laboratoriumtermen is dit het 'natief staal'.
 
-**Oppervlaktemonster:** een oppervlaktemonster is een monster genomen net onder
-het bodemoppervlak zonder de strooisellaag, op een diepte tot maximaal 30 cm
-diepte.
+**Oppervlaktemonster:** een oppervlaktemonster is een monster genomen net onder het bodemoppervlak zonder de strooisellaag, op een diepte tot maximaal 30 cm diepte.
 
-**Proefvlak:** dit is de oppervlakte waarbinnen biotische en/of abiotische
-waarnemingen worden verricht. De dimensies zijn project-specifiek.
+**Proefvlak:** dit is de oppervlakte waarbinnen biotische en/of abiotische waarnemingen worden verricht.
+De dimensies zijn project-specifiek.
 
-**(Semi)-terrestrisch:** terrestrisch betekent voorkomend op het land, op of in
-de grond levend, voorkomend op minerale substraten. Semi-terrestrisch betekent
-ecosystemen met verlandings- en watervegetaties, voorkomend (groeiend) op
-organische substraten.
+**(Semi)-terrestrisch:** terrestrisch betekent voorkomend op het land, op of in de grond levend, voorkomend op minerale substraten.
+Semi-terrestrisch betekent ecosystemen met verlandings- en watervegetaties, voorkomend (groeiend) op organische substraten.
 
-**Veenbodem:** een veenbodem is een bodemtype (Histosol) dat opgebouwd is uit
-geaccumuleerd en slechts gedeeltelijk afgebroken organisch materiaal (minimaal
-40 cm dik). Een veenbodem wordt in onze streken steeds gevormd in natte
-omstandigheden.
+**Veenbodem:** een veenbodem is een bodemtype (Histosol) dat opgebouwd is uit geaccumuleerd en slechts gedeeltelijk afgebroken organisch materiaal (minimaal 40 cm dik).
+Een veenbodem wordt in onze streken steeds gevormd in natte omstandigheden.
 
 ## Doelstelling en toepassingsgebied
 
-**Doelstelling**: De hier beschreven bemonsteringsmethode heeft betrekking op
-het nemen van een representatief oppervlaktemonster gekoppeld aan een proefvlak,
-welke een vegetatieopnameplot kan zijn. Analyse van de oppervlaktemonsters
-leveren informatie aangaande de ruimtelijke patronen (laterale variatie) op
-standplaatsniveau. Korte afstandsvariabiliteit wordt gestabiliseerd door middel
-van mengmonsters.
+**Doelstelling**: De hier beschreven bemonsteringsmethode heeft betrekking op het nemen van een representatief oppervlaktemonster gekoppeld aan een proefvlak, welke een vegetatieopnameplot kan zijn.
+Analyse van de oppervlaktemonsters leveren informatie aangaande de ruimtelijke patronen (laterale variatie) op standplaatsniveau.
+Korte afstandsvariabiliteit wordt gestabiliseerd door middel van mengmonsters.
 
-**Toepassingsgebied:** Dit veldprotocol betreft het nemen van bodemmonsters van
-de *vaste bodemfase* *in terrestrische en semi-terrestrische systemen*, dus het
-vaste deel van de bodem met de daaraan gebonden stoffen. De techniek is erop
-gericht om via het nemen van deelmonsters een representatief beeld te krijgen
-van de bemonsterde *puntlocatie* (proefvlak met beperkte oppervlakte). De
-strooisellaag, indien aanwezig, wordt niet mee opgenomen in het monster.
+**Toepassingsgebied:** Dit veldprotocol betreft het nemen van bodemmonsters van de *vaste bodemfase* *in terrestrische en semi-terrestrische systemen*, dus het vaste deel van de bodem met de daaraan gebonden stoffen.
+De techniek is erop gericht om via het nemen van deelmonsters een representatief beeld te krijgen van de bemonsterde *puntlocatie* (proefvlak met beperkte oppervlakte).
+De strooisellaag, indien aanwezig, wordt niet mee opgenomen in het monster.
 
-In semi-terrestrische systemen kan de overgang tussen de ectorganische en de
-organische bodem of veenbodem (endorganische laag) heel geleidelijk en/of
-onduidelijk zijn. In dat geval, bevindt het bodemoppervlak (0 cm lijn) zich net
-onder de levende vegetatie. In dat geval zal het oppervlaktemonster zowel levend
-als dood organische materiaal (o.a. wortels) en slechts een zeer lage fractie
-aan minerale bodemdeeltjes bevatten.
+In semi-terrestrische systemen kan de overgang tussen de ectorganische en de organische bodem of veenbodem (endorganische laag) heel geleidelijk en/of onduidelijk zijn.
+In dat geval, bevindt het bodemoppervlak (0 cm lijn) zich net onder de levende vegetatie.
+In dat geval zal het oppervlaktemonster zowel levend als dood organische materiaal (o.a. wortels) en slechts een zeer lage fractie aan minerale bodemdeeltjes bevatten.
 
-De laboratoriumanalyses worden uitgevoerd op het (gedroogd) bodemmonster. Bij
-het maken van een monster voor laboratoriumanalysen wordt bodemvreemd materiaal
-verwijderd. Het monster wordt reeds op terrein zoveel mogelijk ontdaan van
-levende materie (plantendelen, levende wortels (diameter > 2 mm,
-bodemfauna,...), grind en stenen. Verdere voorbehandeling van het staal (drogen,
-zeven, verkleinen) gebeurt in het laboratorium.
+De laboratoriumanalyses worden uitgevoerd op het (gedroogd) bodemmonster.
+Bij het maken van een monster voor laboratoriumanalysen wordt bodemvreemd materiaal verwijderd.
+Het monster wordt reeds op terrein zoveel mogelijk ontdaan van levende materie (plantendelen, levende wortels (diameter \> 2 mm, bodemfauna,...), grind en stenen.
+Verdere voorbehandeling van het staal (drogen, zeven, verkleinen) gebeurt in het laboratorium.
