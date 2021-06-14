@@ -193,7 +193,7 @@ create_spp(title = "Bodemstalen nemen",
 
 See [the bookdown manual](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html) for a general explanation about parameterized reports.
 
-Suppose we have a protocol where we would like to specify the depth beneath the soil surface that needs to be sampled with a soil auger as well as the number of subsamples to take and the diameter of the auger.
+Suppose we have a protocol where we would like to specify parameters: the depth beneath the soil surface that needs to be sampled with a soil auger as well as the number of subsamples to take and the diameter of the auger.
 To do this, we need to go to the YAML header of our `index.Rmd` file and add a `params` section to the header with the needed key-value pair:
 
     ---
