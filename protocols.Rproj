@@ -13,3 +13,10 @@ RnwWeave: knitr
 LaTeX: XeLaTeX
 
 AutoAppendNewline: Yes
+
+BuildType: Package
+PackageUseDevtools: Yes
+PackageInstallArgs: --no-multiarch --with-keep.source
+
+MarkdownWrap: Sentence
+MarkdownCanonical: Yes

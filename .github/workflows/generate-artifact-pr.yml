@@ -1,0 +1,83 @@
+name: On PR, build the protocol and save the result to an artifact
+
+on:
+  push:
+    branches: 's[fpioa]p**'
+
+jobs:
+  build-and-save:
+    runs-on: ubuntu-20.04
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }} # checkout PR head commit
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
+
+      - name: Setup pandoc and pandoc-citeproc
+        uses: r-lib/actions/setup-pandoc@v1
+        with:
+          pandoc-version: '2.7.3' # The pandoc version to download (if necessary) and use.
+
+      - name: Query dependencies
+        run: |
+          install.packages('remotes')
+          saveRDS(remotes::dev_package_deps(dependencies = NA), ".github/depends.Rds", version = 2)
+          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+        shell: Rscript {0}
+
+      - name: Restore R package cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+
+      - name: Install system dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+
+      - name: Install dependencies
+        run: |
+          remotes::install_deps(dependencies = NA) #fails to install protocolhelper
+          remotes::install_github("inbo/protocolhelper")
+        shell: Rscript {0}
+
+      - name: Session info
+        run: |
+          options(width = 100)
+          pkgs <- installed.packages()[, "Package"]
+          sessioninfo::session_info(pkgs, include_base = TRUE)
+        shell: Rscript {0}
+
+      - name: Set branch name
+        run: |
+          echo "branch_name=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_ENV
+  
+      - name: Print branch name
+        run: |
+          echo 'The branch name is' '${{ env.branch_name }}'
+          echo 'The branch name is' $branch_name
+
+      - name: Render protocol (only the one that is the focus of the PR) 
+        run: |
+          Rscript -e 'protocolhelper::render_protocol("${{ env.branch_name }}", "artifact")'
+        
+      - name: Archive protocol to an artifact
+        if: ${{ success() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: pr-${{ env.PR_NUMBER }}-inbo-protocol
+          path: ./**/artifact/
+        env:
+          PR_NUMBER: ${{ github.event.number }}
