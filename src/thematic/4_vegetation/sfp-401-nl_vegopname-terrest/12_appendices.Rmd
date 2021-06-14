@@ -18,9 +18,11 @@ vertaal <- c(
   coverscale_species = "bedekkingsschaal voor soorten",
   coverscale_structure = "bedekkingsschaal voor structuur")
 
-params %>%
+params2 <- params
+attributes(params2)$class <- NULL
+
+params2 %>%
   tibble::enframe() %>%
-  slice(-(1:10)) %>%
   mutate(name = recode(name, !!!vertaal)) %>%
   rename(naam = name, waarde = value) %>%
   kable()
