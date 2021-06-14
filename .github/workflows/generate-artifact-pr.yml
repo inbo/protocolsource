@@ -62,7 +62,7 @@ jobs:
 
       - name: Set branch name
         run: |
-          echo "branch_name=$(echo ${GITHUB_HEAD_REF})" >> $GITHUB_ENV
+          echo "branch_name=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_ENV
   
       - name: Print branch name
         run: |
