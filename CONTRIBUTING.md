@@ -133,7 +133,7 @@ This will allow you to check the resulting output locally.
 
 ### From an existing docx protocol
 
-``` {.r}
+```r
 library(protocolhelper)
 create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
            subtitle = "", 
@@ -154,7 +154,7 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
 
 ### From a new template
 
-``` {.r}
+```r
 library(protocolhelper)
 create_sfp(title = "titel van het protocol",
            subtitle = "optionele subtitel", 
@@ -173,7 +173,7 @@ create_sfp(title = "titel van het protocol",
 
 Alternatively, for a project-specific protocol:
 
-``` {.r}
+```r
 library(protocolhelper)
 create_spp(title = "Bodemstalen nemen", 
            subtitle = "", 
@@ -211,7 +211,7 @@ We can either call the parameter using an inline R expression:
 
 Or in an R chunk:
 
-``` {.r}
+```r
 volume_sampled_cm3 <- params$soil_depth_cm * 
     params$number_subsamples *
     pi * params$auger_diameter_cm ^ 2 / 4 
@@ -231,7 +231,7 @@ The reason to use a function here is twofold:
 
 Here is an example of using the function:
 
-``` {.r}
+```r
 protocolhelper::add_dependencies(
     code_mainprotocol = "spp-999-en",
     protocol_code = c("sfp-123-en", "sfp-124-en"),
@@ -274,7 +274,7 @@ The function `protocolhelper::add_subprotocol()` must be used to add md-files of
 
 To continue with the example:
 
-``` {.r}
+```r
 protocolhelper::add_subprotocols(
     code_mainprotocol = "spp-999-en"
 )
@@ -323,7 +323,7 @@ Tips & Tricks:
 -   To refer to files use the `rprojroot` package.
     Here is an example to refer to the project folder:
 
-    ``` {.r}
+    ```r
     library(rprojroot)
     path_to_project <- find_root_file(
       "src/project",
