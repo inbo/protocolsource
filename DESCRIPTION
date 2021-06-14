@@ -27,6 +27,7 @@ Imports:
     git2rdata,
     knitr,
     protocolhelper,
+    purrr,
     rprojroot,
     sessioninfo,
     tibble
