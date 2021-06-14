@@ -1,37 +1,42 @@
 ---
 title: Vervangprocedure voor geselecteerde steekproefeenheden van terrestrische types
 subtitle:  
-author: [Toon Westra]
+author:
+  - name: Toon Westra
+    orcid: 0000-0003-2478-9459
 date: "`r Sys.Date()`"
-params:
-  reviewers: [Patrik Oosterlynck,Floris Vanderhaeghe]
-  file_manager: Toon Westra
-  protocol_code: sfp-001
-  version_number: "2020.01.dev"
-  language: nl
-  theme: generic
-bibliography: references_habitats.bib
-link-citations: TRUE
+reviewers: [Patrik Oosterlynck,Floris Vanderhaeghe]
+file_manager: Toon Westra
+protocol_code: sfp-001-nl
+version_number: "2020.01.dev"
+language: nl
+theme: generic
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
     split_by: none
     split_bib: FALSE
+    template: !expr protocolhelper::protocol_css()
+    css: css/inbo_rapport.css
+    config:
+       toc:
+         before: |
+           <li class="toc-logo"><a href="./"><img src="css/img/inbo-nl.jpg"></a></li>
+bibliography: references_habitats.bib
+link-citations: TRUE
 ---
 
+```{=html}
 <!--
-Instructies bij opmaak van veldprotocol:
+Instructies bij opmaak van het protocol:
 
-Hieronder vind je de verschillende onderdelen van een veldprotocol.
-In de bijhorende losse Rmd bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden;
-het is in die bestanden dat je moet editeren. 
-Niet alle onderdelen zijn altijd van toepassing. Laat in die gevallen de titelhoofdingen staan en vermeld expliciet “niet van toepassing”.
-Probeer het veldprotocol generiek te maken in de mate van mogelijk en probeer te vermijden dat het veldprotocol enkel specifiek voor een bepaald project bruikbaar is. 
-Je kan het protocol generiek houden door bepaalde variabelen, zoals bijvoorbeeld de grootte van een proefvlak of de diepte van een bodembemonstering, niet vast te leggen in het protocol. 
-In bijlage kan je dan een tabel toevoegen waarin je per project aangeeft welke waardes gekozen moeten worden voor die variabelen. 
-Indien een bepaald onderdeel niet van toepassing is, laat je de hoofding staan en vermeld je onder de titel ‘Niet van toepassing’. Op die manier is de nummering in alle protocols dezelfde.
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse Rmd bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titelhoofdingen staan en vermeld expliciet “niet van toepassing”.
 -->
-
+```
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
@@ -45,9 +50,12 @@ opts_chunk$set(
   error = TRUE,
   message = FALSE
 )
+library(dplyr)
+library(purrr)
 ```
 
+# Metadata {.unnumbered}
 
-| Reviewers | Documentbeheerder | Protocol code | Versienummer | Taal | Thema |
-| --------- | ----------------- | ------------- | ------------ | ---- | ----- |
-| `r paste(params$reviewers, collapse = ", ")` | `r params$file_manager` | `r sprintf("[%1$s](../%1$s/index.html)", params$protocol_code)` | `r params$version_number` | `r params$language` | `r params$theme` |
+| Reviewers                                                 | Documentbeheerder                    | Protocol code                         | Versienummer                           | Taal                             | Thema                         |
+|-----------------------------------------------------------|--------------------------------------|---------------------------------------|----------------------------------------|----------------------------------|-------------------------------|
+| `r paste(rmarkdown::metadata$reviewers, collapse = ", ")` | `r rmarkdown::metadata$file_manager` | `r rmarkdown::metadata$protocol_code` | `r rmarkdown::metadata$version_number` | `r rmarkdown::metadata$language` | `r rmarkdown::metadata$theme` |
