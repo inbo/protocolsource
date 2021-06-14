@@ -223,7 +223,7 @@ When a protocol [depends on other protocols](README.md#dependencies), they need 
 The easiest way to do this is with the aid of `protocolhelper::add_dependencies()`.
 Moreover, if a subprotocol uses [parameters](#parameterized), the subprotocol parameter values can be customized at the level of the main protocol.
 Instead of creating the YAML section manually as in [What to do in case of parameterized protocols?](#parameterized),
-we use the function ´protocolhelper::add_dependencies()´.
+we use the function `protocolhelper::add_dependencies()`.
 The reason to use a function here is twofold:
 
 -   the function does some basic checks to see if the dependencies are correctly specified
