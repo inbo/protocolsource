@@ -1,5 +1,4 @@
-# Referenties {-}
-<div id="refs"></div>
+# Referenties {.unnumbered}
 
-
-
+::: {#refs}
+:::

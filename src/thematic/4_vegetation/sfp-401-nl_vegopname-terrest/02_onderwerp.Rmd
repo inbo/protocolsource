@@ -2,68 +2,42 @@
 
 ## Definities en afkortingen
 
-**Abundantie of densiteit** = een maat voor talrijkheid: abundantie wordt
-gebruikt om aan te geven hoe talrijk een soort voorkomt, meestal gekoppeld aan
-een bepaalde oppervlakte (densiteit). Het is het aantal individuen of andere
-teleenheden (bv. scheuten) van een soort per oppervlakte. Deze term wordt
-bijvoorbeeld gebruikt in de vegetatiekunde, waar verschillende systemen bestaan
-om de abundantie van plantensoorten in de vegetatie aan te geven.
+**Abundantie of densiteit** = een maat voor talrijkheid: abundantie wordt gebruikt om aan te geven hoe talrijk een soort voorkomt, meestal gekoppeld aan een bepaalde oppervlakte (densiteit).
+Het is het aantal individuen of andere teleenheden (bv. scheuten) van een soort per oppervlakte.
+Deze term wordt bijvoorbeeld gebruikt in de vegetatiekunde, waar verschillende systemen bestaan om de abundantie van plantensoorten in de vegetatie aan te geven.
 
-**Aquatische vegetatie** = watergebonden vegetatie (waterplantvegetaties -
-hydrofyten), al dan niet volledig ondergedoken in de waterkolom.
+**Aquatische vegetatie** = watergebonden vegetatie (waterplantvegetaties - hydrofyten), al dan niet volledig ondergedoken in de waterkolom.
 
-**Bedekking** = een maat van voorkomen die meer gelinkt is met biomassa (een
-soort kan bijvoorbeeld zeer talrijk voorkomen maar met lage biomassa/bedekking):
-de bedekking van een plantensoort (of laag van de vegetatie, bv. boomlaag) is de
-proportie van de bodem die bedekt is door een soort, indien alle andere soorten
-verwijderd zouden worden. M.a.w. het is de verticale projectie van alle
-bovengrondse plantendelen van alle individuen van een soort op de bodem binnen
-een proefvlak [@RN155]. De bedekking wordt uitgedrukt als een proportie of
-een percentage.
+**Bedekking** = een maat van voorkomen die meer gelinkt is met biomassa (een soort kan bijvoorbeeld zeer talrijk voorkomen maar met lage biomassa/bedekking): de bedekking van een plantensoort (of laag van de vegetatie, bv. boomlaag) is de proportie van de bodem die bedekt is door een soort, indien alle andere soorten verwijderd zouden worden.
+M.a.w. het is de verticale projectie van alle bovengrondse plantendelen van alle individuen van een soort op de bodem binnen een proefvlak [@RN155].
+De bedekking wordt uitgedrukt als een proportie of een percentage.
 
-**Bedekkingsschaal** = een meestal ordinale schaal die gebruikt wordt om in het
-veld voor een plantensoort de visueel ingeschatte bedekking te noteren. Sommige
-schalen zijn een combinatie van klassen voor bedekkingspercentages en klassen
-voor abundanties bij lage bedekkingen. Elke klasse in de ordinale schaal krijgt
-een code die genoteerd wordt.
+**Bedekkingsschaal** = een meestal ordinale schaal die gebruikt wordt om in het veld voor een plantensoort de visueel ingeschatte bedekking te noteren.
+Sommige schalen zijn een combinatie van klassen voor bedekkingspercentages en klassen voor abundanties bij lage bedekkingen.
+Elke klasse in de ordinale schaal krijgt een code die genoteerd wordt.
 
 **Proefvlak** = deel van het terrein waarbinnen de waarnemingen worden gedaan.
-Het heeft een vooraf vastgelegde vorm, grootte en oriëntatie. De standaard voor
-vegetatie-opnamen is een vierkant proefvlak.
+Het heeft een vooraf vastgelegde vorm, grootte en oriëntatie.
+De standaard voor vegetatie-opnamen is een vierkant proefvlak.
 
-**PQ** = permanent quadraat: een proefvlak dat meermaals in de tijd wordt
-opgenomen, en dus resulteert in een tijdreeks van opnames voor eenzelfde
-locatie.
+**PQ** = permanent quadraat: een proefvlak dat meermaals in de tijd wordt opgenomen, en dus resulteert in een tijdreeks van opnames voor eenzelfde locatie.
 
-**(Semi-)terrestrische vegetatie** = Niet-aquatische vegetaties. Zijn aan land
-gebonden en wortelen in de bodem.
+**(Semi-)terrestrische vegetatie** = Niet-aquatische vegetaties.
+Zijn aan land gebonden en wortelen in de bodem.
 
-**Soortensamenstelling** = de lijst van soorten die voorkomen binnen het
-proefvlak.
+**Soortensamenstelling** = de lijst van soorten die voorkomen binnen het proefvlak.
 
-**Strooisellaag** = liggend afgestorven plantenmateriaal op de bodem, niet
-vasthangend aan de moederplant waarin organisch materiaal nog herkenbaar te
-vinden is. Strooisel omvat dus bladeren, stengels, twijgen en andere houtachtige
-plantenresten, zowel intact en herkenbaar materiaal als gedeeltelijk
-gecomposteerd en gefragmenteerd materiaal.
+**Strooisellaag** = liggend afgestorven plantenmateriaal op de bodem, niet vasthangend aan de moederplant waarin organisch materiaal nog herkenbaar te vinden is.
+Strooisel omvat dus bladeren, stengels, twijgen en andere houtachtige plantenresten, zowel intact en herkenbaar materiaal als gedeeltelijk gecomposteerd en gefragmenteerd materiaal.
 
-**Vegetatieopname** = beschrijving van de vegetatiesamenstelling door middel van
-een volledige lijst van de aanwezige soorten en de mate van de hoeveelheid
-waarin ze voorkomen (biomassa, densiteit, bedekking, ...).
+**Vegetatieopname** = beschrijving van de vegetatiesamenstelling door middel van een volledige lijst van de aanwezige soorten en de mate van de hoeveelheid waarin ze voorkomen (biomassa, densiteit, bedekking, ...).
 
 ## Doelstelling en toepassingsgebied
 
-De beschrijving van de vegetatie gebeurt vaak op basis van een zogenaamde
-vegetatieopname. Vegetatieopnames hebben tot doel een beeld te geven van de
-vegetatie op een bepaalde locatie aan de hand van de soortensamenstelling,
-abundantie en bedekking van de soorten binnen een proefvlak. Dit kan zowel met
-doel een fytosociologie af te lijnen (lokaal, regionaal, ...), een verandering
-in tijd bloot te leggen, als de biotische toestand (kwaliteit, verstoringen,..)
-te karakteriseren.
+De beschrijving van de vegetatie gebeurt vaak op basis van een zogenaamde vegetatieopname.
+Vegetatieopnames hebben tot doel een beeld te geven van de vegetatie op een bepaalde locatie aan de hand van de soortensamenstelling, abundantie en bedekking van de soorten binnen een proefvlak.
+Dit kan zowel met doel een fytosociologie af te lijnen (lokaal, regionaal, ...), een verandering in tijd bloot te leggen, als de biotische toestand (kwaliteit, verstoringen,..) te karakteriseren.
 
-De hier beschreven procedure is uitsluitend van toepassing op vegetaties in
-terrestrische al dan niet grondwaterafhankelijke situaties. De grootte en vorm
-van het proefvlak kan variëren, afhankelijk van de doelstelling of van het
-bestudeerde vegetatietype. Zie \@ref(bijlage-params) voor een overzicht van de
-in dit protocol gebruikte instelwaarden.
-
+De hier beschreven procedure is uitsluitend van toepassing op vegetaties in terrestrische al dan niet grondwaterafhankelijke situaties.
+De grootte en vorm van het proefvlak kan variëren, afhankelijk van de doelstelling of van het bestudeerde vegetatietype.
+Zie \@ref(bijlage-params) voor een overzicht van de in dit protocol gebruikte instelwaarden.

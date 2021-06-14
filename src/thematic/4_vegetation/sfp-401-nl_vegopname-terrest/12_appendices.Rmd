@@ -1,6 +1,6 @@
-# (APPENDIX) Bijlagen {-} 
+# (APPENDIX) Bijlagen {.unnumbered}
 
-#  Bijlage: instelwaarden {#bijlage-params}
+# Bijlage: instelwaarden {#bijlage-params}
 
 ```{r params-tabel}
 vertaal <- c(
@@ -26,27 +26,27 @@ params %>%
   kable()
 ```
 
-
-#  Bijlage: opnameformulier {#bijlage-opnameformulier}
+# Bijlage: opnameformulier {#bijlage-opnameformulier}
 
 ```{r image11, out.width= '100%'}
 knitr::include_graphics(path = './media/image11.png')
 ```
 
-
-**[Achtergrondinformatie]{.underline}**
-
+[**Achtergrondinformatie**]{.ul}
 
 Grootte van het proefvlak:
 
-- Open vegetaties
-    - `r params$plot_length_openveg_m` m x `r params$plot_width_openveg_m` m
-    - 1% = `r params$plot_length_openveg_m/10` m x `r params$plot_width_openveg_m/10` m
-- Bossen
-    - `r params$plot_length_forest_m` m x `r params$plot_width_forest_m` m
-    - 1% = `r params$plot_length_forest_m/10` m x `r params$plot_width_forest_m/10` m
+-   Open vegetaties
 
-#  Bijlage: `r params$coverscale_species`
+    -   `r params$plot_length_openveg_m` m x `r params$plot_width_openveg_m` m
+    -   1% = `r params$plot_length_openveg_m/10` m x `r params$plot_width_openveg_m/10` m
+
+-   Bossen
+
+    -   `r params$plot_length_forest_m` m x `r params$plot_width_forest_m` m
+    -   1% = `r params$plot_length_forest_m/10` m x `r params$plot_width_forest_m/10` m
+
+# Bijlage: `r params$coverscale_species`
 
 ```{r coverscale-protocol, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
 cover_scales <- git2rdata::read_vc(
@@ -60,11 +60,9 @@ kable(cover_scales %>%
       caption = paste0("Table with cover scale ", params$coverscale_species))
 ```
 
-
-#  Bijlage: Andere mogelijke opnameschalen
+# Bijlage: Andere mogelijke opnameschalen
 
 Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames.
-
 
 ```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
 kable(cover_scales %>%
@@ -75,9 +73,7 @@ kable(cover_scales %>%
       caption = "Table with active cover scales in InboVeg")
 ```
 
-
-#  Bijlage: inschatting bedekkingen oefenen
-
+# Bijlage: inschatting bedekkingen oefenen
 
 ```{r image12, out.width= '100%'}
 knitr::include_graphics(path = './media/image12.png')
@@ -103,16 +99,13 @@ knitr::include_graphics(path = './media/image16.png')
 knitr::include_graphics(path = './media/image17.png')
 ```
 
-
 ```{r image18, out.width= '100%'}
 knitr::include_graphics(path = './media/image18.png')
 ```
 
-
 ```{r image19, out.width= '100%'}
 knitr::include_graphics(path = './media/image19.png')
 ```
-
 
 ```{r image20, out.width= '100%'}
 knitr::include_graphics(path = './media/image20.png')
@@ -122,26 +115,24 @@ knitr::include_graphics(path = './media/image20.png')
 knitr::include_graphics(path = './media/image21.png')
 ```
 
-
 ```{r image22, out.width= '100%'}
 knitr::include_graphics(path = './media/image22.png')
 ```
 
+# Bijlage: Fenologiecodes INBO
 
-#  Bijlage: Fenologiecodes INBO
+| Code | Verklaring                                   |
+|:-----|:---------------------------------------------|
+| \-   | n.v.t.                                       |
+| \+   | Dood                                         |
+| 0    | niet genoteerd                               |
+| Dis  | uitgezaaid (oude bloeistengels nog aanwezig) |
+| Fl   | Bloeiend                                     |
+| Fr   | met vruchten                                 |
+| K    | Kiemplant                                    |
+| Kn   | Bloemknoppen                                 |
+| sp   | Sporenvormend                                |
+| V    | Vegetatief                                   |
 
-  Code   Verklaring
-  ------ ----------------------------------------------
-  \-     n.v.t.
-  \+     Dood
-  0      niet genoteerd
-  Dis    uitgezaaid (oude bloeistengels nog aanwezig)
-  Fl     Bloeiend
-  Fr     met vruchten
-  K      Kiemplant
-  Kn     Bloemknoppen
-  sp     Sporenvormend
-  V      Vegetatief
-
-Enkel de codes + (dood) en K (kiemplant) moeten toegevoegd worden indien van toepassing. De andere
-codes zijn facultatief.
+Enkel de codes + (dood) en K (kiemplant) moeten toegevoegd worden indien van toepassing.
+De andere codes zijn facultatief.
