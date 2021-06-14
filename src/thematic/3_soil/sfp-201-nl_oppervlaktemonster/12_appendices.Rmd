@@ -11,8 +11,9 @@ vertaal <- c(
   guts_diameter_mm = "Guts diameter (mm)")
 
 params %>%
+  flatten() %>%
   tibble::enframe() %>%
-  slice(-(1:10)) %>%
+  filter(name != "dependencies") %>%
   mutate(name = recode(name, !!!vertaal)) %>%
   rename(naam = name, waarde = value) %>%
   kable()
