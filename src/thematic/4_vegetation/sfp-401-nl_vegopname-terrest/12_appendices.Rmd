@@ -48,20 +48,6 @@ Grootte van het proefvlak:
     -   `r params$plot_length_forest_m` m x `r params$plot_width_forest_m` m
     -   1% = `r params$plot_length_forest_m/10` m x `r params$plot_width_forest_m/10` m
 
-# Bijlage: `r params$coverscale_species`
-
-```{r coverscale-protocol, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
-cover_scales <- git2rdata::read_vc(
-  file = "cover_scales", 
-  root = file.path(protocol_path, "data")
-)
-
-kable(cover_scales %>% 
-        filter(ListName == params$coverscale_species) %>%
-        select(-SortCode), 
-      caption = paste0("Table with cover scale ", params$coverscale_species))
-```
-
 # Bijlage: Andere mogelijke opnameschalen
 
 Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames.
