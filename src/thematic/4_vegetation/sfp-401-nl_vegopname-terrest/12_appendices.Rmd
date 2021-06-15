@@ -52,13 +52,13 @@ Grootte van het proefvlak:
 
 Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames.
 
-```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.csv"))}
 kable(cover_scales %>%
         filter(ListName != params$coverscale_species) %>%
         select(-SortCode) %>%
         group_by(ListName) %>%
         summarise(codes = paste(Code, collapse = ", ")), 
-      caption = "Table with active cover scales in InboVeg")
+      caption = "Tabel met actieve bedekkingschalen in InboVeg")
 ```
 
 # Bijlage: inschatting bedekkingen oefenen
