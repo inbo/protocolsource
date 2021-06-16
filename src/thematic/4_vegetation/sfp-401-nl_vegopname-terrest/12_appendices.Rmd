@@ -63,48 +63,43 @@ kable(cover_scales %>%
 
 # Bijlage: inschatting bedekkingen oefenen
 
-```{r image12, out.width= '100%'}
-knitr::include_graphics(path = './media/image12.png')
-```
+Elk blauw vierkantje in de linkerbenedenhoek bij elke figuur vertegenwoordigt 1% van de volledige oppervlakte.
 
-```{r image13, out.width= '100%'}
-knitr::include_graphics(path = './media/image13.png')
-```
+```{r plots-bedekking, results = "asis", warning=FALSE, message=FALSE, cache = FALSE}
+figdata <- cover_scale_selected %>%
+  mutate(
+    gecombineerd = !(is.na(AbuLower)),
+    AbuLower = ifelse(is.na(AbuLower), 
+                      max(AbuLower, na.rm = TRUE),
+                      AbuLower),
+    AbuUpper = ifelse(is.na(AbuUpper), 
+                      2 * max(AbuUpper, na.rm = TRUE),
+                      AbuUpper),
+    aantal = round(AbuLower + (AbuUpper - AbuLower) / 2),
+    bedekking = PctValue2 / 100) %>%
+  select(code = Code, 
+         bedekking,
+         aantal,
+         gecombineerd) %>%
+  arrange(desc(gecombineerd), aantal, bedekking)
 
-```{r image14, out.width= '100%'}
-knitr::include_graphics(path = './media/image14.png')
-```
+purrr::pmap(
+  list(code = figdata$code,
+       bedekking = figdata$bedekking,
+       aantal = figdata$aantal,
+       gecombineerd = figdata$gecombineerd), 
+  function(code, bedekking, aantal, gecombineerd) {
+    knit_expand("_childdoc_visualisatie_bedekkingen.Rmd", 
+                cd = code,
+                bd = bedekking,
+                at = aantal,
+                gc = gecombineerd)
+  }) %>%
+  paste(collapse = "\n\n") -> rmd
 
-```{r image15, out.width= '100%'}
-knitr::include_graphics(path = './media/image15.png')
-```
+res <- knit_child(text = rmd, quiet = TRUE)
 
-```{r image16, out.width= '100%'}
-knitr::include_graphics(path = './media/image16.png')
-```
-
-```{r image17, out.width= '100%'}
-knitr::include_graphics(path = './media/image17.png')
-```
-
-```{r image18, out.width= '100%'}
-knitr::include_graphics(path = './media/image18.png')
-```
-
-```{r image19, out.width= '100%'}
-knitr::include_graphics(path = './media/image19.png')
-```
-
-```{r image20, out.width= '100%'}
-knitr::include_graphics(path = './media/image20.png')
-```
-
-```{r image21, out.width= '100%'}
-knitr::include_graphics(path = './media/image21.png')
-```
-
-```{r image22, out.width= '100%'}
-knitr::include_graphics(path = './media/image22.png')
+cat(res, sep = "\n")
 ```
 
 # Bijlage: Fenologiecodes INBO
