@@ -67,10 +67,18 @@ library(dplyr)
 library(purrr)
 library(git2rdata)
 library(rprojroot)
+library(spatstat)
+library(ggplot2)
 
 protocol_path <- find_root_file("src/thematic/4_vegetation/",
                                 "sfp-401-nl_vegopname-terrest", 
                                 criterion = is_git_root)
+
+source(
+  file.path(protocol_path, 
+            "_visualisatie_bedekking.R"
+  )
+)
 ```
 
 ```{r coverscales-db, eval = !file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
