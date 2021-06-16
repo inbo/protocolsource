@@ -30,4 +30,5 @@ Imports:
     purrr,
     rprojroot,
     sessioninfo,
+    spatstat,
     tibble
