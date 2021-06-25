@@ -93,7 +93,7 @@ Dit kan uiteraard ook met een lintmeter.
 Voor de N-Z oriëntatie is het belangrijk om de 2^de^ markeerstok in NW richting (2) te plaatsen met behulp van een kompas.
 Zie figuur \@ref(fig:image2) voor meer verduidelijking.
 
-```{r image2, fig.cap = 'Schema voor het uitzetten van een 3 m x 3 m proefvlak', out.width= '100%' }
+```{r image2, fig.cap = 'Voorbeeld van het schema voor het uitzetten van een 3 m x 3 m proefvlak', out.width= '100%' }
 knitr::include_graphics(path = './media/image2_2.png')
 ```
 
@@ -238,7 +238,7 @@ De totale som van alle bedekkingen is in grasland in regel meer dan 100% en kan 
 Wanneer het proefvlak in de toekomst niet opnieuw bezocht wordt en er is geen X-/Y-coördinaat voorhanden, wordt het middelpunt van het proefvlak ingelezen met de hand-GPS (liefst een gemiddelde waarde).
 Indien het noodzakelijk is het punt exact terug te vinden worden 2 hoekpunten ingelezen met de RTK-GPS (de zuid- en noordhoek).
 In bossen is een positionering met behulp van Fieldmap nauwkeuriger dan met GPS.
-De positie kan ingelezen worden in Fielsmap door te navigeren met de afstandsmeter en electronisch kompas vanaf een een referentiepunt met gekende coördinaten, zoals bij voorbeeld een kruispunt, of een punt buiten bos of op een open plek, dat wel nauwkeurig kan worden ingemeten met GPS.
+De positie kan ingelezen worden in Fieldmap door te navigeren met de afstandsmeter en electronisch kompas vanaf een een referentiepunt met gekende coördinaten, zoals bij voorbeeld een kruispunt, of een punt buiten bos of op een open plek, dat wel nauwkeurig kan worden ingemeten met GPS.
 In permanente proefvlakken kan de boomconfiguratie opgemeten worden, en gebruikt worden om het proefvlak zeer nauwkeurig te lokaliseren (zie eerder).
 
 Naast het inlezen met GPS kan ook een permanente markering worden aangebracht.
