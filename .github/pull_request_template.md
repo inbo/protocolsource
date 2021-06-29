@@ -1,5 +1,14 @@
 <!--- indicate the protocol code in the Title above -->
 
+## Description
+<!--- Describe your protocol proposal or your proposed changes-->
+<!--- You can mention collaborators with "@githubname"-->
+
+## Related Issue
+<!--- if this closes an issue make sure include e.g., "closes #4"
+or similar - or if just relates to an issue make sure to mention
+it like "#4" -->
+
 ## Task list
 
 <!--see https://docs.github.com/en/github/managing-your-work-on-github/about-task-lists
@@ -39,11 +48,3 @@ To be done by an administrator after merging this pull request:
 
 
 
-## Description
-<!--- Describe your protocol proposal or your proposed changes-->
-<!--- You can mention collaborators with "@githubname"-->
-
-## Related Issue
-<!--- if this closes an issue make sure include e.g., "closes #4"
-or similar - or if just relates to an issue make sure to mention
-it like "#4" -->
