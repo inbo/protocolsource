@@ -8,7 +8,7 @@ date: "`r Sys.Date()`"
 reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
 file_manager: Hans Van Calster
 protocol_code: sfp-401-nl
-version_number: "2021.00.dev"
+version_number: "2021.01"
 language: nl
 theme: vegetation
 params:
