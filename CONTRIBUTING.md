@@ -28,6 +28,12 @@ The `.git` directory is used by the version control system (do not make changes 
 The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive.
 Whenever you want to work in the project, you need to open `protocols.Rproj` file to start the RStudio project.
 
+This RStudio project uses [renv](https://rstudio.github.io/renv/articles/renv.html) to manage R package dependencies.
+This ensures that different users have the same versions of packages installed.
+See also [collaborating with renv](https://rstudio.github.io/renv/articles/collaborating.html).
+The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library.
+After this has completed, you can use `renv::restore()` to restore the project library locally on your machine.
+
 ## Branching model
 
 ![](src/management/protocols-gitflow-model.png)
