@@ -6,10 +6,10 @@
 
 # protocols
 
-INBO protocols for monitoring
+INBO protocols
 
 *experimental*: we are in the process of trying out git-version control for INBO protocols.
-In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/a/inbo.be/veldprotocols/) (only accessible to INBO collaborators).
+In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/inbo.be/veldprotocollen/).
 Development versions are in [this google drive folder](https://drive.google.com/drive/folders/0BzUqT1wpznBXY2ZqaXh2a0tyd2M) (only accessible to INBO collaborators).
 
 If you want to contribute a new protocol or update an existing protocol, check the [contributing guidelines](CONTRIBUTING.md).
