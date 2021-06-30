@@ -6,7 +6,7 @@
 
 # protocols
 
-INBO protocols for monitoring
+INBO protocols
 
 *experimental*: we are in the process of trying out git-version control for INBO protocols.
 In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/a/inbo.be/veldprotocols/) (only accessible to INBO collaborators).
