@@ -39,16 +39,16 @@ After this has completed, you can use `renv::restore()` to restore the project l
 ![](src/management/protocols-gitflow-model.png)
 
 We use a simple branching model.
-The master branch is protected and can only receive commits from reviewed pull requests.
-Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the master branch.
+The main branch is protected and can only receive commits from reviewed pull requests.
+Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the main branch.
 
 Protocols can depend on other protocols (protocol dependencies) only if these dependency protocols have been approved (and are published).
 Circular dependencies are not allowed.
 
-Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags (see [release model](README.md#release-model)).
+Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the main and add general and specific tags (see [release model](README.md#release-model)).
 Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol.
 
-Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
+Each time a merge commit is made to the main branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
 The resulting website is hosted at **TO BE ADDED**. This website will host all approved and published versions of all protocols.
 
 ## Workflow
@@ -57,7 +57,7 @@ The workflow is as follows for a **new** protocol:
 
 1.  make sure your local clone of the remote repository is up to date:
 
-    1.  with the master branch checked out, press the pull button in the Git pane
+    1.  with the main branch checked out, press the pull button in the Git pane
 
 2.  a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
 
@@ -116,7 +116,7 @@ The workflow is as follows for a **new** protocol:
 
 11. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 
-12. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
+12. The GitHub protocols repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
 For an **update** of an existing protocol all steps are the same, except for:
 
@@ -128,7 +128,7 @@ For adding a **pre-existing version of a protocol that was written in `docx` for
 
 -   a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
 -   use the protocol-code from the pre-existing `docx` protocol to create a new branch
--   If the section titles in the `docx` version of the protocol comply with section titles in the templates used by the `protocolhelper` package, then you will normally not see Rmarkdown file names starting with the same number. Otherwise, the function will have written both empty template Rmarkdown files as well as Rmarkdown files resulting from conversion of the `docx` file. (Note that `NEWS.md` and `index.Rmd` are always created from the `protocolhelper` templates.) In that case, you need to make changes (renaming files, deleting redundant files) so that Rmarkdown file names comply with the [template Rmarkdown files](https://github.com/inbo/protocolhelper/tree/master/inst/rmarkdown/templates).
+-   If the section titles in the `docx` version of the protocol comply with section titles in the templates used by the `protocolhelper` package, then you will normally not see Rmarkdown file names starting with the same number. Otherwise, the function will have written both empty template Rmarkdown files as well as Rmarkdown files resulting from conversion of the `docx` file. (Note that `NEWS.md` and `index.Rmd` are always created from the `protocolhelper` templates.) In that case, you need to make changes (renaming files, deleting redundant files) so that Rmarkdown file names comply with the [template Rmarkdown files](https://github.com/inbo/protocolhelper/tree/main/inst/rmarkdown/templates).
 -   continue the steps outlined for a new protocol.
 
 ## Starting a new protocol with the aid of protocolhelper functions
