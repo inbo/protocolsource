@@ -63,7 +63,7 @@ The workflow is as follows for a **new** protocol:
 
 3.  the generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
 
-    1.  in the Git pane press the icon to create a new branch
+    1.  in the Console type `checklist::new_branch(branch = "<protocol-code>")` (replace <protocol-code> by the generated protocol-code, e.g. `sfp-406-nl`)
 
 4.  after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
 
