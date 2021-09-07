@@ -15,18 +15,18 @@ Thank you for considering to contribute to this repository!
 
 Installing the repository on your local drive:
 
--   go to the [protocols repository](https://github.com/inbo/protocols/) and press the `Clone` button
+-   go to the [protocolsource repository](https://github.com/inbo/protocolsource/) and press the `Clone` button
 -   copy the URL to the clipboard
 -   start RStudio and select `File -> New project -> Version Control -> Git` -\> paste the URL
--   `protocols` will be automatically suggested as project directory name (keep it that way)
+-   `protocolsource` will be automatically suggested as project directory name (keep it that way)
 -   In the field `Create project as subdirectory of` select a folder on your local disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/repositories`.
 -   Click OK
 
 You will now have a local clone of the remote repository as an RStudio project.
 The `.git` directory is used by the version control system (do not make changes in this directory).
 
-The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive.
-Whenever you want to work in the project, you need to open `protocols.Rproj` file to start the RStudio project.
+The same directories and files which can be seen on the [remote](https://github.com/inbo/protocolsource) will be copied to your local drive.
+Whenever you want to work in the project, you need to open `protocolsource.Rproj` file to start the RStudio project.
 
 This RStudio project uses [renv](https://rstudio.github.io/renv/articles/renv.html) to manage R package dependencies.
 This ensures that different users have the same versions of packages installed.
@@ -48,7 +48,7 @@ Circular dependencies are not allowed.
 Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the main and add general and specific tags (see [release model](README.md#release-model)).
 Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol.
 
-Each time a merge commit is made to the main branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
+Each time a merge commit is made to the main branch of the `protocolsource` repo, a 'mirror read-only' repository (protocols repo) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
 The resulting website is hosted at **TO BE ADDED**. This website will host all approved and published versions of all protocols.
 
 ## Workflow
@@ -72,7 +72,7 @@ The workflow is as follows for a **new** protocol:
     3.  press the commit button
     4.  press the push button (or postpone pushing until several commits have been made)
 
-5.  the subject-matter specialist visits [github protocols](https://github.com/inbo/protocols) and starts a Pull Request (PR)
+5.  the subject-matter specialist visits [github protocolsource](https://github.com/inbo/protocolsource) and starts a Pull Request (PR)
 
     ![](src/management/pr-on-github-1.png)
 
@@ -116,7 +116,7 @@ The workflow is as follows for a **new** protocol:
 
 11. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 
-12. The GitHub protocols repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
+12. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
 For an **update** of an existing protocol all steps are the same, except for:
 
