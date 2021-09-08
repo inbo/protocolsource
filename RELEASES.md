@@ -13,7 +13,7 @@ After review of a protocol-branch and before each release the following steps ar
 
     2.  update the `.zenodo.json` file:
 
-        -   add new authorships
+        -   add new authorships with the aid of `protocolhelper:::update_zenodo()`
 
     3.  update the repo `NEWS.md` file
 
