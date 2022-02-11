@@ -102,16 +102,16 @@ A **protocol-code** consists of a prefix (three characters), a protocol-number (
 
 | type       | theme      | theme_number | protocol-code |
 |:-----------|:-----------|:-------------|:--------------|
-| field      | generic    | 0            | sfp-0\#\#-nl  |
-| field      | water      | 1            | sfp-1\#\#-nl  |
-| field      | air        | 2            | sfp-2\#\#-nl  |
-| field      | soil       | 3            | sfp-3\#\#-nl  |
-| field      | vegetation | 4            | sfp-4\#\#-nl  |
-| field      | species    | 5            | sfp-5\#\#-nl  |
-| instrument |            |              | sip-\#\#\#-nl |
-| operating  |            |              | sop-\#\#\#-nl |
-| activity   |            |              | sap-\#\#\#-nl |
-| project    |            |              | spp-\#\#\#-nl |
+| field      | generic    | 0            | sfp-0##-nl    |
+| field      | water      | 1            | sfp-1##-nl    |
+| field      | air        | 2            | sfp-2##-nl    |
+| field      | soil       | 3            | sfp-3##-nl    |
+| field      | vegetation | 4            | sfp-4##-nl    |
+| field      | species    | 5            | sfp-5##-nl    |
+| instrument |            |              | sip-###-nl    |
+| operating  |            |              | sop-###-nl    |
+| analysis   |            |              | sap-###-nl    |
+| project    |            |              | spp-###-nl    |
 
 The `s` and `p` refer to **s**tandard **p**rotocol, while `f, i, o, a, p` indicate the first letter of the protocol type.
 
