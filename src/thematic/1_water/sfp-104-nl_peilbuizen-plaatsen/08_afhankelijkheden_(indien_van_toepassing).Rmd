@@ -1,0 +1,12 @@
+# AFHANKELIJKHEDEN (Indien van toepassing)
+
+Procedures waarnaar in deze procedure verwezen wordt:
+
+-   SVP-014 Bepalen van een positie met GPS
+
+Procedures die verwijzen naar deze procedure:
+
+-   SVP-105 Bemonsteren van peilbuizen
+
+-   SVP-106 Bepalen van waterpeilen in peilbuizen
+
