@@ -1,12 +1,11 @@
-# (APPENDIX) Bijlagen {-} 
+# (APPENDIX) Bijlagen {.unnumbered}
 
-# Titel eerste bijlage
+# Checklist met materiaal (bijlage 1)
 
+```{=html}
 <!--
 Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
 O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
 -->
-
-# Titel tweede bijlage
-
-
+```
+# Checklist met te noteren informatie over het meetpunten (bijlage 2)

@@ -1,5 +1,0 @@
-# PRINCIPE
-
-Een blinde buis met een geperforeerd deel (de filter) wordt in de grond geplaatst (figuur 1). Het grondwater stroomt langzaam door de filter in de buis tot een evenwicht in druk binnen en buiten de buis wordt bereikt. De stijghoogte is de resultante van de hydraulische druk die ter hoogte van de filter in de ondergrond heerst. Voor een ondiepe freatische buis en bij een hoge verticale doorlatendheid van de ondergrond komt het waterpeil in de buis dan goed overeen met de grondwaterstand. Voor diepere piëzometers met filterstelling onder slecht doorlatende lagen kan de stijghoogte hoger, gelijk of lager zijn dan de grondwaterstand, afhankelijk van de heersende hydrostatische druk onder die slecht doorlatende lagen..\
-Twee of meer piëzometers op dezelfde locatie, maar met filters op verschillende diepte geven een indicatie voor kwel of infiltratie. Een afnemende drukhoogte met toenemende diepte is een indicatie voor infiltratie en toenemende drukhoogte met toenemende diepte is een indicatie voor kwel.
-
