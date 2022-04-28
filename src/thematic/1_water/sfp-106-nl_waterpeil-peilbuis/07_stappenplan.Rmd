@@ -8,7 +8,7 @@ Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het 
 Subtitels gebruiken om elke stap te omschrijven.
 -->
 ```
-            ### Meetlint met 'klokje'
+### Meetlint met 'klokje'
 
 Voor ondiepe grondwaterstanden is deze methode zeer praktisch en betrouwbaar.
 De lintmeter met het klokje wordt neergelaten in de peilbuis.
@@ -23,7 +23,7 @@ De lengte waarbij het klokje het oppervlak nog net wel raakt is de te noteren pe
 In diepe peilbuizen of bij veel omgevingsgeluid is het 'plop' mogelijk niet hoorbaar.
 Een meetlint met elektrische sensor biedt dan een oplossing.
 
-2.  Meetlint met elektrische sensor of multimeter
+### Meetlint met elektrische sensor of multimeter
 
 De lintmeter met de sensor wordt neergelaten in de peilbuis.
 Wanneer de sensor het wateroppervlak raakt is er een geluids- en/of lichtsignaal.
@@ -51,10 +51,6 @@ De druksensor wordt daarom minimaal 2 maal per jaar uitgelezen.
 
 De peilmetingen worden in het veld genoteerd (zie bijlage 1 en 2) en achteraf in Watina ingevoerd.
 
-### Subtitel 1
-
-### Subtitel 2
-
 ## Registratie en bewaring van resultaten
 
 ```{=html}
@@ -67,3 +63,4 @@ Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar dez
 Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
 ```
+De metingen worden ingegeven in de Watina databank.

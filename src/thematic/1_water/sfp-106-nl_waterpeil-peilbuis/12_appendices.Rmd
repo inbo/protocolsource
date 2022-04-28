@@ -8,9 +8,8 @@ Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
 O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
 -->
 ```
--   Meetlint met klokje of Meetlint met sensor
-
-> Het is aangeraden om steeds een meetlint met klokje mee te nemen als backup
+-   Meetlint met klokje of Meetlint met sensor.
+    Het is aangeraden om steeds een meetlint met klokje mee te nemen als backup
 
 -   Informatie om de locatie van de peilbuizen terug te vinden (kaart, coordinaten, ...)
 
@@ -19,3 +18,4 @@ O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (
 -   Schrijfmateriaal (potlood, notitieboekje)
 
 # Bijlage 2: Checklist met te noteren gegevens in het veld
+
