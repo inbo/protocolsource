@@ -2,18 +2,62 @@
 
 ## Uitvoering
 
+```{=html}
 <!--
 Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het protocol uit te voeren.
 Subtitels gebruiken om elke stap te omschrijven.
 -->
+```
+            ### Meetlint met 'klokje'
+
+Voor ondiepe grondwaterstanden is deze methode zeer praktisch en betrouwbaar.
+De lintmeter met het klokje wordt neergelaten in de peilbuis.
+Wanneer het klokje het\
+wateroppervlak raakt hoor je een 'plop' geluid.
+De meter moet vrij snel het wateroppervlak raken opdat het 'plop' geluid hoorbaar zou zijn.
+
+Laat het lint daarom eerst iets dieper zakken en hou je duim aan de lintmeter tegen het referentiepunt.
+Beweeg de lintmeter op en neer en verminder elke keer dat het plop geluid hoorbaar is de lengte van het lint een beetje totdat het klokje het wateroppervlak net niet meer raakt.
+De lengte waarbij het klokje het oppervlak nog net wel raakt is de te noteren peilmeting.
+
+In diepe peilbuizen of bij veel omgevingsgeluid is het 'plop' mogelijk niet hoorbaar.
+Een meetlint met elektrische sensor biedt dan een oplossing.
+
+2.  Meetlint met elektrische sensor of multimeter
+
+De lintmeter met de sensor wordt neergelaten in de peilbuis.
+Wanneer de sensor het wateroppervlak raakt is er een geluids- en/of lichtsignaal.
+Ook hier beweeg je best de meter enkele keren op en neer tot je het niveau van het water aanvoelt.
+Om de uiteindelijke meting uit te voeren wordt het meetlint langzaam omhoog gehaald.
+De aflezing gebeurt op het moment dat geluidssignaal stopt of het lichtje dooft.
+
+In zeer mineraalarm grondwater is de elektrische conductiviteit soms onvoldoende om de sensor te laten functioneren.
+Een meetlint met klokje kan in die omstandigheden wél nog dienen.
+
+### Peilmetingen met automatische druksensoren
+
+De relatieve metingen van de druksensor worden gekoppeld aan een absolute referentie peilmeting.
+Deze referentiemeting is zeer belangrijk omdat een afwijking in deze referentiemeting doorwerkt in alle berekende peilen van de druksensor.
+
+De druksensor heeft een aanzienlijk volume.
+De manuele referentie peilmeting moet daarom gebeuren vóór de druksensor in de peilbuis neergelaten wordt.
+Bij het bovenhalen van de sensor (voor uitlezen of definitief verwijderen) moet eerst de manuele referentie peilmeting uitgevoerd worden.
+Voor een langere reeks metingen met een druksensor zijn meerdere referentiemetingen per jaar aangewezen (minimaal 2).
+
+En defect of foute instelling van de druksensor wordt pas opgemerkt bij het uitlezen.
+De druksensor wordt daarom minimaal 2 maal per jaar uitgelezen.
+
+## Registratie en bewaring van resultaten
+
+De peilmetingen worden in het veld genoteerd (zie bijlage 1 en 2) en achteraf in Watina ingevoerd.
 
 ### Subtitel 1
 
 ### Subtitel 2
 
-
 ## Registratie en bewaring van resultaten
 
+```{=html}
 <!--
 Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
 Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar sip (standard instrument protocol, <protocol-code>-YYYY.NN) indien beschikbaar; indien geen sip beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
@@ -22,3 +66,4 @@ Geef aan of de stalen voorbehandeld moeten worden.
 Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen.
 Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
+```

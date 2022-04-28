@@ -26,7 +26,7 @@ output:
           src="css/img/cc-by.png"></a></li>
 ---
 
-
+```{=html}
 <!--
 Instructies bij opmaak van het protocol:
 
@@ -36,8 +36,7 @@ Het is in die bestanden dat je moet editeren.
 Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titelhoofdingen staan en vermeld expliciet â€œniet van toepassingâ€.
 -->
-
-
+```
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
@@ -55,10 +54,12 @@ library(dplyr)
 library(purrr)
 ```
 
+# Metadata {.unnumbered}
 
-
-# Metadata {-}
-
-| Reviewers | Documentbeheerder | Protocol code | Versienummer | Taal | Thema |
-| --------- | ----------------- | ------------- | ------------ | ---- | ----- |
+| Reviewers                                                 | Documentbeheerder                    | Protocol code                         | Versienummer                           | Taal                             | Thema                         |
+|-----------------------------------------------------------|--------------------------------------|---------------------------------------|----------------------------------------|----------------------------------|-------------------------------|
 | `r paste(rmarkdown::metadata$reviewers, collapse = ", ")` | `r rmarkdown::metadata$file_manager` | `r rmarkdown::metadata$protocol_code` | `r rmarkdown::metadata$version_number` | `r rmarkdown::metadata$language` | `r rmarkdown::metadata$theme` |
+
+Afhankelijkheden nog in te vullen in de yaml Procedures waarnaar in deze procedure verwezen wordt:
+
+-   SVP-104 Plaatsen van peilbuizen

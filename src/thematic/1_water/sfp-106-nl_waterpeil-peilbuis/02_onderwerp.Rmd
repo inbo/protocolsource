@@ -2,15 +2,36 @@
 
 ## Definities en afkortingen
 
+```{=html}
 <!--
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
 -->
+```
+-   **Peil:** De gemeten waarde van de top van de peilbuis naar het wateroppervlak in de peilbuis.
+    Soms wordt dit ook herleidt t.o.v. het maaiveld (m-mv), maar binnen het INBO is de afspraak dat het peil t.o.v. de top van de peilbuis genoteerd wordt.
+
+-   **Stijghoogte / drukhoogte:** Het potentieel peil van het wateroppervlak van grondwater, gemeten vanaf een bepaald niveau (bv. Tweede Algemene Waterpassing, TAW).
+    Doorgaans wordt de bodem van de peilbuis gebruikt.
+
+-   **TAW:** Tweede Algemene Waterpassing.
+    Referentiehoogte waar alle hoogtemetingen in België tegenover gebruikt worden.
+    Het gemiddeld zeeniveau bij laagwater te Oostende wordt gebruikt als nulpeil.
 
 ## Doelstelling en toepassingsgebied
 
+```{=html}
 <!--
 Doelstelling: omschrijving in woorden waarvoor het protocol dient.
 Voorbeelden wat er met de gegevens kan gedaan worden.
 Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
+```
+Deze richtlijn heeft betrekking op peilmetingen in een peilbuis, geplaatst volgens het protocol beschreven in de richtlijn SVP-104 (richtlijnen voor het plaatsen van een peilbuis)..
+
+Het doel van de metingen (manueel of met automatische drukmeters) is op langere termijn een tijdreeks van de grondwaterstand te verkrijgen.
+
+De richtlijn gaat niet in op de meetfrequentie en de vereiste lengte van meetreeksen.
+Dit is afhankelijk van de doelstellingen van het meetnet en de vereiste betrouwbaarheid.
+
+Als algemene regel kan wel worden gesteld dat éénmaal per maand meten een absoluut minimum is en dat bij voorkeur met vaste meetintervallen wordt gemeten.
