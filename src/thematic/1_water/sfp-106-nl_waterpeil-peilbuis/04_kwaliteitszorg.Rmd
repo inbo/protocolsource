@@ -1,0 +1,22 @@
+# KWALITEITSZORG
+
+#### Controle van de verticale positie (hoogte boven maaiveld)
+
+De hoogte boven maaiveld kan wijzigen door het opvriezen. De bovenste horizonten zijn aan verticale bewegingen onderhevig. Vorstwerking en opzwellen van veenlagen zijn de twee veelvoorkomende problemen. Wanneer een buis 's winters door water omgeven is, kan ze bij vorst vastvriezen aan een ijsplaat. Door zakken en stijgen van deze plaat kan de buis mee van positie veranderen. Ook het bevriezen van vochtige bodems kan met een verhoging van het maaiveld en dus van de buis gepaard gaan. Problemen worden vermeden door de buis voldoende diep te plaatsen en het boorgat goed op te vullen. Ook een uitwendige beschermkap (zowel bij onder- als bovengrondse afwerking) kan helpen, omdat ze rechtstreeks contact tussen de buis en het maaiveld belet in de eerste decimeters van de bodem, die het meest aan de vorstwerking onderhevig zijn.
+
+Het is belangrijk de verticale positie van de buis geregeld (minstens 1 x per jaar) te controleren. Bij meetpunten waar de verticale positie vaak wijzigt is het aangeraden deze bij elke meting te controleren.
+
+#### Controle op dichtslibben
+
+Peilbuizen kunnen dichtslibben. Bij ernstige problemen kan de buis gereinigd worden met een (flessen)borstel en een pomp (peristaltische pomp of brandstofpomp voor boormachine). Dichtgeslibde buizen zijn te herkennen doordat hun peil stagneert en dat ze na het leegpompen lang droog blijven. Om deze te reinigen moet er meermaals een emmer met water ingegoten worden, vervolgens schoongemaakt worden met een borstel en leeggepompt worden. Deze praktijk dient zo vaak herhaald te worden totdat het opgepompte water dezelfde kleur heeft als het ingegoten water.
+
+#### Aanpassingen en herstellingen van een meetpunt
+
+Elke wijziging van de hoogte boven maaiveld moet worden gedocumenteerd. Wanneer er geconstateerd wordt dat de buis beschadigd is (bv. bij het maaien) dan zijn er twee mogelijkheden:
+
+-   De buis herstellen met behulp van een steekmof die wordt vastgelijmd en de datum noteren vanaf wanneer de buis een nieuwe hoogte boven het maaiveld heeft;
+
+-   Blijven doormeten met de gewijzigde hoogte boven maaiveld, maar noteren vanaf wanneer de buis een nieuwe hoogte heeft. Als de buis dan toch aangepast wordt is het belangrijk de gewijzigde hoogte opnieuw te documenteren;
+
+Noteer steeds exact wanneer de wijziging in de hoogte boven maaiveld heeft plaatsgevonden en of de peilmeting voor of na de wijzigingen is gebeurd. Bij een nieuwe hoogte boven het maaiveld moet een nieuwe versie van het meetpunt worden aangemaakt (suffix A, B, ...)
+
