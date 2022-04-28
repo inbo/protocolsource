@@ -51,8 +51,6 @@ De druksensor wordt daarom minimaal 2 maal per jaar uitgelezen.
 
 De peilmetingen worden in het veld genoteerd (zie bijlage 1 en 2) en achteraf in Watina ingevoerd.
 
-## Registratie en bewaring van resultaten
-
 ```{=html}
 <!--
 Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
@@ -63,4 +61,3 @@ Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar dez
 Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
 ```
-De metingen worden ingegeven in de Watina databank.

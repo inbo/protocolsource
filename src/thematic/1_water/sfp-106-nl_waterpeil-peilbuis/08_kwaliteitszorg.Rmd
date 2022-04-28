@@ -8,7 +8,7 @@ Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel v
 In dit onderdeel kunnen ook bepaalde intercalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
 -->
 ```
-#### Controle van de verticale positie (hoogte boven maaiveld)
+## Controle van de verticale positie (hoogte boven maaiveld)
 
 De hoogte boven maaiveld kan wijzigen door het opvriezen.
 De bovenste horizonten zijn aan verticale bewegingen onderhevig.
@@ -22,7 +22,7 @@ Ook een uitwendige beschermkap (zowel bij onder- als bovengrondse afwerking) kan
 Het is belangrijk de verticale positie van de buis geregeld (minstens 1 x per jaar) te controleren.
 Bij meetpunten waar de verticale positie vaak wijzigt is het aangeraden deze bij elke meting te controleren.
 
-#### Controle op dichtslibben
+## Controle op dichtslibben
 
 Peilbuizen kunnen dichtslibben.
 Bij ernstige problemen kan de buis gereinigd worden met een (flessen)borstel en een pomp (peristaltische pomp of brandstofpomp voor boormachine).
@@ -30,7 +30,7 @@ Dichtgeslibde buizen zijn te herkennen doordat hun peil stagneert en dat ze na h
 Om deze te reinigen moet er meermaals een emmer met water ingegoten worden, vervolgens schoongemaakt worden met een borstel en leeggepompt worden.
 Deze praktijk dient zo vaak herhaald te worden totdat het opgepompte water dezelfde kleur heeft als het ingegoten water.
 
-#### Aanpassingen en herstellingen van een meetpunt
+## Aanpassingen en herstellingen van een meetpunt
 
 Elke wijziging van de hoogte boven maaiveld moet worden gedocumenteerd.
 Wanneer er geconstateerd wordt dat de buis beschadigd is (bv. bij het maaien) dan zijn er twee mogelijkheden:
@@ -42,4 +42,3 @@ Wanneer er geconstateerd wordt dat de buis beschadigd is (bv. bij het maaien) da
 
 Noteer steeds exact wanneer de wijziging in de hoogte boven maaiveld heeft plaatsgevonden en of de peilmeting voor of na de wijzigingen is gebeurd.
 Bij een nieuwe hoogte boven het maaiveld moet een nieuwe versie van het meetpunt worden aangemaakt (suffix A, B, ...)
-

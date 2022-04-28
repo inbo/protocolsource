@@ -15,9 +15,9 @@ Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met 
     Met geluidssignaal en/of lichtsignaal.
     Lengte van het lint 5 of 10 meter (schaalverdeling in cm, nauwkeurigheid 1cm) schaalverdeling.
 
-![](.%5Cmedia/image2.jpg){width="1.937846675415573in" height="2.9140562117235347in"} ![](.%5Cmedia/image3.jpg){width="2.489931102362205in" height="2.489931102362205in"}
+![(#fig:Figuur3) Meetlint met klokje (links) en meetlint met elektrische sensor (rechts).](.%5Cmedia/image2.jpg){width="1.937846675415573in" height="2.9140562117235347in"}
 
-#### Figuur \@ref(fig:Figuur3): Meetlint met klokje (links) en meetlint met elektrische sensor (rechts).
+![(#fig:Figuur4) Meetlint met klokje (links) en meetlint met elektrische sensor (rechts).](.%5Cmedia/image3.jpg){width="2.489931102362205in" height="2.489931102362205in"}
 
 ## Materiaal
 

@@ -1,13 +1,13 @@
 # (APPENDIX) Bijlagen {.unnumbered}
 
-# Bijlage 1: Checklist met materiaal
-
 ```{=html}
 <!--
 Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
 O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
 -->
 ```
+## Bijlage: Checklist met materiaal
+
 -   Meetlint met klokje of Meetlint met sensor.
     Het is aangeraden om steeds een meetlint met klokje mee te nemen als backup
 
@@ -17,5 +17,13 @@ O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (
 
 -   Schrijfmateriaal (potlood, notitieboekje)
 
-# Bijlage 2: Checklist met te noteren gegevens in het veld
+## Bijlage: Checklist met te noteren gegevens in het veld
 
+-   ID / code, datum en uur
+
+-   peilmeting (m).
+    Negatief voor neerwaartse meting
+
+-   hoogte boven maaiveld (m) op het moment van de peilmeting
+
+-   Na eventuele vorrect van de hoogte boven maaiveld ook de hoogte boven maaiveld (m) na de meting.

@@ -8,7 +8,7 @@ Bv principe achter het nemen van mengmonsters, principe achter visueel inschatte
 ```
 ## Manuele peilmeting
 
-De peilmeting is de afstand tussen het referentiepunt (de bovenrand van de peilbuis zonder dop) en het wateroppervlak in de peilbuis (figuur 1).
+De peilmeting is de afstand tussen het referentiepunt (de bovenrand van de peilbuis zonder dop) en het wateroppervlak in de peilbuis (figuur \@ref(fig:Figuur1)).
 Omdat deze meting naar beneden gericht is wordt dit met een negatief cijfer genoteerd.
 Komt bij een overstroming het peil boven het meetpunt, dan moet een positieve waarde genoteerd worden.
 
@@ -29,20 +29,17 @@ De drukverschillen zijn de resultante van verandering in de hoogte van de waterk
 Een druk van 1 millibar luchtdruk komt overeen met de druk van 1 cm waterkolom.
 De veranderingen in atmosferische druk moeten dus worden gecompenseerd.
 
-Sommige druksensoren zijn voorzien van een darmpje dat de luchtdruk bovenaan de peilbuis meet en de veranderingen in luchtdruk onmiddellijk compenseert (figuur xA).
+Sommige druksensoren zijn voorzien van een darmpje dat de luchtdruk bovenaan de peilbuis meet en de veranderingen in luchtdruk onmiddellijk compenseert (figuur \@ref(fig:Figuur2)).
 Dit darmpje mag dan wel nooit verstopt raken of vol water lopen.
 Voor druksensoren zonder luchtdrukcompensatie zijn afzonderlijke luchtdrukmetingen vereist en wordt achteraf gecompenseerd.
 
 Om de drukmeting om te zetten in een waarde van het waterpeil ten opzichte van het nulpunt is een referentiemeting vereist.
 Dit is een manuele peilmeting (zoals hierboven beschreven) die gekoppeld wordt aan een meting van de druksensor op hetzelfde ogenblik.
 
-De druksensor wordt in de peilbuis onder de laagst mogelijke grondwaterstand opgehangen (figuur 2).
+De druksensor wordt in de peilbuis onder de laagst mogelijke grondwaterstand opgehangen (figuur \@ref(fig:Figuur2)).
 Wanneer het peil onder de sensor zakt meet de sensor enkel nog de atmosferische druk.
 
 Het grote voordeel van automatische druksensoren is dat ze blijven meten, ook wanneer de peilbuis volledig onder water staat of moeilijk toegankelijk is.
 In overstroombare gebieden is dit een groot voordeel ten aanzien van manuele metingen.
 
-![](.%5Cmedia/image1.png){width="5.187847769028871in" height="3.5328805774278216in"}
-
-#### Figuur \@ref(fig:Figuur2): Opstelling van een druksensor met ingebouwde luchtdrukcompensatie (A) en zonder luchtdrukcompensatie (B)
-
+![(#fig:Figuur2) Opstelling van een druksensor met ingebouwde luchtdrukcompensatie (A) en zonder luchtdrukcompensatie (B)](.%5Cmedia/image1.png){width="5.187847769028871in" height="3.5328805774278216in"}
