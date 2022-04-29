@@ -7,8 +7,6 @@
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
 -->
 ```
-## Definities en afkortingen
-
 -   **Peilbuis**: een peilbuis met in het ondergrondse deel een filterelement over de hele lengte voor het meten van de grondwaterstand nabij het maaiveld (Figuur \@ref(fig:Figuur1) rechts).
     Grondwater kan over de volledige ondergrondse lengte van het instrument door perforaties naar binnen en naar buiten stromen.
     De filter snijdt steeds met de grondwaterstand, behalve als het grondwaterpeil boven het maaiveld uitstijgt.
@@ -49,4 +47,3 @@ Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd proj
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
 ```
-
