@@ -7,7 +7,7 @@ Het boren is ook eenvoudiger in de onverzadigde zone.
 Eens de verzadigde zone bereikt stort het boorgat bij losse sedimenten snel in en is het vaak moeilijk nog dieper te boren.
 Wanneer het boorgat invalt kan een verbuizing oplossing bieden (zie verder).
 
-### Enkele praktische tips:
+Enkele praktische tips:
 
 -   Plaats het meetpunt zo dat het makkelijk terug te vinden is, ook in de zomer-vegetatie.
     Zaag de buis daarom niet te laag boven de grond af (+/- 50cm).
@@ -57,17 +57,22 @@ In deze situaties mag er dan ook [**geen lijm**]{.ul} gebruikt worden en dient m
 
 #### Het filterelement
 
-#### Voor een piëzometer: Zaag een stuk van 30 tot 50 cm filterelement af en plak het onderaan de blinde PVC buis door middel van een koppelstuk (mof) vast met PVC lijm. De contactoppervlakken van de beide delen kunnen voor de stevigheid en om lekken te vermijden ruw gemaakt worden met schuurpapier. Dit is echter optioneel.
+-   Voor een piëzometer: Zaag een stuk van 30 tot 50 cm filterelement af en plak het onderaan de blinde PVC buis door middel van een koppelstuk (mof) vast met PVC lijm.
+    De contactoppervlakken van de beide delen kunnen voor de stevigheid en om lekken te vermijden ruw gemaakt worden met schuurpapier.
+    Dit is echter optioneel.
 
-Voor een grondwaterstandsbuis: De lengte van de filter is afhankelijk van de diepte van het boorgat.
+-   Voor een grondwaterstandsbuis: De lengte van de filter is afhankelijk van de diepte van het boorgat.
 
 #### De filterkous
 
-#### Een filterkous is nodig om geleidelijk dichtslibben van de buis met sediment zoveel mogelijk te voorkomen. Een stuk filterkous wordt op de juiste lengte gebracht, onder de filter geknoopt en boven de filter vastgemaakt met een plastic riempje (kabelbinder).
+Een filterkous is nodig om geleidelijk dichtslibben van de buis met sediment zoveel mogelijk te voorkomen.
+Een stuk filterkous wordt op de juiste lengte gebracht, onder de filter geknoopt en boven de filter vastgemaakt met een plastic riempje (kabelbinder).
 
 #### Afsluiting onderaan
 
-#### Het is belangrijk dat de buis onderaan (onder het filterdeel) goed afgesloten is. Zoniet kan de peilbuis geleidelijk dichtslibben met sediment. De afsluitdop en de filter kunnen ruw gemaakt worden met schuurpapier en alvorens deze met PVC lijm worden bevestigd.
+Het is belangrijk dat de buis onderaan (onder het filterdeel) goed afgesloten is.
+Zoniet kan de peilbuis geleidelijk dichtslibben met sediment.
+De afsluitdop en de filter kunnen ruw gemaakt worden met schuurpapier en alvorens deze met PVC lijm worden bevestigd.
 
 ### Het maken van een boorgat
 
@@ -99,7 +104,7 @@ Als alternatief kan dan een pulsboor een uitweg bieden (foto 1, E).
 Een pulsboor is een lange buis met onderaan een afsluitklep.
 Door de boor regelmatig op en neer te bewegen (pulsen) wordt het sediment losgewoeld en in de buis verzameld en zo afgevoerd.
 
-2.  Het maken van een boorverslag
+### Het maken van een boorverslag
 
 Een gedetailleerde geologische beschrijving van de boring is niet nodig, maar het is wel belangrijk een aantal kenmerken van de ondergrond te noteren.
 Het kan later de metingen van de peilbuis helpen verklaren.
@@ -121,11 +126,17 @@ Indien dit het geval is, houd de buis enkele minuten tegen totdat de waterdruk b
 
 ### Afwerking
 
-#### De blinde buis wordt op een geschikte hoogte afgezaagd. De geschikte hoogte varieert naargelang de afwerking van het meetpunt en of er al dan niet overstroming in het gebied wordt verwacht. Voor een peilbuis zonder specifieke afscherming is 40 à 50 cm boven het maaiveld meestal een goede keuze. Zoals eerder aangehaald in §5 kan de aard en het beheer op de locatie bepalend zijn voor de afwerking van het meetpunt.
+De blinde buis wordt op een geschikte hoogte afgezaagd.
+De geschikte hoogte varieert naargelang de afwerking van het meetpunt en of er al dan niet overstroming in het gebied wordt verwacht.
+Voor een peilbuis zonder specifieke afscherming is 40 à 50 cm boven het maaiveld meestal een goede keuze.
+Zoals eerder aangehaald in §5 kan de aard en het beheer op de locatie bepalend zijn voor de afwerking van het meetpunt.
 
-#### De afsluitdop wordt best na het plaatsen vastgelijmd met PVC lijm. De lucht boven het wateroppervlak in de buis moet vrij kunnen in- en uitstromen. Hiervoor wordt net onder de afsluitdop een kleine sleuf gezaagd. Zonder dergelijke luchtopening komt de buis in over- of onderdruk ten aanzien van de atmosferische druk en zal het peil in de buis niet de werkelijke drukhoogte aangeven.
+De afsluitdop wordt best na het plaatsen vastgelijmd met PVC lijm.
+De lucht boven het wateroppervlak in de buis moet vrij kunnen in- en uitstromen.
+Hiervoor wordt net onder de afsluitdop een kleine sleuf gezaagd.
+Zonder dergelijke luchtopening komt de buis in over- of onderdruk ten aanzien van de atmosferische druk en zal het peil in de buis niet de werkelijke drukhoogte aangeven.
 
-#### De afwerking kan zowel bovengronds als ondergronds (Figuur \@ref(fig:Figuur1)).
+De afwerking kan zowel bovengronds als ondergronds (Figuur \@ref(fig:Figuur1)).
 
 ![(#fig:Figuur2) afwerking piëzometers met metalen beschermbuis en hangslot (A) en ondergronds afgewerkt met straatpot (B).](.%5Cmedia/image3.jpg){width="4.223958880139983in" height="3.5081528871391074in"}
 
@@ -217,3 +228,4 @@ De codering die door het INBO wordt gebruikt bestaat uit vier delen en bevat 8 k
 -   Bij ingebruikname is de laatste letter steeds een X.
     Telkens wanneer er iets gebeurt met de buis (bv. afgemaaid) en de buis op een nieuwe hoogte boven maaiveld wordt hersteld verandert de laatste letter.
     Bij een eerste wijziging wordt dit een A, bij een tweede een B, een derde een C, ... enz
+
