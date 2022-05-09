@@ -44,7 +44,7 @@ De manuele referentie peilmeting moet daarom gebeuren vóór de druksensor in de
 Bij het bovenhalen van de sensor (voor uitlezen of definitief verwijderen) moet eerst de manuele referentie peilmeting uitgevoerd worden.
 Voor een langere reeks metingen met een druksensor zijn meerdere referentiemetingen per jaar aangewezen (minimaal 2).
 
-En defect of foute instelling van de druksensor wordt pas opgemerkt bij het uitlezen.
+Een defect of foute instelling van de druksensor wordt pas opgemerkt bij het uitlezen.
 De druksensor wordt daarom minimaal 2 maal per jaar uitgelezen.
 
 ## Registratie en bewaring van resultaten

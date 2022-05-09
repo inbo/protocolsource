@@ -8,16 +8,13 @@ Opsomming van de apparatuur die nodig is en verwijzingen naar de sip's (Standard
 Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
 -->
 ```
--   Meetlint met klokje (SIP-xxx).
-    Lengte van het lint 5 of 10 meter, (schaalverdeling in cm, nauwkeurigheid 1cm).
+-   Meetlint met klokje (figuur \@ref(fig:Figuur3)). Lengte van het lint 5 of 10 meter (schaalverdeling in cm, nauwkeurigheid 1cm).
 
--   Meetlint met elektrische sensor (SIP-xxx).
-    Met geluidssignaal en/of lichtsignaal.
-    Lengte van het lint 5 of 10 meter (schaalverdeling in cm, nauwkeurigheid 1cm) schaalverdeling.
+![(#fig:Figuur3) Meetlint met klokje.](.%5Cmedia/image2.jpg){width="1.937846675415573in" height="2.9140562117235347in"}
 
-![(#fig:Figuur3) Meetlint met klokje (links) en meetlint met elektrische sensor (rechts).](.%5Cmedia/image2.jpg){width="1.937846675415573in" height="2.9140562117235347in"}
+-   Meetlint met elektrische sensor (figuur \@ref(fig:Figuur4)). Met geluidssignaal en/of lichtsignaal. Lengte van het lint 5 of 10 meter (schaalverdeling in cm, nauwkeurigheid 1cm).
 
-![(#fig:Figuur4) Meetlint met klokje (links) en meetlint met elektrische sensor (rechts).](.%5Cmedia/image3.jpg){width="2.489931102362205in" height="2.489931102362205in"}
+![(#fig:Figuur4) Meetlint met elektrische sensor.](.%5Cmedia/image3.jpg){width="2.489931102362205in" height="2.489931102362205in"}
 
 ## Materiaal
 
@@ -42,4 +39,4 @@ vb: Zwavelzuur 1M: verdun zwavelzuur geconcentreerd 18 maal met ultrapuur water.
 Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -->
 ```
-Niet van toepassing - niet vereist
+Niet van toepassing - geen reagentia vereist

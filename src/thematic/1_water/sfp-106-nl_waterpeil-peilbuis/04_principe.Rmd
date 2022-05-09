@@ -13,7 +13,7 @@ Omdat deze meting naar beneden gericht is wordt dit met een negatief cijfer geno
 Komt bij een overstroming het peil boven het meetpunt, dan moet een positieve waarde genoteerd worden.
 
 De peilmeting geeft de drukhoogte weer.
-Voor een grondwaterstandsbuis komt dit overeen met de grondwaterstand, voor een piëzometer kan het peil iets hoger of lager zijn de de grondwaterstand (zie SVP-104).
+Voor een grondwaterstandsbuis komt dit overeen met de grondwaterstand, voor een piëzometer kan het peil iets hoger of lager zijn dan de grondwaterstand (zie SVP-104).
 Het peil in mTAW wordt berekend door de hoogte van het referentiepunt en de peilmeting op te tellen.
 De diepte van het peil t.o.v. het maaiveld wordt berekend door de peilmeting op te tellen bij de hoogte van het referentiepunt t.o.v. maaiveld.
 

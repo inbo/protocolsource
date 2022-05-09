@@ -19,11 +19,15 @@ O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (
 
 ## Bijlage: Checklist met te noteren gegevens in het veld
 
--   ID / code, datum en uur
+-   ID / code
+
+-   Datum en uur.
+    Het uur is erg belangrijk bij referentiemetingen voor drukmeters.
 
 -   peilmeting (m).
     Negatief voor neerwaartse meting
 
 -   hoogte boven maaiveld (m) op het moment van de peilmeting
 
--   Na eventuele vorrect van de hoogte boven maaiveld ook de hoogte boven maaiveld (m) na de meting.
+-   Na eventuele correctie van de hoogte boven maaiveld ook de hoogte boven maaiveld (m) na de meting noteren.
+
