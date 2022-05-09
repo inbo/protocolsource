@@ -19,9 +19,6 @@ Eventueel opsplitsen in sleutelreferentie en overige referenties.
     Grondwater.
     CMA/1/A.2.
 
-SVPs
-
 -   SIPs: kwaliteitshandboek van het analytisch labo, Gaverstraat 35 - 9500 Geraardsbergen, Intranet INBO
 
 -   SOPs: kwaliteitshandboek van het analytisch labo, Gaverstraat 35 - 9500 Geraardsbergen, Intranet INBO
-

@@ -36,8 +36,6 @@ Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd proj
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
 ```
-## Doelstelling en toepassingsgebied
-
 Deze procedure richt zich op het nemen van een grondwatermonster voor chemische analyse uit relatief ondiepe piëzometers (maximaal 5 m) met een beperkte diameter (meestal 5 cm) voor het bepalen van de zuurtegraad (pH), geleidbaarheid (EC) in het veld en de analyse van chemische variabelen (anionen, kationen, metalen, alkaliniteit, ...) van grondwater.
 
 De procedure is geschikt voor het nemen van een grondwatermonsters voor het bepalen van macro-ionen in het kader van een eco-hydrologisch onderzoek.

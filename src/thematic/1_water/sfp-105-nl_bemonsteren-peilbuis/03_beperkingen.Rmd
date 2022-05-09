@@ -7,9 +7,6 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
-## Beperkingen tot de procedure (indien van toepassing)
-
 De bemonstering moet worden uitgevoerd in een geschikte peilbuis in PVC of HDPE, afhankelijk van de aanwezige stoffen in het grondwater en de te analyseren chemische variabelen
 
 De procedure is niet geschikt voor het bemonsteren van grondwater met een zeer hoge saliniteit (> xxxx µS/cm)
-
