@@ -8,7 +8,7 @@ Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het 
 Subtitels gebruiken om elke stap te omschrijven.
 -->
 ```
-        1.  ### Stappenplan
+### Stappenplan
 
 De werkwijze voor het bemonsteren van een piëzometer voor een grondwatermonsters bestaat uit volgende stappen:
 
@@ -22,9 +22,7 @@ De werkwijze voor het bemonsteren van een piëzometer voor een grondwatermonster
 
 -   Bewaren en transporteren van watermonsters
 
-    1.  
-
-        ### Reinigen van een piëzometer
+### Reinigen van een piëzometer
 
 Voor de staalname wordt de piëzometer eerst gereinigd met een borstel en daarna leeggepompt.
 
@@ -38,7 +36,7 @@ Het pompen zorgt ervoor dat vers grondwater wordt bemonsterd.
 Bij beperkte watertoevoer (wat bij deze piëzometers doorgaans het geval is) naar de buis zal de piëzometer na enkele minuten leeggepompt zijn.
 Het opgepompte water wordt minstens twee meter van de locatie van de peilbuis afgevoerd.
 
-Iets over de snelheid van leegpompen toe te voegen Ja
+????Iets over de snelheid van leegpompen toe te voegen Ja????
 
 ### Bemonsteren van een peilbuis of piëzometer
 
@@ -55,7 +53,7 @@ Bij het nemen van een monster met een kogelklepbemonsteraar wordt de kogelklep z
 Trek daarna de kogelklep rustig omhoog.
 Om voldoende staalvolume te bekomen moet vaak meerdere keren bemonsterd worden.
 
-3.  Bepalen van de ogenblikkelijke variabelen
+### Bepalen van de ogenblikkelijke variabelen
 
 Omdat sommige variabelen veranderingen ondergaan tijdens het transport van het watermonsters naar het laboratorium, worden deze variabelen bij voorkeur op het terrein gemeten.
 Het betreft de variabelen zuurtegraad (pH) en geleidbaarheid (EC).
@@ -91,13 +89,16 @@ Bij een iets verouderde pH- elektrode bestaat de kans dat deze KCl lekt waardoor
     Een stabiel meetsignaal wordt bekomen met de AR functietoets.
     De zuurtegraad wordt afgelezen in eq/l en genoteerd op het veldformulier.
 
-    1.  Recipiënten voor het vullen van de recipiënten
+### Recipiënten voor het vullen van de recipiënten
 
-#### Door het analytisch laboratorium worden de deelrecipiënten voor chemische variabelen aangeleverd. De richtlijnen voor de nodige recipiënten staan beschreven in SOP-006 "klaarzetten materiaal voor staalname watermonsters" van het analytisch labo. De deelrecipiënten worden per staal gebundeld in een plastic zakje. Het aantal deelrecipiënten is afhankelijk van de te meten variabelen. Er wordt aangeraden alle deelrecipiënten volledig te vullen om oxidatie via de headspace te vermijden.
+Door het analytisch laboratorium worden de deelrecipiënten voor chemische variabelen aangeleverd.
+De richtlijnen voor de nodige recipiënten staan beschreven in SOP-006 "klaarzetten materiaal voor staalname watermonsters" van het analytisch labo.
+De deelrecipiënten worden per staal gebundeld in een plastic zakje.
+Het aantal deelrecipiënten is afhankelijk van de te meten variabelen.
+Er wordt aangeraden alle deelrecipiënten volledig te vullen om oxidatie via de headspace te vermijden.
 
-#### Voor een standaard grondwateranalyse worden de variabelen zuurtegraad, geleidbaarheid, alkaliniteit (carbonaten), anionen (Cl, NO~2~, NO~3~, SO~4~ en PO~4~), kationen (Na, K, Mg, Ca) en metalen (Fe, Mn, Si, Al) gemeten. Hiervoor dienen volgende recipiënten gevuld te worden:
-
-#### 
+Voor een standaard grondwateranalyse worden de variabelen zuurtegraad, geleidbaarheid, alkaliniteit (carbonaten), anionen (Cl, NO~2~, NO~3~, SO~4~ en PO~4~), kationen (Na, K, Mg, Ca) en metalen (Fe, Mn, Si, Al) gemeten.
+Hiervoor dienen volgende recipiënten gevuld te worden:
 
 -   **Fles, 250 ml rode of witte dop**: vul het flesje volledig met grondwater en sluit het daarna goed af.
     Dit deelrecipiënt wordt gebruikt voor het bepalen van de zuurtegraad (pH), geleidbaarheid (EC), alkaliniteit met de titrator en anionen & kationen met IC.
@@ -116,10 +117,6 @@ Bij een iets verouderde pH- elektrode bestaat de kans dat deze KCl lekt waardoor
     Dit deelrecipiënt wordt door het laboratorium ingevroren (-18°C) als reservemonster en 6 maanden bewaard.
     Wanneer onvoldoende volume staal beschikbaar is, kan dit staal eventueel weggelaten worden.
 
-### Subtitel 1
-
-### Subtitel 2
-
 ## Registratie en bewaring van resultaten
 
 ```{=html}
@@ -132,15 +129,11 @@ Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar dez
 Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
 ```
-    1.  Bewaren en transporteren van de watermonster
-
 De deelmonsters worden zo snel mogelijk na het vullen bewaard in een koelbox met koelelementen.
 De monsters worden koel getransporteerd om omvormingen te vermijden.
 Na de bemonstering worden de stalen zo snel mogelijk afgegeven in het analytisch laboratorium voor analyse.
 In het laboratorium worden de monsters geanalyseerd volgens de voorschriften van bewaarcondities.
 Deze staan beschreven in de procedure SOP-005 "Richtlijnen voor conserveren van monsters" in het kwaliteitshandboek van het analytisch laboratorium.
-
-## Registratie en bewaring van resultaten
 
 De resultaten van de veldmetingen (zuurtegraad, geleidbaarheid) en metadata over de bemonstering worden genoteerd op het veldformulier (zie bijlage).
 Op het veldformulier staat in de eerste kolom de labocode (labo-ID) van het staal vermeld.
@@ -155,4 +148,3 @@ Het veldformulier wordt gedeeld op drive onder LABODATA en een volledig ingevuld
 
 Bijkomende informatie over de bemonstering, belangrijk voor de opdrachtgever, wordt genoteerd in een veldboekje.
 Voor te noteren informatie, zie checklist van de bemonstering (zie bijlage).
-

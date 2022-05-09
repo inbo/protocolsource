@@ -1,6 +1,6 @@
 # (APPENDIX) Bijlagen {.unnumbered}
 
-# Titel eerste bijlage
+# Checklist met te noteren informatie in het veld
 
 ```{=html}
 <!--
@@ -8,10 +8,6 @@ Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
 O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
 -->
 ```
--   Checklist met te noteren informatie in het veld
-
-# Titel tweede bijlage
-
 # AFHANKELIJKHEDEN (Indien van toepassing)
 
 Procedures waarnaar in deze procedure verwezen wordt:

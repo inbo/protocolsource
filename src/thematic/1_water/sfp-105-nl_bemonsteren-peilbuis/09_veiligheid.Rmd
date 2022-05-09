@@ -5,10 +5,9 @@
 Alle aandachtspunten in verband met veilig werken.
 -->
 ```
-# VEILIGHEID
-
 Het deelrecipiënt voor het bepalen van metalen (falcontube 30 ml met witte dop) bevat van 250 µl geconcentreerd salpeterzuur (HNO~3~).
-Bij het openen van het recipiënt kunnen zure dampen vrijkomen en moeten de nodige veiligheidsmaatregelen in acht genomen worden (buisje niet te dicht bij de mond houden!).Vermijd ook contact van het zuur met de huid !
+Bij het openen van het recipiënt kunnen zure dampen vrijkomen en moeten de nodige veiligheidsmaatregelen in acht genomen worden (buisje niet te dicht bij de mond houden!).
+Vermijd ook contact van het zuur met de huid!
 Bij ongeval raadpleeg onderstaande H en P zinnen.
 
 Salpeterzuur
