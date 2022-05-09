@@ -1,0 +1,29 @@
+# (APPENDIX) Bijlagen {.unnumbered}
+
+# Titel eerste bijlage
+
+```{=html}
+<!--
+Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
+O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
+-->
+```
+-   Checklist met te noteren informatie in het veld
+
+# Titel tweede bijlage
+
+# AFHANKELIJKHEDEN (Indien van toepassing)
+
+Procedures waarnaar in deze procedure verwezen wordt:
+
+-   SOP-005: richtlijnen voor het conserveren van watermonsters
+
+-   SOP-006: klaarzetten materiaal voor staalname watermonsters
+
+-   SIP-054: Digitale veldmeter pH-EC SIP-xxx: gebruik en onderhoud van een peristaltische pomp
+
+-   SIP-xxx: gebruik en onderhoud van een dompelpomp
+
+Procedures die verwijzen naar deze procedure:
+
+-   Niet van toepassing

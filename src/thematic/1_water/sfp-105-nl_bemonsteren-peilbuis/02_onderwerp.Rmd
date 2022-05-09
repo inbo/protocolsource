@@ -1,0 +1,44 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+-   **Peilbuis**: een peilbuis met in het ondergrondse deel een filterelement over de hele lengte voor het meten van de grondwaterstand nabij het maaiveld (Figuur \@ref(fig:Figuur1) rechts).
+    Grondwater kan over de volledige ondergrondse lengte van het instrument door perforaties naar binnen en naar buiten stromen.
+    De filter snijdt steeds met de grondwaterstand, behalve als het grondwaterpeil boven het maaiveld uitstijgt.
+    Het waterpeil in de buis wijkt weinig of niet af van de grondwaterstand.
+    Strikt gezien moet dit een grondwaterstandsbuis noemen, maar de term peilbuis is zodanig algemeen in gebruik dat het gebruiken van een nieuwe term tot nog veel meer verwarring zou leiden.
+
+-   **Piëzometer:** een buis met een filterelement van enkele tientallen centimeter (de INBO afspraak is 50 cm) voor het meten van de stijghoogte (of ook drukhoogte) op een bepaalde diepte (Figuur \@ref(fig:Figuur1) links).
+    Het peil in de buis komt overeen met de druk ter hoogte van de filter en die kan verschillen van het grondwaterpeil.
+    De stijghoogte is de resultante van de hydraulische druk die ter hoogte van de filter in de ondergrond heerst.
+    De stijghoogte kan hoger, gelijk of lager zijn dan de grondwaterstand.
+    Op het INBO worden vrijwel uitsluitend piëzometers geplaatst.
+    Bij de analyse van de chemische samenstelling heeft een piëzometer minder risico op invloed van insijpelend regenwater.
+    Bovendien wijkt de hydrostatische druk in de meeste gevallen niet of nauwelijks af van het grondwaterpeil als de piëzometer "kort" is (doorgaans \< 2-3 meter)
+
+-   **HDPE:** High-density polyethylene
+
+-   **Staal of monster:** Een portie die geselecteerd wordt uit een grotere hoeveelheid.
+    In dit protocol bestaat het staal steeds uit een hoeveelheid water dat uit een piëzometer of peilbuis werd opgepompt.
+
+## Doelstelling en toepassingsgebied
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+## Doelstelling en toepassingsgebied
+
+Deze procedure richt zich op het nemen van een grondwatermonster voor chemische analyse uit relatief ondiepe piëzometers (maximaal 5 m) met een beperkte diameter (meestal 5 cm) voor het bepalen van de zuurtegraad (pH), geleidbaarheid (EC) in het veld en de analyse van chemische variabelen (anionen, kationen, metalen, alkaliniteit, ...) van grondwater.
+
+De procedure is geschikt voor het nemen van een grondwatermonsters voor het bepalen van macro-ionen in het kader van een eco-hydrologisch onderzoek.
+Voor de analyse van verontreinigende stoffen zijn aangepaste procedures vereist (zie bv. VITO/EMIS, 2013).

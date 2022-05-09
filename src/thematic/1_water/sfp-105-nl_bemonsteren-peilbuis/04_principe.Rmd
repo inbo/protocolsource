@@ -1,0 +1,33 @@
+# Principe
+
+```{=html}
+<!--
+Korte omschrijving van de principes waarop het protocol gebaseerd is.
+Bv principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
+-->
+```
+Het doel is een staal te nemen van 'vers' grondwater.
+Dat betekent dat er geen monsters mogen genomen worden van grondwater dat weken of maanden in het meetpunt stil staat.
+De groei van micro-organismen zorgt er immers voor dat grote hoeveelheden metabolieten in het water accumuleren.
+Daarom wordt de wand van de piezometer eerst gereinigd en daarna wordt het water uit de piezometer weggepompt.
+
+Het bemonsteren van de piëzometer gebeurt 1 tot 3 dagen na het reinigen.
+Het 'vers' grondwater wordt opgepompt.
+De zuurtegraad (pH) en geleidbaarheid (EC) worden op het terrein gemeten en de recipiënten voor chemische analyse in het laboratorium worden gevuld.
+Het aantal deelmonsters is afhankelijk van de chemische variabelen die zullen worden gemeten.
+De richtlijnen voor het nemen en van deelmonsters en het conserveren van de deelmonsters zijn terug te vinden in SOP-005.
+Deelmonsters voor het bepalen van metalen worden direct na de monstername gefiltreerd (0,20 µm) en aangezuurd met salpeterzuur (HNO3) tot een pH \< 2 om neerslagvorming van zouten te vermijden..
+
+**Gesuspendeerd materiaal**: het bemonsterde grondwater bevat nagenoeg altijd sedimenten in suspensie.
+Vaak zijn ze niet zichtbaar voor het blote oog.
+De negatieve lading van de kleimicellen kan gedurende het transport van het staal leiden tot ad-/resorptie van voornamelijk metaalionen.
+Het aangezuurd staal mag geen gesuspendeerd materiaal bevatten omdat de geadsorbeerde ionen onder invloed van de lagere pH vrij kunnen komen (Huybrechts & De Becker, 1997).
+wat met gesuspendeerd materiaal bij andere variabelen?
+We moeten een beslissing nemen of we totaal opgeloste gehalten willen of totaalgehalten inclusief het sediment !
+
+Bij het volledig leegmaken van de piëzometer tijdens het reinigen of de bemonstering komt zuurstof terecht in de buis en kunnen sommige variabelen (vb. Fe, Mn ,...) geoxideerd worden.
+Van ijzer is gekend dat bij de oxidatie van de gereduceerde vorm (Fe^2+^) naar de geoxideerde vorm (Fe^3+^) onoplosbare verbindingen worden gevormd met tegenionen (anionen) in de het grondwater.
+Op deze manier verdwijnen sommige variabelen uit het grondwatermonster en worden ze niet meer geanalyseerd.
+Bij de aanwezigheid van ijzer in het grondwater moeten de nodige voorzorgsmaatregelen genomen worden of moet ermee rekening gehouden worden dat sommige anionen worden onderschat.
+
+??? ook tijdens het transport in niet aangezuurde deelrecipiënten (bv. voor bepalen van anionen en kationen op IC) kunnen ijzerneerslagen gevormd worden waardoor de anionen worden onderschat (hoe gaan we hiermee om?)

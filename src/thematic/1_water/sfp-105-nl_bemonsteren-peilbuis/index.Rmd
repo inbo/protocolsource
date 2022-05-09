@@ -1,0 +1,66 @@
+---
+title: Richtlijnen voor het bemonsteren van peilbuizen
+subtitle: |-
+  Staalname ondiepe peilbuizen en uitvoeren van
+  veldmetingen
+author:
+- name: Mathias Wackenier, Piet De Becker, Toon Van Daele
+  orcid: 0000-0001-6934-9241, -, 0000-0002-1362-853X
+date: '2017-08-28'
+reviewers: Gerrit Genouw
+file_manager: Mathias Wackenier
+protocol_code: sfp-105-nl
+version_number: 2022.00.dev
+language: nl
+theme: water
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    split_by: none
+    split_bib: false
+    template: css/gitbook.html
+    css: css/inbo_rapport.css
+    config:
+      toc:
+        before: |
+          <li class="toc-logo"><a href="https://www.vlaanderen.be/inbo/home/"><img src="css/img/inbo-nl.jpg"></a></li>
+        after: <li class="cc"><a href="http://creativecommons.org/licenses/by/4.0/"><img
+          src="css/img/cc-by.png"></a></li>
+---
+
+
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse Rmd bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titelhoofdingen staan en vermeld expliciet â€œniet van toepassingâ€.
+-->
+
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE, 
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = '100%',
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(dplyr)
+library(purrr)
+```
+
+
+
+# Metadata {-}
+
+| Reviewers | Documentbeheerder | Protocol code | Versienummer | Taal | Thema |
+| --------- | ----------------- | ------------- | ------------ | ---- | ----- |
+| `r paste(rmarkdown::metadata$reviewers, collapse = ", ")` | `r rmarkdown::metadata$file_manager` | `r rmarkdown::metadata$protocol_code` | `r rmarkdown::metadata$version_number` | `r rmarkdown::metadata$language` | `r rmarkdown::metadata$theme` |
