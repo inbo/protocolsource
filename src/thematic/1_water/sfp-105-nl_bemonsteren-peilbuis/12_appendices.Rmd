@@ -8,6 +8,16 @@ Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
 O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
 -->
 ```
+-   Project
+-   Datum
+-   Monsternemer
+-   Meetpuntcode
+-   StaalID / LaboID
+-   pH
+-   EC (μS/cm)
+-   Opmerkingen
+-   Controlemetingen pH (start & einde)
+
 # AFHANKELIJKHEDEN (Indien van toepassing)
 
 Procedures waarnaar in deze procedure verwezen wordt:

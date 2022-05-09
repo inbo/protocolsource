@@ -36,8 +36,6 @@ Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen,
 vb. vermeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit PE, met afsluitbare deksel uit PP.
 -->
 ```
-    1.  ## Materiaal
-
 -   Ronde borstel (diameter 50mm) voor het reinigen van de piëzometer.
 
 -   Tubing, teflon, diameter?,
@@ -74,6 +72,4 @@ vb: Zwavelzuur 1M: verdun zwavelzuur geconcentreerd 18 maal met ultrapuur water.
 Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -->
 ```
-    1.  ## Reagentia en oplossingen
-
 -   Salpeterzuur 65%, suprapur, HNO~3~: hiervan bevindt zich 250 µl in de falcontubes van 30 ml (FT-30W).
