@@ -17,7 +17,7 @@ Voor een grondwaterstandsbuis komt dit overeen met de grondwaterstand, voor een 
 Het peil in mTAW wordt berekend door de hoogte van het referentiepunt en de peilmeting op te tellen.
 De diepte van het peil t.o.v. het maaiveld wordt berekend door de peilmeting op te tellen bij de hoogte van het referentiepunt t.o.v. maaiveld.
 
-![(#fig:Figuur1) Handmatige peilmeting (meting t.o.v. maaiveld en t.o.v. TAW).](.%5Cmedia/image4.png){width="4.416666666666667in" height="3.4791666666666665in"}
+![(#fig:Figuur1) Handmatige peilmeting (meting t.o.v. maaiveld en t.o.v. TAW).](./media/image4.png){width="4.416666666666667in" height="3.4791666666666665in"}
 
 In het veld wordt enkel de peilmeting ten opzichte van het nulpunt genoteerd.
 De berekeningen t.o.v. maaiveld en/of mTAW gebeuren achteraf.
@@ -42,4 +42,4 @@ Wanneer het peil onder de sensor zakt meet de sensor enkel nog de atmosferische 
 Het grote voordeel van automatische druksensoren is dat ze blijven meten, ook wanneer de peilbuis volledig onder water staat of moeilijk toegankelijk is.
 In overstroombare gebieden is dit een groot voordeel ten aanzien van manuele metingen.
 
-![(#fig:Figuur2) Opstelling van een druksensor met ingebouwde luchtdrukcompensatie (A) en zonder luchtdrukcompensatie (B)](.%5Cmedia/image1.png){width="5.187847769028871in" height="3.5328805774278216in"}
+![(#fig:Figuur2) Opstelling van een druksensor met ingebouwde luchtdrukcompensatie (A) en zonder luchtdrukcompensatie (B)](./media/image1.png){width="5.187847769028871in" height="3.5328805774278216in"}
