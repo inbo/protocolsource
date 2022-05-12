@@ -16,11 +16,11 @@ Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met 
 
     -   Kogelklepmonsternemer, Eijkelkamp, 35mm, 90cm in teflon (Figuur \@ref(fig:Figuur1) B).
 
-> ![(#fig:Figuur1) Foto A = peristaltische pomp, B = Kogelklepmonsternemer](.%5Cmedia/image2.png){width="6.302777777777778in" height="2.611111111111111in"}
+> ![(#fig:Figuur1) Foto A = peristaltische pomp, B = Kogelklepmonsternemer](./media/image2.png){width="6.302777777777778in" height="2.611111111111111in"}
 
 -   Boormachine met peristaltische kop (Figuur \@ref(fig:Figuur2))
 
-> ![(#fig:Figuur2) Foto Boormachine met peristatltische kop](.%5Cmedia/image1.png){width="2.170223097112861in" height="2.8593755468066493in"}
+> ![(#fig:Figuur2) Foto Boormachine met peristatltische kop](./media/image1.png){width="2.170223097112861in" height="2.8593755468066493in"}
 
 -   Veldset voor het bepalen van de zuurtegraad en de geleidbaarheid: het analytische laboratorium beschikt over verschillende veldsets (WTW multi, pH-EC) met de nodige elektroden welke kunnen gebruikt worden op het terrein voor deze bepalingen.
     De werking, het gebruik, de kalibratie en het onderhoud van deze veldsets wordt beschreven in SIP-054 (kwaliteitshandboek analytisch labo).
