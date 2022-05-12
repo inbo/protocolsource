@@ -4,8 +4,11 @@ subtitle: |-
   Staalname ondiepe peilbuizen en uitvoeren van
   veldmetingen
 author:
-- name: Mathias Wackenier, Piet De Becker, Toon Van Daele
-  orcid: 0000-0001-6934-9241, -, 0000-0002-1362-853X
+- name: Mathias Wackenier
+  orcid: 0000-0001-6934-9241
+- name: Piet De Becker
+- name: Toon Van Daele
+  orcid: 0000-0002-1362-853X
 date: '2017-08-28'
 reviewers: Gerrit Genouw
 file_manager: Mathias Wackenier
@@ -28,7 +31,7 @@ output:
           src="css/img/cc-by.png"></a></li>
 ---
 
-
+```{=html}
 <!--
 Instructies bij opmaak van het protocol:
 
@@ -38,8 +41,7 @@ Het is in die bestanden dat je moet editeren.
 Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titelhoofdingen staan en vermeld expliciet â€œniet van toepassingâ€.
 -->
-
-
+```
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
@@ -57,10 +59,8 @@ library(dplyr)
 library(purrr)
 ```
 
+# Metadata {.unnumbered}
 
-
-# Metadata {-}
-
-| Reviewers | Documentbeheerder | Protocol code | Versienummer | Taal | Thema |
-| --------- | ----------------- | ------------- | ------------ | ---- | ----- |
+| Reviewers                                                 | Documentbeheerder                    | Protocol code                         | Versienummer                           | Taal                             | Thema                         |
+|-----------------------------------------------------------|--------------------------------------|---------------------------------------|----------------------------------------|----------------------------------|-------------------------------|
 | `r paste(rmarkdown::metadata$reviewers, collapse = ", ")` | `r rmarkdown::metadata$file_manager` | `r rmarkdown::metadata$protocol_code` | `r rmarkdown::metadata$version_number` | `r rmarkdown::metadata$language` | `r rmarkdown::metadata$theme` |
