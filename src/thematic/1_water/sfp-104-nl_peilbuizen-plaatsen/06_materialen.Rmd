@@ -43,7 +43,7 @@ Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met 
 
 *Foto 1: Boormateriaal (A = edelmanboor, B = smalle edelmanboor, C = riversideboor, D = spiraalboor, E = pulsboor, F = verbuizing, G = Klem voor verbuizing, H = keienvanger, I = gutsboor)*
 
-![](.%5Cmedia/image1.jpg){width="5.068562992125984in" height="5.026042213473316in"}
+![](./media/image1.jpg){width="5.068562992125984in" height="5.026042213473316in"}
 
 ### **GPS (Global Positioning System) toestel**
 
@@ -119,7 +119,7 @@ Materiaal voor de afwerking (zie ook uitvoering) (foto 2)
 
 *Foto 2: Beschermbuis (A) en straatpot (B)*
 
-![](.%5Cmedia/image4.jpg){width="5.828125546806649in" height="2.865168416447944in"}
+![](./media/image4.jpg){width="5.828125546806649in" height="2.865168416447944in"}
 
 ### Werkmateriaal
 

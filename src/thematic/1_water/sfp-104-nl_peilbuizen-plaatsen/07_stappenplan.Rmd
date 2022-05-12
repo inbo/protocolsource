@@ -138,7 +138,7 @@ Zonder dergelijke luchtopening komt de buis in over- of onderdruk ten aanzien va
 
 De afwerking kan zowel bovengronds als ondergronds (Figuur \@ref(fig:Figuur1)).
 
-![(#fig:Figuur2) afwerking piëzometers met metalen beschermbuis en hangslot (A) en ondergronds afgewerkt met straatpot (B).](.%5Cmedia/image3.jpg){width="4.223958880139983in" height="3.5081528871391074in"}
+![(#fig:Figuur2) afwerking piëzometers met metalen beschermbuis en hangslot (A) en ondergronds afgewerkt met straatpot (B).](./media/image3.jpg){width="4.223958880139983in" height="3.5081528871391074in"}
 
 Een bovengrondse afwerking is aangewezen wanneer verwacht wordt dat het water boven het maaiveld kan stijgen.
 In kwelgebieden kan het water in de buis boven het maaiveld stijgen!
