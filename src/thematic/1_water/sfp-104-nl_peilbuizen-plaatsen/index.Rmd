@@ -2,8 +2,11 @@
 title: Richtlijnen voor het plaatsen van peilbuizen
 subtitle: ''
 author:
-- name: Mathias Wackenier, Piet De Becker, Toon Van Daele
-  orcid: 0000-0001-6934-9241, -, 0000-0002-1362-853X
+- name: Mathias Wackenier
+  orcid: 0000-0001-6934-9241
+- name: Piet De Becker
+- name: Toon Van Daele
+  orcid: 0000-0002-1362-853X
 date: '2022-04-07'
 reviewers: Gerrit Genouw
 file_manager: Toon Van Daele
