@@ -42,7 +42,7 @@ vb. vermeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegra
 
 -   Monsternamepot HDPE (minstens 750ml) voor het opvangen van het watermonster en het meten van de ogenblikkelijke variabelen op het terrein.
 
--   Recipiënten voor chemische analysen (zie SOP-006).
+-   Recipiënten voor chemische analysen (zie [SOP-006](https://sites.google.com/inbo.be/veldprotocollen/standaard-veld-procedures-svp/0-generiek)).
     De voornaamste recipiënten gebruikt bij grondwateranalyse zijn:
 
     -   Fles, 250 ml rode of witte dop (FL-250R of FL250W)
