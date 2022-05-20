@@ -12,7 +12,6 @@ Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met 
 
     -   Peristaltische slangenpomp (Figuur \@ref(fig:Figuur1) A), Eijkelkamp, 12 vdc, regelbaar in twee richtingen tussen de 100 en 2.300 ml/min, met zuigcapaciteit tot 9,5 m diepte.
         Deze pomp is voorzien van een batterij met levensduur van 4,5 uur en een pompslang in silicone.
-        De werking en het onderhoud van de peristaltische pomp is beschreven in SIP-xxx (nog niet afgewerkt).
 
     -   Kogelklepmonsternemer, Eijkelkamp, 35mm, 90cm in teflon (Figuur \@ref(fig:Figuur1) B).
 
