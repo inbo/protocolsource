@@ -58,7 +58,7 @@ Om voldoende staalvolume te bekomen moet vaak meerdere keren bemonsterd worden.
 Omdat sommige variabelen veranderingen ondergaan tijdens het transport van het watermonsters naar het laboratorium, worden deze variabelen bij voorkeur op het terrein gemeten.
 Het betreft de variabelen zuurtegraad (pH) en geleidbaarheid (EC).
 Het bepalen van deze variabelen gebeurt met een veldmeter.
-Het gebruik van de veldmeter (met elektroden) is beschreven in SIP-054 en in de veldset bevindt zich tevens een beperkte handleiding.
+Het gebruik van de veldmeter (met elektroden) is beschreven in [SIP-054](https://sites.google.com/inbo.be/veldprotocollen/standaard-instrument-procedures-sip)en in de veldset bevindt zich tevens een beperkte handleiding.
 
 Vooraleer de metingen uit te voeren moet de apparatuur voor zuurtegraad (pH) en geleidbaarheid (EC) gecontroleerd worden op een goede werking.
 De controle oplossingen bevinden zich in de veldset.
