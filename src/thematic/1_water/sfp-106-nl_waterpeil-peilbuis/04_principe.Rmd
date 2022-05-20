@@ -10,7 +10,8 @@ Bv principe achter het nemen van mengmonsters, principe achter visueel inschatte
 
 De peilmeting is de afstand tussen het referentiepunt (de bovenrand van de peilbuis zonder dop) en het wateroppervlak in de peilbuis (figuur \@ref(fig:Figuur1)).
 Omdat deze meting naar beneden gericht is wordt dit met een negatief cijfer genoteerd.
-Komt bij een overstroming het peil boven het meetpunt, dan moet een positieve waarde genoteerd worden.
+Heel uitzonderlijk (bv. bij een overstroming) kan het peil boven het referentiepunt uitkomen.
+In dat geval moet een positieve waarde genoteerd worden.
 
 De peilmeting geeft de drukhoogte weer.
 Voor een grondwaterstandsbuis komt dit overeen met de grondwaterstand, voor een piëzometer kan het peil iets hoger of lager zijn dan de grondwaterstand (zie SVP-104).
@@ -43,3 +44,4 @@ Het grote voordeel van automatische druksensoren is dat ze blijven meten, ook wa
 In overstroombare gebieden is dit een groot voordeel ten aanzien van manuele metingen.
 
 ![(#fig:Figuur2) Opstelling van een druksensor met ingebouwde luchtdrukcompensatie (A) en zonder luchtdrukcompensatie (B)](./media/image1.png){width="5.187847769028871in" height="3.5328805774278216in"}
+
