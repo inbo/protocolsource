@@ -92,7 +92,7 @@ Bij een iets verouderde pH- elektrode bestaat de kans dat deze KCl lekt waardoor
 ### Recipiënten voor het vullen van de recipiënten
 
 Door het analytisch laboratorium worden de deelrecipiënten voor chemische variabelen aangeleverd.
-De richtlijnen voor de nodige recipiënten staan beschreven in SOP-006 "klaarzetten materiaal voor staalname watermonsters" van het analytisch labo.
+De richtlijnen voor de nodige recipiënten staan beschreven in [SOP-006](https://sites.google.com/inbo.be/veldprotocollen/standaard-veld-procedures-svp/0-generiek) "klaarzetten materiaal voor staalname watermonsters" van het analytisch labo.
 De deelrecipiënten worden per staal gebundeld in een plastic zakje.
 Het aantal deelrecipiënten is afhankelijk van de te meten variabelen.
 Er wordt aangeraden alle deelrecipiënten volledig te vullen om oxidatie via de headspace te vermijden.
