@@ -36,7 +36,7 @@ Het pompen zorgt ervoor dat vers grondwater wordt bemonsterd.
 Bij beperkte watertoevoer (wat bij deze piëzometers doorgaans het geval is) naar de buis zal de piëzometer na enkele minuten leeggepompt zijn.
 Het opgepompte water wordt minstens twee meter van de locatie van de peilbuis afgevoerd.
 
-????Iets over de snelheid van leegpompen toe te voegen Ja????
+<!-- ?Iets over de snelheid van leegpompen toe te voegen ? -->
 
 ### Bemonsteren van een peilbuis of piëzometer
 
@@ -48,6 +48,8 @@ De teflondarm wordt verbonden met de peristaltische pomp en het 'vers' grondwate
 Er moet absoluut vermeden worden dat de peilbuis leeggepompt wordt tijdens de staalname.
 Het opgepompte water wordt opgevangen in een recipiënt (monsternamepot) totdat een volume van minstens 500 ml is bereikt.
 Bij voldoende wateraanvoer in de peilbuis wordt de eerste 100 ml niet opgevangen.
+
+<!-- Parametrisatie van deze cijfers zinvol / nodig? Je kan aangeven dat deze cijfers de INBO defaultwaarden zijn, maar dat daar in projectspecifieke context van kan afgeweken worden als dat nodig is. -->
 
 Bij het nemen van een monster met een kogelklepbemonsteraar wordt de kogelklep zo diep mogelijk onder het waterpeil gebracht zonder de bodem van de peilbuis te raken.
 Trek daarna de kogelklep rustig omhoog.
