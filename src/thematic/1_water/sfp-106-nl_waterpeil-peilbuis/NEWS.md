@@ -14,5 +14,4 @@ Gesorteerd van recent naar oud. E.g.
 -->
 ```
 Dit is de eerste revisie van het document.
-De tekst is gebaseerd op bestaande documenten in het INBO, literatuurgegevens en gesteund op de kennis van de terreinmedewerkers van het INBO.
-
+De tekst is gebaseerd op bestaande documenten in het INBO [@VanDaele_2003], literatuurgegevens en gesteund op de kennis van de terreinmedewerkers van het INBO.

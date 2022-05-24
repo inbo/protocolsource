@@ -8,5 +8,3 @@
 Eventueel opsplitsen in sleutelreferentie en overige referenties.
 -->
 ```
--   Van Daele, T., 2003. Coördinatie uitbouw grondwatermeetnet in vlaamse natuurreservaten i.f.v. Opmaak signaalkaart verdroging: eindrapport. MINA 112/00/02. Universiteit Gent, Gent.
-
