@@ -48,7 +48,7 @@ De druksensor wordt daarom minimaal 2 maal per jaar uitgelezen.
 
 ## Registratie en bewaring van resultaten
 
-De peilmetingen worden in het veld genoteerd (zie bijlage 1 en 2) en achteraf in Watina ingevoerd.
+De peilmetingen worden in het veld genoteerd (zie bijlage \@ref(checklist-measure)) en achteraf in Watina ingevoerd.
 
 ```{=html}
 <!--

@@ -17,7 +17,7 @@ O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (
 
 -   Schrijfmateriaal (potlood, notitieboekje)
 
-## Bijlage: Checklist met te noteren gegevens in het veld
+## Bijlage: Checklist met te noteren gegevens in het veld {#checklist-measure}
 
 -   ID / code
 
@@ -30,4 +30,3 @@ O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (
 -   hoogte boven maaiveld (m) op het moment van de peilmeting
 
 -   Na eventuele correctie van de hoogte boven maaiveld ook de hoogte boven maaiveld (m) na de meting noteren.
-
