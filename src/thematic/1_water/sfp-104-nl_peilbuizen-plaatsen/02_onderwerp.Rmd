@@ -31,10 +31,10 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 Dit protocol beschrijft het manueel plaatsen van relatief ondiepe piëzometers.
 Ze zijn doorgaans niet meer dan 5 meter diep en hebben een beperkte diameter (de INBO afspraak is 5 cm).
 Dit type peilbuizen wordt in natuurgebieden vaak geplaatst om de ondiepe grondwaterstand op te volgen die direct van belang is voor de vegetatie.
-Het plaatsen van diepere (> 5 m diepte) en/of machinaal geplaatste piëzometers komt in deze richtlijn niet aan bod.
+Het plaatsen van diepere (\> 5 m diepte) en/of machinaal geplaatste piëzometers komt in deze richtlijn niet aan bod.
 Gedetailleerde informatie over o.a.
 diepere meetpunten is o.a.
-terug te vinden in het Handboek meten van grondwaterstanden in peilbuizen (Bouma et al., 2013)
+terug te vinden in het Handboek meten van grondwaterstanden in peilbuizen [@Bouma_2012].
 
 Dit protocol beschrijft uitsluitend de plaatsing van het meetpunt.
 Het vereiste aantal meetpunten in een gebied en de keuze van de geschikte meetlocaties maken deel uit van het onderzoeksopzet en de meetdoelstelling.

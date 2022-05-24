@@ -13,5 +13,5 @@ Gesorteerd van recent naar oud. E.g.
   - Eerste versie van het protocol
 -->
 ```
-De tekst is gebaseerd op bestaande documenten in het INBO, literatuurgegevens en gesteund op de kennis van de terreinmedewerkers van het INBO.
+De tekst is gebaseerd op bestaande documenten in het INBO [@VanDaele_2003], literatuur [@Bouma_2012] en gesteund op de kennis van de terreinmedewerkers van het INBO.
 Er zijn toevoegingen gebeurd omtrent het plaatsen van peilbuizen in venige bodems en een aantal zaken zijn iets meer verduidelijkt.
