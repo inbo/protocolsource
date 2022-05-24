@@ -30,4 +30,4 @@ Van ijzer is gekend dat bij de oxidatie van de gereduceerde vorm (Fe^2+^) naar d
 Op deze manier verdwijnen sommige variabelen uit het grondwatermonster en worden ze niet meer geanalyseerd.
 Bij de aanwezigheid van ijzer in het grondwater moeten de nodige voorzorgsmaatregelen genomen worden of moet ermee rekening gehouden worden dat sommige anionen worden onderschat.
 
-??? ook tijdens het transport in niet aangezuurde deelrecipiënten (bv. voor bepalen van anionen en kationen op IC) kunnen ijzerneerslagen gevormd worden waardoor de anionen worden onderschat (hoe gaan we hiermee om?) ????
+<!-- ook tijdens het transport in niet aangezuurde deelrecipiënten (bv. voor bepalen van anionen en kationen op IC) kunnen ijzerneerslagen gevormd worden waardoor de anionen worden onderschat (hoe gaan we hiermee om?) ???? -->
