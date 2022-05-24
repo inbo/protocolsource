@@ -39,4 +39,4 @@ Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt
 Deze procedure richt zich op het nemen van een grondwatermonster voor chemische analyse uit relatief ondiepe piëzometers (maximaal 5 m) met een beperkte diameter (meestal 5 cm) voor het bepalen van de zuurtegraad (pH), geleidbaarheid (EC) in het veld en de analyse van chemische variabelen (anionen, kationen, metalen, alkaliniteit, ...) van grondwater.
 
 De procedure is geschikt voor het nemen van een grondwatermonsters voor het bepalen van macro-ionen in het kader van een eco-hydrologisch onderzoek.
-Voor de analyse van verontreinigende stoffen zijn aangepaste procedures vereist (zie bv. VITO/EMIS, 2013).
+Voor de analyse van verontreinigende stoffen zijn aangepaste procedures vereist [zie @EMIS_2013].

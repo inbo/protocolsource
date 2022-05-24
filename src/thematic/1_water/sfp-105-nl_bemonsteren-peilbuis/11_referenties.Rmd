@@ -8,17 +8,6 @@
 Eventueel opsplitsen in sleutelreferentie en overige referenties.
 -->
 ```
--   Huybrechts, W., & De Becker, P. (1997).
-    Dynamische en chemische kenmerken van het ondiep grondwater in kwelsystemen: het walenbos (Tielt-Winge).
-    (Mededeling van het Instituut voor Natuurbehoud; Vol. 5).
-    Instituut voor Natuurbehoud.
-
--   VITO / EMIS.
-    (2013).
-    Compendium voor monsterneming en analyse in uitvoering van het Materialendecreet en het Bodemdecreet.
-    Grondwater.
-    CMA/1/A.2.
-
 -   SIPs: kwaliteitshandboek van het analytisch labo, Gaverstraat 35 - 9500 Geraardsbergen, Intranet INBO
 
 -   SOPs: kwaliteitshandboek van het analytisch labo, Gaverstraat 35 - 9500 Geraardsbergen, Intranet INBO

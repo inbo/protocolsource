@@ -21,7 +21,7 @@ Deelmonsters voor het bepalen van metalen worden direct na de monstername gefilt
 **Gesuspendeerd materiaal**: het bemonsterde grondwater bevat nagenoeg altijd sedimenten in suspensie.
 Vaak zijn ze niet zichtbaar voor het blote oog.
 De negatieve lading van de kleimicellen kan gedurende het transport van het staal leiden tot ad-/resorptie van voornamelijk metaalionen.
-Het aangezuurd staal mag geen gesuspendeerd materiaal bevatten omdat de geadsorbeerde ionen onder invloed van de lagere pH vrij kunnen komen (Huybrechts & De Becker, 1997).
+Het aangezuurd staal mag geen gesuspendeerd materiaal bevatten omdat de geadsorbeerde ionen onder invloed van de lagere pH vrij kunnen komen [@huybrechts-debecker-1997].
 wat met gesuspendeerd materiaal bij andere variabelen?
 We moeten een beslissing nemen of we totaal opgeloste gehalten willen of totaalgehalten inclusief het sediment !
 

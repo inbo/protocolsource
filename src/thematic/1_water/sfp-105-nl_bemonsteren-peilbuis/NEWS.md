@@ -13,5 +13,4 @@ Gesorteerd van recent naar oud. E.g.
   - Eerste versie van het protocol
 -->
 ```
-Dit is een eerste versie van het veldprotocol, gebaseerd op de beschrijving in 'chemische kenmerken Walenbos' (Huybrechts & De Becker, 1997), literatuurgegevens (VITO) en de kennis van de medewerkers van het INBO.
-
+Dit is een eerste versie van het veldprotocol, gebaseerd op de beschrijving in 'chemische kenmerken Walenbos' [@huybrechts-debecker-1997], literatuurgegevens [@EMIS_2013] en de kennis van de medewerkers van het INBO.

@@ -17,6 +17,8 @@ version_number: 2022.00.dev
 language: nl
 theme: water
 site: bookdown::bookdown_site
+bibliography: referenties.bib
+lang: nl
 output:
   bookdown::gitbook:
     split_by: none
