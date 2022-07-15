@@ -28,6 +28,7 @@ Imports:
     ggplot2,
     git2rdata,
     knitr,
+    lubridate,
     protocolhelper,
     purrr,
     rprojroot,
