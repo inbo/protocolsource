@@ -1160,8 +1160,8 @@
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "gha-check-branch-functions",
-      "RemoteSha": "431b9d73a7f71188c4e3d977be2137aea7d78092",
-      "Hash": "9cf3926599e6f000e812a8519b6963a6",
+      "RemoteSha": "42b706e50741c12eb9587356329b78da2f378f99",
+      "Hash": "4d1259d3e111d8bad12aab55f9a376d0",
       "Requirements": [
         "R6",
         "assertthat",
