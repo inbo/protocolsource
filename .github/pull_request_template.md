@@ -17,8 +17,7 @@
 Steps by contributor:
 
 -   [ ] Add description to this pull request (under "## Description")
--   [ ] Submit the pull request by clicking 'create pull request'
--   [ ] Mark the pull request as draft
+-   [ ] Open the dropdown (triangle) near 'create pull request' and choose 'Create draft pull request'
 -   [ ] Check for potential problems by running `protocolhelper::check_frontmatter()` and address them
 -   [ ] Check for potential problems by running `protocolhelper::check_structure()` and address them
 -   [ ] Add further commits if needed and push them to GitHub
