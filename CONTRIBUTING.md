@@ -120,6 +120,8 @@ The workflow is as follows for a **new** protocol:
    In case there are problems with the YAML front matter of your `index.Rmd` file or problems with the structure of the protocol not conforming to the protocol templates, these problems will be listed and can be consulted.
    
        1.  Address the problems detected by `protocolhelper::check_frontmatter` or `protocolhelper::check_structure`. You can see the list of problems by clicking on the check online (at the bottom of the pull request webpage). Alternatively, you can run these functions locally and see the list of problems printed in your console.
+        Note that during this automatic run, a commit to update the version number may be automatically pushed to the remote.
+        If this commit is added, press pull in the RStudio Git Pane to add it to your local clone
        
        1.  iterate (stage, commit, push changes) until the functions detect no problems
    
