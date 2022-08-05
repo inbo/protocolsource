@@ -8,19 +8,19 @@
 
 ## Related Issue
 
-`{=html} <!--- if this closes an issue make sure include e.g., "closes #4" or similar - or if just relates to an issue make sure to mention it like "#4" -->`
+<!--- if this closes an issue make sure include e.g., "closes #4" or similar - or if just relates to an issue make sure to mention it like "#4" -->
 
 ## Task list
 
-`{=html} <!--see https://docs.github.com/en/github/managing-your-work-on-github/about-task-lists for an explanation on how to use task lists-->`
+<!--see https://docs.github.com/en/github/managing-your-work-on-github/about-task-lists for an explanation on how to use task lists-->
 
 Steps by contributor:
 
 -   [ ] Add description to this pull request (under "## Description")
 -   [ ] Submit the pull request by clicking 'create pull request'
 -   [ ] Mark the pull request as draft
--   [ ] Check for potential problems with `protocolhelper::check_frontmatter()` and address them
--   [ ] Check for potential problems with `protocolhelper::check_structure()` and address them
+-   [ ] Check for potential problems by running `protocolhelper::check_frontmatter()` and address them
+-   [ ] Check for potential problems by running `protocolhelper::check_structure()` and address them
 -   [ ] Add further commits if needed and push them to GitHub
 -   [ ] Update the protocol-specific `NEWS.Rmd`
 -   [ ] Mark the pull request as 'ready for review'
@@ -30,6 +30,6 @@ Review steps for the author(s):
 -   [ ] Add reviewers, at least one subject-matter specialist and one administrator
 -   [ ] Wait for review comments and address them
 -   [ ] Iterate until reviewer approvals (merging the pull request will be done by an administrator)
--   [ ] Check if the checks done by continuous integration succeeded. These will check if `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()` succeeded without errors.
+-   [ ] Verify that the checks done by continuous integration succeeded. These will check if `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()` succeeded without errors.
 
 To be done by an administrator after review: see [guidelines for admins](RELEASES.md).

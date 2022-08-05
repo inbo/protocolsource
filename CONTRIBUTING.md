@@ -33,7 +33,7 @@ This ensures that different users have the same versions of packages installed.
 See also [collaborating with renv](https://rstudio.github.io/renv/articles/collaborating.html).
 The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library.
 After this has completed, you can use `renv::restore()` to restore the project library locally on your machine.
-In case you need another package than the onces that are installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, proceed as follows:
+In case you need another package than the ones installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, proceed as follows:
 
 - `renv::install("nameofthepackage")`
 - add the name of the package to the [DESCRIPTION file](DESCRIPTION)
