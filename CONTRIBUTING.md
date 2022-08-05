@@ -116,7 +116,7 @@ The workflow is as follows for a **new** protocol:
 8.  When finished, go to your draft pull request and press 'ready for review' 
 
    1. Wait for the continuous integration checks to finish and see if the checks succeeded.
-   These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`.
+   These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`, and update the version number if needed.
    In case there are problems with the YAML front matter of your `index.Rmd` file or problems with the structure of the protocol not conforming to the protocol templates, these problems will be listed and can be consulted.
    
        1.  Address the problems detected by `protocolhelper::check_frontmatter` or `protocolhelper::check_structure`. You can see the list of problems by clicking on the check online (at the bottom of the pull request webpage). Alternatively, you can run these functions locally and see the list of problems printed in your console.
