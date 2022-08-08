@@ -4,7 +4,7 @@ After review of a protocol-branch and before each release the following steps wi
 
 1.  A GitHub Action will run when a pull request is made to the main branch.
 
-    1.  This action will automatically run these checks:
+    1.  This action will update the version number if needed and automatically run these checks:
 
         1.  `protocolhelper::check_frontmatter()`
 
@@ -13,6 +13,8 @@ After review of a protocol-branch and before each release the following steps wi
     2.  Check any error messages resulting from these checks and address them.
         Repeat this step until all checks succeeded.
         In principle, these errors should be addressed by the protocol contributor, but admins can help if needed.
+        Note that during this automatic run, a commit to update the version number may be automatically pushed to the remote.
+        If this commit is added, press pull in the RStudio Git Pane to add it to your local clone.
 
 2.  A second GitHub Action will be run when a pull request to be merged into the main branch *upon approval*.
 
@@ -26,7 +28,7 @@ After review of a protocol-branch and before each release the following steps wi
     Check if the second Github Action ran without problems.
     If needed, admins should address any problems.
     Note that during these automatic updates, the two commits will be automatically pushed to the remote.
-    This should not pose a problem for local clones as these changes can be automatically included and will not cause conflicts (i.e. `git pull origin main` with a local protocol branch checked out)
+    To add these commits to your local clone, press pull in the RStudio Git Pane.
 
 3.  A third GitHub Action will be run upon a push to the main branch to update the `protocols` website.
     I.e. when the pull request is merged into the main branch.
@@ -42,6 +44,7 @@ After review of a protocol-branch and before each release the following steps wi
 
         2.  render the new or updated protocol and commit/push this to the `protocols` repo (which contains the rendered protocols that are needed to build the website).
             The rendering is done by `protocolhelper:::render_release()`.
+            The same general and protocol-specific tags are added to this commit in `protocols`.
 
             1.  Check if this action ran without problems and if needed address them.
 
