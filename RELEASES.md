@@ -54,4 +54,4 @@ After review of a protocol-branch and before each release the following steps wi
     This will trigger a GitHub release in the `protocolsource` repo and in the `protocols` repo.
     In turn, a GitHub release will trigger the `.zenodo.json` webhook to publish this new version of the repo contents on Zenodo for long-term archiving of the protocols.
 
-    5.  Check success of GitHub releases and publication on Zenodo
+    1.  Check success of GitHub releases and publication on Zenodo
