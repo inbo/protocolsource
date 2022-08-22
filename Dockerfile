@@ -54,6 +54,7 @@ COPY renv.lock renv.lock
 RUN R -e "renv::restore()"
 RUN R -e "renv::isolate()"
 
+COPY docker/entrypoint_update.sh /entrypoint_update.sh
 COPY docker/entrypoint_check.sh /entrypoint_check.sh
 
 ENTRYPOINT ["/entrypoint_check.sh"]
