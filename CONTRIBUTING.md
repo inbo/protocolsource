@@ -19,8 +19,8 @@ Installing the repository on your local drive:
 -   select HTTPS and copy the URL to the clipboard
 -   start RStudio and select `File -> New project -> Version Control -> Git` -\> paste the URL
 -   `protocolsource` will be automatically suggested as project directory name (keep it that way)
--   In the field `Create project as subdirectory of` select a folder on your local disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/repositories`.
--   Click OK
+-   In the field `Create project as subdirectory of` select a folder on your local disc. For instance `C:/R/repositories`.
+-   Click "Create project"
 
 You will now have a local clone of the remote repository as an RStudio project.
 The `.git` directory is used by the version control system (do not make changes in this directory).
