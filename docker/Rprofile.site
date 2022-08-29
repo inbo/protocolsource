@@ -22,27 +22,3 @@ if ("checklist" %in% rownames(utils::installed.packages())) {
     lintr.linter_file = system.file("lintr", package = "checklist")
   )
 }
-
-if (
-  interactive() &&
-  !all(getOption("inbo_required") %in% rownames(utils::installed.packages()))
-) {
-  warning(
-    c(
-      "\n",
-      rep("^", getOption("width")),
-      "\nThis R installation lacks some required INBO packages.",
-      "\nPlease install them using the code below:\n",
-      "\ninstall.packages(c(",
-      paste0(
-        "\"",
-        getOption("inbo_required")[
-          !getOption("inbo_required") %in% rownames(utils::installed.packages())
-        ],
-        "\"", collapse = ", "
-      ),
-      "))\n\n",
-      rep("^", getOption("width"))
-    )
-  )
-}
