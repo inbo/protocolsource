@@ -13,14 +13,17 @@ Thank you for considering to contribute to this repository!
 
 ## Setup your local repository
 
+Are you a first-time GitHub user?
+Make sure you can authenticate to GitHub by following [these guidelines](https://inbo.github.io/tutorials/tutorials/git_authentication/).
+
 Installing the repository on your local drive:
 
--   go to the [protocolsource repository](https://github.com/inbo/protocolsource/) and press the `Code` button
+-   go to the [protocolsource repository](https://github.com/inbo/protocolsource/) and press the green `Code` button
 -   select HTTPS and copy the URL to the clipboard
 -   start RStudio and select `File -> New project -> Version Control -> Git` -\> paste the URL
 -   `protocolsource` will be automatically suggested as project directory name (keep it that way)
--   In the field `Create project as subdirectory of` select a folder on your local disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/repositories`.
--   Click OK
+-   In the field `Create project as subdirectory of` select a folder on your local disc. For instance `C:/R/repositories`.
+-   Click "Create project"
 
 You will now have a local clone of the remote repository as an RStudio project.
 The `.git` directory is used by the version control system (do not make changes in this directory).
