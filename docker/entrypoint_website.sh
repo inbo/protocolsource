@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 echo '\nGetting the code...\n'
-git clone --quiet https://$INPUT_TOKEN@github.com/$GITHUB_REPOSITORY_SOURCE /render
+git clone --quiet https://$PAT@github.com/$GITHUB_REPOSITORY /render
 cd /render
 git checkout $GITHUB_REF_NAME
 git config --global user.email "info@inbo.be"
@@ -43,7 +43,7 @@ else
 fi
 
 echo 'Publishing the rendered files...\n'
-git clone --quiet --depth=1 --single-branch --branch=main https://$INPUT_TOKEN@github.com/$GITHUB_REPOSITORY_DEST /destiny
+git clone --quiet --depth=1 --single-branch --branch=main https://$PAT@github.com/$GITHUB_REPOSITORY_DEST /destiny
 
 cp -R /render/publish/. /destiny/.
 cd /destiny
@@ -53,7 +53,7 @@ git config user.name
 git config user.email
 git add --all
 git commit --message="Add new protocol"
-git push -f https://$INPUT_TOKEN@github.com/$GITHUB_REPOSITORY_DEST
+git push -f https://$PAT@github.com/$GITHUB_REPOSITORY_DEST
 
 git rev-parse --abbrev-ref origin/HEAD | sed 's/origin\///' | xargs git checkout
 git tag -a $TAGNAME_GENERAL -m "$TAGMESSAGE_GENERAL"
