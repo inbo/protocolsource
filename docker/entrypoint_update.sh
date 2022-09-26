@@ -17,7 +17,7 @@ git add .zenodo.json
 git commit --message="update .zenodo.json"
 
 echo '\nUpdating general NEWS.md...\n'
-Rscript --no-save --no-restore -e 'protocolhelper:::update_news_release("'$PROTOCOL_CODE'")'
+Rscript --no-save --no-restore -e 'protocolhelper:::update_news_release("'$GITHUB_HEAD_REF'")'
 git add NEWS.md
 git commit --message="update general NEWS.md"
 

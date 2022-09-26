@@ -12,7 +12,7 @@ Rscript -e 'sessioninfo::session_info()'
 echo '\nUpdate version number...\n'
 git config --global user.email "info@inbo.be"
 git config --global user.name "INBO"
-UPDATED=$(Rscript -e 'protocolhelper::update_version_number("'$PROTOCOL_CODE'")')
+UPDATED=$(Rscript -e 'protocolhelper::update_version_number("'$GITHUB_HEAD_REF'")')
 echo 'output updated:' $UPDATED
 if [ "$UPDATED" = "[1] TRUE" ]; then
   # remake the last commit without deletion of .Rprofile
