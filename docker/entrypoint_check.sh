@@ -3,7 +3,7 @@
 echo '\nGetting the code...\n'
 git clone --quiet https://$INPUT_TOKEN@github.com/$GITHUB_REPOSITORY check
 cd check
-git checkout $BRANCH_SOURCE
+git checkout $GITHUB_HEAD_REF
 rm .Rprofile
 
 echo '\nSession info\n'
