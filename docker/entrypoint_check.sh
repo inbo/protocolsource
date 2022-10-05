@@ -18,7 +18,7 @@ CHANGED=$(git diff --name-only main | grep -v NEWS\.md | grep -v \.zenodo\.json|
 echo 'CHANGED=' $CHANGED
 
 if [ -n "${CHANGED}" ]; then
-  echo '\nFiles not belonging to the protocol mentioned in the branch name are changed, and these changes will not be passed to the website. Please remove these changes here and start a new branch for changes to other protocols./n\n'
+  echo '\nFiles not belonging to the protocol mentioned in the branch name ("'$GITHUB_HEAD_REF'") are changed, and these changes will not be passed to the website. Please remove these changes from this branch and start a new branch for changes to other protocols./n\n'
   exit 1
 fi
 
