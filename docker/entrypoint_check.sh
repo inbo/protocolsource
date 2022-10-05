@@ -27,8 +27,6 @@ git config --global user.name "INBO"
 UPDATED=$(Rscript -e 'protocolhelper::update_version_number("'$GITHUB_HEAD_REF'")')
 echo 'output updated:' $UPDATED
 if [ "$UPDATED" = "[1] TRUE" ]; then
-  # remake the last commit without deletion of .Rprofile
-
   git push -f
   echo '\ncommit with new version pushed\n'
 fi
