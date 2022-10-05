@@ -15,10 +15,9 @@ FOLDERNAME_REL=${FOLDERNAME#/home/runner/work/protocolsource/}
 echo 'FOLDERNAME=' $FOLDERNAME
 echo 'FOLDERNAME_REL=' $FOLDERNAME_REL
 CHANGED=$(git diff --name-only main | grep -v NEWS\.md | grep -v \.zenodo\.json| grep -v ^$FOLDERNAME_REL/)
-echo 'CHANGED=' $CHANGED
 
 if [ -n "${CHANGED}" ]; then
-  echo '\nFiles not belonging to the protocol mentioned in the branch name ("'$GITHUB_HEAD_REF'") are changed, and these changes will not be passed to the website. Please remove these changes from this branch and start a new branch for changes to other protocols./n\n'
+  echo '\nFiles not belonging to the protocol mentioned in the branch name ("'$GITHUB_HEAD_REF'") are changed, and these changes will not be passed to the website. Please remove these changes from this branch and start a new branch for changes to other protocols. Changes to be removed:' $CHANGED
   exit 1
 fi
 
