@@ -16,4 +16,4 @@ check_all <- function(protocol_code) {
     stop("\nThe source code failed some checks. Please check the error message above.\n")
   }
 }
-check_all(Sys.getenv("PROTOCOL_CODE"))  
+check_all(Sys.getenv("GITHUB_HEAD_REF"))  

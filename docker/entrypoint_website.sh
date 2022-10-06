@@ -1,9 +1,9 @@
 #!/bin/sh -l
 
 echo '\nGetting the code...\n'
-git clone --quiet https://$INPUT_TOKEN@github.com/$GITHUB_REPOSITORY_SOURCE /render
+git clone --quiet https://$PAT@github.com/$GITHUB_REPOSITORY /render
 cd /render
-git checkout $BRANCH_SOURCE
+git checkout $GITHUB_REF_NAME
 git config --global user.email "info@inbo.be"
 git config --global user.name "INBO"
 
@@ -17,7 +17,7 @@ echo 'GitHub actions:' $GITHUB_ACTIONS
 echo 'Event name:' $GITHUB_EVENT_NAME
 echo 'ref:' $GITHUB_REF
 git rev-parse --abbrev-ref origin/HEAD | sed 's/origin\///' | xargs git checkout
-Rscript --no-save --no-restore -e 'protocolhelper:::set_tags("'$PROTOCOL_CODE'")'
+Rscript --no-save --no-restore -e 'protocolhelper:::set_tags("'$GITHUB_REF_NAME'")'
 git push --follow-tags
 
 # look up tag names and tag messages to push to repo protocols later
@@ -43,7 +43,7 @@ else
 fi
 
 echo 'Publishing the rendered files...\n'
-git clone --quiet --depth=1 --single-branch --branch=main https://$INPUT_TOKEN@github.com/$GITHUB_REPOSITORY_DEST /destiny
+git clone --quiet --depth=1 --single-branch --branch=main https://$PAT@github.com/$GITHUB_REPOSITORY_DEST /destiny
 
 cp -R /render/publish/. /destiny/.
 cd /destiny
@@ -53,7 +53,7 @@ git config user.name
 git config user.email
 git add --all
 git commit --message="Add new protocol"
-git push -f https://$INPUT_TOKEN@github.com/$GITHUB_REPOSITORY_DEST
+git push -f https://$PAT@github.com/$GITHUB_REPOSITORY_DEST
 
 git rev-parse --abbrev-ref origin/HEAD | sed 's/origin\///' | xargs git checkout
 git tag -a $TAGNAME_GENERAL -m "$TAGMESSAGE_GENERAL"
