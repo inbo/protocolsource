@@ -1,0 +1,127 @@
+---
+title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie
+subtitle: 
+author:
+  - name: Els De Bie
+    orcid: 0000-0001-7679-743X
+date: "`r Sys.Date()`"
+reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
+file_manager: Hans Van Calster
+protocol_code: sfp-401-nl
+version_number: "2021.01"
+language: nl
+theme: vegetation
+params:
+  plot_width_openveg_m: 3
+  plot_length_openveg_m: 3
+  plot_width_forest_m: 16
+  plot_length_forest_m: 16
+  plot_shape: "vierkant"
+  height_herbshrublayer_openveg_m: 0.8
+  height_herbshrublayer_forest_m: 2
+  height_shrubtreelayer_openveg_m: 6
+  height_shrubtreelayer_forest_m: 8
+  species_list: ["vaatplanten", "mossen", "lichenen"]
+  phenology_values: "standaard inbo-fenologiecodes"
+  coverscale_species: "Londo origineel"
+  coverscale_structure: "inbo-structuur-schaal"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    split_by: none
+    split_bib: FALSE
+    template: !expr protocolhelper::protocol_css()
+    css: css/inbo_rapport.css
+    config:
+       toc:
+         before: |
+           <li class="toc-logo"><a href="https://www.vlaanderen.be/inbo/home/"><img src="css/img/inbo-nl.jpg"></a></li>
+         after: |
+           <li class="cc"><a href="http://creativecommons.org/licenses/by/4.0/"><img src="css/img/cc-by.png"></a></li>
+---
+
+```{=html}
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse Rmd bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titelhoofdingen staan en vermeld expliciet “niet van toepassing”.
+-->
+```
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE, 
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = '100%',
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(dplyr)
+library(purrr)
+library(git2rdata)
+library(rprojroot)
+library(spatstat)
+library(ggplot2)
+
+protocol_path <- find_root_file("src/thematic/4_vegetation/",
+                                "sfp-401-nl_vegopname-terrest", 
+                                criterion = is_git_root)
+
+source(
+  file.path(protocol_path, 
+            "_visualisatie_bedekking.R"
+  )
+)
+```
+
+```{r coverscales-db, eval = !file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+# this chunk only needs to be executed interactively once
+# each time a new version of the protocol is made
+library(inbodb)
+library(glue)
+
+con <- connect_inbo_dbase("D0013_00_Futon")
+
+cover <- glue_sql("SELECT ListName
+, Code
+, SortCode
+, PctValue
+from [dbo].[ftCoverValues] CV
+inner join [dbo].[ftActionGroupList] AGL on AGL.ListGIVID = CV.ListGIVID
+where 1 = 1 
+AND (ListName LIKE 'Londo%'
+     OR ListName LIKE 'Braun%'
+     OR ListName LIKE 'Pct%'
+     OR ListName LIKE 'Provoost%'
+     OR ListName LIKE 'Barkman%'
+     OR ListName LIKE '%onitoring%')
+AND InUse = '1'
+ORDER BY ListName DESC, SortCode ASC OFFSET 0 ROWS", 
+                  .con = con) 
+
+cover_result <- tbl(con, sql(cover)) %>%
+  collect()
+
+
+#close connection
+dbDisconnect(con)
+
+write_vc(cover_result, 
+         file = "cover_scales", 
+         sorting = c("ListName", "SortCode", "PctValue", "Code"),
+         root = file.path(protocol_path, "data"))
+```
+
+# Metadata {.unnumbered}
+
+| Reviewers                                                 | Documentbeheerder                    | Protocol code                         | Versienummer                           | Taal                             | Thema                         |
+|-----------------------------------------------------------|--------------------------------------|---------------------------------------|----------------------------------------|----------------------------------|-------------------------------|
+| `r paste(rmarkdown::metadata$reviewers, collapse = ", ")` | `r rmarkdown::metadata$file_manager` | `r rmarkdown::metadata$protocol_code` | `r rmarkdown::metadata$version_number` | `r rmarkdown::metadata$language` | `r rmarkdown::metadata$theme` |

@@ -1,0 +1,121 @@
+# (APPENDIX) Bijlagen {.unnumbered}
+
+# Bijlage: instelwaarden {#bijlage-params}
+
+```{r params-tabel}
+vertaal <- c(
+  plot_width_openveg_m = "breedte proefvlak in open vegetaties in meter",
+  plot_length_openveg_m = "lengte proefvlak in open vegetaties in meter",
+  plot_width_forest_m = "breedte proefvlak in bosvegetaties in meter",
+  plot_length_forest_m = "lengte proefvlak in bosvegetaties in meter",
+  plot_shape = "vorm proefvlak",
+  height_herbshrublayer_openveg_m = "hoogte overgang kruid/struiklaag in open vegetaties in meter",
+  height_herbshrublayer_forest_m = "hoogte overgang kruidlaag/struiklaag in bosvegetaties in meter",
+  height_shrubtreelayer_openveg_m = "hoogte overgang struik/boomlaag in open vegetaties in meter",
+  height_shrubtreelayer_forest_m = "hoogte overgang struik/boomlaag in bosvegetaties in meter",
+  species_list = "soortenlijsten",
+  phenology_values = "fenologieschaal",
+  coverscale_species = "bedekkingsschaal voor soorten",
+  coverscale_structure = "bedekkingsschaal voor structuur")
+
+params2 <- params
+attributes(params2)$class <- NULL
+
+params2 %>%
+  tibble::enframe() %>%
+  mutate(name = recode(name, !!!vertaal)) %>%
+  rename(naam = name, waarde = value) %>%
+  kable()
+```
+
+# Bijlage: opnameformulier {#bijlage-opnameformulier}
+
+```{r image11, out.width= '100%'}
+knitr::include_graphics(path = './media/image11.png')
+```
+
+[**Achtergrondinformatie**]{.ul}
+
+Grootte van het proefvlak:
+
+-   Open vegetaties
+
+    -   `r params$plot_length_openveg_m` m x `r params$plot_width_openveg_m` m
+    -   1% = `r params$plot_length_openveg_m/10` m x `r params$plot_width_openveg_m/10` m
+
+-   Bossen
+
+    -   `r params$plot_length_forest_m` m x `r params$plot_width_forest_m` m
+    -   1% = `r params$plot_length_forest_m/10` m x `r params$plot_width_forest_m/10` m
+
+# Bijlage: Andere mogelijke opnameschalen
+
+Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames.
+
+```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.csv"))}
+kable(cover_scales %>%
+        filter(ListName != params$coverscale_species) %>%
+        select(-SortCode) %>%
+        group_by(ListName) %>%
+        summarise(codes = paste(Code, collapse = ", ")), 
+      caption = "Tabel met actieve bedekkingschalen in InboVeg")
+```
+
+# Bijlage: inschatting bedekkingen oefenen
+
+Elk blauw vierkantje in de linkerbenedenhoek bij elke figuur vertegenwoordigt 1% van de volledige oppervlakte.
+
+```{r plots-bedekking, results = "asis", warning=FALSE, message=FALSE, cache = FALSE}
+figdata <- cover_scale_selected %>%
+  mutate(
+    gecombineerd = !(is.na(AbuLower)),
+    AbuLower = ifelse(is.na(AbuLower), 
+                      max(AbuLower, na.rm = TRUE),
+                      AbuLower),
+    AbuUpper = ifelse(is.na(AbuUpper), 
+                      2 * max(AbuUpper, na.rm = TRUE),
+                      AbuUpper),
+    aantal = round(AbuLower + (AbuUpper - AbuLower) / 2),
+    bedekking = PctValue2 / 100) %>%
+  select(code = Code, 
+         bedekking,
+         aantal,
+         gecombineerd) %>%
+  arrange(desc(gecombineerd), aantal, bedekking)
+
+purrr::pmap(
+  list(code = figdata$code,
+       bedekking = figdata$bedekking,
+       aantal = figdata$aantal,
+       gecombineerd = figdata$gecombineerd), 
+  function(code, bedekking, aantal, gecombineerd) {
+    knit_expand("_childdoc_visualisatie_bedekkingen.Rmd", 
+                cd = code,
+                bd = bedekking,
+                at = aantal,
+                gc = gecombineerd)
+  }) %>%
+  paste(collapse = "\n\n") -> rmd
+
+res <- knit_child(text = rmd, quiet = TRUE)
+
+cat(res, sep = "\n")
+```
+
+# Bijlage: Fenologiecodes INBO
+
+| Code | Verklaring                                   |
+|:-----|:---------------------------------------------|
+| \-   | n.v.t.                                       |
+| \+   | Dood                                         |
+| 0    | niet genoteerd                               |
+| Dis  | uitgezaaid (oude bloeistengels nog aanwezig) |
+| Fl   | Bloeiend                                     |
+| Fr   | met vruchten                                 |
+| K    | Kiemplant                                    |
+| Kn   | Bloemknoppen                                 |
+| sp   | Sporenvormend                                |
+| V    | Vegetatief                                   |
+
+Enkel de codes + (dood) en K (kiemplant) moeten toegevoegd worden indien van toepassing.
+De andere codes zijn facultatief.

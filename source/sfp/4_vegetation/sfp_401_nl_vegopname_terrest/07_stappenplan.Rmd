@@ -1,0 +1,264 @@
+# Werkwijze
+
+## Uitvoering
+
+### Voorbereiding terreinwerk
+
+De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de doelstelling en voorgeschiedenis van het project en van het beschikbare materiaal en apparatuur voor het project.
+
+1.  Kaartmateriaal met te bezoeken locaties wordt voorbereid in een GIS-omgeving.
+    Indien geen veldcomputer/tablet voorhanden, worden de kaarten in kleur geprint, met een duidelijke schaalvermelding.
+    Eventueel worden overzichtskaarten gemaakt zodat de kortste afstand, of de gemakkelijkste weg tot het punt of perceel duidelijk is (bv. brugjes over rivieren, onverharde wegen, ...).
+
+2.  Coördinaten worden ingelezen in een GPS (WGS84 !) of in Fieldmap, indien voorhanden.
+    Zo kan er makkelijker genavigeerd worden naar het specifieke punt.
+
+3.  Voor elke locatie is de optimale periode bepaald waarin het veldwerk wordt uitgevoerd.
+
+4.  Voor elke locatie is op voorhand de grootte en vorm van het proefvlak vastgelegd afhankelijk van de doelstellingen van het onderzoek.
+
+5.  Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen worden, indien voorhanden.
+    Er is wel per project een afweging nodig van de voor- en nadelen die hieraan verbonden zijn.
+    Aan de hand van oude opnames een globale soortenlijst van het gebied samenstellen is aan te raden om op voorhand vertrouwd te geraken met de soorten.
+
+    -   Mogelijke voordelen: kan helpen bij herlokalisatie, leereffect, ...
+    -   Mogelijke nadelen: overnemen van foute determinaties, onbewuste vertekening door verhoogde zoekinspanning naar ontbrekende soorten of door bijstellen van de bedekking, ...
+
+6.  Print voldoende veldformulieren (+ enkele extra) af, per proefvlak minstens 1 veldformulier.
+
+7.  Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist, zie hoofdstuk \@ref(benodigdheden)).
+
+8.  Zorg indien mogelijk dat je de toestemming hebt om de percelen te betreden.
+
+### Keuze periode
+
+Het is belangrijk het tijdstip optimaal te kiezen in functie van het groeiseizoen van de meest voorkomende planten (zie Figuur \@ref(fig:image1)).
+Afhankelijk van het vegetatietype of de opzet van het project kunnen twee bezoeken binnen eenzelfde vegetatieseizoen noodzakelijk zijn.
+Dit doordat er twee in de tijd gescheiden coherente bloeiperioden van planten zijn.
+Een duidelijk voorbeeld is de voorjaarsflora in bossen.
+Deze kan enkel in de maanden maart -- april worden opgenomen, op het moment dat deze flora optimaal zichtbaar is.
+De andere ondergroei zal pas later op het jaar zijn maximum bereiken (periode juli-augustus).
+Deze twee opnames op eenzelfde locatie maar ander tijdstip in het seizoen worden gezien als twee aparte opnames.
+Voor analyse achteraf, kunnen deze worden samengevoegd met per soort het maximum van beide ingeschatte bedekkingen.
+
+(ref:image1) Monitoringsperiode naargelang biotoopgroep [@RN158]
+
+```{r image1, fig.cap = '(ref:image1)', out.width= '100%' }
+knitr::include_graphics(path = './media/image1.png')
+```
+
+Bij een maaibeheer is het belangrijk om een vegetatieopname uit te voeren voordat er gemaaid is.
+Na het maaien is het moeilijk om de soortensamenstelling en bedekking van de vegetatie correct in te schatten.
+
+### Grootte en vorm van het proefvlak
+
+De vorm en grootte van het proefvlak is afhankelijk van het vegetatietype en/of het project waarin de opnamen kaderen.
+We raden nadrukkelijk aan om de standaardwaarden te gebruiken en hier enkel van af te wijken om gemotiveerde redenen.
+
+Voor niet-bosvegetatie is binnen INBO de standaard `r params$plot_length_openveg_m` m x `r params$plot_width_openveg_m` m proefvlak.
+Voor bossen gaat het om `r params$plot_length_forest_m` m x `r params$plot_width_forest_m` m.
+Voor de onderbouwing van deze keuze van proefvlakgrootte zie @RN159, § 4.1.3.3.
+Er kan afgeweken worden van zowel grootte als vorm met een duidelijke motivatie van de reden.
+Bijvoorbeeld, voor slenken in natte heides kan dit gereduceerd worden naar een oppervlak van 1 m² waarbij afgeweken wordt van het vierkant door het lineaire karakter van het vegetatietype.
+
+### Navigeren naar proefvlak (indien locatie op voorhand bepaald)
+
+De navigatie naar de locatie kan gebeuren met behulp van een (RTK-)GPS waarin de X en Y coördinaten van de proefvlakken op voorhand ingelezen zijn.
+Om tot het punt te navigeren is een hand-GPS het handigst.
+Als het punt zeer nauwkeurig moet opgemeten worden, is een RTK-GPS vereist voor de laatste meters.
+
+Als de locatie niet op voorhand is vastgelegd, dan is het aan de waarnemer om in het betreffende gebied, perceel, ... de locatie te bepalen.
+Het proefvlak dient representatief te zijn voor de doelstelling van het project.
+Vaak is een vereiste dat het geselecteerde proefvlak homogeen is.
+Zichtbare verstoringen zoals paden, meetapparatuur, perceelgrenzen, vergravingen, ... worden uit het proefvlak gehouden.
+
+In bossen wordt een zeer nauwkeurige (her)lokalisatie met GPS gehinderd door het kronendak.
+Door de ruimtelijke configuratie van kenmerkende bomen in en rond het proefvlak op te meten, kan echter ook in bossen de positie van het proefvlak met grote nauwkeurigheid vastgelegd worden.
+Dit kan handmatig gebeuren, met kompas en lintmeter of afstandsmeter, of via Fieldmap dat een geïntegreerde configuratie is van een laserafstandsmeter, digitaal kompas en GIS omgeving.
+
+### Uitzetten van het proefvlak
+
+Er dient altijd zoveel mogelijk vermeden te worden om door het proefvlak te lopen.
+Als 1 hoekpunt gekend of vastgelegd is, wordt hier een markeerstok in de grond gestoken.
+Via een vaste oriëntatie (steeds N-Z) wordt het proefvlak uitgezet.
+
+Een heel snelle manier om proefvlakken (bv voor een 3 m x 3 m proefvlak) uit te zetten is door gebruik te maken van een touw van 6 m, aan de uiteinden voorzien van een lus.
+Op het touw brengt men twee merktekens aan: de diameter van een vierkant van 3 m x 3 m (= 4.24 m) en een teken op 3 m (= een zijde van het proefvlak).
+Men plaatst vervolgens een stokje (1 in figuur \@ref(fig:image2)) en hangt het uiteinde van het touw over dat stokje.
+Het tweede stokje plaatst men ter hoogte van de aangeduide diameter (touw dus wel opspannen, 2 in Figuur \@ref(fig:image2)).
+Hier maak je het andere uiteinde van het touw vast.
+Vervolgens hoeft men enkel nog het touw op te spannen op het 3 m-punt (3 of 4 in Figuur \@ref(fig:image2)) en de helft van het proefvlak is al in orde.
+Best is om ook twee zulke touwen mee te nemen.
+Dit kan uiteraard ook met een lintmeter.
+Voor de N-Z oriëntatie is het belangrijk om de 2^de^ markeerstok in NW richting (2) te plaatsen met behulp van een kompas.
+Zie figuur \@ref(fig:image2) voor meer verduidelijking.
+
+```{r image2, fig.cap = 'Voorbeeld van het schema voor het uitzetten van een 3 m x 3 m proefvlak', out.width= '100%' }
+knitr::include_graphics(path = './media/image2_2.png')
+```
+
+Voor grotere proefvlakken met hoge vegetatie (bv. in bos 16 m x 16 m) is bovenstaande werkwijze niet praktisch.
+Daar gebruikt men best kompas, lintmeter vertex, of andere apparatuur om afstand of hoeken te bepalen (bv. een laser afstandsmeter).
+
+### Foto (optioneel)
+
+De standaard die gehanteerd wordt is om 2 foto's per proefvlak te nemen: 1 overzichtsfoto van het perceel en 1 foto van het proefvlak zelf.
+Dit steeds vanuit het zuiden naar het noorden volgens een zichtas door het centrum van het proefvlak (vermijden van tegenlicht).
+Voor bossen is dit minder evident omwille van mogelijke zichtobstructie door bomen en wordt de beste locatie voor de foto gekozen.
+In dit laatste geval wordt de azimut (hoek t.o.v. het noorden over het oosten) bij benadering aangegeven van waaruit de foto genomen werd.
+
+Om problemen te vermijden bij de latere verwerking wordt aangeraden om op de foto een duidelijk zichtbare identificatiecode van het proefvlak en oriëntatie weer te geven (Figuur \@ref(fig:image6)).
+We raden aan om op een tabletje deze gegevens te noteren en mee te fotograferen.
+Het is ook mogelijk om het invulformulier mee op de foto te zetten (of als eerste te fotograferen).
+
+```{r image6, fig.cap = 'Foto met duidelijke identificatiecode van de locatie van de vegetatieopname a.d.h.v. een krijtbordje (foto: Wouter Van Gompel)', out.width= '100%' }
+knitr::include_graphics(path = './media/image6.jpeg')
+```
+
+Indien dit onmogelijk is, codeer dan duidelijk in het daartoe voorziene veld op het veldformulier of bij afwezigheid daarvan in het vrije veld 'opmerkingen'.
+Met de nieuwe smartphones is het trouwens mogelijk om de locatie van de genomen foto te taggen.
+
+Het is belangrijk om achteraf de fotobestanden een gestructureerde naam (bv. identificatiecode_oriëntatie_datum) te geven.
+Voor opslag en beheer van fotobestanden zal in een latere fase hiervoor een Digital Asset Management-tool beschikbaar komen.
+
+### Vegetatieopname
+
+Het tijdstip van de opname is zeer belangrijk.
+De opname zou moeten gebeuren op het moment dat de meerderheid van de soorten een maximale bedekking heeft bereikt.
+
+#### Structuur
+
+Bij een gelaagde vegetatie wordt de bedekking van de verschillende structuurlagen, zijnde strooisellaag, algenlaag, moslaag, kruidlaag, struiklaag en boomlaag geschat.
+Voor INBO gelden volgende defaultwaarden:
+
+De moslaag betreft alle terrestrische mossen, inclusief veenmossen.
+
+*Open vegetaties* De kruidlaag bevat alle niet-houtige kruiden, en alle houtige planten met een hoogte tot maximaal `r params$height_herbshrublayer_openveg_m` m.
+Kiemplanten en zaailingen van houtige gewassen aanwezig in de kruidlaag worden genoteerd met vermelding kiemplant (k) bij de fenologie.
+Tot de struiklaag worden in open vegetaties de houtige planten van `r params$height_herbshrublayer_openveg_m` tot `r params$height_shrubtreelayer_openveg_m` m gerekend.
+De boomlaag bestaat uit houtige planten hoger dan `r params$height_shrubtreelayer_openveg_m` m.
+
+*Bossen* Voor bossen ligt de opdeling tussen kruid- en struiklaag op `r params$height_herbshrublayer_forest_m` m, voor struik- en boomlaag op `r params$height_shrubtreelayer_forest_m` m.
+
+De totale bedekkingen van strooisellaag, algenlaag, moslaag, kruidlaag, boom- en struiklaag worden afzonderlijk ingeschat met telkens maximaal 100% bedekking.
+Daarnaast wordt ook de totale bedekking over de lagen heen ingeschat (dit is 100% min de bedekking van onbedekte bodem).
+De standaard INBO-schaal voor de bedekking (INBO-structuur in INBOVEG) is een rechtstreekse schatting van het percentage in sprongen van 10%, 5% en 1%, waarbij op de uiteinden van de schaal kleinere sprongen genomen worden.
+Dit resulteert in 0, 1, 2, 3, 4, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 85, 90, 95, 96, 97, 98, 99, 100.
+
+Voor de kruidlaag wordt de gemiddelde hoogte (in centimeter) opgenomen.
+Het gaat hier om een schatting van de vegetatiehoogte.
+In het proefvlak wordt volgens een rasterpatroon op 10 locaties het hoogste plantendeel gemeten.
+Dit uitmiddelen geeft de gemiddelde hoogte aangezien de gemiddelde maximale plantenhoogte per rastercel een gemiddelde hoogte voor het volledige proefvlak oplevert.
+
+#### Soortensamenstelling
+
+Alle plantensoorten binnen het proefvlak worden systematisch genoteerd (`r paste(params$species_list, collapse = ", ")`).
+Het handigst is hier te beginnen bij de hoogste structuurlaag om dan af te zakken naar de finale moslaag (indien mossen dienen opgenomen te worden).
+Vaak wordt begonnen met de meest opvallende of talrijkere soorten om dan af te zakken naar de minder opvallende.
+
+Er worden enkel wetenschappelijke soortnamen gebruikt.
+Deze zijn opgenomen in de INBO-standaardlijst: INBO-Sci 2011 (in het programma INBOVEG), cfr.
+@RN157.
+Het werken met Nederlandse namen laat verwarring toe in bepaalde gevallen, namelijk of het om het genus of de species gaat.
+
+De fenologie wordt ook genoteerd per soort.
+Een soort met 2 verschillende waarden voor fenologie wordt beschouwd als 2 verschillende soorten in de analyse (bv. Alnus glutinosa -- k (kiemplant) of Alnus glutinosa + (dood)).
+Voor de standaard INBO-defaultwaarden, zie bijlage 4.
+
+Blijf niet te lang speuren naar extra soorten.
+Hou als regel aan dat als je 5 minuten lang geen nieuwe soort meer vindt, de opname volledig is.
+In totaal ligt het tijdsbestek voor het maken van een opname, voor geroutineerde situaties, tussen een kwartier en een uur.
+
+Maak eerst een lijst van de aanwezige soorten, schat pas bedekkingen als je lijst min of meer volledig is.
+Voor vegetatieve grassen kan gewerkt worden met enkele steekproeven van een handvol vegetatieve scheuten.
+
+#### Bedekking
+
+Het is belangrijk om niet enkel wortelende planten binnen het proefvlak te bekijken, maar ook deze met een duidelijke bedekking in het proefvlak, bv.
+overhangende vegetatie met wortels buiten het proefvlak.
+
+Voor de vegetatieopname maken we gebruik van de schaal van `r params$coverscale_species` (Tabel \@ref(tab:bedekkingschaal-interpretatie)).
+
+(ref:bedekkingschaal-interpretatie) Schaal van `r params$coverscale_species` [@RN154].
+
+```{r bedekkingschaal-interpretatie}
+cover_scales <- read.csv(file.path(protocol_path, "data/cover_scales.csv"))
+
+cover_scale_selected <- cover_scales %>%
+  filter(ListName == params$coverscale_species)
+
+not_all_na <- function(x) {!all(is.na(x))}
+
+cover_scale_selected %>%
+  mutate(Omschrijving = paste(CodeDescription, AbuDescription)) %>%
+  select(Code,
+         Omschrijving,
+         `Percentage benedengrens` = PctLower,
+         `Percentage bovengrens` = PctUpper,
+         `Abundantie benedengrens` = AbuLower,
+         `Abundantie bovengrens` = AbuUpper) %>%
+  select(where(not_all_na)) %>%
+  kable(caption = "(ref:bedekkingschaal-interpretatie)")
+
+heeft_abundantie <- cover_scale_selected %>%
+  filter(!is.na(AbuUpper)) %>%
+  nrow() > 0
+
+max_lage_bedekking <- cover_scale_selected %>%
+  filter(!is.na(AbuLower)) %>%
+  dplyr::pull(PctUpper) %>%
+  max()
+
+```
+
+Er kunnen dus `r nrow(cover_scale_selected)` verschillende codes gebruikt worden voor deze schaal.
+
+(ref:gecombineerd) Voor de soorten met een bedekking lager dan `r max_lage_bedekking`% zijn er verdere onderverdelingen op basis van abundantie (tellingen). Soorten met een hoge presentie, maar lage bedekking worden op die manier niet onderschat. We spreken hier van een gecombineerde abundantie-bedekking schaal waarbij abundantie in combinatie met bedekking wordt gebruikt voor de soorten die weinig bedekken. Basisregel daarbij is dat pollen van éénzelfde soort als 1 individu geteld worden. Bij het geclusterd voorkomen van niet-pollenvormende plantensoorten worden echter de individuele exemplaren of scheuten geteld of geschat voor het benaderen van de densiteit. Voor mossen wordt enkel bedekking genoteerd.
+
+```{asis, echo = heeft_abundantie}
+(ref:gecombineerd)
+```
+
+Verstoor je proefvlak zo weinig mogelijk vooraleer je een vrij volledige soortenlijst hebt en de bedekkingen hebt ingeschat.
+Doe vervolgens nog een check met de lijst van voorkomende soorten.
+
+Bij fijnbladige soorten (bv. smalbladige wilgen) heeft men snel de neiging om de bedekking te overschatten omdat het omhullende volume dat de planten innemen groot is ten opzichte van hun bladoppervlakte (ze hebben een lage Leaf Area Index).
+Een strategie om de bedekking van zulke soorten in te schatten is dan ook de bedekking voor de verticale projectie van de omhullenden te schatten (= kroonprojectie, Figuur \@ref(fig:image7)) en deze naar beneden te corrigeren (0 \< correctiefactor \< 1) voor de ijlheid van het gebladerte.
+Deze correctiefactor is opnieuw een visuele schatting, maar dan één die éénmalig kan geschat worden en daarna consequent gebruikt.
+
+```{r image7, fig.cap = 'Kroonprojectie houdt, in tegenstelling tot de definitie van bedekking, geen rekening met ijlheid van het bladerdak.', out.width= '50%'}
+knitr::include_graphics(path = './media/image7.png')
+```
+
+Maak aan het einde eens de som van bedekkingen ter controle.
+De totale som van alle bedekkingen is in grasland in regel meer dan 100% en kan oplopen tot 200% en meer (maar dat hoeft niet!).
+
+### Permanente markering van het proefvlak
+
+Wanneer het proefvlak in de toekomst niet opnieuw bezocht wordt en er is geen X-/Y-coördinaat voorhanden, wordt het middelpunt van het proefvlak ingelezen met de hand-GPS (liefst een gemiddelde waarde).
+Indien het noodzakelijk is het punt exact terug te vinden worden 2 hoekpunten ingelezen met de RTK-GPS (de zuid- en noordhoek).
+In bossen is een positionering met behulp van Fieldmap nauwkeuriger dan met GPS.
+De positie kan ingelezen worden in Fieldmap door te navigeren met de afstandsmeter en electronisch kompas vanaf een een referentiepunt met gekende coördinaten, zoals bij voorbeeld een kruispunt, of een punt buiten bos of op een open plek, dat wel nauwkeurig kan worden ingemeten met GPS.
+In permanente proefvlakken kan de boomconfiguratie opgemeten worden, en gebruikt worden om het proefvlak zeer nauwkeurig te lokaliseren (zie eerder).
+
+Naast het inlezen met GPS kan ook een permanente markering worden aangebracht.
+Dit om te vermijden dat telkens de RTK gebruikt moet worden.
+Een permanente markering van de proefvlakken kan op verschillende wijze gebeuren (afhankelijk van het budget en de tijdspanne van opvolging).
+Het goedkoopste is het inkloppen van een houten paal op 1 van de duidelijk beschreven hoekpunten van het proefvlak.
+Vanuit dit hoekpunt kan dan gemakkelijk het volledige proefvlak worden gereconstrueerd met een kompas.
+Een duurdere maar met langere levensduur is het ingraven van een metalen staaf, die naderhand met een metaaldetector terug kan gezocht worden.
+Een andere oplossing is de proefvlakken te markeren met een fenopaal (Figuur \@ref(fig:image8)).
+Indien maaibeheer, fenopalen diep genoeg steken (= maaiveld) door een zode uit te graven, alvorens de fenopaal te plaatsen.
+Een metaaldetector is nadien wel handig.
+
+```{r image8, out.width=c('44.13%', '50%'), fig.show='hold', fig.cap = 'Een fenopaal, die gebruikt wordt om de punten te markeren die met GPS werden gepositioneerd (foto: Nathalie Cools (links), Geert Sioen (rechts))'}
+knitr::include_graphics(path = c('./media/image8.jpeg','./media/image9.jpeg'))
+```
+
+## Registratie en bewaring van resultaten
+
+De resultaten van de vegetatieopnames worden genoteerd op de desbetreffende invulformulieren (zie bijlage \@ref(bijlage-opnameformulier)) en worden bewaard in een daarvoor bestemde archiefmap na inscannen.
+Alle opnames worden later ingegeven in INBOVEG.
+
+De foto's worden gearchiveerd (in een latere fase zal hiervoor een Digital Asset Management-tool beschikbaar komen) waarbij een link mogelijk is naar een unieke identificatiecode voor de locatie of de vegetatieopname.
+De naam van de foto wordt "identificatiecode_orientatie_datum".
