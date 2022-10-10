@@ -13,7 +13,7 @@ jobs:
       GITHUB_PAT: ${{ secrets.PAT }}
     steps:
       - name: Checkout repo
-        uses: inbo/actions/protocol_website@master
+        uses: ElsLommelen/actions/protocol_website@protocols
         with:
           GITHUB_PAT: ${{ secrets.PAT }}
-          GITHUB_REPOSITORY_DEST: "inbo/protocols"
+          GITHUB_REPOSITORY_DEST: "ElsLommelen/protocols"
