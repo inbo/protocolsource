@@ -13,36 +13,55 @@ Thank you for considering to contribute to this repository!
 
 ## Setup your local repository
 
+Are you a first-time GitHub user?
+Make sure you can authenticate to GitHub by following [these guidelines](https://inbo.github.io/tutorials/tutorials/git_authentication/).
+
 Installing the repository on your local drive:
 
--   go to the [protocols repository](https://github.com/inbo/protocols/) and press the `Clone` button
--   copy the URL to the clipboard
+-   go to the [protocolsource repository](https://github.com/inbo/protocolsource/) and press the green `Code` button
+-   select HTTPS and copy the URL to the clipboard
 -   start RStudio and select `File -> New project -> Version Control -> Git` -\> paste the URL
--   `protocols` will be automatically suggested as project directory name (keep it that way)
--   In the field `Create project as subdirectory of` select a folder on your local disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/repositories`.
--   Click OK
+-   `protocolsource` will be automatically suggested as project directory name (keep it that way)
+-   In the field `Create project as subdirectory of` select a folder on your local disc. For instance `C:/R/repositories`.
+-   Click "Create project"
 
 You will now have a local clone of the remote repository as an RStudio project.
 The `.git` directory is used by the version control system (do not make changes in this directory).
 
-The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive.
-Whenever you want to work in the project, you need to open `protocols.Rproj` file to start the RStudio project.
+The same directories and files which can be seen on the [remote](https://github.com/inbo/protocolsource) will be copied to your local drive.
+Whenever you want to work in the project, you need to open `protocolsource.Rproj` file to start the RStudio project.
+
+This RStudio project uses [renv](https://rstudio.github.io/renv/articles/renv.html) to manage R package dependencies.
+This ensures that different users have the same versions of packages installed.
+See also [collaborating with renv](https://rstudio.github.io/renv/articles/collaborating.html).
+The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library.
+After this has completed, you can use `renv::restore()` to restore the project library locally on your machine.
+In case you need another package than the ones installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, proceed as follows:
+
+- `renv::install("nameofthepackage")`
+- add the name of the package to the [DESCRIPTION file](DESCRIPTION)
+- `renv::snapshot()`: type 'y' in the console when asked to update [the lock file](renv.lock)
+- commit the changed [lock file](renv.lock)
+
+but please consider this carefully and ask one of the admins if in doubt.
+Note also that any dependency packages needed by the packages listed in the [DESCRIPTION file](DESCRIPTION) are also available in the project and they are listed in [the lock file](renv.lock).
 
 ## Branching model
 
 ![](src/management/protocols-gitflow-model.png)
 
 We use a simple branching model.
-The master branch is protected and can only receive commits from reviewed pull requests.
-Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the master branch.
+The main branch is protected and can only receive commits from reviewed pull requests.
+Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the main branch.
+The name of the protocol-specific branch should be equal to the protocol-code.
 
 Protocols can depend on other protocols (protocol dependencies) only if these dependency protocols have been approved (and are published).
 Circular dependencies are not allowed.
 
-Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags (see [release model](README.md#release-model)).
+Whenever a pull request is reviewed, approved and finalized, a repo-admin will merge the branch to the main and add general and specific tags (see [release model](README.md#release-model)).
 Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol.
 
-Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
+Each time a merge commit is made to the main branch of the `protocolsource` repo, a 'mirror read-only' repository (`protocols` repo) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
 The resulting website is hosted at **TO BE ADDED**. This website will host all approved and published versions of all protocols.
 
 ## Workflow
@@ -51,13 +70,13 @@ The workflow is as follows for a **new** protocol:
 
 1.  make sure your local clone of the remote repository is up to date:
 
-    1.  with the master branch checked out, press the pull button in the Git pane
+    1.  with the main branch checked out, press the pull button in the RStudio Git pane
 
 2.  a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
 
 3.  the generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
 
-    1.  in the Git pane press the icon to create a new branch
+    1.  in the Console type `checklist::new_branch(branch = "<protocol-code>")` (replace <protocol-code> by the generated protocol-code, e.g. `sfp-406-nl`)
 
 4.  after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
 
@@ -66,7 +85,7 @@ The workflow is as follows for a **new** protocol:
     3.  press the commit button
     4.  press the push button (or postpone pushing until several commits have been made)
 
-5.  the subject-matter specialist visits [github protocols](https://github.com/inbo/protocols) and starts a Pull Request (PR)
+5.  the subject-matter specialist visits [github protocolsource](https://github.com/inbo/protocolsource) and starts a Pull Request (PR)
 
     ![](src/management/pr-on-github-1.png)
 
@@ -93,12 +112,23 @@ The workflow is as follows for a **new** protocol:
         2.  alternatively, download the rendered version: see [these instructions](REVIEWING.md)
 
     5.  add text, media, ... to the Rmarkdown files
-
     6.  save your changes
 
     7.  stage, commit, push changes
 
-8.  When finished, go to your draft pull request and press 'ready for review' and add reviewers.
+8.  When finished, go to your draft pull request and press 'ready for review' 
+
+   1. Wait for the continuous integration checks to finish and see if the checks succeeded.
+   These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`, and update the version number if needed.
+   In case there are problems with the YAML front matter of your `index.Rmd` file or problems with the structure of the protocol not conforming to the protocol templates, these problems will be listed and can be consulted.
+   
+       1.  Address the problems detected by `protocolhelper::check_frontmatter` or `protocolhelper::check_structure`. You can see the list of problems by clicking on the check online (at the bottom of the pull request webpage). Alternatively, you can run these functions locally and see the list of problems printed in your console.
+        Note that during this automatic run, a commit to update the version number may be automatically pushed to the remote.
+        If this commit is added, press pull in the RStudio Git Pane to add it to your local clone
+       
+       1.  iterate (stage, commit, push changes) until the functions detect no problems
+   
+   1. Add reviewers.
     At least one repo admin and one other subject-matter specialist must review the protocol.
     The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
@@ -110,7 +140,7 @@ The workflow is as follows for a **new** protocol:
 
 11. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 
-12. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
+12. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
 For an **update** of an existing protocol all steps are the same, except for:
 
@@ -121,8 +151,9 @@ For an **update** of an existing protocol all steps are the same, except for:
 For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
 
 -   a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
--   use the protocol-code from the pre-existing `docx` protocol to create a new branch
--   If the section titles in the `docx` version of the protocol comply with section titles in the templates used by the `protocolhelper` package, then you will normally not see Rmarkdown file names starting with the same number. Otherwise, the function will have written both empty template Rmarkdown files as well as Rmarkdown files resulting from conversion of the `docx` file. (Note that `NEWS.md` and `index.Rmd` are always created from the `protocolhelper` templates.) In that case, you need to make changes (renaming files, deleting redundant files) so that Rmarkdown file names comply with the [template Rmarkdown files](https://github.com/inbo/protocolhelper/tree/master/inst/rmarkdown/templates).
+-   the old protocol-code from the pre-existing `docx` protocol will likely not correspond with the new protocol-code. Mention this in the protocol-specific `NEWS.md` file. Use the new protocol-code to create a new branch with `checklist::new_branch()`
+-   If the section titles in the `docx` version of the protocol comply with section titles in the templates used by the `protocolhelper` package, then you will normally not see Rmarkdown file names starting with the same number. Otherwise, the function will have written both empty template Rmarkdown files as well as Rmarkdown files resulting from conversion of the `docx` file. (Note that `NEWS.md` and `index.Rmd` are always created from the `protocolhelper` templates.) In that case, you need to make changes (renaming files, deleting redundant files) so that Rmarkdown file names comply with the [template Rmarkdown files](https://github.com/inbo/protocolhelper/tree/main/inst/rmarkdown/templates).
+    - if this is the case, it will also be detected by `protocolhelper::check_structure()`. So it is advised to use this function to detect these and other problems.
 -   continue the steps outlined for a new protocol.
 
 ## Starting a new protocol with the aid of protocolhelper functions
@@ -136,9 +167,8 @@ This will allow you to check the resulting output locally.
 ```r
 library(protocolhelper)
 create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
-           subtitle = "", 
            short_title = "vegopname terrest",
-           authors = "Els De Bie",
+           authors = "De Bie, Els",
            orcids = "0000-0000-1234-5678",
            date = "2016-07-19", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
@@ -159,8 +189,8 @@ library(protocolhelper)
 create_sfp(title = "titel van het protocol",
            subtitle = "optionele subtitel", 
            short_title = "korte titel",
-           authors = "Voornaam Naam",
-           orcids = "0000-0000-1234-5678",
+           authors = c("Achternaam1, Voornaam1", "Achternaam2, voornaam2"),
+           orcids = c("0000-0000-1234-5678", "0000-0000-1234-8765"),
            date = "`r Sys.Date()`", 
            reviewers = "Voornaam Naam, ...", 
            file_manager = "Voornaam Naam", 
@@ -176,16 +206,14 @@ Alternatively, for a project-specific protocol:
 ```r
 library(protocolhelper)
 create_spp(title = "Bodemstalen nemen", 
-           subtitle = "", 
            short_title = "bodemstalen", 
-           authors = c("Jon Beton", "Jef Plastiek"),
-           orcids = c(NA, "0000-0000-8765-4321"),
+           authors = c("Beton, Jon", "Plastiek, Jef"),
+           orcids = c("0000-0000-1234-5678", "0000-0000-8765-4321"),
            date = Sys.Date(), 
-           reviewers = c("reviewer1, reviewer2"), 
+           reviewers = "reviewer1, reviewer2", 
            file_manager = "manager",
            project_name = "mne",
            language = "nl",
-           version_number = "2021.01",
            render = FALSE)
 ```
 

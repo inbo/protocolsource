@@ -44,9 +44,9 @@ If you want to contribute a new protocol or update an existing protocol, check t
 
 This repository contains the Rmarkdown files of the protocols.
 
-A companion repository `protocols-website` hosts the rendered html files for all versions of these protocols, which can be viewed at [insert website address here]().
+A companion repository `protocols` hosts the rendered html files for all versions of these protocols, which can be viewed at [insert website address here]().
 
-A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocols` repository.
+A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocolsource` repository.
 Documentation for the package can be found [here](https://inbo.github.io/protocolhelper/).
 
 ## Release model
@@ -55,7 +55,7 @@ Whenever a new protocol is added or an existing protocol is updated and approved
 A GitHub Release is just a zip-file containing all files in the repository at that moment.
 The repository is setup in such a way that with each release a Zenodo archive will be created as well.
 The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
-A release will also trigger the `protocols-website` to update the rendered versions of the protocols.
+A release will also trigger the `protocols` repo to update the rendered versions of the protocols.
 
 Tags are associated to each GitHub release.
 To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
@@ -102,16 +102,16 @@ A **protocol-code** consists of a prefix (three characters), a protocol-number (
 
 | type       | theme      | theme_number | protocol-code |
 |:-----------|:-----------|:-------------|:--------------|
-| field      | generic    | 0            | sfp-0\#\#-nl  |
-| field      | water      | 1            | sfp-1\#\#-nl  |
-| field      | air        | 2            | sfp-2\#\#-nl  |
-| field      | soil       | 3            | sfp-3\#\#-nl  |
-| field      | vegetation | 4            | sfp-4\#\#-nl  |
-| field      | species    | 5            | sfp-5\#\#-nl  |
-| instrument |            |              | sip-\#\#\#-nl |
-| operating  |            |              | sop-\#\#\#-nl |
-| activity   |            |              | sap-\#\#\#-nl |
-| project    |            |              | spp-\#\#\#-nl |
+| field      | generic    | 0            | sfp-0##-nl    |
+| field      | water      | 1            | sfp-1##-nl    |
+| field      | air        | 2            | sfp-2##-nl    |
+| field      | soil       | 3            | sfp-3##-nl    |
+| field      | vegetation | 4            | sfp-4##-nl    |
+| field      | species    | 5            | sfp-5##-nl    |
+| instrument |            |              | sip-###-nl    |
+| operating  |            |              | sop-###-nl    |
+| analysis   |            |              | sap-###-nl    |
+| project    |            |              | spp-###-nl    |
 
 The `s` and `p` refer to **s**tandard **p**rotocol, while `f, i, o, a, p` indicate the first letter of the protocol type.
 

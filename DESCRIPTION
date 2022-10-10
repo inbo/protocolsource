@@ -1,4 +1,4 @@
-Package: protocols
+Package: protocolsource
 Title: Collection of Rmarkdown protocols
 Version: 0.0.1
 Authors@R: 
@@ -19,12 +19,19 @@ Language: en-GB
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Remotes:
+    github::inbo/protocolhelper,
+    github::inbo/checklist
 Imports: 
+    checklist,
     dplyr,
     ggplot2,
     git2rdata,
     knitr,
+    lubridate,
     protocolhelper,
     purrr,
     rprojroot,
-    sessioninfo
+    sessioninfo,
+    spatstat,
+    tibble
