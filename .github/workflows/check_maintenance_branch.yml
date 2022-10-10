@@ -1,0 +1,23 @@
+name: Check branch without protocol
+
+on:
+  pull_request:
+    types: [synchronize, opened, reopened, edited]
+    branches:
+     - main
+
+jobs:
+  run_if:
+    if: !startsWith(github.head_ref, 's[fioap]p-')
+    runs-on: ubuntu-latest
+    name: "check branch without protocol"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Check where changes are made
+        run: |
+          CHANGED=$(git diff --name-only main | grep -v NEWS\.md | grep -v \.zenodo\.json| grep -v ^src/)
+          if [ -n "${CHANGED}" ]; then
+            echo '\nBranch '$GITHUB_HEAD_REF' contains changes in protocols. Please make a branch named after the protocol_code to add changes to a protocol. Protocol specific files:' $CHANGED
+            exit 1
+          fi
