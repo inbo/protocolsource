@@ -1,0 +1,20 @@
+name: Update protocol (.zenodo.json and NEWS.md)
+
+on:
+  pull_request_review:
+    types: [submitted]
+    branches:
+     - main
+
+jobs:
+  run_if:
+    if: ${{ (github.event.review.state == 'approved') && (startsWith(github.head_ref, 's[fioap]p-')) }}
+    runs-on: ubuntu-latest
+    name: "update protocol"
+    env:
+      GITHUB_PAT: ${{ secrets.PAT }}
+    steps:
+      - name: Update protocol
+        uses: inbo/actions/protocol_update@master
+        with:
+          GITHUB_PAT: ${{ secrets.PAT }}
