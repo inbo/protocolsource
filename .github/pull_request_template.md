@@ -31,4 +31,4 @@ Review steps for the author(s):
 -   [ ] Iterate until reviewer approvals (merging the pull request will be done by an administrator)
 -   [ ] Verify that the checks done by continuous integration succeeded. These will check if `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()` succeeded without errors.
 
-To be done by an administrator after review: see [guidelines for admins](RELEASES.md).
+To be done by an administrator after review: see [guidelines for admins](https://github.com/inbo/protocolsource/blob/main/RELEASES.md).
