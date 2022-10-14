@@ -11,7 +11,7 @@ Rscript -e 'sessioninfo::session_info()'
 
 echo '\nCheck if only protocol is updated...\n'
 FOLDERNAME=$(Rscript -e 'protocolhelper::get_path_to_protocol("'$GITHUB_HEAD_REF'")')
-FOLDERNAME_REL=${FOLDERNAME#/home/runner/work/protocolsource/}
+FOLDERNAME_REL=${FOLDERNAME#/github/workspace/check/}
 echo 'FOLDERNAME=' $FOLDERNAME
 echo 'FOLDERNAME_REL=' $FOLDERNAME_REL
 CHANGED=$(git diff --name-only main | grep -v NEWS\.md | grep -v \.zenodo\.json| grep -v ^$FOLDERNAME_REL/)
