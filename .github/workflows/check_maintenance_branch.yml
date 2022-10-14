@@ -7,8 +7,12 @@ on:
      - main
 
 jobs:
-  run_if:
-    if: !startsWith(github.head_ref, 's[fioap]p-')
+  build:
+    if: !startsWith(github.head_ref, 'sfp-')
+      && !startsWith(github.head_ref, 'sip-')
+      && !startsWith(github.head_ref, 'sop-')
+      && !startsWith(github.head_ref, 'sap-')
+      && !startsWith(github.head_ref, 'spp-')
     runs-on: ubuntu-latest
     name: "check branch without protocol"
     steps:
