@@ -10,7 +10,7 @@ echo '\nSession info\n'
 Rscript -e 'sessioninfo::session_info()'
 
 echo '\nCheck if only protocol is updated...\n'
-FOLDERNAME=$(Rscript -e 'protocolhelper::get_path_to_protocol("'$GITHUB_HEAD_REF'")')
+FOLDERNAME=$(Rscript -e 'cat(protocolhelper::get_path_to_protocol("'$GITHUB_HEAD_REF'"))')
 FOLDERNAME_REL=${FOLDERNAME#/github/workspace/check/}
 echo 'FOLDERNAME=' $FOLDERNAME
 echo 'FOLDERNAME_REL=' $FOLDERNAME_REL
