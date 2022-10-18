@@ -1,0 +1,24 @@
+name: Check the protocol on pull request
+
+on:
+  pull_request:
+    types: [synchronize, opened, reopened, edited]  #en zie https://github.com/actions/runner/issues/980
+    branches:
+     - main
+
+jobs:
+  build:
+    if: startsWith(github.head_ref, 'sfp-')
+      || startsWith(github.head_ref, 'sip-')
+      || startsWith(github.head_ref, 'sop-')
+      || startsWith(github.head_ref, 'sap-')
+      || startsWith(github.head_ref, 'spp-')
+    runs-on: ubuntu-latest
+    name: "check protocol"
+    env:
+      GITHUB_PAT: ${{ secrets.PAT }}
+    steps:
+      - name: Check protocol
+        uses: ElsLommelen/actions/protocol_check@protocols
+        with:
+          GITHUB_PAT: ${{ secrets.PAT }}

@@ -1,0 +1,19 @@
+name: On merge to main, build the protocol and add it to the website
+
+on:
+  push:
+    branches:
+     - main
+
+jobs:
+  build-website:
+    runs-on: ubuntu-latest
+    name: "add protocol to website"
+    env:
+      GITHUB_PAT: ${{ secrets.PAT }}
+    steps:
+      - name: Checkout repo
+        uses: ElsLommelen/actions/protocol_website@protocols
+        with:
+          GITHUB_PAT: ${{ secrets.PAT }}
+          GITHUB_REPOSITORY_DEST: "ElsLommelen/protocols"

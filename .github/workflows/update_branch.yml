@@ -1,0 +1,25 @@
+name: Update protocol (.zenodo.json and NEWS.md)
+
+on:
+  pull_request_review:
+    types: [submitted]
+    branches:
+     - main
+
+jobs:
+  build:
+    if: (github.event.review.state == 'approved') &&
+      (startsWith(github.head_ref, 'sfp-')
+      || startsWith(github.head_ref, 'sip-')
+      || startsWith(github.head_ref, 'sop-')
+      || startsWith(github.head_ref, 'sap-')
+      || startsWith(github.head_ref, 'spp-'))
+    runs-on: ubuntu-latest
+    name: "update protocol"
+    env:
+      GITHUB_PAT: ${{ secrets.PAT }}
+    steps:
+      - name: Update protocol
+        uses: ElsLommelen/actions/protocol_update@protocols
+        with:
+          GITHUB_PAT: ${{ secrets.PAT }}
