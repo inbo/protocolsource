@@ -20,5 +20,3 @@ jobs:
     steps:
       - name: Check protocol
         uses: ElsLommelen/actions/protocol_check@protocols
-        with:
-          GITHUB_PAT: ${{ secrets.PAT }}
