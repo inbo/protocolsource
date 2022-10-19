@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     name: "check protocol"
     env:
-      GITHUB_PAT: ${{ secrets.PAT }}
+      GITHUB_PAT: ${{ secrets.PAT3 }}
     steps:
       - name: Check protocol
         uses: ElsLommelen/actions/protocol_check@protocols
         with:
-          GITHUB_PAT: ${{ secrets.PAT }}
+          GITHUB_PAT: ${{ secrets.PAT3 }}
