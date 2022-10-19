@@ -29,22 +29,25 @@ If you want to contribute a new protocol or update an existing protocol, check t
          used
       |- from_docx <- contains Microsoft Word docx protocols which were converted to 
                       markdown
-      |- src
-      |    |- thematic <- thematic protocols
+      |- source
+      |    |- sap <- analytic protocols
+      |    |- sip <- instrument protocols
+      |    |- sop <- operating protocols
+      |    |- sfp <- field protocols
       |    |   |- 0_generic
       |    |   |- 1_water 
       |    |   |- 2_air 
       |    |   |- 3_soil 
       |    |   |- 4_vegetation 
       |    |   |- 5_species
-      |    |- project <- project-specific protocols
+      |    |- spp <- project-specific protocols
       |    |- management <- for repo admins only
 
 ## Relationships to other repositories
 
 This repository contains the Rmarkdown files of the protocols.
 
-A companion repository `protocols` hosts the rendered html files for all versions of these protocols, which can be viewed at [insert website address here]().
+A companion repository `protocols` hosts the rendered html files for all versions of these protocols, which can be viewed at [the protocols website](https://inbo.github.io/protocols/).
 
 A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocolsource` repository.
 Documentation for the package can be found [here](https://inbo.github.io/protocolhelper/).
