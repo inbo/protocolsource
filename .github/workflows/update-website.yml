@@ -13,5 +13,5 @@ jobs:
       - name: Checkout repo
         uses: inbo/actions/protocol_website@master
         with:
-          GITHUB_PAT: ${{ secrets.PAT }}
+          PAT: ${{ secrets.PAT }}
           GITHUB_REPOSITORY_DEST: "inbo/protocols"

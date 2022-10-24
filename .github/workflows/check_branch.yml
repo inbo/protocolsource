@@ -19,4 +19,4 @@ jobs:
       - name: Check protocol
         uses: inbo/actions/protocol_check@master
         with:
-          GITHUB_PAT: ${{ secrets.PAT }}
+          PAT: ${{ secrets.PAT }}
