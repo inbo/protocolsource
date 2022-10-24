@@ -20,4 +20,4 @@ jobs:
       - name: Update protocol
         uses: inbo/actions/protocol_update@master
         with:
-          GITHUB_PAT: ${{ secrets.PAT }}
+          PAT: ${{ secrets.PAT }}
