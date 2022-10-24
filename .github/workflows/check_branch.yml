@@ -15,8 +15,6 @@ jobs:
       || startsWith(github.head_ref, 'spp-')
     runs-on: ubuntu-latest
     name: "check protocol"
-    env:
-      GITHUB_PAT: ${{ secrets.PAT }}
     steps:
       - name: Check protocol
         uses: inbo/actions/protocol_check@master

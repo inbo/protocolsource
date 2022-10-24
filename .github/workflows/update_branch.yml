@@ -16,8 +16,6 @@ jobs:
       || startsWith(github.head_ref, 'spp-'))
     runs-on: ubuntu-latest
     name: "update protocol"
-    env:
-      GITHUB_PAT: ${{ secrets.PAT }}
     steps:
       - name: Update protocol
         uses: inbo/actions/protocol_update@master
