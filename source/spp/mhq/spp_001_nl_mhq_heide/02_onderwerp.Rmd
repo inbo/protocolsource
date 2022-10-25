@@ -2,15 +2,91 @@
 
 ## Definities en afkortingen
 
+```{=html}
 <!--
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
 -->
+```
+-   habitattype 2310: droge heide op landduinen
+-   habitattype 2330_bu: buntgrasvegetatie op landduinen
+-   habitattype 4010: vochtige en natte heide
+-   habitattype 4030: droge heide
+-   SVI: staat van instandhouding
+-   LSVI: Lokale staat van instandhouding
+-   SBZ: Speciale BeschermingsZone
+-   RTK GNSS: Real Time Kinematic Global Navigation Satellite System waarbij cm of decimeter nauwkeurige positiebepaling mogelijk is. Een alternatief is werken met een Fieldmap installatie.
+-   Fieldmap: geïntegreerde tool die is ontworpen voor veldgegevensverzameling en ondermeer gebruikt wordt bij de Bosinventaris.
 
 ## Doelstelling en toepassingsgebied
 
+```{=html}
 <!--
 Doelstelling: omschrijving in woorden waarvoor het protocol dient.
 Voorbeelden wat er met de gegevens kan gedaan worden.
 Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
+```
+### Doelstelling
+
+Dit protocol beschrijft de werkwijze die dient gevolgd te worden voor de gegevensinzameling ten behoeve van de 6-jaarlijkse rapportage aan de EU omtrent de staat van instandhouding van de heidehabitats, meer bepaald de habitattypes 2310, 2330_bu, 4010 en 4030.
+In deze vegetatietypes dienen een 1000-tal random geselecteerde meetpunten in Vlaams heidehabitat opgemeten te worden en dit gebeurt op elk meetpunt op twee schaalniveaus.Enerzijds een vegetatie-opname op een vierkante vegetatieplot van 3 op 3 meter en anderzijds het schatten van een aantal LSVI-indicatoren op een cirkelplot met diameter 18m.
+De meetpunten worden herbezocht met een frequentie van 1 keer om de 6 jaar en laten toe om een uitspraak te doen over het aandeel habitat dit zich in een gunstige/ongunstige toestand bevindt en dit per type op niveau Vlaanderen, met een hogere nauwkerigheid binnen SBZ.
+Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar Paelinckx et.
+al (2019).
+
+### Toepassingsgebied
+
+Dit veldprotocol is specifiek van toepassing voor de gegevensinzameling in het monitoringsmeetnet kwaliteit van de Natura2000 heidehabitats.Qua Natura 2000 heidevegetaties zijn voor een 6-tal habitattypes (4030, 2310, 2330_bu, 7150, 7140_oli en 4010) meetnetten uitgewerkt.Jeneverbesstruweel (5130) en actief hoogveen (7110) zijn dermate zeldzaam dat we ze niet via een steekproef monitoren.Overgangsveen (7140_oli) betreft veelal een vorm van venige heide maar wordt in de groep van de moerassen gemonitord.Snavelbiesvegetaties (7150) komen voor op dynamische locaties zoals plagplekken en venoevers en vereisen een specifieke, nog uit te werken aanpak.
+Wel is het relevant om deze laatste twee types te kunnen onderscheiden van de doelvegetaties omdat ze ermee in overgang of mozaïek kunnen voorkomen.
+
+### Vegetatiekundige beschrijving van de betreffende types:
+
+**2330_bu Buntgrasvegetatie op landduinen** Buntgrasvegetaties komen voor op landduinen waar de bodem door de hoge dynamiek nog geen profielontwikkeling heeft doorgemaakt.Hoogstens is er een dunne humuslaag aanwezig.In goed ontwikkelde vormen zijn er aanzienlijke delen open zand maar de meeste landduinen in Vlaanderen zijn in min of meerdere mate gefixeerd door afwezigheid van voldoende windwerking.De vegetatie wordt gekenmerkt door een hoog aandeel mossen en korstmossen die de bodem in een eerste fase fixeren, in combinatie met een aantal typische soorten zandbindende vaatplanten.
+
+*Typische soorten: Buntgras (Corynephorus canescens), Heidespurrie (Spergula morisonii), Zandzegge (Carex arenaria), Zandstruisgras (Agrostis vinealis), Zilverhaver (Aira caryophyllea), Vroege haver (Aira praecox), Dwergviltkruid (Filago minima), Ruig haarmos (Polytrichum piliferum), rendiermossen (Cladina spp.), heidestaartjes en bekermossen (Cladonia spp.) en Cetraria spp.(IJslands mos en Kraakloof)*
+
+Op minder dynamische schrale standplaatsen in heidegebieden kan je ook dwerghavervegetaties aantreffen (2330_dw).
+Het onderscheid tussen beide subtypes is niet altijd even makkelijk maar doorgaans zijn deze minder rijk aan mossen en korstmossen, en wordt buntgras vervangen door Vroege en/of Zilverhaver.
+
+**2310 Droge heide op landduinen** Dit type heide komt voor op dezelfde types bodems als de buntgrasvegetaties maar omvatten een latere in de successiereeks waarbij de landduin verder gefixeerd is geraakt.
+Kensoort is Struikheide aangevuld met andere soorten van droge heide.
+Vaak zullen soorten van 2330 en 2310 door elkaar heen groeien en komen de vegetatietypes in mozaÏek met elkaar voor.Qua vegetatiesamenstelling van de hogere planten is er geen duidelijk onderscheid met droge heide (4030), wel is er meestal een andere mos- en korstmoslaag aanwezig en dient in de eerste plaats naar de bodemtextuur gekeken te worden om het onderscheid te maken.
+
+*Typische soorten: Struikhei (Calluna vulgaris), Klein warkruid (Cuscuta epithymum), Stekelbrem (Genista anglica), Kruipbrem (Genista pilosa), aangevuld met de typische soorten van 2330_bu*
+
+Stuifduinen en hun begeleidende vegetatietypes komen voor op profielloze zandgronden.
+Dit zijn in geologische termen jonge bodems die door zandverstuiving ontstaan zijn, soms bovenop oudere bodems, waar wel een profielontwikkeling heeft plaatsgevonden (podsols).Op het terrein kan je dus naast de bodemkaart met behulp van een grondboor vaststellen of er profielontwikkeling is in het bovenste deel (bv. minimaal enkele tientallen cm).
+Het landschap van stuifzandbodems heeft vaak nog een duinstructuur, waarbinnen grotere en/of kleinere zandverstuivingen herkenbaar zijn (zie Fig.1).
+Dit duidt er dan in meer vastgelegde duinensituaties op dat je je in een voormalig stuifzandgebied bevindt.
+Vegetaties met dwergstruiken op stuifzandbodem resorteren onder 2310 psammofiele heide (psammos= zand in het Grieks) en de pioniersvegetaties (buntgras, zandstruisgras, mossen en korstmossen) worden als 2330 geclassificeerd.
+
+![Figuur 1: Voorbeeld van een psammofiele buntgrasvegetatie (2330_bu) op stuifzandbodem, met een typisch duinreliëf](C:/DATA/R/protocolsource/images/stuifduin.jpg)
+
+**4010 Noord-Atlantische vochtige heide** Dit zijn erg uiteenlopende (dwergstruik)vegetaties die voorkomen op locaties waar de watertafel jaarrond vrij dicht onder het maaiveld blijft (tot maximaal 1m) en vaak met een abundant voorkomen van gewone dopheide en veenmossen.
+Op de natste plekken spreken we van venige heide waar dopheide minder abundant is en het vooral helofyten en veenmossen zijn die aspectbepalend worden, samen met pijpenstrootje.
+Struikheide is vaak ook aanwezig in natte heide.
+Ook door pijpenstrootje gedomineerde situaties op natte bodems kwalificeren als 4010.
+
+*Typische soorten: Gewone dophei (Erica tetralix), Kleine zonnedauw (Drosera intermedia), Ronde zonnedauw (Drosera rotundifolia), Veenpluis (Eriophorum polystachion), Klokjesgentiaan (Gentiana pneumonanthe), Trekrus (Juncus squarrosus), Beenbreek (Narthecium ossifragum), Witte snavelbies (Rhynchospora alba), Veenbies (Scirpus cespitosus), Tweenervige zegge (Carex binervis), Bruine snavelbies (Rhynchospora fusca), Wilde gagel (Myrica gale) en qua veenmossen vooral Kussentjesveenmos (Sphagnum compactum), Wrattig veenmos (Sphagnum papillosum) en Zacht veenmos (Sphagnum tenellum)*
+
+**4030 Droge Europese heide** Groenblijvende formaties van dwergstruiken, en dan voornamelijk struikhei.
+Ook gedegradeerde (vergraste en/of deels verboste) heideterreinen vallen hieronder.
+
+*Typische soorten: Struikhei (Calluna vulgaris), Klein warkruid (Cuscuta epithymum), Kleine wolfsklauw (Diphasiastrum tristachyum), Rode dophei (Erica cinerea), Stekelbrem (Genista anglica), Kruipbrem (Genista pilosa), Grote wolfsklauw (Lycopodium clavatum), Rode bosbes (Vaccinium vitis-idaea), blauwe bosbes (Vaccinium myrtillus)*
+
+**Geen doelvegetatie binnen dit stratum van het meeetnet maar gebonden aan heidelandschap en dus mogelijk in complex met meetpunten:**
+
+*7140_oli Overgangsvenen*
+
+Dit zijn venige heides of verlandende vennen waar de veenvorming al dermate doorgezet is dat er hoogveensoorten beginnen te groeien.Ze luiden een relatief lange tussenfase in naar *actief hoogveen (7110)*, dat in Vlaanderen enkel nog aan het Ven onder de Berg voorkomt.
+Specifieke veenmossoorten (vaak typische met wijnrode tinten) zijn hier indicatief naast hoogveensoorten als Lavendelheide, Eénarig wollegras en Kleine veenbes.
+Er is een afwisseling van veenmosbulten met waterhoudende depressies met venachtige begroeiingen.
+*Typische soorten: Lavendelhei (Andromeda polifolia), Eenarig wollegras (Eriophorum vaginatum), Kleine veenbes (Vaccinium oxycoccos) Ronde zonnedauw (Drosera rotundifolia), Witte snavelbies (Rhynchospora alba), Slijkzegge (Carex limosa), Veenbloembies (Scheuchzeria palustris) , Veenmosorchis (Hammarbya paludosa), Hoogveenveenmos (Sphagnum magellanicum), Wrattig veenmos (Sphagnum papillosum), Rood veenmos (Sphagnum rubellum), aangevuld met alle typische soorten van 4010.*
+
+*7150 Snavelbiesvegetaties*
+
+Pioniersgemeenschappen met snavelbies op plagplekken of periodiek overstromende venoevers.Meestal neemt dit type slechts geringe oppervlaktes in en evolueert het op plagplekken na een aantal jaar verder naar natte heide waarmee het meestal in complex voorkomt.Door betreding kunnen deze situaties ook in stand gehouden worden.De kruidlaag is ijl met een aanzienlijk aandeel open bodem maar kan in latere fasen hoge bedekkingen hebben.
+*Typische soorten: Kleine zonnedauw (Drosera intermedia), Ronde zonnedauw (Drosera rotundifolia), Moeraswolfsklauw (Lycopodiella inundata), Witte snavelbies (Rhynchospora alba), Bruine snavelbies (Rhynchospora fusca)*
+
+*Meer info:* *-Systematiek van natuurtypen voor de biotopen heide,moeras, duin en slik en schor: Deel 2 Heiden (Zwaenepoel et al., 2002)* *-Europees beschermde natuur in Vlaanderen (Decleer et al., 2007)*

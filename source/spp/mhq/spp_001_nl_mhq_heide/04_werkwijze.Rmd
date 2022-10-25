@@ -1,7 +1,10 @@
 # Overkoepelende werkwijze met verwijzing naar subprotocols
 
+## Overzicht van de verschillende stappen
+
+```{=html}
 <!--
-Geef hier een overzicht van de stappen van het project protocol.
+Geef hier een overzicht van de stappen van het project
 De verschillende stappen moeten verduidelijkt worden met criteria en richtlijnen wanneer wat moet uitgevoerd worden.
 Bijvoorbeeld:
 Ga naar de te monitoren locatie.
@@ -11,3 +14,146 @@ Volg subprotocol C `<protocol-code>_YYYY.NN` waarin labo-analyse wordt uitgelegd
 
 De doelstelling is om de subprotocols te organiseren in een coherent hoofd protocol waarin ontbrekende elementen aangevuld worden die niet in de subprotocols staan, zoals wanneer een bepaald subprotocol wel of niet wordt uitgevoerd, of kleine extra stappen die geen eigen subprotocol vereisen.
 -->
+```
+Volg volgende stappen in chronologische volgorde:
+
+> 1.  navigatie naar meetpunt
+> 2.  Vegetatieplot installeren
+> 3.  fototografisch documenteren van het meetpunt
+> 4.  bepalen of een meetpunt tot de doelpopulatie behoort of niet
+> 5.  eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
+> 6.  subprotocol vegetatie-opname met Londo-schaal
+> 7.  meten van de variabelen in de 18m plot
+
+## STAP 1: Navigatie naar een meetpunt
+
+De navigatie naar de steekproefpunten gebeurt met behulp van een zogeheten RTK-GNSS of FIELDMAP installatie (of combinatie van beiden) waarin de X en Y coördinaten van de proefvlakken op voorhand ingelezen zijn.
+De nauwkeurigheid van een commerciële GPS of een ingebouwde GPS in een smartphone is te laag om bij een herbezoek hetzelfde proefvlak voldoende goed te lokaliseren.
+Het kan wel handig zijn om met zo'n toestel eerst naar de omgeving van het meetpunt te navigeren en pas dan over te schakelen naar de nauwkeurige GPS-apparatuur voor het inmeten van de exacte locatie.Eens het meetpunt bepaald is, wordt het vegetatieproefvlak van 3 op 3 meter geïnstalleerd in stap 2.
+
+## STAP 2: Installeren van het vegetatieproefvlak (3mx3m)
+
+Het vegetatieproefvlak wordt geïnstalleerd volgens de werkwijze in **subprotocol A**
+
+De oriëntatie van het proefvlak is als volgt:
+
+-   het punt waar naartoe genavigeerd werd is de zuidoostelijke hoek van de vegetatieplot. Hier wordt er een eerst hoekpaaltje geplaatst en van daaruit wordt met behulp van een (digitaal) kompas 3 meter naar het noorden afgemeten en een tweede paaltje geplaatst. Dit wordt herhaal vanaf het tweede hoekpunt naar het westen en tenslotte vanuit het derde hoekpunt naar het zuiden, zodat een vierkant met oppervlakte 9m² bekomen wordt (zie Fig. 3)
+
+![Figuur 3: Oriëntatie van de vegetatie- en structuurplot](C:/DATA/R/protocolsource/images/plot9M.png)
+
+## STAP 3: Fotografisch documenteren
+
+Neem de foto's vooraleer je de vegetatie-opname maakt.
+Foto's worden altijd gemaakt, ook wanneer er geen opname zal uitgevoerd worden (zie 5.5).
+Indien je werkt met een externe camera codeer dan duidelijk in de daartoe voorziene velden in de veldcomputer of het vrije veld 'opmerkingen'van de papieren formulieren.
+De foto's worden genomen vanuit het zuiden kijkend naar het noorden.
+De camera tilten in portrait oriëntatie waardoor de vegetatie maximaal in het fotokader valt.
+Neem 2 foto's per meetpunt: één overzichts foto waarbij je de plot landschappelijk kadert, en een tweede waarbij je enkel de vegetatie in de plot fotografeert (zie Fig. 4)
+
+![Figuur 4: Voorbeeld van een foto van het proefvlak in het landschap (links) en ingezoomd op het proefvlak zelf (rechts)](C:/DATA/R/protocolsource/images/fotoproefvlak.png)
+
+## STAP 4: Bepalen of een meetpunt tot de doelpopulatie behoort of niet
+
+In deze stap dienen we te controleren of de doelvegetatie effectief aanwezig is in het vegetatieproefvlak opdat we een meting kunnen uitvoeren.
+De habitatkaart werd gebruikt als steekproefkader om de meetpunten te selecteren, maar omwille van verschillende redenen (voorkomen van complexen in de kartering, polygoongrenzen die niet exact overeenkomen met de terreinsituatie, verouderde kaartgegevens,... ) kan een geselecteerde plot buiten de doelvegetatie vallen.
+Daarom dienen we steeds te bepalen met welk vegetatietype we te maken hebben.
+Daarvoor gebruiken we de karteersleutels, in dit geval de heidesleutel (<https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/>).Hierin zijn ook de relevante contact- en rompgemeenschappen opgenomen.
+Het schaalniveau waarop de sleutel dient toegepast te worden is niet dat van een vegetatieplot maar deze van de min of meer homogene vegetatievlek waarin het proefvlak zich bevindt.
+
+**Onderstaande beslisregels worden gehanteerd voor het al dan niet opmeten van een proefvlak**
+
+-   de vegetatieplot bevat een homogene vlek doelvegetatie --\> opname doen
+-   de vegetatieplot bevat geen doelvegetatie --\> opname niet doen voor dit doeltype, ga naar stap 5 om te checken of het meetpunt in aanmerking komt voor opname bij een ander type
+-   de vegetatieplot bevat naast doelvegetatie ook (een) andere vegetatietype(s) die ruimtelijk duidelijk van elkaar gescheiden zijn (bv. bos naast een heideterrein, weg/akker naast een heide)
+    -   --\> opname niet doen wanneer aandeel doelvegetatie in de vegetatieplot kleiner is dan 50%,
+    -   --\> opname doen wanneer doelvegetatie in de vegetatieplot gelijk of groter is dan 50%
+-   de structuurplot bevat doelvegetatie en een andere vegetatietype(s) in mozaïek of in overgang met elkaar
+    -   --\> opname niet doen wanneer doelvegetatie inclusief overgangen minder is dan 50%, ga naar stap 5 om te checken of het meetpunt in aanmerking komt voor opname bij een ander type
+    -   --\> opname doen wanneer doelvegetatie inclusief overgangen gelijk of meer is dan 50% bedraagt. Overgangen tussen de verschillende heidehabitats zijn ruim te interpreteren (bv. snavelbiesverbond gaat snel over in 4010, 2330_bu en 2310 vormen mozaïeken, 4010 met 7140_oli, enz.)
+
+Indien het eerder een geleidelijke overgang betreft naar een verwant vegetatietype dan wordt dit beschouwd als een onderdeel van de doelvegetatie en wordt de opname gemaakt inclusief de overgang.
+
+Noteer steeds op welk aandeel (in %) van de plot je data betrekking heeft.
+Bij het schatten blijf je echter werken alsof je op een volledige plot zou doen, je gaat m.a.w. niet herrekenen voor het aandeel dat effectief doelvegetatie bevat.In een 3mx3m plot blijft 30cmx30cm dus 1%.
+
+Voor de structuurplot (zie stap 7) wordt gelijkaardig gewerkt en dient ook het aandeel doelvegetatie waarop de inschatting betrekking heeft vermeld te worden.
+De inschatting van de bedekking gebeurt eveneens alsof het een volledige cirkelplot betreft, m.a.w. 10m² is 1%.
+In geval van twijfel voeren we de opname uit en documenteren we in het opmerkingenveld
+
+## STAP 5: Eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
+
+Wanneer men op het initiële meetpunt niet de gewenste doelvegetatie aantreft, kan het wel zijn dat dit meetpunt kan opgemeten worden voor een ander (heide)habitattype.
+Dat hangt af van drie zaken: - welke vegetatie daar dan effectief wel voorkomt - van het rangnummer van het meetpunt - of het meetpunt zich binnen of buiten een SBZ bevindt
+
+Het rangnummer van de plot en de SBZ gegevens vind je als attributen bij het meetpunt.
+Via onderstaande tabel kan men controleren of en voor welk type het punt wel kan opgenomen worden.
+
+![Tabel 1: beslisregels voor vervangen van een meetpunt](C:/DATA/R/protocolsource/images/Tabel_vervangpunten.png)
+
+*Voorbeeld: Meetpunt met ranking 296.657 ligt in habitatrichtlijngebied en dient bezocht te worden voor natte heide 4010. Bij aankomst blijkt echter dat op dat meetpunt droge heide 4030 voorkomt. Gezien het ranknummer echter kleiner is dan 296.658, wordt het punt wel opgenomen voor de steekproef van 4030*
+
+## STAP 6:subprotocol vegetatie-opname met Londo-schaal
+
+==link naar subprotocol Londo-opname==
+
+## STAP 7:meten van de variabelen in de 18meter-plot
+
+Aandeeldoelvegetatie in de 18m-plot opgeven!
+
+Alle criteria worden voor elk habitattype gescoord.
+Indien afwezig scoor je met de waarde 0.
+
+**Verbossing**
+
+De 18m-cirkelplot wordt bekeken voor wat betreft verbossingsgraad (relatieve bedekkingsgraad in %).
+Alle houtige gewassen vanaf 80cm hoogte worden meegeteld voor deze schatting.
+Bomen en struiken die vanuit het naastgelegen bos of houtkant overhangen worden niet meegerekend voor deze indicator.
+Eventuele overlap tussen boom- en struiklaag wordt niet dubbel geteld.
+Het gaat m.a.w. over het aandeel doelvegetatie in de structuurplot die overdekt wordt door bomen of struiken.
+Hou voor de schatting van de bedekking in het achterhoofd dat 10m² ongeveer 1% is van de 18m-cirkelplot (\~1017m²).
+Schattingen tot op 1% nauwkeurig zijn redelijk haalbaar bij lage bedekkingen,maar worden lastiger naarmate de verbossingsgraad toeneemt.
+Interpretatie via luchtfoto of een schets zijn hierbij een hulpmiddel.
+Indien een gedeelte van de plot geen doelvegetatie bevat wordt dit deel niet in beschouwing genomen voor de verbossing.
+Maar de inschatting gebeurt wel volgens dezelfde verdeling m.a.w. 10m² blijft 1% ook al ben je bv.
+maar op een halve cirkelplot aan het meten.
+
+**Successiestadia van buntgrasvegetaties**
+
+Vooral bij de landduinen (2330_bu en 2310) is de aanwezigheid van de verschillende ontwikkelingsstadia een belangrijke structuurparameter: open zand, buntgrasvegetatie, mostapijtjes, korstmosvegetatie.
+Scoor de aanwezigheid van elk van deze fases door middel van een code uit de beheermonitoringsschaal (bijlage 1) op het niveau van de structuurplot.
+Afwezigheid ook aangeven!
+
+**Ouderdomsstructuur Struikhei**
+
+De levenscyclus van Struikhei kent 4 fasen.
+Elke fase verschilt qua bedekking, productie en bloei van Struikhei, maar ook qua microklimaat en soortensamenstelling.
+Hoe meer fasen in een heide aanwezig zijn, hoe structuurrijker, hoe soortenrijker en hoe robuuster de heidehabitat is.
+Eenvormige ouderdomsstructuur hangt meestal samen met een onaangepast beheer.
+Er worden vier leeftijdscategorieën onderscheiden, namelijk, pioniersstadium, ontwikkelingsstadium, climaxstadium en degeneratiestadium (zie Fig.5).
+Scoor de aanwezigheid van elk stadium m.b.v. codes uit de beheermonitoringsschaal (bijlage 1).Afwezigheid ook aangeven!
+
+![Figuur 5: Cyclische successiestadia in 4 fasen bij Calluna vulgaris (uit Burrows, 1990)](C:/DATA/R/protocolsource/images/Calluna_fases.png)
+
+**Aanwezigheid veenmoslaag**
+
+Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van alle veenmossoorten samen op het niveau van de structuurplot.
+Afwezigheid ook noteren!
+
+**Aanwezigheid dwergstruiken**
+
+Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van alle dwergstruiken (Erica, Calluna, Cytisus, Vaccinium, Genista ...) op het niveau van de structuurplot.
+Afwezigheid ook aangegeven!
+
+**Vergrassing**
+
+Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van bochtige smele, pijpenstrootje, zwenkgrassen, duinriet en struisgrassen.
+Afwezigheid ook aangeven!
+
+**Verruiging** Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Adelaarsvaren en Braam.
+Afwezigheid ook aangeven!
+Aanwezigheid grijs kronkelsteeltje Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van Grijs kronkelsteeltje.
+Afwezigheid ook aangeven!
+
+## Samenvatting
+
+![Figuur 6: Samenvatting stappenplan](C:/DATA/R/protocolsource/images/samenvatting_Werkwijze.png)

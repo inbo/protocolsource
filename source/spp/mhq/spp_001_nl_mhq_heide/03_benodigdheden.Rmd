@@ -1,1 +1,8 @@
 # Extra benodigdheden t.o.v. de subprotocols
+
+-   rolmeter of touw van 18m, ultrasone afstandmeter (zie Fig. 2)
+-   Kompas, kan eventueel ook via een app op een smartphone
+-   RTK-GNSS of Fieldmap installatie voor navigatie en data-opslag
+-   Fototoestel, kan eventueel ook via een smartphone
+
+![Figuur 2: Voorbeeld van een handige afstandsmeter voor de 18meter plot: Haglöf ultrasone afstandmeter](C:/DATA/R/protocolsource/images/Haglof.png)

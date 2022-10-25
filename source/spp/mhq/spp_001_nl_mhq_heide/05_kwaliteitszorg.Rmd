@@ -1,6 +1,19 @@
 # Extra aspecten van kwaliteitszorg t.o.v. de subprotocols
 
+```{=html}
 <!--
 Geen herhaling van wat al in subprotocols staat
 -->
+```
+Enkele tips bij het maken van een vegetatie-opname:
+
+-   vertrappel de vegetatie in de plot zo min mogelijk vooraleer je een vrij volledige soortenlijst hebt en de bedekkingen hebt ingeschat. Doe hierna nog een check op soorten die je eventueel miste meer centraal in de plot of vanop de knieën
+-   als je na 5 minuten geen nieuwe soort meer vindt, dan wordt de opname stopgezet.
+-   maak eerst een lijst van de aanwezige soorten, schat pas bedekkingen als je lijst min of meer volledig is
+-   tracht de meest bedekkende soorten bovenaan te groeperen in je lijst
+-   in een 3mx3m plot is een 30cmx30cm vlakje daarbinnen gelijk aan 1%. Een band van 30 cm op een 3m is dan gelijk aan 10%
+-   de totale som van alle bedekkingen in éénzelfde vegetatielaag kan meer dan 100% zijn door overlap, maar kan ook erg laag zijn bijvoorbeeld 10% in buntgrasvegetatie op stuifduin.
+-   de totale som van kruidlaag, open bodem, strooisellaag, (korst)moslaag is minimaal 100%
+-   kiemplanten van bomen en struiken : naam laten volgend door "(k)"
+-   soorten net buiten opnamevlak: kunnen vermeld worden maar duidelijk weergeven door de naam te laten volgen door "(R)"
 
