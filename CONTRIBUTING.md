@@ -62,7 +62,8 @@ Whenever a pull request is reviewed, approved and finalized, a repo-admin will m
 Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol.
 
 Each time a merge commit is made to the main branch of the `protocolsource` repo, a 'mirror read-only' repository (`protocols` repo) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
-The resulting website is hosted at **TO BE ADDED**. This website will host all approved and published versions of all protocols.
+The resulting website is hosted at https://inbo.github.io/protocols/.
+This website will host all approved and published versions of all protocols.
 
 ## Workflow
 

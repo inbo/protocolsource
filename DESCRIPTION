@@ -25,6 +25,7 @@ Remotes:
 Imports: 
     checklist,
     dplyr,
+    inbodb,
     ggplot2,
     git2rdata,
     knitr,

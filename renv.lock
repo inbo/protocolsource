@@ -9,6 +9,10 @@
       {
         "Name": "INLA",
         "URL": "https://inla.r-inla-download.org/R/stable"
+      },
+      {
+        "Name": "inbo",
+        "URL": "https://inbo.r-universe.dev"
       }
     ]
   },
@@ -204,26 +208,30 @@
     },
     "checklist": {
       "Package": "checklist",
-      "Version": "0.2.4",
-      "Source": "Repository",
-      "Repository": "https://inbo.r-universe.dev",
-      "Remotes": "r-lib/lintr",
-      "RemoteUrl": "https://github.com/inbo/checklist",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "84cd5114dbc8125c6c99721716fca16e5a92375a",
-      "Hash": "676063aaf970e17bd4b2a15c1361494d",
+      "Version": "0.2.6",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "inbo",
+      "RemoteRepo": "checklist",
+      "RemoteRef": "main",
+      "RemoteSha": "b162fbd0c2b4cc1910eac7ab16906cd4c2f14fa0",
+      "Hash": "2da9540c134388a6b2d9e426adf6c610",
       "Requirements": [
         "R6",
         "assertthat",
         "codemetar",
         "desc",
         "devtools",
+        "fs",
         "gert",
         "httr",
+        "hunspell",
         "jsonlite",
         "lintr",
         "pkgdown",
         "rcmdcheck",
+        "renv",
         "rmarkdown",
         "rorcid",
         "sessioninfo",
@@ -766,15 +774,28 @@
         "openssl"
       ]
     },
+    "hunspell": {
+      "Package": "hunspell",
+      "Version": "3.0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "656219b6f3f605499d7cdbe208656639",
+      "Requirements": [
+        "Rcpp",
+        "digest"
+      ]
+    },
     "inbodb": {
       "Package": "inbodb",
       "Version": "0.0.4",
-      "Source": "Repository",
-      "Repository": "https://inbo.r-universe.dev",
-      "RemoteUrl": "https://github.com/inbo/inbodb",
-      "RemoteRef": "HEAD",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "inbo",
+      "RemoteRepo": "inbodb",
+      "RemoteRef": "main",
       "RemoteSha": "71e918c0c9ee2c48ee7f8da3872a67e68ab98c34",
-      "Hash": "277c38fbe008b159070b050f111bde2f",
+      "Hash": "c5cc605b1e86d1aafd22209b68793ed8",
       "Requirements": [
         "DBI",
         "assertthat",
@@ -1260,10 +1281,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.15.5",
+      "Version": "0.16.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6a38294e7d12f5d8e656b08c5bd8ae34",
+      "Hash": "c9e8442ab69bc21c9697ecf856c1e6c7",
       "Requirements": []
     },
     "rex": {
