@@ -86,9 +86,23 @@ Wanneer men op het initiële meetpunt niet de gewenste doelvegetatie aantreft, k
 Dat hangt af van drie zaken: - welke vegetatie daar dan effectief wel voorkomt - van het rangnummer van het meetpunt - of het meetpunt zich binnen of buiten een SBZ bevindt
 
 Het rangnummer van de plot en de SBZ gegevens vind je als attributen bij het meetpunt.
-Via onderstaande tabel kan men controleren of en voor welk type het punt wel kan opgenomen worden.
+Via tabel \@ref(tab:beslisregels-meetpunt) kan men controleren of en voor welk type het punt wel kan opgenomen worden.
 
-![Tabel 1: beslisregels voor vervangen van een meetpunt](C:/DATA/R/protocolsource/images/Tabel_vervangpunten.png)
+(ref:beslisregels-meetpunt) beslisregels voor vervangen van een meetpunt
+
+```{r beslisregels-meetpunt}
+beslisregels <- read_csv(
+  file.path(
+    path_to_protocol,
+    "data",
+    "beslisregels.csv"
+  )
+)
+
+beslisregels %>%
+  kable(caption = "(ref:beslisregels-meetpunt)")
+
+```
 
 *Voorbeeld: Meetpunt met ranking 296.657 ligt in habitatrichtlijngebied en dient bezocht te worden voor natte heide 4010. Bij aankomst blijkt echter dat op dat meetpunt droge heide 4030 voorkomt. Gezien het ranknummer echter kleiner is dan 296.658, wordt het punt wel opgenomen voor de steekproef van 4030*
 
