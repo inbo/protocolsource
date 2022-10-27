@@ -1,4 +1,4 @@
-name: On merge to main, build the protocol and add it to the website
+name: On merge of "Log RECENT_MERGED_BRANCH_NAME" to main, build the protocol and add it to the website
 
 on:
   push:
@@ -10,8 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     name: "add protocol to website"
     steps:
-      - name: Checkout repo
+      - name: lookup branch name
+        uses: actions/checkout@v2
+      - uses: tonynguyenit18/github-action-custom-vars@v1
+      - name: test
+        run: echo 'branch name =' $RECENT_MERGED_BRANCH_NAME
+      - name: Checkout repo and build website
+        if: (startsWith(env.RECENT_MERGED_BRANCH_NAME, 'sfp-')
+          || startsWith(env.RECENT_MERGED_BRANCH_NAME, 'sip-')
+          || startsWith(env.RECENT_MERGED_BRANCH_NAME, 'sop-')
+          || startsWith(env.RECENT_MERGED_BRANCH_NAME, 'sap-')
+          || startsWith(env.RECENT_MERGED_BRANCH_NAME, 'spp-'))
         uses: inbo/actions/protocol_website@master
         with:
           PAT: ${{ secrets.PAT }}
           GITHUB_REPOSITORY_DEST: "inbo/protocols"
+          RECENT_MERGED_BRANCH_NAME: $RECENT_MERGED_BRANCH_NAME
