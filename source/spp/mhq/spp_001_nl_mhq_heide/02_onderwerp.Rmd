@@ -57,11 +57,18 @@ Vaak zullen soorten van 2330 en 2310 door elkaar heen groeien en komen de vegeta
 
 Stuifduinen en hun begeleidende vegetatietypes komen voor op profielloze zandgronden.
 Dit zijn in geologische termen jonge bodems die door zandverstuiving ontstaan zijn, soms bovenop oudere bodems, waar wel een profielontwikkeling heeft plaatsgevonden (podsols).Op het terrein kan je dus naast de bodemkaart met behulp van een grondboor vaststellen of er profielontwikkeling is in het bovenste deel (bv. minimaal enkele tientallen cm).
-Het landschap van stuifzandbodems heeft vaak nog een duinstructuur, waarbinnen grotere en/of kleinere zandverstuivingen herkenbaar zijn (zie Fig.1).
+Het landschap van stuifzandbodems heeft vaak nog een duinstructuur, waarbinnen grotere en/of kleinere zandverstuivingen herkenbaar zijn (zie Figuur \@ref(fig:stuifduin)).
 Dit duidt er dan in meer vastgelegde duinensituaties op dat je je in een voormalig stuifzandgebied bevindt.
 Vegetaties met dwergstruiken op stuifzandbodem resorteren onder 2310 psammofiele heide (psammos= zand in het Grieks) en de pioniersvegetaties (buntgras, zandstruisgras, mossen en korstmossen) worden als 2330 geclassificeerd.
 
-![Figuur 1: Voorbeeld van een psammofiele buntgrasvegetatie (2330_bu) op stuifzandbodem, met een typisch duinreliëf](C:/DATA/R/protocolsource/images/stuifduin.jpg)
+(ref:stuifduin) Voorbeeld van een psammofiele buntgrasvegetatie (2330_bu) op stuifzandbodem, met een typisch duinreliëf
+
+```{r stuifduin, fig.cap="(ref:stuifduin)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "stuifduin.jpg"))
+```
 
 **4010 Noord-Atlantische vochtige heide** Dit zijn erg uiteenlopende (dwergstruik)vegetaties die voorkomen op locaties waar de watertafel jaarrond vrij dicht onder het maaiveld blijft (tot maximaal 1m) en vaak met een abundant voorkomen van gewone dopheide en veenmossen.
 Op de natste plekken spreken we van venige heide waar dopheide minder abundant is en het vooral helofyten en veenmossen zijn die aspectbepalend worden, samen met pijpenstrootje.
