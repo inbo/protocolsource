@@ -191,4 +191,12 @@ Afwezigheid ook aangeven!
 
 ## Samenvatting
 
-![Figuur 6: Samenvatting stappenplan](C:/DATA/R/protocolsource/images/samenvatting_Werkwijze.png)
+(ref:samenvatting) Samenvatting stappenplan
+
+```{r samenvatting, fig.cap="(ref:samenvatting)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "samenvatting_Werkwijze.png"))
+
+```
