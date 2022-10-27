@@ -67,13 +67,11 @@ opts_chunk$set(
 library(dplyr)
 library(purrr)
 library(git2rdata)
-library(rprojroot)
+library(protocolhelper)
 library(spatstat)
 library(ggplot2)
 
-protocol_path <- find_root_file("src/thematic/4_vegetation/",
-                                "sfp-401-nl_vegopname-terrest", 
-                                criterion = is_git_root)
+protocol_path <- get_path_to_protocol(rmarkdown::metadata$protocol_code)
 
 source(
   file.path(protocol_path, 
