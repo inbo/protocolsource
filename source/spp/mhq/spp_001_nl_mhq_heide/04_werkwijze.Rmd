@@ -55,9 +55,16 @@ Foto's worden altijd gemaakt, ook wanneer er geen opname zal uitgevoerd worden (
 Indien je werkt met een externe camera codeer dan duidelijk in de daartoe voorziene velden in de veldcomputer of het vrije veld 'opmerkingen'van de papieren formulieren.
 De foto's worden genomen vanuit het zuiden kijkend naar het noorden.
 De camera tilten in portrait oriëntatie waardoor de vegetatie maximaal in het fotokader valt.
-Neem 2 foto's per meetpunt: één overzichts foto waarbij je de plot landschappelijk kadert, en een tweede waarbij je enkel de vegetatie in de plot fotografeert (zie Fig. 4)
+Neem 2 foto's per meetpunt: één overzichts foto waarbij je de plot landschappelijk kadert, en een tweede waarbij je enkel de vegetatie in de plot fotografeert (zie Figuur \@ref(fig:fotovoorbeeld)).
 
-![Figuur 4: Voorbeeld van een foto van het proefvlak in het landschap (links) en ingezoomd op het proefvlak zelf (rechts)](C:/DATA/R/protocolsource/images/fotoproefvlak.png)
+(ref:fotovoorbeeld) Voorbeeld van een foto van het proefvlak in het landschap (links) en ingezoomd op het proefvlak zelf (rechts)
+
+```{r fotovoorbeeld, fig.cap="(ref:fotovoorbeeld)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "fotoproefvlak.png"))
+```
 
 ## STAP 4: Bepalen of een meetpunt tot de doelpopulatie behoort of niet
 
