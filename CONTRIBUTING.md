@@ -81,10 +81,11 @@ The workflow is as follows for a **new** protocol:
 
 4.  after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
 
-    1.  stage the files generated from the template in the git pane
-    2.  press commit button and add a commit message
-    3.  press the commit button
-    4.  press the push button (or postpone pushing until several commits have been made)
+    1.  make sure the protocol branch is up to date with the main branch: open the Git shell and type `git pull origin main`
+    2.  stage the files generated from the template in the git pane
+    3.  press commit button and add a commit message
+    4.  press the commit button
+    5.  press the push button (or postpone pushing until several commits have been made)
 
 5.  the subject-matter specialist visits [github protocolsource](https://github.com/inbo/protocolsource) and starts a Pull Request (PR)
 
