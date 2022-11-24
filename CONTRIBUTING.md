@@ -93,6 +93,8 @@ multiple lines
 
 So, if you see such _odd_ changes upon saving a markdown document in `source` mode, or after using the `visual` mode: don't panic!
 There is no need to try undoing these changes, they will not change how the protocol is rendered (if it does, you discovered a bug and should write an issue for the RStudio developers).
+The `visual` mode has some nice features to work with [citations in Rmarkdown](https://inbo.github.io/tutorials/tutorials/r_citations_markdown/), especially if you use Zotero as a reference manager.
+These features are (currently) not available in `source` mode.
 
 Another project-level setting that we use is `sentence wrapping`.
 This means that each sentence will start at a new line when you save your markdown document.
