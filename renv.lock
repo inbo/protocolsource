@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.0",
+    "Version": "4.2.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -1174,15 +1174,15 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.4.0",
+      "Version": "0.4.3",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "main",
-      "RemoteSha": "68d42c5c957b8571c122e160e39ff00a6a88f9ee",
-      "Hash": "1afe7c601e691628cb9866ab4c083de7",
+      "RemoteSha": "9efd0cd221c79fa6791f7aee62d3e304d140b140",
+      "Hash": "a40fd9be148fb0ec76944eb472b143ab",
       "Requirements": [
         "R6",
         "assertthat",
