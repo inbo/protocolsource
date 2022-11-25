@@ -51,7 +51,7 @@ RStudio has both a `source` mode and a [`visual` mode](https://rstudio.github.io
 The `source` mode is a plain text file, whereas the `visual` mode is a WYSIWYG editor mode which will be more familiar to Microsoft-Word users.
 The RStudio project associated with the `protocolsource` repository is configured to use [`canonical visual mode markdown`](https://rstudio.github.io/visual-markdown-editing/markdown.html#canonical-mode) in source mode at project level.
 This setting ensures that the same markdown syntax is written to disc no matter if you edited the document in `source` mode or in `visual` mode.
-For instance, you could write an unordered list in markdow as follows in source mode:
+For instance, you could write an unordered list in markdown as follows in source mode:
 
 ```
 * item 1
