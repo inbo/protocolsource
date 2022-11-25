@@ -45,7 +45,7 @@ Note also that any dependency packages needed by the packages listed in the [DES
 ## `(R)markdown` syntax and learning `Rmarkdown`
 
 This repository contains the source documents of protocols.
-These source documents are written in `Rmarkdown` language, which is a combination of a simple markup language and R code written in R chunks.
+These source documents are written in `Rmarkdown` language, which is a combination of a simple markup language and code written in chunks.
 
 RStudio has both a `source` mode and a [`visual` mode](https://rstudio.github.io/visual-markdown-editing/) to work with these kind of documents.
 The `source` mode is a plain text file, whereas the `visual` mode is a WYSIWYG editor mode which will be more familiar to Microsoft-Word users.
