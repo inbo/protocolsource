@@ -158,17 +158,19 @@ This website will host all approved and published versions of all protocols.
 
 The workflow is as follows for a **new** protocol:
 
-1.  make sure your local clone of the remote repository is up to date:
+1.  Make sure your local clone of the remote repository is up to date:
 
     1.  with the main branch checked out, press the pull button in the RStudio Git pane
 
-2.  a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
+2.  A subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
 
-3.  the generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
+3.  The generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
 
     1.  in the Console type `checklist::new_branch(branch = "<protocol-code>")` (replace <protocol-code> by the generated protocol-code, e.g. `sfp-406-nl`)
 
-4.  after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
+4.  The template files contain instructions which explain what information needs to be added in that particular section. These instructions are placed inside html-chunks as html comments and will not be visible in the rendered version of the protocol. Add your text outside of these html-chunks. 
+
+5.  After some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
 
     1.  make sure the protocol branch is up to date with the main branch: open the Git shell and type `git pull origin main`
     2.  stage the files generated from the template in the git pane
@@ -176,17 +178,17 @@ The workflow is as follows for a **new** protocol:
     4.  press the commit button
     5.  press the push button (or postpone pushing until several commits have been made)
 
-5.  the subject-matter specialist visits [github protocolsource](https://github.com/inbo/protocolsource) and starts a Pull Request (PR)
+6.  The subject-matter specialist visits [github protocolsource](https://github.com/inbo/protocolsource) and starts a Pull Request (PR)
 
     ![](src/management/pr-on-github-1.png)
 
     ![](src/management/pr-on-github-2.png)
 
-6.  Mark the PR as a draft
+7.  Mark the PR as a draft
 
     ![](src/management/pr-on-github-3.png)
 
-7.  Continue work on the protocol
+8.  Continue work on the protocol
 
     1.  See [What to do in case of parameterized protocols?](#parameterized)
         for specific guidelines about parameterizing parts of a protocol
@@ -207,7 +209,7 @@ The workflow is as follows for a **new** protocol:
 
     7.  stage, commit, push changes
 
-8.  When finished, go to your draft pull request and press 'ready for review' 
+9.  When finished, go to your draft pull request and press 'ready for review' 
 
    1. Wait for the continuous integration checks to finish and see if the checks succeeded.
    These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`, and update the version number if needed.
@@ -225,18 +227,18 @@ The workflow is as follows for a **new** protocol:
 
     ![](src/management/pr-on-github-4.png)
 
-9.  Reviewers can follow [these guidelines](REVIEWING.md)
+10.  Reviewers can follow [these guidelines](REVIEWING.md)
 
-10. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
+11. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
 
-11. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
+12. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 
-12. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
+13. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
 For an **update** of an existing protocol all steps are the same, except for:
 
 -   you don't need `protocolhelper::create_protocol()`
--   the creation of the new branch can (re-)use the protocol-code of the existing protocol
+-   the creation of the new branch must (re-)use the protocol-code of the existing protocol
 -   after review is finished, the protocol-specific `NEWS.md` should be updated to document the substantive changes between the updated version of the previous version.
 
 For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
