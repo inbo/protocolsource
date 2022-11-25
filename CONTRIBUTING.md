@@ -38,14 +38,8 @@ See also [collaborating with renv](https://rstudio.github.io/renv/articles/colla
 The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library.
 After this has completed, you can use `renv::restore()` to restore the project library locally on your machine.
 
-In case you need another package than the ones installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, proceed as follows:
-
-- `renv::install("nameofthepackage")`
-- add the name of the package to the [DESCRIPTION file](DESCRIPTION)
-- `renv::snapshot()`: type 'y' in the console when asked to update [the lock file](renv.lock)
-- commit the changed [lock file](renv.lock)
-
-but please consider this carefully and ask one of the admins if in doubt.
+In case you need another package than the ones installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, ask one of the admins to do this for you.
+It is not allowed to do this in a [protocol-specific branch](#branching).
 Note also that any dependency packages needed by the packages listed in the [DESCRIPTION file](DESCRIPTION) are also available in the project and they are listed in [the lock file](renv.lock).
 
 ## `(R)markdown` syntax and learning `Rmarkdown`
@@ -141,7 +135,7 @@ Tips & Tricks:
 
 -   In case your protocol contains video material, do not store the video in the `media` folder, but publish it on the INBO vimeo channel and embed them following the instructions given [here](https://bookdown.org/yihui/rmarkdown/learnr-videos.html).
 
-## Branching model
+## <a name="branching"></a>Branching model
 
 ![](src/management/protocols-gitflow-model.png)
 
