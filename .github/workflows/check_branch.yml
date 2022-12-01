@@ -20,3 +20,7 @@ jobs:
         uses: inbo/actions/protocol_check@master
         with:
           PAT: ${{ secrets.PAT }}
+      - name: Update protocol
+        uses: inbo/actions/protocol_update@master
+        with:
+          PAT: ${{ secrets.PAT }}
