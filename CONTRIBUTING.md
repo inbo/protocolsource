@@ -156,7 +156,7 @@ This website will host all approved and published versions of all protocols.
 
 ## Workflow
 
-The workflow is as follows for a **new** protocol:
+### <a name="workflow-new"></a>Adding a **new** protocol
 
 1.  Make sure your local clone of the remote repository is up to date:
 
@@ -235,13 +235,15 @@ The workflow is as follows for a **new** protocol:
 
 13. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
-For an **update** of an existing protocol all steps are the same, except for:
+### Updating an existing protocol
 
--   you don't need `protocolhelper::create_protocol()`
--   the creation of the new branch must (re-)use the protocol-code of the existing protocol
--   after review is finished, the protocol-specific `NEWS.md` should be updated to document the substantive changes between the updated version of the previous version.
+-   use `protocolhelper::update_protocol(<protocol-code>)` and (re-)use the <protocol-code> of the protocol that needs an update
+-   after this step you can proceed from step 5 of [the workflow for a new protocol](#workflow-new) 
+-   don't forget to document the substantive changes between the updated version and the previous version in the protocol-specific `NEWS.md`
 
-For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
+### Converting a pre-existing protocol written in `docx` format
+
+For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to [create a new protocol](#workflow-new), except in the second step:
 
 -   a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
 -   the old protocol-code from the pre-existing `docx` protocol will likely not correspond with the new protocol-code. Mention this in the protocol-specific `NEWS.md` file. Use the new protocol-code to create a new branch with `checklist::new_branch()`
