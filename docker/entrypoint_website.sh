@@ -33,6 +33,11 @@ echo 'tag message general:' $TAGMESSAGE_GENERAL
 echo 'tagname specific:' $TAGNAME_SPECIFIC
 echo 'tag message specific:' $TAGMESSAGE_SPECIFIC
 
+echo 'Getting previously published protocols\n'
+git clone --quiet --depth=1 --single-branch --branch=main https://$INPUT_PAT@github.com/$GITHUB_REPOSITORY_DEST /destiny
+mkdir /render/publish/
+cp -R /destiny/. /render/publish/.
+
 echo 'Rendering the Rmarkdown files...\n'
 Rscript -e "protocolhelper:::render_release()"
 if [ $? -ne 0 ]; then
@@ -43,8 +48,6 @@ else
 fi
 
 echo 'Publishing the rendered files...\n'
-git clone --quiet --depth=1 --single-branch --branch=main https://$INPUT_PAT@github.com/$GITHUB_REPOSITORY_DEST /destiny
-
 cp -R /render/publish/. /destiny/.
 cd /destiny
 ls -a
