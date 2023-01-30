@@ -17,10 +17,10 @@ jobs:
     name: "check protocol"
     steps:
       - name: Check protocol
-        uses: inbo/actions/protocol_check@master
+        uses: inbo/actions/protocol_check@main
         with:
           PAT: ${{ secrets.PAT }}
       - name: Update protocol
-        uses: inbo/actions/protocol_update@master
+        uses: inbo/actions/protocol_update@main
         with:
           PAT: ${{ secrets.PAT }}

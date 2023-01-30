@@ -21,7 +21,7 @@ jobs:
           || startsWith(env.RECENT_MERGED_BRANCH_NAME, 'sop-')
           || startsWith(env.RECENT_MERGED_BRANCH_NAME, 'sap-')
           || startsWith(env.RECENT_MERGED_BRANCH_NAME, 'spp-'))
-        uses: inbo/actions/protocol_website@master
+        uses: inbo/actions/protocol_website@main
         with:
           PAT: ${{ secrets.PAT }}
           GITHUB_REPOSITORY_DEST: "inbo/protocols"
