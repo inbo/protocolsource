@@ -5,4 +5,4 @@ services:
     build:
       context: .
     entrypoint: /bin/bash
-    command: /protocolsource/test_docker.sh
+    command: /test_docker.sh
