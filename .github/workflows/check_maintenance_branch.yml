@@ -1,0 +1,39 @@
+name: Check branch without protocol
+
+on:
+  pull_request:
+    types: [synchronize, opened, reopened, edited]
+    branches:
+     - main
+
+jobs:
+  build:
+    if: ${{!startsWith(github.head_ref, 'sfp-')
+      && !startsWith(github.head_ref, 'sip-')
+      && !startsWith(github.head_ref, 'sop-')
+      && !startsWith(github.head_ref, 'sap-')
+      && !startsWith(github.head_ref, 'spp-')}}
+    runs-on: ubuntu-latest
+    name: "check branch without protocol"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Check where changes are made
+        run: |
+          git switch $GITHUB_HEAD_REF
+          git checkout main
+          git checkout $GITHUB_HEAD_REF
+          if [ -n "$(git diff --name-only main | grep '^source/')" ]; then
+            echo 'Branch '$GITHUB_HEAD_REF' contains changes in protocols. Please make a branch named after the protocol_code to add changes to a protocol. Protocol specific files:' $(git diff --name-only main | grep '^source/')
+            exit 1
+          fi
+          if [ -n "$(git diff --name-only main | grep '^NEWS\.md$')" ]; then
+            echo 'Branch '$GITHUB_HEAD_REF' contains changes in NEWS.md, while it is only allowed to change this file when adding a new protocol.'
+            exit 1
+          fi
+          if [ -n "$(git diff --name-only main | grep '^\.zenodo\.json$')" ]; then
+            echo 'Branch '$GITHUB_HEAD_REF' contains changes in NEWS.md, while it is only allowed to change this file when adding a new protocol.'
+            exit 1
+          fi
