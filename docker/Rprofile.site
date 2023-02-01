@@ -1,0 +1,24 @@
+options(
+  papersize = "a4",
+  tab.width = 2,
+  width = 80,
+  help_type = "html",
+  keep.source.pkgs = TRUE,
+  xpinch = 300,
+  ypinch = 300,
+  yaml.eval.expr = TRUE,
+  repos = c(
+    CRAN = "https://cloud.r-project.org/",
+    INLA = "https://inla.r-inla-download.org/R/stable",
+    inbo = "https://inbo.r-universe.dev"
+  ),
+  install.packages.check.source = "yes",
+  install.packages.compile.from.source = "always",
+  inbo_required = c("checklist", "fortunes", "remotes", "INBOmd", "INBOtheme")
+)
+
+if ("checklist" %in% rownames(utils::installed.packages())) {
+  options(
+    lintr.linter_file = system.file("lintr", package = "checklist")
+  )
+}
