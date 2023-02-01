@@ -1,11 +1,10 @@
 ---
+title: Contributing guidelines
 editor_options:
   markdown:
     mode: gfm
     canonical: false
 ---
-
-# Contributing guidelines
 
 ## Welcome!
 
@@ -13,70 +12,183 @@ Thank you for considering to contribute to this repository!
 
 ## Setup your local repository
 
+Are you a first-time GitHub user?
+Make sure you can authenticate to GitHub by following [these guidelines](https://inbo.github.io/tutorials/tutorials/git_authentication/).
+
 Installing the repository on your local drive:
 
--   go to the [protocols repository](https://github.com/inbo/protocols/) and press the `Clone` button
--   copy the URL to the clipboard
+-   go to the [protocolsource repository](https://github.com/inbo/protocolsource/) and press the green `Code` button
+-   select HTTPS and copy the URL to the clipboard
 -   start RStudio and select `File -> New project -> Version Control -> Git` -\> paste the URL
--   `protocols` will be automatically suggested as project directory name (keep it that way)
--   In the field `Create project as subdirectory of` select a folder on your local disc (do *not* use a folder that google drive file stream synchronizes). For instance `C:/R/repositories`.
--   Click OK
+-   `protocolsource` will be automatically suggested as project directory name (keep it that way)
+-   In the field `Create project as subdirectory of` select a folder on your local disc. For instance `C:/R/repositories`.
+-   Click "Create project"
 
 You will now have a local clone of the remote repository as an RStudio project.
 The `.git` directory is used by the version control system (do not make changes in this directory).
 
-The same directories and files which can be seen on the [remote](https://github.com/inbo/protocols) will be copied to your local drive.
-Whenever you want to work in the project, you need to open `protocols.Rproj` file to start the RStudio project.
+The same directories and files which can be seen on the [remote](https://github.com/inbo/protocolsource) will be copied to your local drive.
+Whenever you want to work in the project, you need to open `protocolsource.Rproj` file to start the RStudio project.
 
-## Branching model
+## `renv` R package management
+
+This RStudio project uses [renv](https://rstudio.github.io/renv/articles/renv.html) to manage R package dependencies.
+This ensures that different users have the same versions of packages installed.
+See also [collaborating with renv](https://rstudio.github.io/renv/articles/collaborating.html).
+The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library.
+After this has completed, you can use `renv::restore()` to restore the project library locally on your machine.
+
+In case you need another package than the ones installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, ask one of the admins to do this for you.
+It is not allowed to do this in a [protocol-specific branch](#branching).
+Note also that any dependency packages needed by the packages listed in the [DESCRIPTION file](DESCRIPTION) are also available in the project and they are listed in [the lock file](renv.lock).
+
+## `(R)markdown` syntax and learning `Rmarkdown`
+
+This repository contains the source documents of protocols.
+These source documents are written in `Rmarkdown` language, which is a combination of a simple markup language and code written in chunks.
+
+RStudio has both a `source` mode and a [`visual` mode](https://rstudio.github.io/visual-markdown-editing/) to work with these kind of documents.
+The `source` mode is a plain text file, whereas the `visual` mode is a WYSIWYG editor mode which will be more familiar to Microsoft-Word users.
+The RStudio project associated with the `protocolsource` repository is configured to use [`canonical visual mode markdown`](https://rstudio.github.io/visual-markdown-editing/markdown.html#canonical-mode) in source mode at project level.
+This setting ensures that the same markdown syntax is written to disc no matter if you edited the document in `source` mode or in `visual` mode.
+For instance, you could write an unordered list in markdown as follows in source mode:
+
+```
+* item 1
+* item 2
+```
+
+When you press save - due to the canonical mode setting - this will be automatically changed to:
+
+```
+-   item 1
+-   item 2
+```
+
+Similarly, html comments that span multiple lines will be wrapped in a html block:
+
+```
+<!--
+A html comment spanning
+multiple lines
+-->
+```
+
+becomes:
+
+````
+```{=html}
+<!--
+A html comment spanning
+multiple lines
+-->
+```
+````
+
+So, if you see such _odd_ changes upon saving a markdown document in `source` mode, or after using the `visual` mode: don't panic!
+There is no need to try undoing these changes, they will not change how the protocol is rendered (if it does, you discovered a bug and should write an issue for the RStudio developers).
+The `visual` mode has some nice features to work with [citations in Rmarkdown](https://inbo.github.io/tutorials/tutorials/r_citations_markdown/), especially if you use Zotero as a reference manager.
+These features are (currently) not available in `source` mode.
+
+Another project-level setting that we use is `sentence wrapping`.
+This means that each sentence will start at a new line when you save your markdown document.
+To start a new paragraph, a blank line is needed.
+
+Some useful resources for self-learning of `Rmarkdown`:
+
+-   [rmarkdown book](https://bookdown.org/yihui/rmarkdown/)
+-   [bookdown book](https://bookdown.org/yihui/bookdown/)
+-   [tutorial rmarkdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
+
+In RStudio:
+
+-   `Help -> Markdown Quick Reference`
+-   `Help -> Cheatsheets -> R markdown cheatsheet`
+
+Tips & Tricks:
+
+-   `ctrl + alt + i`: insert R chunk
+
+-   select lines of R code in an R chunk followed by `ctrl-alt-i` puts the selected lines in a new R chunk
+
+-   chunk options: <https://yihui.name/knitr/options/>
+
+-   chunk names: are optional but recommended especially if an output is generated by the chunk, do not use spaces or \_ in chunk names (e.g. \`\`\`r name-of-chunk)
+
+-   use 1 chunk for 1 (ggplot) figure or 1 table or other type of output that is printed
+
+-   To refer to files, each template already contains an R object in the `index.Rmd` file that refers to the protocol path:
+    ```r
+    library(protocolhelper)
+    path_to_protocol <- get_path_to_protocol(rmarkdown::metadata$protocol_code)
+    ```
+    You can use this in combination with `file.path()` to refer to files (e.g. `r file.path(path_to_protocol, "media", "image1.png"`)
+
+-   Use `knitr::include_graphics()` to insert `png`, `jpg`, ... files that you put into the `media` folder of the protocol
+
+-   If you want to make cross-reference to tables or figures use the following syntax.
+    This is explained in [the Components chapter of the bookdown book](https://bookdown.org/yihui/bookdown/components.html#components):
+    
+    -   Figure `\@ref(fig:chunk_name)`
+    
+    -   Table `\@ref(tab:chunk_name)`
+
+-   In case your protocol contains video material, do not store the video in the `media` folder, but publish it on the INBO vimeo channel and embed them following the instructions given [here](https://bookdown.org/yihui/rmarkdown/learnr-videos.html).
+
+## <a name="branching"></a>Branching model
 
 ![](src/management/protocols-gitflow-model.png)
 
 We use a simple branching model.
-The master branch is protected and can only receive commits from reviewed pull requests.
-Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the master branch.
+The main branch is protected and can only receive commits from reviewed pull requests.
+Development of a protocol (see [Workflow](#workflow)) is done in a protocol-specific branch that branches off the main branch.
+The name of the protocol-specific branch should be equal to the protocol-code.
 
 Protocols can depend on other protocols (protocol dependencies) only if these dependency protocols have been approved (and are published).
 Circular dependencies are not allowed.
 
-Whenever a pull request is reviewed and finalized, a repo-admin will merge the branch to the master and add general and specific tags (see [release model](README.md#release-model)).
+Whenever a pull request is reviewed, approved and finalized, a repo-admin will merge the branch to the main and add general and specific tags (see [release model](README.md#release-model)).
 Note that the merge commit to which these tags are attached represents an entire snapshot of the complete repository - not only the part of the repository that refers to the specific protocol.
 
-Each time a merge commit is made to the master branch of the `protocols` repo, a 'mirror read-only' repository (protocols-website) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
-The resulting website is hosted at **TO BE ADDED**. This website will host all approved and published versions of all protocols.
+Each time a merge commit is made to the main branch of the `protocolsource` repo, a 'mirror read-only' repository (`protocols` repo) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
+The resulting website is hosted at https://inbo.github.io/protocols/.
+This website will host all approved and published versions of all protocols.
 
 ## Workflow
 
-The workflow is as follows for a **new** protocol:
+### <a name="workflow-new"></a>Adding a **new** protocol
 
-1.  make sure your local clone of the remote repository is up to date:
+1.  Make sure your local clone of the remote repository is up to date:
 
-    1.  with the master branch checked out, press the pull button in the Git pane
+    1.  with the main branch checked out, press the pull button in the RStudio Git pane
 
-2.  a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
+2.  A subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to start a new [protocol from a template](#from-a-new-template)
 
-3.  the generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
+3.  The generated protocol-code (e.g. `sfp-406-nl`) is noted and a new branch named after the protocol-code is created:
 
-    1.  in the Git pane press the icon to create a new branch
+    1.  in the Console type `checklist::new_branch(branch = "<protocol-code>")` (replace <protocol-code> by the generated protocol-code, e.g. `sfp-406-nl`)
 
-4.  after some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
+4.  The template files contain instructions which explain what information needs to be added in that particular section. These instructions are placed inside html-chunks as html comments and will not be visible in the rendered version of the protocol. Add your text outside of these html-chunks. 
 
-    1.  stage the files generated from the template in the git pane
-    2.  press commit button and add a commit message
-    3.  press the commit button
-    4.  press the push button (or postpone pushing until several commits have been made)
+5.  After some work on the protocol, a first commit is made, i.e. the (developing) protocol state is stored by the version control system:
 
-5.  the subject-matter specialist visits [github protocols](https://github.com/inbo/protocols) and starts a Pull Request (PR)
+    1.  make sure the protocol branch is up to date with the main branch: open the Git shell and type `git pull origin main`
+    2.  stage the files generated from the template in the git pane
+    3.  press commit button and add a commit message
+    4.  press the commit button
+    5.  press the push button (or postpone pushing until several commits have been made)
+
+6.  The subject-matter specialist visits [github protocolsource](https://github.com/inbo/protocolsource) and starts a Pull Request (PR)
 
     ![](src/management/pr-on-github-1.png)
 
     ![](src/management/pr-on-github-2.png)
 
-6.  Mark the PR as a draft
+7.  Mark the PR as a draft
 
     ![](src/management/pr-on-github-3.png)
 
-7.  Continue work on the protocol
+8.  Continue work on the protocol
 
     1.  See [What to do in case of parameterized protocols?](#parameterized)
         for specific guidelines about parameterizing parts of a protocol
@@ -93,36 +205,50 @@ The workflow is as follows for a **new** protocol:
         2.  alternatively, download the rendered version: see [these instructions](REVIEWING.md)
 
     5.  add text, media, ... to the Rmarkdown files
-
     6.  save your changes
 
     7.  stage, commit, push changes
 
-8.  When finished, go to your draft pull request and press 'ready for review' and add reviewers.
+9.  When finished, go to your draft pull request and press 'ready for review' 
+
+   1. Wait for the continuous integration checks to finish and see if the checks succeeded.
+   These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`, and update the version number if needed.
+   In case there are problems with the YAML front matter of your `index.Rmd` file or problems with the structure of the protocol not conforming to the protocol templates, these problems will be listed and can be consulted.
+   
+       1.  Address the problems detected by `protocolhelper::check_frontmatter` or `protocolhelper::check_structure`. You can see the list of problems by clicking on the check online (at the bottom of the pull request webpage). Alternatively, you can run these functions locally and see the list of problems printed in your console.
+        Note that during this automatic run, a commit to update the version number may be automatically pushed to the remote.
+        If this commit is added, press pull in the RStudio Git Pane to add it to your local clone
+       
+       1.  iterate (stage, commit, push changes) until the functions detect no problems
+   
+   1. Add reviewers.
     At least one repo admin and one other subject-matter specialist must review the protocol.
     The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
     ![](src/management/pr-on-github-4.png)
 
-9.  Reviewers can follow [these guidelines](REVIEWING.md)
+10.  Reviewers can follow [these guidelines](REVIEWING.md)
 
-10. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
+11. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
 
-11. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
+12. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
 
-12. The GitHub protocols repo is setup in such a way that branches that are merged in the master branch will be deleted automatically.
+13. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
-For an **update** of an existing protocol all steps are the same, except for:
+### Updating an existing protocol
 
--   you don't need `protocolhelper::create_protocol()`
--   the creation of the new branch can (re-)use the protocol-code of the existing protocol
--   after review is finished, the protocol-specific `NEWS.md` should be updated to document the substantive changes between the updated version of the previous version.
+-   use `protocolhelper::update_protocol(<protocol-code>)` and (re-)use the <protocol-code> of the protocol that needs an update
+-   after this step you can proceed from step 5 of [the workflow for a new protocol](#workflow-new) 
+-   don't forget to document the substantive changes between the updated version and the previous version in the protocol-specific `NEWS.md`
 
-For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to create a new protocol, except in the second step:
+### Converting a pre-existing protocol written in `docx` format
+
+For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to [create a new protocol](#workflow-new), except in the second step:
 
 -   a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
--   use the protocol-code from the pre-existing `docx` protocol to create a new branch
--   If the section titles in the `docx` version of the protocol comply with section titles in the templates used by the `protocolhelper` package, then you will normally not see Rmarkdown file names starting with the same number. Otherwise, the function will have written both empty template Rmarkdown files as well as Rmarkdown files resulting from conversion of the `docx` file. (Note that `NEWS.md` and `index.Rmd` are always created from the `protocolhelper` templates.) In that case, you need to make changes (renaming files, deleting redundant files) so that Rmarkdown file names comply with the [template Rmarkdown files](https://github.com/inbo/protocolhelper/tree/master/inst/rmarkdown/templates).
+-   the old protocol-code from the pre-existing `docx` protocol will likely not correspond with the new protocol-code. Mention this in the protocol-specific `NEWS.md` file. Use the new protocol-code to create a new branch with `checklist::new_branch()`
+-   If the section titles in the `docx` version of the protocol comply with section titles in the templates used by the `protocolhelper` package, then you will normally not see Rmarkdown file names starting with the same number. Otherwise, the function will have written both empty template Rmarkdown files as well as Rmarkdown files resulting from conversion of the `docx` file. (Note that `NEWS.md` and `index.Rmd` are always created from the `protocolhelper` templates.) In that case, you need to make changes (renaming files, deleting redundant files) so that Rmarkdown file names comply with the [template Rmarkdown files](https://github.com/inbo/protocolhelper/tree/main/inst/rmarkdown/templates).
+    - if this is the case, it will also be detected by `protocolhelper::check_structure()`. So it is advised to use this function to detect these and other problems.
 -   continue the steps outlined for a new protocol.
 
 ## Starting a new protocol with the aid of protocolhelper functions
@@ -136,9 +262,8 @@ This will allow you to check the resulting output locally.
 ```r
 library(protocolhelper)
 create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
-           subtitle = "", 
            short_title = "vegopname terrest",
-           authors = "Els De Bie",
+           authors = "De Bie, Els",
            orcids = "0000-0000-1234-5678",
            date = "2016-07-19", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
@@ -159,8 +284,8 @@ library(protocolhelper)
 create_sfp(title = "titel van het protocol",
            subtitle = "optionele subtitel", 
            short_title = "korte titel",
-           authors = "Voornaam Naam",
-           orcids = "0000-0000-1234-5678",
+           authors = c("Achternaam1, Voornaam1", "Achternaam2, voornaam2"),
+           orcids = c("0000-0000-1234-5678", "0000-0000-1234-8765"),
            date = "`r Sys.Date()`", 
            reviewers = "Voornaam Naam, ...", 
            file_manager = "Voornaam Naam", 
@@ -176,16 +301,14 @@ Alternatively, for a project-specific protocol:
 ```r
 library(protocolhelper)
 create_spp(title = "Bodemstalen nemen", 
-           subtitle = "", 
            short_title = "bodemstalen", 
-           authors = c("Jon Beton", "Jef Plastiek"),
-           orcids = c(NA, "0000-0000-8765-4321"),
+           authors = c("Beton, Jon", "Plastiek, Jef"),
+           orcids = c("0000-0000-1234-5678", "0000-0000-8765-4321"),
            date = Sys.Date(), 
-           reviewers = c("reviewer1, reviewer2"), 
+           reviewers = "reviewer1, reviewer2", 
            file_manager = "manager",
            project_name = "mne",
            language = "nl",
-           version_number = "2021.01",
            render = FALSE)
 ```
 
@@ -293,47 +416,6 @@ Note that these must be considered as two different protocols (with a different 
 To indicate that a specific version of `sfp-001-en` is a literal translation of a version of `sfp-001-nl`, the `NEWS.md` file of `sfp-001-en` should mention this, in a version-specific way.
 Different language variants of the 'same' protocol should be added to the repo in a separate pull request.
 Note that in subsequent versions of - say - `sfp-001-en` it is allowed that its contents diverge from `sfp-001-nl` of which it was a literal translation.
-
-## Learning Rmarkdown
-
-Some useful resources for self-learning of **Rmarkdown**:
-
--   [rmarkdown book](https://bookdown.org/yihui/rmarkdown/)
--   [bookdown book](https://bookdown.org/yihui/bookdown/)
--   [tutorial rmarkdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
-
-In RStudio:
-
--   `File -> New -> R markdown` automatically gives a template
--   `Help -> Markdown Quick Reference`
--   `Help -> Cheatsheets -> R markdown cheatsheet`
-
-Tips & Tricks:
-
--   `ctrl + alt + i`: insert R chunk
-
--   select lines of R code in an R chunk followed by `ctrl-alt-i` puts the selected lines in a new R chunk
-
--   chunk options: <https://yihui.name/knitr/options/>
-
--   chunk names: are optional but recommended especially if an output is generated by the chunk, do not use spaces or \_ in chunk names (e.g. \`\`\`r name-of-chunk)
-
--   use 1 chunk for 1 (ggplot) figure or 1 table or other type of output that is printed
-
--   To refer to files use the `rprojroot` package.
-    Here is an example to refer to the project folder:
-
-    ```r
-    library(rprojroot)
-    path_to_project <- find_root_file(
-      "src/project",
-      criterion = is_git_root
-      )
-    ```
-
--   Use `knitr::include_graphics()` to insert `png`, `jpg`, ... files that you put into the `media` folder of the protocol
-
--   In case your protocol contains video material, do not store the video in the `media` folder, but publish it on the INBO vimeo channel and embed them following the instructions given [here](https://bookdown.org/yihui/rmarkdown/learnr-videos.html).
 
 ## Other ways of contributing
 

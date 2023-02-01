@@ -1,0 +1,31 @@
+name: On push to main add a tag to the commit if docker or renv stuff changed
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Tag in case renv or docker files changed
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+
+      - name: Get changed files
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v35
+        with:
+          files: |
+            Dockerfile
+            docker
+            renv.lock
+
+      - name: Create docker git tag if any of the files changed
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: |
+          git config --global user.email "info@inbo.be"
+          git config --global user.name "inbo"
+          git tag -a docker-${{ github.sha }} -m "new docker image"
+          git push --follow-tags
