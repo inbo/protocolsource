@@ -17,4 +17,6 @@ Opsomming van de apparatuur die nodig is en verwijzingen naar de SIP’s (Standa
 Opsomming van gebruikte materialen. Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen, materiaal, … vb. vermeld niet staalnamepotje, maar wel vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit PE, met afsluitbare deksel uit PP.
 -->
 ```
+## Reagentia en oplossingen (indien van toepassing)
 
+Niet van toepassing.

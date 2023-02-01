@@ -1,6 +1,6 @@
-book_filename: sfp-001-nl_vervanging-terrest.Rmd
-output_dir: ../../../../docs/thematic/0_generic/sfp-001-nl_vervanging-terrest
-rmd_files: [index.Rmd,NEWS.md,01_afhankelijkheden.Rmd,02_onderwerp.Rmd,03_beperkingen.Rmd,04_principe.Rmd,05_vaardigheden.Rmd,06_materialen.Rmd,07_stappenplan.Rmd,08_kwaliteitszorg.Rmd,09_veiligheid.Rmd,10_samenvatting.Rmd,11_referenties.Rmd,12_appendices.Rmd,13_subprotocols.Rmd]
+book_filename: sfp_001_nl_vervanging_terrest.Rmd
+output_dir: ../../../../docs/sfp/0_generic/sfp_001_nl_vervanging_terrest
+rmd_files: [index.Rmd,NEWS.md,01_afhankelijkheden.Rmd,02_onderwerp.Rmd,03_beperkingen.Rmd,04_principe.Rmd,05_competenties.Rmd,06_benodigdheden.Rmd,07_werkwijze.Rmd,08_kwaliteitszorg.Rmd,09_veiligheid.Rmd,10_samenvatting.Rmd,11_referenties.Rmd,12_appendices.Rmd,13_subprotocols.Rmd]
 delete_merged_file: true
 language:
   label:

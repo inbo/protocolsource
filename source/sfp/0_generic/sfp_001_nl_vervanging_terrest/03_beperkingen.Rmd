@@ -1,4 +1,4 @@
-## Beperkingen tot het protocol
+# Beperkingen van het protocol
 
 ```{=html}
 <!--
