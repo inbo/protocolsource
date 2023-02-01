@@ -10,4 +10,4 @@ Vermeld hier ook mogelijke interferenties, knelpunten, ...
 De bemonstering moet worden uitgevoerd in een geschikte peilbuis in PVC of HDPE, afhankelijk van de aanwezige stoffen in het grondwater en de te analyseren chemische variabelen
 
 De procedure is niet geschikt voor het bemonsteren van grondwater met een zeer hoge saliniteit.
-<!-- Drempelwaarde nog toe te voegen. Overleg met Milklim en Labo (> xxxx µS/cm). Mogelijk ook drempelwaarden toevoegen voor andere elementen -->
+<!-- Drempelwaarde nog toe te voegen. Overleg met Milklim en Labo (> xxxx $\mu$S/cm). Mogelijk ook drempelwaarden toevoegen voor andere elementen -->

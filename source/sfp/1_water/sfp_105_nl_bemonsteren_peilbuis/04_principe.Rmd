@@ -16,7 +16,7 @@ Het 'vers' grondwater wordt opgepompt.
 De zuurtegraad (pH) en geleidbaarheid (EC) worden op het terrein gemeten en de recipiënten voor chemische analyse in het laboratorium worden gevuld.
 Het aantal deelmonsters is afhankelijk van de chemische variabelen die zullen worden gemeten.
 De richtlijnen voor het nemen en van deelmonsters en het conserveren van de deelmonsters zijn terug te vinden in [SOP-005](https://sites.google.com/inbo.be/veldprotocollen/standaard-veld-procedures-svp/0-generiek).
-Deelmonsters voor het bepalen van metalen worden direct na de monstername gefiltreerd (0,20 µm) en aangezuurd met salpeterzuur (HNO3) tot een pH \< 2 om neerslagvorming van zouten te vermijden..
+Deelmonsters voor het bepalen van metalen worden direct na de monstername gefiltreerd (0,20 $\mu$m) en aangezuurd met salpeterzuur (HNO3) tot een pH \< 2 om neerslagvorming van zouten te vermijden..
 
 **Gesuspendeerd materiaal**: het bemonsterde grondwater bevat nagenoeg altijd sedimenten in suspensie.
 Vaak zijn ze niet zichtbaar voor het blote oog.

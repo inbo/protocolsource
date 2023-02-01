@@ -68,7 +68,7 @@ De veldmeter wordt door het analytisch laboratorium gekalibreerd geleverd, maar 
 
 -   Controleer de pH-elektrode met bufferoplossing van pH=5
 
--   Controleer de EC-elektrode met een oplossing van 1413 µS/cm
+-   Controleer de EC-elektrode met een oplossing van 1413 $\mu$S/cm
 
 De waarden waarbinnen de controle moet vallen staan vermeld op het veldformulier.
 Indien de controle niet wordt aanvaard, dan moeten corrigerende maatregelen genomen worden.
@@ -84,7 +84,7 @@ Bij een iets verouderde pH- elektrode bestaat de kans dat deze KCl lekt waardoor
 -   Bepalen van de geleidbaarheid: de elektrode wordt in het meetrecipiënt gebracht zodanig dat de geleidbaarheidscel volledig ondergedompeld is in de meetvloeistof.
     Onder licht roeren met de elektrode, wordt de geleidbaarheid afgelezen indien het meetsignaal stabiel is.
     Een stabiel meetsignaal wordt bekomen met de AR functietoets.
-    De geleidbaarheid wordt afgelezen in µS/cm of mS/cm (opgepast!) en genoteerd op het veldformulier.
+    De geleidbaarheid wordt afgelezen in $\mu$S/cm of mS/cm (opgepast!) en genoteerd op het veldformulier.
 
 -   Bepalen van de zuurtegraad: de elektrode wordt in het meetrecipiënt gebracht tot dat deze minstens 5 cm volledig ondergedompeld is in de meetvloeistof.
     Onder licht roeren met de elektrode, wordt de zuurtegraad afgelezen indien het meetsignaal stabiel is.
@@ -105,10 +105,10 @@ Hiervoor dienen volgende recipiënten gevuld te worden:
 -   **Fles, 250 ml rode of witte dop**: vul het flesje volledig met grondwater en sluit het daarna goed af.
     Dit deelrecipiënt wordt gebruikt voor het bepalen van de zuurtegraad (pH), geleidbaarheid (EC), alkaliniteit met de titrator en anionen & kationen met IC.
     De variabelen worden niet geconserveerd, maar worden direct gemeten in het labo bij ontvangst van het monster.
-    In het laboratorium wordt het monster over een 0,20 µm filter gefiltreerd voor analyse.
+    In het laboratorium wordt het monster over een 0,20 $\mu$m filter gefiltreerd voor analyse.
 
--   **Falcontube, 30 ml met witte dop**: vul het flesje volledig met 0,20 µm (of 0.45 µm?) gefiltreerd grondwater en sluit het daarna goed af.
-    Het deelrecipiënt bevat van 250 µl geconcentreerd salpeterzuur (HNO~3~) voor het bewaren van de variabelen bij een pH\<2.
+-   **Falcontube, 30 ml met witte dop**: vul het flesje volledig met 0,20 $\mu$m (of 0.45 $\mu$m?) gefiltreerd grondwater en sluit het daarna goed af.
+    Het deelrecipiënt bevat van 250 $\mu$l geconcentreerd salpeterzuur (HNO~3~) voor het bewaren van de variabelen bij een pH\<2.
     Bij het openen van het recipiënt kunnen zure dampen vrijkomen en moeten de nodige veiligheidsmaatregelen in acht genomen worden (buisje niet te dicht bij de mond houden!).
     Neem een spuit van 100 ml en zuig de spuit voorzichtig vol met grondwater.
     Plaats een spuitfilter op de spuit en filter het grondwater in het deelrecipiënt.

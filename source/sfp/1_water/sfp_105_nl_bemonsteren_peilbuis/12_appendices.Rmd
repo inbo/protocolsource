@@ -14,6 +14,6 @@ O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (
 -   Meetpuntcode
 -   StaalID / LaboID
 -   pH
--   EC (μS/cm)
+-   EC ($\mu$S/cm)
 -   Opmerkingen
 -   Controlemetingen pH (start & einde)

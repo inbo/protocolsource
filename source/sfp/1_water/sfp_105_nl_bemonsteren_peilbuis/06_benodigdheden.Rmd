@@ -47,7 +47,7 @@ vb. vermeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegra
 
     -   Fles, 250 ml rode of witte dop (FL-250R of FL250W)
 
-    -   Falcontube, 30 ml met witte dop (FT-30W), aangezuurd met HNO~3~ (250µl/tube)
+    -   Falcontube, 30 ml met witte dop (FT-30W), aangezuurd met HNO~3~ (250$\mu$l/tube)
 
     -   Falcontube, 50 ml met rode dop (FT-50R)
 
@@ -55,7 +55,7 @@ vb. vermeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegra
 
 -   Spuit, 100 of 250 ml, met schroefdraad voor spuitfilter
 
--   Filter, type spuitfilter, 0,20 µm of 0,45 µm
+-   Filter, type spuitfilter, 0,20 $\mu$m of 0,45 $\mu$m
 
 -   Gedemineraliseerd water
 
@@ -71,4 +71,4 @@ vb: Zwavelzuur 1M: verdun zwavelzuur geconcentreerd 18 maal met ultrapuur water.
 Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -->
 ```
--   Salpeterzuur 65%, suprapur, HNO~3~: hiervan bevindt zich 250 µl in de falcontubes van 30 ml (FT-30W).
+-   Salpeterzuur 65%, suprapur, HNO~3~: hiervan bevindt zich 250 $\mu$l in de falcontubes van 30 ml (FT-30W).
