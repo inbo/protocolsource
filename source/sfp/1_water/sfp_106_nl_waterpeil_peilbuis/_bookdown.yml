@@ -1,5 +1,5 @@
-book_filename: sfp-106-nl_waterpeil-peilbuis.Rmd
-output_dir: ../../../../docs/thematic/1_water/sfp-106-nl_waterpeil-peilbuis
+book_filename: sfp_106_nl_waterpeil_peilbuis.Rmd
+output_dir: ../../../../docs/sfp/1_water/sfp_106_nl_waterpeil_peilbuis
 rmd_files:
 - index.Rmd
 - NEWS.md
@@ -7,9 +7,9 @@ rmd_files:
 - 02_onderwerp.Rmd
 - 03_beperkingen.Rmd
 - 04_principe.Rmd
-- 05_vaardigheden.Rmd
-- 06_materialen.Rmd
-- 07_stappenplan.Rmd
+- 05_competenties.Rmd
+- 06_benodigdheden.Rmd
+- 07_werkwijze.Rmd
 - 08_kwaliteitszorg.Rmd
 - 09_veiligheid.Rmd
 - 10_samenvatting.Rmd
