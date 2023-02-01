@@ -1199,15 +1199,15 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.4.11",
+      "Version": "0.4.12",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "main",
-      "RemoteSha": "c66b4c5e04bbbaf1b1fd28ec5603cc92b317b29d",
-      "Hash": "e754da6c1f8d70e7c33a086c624382fd",
+      "RemoteSha": "11de9ea72fae9bf2cdf5861b6fb4c1491b6401e5",
+      "Hash": "88d4f745ac0c7026872b1d2f30d1fa66",
       "Requirements": [
         "R6",
         "assertthat",
@@ -1359,10 +1359,10 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.14",
+      "Version": "2.20",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "31b60a882fabfabf6785b8599ffeb8ba",
+      "Hash": "716fde5382293cc94a71f68c85b78d19",
       "Requirements": [
         "bslib",
         "evaluate",
@@ -1912,10 +1912,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.31",
+      "Version": "0.36",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a318c6f752b8dcfe9fb74d897418ab2b",
+      "Hash": "f5baec54606751aa53ac9c0e05848ed6",
       "Requirements": []
     },
     "xml2": {

@@ -14,7 +14,7 @@ Development versions are in [this google drive folder](https://drive.google.com/
 
 If you want to contribute a new protocol or update an existing protocol, check the [contributing guidelines](CONTRIBUTING.md).
 
-## Repository structure
+## Repository structure {#repository-structure}
 
       |- CONTRIBUTING.md <- Contributing guidelines
       |- DESCRIPTION <- file used to document which R packages are used in the repo
@@ -36,8 +36,8 @@ If you want to contribute a new protocol or update an existing protocol, check t
       |    |- sfp <- field protocols
       |    |   |- 0_generic
       |    |   |- 1_water 
-      |    |   |- 2_air 
-      |    |   |- 3_soil 
+      |    |   |- 2_soil 
+      |    |   |- 3_air 
       |    |   |- 4_vegetation 
       |    |   |- 5_species
       |    |- spp <- project-specific protocols
@@ -82,7 +82,7 @@ Searching tags that have the same `<protocol-code>` as string, allows reconstruc
 
 The incremental nature means that general tags reflect the time sequence of protocol releases in the whole repository.
 
-## Folder and filename syntaxis
+## Folder and filename syntaxis {#folder-and-filename-syntaxis}
 
 In this section, we describe the conventions we adhere to for naming of files and folders.
 Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)).
@@ -107,8 +107,8 @@ A **protocol-code** consists of a prefix (three characters), a protocol-number (
 |:-----------|:-----------|:-------------|:--------------|
 | field      | generic    | 0            | sfp-0##-nl    |
 | field      | water      | 1            | sfp-1##-nl    |
-| field      | air        | 2            | sfp-2##-nl    |
-| field      | soil       | 3            | sfp-3##-nl    |
+| field      | soil       | 2            | sfp-2##-nl    |
+| field      | air        | 3            | sfp-3##-nl    |
 | field      | vegetation | 4            | sfp-4##-nl    |
 | field      | species    | 5            | sfp-5##-nl    |
 | instrument |            |              | sip-###-nl    |
@@ -127,7 +127,7 @@ The `s*p-###` part of the protocol can be thought of as a code that corresponds 
 The final two characters identify the language the protocol is written in.
 This can be either Dutch (`nl`) or English (`en`).
 
-### Version number
+### Version number {#version-number}
 
 The version number is of the form `YYYY.NN`.
 `YYYY` indicates the year in which the protocol was released.
