@@ -103,5 +103,5 @@ Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -   Drie druppelflesjes (inhoud 30-50 ml) met de volgende reagentia/oplossingen:
 
     -   Zoutzuur (HCl), 10 %. Sterk zuur, bijtend. Gebruik handschoenen bij gebruik druppelflesje.
-    -   α -- α' dipyridyl (IUPAC 2,2'-Bipyridine) is een 97% zuivere vaste stof in oplossing gebracht met 1 N ammoniumacetaat gebufferd op pH=7. Gebruik handschoenen bij gebruik druppelflesje.
+    -   $\alpha$ -- $\alpha$' dipyridyl (IUPAC 2,2'-Bipyridine) is een 97% zuivere vaste stof in oplossing gebracht met 1 N ammoniumacetaat gebufferd op pH=7. Gebruik handschoenen bij gebruik druppelflesje.
     -   Waterstofperoxide (H~2~O~2~), 10 %. Sterk zuur. Gebruik handschoenen bij gebruik druppelflesje.
