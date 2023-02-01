@@ -8,14 +8,18 @@ Opsomming van de apparatuur die nodig is en verwijzingen naar de sip's (Standard
 Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
 -->
 ```
--   Er zijn allerhande toestellen met **GPS** mogelijkheden op de markt. Al deze toestellen kunnen gebruikt worden. Vermits de nauwkeurigheid echter afhangt van het type toestel, wordt het type gehanteerde toestel op het opnameformulier vermeld. Mogelijke typen zijn:
+-   Er zijn allerhande toestellen met **GPS** mogelijkheden op de markt.
+    Al deze toestellen kunnen gebruikt worden.
+    Vermits de nauwkeurigheid echter afhangt van het type toestel, wordt het type gehanteerde toestel op het opnameformulier vermeld.
+    Mogelijke typen zijn:
 
     -   RTK GPS
     -   Trimble met externe antenne
     -   Handheld GPS (Garmin, ...)
     -   Smartphone, iPad, iPhone
 
--   **Digitaal fototoestel** (met correcte datum en uurinstelling) of Smartphone, tablet, iPad, iPhone met ingebouwd fototoestel. Correcte instelling van datum en uur is van belang om de foto's correct te kunnen archiveren.
+-   **Digitaal fototoestel** (met correcte datum en uurinstelling) of Smartphone, tablet, iPad, iPhone met ingebouwd fototoestel.
+    Correcte instelling van datum en uur is van belang om de foto's correct te kunnen archiveren.
 
 ## Materiaal
 
@@ -82,7 +86,7 @@ include_graphics(
 
 -   4 **bamboestokjes** ter markering van de hoekpunten van het proefvlak
 
-## Reagentia en oplossingen
+## Reagentia en oplossingen (indien van toepassing)
 
 ```{=html}
 <!--
