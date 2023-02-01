@@ -1,9 +1,9 @@
 #!/bin/sh -l
 
 echo '\nGetting the code...\n'
-git clone --quiet https://$PAT@github.com/$GITHUB_REPOSITORY /render
+git clone --quiet https://$INPUT_PAT@github.com/$GITHUB_REPOSITORY /render
 cd /render
-git checkout $GITHUB_REF_NAME
+git checkout main
 git config --global user.email "info@inbo.be"
 git config --global user.name "INBO"
 
@@ -15,9 +15,9 @@ Rscript -e 'sessioninfo::session_info()'
 echo '\nAdd tag to merge commit protocolsource...\n'
 echo 'GitHub actions:' $GITHUB_ACTIONS
 echo 'Event name:' $GITHUB_EVENT_NAME
-echo 'ref:' $GITHUB_REF
+echo 'RECENT_MERGED_BRANCH_NAME:' $RECENT_MERGED_BRANCH_NAME
 git rev-parse --abbrev-ref origin/HEAD | sed 's/origin\///' | xargs git checkout
-Rscript --no-save --no-restore -e 'protocolhelper:::set_tags("'$GITHUB_REF_NAME'")'
+Rscript --no-save --no-restore -e 'protocolhelper:::set_tags("'$RECENT_MERGED_BRANCH_NAME'")'
 git push --follow-tags
 
 # look up tag names and tag messages to push to repo protocols later
@@ -33,6 +33,11 @@ echo 'tag message general:' $TAGMESSAGE_GENERAL
 echo 'tagname specific:' $TAGNAME_SPECIFIC
 echo 'tag message specific:' $TAGMESSAGE_SPECIFIC
 
+echo 'Getting previously published protocols\n'
+git clone --quiet --depth=1 --single-branch --branch=main https://$INPUT_PAT@github.com/$GITHUB_REPOSITORY_DEST /destiny
+mkdir /render/publish/
+cp -R /destiny/. /render/publish/.
+
 echo 'Rendering the Rmarkdown files...\n'
 Rscript -e "protocolhelper:::render_release()"
 if [ $? -ne 0 ]; then
@@ -43,8 +48,6 @@ else
 fi
 
 echo 'Publishing the rendered files...\n'
-git clone --quiet --depth=1 --single-branch --branch=main https://$PAT@github.com/$GITHUB_REPOSITORY_DEST /destiny
-
 cp -R /render/publish/. /destiny/.
 cd /destiny
 ls -a
