@@ -10,7 +10,7 @@ date: 2021-05-12
 reviewers: [Hans Van Calster]
 file_manager: Hans Van Calster
 protocol_code: sfp-201-nl
-version_number: "2021.00.dev"
+version_number: "2023.01"
 language: nl
 theme: soil
 site: bookdown::bookdown_site
