@@ -41,5 +41,5 @@ vignettes/*.pdf
 
 # Other
 docs/
-src/**/*.html
-
+css/
+_bookdown_files/

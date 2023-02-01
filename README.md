@@ -6,15 +6,15 @@
 
 # protocols
 
-INBO protocols for monitoring
+INBO protocols
 
 *experimental*: we are in the process of trying out git-version control for INBO protocols.
-In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/a/inbo.be/veldprotocols/) (only accessible to INBO collaborators).
+In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/inbo.be/veldprotocollen/).
 Development versions are in [this google drive folder](https://drive.google.com/drive/folders/0BzUqT1wpznBXY2ZqaXh2a0tyd2M) (only accessible to INBO collaborators).
 
 If you want to contribute a new protocol or update an existing protocol, check the [contributing guidelines](CONTRIBUTING.md).
 
-## Repository structure
+## Repository structure {#repository-structure}
 
       |- CONTRIBUTING.md <- Contributing guidelines
       |- DESCRIPTION <- file used to document which R packages are used in the repo
@@ -29,24 +29,27 @@ If you want to contribute a new protocol or update an existing protocol, check t
          used
       |- from_docx <- contains Microsoft Word docx protocols which were converted to 
                       markdown
-      |- src
-      |    |- thematic <- thematic protocols
+      |- source
+      |    |- sap <- analytic protocols
+      |    |- sip <- instrument protocols
+      |    |- sop <- operating protocols
+      |    |- sfp <- field protocols
       |    |   |- 0_generic
       |    |   |- 1_water 
-      |    |   |- 2_air 
-      |    |   |- 3_soil 
+      |    |   |- 2_soil 
+      |    |   |- 3_air 
       |    |   |- 4_vegetation 
       |    |   |- 5_species
-      |    |- project <- project-specific protocols
+      |    |- spp <- project-specific protocols
       |    |- management <- for repo admins only
 
 ## Relationships to other repositories
 
 This repository contains the Rmarkdown files of the protocols.
 
-A companion repository `protocols-website` hosts the rendered html files for all versions of these protocols, which can be viewed at [insert website address here]().
+A companion repository `protocols` hosts the rendered html files for all versions of these protocols, which can be viewed at [the protocols website](https://inbo.github.io/protocols/).
 
-A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocols` repository.
+A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocolsource` repository.
 Documentation for the package can be found [here](https://inbo.github.io/protocolhelper/).
 
 ## Release model
@@ -55,7 +58,7 @@ Whenever a new protocol is added or an existing protocol is updated and approved
 A GitHub Release is just a zip-file containing all files in the repository at that moment.
 The repository is setup in such a way that with each release a Zenodo archive will be created as well.
 The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
-A release will also trigger the `protocols-website` to update the rendered versions of the protocols.
+A release will also trigger the `protocols` repo to update the rendered versions of the protocols.
 
 Tags are associated to each GitHub release.
 To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
@@ -79,7 +82,7 @@ Searching tags that have the same `<protocol-code>` as string, allows reconstruc
 
 The incremental nature means that general tags reflect the time sequence of protocol releases in the whole repository.
 
-## Folder and filename syntaxis
+## Folder and filename syntaxis {#folder-and-filename-syntaxis}
 
 In this section, we describe the conventions we adhere to for naming of files and folders.
 Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)).
@@ -102,16 +105,16 @@ A **protocol-code** consists of a prefix (three characters), a protocol-number (
 
 | type       | theme      | theme_number | protocol-code |
 |:-----------|:-----------|:-------------|:--------------|
-| field      | generic    | 0            | sfp-0\#\#-nl  |
-| field      | water      | 1            | sfp-1\#\#-nl  |
-| field      | air        | 2            | sfp-2\#\#-nl  |
-| field      | soil       | 3            | sfp-3\#\#-nl  |
-| field      | vegetation | 4            | sfp-4\#\#-nl  |
-| field      | species    | 5            | sfp-5\#\#-nl  |
-| instrument |            |              | sip-\#\#\#-nl |
-| operating  |            |              | sop-\#\#\#-nl |
-| activity   |            |              | sap-\#\#\#-nl |
-| project    |            |              | spp-\#\#\#-nl |
+| field      | generic    | 0            | sfp-0##-nl    |
+| field      | water      | 1            | sfp-1##-nl    |
+| field      | soil       | 2            | sfp-2##-nl    |
+| field      | air        | 3            | sfp-3##-nl    |
+| field      | vegetation | 4            | sfp-4##-nl    |
+| field      | species    | 5            | sfp-5##-nl    |
+| instrument |            |              | sip-###-nl    |
+| operating  |            |              | sop-###-nl    |
+| analysis   |            |              | sap-###-nl    |
+| project    |            |              | spp-###-nl    |
 
 The `s` and `p` refer to **s**tandard **p**rotocol, while `f, i, o, a, p` indicate the first letter of the protocol type.
 
@@ -124,7 +127,7 @@ The `s*p-###` part of the protocol can be thought of as a code that corresponds 
 The final two characters identify the language the protocol is written in.
 This can be either Dutch (`nl`) or English (`en`).
 
-### Version number
+### Version number {#version-number}
 
 The version number is of the form `YYYY.NN`.
 `YYYY` indicates the year in which the protocol was released.
