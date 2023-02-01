@@ -1,6 +1,6 @@
-book_filename: sfp-401-nl_vegopname-terrest.Rmd
-output_dir: ../../../../../protocoldocs/docs/sfp/4_vegetation/sfp-401_vegopname-terrest_nl
-rmd_files: [index.Rmd,NEWS.md,01_afhankelijkheden.Rmd,02_onderwerp.Rmd,03_beperkingen.Rmd,04_principe.Rmd,05_vaardigheden.Rmd,06_materialen.Rmd,07_stappenplan.Rmd,08_kwaliteitszorg.Rmd,09_veiligheid.Rmd,10_samenvatting.Rmd,11_referenties.Rmd,12_appendices.Rmd,13_subprotocols.Rmd]
+book_filename: sfp_401_nl_vegopname_terrest.Rmd
+output_dir: ../../../../../protocoldocs/docs/sfp/4_vegetation/sfp_401_nl_vegopname_terrest
+rmd_files: [index.Rmd,NEWS.md,01_afhankelijkheden.Rmd,02_onderwerp.Rmd,03_beperkingen.Rmd,04_principe.Rmd,05_competenties.Rmd,06_benodigdheden.Rmd,07_werkwijze.Rmd,08_kwaliteitszorg.Rmd,09_veiligheid.Rmd,10_samenvatting.Rmd,11_referenties.Rmd,12_appendices.Rmd,13_subprotocols.Rmd]
 delete_merged_file: true
 language:
   label:
