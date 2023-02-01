@@ -1,6 +1,5 @@
 ---
 title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie
-subtitle: 
 author:
   - name: Els De Bie
     orcid: 0000-0001-7679-743X
@@ -8,9 +7,13 @@ date: "`r Sys.Date()`"
 reviewers: [Hans Van Calster,Lieve Vriens,Jan Wouters,Wouter Van Gompel,Els Lommelen]
 file_manager: Hans Van Calster
 protocol_code: sfp-401-nl
-version_number: "2021.01"
+version_number: "2023.01"
 language: nl
 theme: vegetation
+template_name: sfp
+site: bookdown::bookdown_site
+bibliography: [referenties.yaml, sfp-401.bib]
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 params:
   plot_width_openveg_m: 3
   plot_length_openveg_m: 3
@@ -25,19 +28,6 @@ params:
   phenology_values: "standaard inbo-fenologiecodes"
   coverscale_species: "Londo origineel"
   coverscale_structure: "inbo-structuur-schaal"
-site: bookdown::bookdown_site
-output: 
-  bookdown::gitbook:
-    split_by: none
-    split_bib: FALSE
-    template: !expr protocolhelper::protocol_css()
-    css: css/inbo_rapport.css
-    config:
-       toc:
-         before: |
-           <li class="toc-logo"><a href="https://www.vlaanderen.be/inbo/home/"><img src="css/img/inbo-nl.jpg"></a></li>
-         after: |
-           <li class="cc"><a href="http://creativecommons.org/licenses/by/4.0/"><img src="css/img/cc-by.png"></a></li>
 ---
 
 ```{=html}
@@ -54,25 +44,25 @@ Laat in die gevallen de titelhoofdingen staan en vermeld expliciet “niet van t
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
-  echo = FALSE, 
+  echo = FALSE,
   eval = TRUE,
   dpi = 300,
   fig.width = 150 / 25.4,
   fig.height = 100 / 25.4,
-  out.width = '100%',
+  out.width = "100%",
   warning = FALSE,
   error = TRUE,
   message = FALSE
 )
 library(dplyr)
 library(purrr)
-library(git2rdata)
 library(protocolhelper)
+metadata <- rmarkdown::metadata
+protocol_path <- get_path_to_protocol(metadata$protocol_code)
+type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
+library(git2rdata)
 library(spatstat)
 library(ggplot2)
-
-protocol_path <- get_path_to_protocol(rmarkdown::metadata$protocol_code)
-
 source(
   file.path(protocol_path, 
             "_visualisatie_bedekking.R"
@@ -120,6 +110,18 @@ write_vc(cover_result,
 
 # Metadata {.unnumbered}
 
-| Reviewers                                                 | Documentbeheerder                    | Protocol code                         | Versienummer                           | Taal                             | Thema                         |
-|-----------------------------------------------------------|--------------------------------------|---------------------------------------|----------------------------------------|----------------------------------|-------------------------------|
-| `r paste(rmarkdown::metadata$reviewers, collapse = ", ")` | `r rmarkdown::metadata$file_manager` | `r rmarkdown::metadata$protocol_code` | `r rmarkdown::metadata$version_number` | `r rmarkdown::metadata$language` | `r rmarkdown::metadata$theme` |
+```{r metadata-table}
+tibble(
+  reviewers = metadata[["reviewers"]] |> paste(collapse = ", "),
+  documentbeheerder = metadata[["file_manager"]],
+  protocolcode = metadata[["protocol_code"]],
+  versienummer = metadata[["version_number"]],
+  taal = metadata[["language"]],
+  thema = metadata[["theme"]]
+) %>%
+  kable()
+```
+
+```{r results="asis"}
+sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
+```
