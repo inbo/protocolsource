@@ -4,6 +4,7 @@ author:
 - name: Toon Van Daele
   orcid: 0000-0002-1362-853X
 - name: Piet De Becker
+  orcid: 0000-0002-9686-0472
 - name: Mathias Wackenier
   orcid: 0000-0001-6934-9241
 date: "`r Sys.Date()`"
