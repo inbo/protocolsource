@@ -1,4 +1,4 @@
-## Beperkingen van het protocol
+# Beperkingen van het protocol
 
 ```{=html}
 <!--
@@ -10,4 +10,3 @@ Vermeld hier ook mogelijke interferenties, knelpunten, ...
 De voorgestelde procedure en de vermelde materialen zijn geschikt voor het meten van grondwaterpeilen en het bemonsteren van macro-ionen (op al dan niet vervuilde sites).
 Voor het opvolgen van spoorelementen of bij verontreiniging, waarbij concentratiebepalingen van bv.
 zware metalen of andere polluenten van belang zijn, zijn extra voorzorgen vereist die niet in dit veldprotocol zijn opgenomen.
-
