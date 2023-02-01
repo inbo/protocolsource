@@ -53,7 +53,7 @@ In de meeste gevallen volstaat een eenvoudige PVC buis.
 Enkel in verontreinigde bodems en wanneer gepland wordt om grondwaterstalen uit de peilbuis op deze stoffen te analyseren, zijn HDPE buizen vereist.
 Deze zijn heel wat duurder, maar het materiaal is inert.
 D.w.z. dat het geen stoffen afgeeft waardoor bij vervuild bodem- of grondwater betrouwbare analyses worden bekomen.
-In deze situaties mag er dan ook [**geen lijm**]{.ul} gebruikt worden en dient men klemmoffen te gebruiken (zie §5.2).
+In deze situaties mag er dan ook **geen lijm** gebruikt worden en dient men klemmoffen te gebruiken (zie §5.2).
 
 #### Het filterelement
 
@@ -228,4 +228,3 @@ De codering die door het INBO wordt gebruikt bestaat uit vier delen en bevat 8 k
 -   Bij ingebruikname is de laatste letter steeds een X.
     Telkens wanneer er iets gebeurt met de buis (bv. afgemaaid) en de buis op een nieuwe hoogte boven maaiveld wordt hersteld verandert de laatste letter.
     Bij een eerste wijziging wordt dit een A, bij een tweede een B, een derde een C, ... enz
-
