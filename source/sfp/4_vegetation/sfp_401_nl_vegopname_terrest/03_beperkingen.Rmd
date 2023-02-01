@@ -1,4 +1,4 @@
-# Beperkingen tot het protocol (indien van toepassing)
+# Beperkingen van het protocol
 
 Dit protocol is bedoeld voor terrestrische vegetaties in een proefvlak.
 
