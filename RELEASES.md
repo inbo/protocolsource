@@ -10,21 +10,16 @@ After review of a protocol-branch and before each release the following steps wi
 
         2.  `protocolhelper::check_structure()`
 
-    Check any error messages resulting from these checks and address them.
-    Repeat this step until all checks succeed.
-    In principle, these errors should be addressed by the protocol contributor, but admins can help if needed.
-    Note that during this automatic run, a commit to update the version number may be automatically pushed to the remote.
-    If this commit is added in the remote, pull it into your local clone.
-
-    3.  This action will also automatically update:
+    2.  This action will also automatically update:
 
         1.  the repo-wide `NEWS.md` file with `protocolhelper:::update_news_release()`
 
         2.  the `.zenodo.json` file with `protocolhelper:::update_zenodo()`
 
-    Check if the second Github Action ran without problems.
-    If needed, admins should address any problems.
-    Note that during these automatic updates, the two commits will be automatically pushed to the remote.
+    Check any error messages resulting from these checks and address them.
+    Repeat this step until all checks succeed.
+    In principle, these errors should be addressed by the protocol contributor, but admins can help if needed.
+    Note that during this automatic run, commits to update the version number, the repo-wide `NEWS.md` and the `.zenodo.json` will be automatically pushed to the remote.
     So pull these commits to get them in your local repo.
 
 2.  A second GitHub Action will be run upon a push to the main branch to update the `protocols` website.
