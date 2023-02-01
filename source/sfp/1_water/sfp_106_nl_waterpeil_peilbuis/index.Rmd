@@ -1,33 +1,22 @@
 ---
 title: Richtlijnen voor het bepalen van het waterpeil in peilbuizen
-subtitle: ''
 author:
 - name: Toon Van Daele
   orcid: 0000-0002-1362-853X
 - name: Piet De Becker
 - name: Mathias Wackenier
   orcid: 0000-0001-6934-9241
-date: '2021-03-04'
+date: "`r Sys.Date()`"
 reviewers: Gerrit Genouw
 file_manager: Mathias Wackenier
 protocol_code: sfp-106-nl
-version_number: 2022.00.dev
+version_number: 2023.01
 language: nl
 theme: water
 site: bookdown::bookdown_site
-bibliography: referenties.bib
-output:
-  bookdown::gitbook:
-    split_by: none
-    split_bib: false
-    template: css/gitbook.html
-    css: css/inbo_rapport.css
-    config:
-      toc:
-        before: |
-          <li class="toc-logo"><a href="https://www.vlaanderen.be/inbo/home/"><img src="css/img/inbo-nl.jpg"></a></li>
-        after: <li class="cc"><a href="http://creativecommons.org/licenses/by/4.0/"><img
-          src="css/img/cc-by.png"></a></li>
+template_name: sfp
+bibliography: [referenties.yaml, referenties.bib]
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 ---
 
 ```{=html}
@@ -35,31 +24,47 @@ output:
 Instructies bij opmaak van het protocol:
 
 Hieronder vind je de verschillende onderdelen van een protocol.
-In de bijhorende losse Rmd bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+In de bijhorende losse `Rmd` bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
 Het is in die bestanden dat je moet editeren.
 Niet alle onderdelen zijn altijd van toepassing.
-Laat in die gevallen de titelhoofdingen staan en vermeld expliciet â€œniet van toepassingâ€.
+Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
 -->
 ```
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
-  echo = FALSE, 
+  echo = FALSE,
   eval = TRUE,
   dpi = 300,
   fig.width = 150 / 25.4,
   fig.height = 100 / 25.4,
-  out.width = '100%',
+  out.width = "100%",
   warning = FALSE,
   error = TRUE,
   message = FALSE
 )
 library(dplyr)
 library(purrr)
+library(protocolhelper)
+metadata <- rmarkdown::metadata
+path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
+type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
 ```
 
 # Metadata {.unnumbered}
 
-| Reviewers                                                 | Documentbeheerder                    | Protocol code                         | Versienummer                           | Taal                             | Thema                         |
-|-----------------------------------------------------------|--------------------------------------|---------------------------------------|----------------------------------------|----------------------------------|-------------------------------|
-| `r paste(rmarkdown::metadata$reviewers, collapse = ", ")` | `r rmarkdown::metadata$file_manager` | `r rmarkdown::metadata$protocol_code` | `r rmarkdown::metadata$version_number` | `r rmarkdown::metadata$language` | `r rmarkdown::metadata$theme` |
+```{r metadata-table}
+tibble(
+  reviewers = metadata[["reviewers"]] |> paste(collapse = ", "),
+  documentbeheerder = metadata[["file_manager"]],
+  protocolcode = metadata[["protocol_code"]],
+  versienummer = metadata[["version_number"]],
+  taal = metadata[["language"]],
+  thema = metadata[["theme"]]
+) %>%
+  kable()
+```
+
+```{r results="asis"}
+sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
+```
