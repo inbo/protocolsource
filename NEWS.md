@@ -1,3 +1,10 @@
+### First version of protocol: sfp-106-nl
+
+- Title: Richtlijnen voor het bepalen van het waterpeil in peilbuizen
+- Published on: 2023-02-01
+- Version number: 2023.01
+- Link to this version: [sfp-106-nl version 2023.01](2023.01/index.html)
+
 <!--One entry for each release describing the generic changes since the previous release.
 e.g. (sort most recent first)
 
