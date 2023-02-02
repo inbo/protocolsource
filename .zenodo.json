@@ -1,40 +1,45 @@
 {
-    "title": "Source code of protocols of the Research Institute for Nature and Forest (INBO)",
-    "description": "This archive provides the source code of protocols used at the Research Institute for Nature and Forest (INBO), Brussels, Belgium (<a href=\"https://www.inbo.be/en\">www.inbo.be</a>). The protocols are written in R markdown and are compiled as html using the bookdown package. The website with the compiled protocols (including older versions) is at <a href=\"https://protocols.inbo.be\">https://protocols.inbo.be</a>.",
-    "license": "cc-by",
-    "upload_type": "other",
-    "access_right": "open",
-    "creators": [
-        {
-            "name": "Van Calster, Hans",
-            "affiliation": "Research Institute for Nature and Forest",
-            "orcid": "0000-0001-8595-8426"
-        },
-        {
-            "name": "De Bie, Els",
-            "affiliation": "Research Institute for Nature and Forest",
-            "orcid": "0000-0001-7679-743X"
-        },
-        {
-            "name": "Onkelinx, Thierry",
-            "affiliation": "Research Institute for Nature and Forest",
-            "orcid": "0000-0001-8804-4216"
-        },
-        {
-            "name": "Vanderhaeghe, Floris",
-            "affiliation": "Research Institute for Nature and Forest",
-            "orcid": "0000-0002-6378-6229"
-        }
-    ],
-    "keywords": [
-        "open protocol",
-        "open science",
-        "research institute",
-        "nature",
-        "forest",
-        "environment",
-        "markdown",
-        "Flanders",
-        "Belgium"
-        ]
+  "title": "Source code of protocols of the Research Institute for Nature and Forest (INBO)",
+  "description": "This archive provides the source code of protocols used at the Research Institute for Nature and Forest (INBO), Brussels, Belgium (<a href=\"https://www.inbo.be/en\">www.inbo.be<\/a>). The protocols are written in R markdown and are compiled as html using the bookdown package. The website with the compiled protocols (including older versions) is at <a href=\"https://protocols.inbo.be\">https://protocols.inbo.be<\/a>.",
+  "license": "cc-by",
+  "upload_type": "other",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Van Calster, Hans",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0001-8595-8426"
+    },
+    {
+      "name": "De Bie, Els",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0001-7679-743X"
+    },
+    {
+      "name": "Toon Westra",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0003-2478-9459"
+    },
+    {
+      "name": "Onkelinx, Thierry",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0001-8804-4216"
+    },
+    {
+      "name": "Vanderhaeghe, Floris",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0002-6378-6229"
+    }
+  ],
+  "keywords": [
+    "open protocol",
+    "open science",
+    "research institute",
+    "nature",
+    "forest",
+    "environment",
+    "markdown",
+    "Flanders",
+    "Belgium"
+  ]
 }
