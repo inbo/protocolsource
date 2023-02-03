@@ -1,4 +1,4 @@
-name: On PR, build the protocol and save the result to an artifact
+name: On push to protocol branches build the protocol and save the result to an artifact
 
 on:
   push:
@@ -45,7 +45,7 @@ jobs:
       - name: Install system dependencies
         if: runner.os == 'Linux'
         run: |
-          sudo apt-get install libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
+          sudo apt-get install libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev libgit2-dev
 
       - name: Install dependencies
         run: |
