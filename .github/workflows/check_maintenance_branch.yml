@@ -34,6 +34,6 @@ jobs:
             exit 1
           fi
           if [ -n "$(git diff --name-only main | grep '^\.zenodo\.json$')" ]; then
-            echo 'Branch '$GITHUB_HEAD_REF' contains changes in NEWS.md, while it is only allowed to change this file when adding a new protocol.'
+            echo 'Branch '$GITHUB_HEAD_REF' contains changes in .zenodo.json, while it is only allowed to change this file when adding a new protocol.'
             exit 1
           fi
