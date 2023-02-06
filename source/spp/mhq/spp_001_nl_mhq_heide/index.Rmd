@@ -51,6 +51,7 @@ library(protocolhelper)
 metadata <- rmarkdown::metadata
 path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
 type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
+library(readxl)
 ```
 
 # Metadata {.unnumbered}

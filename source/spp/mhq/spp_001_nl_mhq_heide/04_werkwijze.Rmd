@@ -110,7 +110,7 @@ beslisregels_binnen_sbz <- read_excel(
     path_to_protocol,
     "data",
     "beslisregels.xlsx"), 
-  sheet="binnen_sbz")
+  sheet = "binnen_sbz")
 
 beslisregels_binnen_sbz %>%
   kable(caption = "Beslisregels binnen SBZ")
@@ -124,7 +124,7 @@ beslisregels_buiten_sbz <- read_excel(
     path_to_protocol,
     "data",
     "beslisregels.xlsx"), 
-  sheet="buiten_sbz")
+  sheet = "buiten_sbz")
 
 beslisregels_buiten_sbz %>%
   kable(caption = "beslisregels buiten SBZ")
@@ -136,7 +136,7 @@ beslisregels_buiten_sbz %>%
 
 ## STAP 7:meten van de variabelen in de 18meter-plot
 
-Aandeeldoelvegetatie in de 18m-plot opgeven!
+Aandeel doelvegetatie in de 18m-plot opgeven!
 
 Alle criteria worden voor elk habitattype gescoord.
 Indien afwezig scoor je met de waarde 0.
