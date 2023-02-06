@@ -16,11 +16,6 @@
       "orcid": "0000-0002-3481-5684"
     },
     {
-      "name": "Els De Bie",
-      "affiliation": "Research Institute for Nature and Forest",
-      "orcid": "0000-0001-7679-743X"
-    },
-    {
       "name": "Onkelinx, Thierry",
       "affiliation": "Research Institute for Nature and Forest",
       "orcid": "0000-0001-8804-4216"
@@ -45,6 +40,14 @@
   "communities": [
     {
       "identifier": "inbo"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Els De Bie",
+      "affiliation": "Research Institute for Nature and Forest",
+      "type": "Researcher",
+      "orcid": "0000-0001-7679-743X"
     }
   ]
 }
