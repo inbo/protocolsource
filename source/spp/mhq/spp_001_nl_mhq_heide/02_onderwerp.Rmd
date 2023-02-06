@@ -1,5 +1,5 @@
 ---
-bibliography: references.yaml
+bibliography: referenties.yaml
 ---
 
 # Onderwerp
