@@ -32,6 +32,8 @@ Imports:
     lubridate,
     protocolhelper,
     purrr,
+    readr,
+    readxl,
     rprojroot,
     sessioninfo,
     spatstat,
