@@ -1,7 +1,7 @@
 ### First version of protocol: sfp-104-nl
 
 - Title: Richtlijnen voor het plaatsen van peilbuizen
-- Published on: 2023-02-03
+- Published on: 2023-02-06
 - Version number: 2023.01
 - Link to this version: [sfp-104-nl version 2023.01](2023.01/index.html)
 
