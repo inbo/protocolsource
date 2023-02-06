@@ -16,21 +16,6 @@
       "orcid": "0000-0002-3481-5684"
     },
     {
-      "name": "Mathias Wackenier",
-      "affiliation": "Research Institute for Nature and Forest",
-      "orcid": "0000-0001-6934-9241"
-    },
-    {
-      "name": "Piet De Becker",
-      "affiliation": "Research Institute for Nature and Forest",
-      "orcid": "0000-0002-9686-0472"
-    },
-    {
-      "name": "Toon Van Daele",
-      "affiliation": "Research Institute for Nature and Forest",
-      "orcid": "0000-0002-1362-853X"
-    },
-    {
       "name": "Onkelinx, Thierry",
       "affiliation": "Research Institute for Nature and Forest",
       "orcid": "0000-0001-8804-4216"
@@ -55,6 +40,26 @@
   "communities": [
     {
       "identifier": "inbo"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mathias Wackenier",
+      "affiliation": "Research Institute for Nature and Forest",
+      "type": "Researcher",
+      "orcid": "0000-0001-6934-9241"
+    },
+    {
+      "name": "Piet De Becker",
+      "affiliation": "Research Institute for Nature and Forest",
+      "type": "Researcher",
+      "orcid": "0000-0002-9686-0472"
+    },
+    {
+      "name": "Toon Van Daele",
+      "affiliation": "Research Institute for Nature and Forest",
+      "type": "Researcher",
+      "orcid": "0000-0002-1362-853X"
     }
   ]
 }
