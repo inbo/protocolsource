@@ -1,3 +1,7 @@
+---
+bibliography: references.yaml
+---
+
 # Onderwerp
 
 ## Definities en afkortingen
@@ -32,8 +36,7 @@ Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt
 Dit protocol beschrijft de werkwijze die dient gevolgd te worden voor de gegevensinzameling ten behoeve van de 6-jaarlijkse rapportage aan de EU omtrent de staat van instandhouding van de heidehabitats, meer bepaald de habitattypes 2310, 2330_bu, 4010 en 4030.
 In deze vegetatietypes dienen een 1000-tal random geselecteerde meetpunten in Vlaams heidehabitat opgemeten te worden en dit gebeurt op elk meetpunt op twee schaalniveaus.Enerzijds een vegetatie-opname op een vierkante vegetatieplot van 3 op 3 meter en anderzijds het schatten van een aantal LSVI-indicatoren op een cirkelplot met diameter 18m.
 De meetpunten worden herbezocht met een frequentie van 1 keer om de 6 jaar en laten toe om een uitspraak te doen over het aandeel habitat dit zich in een gunstige/ongunstige toestand bevindt en dit per type op niveau Vlaanderen, met een hogere nauwkerigheid binnen SBZ.
-Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar Paelinckx et.
-al (2019).
+Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar @paelinckx2019.
 
 ### Toepassingsgebied
 

@@ -8,5 +8,3 @@
 Eventueel opsplitsen in sleutelreferentie en overige referenties.
 -->
 ```
-Paelinckx et al (2019)
-
