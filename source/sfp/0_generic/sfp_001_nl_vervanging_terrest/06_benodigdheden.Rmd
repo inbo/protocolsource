@@ -5,9 +5,11 @@
 ```{=html}
 <!--
 Opsomming van de apparatuur die nodig is en verwijzingen naar de SIP’s (Standard Instrument Procedure) indien die er zijn. Indien geen specifiek SIP’s voorhanden, illustreer de toegelaten apparatuur met foto’s, geef het exacte type apparatuur mee, …
+
+TO DO: eenmaal er een sip bestaat voor RTK-GPS, moet hiernaar verwezen worden
 -->
 ```
--   RTK-GPS (sip-xxx, te ontwerpen) voor navigatie naar steekproefeenheid en mogelijke vervangende rastercellen
+-   RTK-GPS voor navigatie naar steekproefeenheid en mogelijke vervangende rastercellen
 -   Veldcomputer waarmee voor elke steekproefeenheid de mogelijke vervangende rastercellen met bijhorend rangnummer en orthofoto's kunnen geraadpleegd worden in een GIS-omgeving
 
 ## Materiaal

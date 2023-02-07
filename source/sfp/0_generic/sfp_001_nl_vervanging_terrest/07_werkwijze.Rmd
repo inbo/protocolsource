@@ -103,8 +103,6 @@ knitr::include_graphics("media/vervangingsprocedure_geenvervangpunt.png")
 
 #### Wat als delen van de habitatkaartpolygoon niet toegankelijk zijn of niet beoordeeld kunnen worden?
 
-*Wanneer wordt bij BWK-kartering iets als ontoegankelijk beschouwd?*
-
 Wanneer delen van de habitatkaartpolygoon **permanent (of voor een lange tijd) ontoegankelijk** zijn (bv. omdat er een hek aanwezig is), mogen de rastercellen die hierin vallen genegeerd worden en kan de vervangprocedure gewoon verder gezet worden.
 De ontoegankelijke delen vallen immers weg uit het steekproefkader en komen sowieso niet in aanmerking voor bemonstering.
 
@@ -144,5 +142,3 @@ Vervolgens wordt voor elke te vervangen steekproefeenheid het relatieve rangnumm
 
 Je noteert ook welke rastercellen permanent of tijdelijk ontoegankelijk zijn en welke rastercellen niet kunnen beoordeeld worden.
 Indien bij tijdelijk ontoegankelijke of niet te beoordelen rastercellen de vervangprocedure niet kan doorgaan, noteer je een geschikt tijdstip waarop de vervangprocedure mogelijks wel kan uitgevoerd worden (bv. een datum voor de eerste maaibeurt).
-
-*nog verder uit te werken hoe we dit concreet invoeren*

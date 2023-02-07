@@ -7,19 +7,19 @@
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het veldprotocol op een gepaste manier te kunnen uitvoeren.  
 -->
 ```
--   *GRTS*: Generalized Random-Tessellation Stratified
+-   **GRTS**: Generalized Random-Tessellation Stratified
 
--   *GRTS-steekproef*: ruimtelijk gebalanceerde willekeurige steekproef gebaseerd op het GRTS algoritme [@stevens_spatially_2004].
-    Een GRTS-steekproef is gebaseerd op een grid van *GRTS-rastercellen* met een bepaalde dimensie.
+-   **GRTS-steekproef**: ruimtelijk gebalanceerde willekeurige steekproef gebaseerd op het GRTS algoritme [@stevens_spatially_2004].
+    Een GRTS-steekproef is gebaseerd op een grid van **GRTS-rastercellen** met een bepaalde dimensie.
     Elke GRTS-rastercel krijgt een uniek GRTS-rangnummer.
-    Een steekproef met grootte **n** wordt bekomen door de GRTS-rastercellen met de **n** laagste rangunnmers te selecteren binnen de doelpopulatie.
+    Een steekproef met grootte *n* wordt bekomen door de GRTS-rastercellen met de *n* laagste rangunnmers te selecteren binnen de doelpopulatie.
 
--   *Steekproefeenheid*: individueel element waaruit de steekproef bestaat, bv.
+-   **Steekproefeenheid**: individueel element waaruit de steekproef bestaat, bv.
     een school, een waterplas of een hok van 32 m x 32 m dat een bepaald habitattype bevat.
 
--   *Type*: een bepaald habitattype, habitatsubtype of regionaal belangrijke biotoop
+-   **Type**: een bepaald habitattype, habitatsubtype of regionaal belangrijke biotoop
 
--   *Doeltype*: het type waarover we een uitspraak willen doen en waarvoor we dus een steekproef trekken.
+-   **Doeltype**: het type waarover we een uitspraak willen doen en waarvoor we dus een steekproef trekken.
 
 ## Doelstelling en toepassingsgebied
 
