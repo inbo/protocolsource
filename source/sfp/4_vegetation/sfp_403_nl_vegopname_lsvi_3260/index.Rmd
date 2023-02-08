@@ -7,14 +7,14 @@ date: '2017-02-07'
 reviewers: Luc Denys, Toon Westra, Hans Van Calster
 file_manager: Toon Westra
 protocol_code: sfp-403-nl
-version_number: '2023.01'
+version_number: '2023.02'
 language: nl
 template_name: sfp
 theme: vegetation
 site: bookdown::bookdown_site
 bibliography:
-  - referenties.bib
-  - referenties.yaml
+- referenties.bib
+- referenties.yaml
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 url: https://inbo.github.io/protocols/
 github_repo: inbo/protocolsource
