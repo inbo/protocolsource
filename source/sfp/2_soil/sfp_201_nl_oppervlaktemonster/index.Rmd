@@ -10,8 +10,9 @@ date: 2021-05-12
 reviewers: [Hans Van Calster]
 file_manager: Hans Van Calster
 protocol_code: sfp-201-nl
-version_number: "2023.01"
+version_number: "2023.02"
 language: nl
+lang: nl
 theme: soil
 site: bookdown::bookdown_site
 template_name: sfp
@@ -53,6 +54,8 @@ library(dplyr)
 library(purrr)
 library(protocolhelper)
 library(ggplot2)
+library(pander)
+panderOptions("table.alignment.default", "left")
 metadata <- rmarkdown::metadata
 path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
 type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
@@ -69,7 +72,7 @@ tibble(
   taal = metadata[["language"]],
   thema = metadata[["theme"]]
 ) %>%
-  kable()
+  pander::pander(split.tables = Inf)
 ```
 
 ```{r results="asis"}
