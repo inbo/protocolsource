@@ -1,11 +1,17 @@
+### First version of protocol: spp-001-nl
+
+- Title: Veldprotocol Kwaliteitsmeetnet Natura 2000 habitats partim heidehabitats
+- Published on: 2023-02-08
+- Version number: 2023.02
+- Link to this version: [spp-001-nl version 2023.02](2023.02/index.html)
+
 ### First version of protocol: sfp-001-nl
 
--   Title: Vervangprocedure voor geselecteerde steekproefeenheden van terrestrische types
--   Published on: 2023-02-07
--   Version number: 2023.01
--   Link to this version: [sfp-001-nl version 2023.01](2023.01/index.html)
+- Title: Vervangprocedure voor geselecteerde steekproefeenheden van terrestrische types
+- Published on: 2023-02-07
+- Version number: 2023.01
+- Link to this version: [sfp-001-nl version 2023.01](2023.01/index.html)
 
-```{=html}
 <!--One entry for each release describing the generic changes since the previous release.
 e.g. (sort most recent first)
 
@@ -17,5 +23,3 @@ e.g. (sort most recent first)
 - 2020.01
     - sfp-402_shorttitle_nl (first version)
 -->
-```
-
