@@ -30,6 +30,7 @@ Imports:
     git2rdata,
     knitr,
     lubridate,
+    pander,
     protocolhelper,
     purrr,
     readr,

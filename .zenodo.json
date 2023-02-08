@@ -44,22 +44,10 @@
   ],
   "contributors": [
     {
-      "name": "Toon Van Daele",
+      "name": "Toon Westra",
       "affiliation": "Research Institute for Nature and Forest",
       "type": "Researcher",
-      "orcid": "0000-0002-1362-853X"
-    },
-    {
-      "name": "Piet De Becker",
-      "affiliation": "Research Institute for Nature and Forest",
-      "type": "Researcher",
-      "orcid": "0000-0002-9686-0472"
-    },
-    {
-      "name": "Mathias Wackenier",
-      "affiliation": "Research Institute for Nature and Forest",
-      "type": "Researcher",
-      "orcid": "0000-0001-6934-9241"
+      "orcid": "0000-0003-2478-9459"
     }
   ]
 }

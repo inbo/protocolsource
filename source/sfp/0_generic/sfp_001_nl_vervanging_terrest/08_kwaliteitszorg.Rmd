@@ -1,0 +1,16 @@
+# Kwaliteitszorg
+
+```{=html}
+<!-- 
+Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen. 
+Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld,…) 
+Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen. 
+In dit onderdeel kunnen ook bepaalde intercalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
+-->
+```
+Na het doorlopen van de vervangprocedure controleer je volgende zaken:
+
+-   Heb je alle (toegankelijke) rastercellen met een lager rangnummer dan het rangnummer van de geselecteerde vervangende rastercel beoordeeld en is de beoordeling geregistreerd?
+
+-   Zijn er nog andere steekproefeenheden in de polygoon die beoordeeld moeten worden en waarvoor er mogelijks een vervangende rastercel gezocht moet worden?
+
