@@ -1,0 +1,13 @@
+# Beperkingen van het protocol
+
+```{=html}
+<!--
+Bespreek hieronder onder welke condities het veldprotocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol. Vermeld hier ook mogelijke interferenties, knelpunten, …
+-->
+```
+Bij grote habitatpolygonen kan de vervanginsprocedure zeer veel tijd in beslag nemen.
+
+Mogelijke oplossingen:
+
+-   grote polygonen worden opgeplitst in deelpolygonen (*nog uit te klaren hoe dit praktisch kan gebeuren*);
+-   we beperken het zoekgebied tot een straal van bv. 150 meter rond de steekproefeenheid

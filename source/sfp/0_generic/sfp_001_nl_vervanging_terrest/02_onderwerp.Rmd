@@ -1,0 +1,46 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het veldprotocol op een gepaste manier te kunnen uitvoeren.  
+-->
+```
+-   **GRTS**: Generalized Random-Tessellation Stratified
+
+-   **GRTS-steekproef**: ruimtelijk gebalanceerde willekeurige steekproef gebaseerd op het GRTS algoritme [@stevens_spatially_2004].
+    Een GRTS-steekproef is gebaseerd op een grid van **GRTS-rastercellen** met een bepaalde dimensie.
+    Elke GRTS-rastercel krijgt een uniek GRTS-rangnummer.
+    Een steekproef met grootte *n* wordt bekomen door de GRTS-rastercellen met de *n* laagste rangunnmers te selecteren binnen de doelpopulatie.
+
+-   **Steekproefeenheid**: individueel element waaruit de steekproef bestaat, bv.
+    een school, een waterplas of een hok van 32 m x 32 m dat een bepaald habitattype bevat.
+
+-   **Type**: een bepaald habitattype, habitatsubtype of regionaal belangrijke biotoop
+
+-   **Doeltype**: het type waarover we een uitspraak willen doen en waarvoor we dus een steekproef trekken.
+
+## Doelstelling en toepassingsgebied
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het veldprotocol dient. Voorbeelden wat er met de gegevens kan gedaan worden. Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het veldprotocol kan gebruikt worden.
+-->
+```
+Wanneer je een steekproefeenheid van een bepaald meetnet bezoekt op het terrein en de steekproefeenheid blijkt niet geschikt voor bemonstering, kan je via de vervangprocedure binnen een vooraf bepaald gebied een andere steekproefeenheid selecteren die wel geschikt is.
+Dit vergroot de kans dat je tijdens een terreinbezoek in een gebied een bemonstering kan uitvoeren.
+Het is echter niet gegarandeerd dat in het gebied via de vervangsprocedure een geschikte steekproefeenheid wordt gevonden.
+
+Deze vervangprocedure kan enkel toegepast worden bij een GRTS-steekproef waarbij de steekproefeenheid een GRTS-rastercel (van bijvoorbeeld 32m x 32m) is.
+Dit is het geval voor de meeste terrestrische habitattypen en regionaal belangrijke biotopen (rbb) die op Vlaams niveau worden gemonitord voor hun specifieke structuren en functies, drukken en bedreigingen.
+
+De beoordeling of een steekproefeenheid geschikt is voor bemonstering kan verschillen van meetnet tot meetnet en wordt gespecificeerd in het projectprotocol.
+We onderscheiden twee verschillende beoordelingen:
+
+-   beoordeling in de centroïde van de steekproefeenheid (het midden van de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in de centroïde van de steekproefeenheid;
+
+-   beoordeling in de volledige steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in (een deel) van de steekproefeenheid (maar niet noodzakelijk in de centroïde van de steekproefeenheid).
+
+De vervangprocedure kan voor beide type beoordelingen gebruikt worden.
