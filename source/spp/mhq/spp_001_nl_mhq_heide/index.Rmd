@@ -5,14 +5,14 @@ subtitle: psammofiele heide (2310), buntgrasvegetaties (2330_bu), droge heide (4
 author:
 - name: Oosterlynck, Patrik
   orcid: 0000-0002-5712-0770
-date: "`r Sys.Date()`"
+date: '`r Sys.Date()`'
 reviewers:
 - Hans Van Calster
 - Toon Westra
 - Leen Govaere
 file_manager: Patrik Oosterlynck
 protocol_code: spp-001-nl
-version_number: '2023.01'
+version_number: '2023.02'
 language: nl
 template_name: spp
 project_name: mhq
