@@ -14,8 +14,8 @@ template_name: sfp
 theme: vegetation
 site: bookdown::bookdown_site
 bibliography:
-  - referenties.bib
-  - referenties.yaml
+- referenties.bib
+- referenties.yaml
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 url: https://inbo.github.io/protocols/
 github_repo: inbo/protocolsource
