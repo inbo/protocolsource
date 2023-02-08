@@ -1,0 +1,25 @@
+# Principe
+
+```{=html}
+<!--
+Korte omschrijving van de principes waarop het veldprotocol gebaseerd is. Bv principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, …
+-->
+```
+Dit protocol is gebaseerd op het principe van een GRTS-steekproef voor terrestrische types.
+Een dergelijke steekproef maakt gebruik van een GRTS raster dat heel Vlaanderen bedekt.
+Dit GRTS raster bestaat uit cellen van een bepaalde dimensie (bijvoorbeeld 32m x 32m) waarbij elke cel een rangnummer krijgt volgens het GRTS-algoritme [@stevens_variance_2003; @stevens_spatially_2004].
+Uit de GRTS raster kunnen we een steekproefkader afleiden voor een bepaald type door alle rastercellen te selecteren die volgens de polygonen van de Habitatkaart [@saeger_biologische_2018] met het type kunnen overeenkomen.
+Elke rastercel vertegenwoordigt hierbij één (statistische) populatie-eenheid.
+Om een GRTS-steekproef te bekomen, ordenen we eerst de populatie-eenheden van laag naar hoog volgens het rangnummer.
+Vervolgens selecteren we de eerste $n$ populatie-eenheden, met $n$ de gewenste steekproefgrootte.
+
+De Habitatkaart bestaat vaak uit polygonen die maar gedeeltelijk een bepaald type bevatten, bijvoorbeeld een polygoon die voor 30% uit type x bestaat.
+Wanneer een steekproefeenheid geselecteerd wordt in een dergelijke polygoon, is er dus een aanzienlijke kans dat deze niet geschikt is.
+Wanneer (bij de steekproeftrekking) een steekproefeenheid geselecteerd wordt die gekoppeld is aan een dergelijke polygoon, is er dus een aanzienlijke kans dat deze niet tot de reële doelpopulatie behoort (en dus uit het steekproefkader en de steekproef geschrapt moet worden).
+In dat geval kan de steekproefeenheid vervangen worden door een van de overige GRTS-rastercellen die aan de polygoon zijn gekoppeld, namelijk deze met het laagste rangnummer en die effectief tot de doelpopulatie behoort (omdat bijvoorbeeld het doeltype wel aanwezig is in de centroïde van de rastercel).
+
+Een vervanging binnen de polygoon is normaal gezien *verplicht* voor zg.
+'centroïdgekoppelde' terrestrische types (= de meeste), tenzij het type geheel ontbreekt in de polygoon.
+Centroïdgekoppelde types zijn deze waarvan het steekproefkader wordt afgeleid via koppeling tussen celcentroïden (van het GRTS-raster) en de habitatkaart.
+Dit komt omdat dan normaal reeds bij de steekproeftrekking gecorrigeerd wordt volgens het proportionele voorkomen van het type in polygonen (i.e. waarbij cellen van 'polygonen met 30% type x' maar 30% zoveel kans hebben om geselecteerd te worden).
+
