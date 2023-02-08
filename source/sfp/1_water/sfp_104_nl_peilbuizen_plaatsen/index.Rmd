@@ -68,7 +68,7 @@ tibble(
   taal = metadata[["language"]],
   thema = metadata[["theme"]]
 ) %>%
-  pander(split.tables = Inf)
+  pander::pander(split.tables = Inf)
 ```
 
 ```{r results="asis"}
