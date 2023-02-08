@@ -16,6 +16,6 @@ Gesorteerd van recent naar oud.
 - Eerste versie van het protocol
 -->
 ```
-## [2023.01](../2023.01/index.html)
+## [2023.02](../2023.02/index.html)
 
 -   Dit is een eerste versie van het veldprotocol, gebaseerd op de beschrijving in 'chemische kenmerken Walenbos' [@huybrechts-debecker-1997], literatuurgegevens [@EMIS_2013] en de kennis van de medewerkers van het INBO.
