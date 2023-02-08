@@ -1,0 +1,144 @@
+# Werkwijze
+
+## Uitvoering
+
+```{=html}
+<!-- 
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het veldprotocol uit te voeren. Subtitels gebruiken om elke stap te omschrijven. 
+-->
+```
+### Voorbereiding van het veldwerk
+
+Bij voorkeur maak je gebruik van een veldcomputer met GIS-omgeving waarin je volgende GIS-lagen invoert:
+
+-   de steekproefeenheden van het meetnet in kwestie;
+-   de polygonenkaart afgeleid uit de habitatkaart op basis waarvan de steekproeftrekking voor het meetnet is gebeurd (in deze kaart worden aangrenzende polygonen uit de habitatkaart die hetzelfde type bevatten samengevoegd);
+-   de GRTS-rastercellen met bijhorend rangnummer die in bovenstaande polygonen gelegen zijn, exclusief de rastercellen die al zijn geselecteerd voor het meetnet
+-   de centroïden van deze steekproefeenheden en de GRTS-rastercellen (wanneer de beoordeling in de centroïde van de steekproefeenheid gebeurt);
+
+Binnen elke polygoon ken je dan alle GRTS-rastercellen een relatief rangnummer toe (startend van 1) op basis van het (absolute) rangnummer.
+Zo heb je op het terrein een beter zicht op de volgorde van de rastercellen.
+Bijkomend kan er een script aangemaakt worden waarmee alle mogelijke rastercellen die als vervanging kunnen dienen voor een bepaalde steekproefeenheid gevisualiseerd worden.
+
+Als alternatief kan er gewerkt worden met afgedrukte kaarten.
+
+### Start van de vervangingsprocedure op terrein
+
+Je zoekt enkel een vervangende rastercel voor een steekproefeenheid als de steekproefeenheid als niet geschikt wordt beoordeeld.
+Ter herhaling, we onderscheiden twee types van beoordelingen:
+
+-   beoordeling in de centroïde van de steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in de centroïde van de steekproefeenheid;
+-   beoordeling in de volledige steekproefeenheid (de GRTS-rastercel): de steekproefeenheid is geschikt als het doeltype voorkomt in (een deel van) de steekproefeenheid (maar niet noodzakelijk in de centroïde van de steekproefeenheid).
+
+Het projectprotocol vermeldt welke beoordeling wordt toegepast.
+In de voorbeelden hieronder wordt er steeds vanuit gegaan dat de beoordeling in de centroïde van de steekproefeenheid gebeurt.
+De werkwijze bij een beoordeling in de volledige steekproefeenheid is echter volledig analoog.
+
+### Visualisatie van mogelijke vervangpunten en het te onderzoeken gebied op de veldcomputer
+
+Op de veldcomputer visualiseer je het te onderzoeken gebied (de habitatkaarpolygoon) en de mogelijke vervangende rastercellen met bijhorende relatieve rangnummers met als achtergrond een recente orthofoto zodat je je kan oriënteren op het terrein.
+Figuur \@ref(fig:fig1) toont als voorbeeld een polygoon uit de Habitatkaart, waarin de gele bol de centroïde van een geselecteerde steekproefeenheid voorstelt voor kalkrijk kamgrasland (habitattype 6510_huk).
+De mogelijke vervangende rastercellen worden in het wit weergegeven.
+Volgens de Habitatkaart bestaat de polygoon voor 20 % uit 6510_huk.
+
+```{r fig1, fig.cap = "Centroïde van geselecteerde steekproefeenheid (geel) en mogelijke vervangende rastercellen met relatief rangnummer"}
+
+knitr::include_graphics("media/vervangingsprocedure_1_stap1_metraster.png")
+
+```
+
+### Eerste verkenning van de habitatkaartpolygoon
+
+Op basis van de kaart probeer je de habitatkaartpolygoon waarbinnen je een vervangende rastercel moet selecteren te visualiseren op het terrein.
+Je verkent eventueel al mogelijke zones waar het doeltype aanwezig kan zijn.
+
+### Zoeken naar geschikte vervangende rastercel
+
+#### Werkwijze 1: kartering van doelhabitat binnen polygoon {#werkwijze1}
+
+De eerste werkwijze wordt geïllustreerd in Figuur \@ref(fig:fig2) waarbij alle aanwezige doelhabitat wordt gekarteerd binnen de polygoon.
+Alle habitatvlekken van het doelhabitat worden dus in kaart gebracht.
+Bij voorkeur gebeurt deze kartering in de GIS-omgeving op de veldcomputer.
+Vervolgens kijk je welke vevangende rastercellen geschikt zijn en selecteer je de rastercel met het laagste rangnummer.
+In het (fictieve) voorbeeld in Figuur \@ref(fig:fig2) zijn 3 rastercellen (met relatief rangnummer 3, 6 en 8) geschikt voor vervanging omdat de centroïde in het gekarteerde doeltype valt.
+We selecteren dan de rastercel met het laagste rangnummer (3) ter vervanging van de steekproefeenheid.
+
+```{r fig2, fig.cap = "De geselecteerde steekproefeenheid (met gele centroïde) is niet geschikt. Na kartering van het doelhabitat (gearceerde polygoon), wordt de rastercel met laagste rangnummer waarvan de centroïde binnen het doelhabitat ligt geselecteerd"}
+
+knitr::include_graphics("media/vervangingsprocedure_1_stap2_metraster.png")
+
+```
+
+#### Werkwijze 2: evalueer de mogelijke vervangende rastercellen in volgorde volgens rangnummer {#werkwijze2}
+
+Figuur \@ref(fig:fig3) illustreert een tweede mogelijkheid waarbij de potentiële vervangende rastercellen in volgorde worden bezocht tot er een geschikte rastercel wordt gevonden.
+In het (fictieve) voorbeeld in Figuur \@ref(fig:fig3) wandel je dus eerst naar rastercel 1 (= niet geschikt), vervolgens naar rastercel 2 (= niet geschikt) en kom je vervolgens bij rastercel 3, die wel geschikt blijkt te zijn omdat de centroïde in het doeltype gelegen is.
+Als je onderweg in de buurt van andere rastercellen passeert waarvan je snel kan inschatten dat die niet geschikt zijn, kan je dit uiteraard ook al noteren, zodat je daar niet meer moet terugkomen.
+Bijvoorbeeld, als je van rastercel 1 naar rastercel 2 wandelt, kan je mogelijks al zien dat de centroïden van rastercel 4 en 5 in een bosrand liggen.
+Dan kan je die rastercellen al elimineren voor de vervanging.
+
+Deze werkwijze is minder aangewezen voor polygonen met een grote oppervlakte omdat de kans dan groot is dat je dan heel wat heen en weer moet wandelen.
+Uiteraard moeten werkwijze 1 en werkwijze 2 tot hetzelfde resultaat leiden.
+
+```{r fig3, fig.cap = "De geselecteerde steekproefeenheid (met gele centroïde) is niet geschikt. De rastercellenn worden in volgorde afgelopen en beoordeeeld tot een geschikte rastercel wordt gevonden"}
+
+knitr::include_graphics("media/vervangingsprocedure_1_stap2_bis_metraster.png")
+
+```
+
+#### Wat als er geen geschikte rastercel wordt gevonden?
+
+Wanneer er geen doelhabitat wordt gevonden in de polygoon zal er uiteraard geen geschikte rastercel kunnen geselecteerd worden.
+De vervangprocedure wordt afgerond en er wordt dus geen bemonstering uitgevoerd in de polygoon.
+
+Bij een beoordeling in de centroïden van de rastercellen, kan het ook voorkomen dat er wel doelhabitat aanwezig is, maar dat geen enkele centroïde van een rastercel in doelhabitat gelegen is.
+Dit komt voor in het (fictieve) voorbeeld in Figuur \@ref(fig:fig4).
+In dit geval kunnen de centroïden op een random manier verschoven worden tot er één of meerdere in het doeltype vallen (*Nog verder uit te werken hoe je dit praktisch kan uitvoeren*)
+
+```{r fig4, fig.cap = "Het doelhabitat is aanwezig in de polygoon maar er is geen enkel vervangpunt dat binnen het doelhabitat valt"}
+
+knitr::include_graphics("media/vervangingsprocedure_geenvervangpunt.png")
+
+```
+
+#### Wat als delen van de habitatkaartpolygoon niet toegankelijk zijn of niet beoordeeld kunnen worden?
+
+Wanneer delen van de habitatkaartpolygoon **permanent (of voor een lange tijd) ontoegankelijk** zijn (bv. omdat er een hek aanwezig is), mogen de rastercellen die hierin vallen genegeerd worden en kan de vervangprocedure gewoon verder gezet worden.
+De ontoegankelijke delen vallen immers weg uit het steekproefkader en komen sowieso niet in aanmerking voor bemonstering.
+
+Wanneer delen van de habitatkaartpolygoon tijdelijk ontoegankelijk zijn (bv. door een uitzonderlijke overstroming) of niet beoordeeld kunnen worden (bv. er is recent gemaaid) zal in sommige gevallen de vervangingsprocedure niet kunnen doorgaan.
+We volgen hiervoor volgende regels:
+
+-   de **vervanginsprocedure kan doorgaan** als een geschikte rastercel wordt gevonden met een rangnummer lager dan de rastercel met het laagste rangnummer in de tijdelijk ontoegankelijke of niet te beoordelen zone (bv. als in Figuur \@ref(fig:fig2) de centroïden in rastercellen 6 en 8 tijdelijk ontoegankelijk zijn kan er wel een bemonstering in de geschikte rastercel 3 gebeuren);
+
+-   de **vervanginsprocedure kan niet doorgaan** als de eerste geschikte rastercel een hoger rangnummer heeft dan het laagste rangnummer in de tijdelijk ontoegankelijke of niet te beoordelen zone (bv. als in Figuur \@ref(fig:fig2) de centroïden in de rastercellen 2 en 4 tijdelijk ontoegankelijk zijn kan het zijn dat rastercel 2 de gepaste vervangende rastercel is en niet rastercel 3).
+
+In het laatste geval wordt de vervangprocedure op een ander moment uitgevoerd.
+
+#### Wat als er meerdere vervangpunten gezocht moeten worden?
+
+Het komt voor dat er meerdere steekproefeenheden in een polygoon gelegen zijn en dat er meerdere vervangende rastercellen geselecteerd moeten worden.
+Je gaat dan gewoon verder met [werkwijze 1](#werkwijze1) of [werkwijze 2](#werkwijze2) tot je een volgende geschikte rastercel vindt.
+
+Het kan zijn dat de veldwerkplanning voorschrijft dat de steekproefeenheden binnen een polygoon in verschillende jaren bemonsterd moeten worden.
+Dan kan je toch best tijdens je eerste bezoek alle steekproefeenheden evalueren en indien nodig de geschikte vervangende rastercellen selecteren.
+De eigenlijke bemonstering doe je dan in de jaren zoals de veldwerkplanning het voorschrijft.
+Het voordeel is dan dat je de vervangprocedure maar eenmaal moet doorlopen en dat je tijdens een tweede bezoek rechtstreeks naar de geschikte rastercel kunt navigeren.
+
+## Registratie en bewaring van resultaten
+
+```{=html}
+<!--
+Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
+Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar SIP indien beschikbaar; indien geen SIP beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
+Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden. Geef aan of de stalen voorbehandeld moeten worden. 
+Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen. Geef eventueel aan welke bestandnamen aan de bestanden moeten gegeven worden.
+-->
+```
+Voor alle beoordeelde rastercellen wordt minstens de aan- of afwezigheid van het doelhabitat genoteerd.
+Bij voorkeur wordt bij afwezigheid van het doelhabitat, het geobserveerde habitattype of rbb genoteerd.
+
+Vervolgens wordt voor elke te vervangen steekproefeenheid het relatieve rangnummer van de vervangende rastercel genoteerd.
+
+Je noteert ook welke rastercellen permanent of tijdelijk ontoegankelijk zijn en welke rastercellen niet kunnen beoordeeld worden.
+Indien bij tijdelijk ontoegankelijke of niet te beoordelen rastercellen de vervangprocedure niet kan doorgaan, noteer je een geschikt tijdstip waarop de vervangprocedure mogelijks wel kan uitgevoerd worden (bv. een datum voor de eerste maaibeurt).
