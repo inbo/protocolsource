@@ -13,6 +13,7 @@ file_manager: Mathias Wackenier
 protocol_code: sfp-106-nl
 version_number: "2023.01"
 language: nl
+lang: nl
 theme: water
 site: bookdown::bookdown_site
 template_name: sfp
@@ -47,6 +48,8 @@ opts_chunk$set(
 library(dplyr)
 library(purrr)
 library(protocolhelper)
+library(pander)
+panderOptions("table.alignment.default", "left")
 metadata <- rmarkdown::metadata
 path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
 type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
@@ -63,7 +66,7 @@ tibble(
   taal = metadata[["language"]],
   thema = metadata[["theme"]]
 ) %>%
-  kable()
+  pander::pander(split.tables = Inf)
 ```
 
 ```{r results="asis"}
