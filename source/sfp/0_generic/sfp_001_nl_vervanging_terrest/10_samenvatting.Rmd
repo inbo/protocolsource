@@ -1,0 +1,19 @@
+# Samenvatting
+
+```{=html}
+<!--
+Een samenvattende opsomming van de te volgen stappen. Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
+-->
+```
+Samenvattend bestaat dit veldprotocol uit volgende stappen:
+
+1.  als voorbereiding van het veldwerk laad je de nodige gegevens in een veldcomputer zodat je op terrein de mogelijke vervangende rastercellen en de volgorde ervan kan visualiseren
+
+2.  op terrein start je de vervangprocedure als een steekproefeenheid niet geschikt blijkt
+
+3.  je selecteert een geschikte rastercel door:
+
+    -   werkwijze 1: het doelhabitat te karteren binnen de polygoon en de geschilte rastercel te selecteren met het laagste rangnummer
+    -   werkwijze 2: de rastercellen in volgorde af te lopen tot je een geschikte rastercel vindt
+
+4.  je noteert welke rastercel je hebt geselecteerd als vervanging voor de steekproefeenheid en je noteert ook het resultaat van de beoordeling van alle rastercellen
