@@ -1233,15 +1233,15 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.4.13",
+      "Version": "0.5.0",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "main",
-      "RemoteSha": "0e1318245fedfe7795ea2bee7d5d4fa3b6fbd7a9",
-      "Hash": "ba2b21cb3c06744ccf123ea4cd6066be",
+      "RemoteSha": "6a91823d2863bb848163a725e6ef18411af63746",
+      "Hash": "f1d4a2d7389e448d33817292555e5c0a",
       "Requirements": [
         "R6",
         "assertthat",
