@@ -148,7 +148,7 @@ Het percentage verstoringsindicatoren (helofyten, eutrofiëringsindicatoren en i
 ### Algemene standplaatskenmerken {#algstand}
 
 De algemene kenmerken zijn gebaseerd op veldformulieren opgemaakt t.b.v. de macrofytenmonitoring voor de Europese Kaderrichtlijn Water (Leyssen et al., 2005; Leyssen et al., 2007; Schneiders et al., 2004), veldprotocols voor de hydromorfologiemonitoring (VMM, 2010) en de 'River Habitat Survey' (Environment Agency, 2003).
-Voor definities van de kenmerken wordt verwezen naar \@ref(definties-en-afkortingen).
+Voor definities van de kenmerken wordt verwezen naar \@ref(definities-en-afkortingen).
 
 De meeste kenmerken worden op het veldformulier geregistreerd door keuzevakjes aan te kruisen (voorkant veldformulier; Bijlage \@ref(veldformulier)); er zijn 2 typen van keuzemogelijkheden:
 
