@@ -1,5 +1,6 @@
 book_filename: sfp_105_nl_bemonsteren_peilbuis.Rmd
 output_dir: ../../../../docs/sfp/1_water/sfp_105_nl_bemonsteren_peilbuis
+edit: https://github.com/inbo/protocolsource/edit/main/source/sfp/1_water/sfp_105_nl_bemonsteren_peilbuis/%s
 rmd_files:
 - index.Rmd
 - NEWS.md
