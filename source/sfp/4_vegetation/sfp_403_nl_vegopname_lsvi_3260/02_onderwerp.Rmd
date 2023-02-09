@@ -1,6 +1,6 @@
 # Onderwerp
 
-## Definities en afkortingen {#def}
+## Definities en afkortingen
 
 **Habitattype 3260:** Dit Natura 2000-habitattype omvat de submontane - en laaglandrivieren met vegetaties behorende tot het *Ranunculion fluitantis* en het *Callitricho-Batrachion.* Het wordt voornamelijk gekenmerkt door het voorkomen van waterranonkels, haaksterrenkroos en/of bepaalde fonteinkruiden.
 Het al dan niet voorkomen van dit habitattype wordt in Vlaanderen bepaald door de aanwezigheid van een aantal sleutelsoorten die vermeld staan in Bijlage \@ref(sleutel) (De Saeger et al., 2008; Leyssen et al., 2010).
