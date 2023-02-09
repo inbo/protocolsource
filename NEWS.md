@@ -1,7 +1,7 @@
 ### First version of protocol: sfp-201-nl
 
 - Title: Bemonsteren aan de hand van oppervlaktemonsters
-- Published on: 2023-02-08
+- Published on: 2023-02-09
 - Version number: 2023.02
 - Link to this version: [sfp-201-nl version 2023.02](2023.02/index.html)
 
