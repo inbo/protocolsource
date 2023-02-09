@@ -1,5 +1,6 @@
 book_filename: sfp_106_nl_waterpeil_peilbuis.Rmd
 output_dir: ../../../../docs/sfp/1_water/sfp_106_nl_waterpeil_peilbuis
+edit: https://github.com/inbo/protocolsource/edit/main/source/sfp/1_water/sfp_106_nl_waterpeil_peilbuis/%s
 rmd_files:
 - index.Rmd
 - NEWS.md
