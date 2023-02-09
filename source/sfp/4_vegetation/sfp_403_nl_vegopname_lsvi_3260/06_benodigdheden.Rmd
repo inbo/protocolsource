@@ -2,20 +2,20 @@
 
 Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en materiaal; enkele daarvan specifiëren we hieronder.
 
-| Benodigdheden                            |                                                                                                                  |
-|:-----------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
-| $\square$ veldformulieren & handleiding  | $\square$ afgeprinte veldkaarten                                                                                 |
-| $\square$ klembord & schrijfgerief       | $\square$ bamboestokken met gekleurd vlagje                                                                      |
-| $\square$ gsm/smartphone                 | $\square$ loep                                                                                                   |
-| $\square$ handcomputer/tablet            | $\square$ gps                                                                                                    |
-| $\square$ lieslaarzen                    | $\square$ fototoestel                                                                                            |
-| $\square$ waadpak                        | $\square$ verrekijker                                                                                            |
-| $\square$ secchi-schijf                  | $\square$ rolmeter/plooimeter                                                                                    |
-| $\square$ hersluitbare zakjes            | $\square$ alcoholstift                                                                                           |
-| $\square$ waterdichte handschoenen       | $\square$ reddingvest                                                                                            |
-| $\square$ ontsmettende zeep              | $\square$ reddingstouw                                                                                           |
-| $\square$ vegetatiehark                  | $\square$ Flora van België (Lambinon et al., 1998) en/of andere determinatiewerken (Bijlage \@ref(determinatie)) |
-| $\square$ bamboestok met schaalverdeling |                                                                                                                  |
+| Benodigdheden                                           |                                                                                                                  |
+|:--------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+| $\square$ veldformulieren & handleiding                 | $\square$ afgeprinte veldkaarten                                                                                 |
+| $\square$ schrijfgerief: papier & potlood, alcoholstift | $\square$ klembord                                                                                               |
+| $\square$ gsm/smartphone                                | $\square$ loep                                                                                                   |
+| $\square$ handcomputer/tablet                           | $\square$ gps                                                                                                    |
+| $\square$ lieslaarzen                                   | $\square$ waterbestendig fototoestel of fototoestel en waterdichte behuizing                                     |
+| $\square$ waadpak                                       | $\square$ verrekijker                                                                                            |
+| $\square$ secchi-schijf                                 | $\square$ rolmeter/plooimeter                                                                                    |
+| $\square$ hersluitbare zakjes                           | $\square$ alcoholstift                                                                                           |
+| $\square$ waterdichte handschoenen                      | $\square$ reddingvest                                                                                            |
+| $\square$ ontsmettende zeep                             | $\square$ reddingstouw                                                                                           |
+| $\square$ vegetatiehark met schaalverdeling             | $\square$ Flora van België (Lambinon et al., 1998) en/of andere determinatiewerken (Bijlage \@ref(determinatie)) |
+| $\square$ bamboestok met schaalverdeling                | $\square$ stroomsnelheidsmeter (zie \@ref())                                                                     |
 
 : (#tab:Tabel1) Checklist veldmateriaal.
 
