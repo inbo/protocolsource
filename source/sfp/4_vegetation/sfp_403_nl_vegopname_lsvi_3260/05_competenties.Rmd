@@ -6,4 +6,6 @@ Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardighede
 Eventueel kan er verwezen worden naar bepaalde opleidingen.
 -->
 ```
-Voldoende kennis van de veldkenmerken van macrofyten die in waterlopen worden aangetroffen en vertrouwd zijn met technieken om ze te kunnen identificeren.
+Voldoende kennis van de veldkenmerken van macrofyten die in waterlopen worden aangetroffen, vertrouwd zijn met technieken om ze te kunnen identificeren en vertrouwd zijn met de deelprotocol sfp-015, sfp-112, sfp-113 en sfp-118.
+Daarnaast zijn volgende algemene competenties vereist (naar Bijkerk, 2014): nauwkeurigheid: de uitvoering van veldmetingen en het vastleggen van veldwaarnemingen vereisen een grote mate van accuraatheid; vermogen te plannen en te organiseren: bij de uitvoering van meetprogramma's moeten tal van werkzaamheden gepland, georganiseerd en op elkaar afgestemd worden.
+De veldmedewerker moet in staat zijn om hier zelfstandig of in overleg met de projectleider uitvoering aan te geven; zelfstandigheid: de veldmedewerker moet in staat zijn om het merendeel van de werkzaamheden zelfstandig (op locatie) uit te voeren; vermogen tot samenwerken en communiceren; de veldmedewerker moet fysiek in staat kunnen zijn om het protocol in veilige omstandigheden te kunnen uitvoeren (kunnen zwemmen, ...).
