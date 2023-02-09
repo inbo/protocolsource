@@ -49,12 +49,12 @@ Er wordt van twee vegetatievlekken gesproken indien de afstand tussen beide mins
 
 ## Doelstelling en toepassingsgebied
 
-Het doel van het veldprotocol is om gegevens te verzamelen die een beoordeling van de indicatoren van de LSVI toelaten voor een 100 meter-strook van het Natura 2000-habitattype 3260.
-De LSVI-indicatoren zijn beschreven door T'jollyn et al. (2009, versie 2) en Oosterlynck et al. (in voorbereiding, versie 3).
+Het doel van het veldprotocol is om gegevens te verzamelen die een beoordeling van de indicatoren van de LSVI toelaten voor een 100 meter-segment van het Natura 2000-habitattype 3260.
+De LSVI-indicatoren zijn beschreven door T'jollyn et al. (2009, versie 2) en Oosterlynck et al. (2020, versie 3).
 Daarnaast laat het veldprotocol ook toe om de kwaliteit van macrofyten in functie van de KRW te beoordelen (Leyssen et al., 2005; Schneiders et al., 2004).
 
 Het veldprotocol wordt gebruikt voor het bemonsteren van de steekproefpunten van het habitatkwaliteitsmeetnet voor habitattype 3260.
-De selectiemethode van steekproefpunten is beschreven in het rapport over de habitatkwaliteitsmonitoring [@westra2014].
+De selectiemethode van steekproefpunten is beschreven in het rapport over de habitatkwaliteitsmonitoring (Westra et al., 2022; Westra et al., 2014).
 Dit meetnet is geconcipieerd om de habitatkwaliteit van habitattype 3260 op Vlaams schaalniveau te kunnen inschatten.
 De resultaten van dit meetnet zullen o.a.
 gebruikt worden voor de 6-jaarlijkse rapportage over de staat van instandhouding van habitattype 3260 aan de Europese Commissie.
