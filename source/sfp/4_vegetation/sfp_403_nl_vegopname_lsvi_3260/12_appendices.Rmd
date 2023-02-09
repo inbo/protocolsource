@@ -1,8 +1,6 @@
 # (APPENDIX) Bijlagen {.unnumbered}
 
-<!--# Titel eerste bijlage-->
-
-# Soortenlijst sleutelsoorten
+# Soortenlijst sleutelsoorten {#sleutel}
 
 ```{r}
 bijlage <- read.csv2("data/sfp_403_nl_bijlage1_4.csv")
@@ -13,7 +11,7 @@ bijlage %>%
   filter(Indicator == "Soortenlijst sleutelsoorten") %>%
   mutate(Wetenschappelijke.naam = paste0("*", Wetenschappelijke.naam, "*")) %>%
   select("Wetenschappelijke naam" = Wetenschappelijke.naam , "Nederlandse naam" = Nederlandse.naam) %>%
-  kable(caption = "Soortenlijst sleutelsoorten")
+  pander::pander(split.tables = Inf)
 ```
 
 # Eutrofiëringsindicatoren {#eutr}
@@ -23,7 +21,7 @@ bijlage %>%
   filter(Indicator == "Eutrofiëringsindicatoren") %>%
   mutate(Wetenschappelijke.naam = paste0("*", Wetenschappelijke.naam, "*")) %>%
   select("Wetenschappelijke naam" = Wetenschappelijke.naam , "Nederlandse naam" = Nederlandse.naam) %>%
-  kable(caption = "Eutrofiëringsindicatoren")
+  pander::pander(split.tables = Inf)
 ```
 
 # Invasieve exoten {#invasief}
@@ -33,7 +31,7 @@ bijlage %>%
   filter(Indicator == "Invasieve exoten") %>%
   mutate(Wetenschappelijke.naam = paste0("*", Wetenschappelijke.naam, "*")) %>%
   select("Wetenschappelijke naam" = Wetenschappelijke.naam , "Nederlandse naam" = Nederlandse.naam) %>%
-  kable(caption = "Invasieve exoten")
+  pander::pander(split.tables = Inf)
 ```
 
 # Soorten met meerdere groeivormen {#groeivormen}
@@ -43,7 +41,7 @@ bijlage %>%
   filter(Indicator == "Soorten met meerdere groeivormen") %>%
   mutate(Wetenschappelijke.naam = paste0("*", Wetenschappelijke.naam, "*")) %>%
   select("Wetenschappelijke naam" = Wetenschappelijke.naam , "Nederlandse naam" = Nederlandse.naam, "Groeivormen") %>%
-  kable(caption = "Invasieve exoten")
+  pander::pander(split.tables = Inf)
 ```
 
 # Veldformulier habitatkwaliteit waterlopen met habitattype 3260 {#veldformulier}
