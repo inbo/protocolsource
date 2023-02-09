@@ -3,7 +3,7 @@ title: Vegetatieopname en LSVI-bepaling habitat 3260
 author:
 - name: Leyssen, An
   orcid: 0000-0003-3537-286X
-date: '2017-02-07'
+date: "`r Sys.Date()`"
 reviewers: Luc Denys, Toon Westra, Hans Van Calster
 file_manager: Toon Westra
 protocol_code: sfp-403-nl

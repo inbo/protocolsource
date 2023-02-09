@@ -18,4 +18,4 @@ Gesorteerd van recent naar oud.
 ```
 ## [2023.02](../2023.02/index.html)
 
--   Eerste versie van het protocol
+-   Dit is de eerste versie van het protocol dat dateert van 07-02-2017. Het oorspronkelijk versienummer is 1.0.
