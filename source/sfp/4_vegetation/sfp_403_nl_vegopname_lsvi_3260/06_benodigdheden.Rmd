@@ -15,7 +15,7 @@ Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en mater
 | $\square$ waterdichte handschoenen                      | $\square$ reddingvest                                                                                            |
 | $\square$ ontsmettende zeep                             | $\square$ reddingstouw                                                                                           |
 | $\square$ vegetatiehark met schaalverdeling             | $\square$ Flora van België (Lambinon et al., 1998) en/of andere determinatiewerken (Bijlage \@ref(determinatie)) |
-| $\square$ bamboestok met schaalverdeling                | $\square$ stroomsnelheidsmeter (zie \@ref())                                                                     |
+| $\square$ bamboestok met schaalverdeling                | $\square$ stroomsnelheidsmeter (zie \@ref(stroomsnelheidsmeter))                                                 |
 
 : (#tab:Tabel1) Checklist veldmateriaal.
 
@@ -44,6 +44,10 @@ Een RTK-gps is niet nodig voor dit type veldwerk, tenzij het een experimentele o
 Voor de positiebepaling, de invoer van veldgegevens op terrein of de breedtebepaling van de waterloop kan gebruik gemaakt worden van een handcomputer of (rugged) tablet.
 Het toestel zelf of de hoes errond dient geschikt te zijn voor veldomstandigheden (schokbestendig, stofvrij en (spat)waterdicht).
 
+### Stroomsnelheidsmeter
+
+Voor de bepaling van de stroomsnelheid wordt gebruik gemaakt van een draagbare akoestische Doppler snelheidsmeter, bijvoorbeeld van het type FlowTracker 2 (Flow-Tronic, 1994).
+
 ## Materiaal
 
 ```{=html}
@@ -63,13 +67,7 @@ Met een loep van 20x kunnen detailkenmerken (kranswieren, sterrenkroos, ...) tij
 
 Om de breedte van de waterloop te meten is een oprolbaar meetlint nodig.
 Zorg ook voor een pin met haak voor het vastmaken van het meetlint.
-Als alternatief kan een afstandsmeter[^06_benodigdheden-1] of de SmartMeasure-applicatie[^06_benodigdheden-2] worden gebruikt
-. De nauwkeurigheid en de praktische toepasbaarheid hiervan zijn nog te bepalen
-.
-
-[^06_benodigdheden-1]: Bijvoorbeeld <http://www.disto-afstandmeter.nl/disto_afstandsmeters/Disto%20X310>
-
-[^06_benodigdheden-2]: <https://play.google.com/store/apps/details?id=kr.sira.measure&hl=nl>
+Als alternatief kan een laserafstandsmeter of een smartphoneapplicatie die afstanden meet (bv. SmartMeasure[\^06_benodigdheden-2]) worden gebruikt.
 
 ### Vegetatiehark met telescopische steel
 
@@ -94,14 +92,14 @@ include_graphics("media/image2.jpeg")
 
 ### Hersluitbare zakjes en alcoholstift
 
-Het gebeurt vaak dat identificatie in het veld niet mogelijk is en dat het plantenmateriaal naar het labo wordt gebracht voor verdere determinatie.
-Voor het tijdelijk bewaren van plantenmateriaal wordt gebruik gemaakt van (diepvries-)zakjes met sluiting.
-De zakjes worden gelabeld met alcoholstift of een papiertje met de in potlood aangebrachte veldcode wordt in het zakje gestoken.
+Wanneer identificatie in het veld niet mogelijk is, wordt het plantenmateriaal naar het labo gebracht voor verdere determinatie.
+Voor het tijdelijk bewaren van plantenmateriaal worden zakjes met sluiting gebruikt.
+De zakjes worden voorzien van een label met alcoholstift (veldcode en datum) of een papieren label met deze info in potlood in het zakje zelf.
 
 ### Secchi-schijf
 
 Een secchi-schijf met een diameter van 20 cm (Figuur \@ref(fig:Figuur1)) wordt gebruikt om de secchi-diepte te bepalen.
-Het touw waaraan de secchi-schijf is bevestigd, is voorzien van een maatverdeling om de diepte te kunnen bepalen.
+Het koord waaraan de secchi-schijf is bevestigd, is voorzien van een maatverdeling om de diepte te kunnen bepalen.
 Indien een secchi-schijf met andere diameter wordt gebruikt, dient dit vermeld te worden.
 
 ```{r Figuur1, fig.cap= "Secchi-schijf met maatverdeling op het touw"}
