@@ -1,7 +1,7 @@
 ### First version of protocol: sfp-401-nl
 
 - Title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie
-- Published on: 2023-02-08
+- Published on: 2023-02-09
 - Version number: 2023.02
 - Link to this version: [sfp-401-nl version 2023.02](2023.02/index.html)
 
