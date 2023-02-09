@@ -1,7 +1,7 @@
 ### First version of protocol: sfp-105-nl
 
 - Title: Richtlijnen voor het bemonsteren van peilbuizen
-- Published on: 2023-02-08
+- Published on: 2023-02-09
 - Version number: 2023.02
 - Link to this version: [sfp-105-nl version 2023.02](2023.02/index.html)
 
