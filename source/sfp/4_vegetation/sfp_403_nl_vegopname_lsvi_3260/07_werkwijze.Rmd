@@ -229,15 +229,17 @@ Dit wordt enkele malen herhaald.
 Indien de schijf tot op de bodem zichtbaar is, wordt 'bodemzicht' aangevinkt.
 De meting van de secchi-diepte dient in het midden van de waterloop uitgevoerd te worden ter hoogte van de plaats waar ook het dwarsprofiel wordt opgemeten.
 Bij te grote diepte, kan de secchi-diepte bepaald worden vanop een brug.
-Wanneer door stroming de secchi-schijf sterk afdrijft en de schijf niet loodrecht onder het wateroppervlakt komt te hangen, kan de secchi-schijf aan de onderzijde verzwaard worden.
+Wanneer door stroming de secchi-schijf sterk afdrijft en de schijf niet loodrecht onder het wateroppervlak komt te hangen, kan de secchi-schijf aan de onderzijde verzwaard worden.
 Zie ook deelprotocol (sfp-113).
 
 #### Dominant oeverprofiel
 
 Het dominante oeverprofiel wordt per oeverzijde genoteerd.
-In vergelijking met de uitgebreide oeverprofieltypen van RHS (2003) en VMM (2010), worden er slechts 3 grote categorieën onderscheiden: rechte of holle oevers (± 90°); sterk hellende oevers ($\geq$ 45°) en zwak hellende oevers (\< 45°)[\^4].
+In vergelijking met de uitgebreide oeverprofieltypen van RHS (2003) en VMM (2010), worden er slechts 3 grote categorieën onderscheiden: rechte of holle oevers (± 90°); sterk hellende oevers ($\geq$ 45°) en zwak hellende oevers (\< 45°)[^07_werkwijze-1].
 Er wordt genoteerd of het om een (overwegend) natuurlijk of een kunstmatig profiel gaat.
 Elke kunstmatig aangebrachte vorm van oeverversteviging die tot doel heeft de oever of de rand van de plas-draszone te vrijwaren van erosie en op die manier de stroombaan te fixeren, wordt beschouwd als 'kunstmatig' (VMM, 2010).
+
+[^07_werkwijze-1]: Om de graden van het oeverprofiel in te schatten kan volgende app gebruikt worden: (<https://play.google.com/store/apps/details?id=kr.sira.protractor&hl=nl>)
 
 Voorbeeld 1: Onverharde verticale of holle oevers die door erosie ontstaan, worden gerekend tot natuurlijke rechte oevers.
 
@@ -274,10 +276,4 @@ De geïdentificeerde specimen worden bewaard in een herbarium.
 
 ### Opslag van foto's
 
--   de naam van de foto wordt vervangen door de locatiecode en een volgnummer;
-
--   de foto's worden chronologisch per datum in mappen bewaard;
-
--   om het opzoeken van foto's achteraf te vergemakkelijken wordt in de Microsoft verkenner gebruik gemaakt van labels.
-    Er kunnen labels toegevoegd worden voor de naam van de waterloop (bijv. KleineNete; opgelet: probleem met spaties), voor specifieke soorten (bijv. *Luronium*) en per project (Hydro3260, HabKwal, MonLN,...).
-
+-   De foto's worden chronologisch per datum in mappen bewaard, waarbij de locatiecode en de datum in de map- of bestandsnaam wordt vermeld

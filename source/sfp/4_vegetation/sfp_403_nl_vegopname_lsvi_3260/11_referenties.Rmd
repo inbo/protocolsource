@@ -1,5 +1,12 @@
 # Referenties {.unnumbered}
 
+Bijkerk R.
+(2014).
+Handboek hydrobiologie.
+Deel 1.
+Biologisch onderzoek voor de ecologische beoordeling van Nederlandse zoete en brakke oppervlaktewateren.
+Stichting Toegepast Onderzoek Waterbeheer, Amersfoort.
+
 Bird G.A., Kaushik N.K.
 (1981).
 Coarse Particulate Organic Matter in Streams.
@@ -13,16 +20,28 @@ De Saeger S., Paelinckx D., Demolder H., Denys L., Packet J., Thomaes A., Vandek
 (2008).
 Sleutel voor het karteren van NATURA2000 habitattypen in Vlaanderen, grotendeels vertrekkende van de karteringseenheden van de Biologische Waarderingskaart, versie 5.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
-
 Denys L.
 (2011).
 Advies over de bepaling van de vegetatieontwikkeling van submerse vegetatie en enkele aanpassingen m.b.t. de beoordeling van macrofyten in Vlaamse meren voor de Europese Kaderrichtlijn Water.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
 
+Denys L., Leyssen A., Vanden Borre J.
+(2016).
+Advies over de effecten van beschaduwing op de EKC van macrofyten.
+Instituut voor Natuur- en Bosonderzoek, Brussel.
 Environment Agency.
 (2003).
 River habitat survey in Britain and Ireland.
 Environment Agency, Warrington.
+
+Flow-Tronic.
+(1994).
+FLO-MATE.
+Manuel d'Installation & d'Utilisation.
+Flow-Tronic nv., Welkenraedt.
+Hartong H., Termes P. (2009).
+Handboek debietmeten in open waterlopen.
+STOWA, Utrecht.
 
 Lambinon J., De Langhe J.E., Delvosalle L., Duvigneaud J.
 (1998).
@@ -33,22 +52,28 @@ Leyssen A., Adriaens P., Denys L., Packet J., Schneiders A., Van Looy K., Vanhec
 (2005).
 Toepassing van verschillende biologische beoordelingssystemen op Vlaamse potentiële interkalibratielocaties overeenkomstig de Europese Kaderrichtlijn Water -- partim "Macrofyten".
 Instituut voor Natuurbehoud, Brussel.
+Rapport van het Instituut voor Natuurbehoud 2005 (5).
 
 Leyssen A., Denys L., Packet J., Schneiders A., Van Looy K., Paelinckx D.
 (2010).
-Indicatieve situering van het Natura 2000 habitattype 3260, submontane - en laaglandrivieren met vegetaties behorende tot het *Ranunculion fluitantis* en het *Callitricho-Batrachion*.
+Indicatieve situering van het Natura 2000 habitattype 3260, submontane - en laaglandrivieren met vegetaties behorende tot het Ranunculion fluitantis en het Callitricho-Batrachion.
 Versie 1.3.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
+Rapporten van het Instituut voor Natuur- en Bosonderzoek 2010 (67).
 
 Leyssen A., Packet J., Denys L.
 (2007).
 Handleiding macrofyteninventarisatie en fytobenthosstaalname in waterlopen.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
-
 Oosterlynck P., De Saeger S., Leyssen A., Provoost S., Thomaes A., Vandevoorde B., Wouters J., Paelinckx D.
-(in voorbereiding).
-Criteria voor de beoordeling van de lokale staat van instandhouding van de NATURA 2000-habitattypen, versie 3.0.
+(2020).
+Criteria voor de beoordeling van de lokale staat van instandhouding van de Natura 2000-habitattypen, versie 3.0.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
+Osté A.J., de Groot B., van Dam O.
+(2013).
+Handboek Hydromorfologie 2.0.
+Afleiding en beoordeling hydromorfologische parameters Kaderrichtlijn Water.
+Directoraat-Generaal Rijkswaterstaat, Den Haag.
 
 RHS.
 (2003).
@@ -58,16 +83,40 @@ Environment Agency Surrey.
 Schneiders A., Denys L., Jochems H., Vanhecke L., Triest L., Es K., Packet J., Knuysen K., Meire P. (2004).
 Ontwikkelen van een monitoringsysteem en een beoordelingssysteem voor macrofyten in oppervlaktewateren in Vlaanderen overeenkomstig de Europese Kaderrichtlijn Water.
 Instituut voor Natuurbehoud, Brussel.
+Rapporten van het Instituut voor Natuurbehoud 2004 (1).
+
+Stone M.L., Rasmussen T.J., Bennett T.J., Poulton B.C., Ziegler A.C.
+(2012).
+Protocols for collection of streamflow, water-quality, streambed-sediment, periphyton, macroinvertebrate, fish and habitat data to describe stream quality for the hydrobiological monitoring Program, Equus Beds Aquifer Storage and Recovery Program, City of Wichita, Kansas.
+U.S. Geological Survey, Virginia.
+Open-File Report 2012--1055.
 
 T'jollyn F., Bosch H., Demolder H., De Saeger S., Leyssen A., Thomaes A., Wouters J., Paelinckx D., Hoffmann M.
 (2009).
 Ontwikkeling van criteria voor de beoordeling van de lokale staat van instandhouding van de Natura 2000 habitattypen: Versie 2.0.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
-
 VMM.
 (2010).
 Hydromorfologie: handleiding veldwerkformulier.
 Vlaamse Milieumaatschappij, Brussel.
+
+West Virginia Department of Environmental Protection.
+(2018).
+Stream flow measurement protocols.
+Department of Environmental Protection, West-Virginia.
+Westra T., Oosterlynck P., Govaere L., Leyssen A., Denys L., Packet J., Scheers K., Vanderhaeghe F., Vanden Borre J.
+(2022).
+Monitoring scheme for biotic habitat quality of Natura 2000 habitat types in Flanders, Belgium.
+Revision of the monitoring design.
+. Research Institute for Nature and Forest Brussels.
+25.
+
+Westra T., Oosterlynck P., Govaere L., Leyssen A., Denys L., Packet J., Scheers K., Vanderhaeghe F., Vanden Borre J.
+(2022).
+Monitoring scheme for biotic habitat quality of Natura 2000 habitat types in Flanders, Belgium.
+Revision of the monitoring design.
+. Research Institute for Nature and Forest Brussels.
+25.
 
 ::: {#refs}
 :::

@@ -16,6 +16,18 @@ Gesorteerd van recent naar oud.
 - Eerste versie van het protocol
 -->
 ```
+## [2023.03](../2023.03/index.html)
+
+-   Voor de aanwezigheid van grof organisch materiaal wordt voor bladeren en twijgjes een minimum van 1% bedekking vooropgesteld (sinds veldperiode 2019; zie \@ref(bedekking-verstoringsindicatoren)).
+
+-   De stroomsnelheid wordt gemeten en genoteerd tijdens de vegetatieopname (sinds veldperiode 2020; zie \@ref(stroomsnelheid)).
+
+-   Tot eind 2022 werd bij de inschatting van het % schaduw door bomen en struiken de houtige gewassen die in het water stonden uitgesloten.
+    Vanaf het veldseizoen 2023 zal dit meegerekend worden (zie \@ref(schaduw)).
+    Vanaf het veldseizoen van 2023 wordt de schaduw door overhangende oevervegetatie niet meer genoteerd.
+
+-   De overige wijzigingen t.o.v. de vorige versie bestaan uit verduidelijkingen van begrippen; dit zijn geen fundamentele wijzigingen.
+
 ## [2023.02](../2023.02/index.html)
 
 -   Dit is de eerste versie van het protocol dat dateert van 07-02-2017. Het oorspronkelijk versienummer is 1.0.
