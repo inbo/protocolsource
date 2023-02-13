@@ -7,11 +7,12 @@ on:
 jobs:
   build:
     if: github.event.review.state == 'approved'
-      && startsWith(github.head_ref, 'sfp-')
+      && github.event.pull_request.base.ref == 'main'
+      && (startsWith(github.head_ref, 'sfp-')
       || startsWith(github.head_ref, 'sip-')
       || startsWith(github.head_ref, 'sop-')
       || startsWith(github.head_ref, 'sap-')
-      || startsWith(github.head_ref, 'spp-')
+      || startsWith(github.head_ref, 'spp-'))
     runs-on: ubuntu-latest
     name: "update repo news and zenodo"
     steps:
