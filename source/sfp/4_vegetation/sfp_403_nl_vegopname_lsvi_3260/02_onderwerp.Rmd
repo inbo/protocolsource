@@ -2,7 +2,7 @@
 
 ## Definities en afkortingen
 
-**Bodemplaat**: lokale bodemverharding zonder opstuwing (VMM, 2010), meestal is dit een betonnen plaat.4
+**Bodemplaat**: lokale bodemverharding zonder opstuwing (VMM, 2010), meestal is dit een betonnen plaat.
 
 **Bodemval**: lokale bodemverharding met opstuwende werking, bijvoorbeeld door een lokale artificiële verhoging van de bedding (VMM, 2010).
 Duiker: een duiker of koker gaat meestal relatief rechtlijnig onder een weg, gebouw of andere constructie door.
@@ -58,4 +58,3 @@ De selectiemethode van steekproefpunten is beschreven in het rapport over de hab
 Dit meetnet is geconcipieerd om de habitatkwaliteit van habitattype 3260 op Vlaams schaalniveau te kunnen inschatten.
 De resultaten van dit meetnet zullen o.a.
 gebruikt worden voor de 6-jaarlijkse rapportage over de staat van instandhouding van habitattype 3260 aan de Europese Commissie.
-

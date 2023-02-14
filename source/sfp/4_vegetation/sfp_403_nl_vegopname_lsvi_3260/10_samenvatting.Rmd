@@ -22,7 +22,7 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
     -   bepaling stroomsnelheid.
 
 -   STAP 4.
-    Voer vegetatieopname uit.
+    **Voer vegetatieopname uit**.
     Afhankelijk van de waterdiepte gebeurt dit op een van volgende manieren: door het water wadend, harkend vanuit het doorwaadbare deel van de waterloop of harkend vanaf de oever.
 
     -   Wanneer het segment stroomopwaarts wordt afgelegd, noteert men (1) alle soorten (met wortels in water of waterbodem), (2) de groeivorm van de soorten wanneer deze afwijkt van wat doorgaans wordt aangetroffen (zie Bijlage \@ref(groeivormen)) en (3) het aantal vegetatievlekken van sleutelsoorten per oppervlakteklasse. Soorten die niet ter plekke kunnen geïdentificeerd worden, bewaart men in gelabelde zakjes en worden later op naam gebracht.
@@ -34,4 +34,3 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
 -   STAP 6.
     Soorten die niet konden worden geïdentificeerd op terrein, worden binnen de week na bemonstering gedetermineerd.
     Gegevens worden ingegeven in INBOVEG indien dit nog niet is gebeurd op terrein.
-
