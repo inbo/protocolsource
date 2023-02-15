@@ -2,7 +2,7 @@ name: Check the protocol on pull request
 
 on:
   pull_request:
-    types: [synchronize, opened, reopened, edited]  #en zie https://github.com/actions/runner/issues/980
+    types: [synchronize, opened, reopened, edited, ready_for_review]  #en zie https://github.com/actions/runner/issues/980
     branches:
       - main
 
