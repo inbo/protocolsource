@@ -178,17 +178,9 @@ This website will host all approved and published versions of all protocols.
     4.  press the commit button
     5.  press the push button (or postpone pushing until several commits have been made)
 
-6.  The subject-matter specialist visits [github protocolsource](https://github.com/inbo/protocolsource) and starts a Pull Request (PR)
+6.  Continue work on the protocol
 
-    ![](src/management/pr-on-github-1.png)
-
-    ![](src/management/pr-on-github-2.png)
-
-7.  Mark the PR as a draft
-
-    ![](src/management/pr-on-github-3.png)
-
-8.  Continue work on the protocol
+    0.  make sure the protocol branch is up to date with the main branch: open the Git shell and type `git pull origin main`
 
     1.  See [What to do in case of parameterized protocols?](#parameterized)
         for specific guidelines about parameterizing parts of a protocol
@@ -199,17 +191,29 @@ This website will host all approved and published versions of all protocols.
     3.  See [What to do in case of translations?](#translations)
         for guidance about translations of protocols
 
-    4.  regularly preview the html version of the protocol:
+    4.  Use `protocolhelper::check_frontmatter("<protocol-code>")` to check for issues in the frontmatter of your `index.Rmd` file.
+        Fix any issues found.
 
-        1.  with `protocolhelper::render_protocol(protocol_folder_name =     "name-of-your-protocol-folder")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol)
+    5.  Regurlarly use `protocolhelper::check_structure("<protocol-code>")` to check for issues regarding the structure of your protocol.
+        Fix any issues found.
+
+    6.  Regularly preview the html and pdf versions of the protocol:
+
+        1.  with `protocolhelper::render_protocol("<protocol-code>")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol)
         2.  alternatively, download the rendered version: see [these instructions](REVIEWING.md)
 
-    5.  add text, media, ... to the Rmarkdown files
-    6.  save your changes
+    7.  add text, media, references, ... to the Rmarkdown files
 
-    7.  stage, commit, push changes
+    8.  save your changes
 
-9.  When finished, go to your draft pull request and press 'ready for review' 
+    9.  stage, commit, push changes
+
+
+7.  When you think your protocol is ready to be reviewed, visit [github protocolsource](https://github.com/inbo/protocolsource) and start a Pull Request (PR)
+
+    ![](src/management/pr-on-github-1.png)
+
+    ![](src/management/pr-on-github-2.png)
 
    1. Wait for the continuous integration checks to finish and see if the checks succeeded.
    These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`, and update the version number if needed.
@@ -229,16 +233,21 @@ This website will host all approved and published versions of all protocols.
 
 10.  Reviewers can follow [these guidelines](REVIEWING.md)
 
-11. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push)
+11. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push).
+    If the review requires substantial changes, it is wise to temporarilly mark the PR as draft
 
-12. When all reviewers have given their approval, the **repo admin** needs to do some necessary admin tasks before merging [see RELEASES.md](RELEASES.md)
+    ![](src/management/pr-on-github-3.png)
 
-13. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
+    When you have dealt with the reviewer comments, go to your draft pull request and press 'ready for review'
+
+12. When the reviewers have given approval, another GitHub Action will run automatically and update the repo `NEWS.md` file and the `.zenodo.json` files and commit the changes to your branch. 
+
+13. When this is done, a **repo admin** will merge your Pull Request. This will trigger another set of GitHub Actions [see RELEASES.md](RELEASES.md) which will publish your protocol to the [protocols website](https://inbo.github.io/protocols/) and archive it on Zenodo. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
 ### Updating an existing protocol
 
--   use `protocolhelper::update_protocol(<protocol-code>)` and (re-)use the <protocol-code> of the protocol that needs an update
--   after this step you can proceed from step 5 of [the workflow for a new protocol](#workflow-new) 
+-   use `protocolhelper::update_protocol("<protocol-code>")` and (re-)use the <protocol-code> of the protocol that needs an update
+-   after this step you can proceed from step 6 of [the workflow for a new protocol](#workflow-new) 
 -   don't forget to document the substantive changes between the updated version and the previous version in the protocol-specific `NEWS.md`
 
 ### Converting a pre-existing protocol written in `docx` format
@@ -253,8 +262,8 @@ For adding a **pre-existing version of a protocol that was written in `docx` for
 
 ## Starting a new protocol with the aid of protocolhelper functions
 
-The name and location of the protocol files and folder will be automatically determined by means of the input that you provide as arguments of the `create_`-family of functions (`create_protocol()`, `create_spp()`, `create_sfp()`).
-With `render = TRUE` the Rmarkdown files will be rendered to `html` output in a corresponding folder inside `docs`.
+The name and location of the protocol files and folder will be automatically determined by means of the input that you provide as arguments of the `create_`-family of functions (`create_protocol()`, `create_spp()`, `create_sfp()`, ...).
+With `render = TRUE` the Rmarkdown files will be rendered to `html` and `pdf` output in a corresponding folder inside `docs`.
 This will allow you to check the resulting output locally.
 
 ### From an existing docx protocol
