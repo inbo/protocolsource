@@ -2,15 +2,15 @@
 title: Bemonsteren aan de hand van oppervlaktemonsters
 subtitle: Manueel met steekguts
 author:
-  - name: Nathalie Cools
-    orcid: 0000-0002-7059-2318
-  - name: Bruno De Vos
-    orcid: 0000-0001-9523-3453
-date: 2021-05-12
-reviewers: [Hans Van Calster]
+- name: Nathalie Cools
+  orcid: 0000-0002-7059-2318
+- name: Bruno De Vos
+  orcid: 0000-0001-9523-3453
+date: '2021-05-12'
+reviewers: Hans Van Calster
 file_manager: Hans Van Calster
 protocol_code: sfp-201-nl
-version_number: "2023.02"
+version_number: '2023.03'
 language: nl
 lang: nl
 theme: soil
@@ -19,10 +19,10 @@ template_name: sfp
 bibliography: referenties.yaml
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 params:
-  proefvlak_vorm: "vierkant"
+  proefvlak_vorm: vierkant
   begin_diepte_cm: 0
   eind_diepte_cm: 10
-  aantal_steken: !r 3^2
+  aantal_steken: 3^2
   guts_diameter_mm: 25
 ---
 
