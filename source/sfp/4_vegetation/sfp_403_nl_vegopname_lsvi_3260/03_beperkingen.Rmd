@@ -1,0 +1,17 @@
+# Beperkingen van het protocol
+
+```{=html}
+<!--
+Alleen in te vullen indien van toepassing.
+Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol.
+Vermeld hier ook mogelijke interferenties, knelpunten, ...
+-->
+```
+In sommige omstandigheden kan er geen opname gemaakt worden.
+De reden hiervoor wordt genoteerd:
+
+-   geen toestemming;
+
+-   tijdelijk ongeschikt (niet toegankelijk, gevaarlijke hond, verhoogd waterpeil, uitgedroogd, ...): het loont de moeite om de locatie later dat jaar een opnieuw te bezoeken;
+
+-   permanent ongeschikt (hek, niet bereikbaar op een veilige manier, teveel bodemverharding, te groot deel ingebuisd, ...).
