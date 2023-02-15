@@ -4,23 +4,20 @@ on:
   pull_request:
     types: [synchronize, opened, reopened, edited]  #en zie https://github.com/actions/runner/issues/980
     branches:
-     - main
+      - main
 
 jobs:
   build:
-    if: startsWith(github.head_ref, 'sfp-')
+    if: github.event.pull_request.draft == false
+      && (startsWith(github.head_ref, 'sfp-')
       || startsWith(github.head_ref, 'sip-')
       || startsWith(github.head_ref, 'sop-')
       || startsWith(github.head_ref, 'sap-')
-      || startsWith(github.head_ref, 'spp-')
+      || startsWith(github.head_ref, 'spp-'))
     runs-on: ubuntu-latest
     name: "check protocol"
     steps:
       - name: Check protocol
         uses: inbo/actions/protocol_check@main
-        with:
-          PAT: ${{ secrets.PAT }}
-      - name: Update protocol
-        uses: inbo/actions/protocol_update@main
         with:
           PAT: ${{ secrets.PAT }}
