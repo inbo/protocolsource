@@ -4,10 +4,6 @@
 
 -   Omzetting van Word versie van het protocol (oud versienummer 1.5)
 
--   TO DO wijzigingen tov 1.5 beschrijven
-
--   ...
-
 -   Voorafgaande historiek:
 
     -   Revisie 1.5 (12-05-2021) bevat enkele aanvullingen van de veiligheidsmaatregelen t.o.v. revisie 1.4.
