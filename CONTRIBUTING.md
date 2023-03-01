@@ -36,11 +36,19 @@ This RStudio project uses [renv](https://rstudio.github.io/renv/articles/renv.ht
 This ensures that different users have the same versions of packages installed.
 See also [collaborating with renv](https://rstudio.github.io/renv/articles/collaborating.html).
 The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library.
-After this has completed, you can use `renv::restore()` to restore the project library locally on your machine.
+After this has completed, you can use `renv::restore()` to restore the R packages in the local project library on your machine.
 
 In case you need another package than the ones installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, ask one of the admins to do this for you.
 It is not allowed to do this in a [protocol-specific branch](#branching).
 Note also that any dependency packages needed by the packages listed in the [DESCRIPTION file](DESCRIPTION) are also available in the project and they are listed in [the lock file](renv.lock).
+
+## Installation of TinyTeX
+
+Apart from the above R packages, you will also need a working installation of TinyTeX, which is an external open-source software package that is needed to render protocols to PDF format (i.e. when you run `protocolhelper::render_protocol()` see [Workflow](#workflow)).
+
+To install this, we recommend to follow the [installation instructions](https://github.com/inbo/INBOmd/#installation) provided by the `INBOmd` R package.
+Please make sure to install this from an R session that runs outside of the RStudio `protocolsource.Rproj`.
+So, close the RStudio project and any other R sessions and start the most recent version of R that is installed on your system and copy-paste the installation instructions in the R console.
 
 ## `(R)markdown` syntax and learning `Rmarkdown`
 
