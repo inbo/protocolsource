@@ -1,5 +1,4 @@
 book_filename: spp_001_nl_mhq_heide.Rmd
-edit: https://github.com/inbo/protocolsource/edit/main/source/spp/mhq/spp_001_nl_mhq_heide/%s
 output_dir: ../../../../../protocoldocs/docs/spp/mhq/spp_001_nl_mhq_heide
 rmd_files:
 - index.Rmd
