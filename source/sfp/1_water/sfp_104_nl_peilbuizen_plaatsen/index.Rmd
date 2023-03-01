@@ -7,7 +7,7 @@ author:
   orcid: 0000-0002-9686-0472
 - name: Toon Van Daele
   orcid: 0000-0002-1362-853X
-date: '2022-04-07'
+date: '`r Sys.Date()`'
 reviewers: Gerrit Genouw
 file_manager: Toon Van Daele
 protocol_code: sfp-104-nl
