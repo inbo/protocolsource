@@ -1,5 +1,5 @@
 book_filename: sfp_104_nl_peilbuizen_plaatsen.Rmd
-output_dir: ../../../../docs/sfp/1_water/sfp_104_nl_peilbuizen_plaatsen
+output_dir: ../../../../../protocoldocs/docs/sfp/1_water/sfp_104_nl_peilbuizen_plaatsen
 rmd_files:
 - index.Rmd
 - NEWS.md
