@@ -1,6 +1,5 @@
 book_filename: sfp_104_nl_peilbuizen_plaatsen.Rmd
 output_dir: ../../../../docs/sfp/1_water/sfp_104_nl_peilbuizen_plaatsen
-edit: https://github.com/inbo/protocolsource/edit/main/source/sfp/1_water/sfp_104_nl_peilbuizen_plaatsen/%s
 rmd_files:
 - index.Rmd
 - NEWS.md
