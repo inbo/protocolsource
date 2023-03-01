@@ -10,7 +10,7 @@ Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met 
 ```
 ## Apparatuur
 
-### **Boormateriaal**
+### Boormateriaal
 
 -   Voor vaste sedimenten
 
@@ -45,7 +45,7 @@ Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met 
 
 ![](./media/image1.jpg){width="5.068562992125984in" height="5.026042213473316in"}
 
-### **GPS (Global Positioning System) toestel**
+### GPS (Global Positioning System) toestel
 
 De nauwkeurigheid is afhankelijk van het type toestel.
 Voor een ruwe plaatsbepaling (nauwkeurigheid van een paar meter in het horizontale vlak) volstaat een handGPS of een GPS in een smartphone.
@@ -63,7 +63,7 @@ vb. vermeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegra
 ```
 We onderscheiden twee types peilbuizen: een basisversie in PVC en een alternatieve versie is in HDPE.
 
-### Materiaal voor een peilbuis in PVC (zie ook uitvoering)::
+### Materiaal voor een peilbuis in PVC (zie ook uitvoering)
 
 -   Blinde buis, PVC, diameter 50mm.
     Lengte in functie van de diepte
@@ -84,7 +84,7 @@ We onderscheiden twee types peilbuizen: een basisversie in PVC en een alternatie
 
 -   Plastic riempjes voor het vastzetten van de filterkous (kabelbinder), minstens 20cm lengte.
 
-Materiaal voor een peilbuis in HDPE (zie ook uitvoering):
+### Materiaal voor een peilbuis in HDPE (zie ook uitvoering)
 
 -   Blinde buis, HDPE, diameter 50mm.
     Lengte in functie van de diepte
@@ -105,7 +105,7 @@ Materiaal voor een peilbuis in HDPE (zie ook uitvoering):
 
 -   Plastic riempjes voor het vastzetten van de filterkous (kabelbinders), minstens 20cm lengte.
 
-Materiaal voor de afwerking (zie ook uitvoering) (foto 2)
+### Materiaal voor de afwerking (zie ook uitvoering) (foto 2)
 
 -   Bentonietkorrels QSE (optioneel)
 
@@ -161,3 +161,4 @@ vb: Zwavelzuur 1M: verdun zwavelzuur geconcentreerd 18 maal met ultrapuur water.
 Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -->
 ```
+Niet van toepassing.
