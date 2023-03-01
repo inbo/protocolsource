@@ -94,13 +94,13 @@ Het is dus aan te raden om ook in veenbodems diepere boorgaten te maken dan op h
 Om te vermijden dat er dan peilen gemeten worden in de peilbuis die (veel) hoger zijn dan het effectieve grondwaterpeil, is het aangewezen om hier effectief een peilbuis (ipv een piëzometer) te plaatsen, dus met een filter van 1 meter lengte.
 
 Wanneer het boorgat steeds weer instort, bv.
-in een zandige of grindige ondergrond wordt er gebruik gemaakt van een verbuizing (foto 1, F).
+in een zandige of grindige ondergrond wordt er gebruik gemaakt van een verbuizing (foto \@ref(fig:foto1), F).
 Er wordt dan een mantelbuis geplaatst die het boorgat intact houdt en waar het materiaal onderaan van binnenuit weggehaald kan worden.
 Na het plaatsen van de peilbuis wordt de mantelbuis weggehaald.
 Tijdens het weghalen van de mantelbuis in vochtig en los sediment kan er een vacuum effect gecreëerd worden waardoor de peilbuis mee omhoog gezogen wordt.
 Om te voorkomen dat de peilbuis terug omhoog komt wordt deze best volledig gevuld met water.
 Soms is het sediment zo los dat er met een Edelmanboor geen materiaal meer opgehaald wordt.
-Als alternatief kan dan een pulsboor een uitweg bieden (foto 1, E).
+Als alternatief kan dan een pulsboor een uitweg bieden (foto \@ref(fig:foto1), E).
 Een pulsboor is een lange buis met onderaan een afsluitklep.
 Door de boor regelmatig op en neer te bewegen (pulsen) wordt het sediment losgewoeld en in de buis verzameld en zo afgevoerd.
 
@@ -136,7 +136,7 @@ De lucht boven het wateroppervlak in de buis moet vrij kunnen in- en uitstromen.
 Hiervoor wordt net onder de afsluitdop een kleine sleuf gezaagd.
 Zonder dergelijke luchtopening komt de buis in over- of onderdruk ten aanzien van de atmosferische druk en zal het peil in de buis niet de werkelijke drukhoogte aangeven.
 
-De afwerking kan zowel bovengronds als ondergronds (Figuur \@ref(fig:Figuur1)).
+De afwerking kan zowel bovengronds als ondergronds (Figuur \@ref(fig:Figuur2)).
 
 ![(#fig:Figuur2) afwerking piëzometers met metalen beschermbuis en hangslot (A) en ondergronds afgewerkt met straatpot (B).](./media/image3.jpg){width="4.223958880139983in" height="3.5081528871391074in"}
 
@@ -149,7 +149,7 @@ Loopt de buis toch over, dan kan je die achteraf makkelijk verhoogd worden.
 De nieuwe hoogte van het nulpunt moet dan wel nauwkeurig gemeten en doorgegeven worden, evenals de datum waarop deze aanpassingen gebeurd zijn..
 Locaties waar kwel kan verwacht worden zijn doorgaans valleigebieden en percelen op of onderaan een helling.
 
-Bovengronds kunnen buizen beschermd worden door er een **metalen beschermbuis** met een minimale lengte van 1 meter overheen te plaatsen (Figuur \@ref(fig:Figuur1), ).
+Bovengronds kunnen buizen beschermd worden door er een **metalen beschermbuis** met een minimale lengte van 1 meter overheen te plaatsen (Figuur \@ref(fig:Figuur2), B).
 Ze kunnen afgesloten worden met een hangslot.Indien er geopteerd wordt om een beschermbuis te plaatsen dan wordt de buis het best afgewerkt tussen de 30 - 40 cm boven het maaiveld om te zorgen dat de beschermbuis optimaal verankerd (minimaal 60 cm moet ondergronds zitten) zit in de bodem.
 Voor het plaatsen van de beschermbuis is er een metalen/houten voorhamer en een blok hout nodig.
 De blok hout dient om te voorkomen dat de beschermbuis schade oploopt door de hamerslagen tijdens de plaatsing.
@@ -162,7 +162,7 @@ De beschermbuis wordt in de grond geklopt totdat de bovenrand 1 à 2 cm boven de
 Tijdens het plaatsen moet erop gelet worden dat de peilbuis recht in de beschermbuis staat.
 Anders kan de buis onder het maaiveld beschadigd worden door de beschermbuis en verliest de buis haar nut.
 
-Als er vandalisme verwacht wordt of als de buis in het midden van een hooi- of een weiland staat, kan je de buis ook ondergronds **afwerken met een straatpot** (figuur 1, B).
+Als er vandalisme verwacht wordt of als de buis in het midden van een hooi- of een weiland staat, kan je de buis ook ondergronds **afwerken met een straatpot** (figuur \@ref(fig:Figuur2), B).
 In zeer natte of regelmatig overstromende percelen is dit niet aangewezen.
 Voor het plaatsen van een straatpot moet er rondom de buis een vierkant met de afmetingen afhankelijk van het type straatpot (normaal 30x30x20 cm) uitgegraven worden.
 De buis moet een paar cm lager dan het maaiveld afgezaagd worden, zodanig dat de straatpot gelijk kan komen te liggen met het maaiveld.

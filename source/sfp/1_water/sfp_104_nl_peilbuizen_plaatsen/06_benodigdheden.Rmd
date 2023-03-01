@@ -14,36 +14,34 @@ Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met 
 
 -   Voor vaste sedimenten
 
-    -   **Edelmanboor** (diameter 7 cm.) (foto 1A) met de nodige verlengstukken.
+    -   **Edelmanboor** (diameter 7 cm.) (foto \@ref(fig:foto1)A) met de nodige verlengstukken.
 
-    -   **Smalle versie van de Edelmanboor** (foto 1B) om in zware klei-/leembodems te boren
+    -   **Smalle versie van de Edelmanboor** (foto \@ref(fig:foto1)B) om in zware klei-/leembodems te boren
 
-    -   **Riversideboor** (foto 1C) harde, stugge grond (bv. droge kleigrond) of grond met fijn grind.
+    -   **Riversideboor** (foto \@ref(fig:foto1)C) harde, stugge grond (bv. droge kleigrond) of grond met fijn grind.
 
-    -   **Spiraalboor** (foto 1D).
+    -   **Spiraalboor** (foto \@ref(fig:foto1)D).
         harde, stugge grond.
         Voornamelijk om harde lagen te doorboren of voor te boren
 
 -   Bij losse sedimenten (zand, fijn grind, ...) waarbij gedurende het boren het boorgat voortdurend dichtslibt
 
-    -   **Pulsboor** voor losse sedimenten (foto 1E) (uitsluitend in combinatie met verbuizing)
+    -   **Pulsboor** voor losse sedimenten (foto \@ref(fig:foto1)E) (uitsluitend in combinatie met verbuizing)
 
-    -   **Verbuizing + 2 klemmen** (foto 1F, 1G).
+    -   **Verbuizing + 2 klemmen** (foto \@ref(fig:foto1)F, G).
         In los sediment en bij voortdurend dichtslibbend boorgat nodig om het boorgat open te houden.
 
     -   **emmer (ca. 5-10 l)** om voor het ophalen van de pulsboor water in de verbuizing te gieten om te beletten dat ze mee omhoog komt bij het ophalen van de gevulde pulsboor
 
 -   Verwijderen van stenen
 
-    -   keienvanger (foto 1H)
+    -   keienvanger (foto \@ref(fig:foto1)H)
 
 -   Verkennende boring
 
-    -   Gutsboor (foto 1I)
+    -   Gutsboor (foto \@ref(fig:foto1)I)
 
-*Foto 1: Boormateriaal (A = edelmanboor, B = smalle edelmanboor, C = riversideboor, D = spiraalboor, E = pulsboor, F = verbuizing, G = Klem voor verbuizing, H = keienvanger, I = gutsboor)*
-
-![](./media/image1.jpg){width="5.068562992125984in" height="5.026042213473316in"}
+![(#fig:foto1) Boormateriaal (A = edelmanboor, B = smalle edelmanboor, C = riversideboor, D = spiraalboor, E = pulsboor, F = verbuizing, G = Klem voor verbuizing, H = keienvanger, I = gutsboor)](./media/image1.jpg){width="5.068562992125984in" height="5.026042213473316in"}
 
 ### GPS (Global Positioning System) toestel
 
@@ -105,7 +103,7 @@ We onderscheiden twee types peilbuizen: een basisversie in PVC en een alternatie
 
 -   Plastic riempjes voor het vastzetten van de filterkous (kabelbinders), minstens 20cm lengte.
 
-### Materiaal voor de afwerking (zie ook uitvoering) (foto 2)
+### Materiaal voor de afwerking (zie ook uitvoering) (foto \@ref(fig:foto2))
 
 -   Bentonietkorrels QSE (optioneel)
 
@@ -113,13 +111,11 @@ We onderscheiden twee types peilbuizen: een basisversie in PVC en een alternatie
 
 -   Filtergrind (optioneel, ter bevordering grondwatertoestroming rond de filter)
 
--   Beschermbuis met kap (optioneel), elektrolytisch verzinkt, diameter 77mm, met afsluitbaar deksel en ondergrondse verankering (Foto 2A)
+-   Beschermbuis met kap (optioneel), elektrolytisch verzinkt, diameter 77mm, met afsluitbaar deksel en ondergrondse verankering (foto \@ref(fig:foto2)A)
 
--   Straatpot 200x200mm (optioneel), vloeistofvrij, met of zonder inbus afsluiting (Foto 2B)
+-   Straatpot 200x200mm (optioneel), vloeistofvrij, met of zonder inbus afsluiting (foto \@ref(fig:foto2)B)
 
-*Foto 2: Beschermbuis (A) en straatpot (B)*
-
-![](./media/image4.jpg){width="5.828125546806649in" height="2.865168416447944in"}
+![(#fig:foto2) Beschermbuis (A) en straatpot (B)](./media/image4.jpg){width="5.828125546806649in" height="2.865168416447944in"}
 
 ### Werkmateriaal
 
