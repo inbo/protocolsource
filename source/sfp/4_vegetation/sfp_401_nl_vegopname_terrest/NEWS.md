@@ -17,7 +17,7 @@ Gesorteerd van recent naar oud.
 - Eerste versie van het protocol
 -->
 ```
-## [2023.02](../2023.02/index.html)
+## [2023.03](../2023.03/index.html)
 
 -   parametrisatie van het protocol
 -   overzetting van protocol SVP-401 v1.1 van docx formaat naar html formaat
