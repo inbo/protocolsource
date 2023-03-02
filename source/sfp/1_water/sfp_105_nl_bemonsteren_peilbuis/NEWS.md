@@ -19,3 +19,5 @@ Gesorteerd van recent naar oud.
 ## [2023.03](../2023.03/index.html)
 
 -   Dit is een eerste versie van het veldprotocol, gebaseerd op de beschrijving in 'chemische kenmerken Walenbos' [@huybrechts-debecker-1997], literatuurgegevens [@EMIS_2013] en de kennis van de medewerkers van het INBO.
+
+-   Deze versie is een omzetting van SVP-105 revisie 0.1 op datum van 2017-08-28 naar het nieuwe systeem van versiebeheer van protocollen via Git en GitHub.
