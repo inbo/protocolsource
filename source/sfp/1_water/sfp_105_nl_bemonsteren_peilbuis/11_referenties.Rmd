@@ -8,6 +8,3 @@
 Eventueel opsplitsen in sleutelreferentie en overige referenties.
 -->
 ```
--   SIPs: kwaliteitshandboek van het analytisch labo, Gaverstraat 35 - 9500 Geraardsbergen, Intranet INBO
-
--   SOPs: kwaliteitshandboek van het analytisch labo, Gaverstraat 35 - 9500 Geraardsbergen, Intranet INBO
