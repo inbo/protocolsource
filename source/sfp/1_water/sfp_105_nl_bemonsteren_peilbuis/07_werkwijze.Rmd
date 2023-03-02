@@ -60,7 +60,7 @@ Om voldoende staalvolume te bekomen moet vaak meerdere keren bemonsterd worden.
 Omdat sommige variabelen veranderingen ondergaan tijdens het transport van het watermonsters naar het laboratorium, worden deze variabelen bij voorkeur op het terrein gemeten.
 Het betreft de variabelen zuurtegraad (pH) en geleidbaarheid (EC).
 Het bepalen van deze variabelen gebeurt met een veldmeter.
-Het gebruik van de veldmeter (met elektroden) is beschreven in [SIP-054](https://sites.google.com/inbo.be/veldprotocollen/standaard-instrument-procedures-sip)en in de veldset bevindt zich tevens een beperkte handleiding.
+Het gebruik van de veldmeter (met elektroden) is beschreven in [SIP-054](https://sites.google.com/inbo.be/veldprotocollen/standaard-instrument-procedures-sip) en in de veldset bevindt zich tevens een beperkte handleiding.
 
 Vooraleer de metingen uit te voeren moet de apparatuur voor zuurtegraad (pH) en geleidbaarheid (EC) gecontroleerd worden op een goede werking.
 De controle oplossingen bevinden zich in de veldset.
@@ -135,7 +135,7 @@ De deelmonsters worden zo snel mogelijk na het vullen bewaard in een koelbox met
 De monsters worden koel getransporteerd om omvormingen te vermijden.
 Na de bemonstering worden de stalen zo snel mogelijk afgegeven in het analytisch laboratorium voor analyse.
 In het laboratorium worden de monsters geanalyseerd volgens de voorschriften van bewaarcondities.
-Deze staan beschreven in de procedure SOP-005 "Richtlijnen voor conserveren van monsters" in het kwaliteitshandboek van het analytisch laboratorium.
+Deze staan beschreven in de procedure [SOP-005](https://sites.google.com/inbo.be/veldprotocollen/standaard-veld-procedures-svp/0-generiek) "Richtlijnen voor conserveren van monsters" in het kwaliteitshandboek van het analytisch laboratorium.
 
 De resultaten van de veldmetingen (zuurtegraad, geleidbaarheid) en metadata over de bemonstering worden genoteerd op het veldformulier (zie bijlage).
 Op het veldformulier staat in de eerste kolom de labocode (labo-ID) van het staal vermeld.
