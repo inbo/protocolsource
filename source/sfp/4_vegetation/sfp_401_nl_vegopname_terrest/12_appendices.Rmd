@@ -25,7 +25,7 @@ params2 %>%
   tibble::enframe() %>%
   mutate(name = recode(name, !!!vertaal)) %>%
   rename(naam = name, waarde = value) %>%
-  kable()
+  pander::pander(split.tables = Inf)
 ```
 
 # Bijlage: opnameformulier {#bijlage-opnameformulier}
@@ -53,12 +53,13 @@ Grootte van het proefvlak:
 Tabel \@ref(tab:coverscales-table) geeft een overzicht van actieve opnameschalen in INBOVEG, die in aanmerking komen voor proefvlak-opnames.
 
 ```{r coverscales-table, eval = file.exists(file.path(protocol_path, "data", "cover_scales.csv"))}
-kable(cover_scales %>%
+pander(cover_scales %>%
         filter(ListName != params$coverscale_species) %>%
         select(-SortCode) %>%
         group_by(ListName) %>%
         summarise(codes = paste(Code, collapse = ", ")), 
-      caption = "Tabel met actieve bedekkingschalen in InboVeg")
+      caption = add_label("Tabel met actieve bedekkingschalen in InboVeg"),
+      split.tables = Inf)
 ```
 
 # Bijlage: inschatting bedekkingen oefenen

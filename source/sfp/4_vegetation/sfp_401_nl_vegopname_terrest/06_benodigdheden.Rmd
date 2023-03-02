@@ -13,7 +13,7 @@
 ## Materiaal
 
 -   wegenatlas, kaartmateriaal op voorhand voorbereid via GIS
--   notaboek of --fiches (zie Bijlage 2 Veldformulier)
+-   notaboek of --fiches (zie Bijlage \@ref(bijlage-opnameformulier) Veldformulier)
 -   voldoende schrijfmateriaal
 -   flora [@RN157]
 -   loep (8x, 10x, 15x)

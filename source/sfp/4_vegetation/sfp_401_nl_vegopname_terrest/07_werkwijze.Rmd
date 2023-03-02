@@ -163,7 +163,7 @@ Het werken met Nederlandse namen laat verwarring toe in bepaalde gevallen, namel
 
 De fenologie wordt ook genoteerd per soort.
 Een soort met 2 verschillende waarden voor fenologie wordt beschouwd als 2 verschillende soorten in de analyse (bv. Alnus glutinosa -- k (kiemplant) of Alnus glutinosa + (dood)).
-Voor de standaard INBO-defaultwaarden, zie bijlage 4.
+Voor de standaard INBO-defaultwaarden, zie [Bijlage: Fenologiecodes INBO](#bijlage-fenologiecodes-inbo).
 
 Blijf niet te lang speuren naar extra soorten.
 Hou als regel aan dat als je 5 minuten lang geen nieuwe soort meer vindt, de opname volledig is.
@@ -198,7 +198,9 @@ cover_scale_selected %>%
          `Abundantie benedengrens` = AbuLower,
          `Abundantie bovengrens` = AbuUpper) %>%
   select(where(not_all_na)) %>%
-  kable(caption = "(ref:bedekkingschaal-interpretatie)")
+  pander::pander(caption = add_label("(ref:bedekkingschaal-interpretatie)"),
+                 split.tables = Inf,
+                 missing = "")
 
 heeft_abundantie <- cover_scale_selected %>%
   filter(!is.na(AbuUpper)) %>%
