@@ -53,7 +53,7 @@ In de meeste gevallen volstaat een eenvoudige PVC buis.
 Enkel in verontreinigde bodems en wanneer gepland wordt om grondwaterstalen uit de peilbuis op deze stoffen te analyseren, zijn HDPE buizen vereist.
 Deze zijn heel wat duurder, maar het materiaal is inert.
 D.w.z. dat het geen stoffen afgeeft waardoor bij vervuild bodem- of grondwater betrouwbare analyses worden bekomen.
-In deze situaties mag er dan ook **geen lijm** gebruikt worden en dient men klemmoffen te gebruiken (zie §5.2).
+In deze situaties mag er dan ook **geen lijm** gebruikt worden en dient men klemmoffen te gebruiken (zie [materiaal hdpe](#materiaal_hdpe)).
 
 #### Het filterelement
 
@@ -129,7 +129,7 @@ Indien dit het geval is, houd de buis enkele minuten tegen totdat de waterdruk b
 De blinde buis wordt op een geschikte hoogte afgezaagd.
 De geschikte hoogte varieert naargelang de afwerking van het meetpunt en of er al dan niet overstroming in het gebied wordt verwacht.
 Voor een peilbuis zonder specifieke afscherming is 40 à 50 cm boven het maaiveld meestal een goede keuze.
-Zoals eerder aangehaald in §5 kan de aard en het beheer op de locatie bepalend zijn voor de afwerking van het meetpunt.
+Zoals eerder aangehaald kan de aard en het beheer op de locatie bepalend zijn voor de afwerking van het meetpunt.
 
 De afsluitdop wordt best na het plaatsen vastgelijmd met PVC lijm.
 De lucht boven het wateroppervlak in de buis moet vrij kunnen in- en uitstromen.
@@ -171,7 +171,7 @@ Het overige bodemmateriaal wordt gebruikt om de straatpot langs de buitenzijde t
 
 ### Identificatie en inmeten van het meetpunt
 
-Elk meetpunt krijgt onmiddellijk een eenduidige identificatie (zie §6.2) op de buis met een permanente marker.
+Elk meetpunt krijgt onmiddellijk een eenduidige identificatiecode op de buis met een permanente marker.
 Schrijf de identificatie op minstens twee plaatsen op de buis van de peilbuis.
 Schrijf de identificatie niet op de dop, die kan per ongeluk verwisseld worden.
 

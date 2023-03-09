@@ -82,7 +82,7 @@ We onderscheiden twee types peilbuizen: een basisversie in PVC en een alternatie
 
 -   Plastic riempjes voor het vastzetten van de filterkous (kabelbinder), minstens 20cm lengte.
 
-### Materiaal voor een peilbuis in HDPE (zie ook uitvoering)
+### Materiaal voor een peilbuis in HDPE (zie ook uitvoering) {#materiaal_hdpe}
 
 -   Blinde buis, HDPE, diameter 50mm.
     Lengte in functie van de diepte
