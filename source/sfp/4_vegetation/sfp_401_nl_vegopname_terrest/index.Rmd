@@ -2,6 +2,8 @@
 title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen
   van bedekking van soorten in (semi-)terrestrische vegetatie
 author:
+- name: Sophie Vermeersch
+  orcid: 0009-0001-5836-1189
 - name: Els De Bie
   orcid: 0000-0001-7679-743X
 date: '`r Sys.Date()`'
