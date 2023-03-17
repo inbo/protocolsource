@@ -16,6 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     name: "update repo news and zenodo"
     steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
       - name: Update protocol
         uses: inbo/actions/protocol_update@main
         with:
