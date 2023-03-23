@@ -20,4 +20,3 @@ jobs:
         uses: inbo/actions/protocol_update@main
         with:
           PAT: ${{ secrets.PAT }}
-          GITHUB_HEAD_REF: ${{ github.event.pull_request.head.ref }}
