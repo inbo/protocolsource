@@ -1,0 +1,12 @@
+```{r bedekking-{{cd}}}
+plotdata <- calc_discs(aantal = {{at}},
+                       bedekking = {{bd}})
+
+plot <- plot_discs(klasse = '{{cd}}', 
+                   data = plotdata,
+                   bedekking = signif({{bd}}, 2) * 100,
+                   aantal = {{at}},
+                   gecombineerd = {{gc}})
+
+plot
+```
