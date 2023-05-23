@@ -7,7 +7,7 @@ date: '`r Sys.Date()`'
 reviewers: Luc Denys, Toon Westra, Hans Van Calster, Jo Packet, Kevin Scheers
 file_manager: Toon Westra
 protocol_code: sfp-403-nl
-version_number: '2023.03'
+version_number: '2023.04'
 language: nl
 lang: nl
 template_name: sfp

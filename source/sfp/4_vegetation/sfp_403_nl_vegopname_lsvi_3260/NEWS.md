@@ -16,7 +16,7 @@ Gesorteerd van recent naar oud.
 - Eerste versie van het protocol
 -->
 ```
-## [2023.03](../2023.03/index.html)
+## [2023.04](../2023.04/index.html)
 
 -   Voor de aanwezigheid van grof organisch materiaal wordt voor bladeren en twijgjes een minimum van 1% bedekking vooropgesteld (sinds veldperiode 2019; zie \@ref(bedekking-verstoringsindicatoren)).
 
