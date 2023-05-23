@@ -1,3 +1,10 @@
+### First version of protocol: sfp-401-nl
+
+- Title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie
+- Published on: 2023-05-02
+- Version number: 2023.03
+- Link to this version: [sfp-401-nl version 2023.03](2023.03/index.html)
+
 ### First version of protocol: sfp-403-nl
 
 - Title: Vegetatieopname en LSVI-bepaling habitat 3260

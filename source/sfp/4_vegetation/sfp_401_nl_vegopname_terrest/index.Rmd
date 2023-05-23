@@ -1,0 +1,143 @@
+---
+title: Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen
+  van bedekking van soorten in (semi-)terrestrische vegetatie
+author:
+- name: Sophie Vermeersch
+  orcid: 0009-0001-5836-1189
+- name: Els De Bie
+  orcid: 0000-0001-7679-743X
+date: '`r Sys.Date()`'
+reviewers:
+- Hans Van Calster
+- Lieve Vriens
+- Jan Wouters
+- Wouter Van Gompel
+- Els Lommelen
+file_manager: Hans Van Calster
+protocol_code: sfp-401-nl
+version_number: '2023.03'
+language: nl
+lang: nl
+theme: vegetation
+template_name: sfp
+site: bookdown::bookdown_site
+bibliography:
+- referenties.yaml
+- sfp-401.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+params:
+  plot_width_openveg_m: 3
+  plot_length_openveg_m: 3
+  plot_width_forest_m: 16
+  plot_length_forest_m: 16
+  plot_shape: vierkant
+  height_herbshrublayer_openveg_m: 0.8
+  height_herbshrublayer_forest_m: 2
+  height_shrubtreelayer_openveg_m: 6
+  height_shrubtreelayer_forest_m: 8
+  species_list:
+  - vaatplanten
+  - mossen
+  - lichenen
+  phenology_values: standaard inbo-fenologiecodes
+  coverscale_species: Londo origineel
+  coverscale_structure: inbo-structuur-schaal
+---
+
+```{=html}
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse Rmd bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titelhoofdingen staan en vermeld expliciet “niet van toepassing”.
+-->
+```
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = "100%",
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(dplyr)
+library(purrr)
+library(protocolhelper)
+library(pander)
+panderOptions("table.alignment.default", "left")
+metadata <- rmarkdown::metadata
+protocol_path <- get_path_to_protocol(metadata$protocol_code)
+type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
+library(git2rdata)
+library(spatstat)
+library(ggplot2)
+source(
+  file.path(protocol_path, 
+            "_visualisatie_bedekking.R"
+  )
+)
+```
+
+```{r coverscales-db, eval = !file.exists(file.path(protocol_path, "data", "cover_scales.tsv"))}
+# this chunk only needs to be executed interactively once
+# each time a new version of the protocol is made
+library(inbodb)
+library(glue)
+
+con <- connect_inbo_dbase("D0013_00_Futon")
+
+cover <- glue_sql("SELECT ListName
+, Code
+, SortCode
+, PctValue
+from [dbo].[ftCoverValues] CV
+inner join [dbo].[ftActionGroupList] AGL on AGL.ListGIVID = CV.ListGIVID
+where 1 = 1 
+AND (ListName LIKE 'Londo%'
+     OR ListName LIKE 'Braun%'
+     OR ListName LIKE 'Pct%'
+     OR ListName LIKE 'Provoost%'
+     OR ListName LIKE 'Barkman%'
+     OR ListName LIKE '%onitoring%')
+AND InUse = '1'
+ORDER BY ListName DESC, SortCode ASC OFFSET 0 ROWS", 
+                  .con = con) 
+
+cover_result <- tbl(con, sql(cover)) %>%
+  collect()
+
+
+#close connection
+dbDisconnect(con)
+
+write_vc(cover_result, 
+         file = "cover_scales", 
+         sorting = c("ListName", "SortCode", "PctValue", "Code"),
+         root = file.path(protocol_path, "data"))
+```
+
+# Metadata {.unnumbered}
+
+```{r metadata-table}
+tibble(
+  reviewers = metadata[["reviewers"]] |> paste(collapse = ", "),
+  documentbeheerder = metadata[["file_manager"]],
+  protocolcode = metadata[["protocol_code"]],
+  versienummer = metadata[["version_number"]],
+  taal = metadata[["language"]],
+  thema = metadata[["theme"]]
+) %>%
+  pander::pander(split.tables = Inf)
+```
+
+```{r results="asis"}
+sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
+```
