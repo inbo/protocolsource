@@ -5,4 +5,4 @@
 -   RTK-GNSS of Fieldmap installatie voor navigatie en data-opslag
 -   Fototoestel, kan eventueel ook via een smartphone
 
-![Figuur 2: Voorbeeld van een handige afstandsmeter voor de 18meter plot: Haglöf ultrasone afstandmeter](C:/DATA/R/protocolsource/images/Haglof.png)
+![Figuur 2: Voorbeeld van een handige afstandsmeter voor de 18meter plot: Haglöf ultrasone afstandmeter](media/Haglof.png)

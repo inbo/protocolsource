@@ -100,7 +100,7 @@ Wanneer men op het initiële meetpunt niet de gewenste doelvegetatie aantreft, k
 Dat hangt af van drie zaken: - welke vegetatie daar dan effectief wel voorkomt - van het rangnummer van het meetpunt - of het meetpunt zich binnen of buiten een SBZ bevindt
 
 Het rangnummer van de plot en de SBZ gegevens vind je als attributen bij het meetpunt.
-Via onderstaande Tabel \@ref(tab:beslisregels-meetpunten-binnen) en Tabel \@ref(tab:beslisregels-meetpunten-buiten) kan men controleren of en voor welk type het punt wel kan opgenomen worden.
+Via Tabel \@ref(tab:beslisregels-meetpunt-binnen) en Tabel \@ref(tab:beslisregels-meetpunt-buiten) kan men controleren of en voor welk type het punt wel kan opgenomen worden.
 
 *Voorbeeld: Meetpunt met ranking 296.657 ligt in habitatrichtlijngebied en dient bezocht te worden voor natte heide 4010. Bij aankomst blijkt echter dat op dat meetpunt droge heide 4030 voorkomt. Gezien het ranknummer echter kleiner is dan 296.658, wordt het punt wel opgenomen voor de steekproef van 4030*
 
@@ -110,7 +110,7 @@ beslisregels_binnen_sbz <- read_excel(
     path_to_protocol,
     "data",
     "beslisregels.xlsx"), 
-  sheet="binnen_sbz")
+  sheet = "binnen_sbz")
 
 beslisregels_binnen_sbz %>%
   kable(caption = "Beslisregels binnen SBZ")
@@ -124,7 +124,7 @@ beslisregels_buiten_sbz <- read_excel(
     path_to_protocol,
     "data",
     "beslisregels.xlsx"), 
-  sheet="buiten_sbz")
+  sheet = "buiten_sbz")
 
 beslisregels_buiten_sbz %>%
   kable(caption = "beslisregels buiten SBZ")
@@ -136,7 +136,7 @@ beslisregels_buiten_sbz %>%
 
 ## STAP 7:meten van de variabelen in de 18meter-plot
 
-Aandeeldoelvegetatie in de 18m-plot opgeven!
+Aandeel doelvegetatie in de 18m-plot opgeven!
 
 Alle criteria worden voor elk habitattype gescoord.
 Indien afwezig scoor je met de waarde 0.

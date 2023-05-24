@@ -1,0 +1,22 @@
+name: Update repo NEWS and zenodo files on approval of pull request
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  build:
+    if: github.event.review.state == 'approved'
+      && github.event.pull_request.base.ref == 'main'
+      && (startsWith(github.event.pull_request.head.ref, 'sfp-')
+      || startsWith(github.event.pull_request.head.ref, 'sip-')
+      || startsWith(github.event.pull_request.head.ref, 'sop-')
+      || startsWith(github.event.pull_request.head.ref, 'sap-')
+      || startsWith(github.event.pull_request.head.ref, 'spp-'))
+    runs-on: ubuntu-latest
+    name: "update repo news and zenodo"
+    steps:
+      - name: Update protocol
+        uses: inbo/actions/protocol_update@main
+        with:
+          PAT: ${{ secrets.PAT }}

@@ -1,5 +1,7 @@
+^docker-compose.test.yml$
 ^renv$
 ^renv\.lock$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
+^test_docker.sh$

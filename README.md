@@ -1,20 +1,23 @@
 <!-- badges: start -->
 
-![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)
+[![Project Status: The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7619682.svg)](https://doi.org/10.5281/zenodo.7619682)
 
 <!-- badges: end -->
 
-# protocols
+# Source code of protocols of the Research Institute for Nature and Forest (INBO)
 
-INBO protocols
-
-*experimental*: we are in the process of trying out git-version control for INBO protocols.
-In the meantime, the official versions of INBO protocols are hosted [here](https://sites.google.com/inbo.be/veldprotocollen/).
-Development versions are in [this google drive folder](https://drive.google.com/drive/folders/0BzUqT1wpznBXY2ZqaXh2a0tyd2M) (only accessible to INBO collaborators).
+We are in the process of moving INBO protocols to this repository.
+This repository contains the source code of protocols (R Markdown files).
+To view the approved and published versions of these protocols, please visit the [INBO protocols website](https://inbo.github.io/protocols/).
+Older published protocols which have not yet been moved to this new protocol management system can still be downloaded from [here](https://sites.google.com/inbo.be/veldprotocollen/).
 
 If you want to contribute a new protocol or update an existing protocol, check the [contributing guidelines](CONTRIBUTING.md).
+A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocolsource` repository.
+Documentation for the package can be found [here](https://inbo.github.io/protocolhelper/).
 
-## Repository structure
+## Repository structure {#repository-structure}
 
       |- CONTRIBUTING.md <- Contributing guidelines
       |- DESCRIPTION <- file used to document which R packages are used in the repo
@@ -24,9 +27,6 @@ If you want to contribute a new protocol or update an existing protocol, check t
       |- RELEASES.md <- description of how protocols are released/published
       |- .github <- folder containing a pull request template and github action
          workflows
-      |- docs <- can be used to locally inspect rendered versions of protocols; is
-         git-ignored, but will be created if `protocolhelper::render_protocol()` is
-         used
       |- from_docx <- contains Microsoft Word docx protocols which were converted to 
                       markdown
       |- source
@@ -36,21 +36,12 @@ If you want to contribute a new protocol or update an existing protocol, check t
       |    |- sfp <- field protocols
       |    |   |- 0_generic
       |    |   |- 1_water 
-      |    |   |- 2_air 
-      |    |   |- 3_soil 
+      |    |   |- 2_soil 
+      |    |   |- 3_air 
       |    |   |- 4_vegetation 
       |    |   |- 5_species
       |    |- spp <- project-specific protocols
       |    |- management <- for repo admins only
-
-## Relationships to other repositories
-
-This repository contains the Rmarkdown files of the protocols.
-
-A companion repository `protocols` hosts the rendered html files for all versions of these protocols, which can be viewed at [the protocols website](https://inbo.github.io/protocols/).
-
-A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocolsource` repository.
-Documentation for the package can be found [here](https://inbo.github.io/protocolhelper/).
 
 ## Release model
 
@@ -58,9 +49,9 @@ Whenever a new protocol is added or an existing protocol is updated and approved
 A GitHub Release is just a zip-file containing all files in the repository at that moment.
 The repository is setup in such a way that with each release a Zenodo archive will be created as well.
 The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
-A release will also trigger the `protocols` repo to update the rendered versions of the protocols.
+A release will also trigger the [`protocols` repo](https://github.com/inbo/protocols) to update the [INBO protocols website](https://inbo.github.io/protocols/).
 
-Tags are associated to each GitHub release.
+Git tags are associated with each GitHub release.
 To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
 
 The general tag is of the form `protocols-YYYY.NN`.
@@ -82,20 +73,23 @@ Searching tags that have the same `<protocol-code>` as string, allows reconstruc
 
 The incremental nature means that general tags reflect the time sequence of protocol releases in the whole repository.
 
-## Folder and filename syntaxis
+## Folder and filename syntaxis {#folder-and-filename-syntaxis}
 
 In this section, we describe the conventions we adhere to for naming of files and folders.
-Each protocol is placed in a subfolder of the folder corresponding to the theme (for thematic protocols) or project (for project-specific protocols) to which it belongs (see [Repository structure](#repository-structure)).
+Each protocol is placed in a subfolder below its corresponding protocol type folder.
+In case of standard field protocols, there will be an additional subfolder corresponding to the protocol theme.
+Similarly, in case of project-specific protocols, there will be an additional subfolder corresponding to the project name (see also [Repository structure](#repository-structure)).
 The naming syntax for the subfolder is **`<protocol-code>_<short-title>`** and *will be automatically generated* from input you provide to [protocolhelper functions](CONTRIBUTING.md#starting-a-new-protocol-with-the-aid-of-protocolhelper-functions).
 
 Note that the names of this subfolder and of its files are stable for different versions of the same protocol, because the files in these subfolders are subject to `Git` version control and the version number is kept inside the special file `index.Rmd`.
-The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file and optionally two folders, named `data` and `media`.
-Together, these files form a [bookdown book](https://bookdown.org/yihui/bookdown/), i.e. a collection of files to be read in a linear sequence that can be rendered into a 'book' (a protocol in our case) in any of a number of possible formats.
+The subfolder contains `Rmarkdown` (i.e. `.Rmd`) files, a `_bookdown.yml` file, an `_output.yml` file, a protocol-specific `NEWS.md` file and optionally two folders, named `data` and `media`.
+Together, these files form a [bookdown book](https://bookdown.org/yihui/bookdown/), i.e. a collection of files to be read in a linear sequence that can be rendered into a 'book' (a protocol in our case) in any of a number of possible formats (we use HTML and PDF).
 
 -   Apart from the `index.Rmd` file, other `Rmarkdown` files contain the contents of the individual chapters of a protocol.
 -   The naming of these files follows this syntax: `##_chapter-title.Rmd`, where the `##` indicates the chapter number.
 -   The folders, named `data` and `media` serve to store, respectively, tabular data and graphics files that belong to and are used in the protocol. When no tabular data or graphics files are needed for the protocol, these folders can be left empty (they will only be visible in a local clone of the repository and not appear on the remote repository).
 -   The `_bookdown.yml` also holds metadata information such as the name of the output file and folder (both have the same syntax as before: `<protocol-code>_<short-title>`) to which the rendered version of the protocol will be written.
+-   The `NEWS.md` file documents changes compared to previous versions of the protocol.
 
 ## Protocol features
 
@@ -107,8 +101,8 @@ A **protocol-code** consists of a prefix (three characters), a protocol-number (
 |:-----------|:-----------|:-------------|:--------------|
 | field      | generic    | 0            | sfp-0##-nl    |
 | field      | water      | 1            | sfp-1##-nl    |
-| field      | air        | 2            | sfp-2##-nl    |
-| field      | soil       | 3            | sfp-3##-nl    |
+| field      | soil       | 2            | sfp-2##-nl    |
+| field      | air        | 3            | sfp-3##-nl    |
 | field      | vegetation | 4            | sfp-4##-nl    |
 | field      | species    | 5            | sfp-5##-nl    |
 | instrument |            |              | sip-###-nl    |
@@ -127,7 +121,7 @@ The `s*p-###` part of the protocol can be thought of as a code that corresponds 
 The final two characters identify the language the protocol is written in.
 This can be either Dutch (`nl`) or English (`en`).
 
-### Version number
+### Version number {#version-number}
 
 The version number is of the form `YYYY.NN`.
 `YYYY` indicates the year in which the protocol was released.
