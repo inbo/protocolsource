@@ -17,4 +17,4 @@ Specimens die op het terrein niet op naam kunnen worden gebracht, worden meegeno
 
 Voor elke in Recorder ingevoerde opname wordt gecontroleerd of het aantal ingevoerde soorten overeenkomt met het aantal op het veldformulier.
 
-Nadat alle metingen van een veldseizoen zijn geregistreerd in Recorder, wordt een kwaliteitscontrole uitgevoerd met behulp van een R-script (kwaliteitscontrole_datainvoer.Rmd; in [deze map](https://drive.google.com/drive/folders/1kTiPMXs00cKyjyuaal_TQ8BwmNUScPOr)).
+Nadat alle metingen van een veldseizoen zijn geregistreerd in Recorder, wordt een kwaliteitscontrole uitgevoerd met behulp van een R-script (kwaliteitscontrole_datainvoer.Rmd; download [hier](https://drive.google.com/file/d/1ytxdQIP0Lbw7cXASoeXTHmfMsKXoqk5z)).
