@@ -1,0 +1,17 @@
+# Beperkingen van het protocol
+
+```{=html}
+<!--
+Alleen in te vullen indien van toepassing.
+Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol.
+Vermeld hier ook mogelijke interferenties, knelpunten, ...
+-->
+```
+In sommige omstandigheden kan er geen opname worden gemaakt en kan het veldformulier niet volledig worden ingevuld, bijvoorbeeld doordat de vindplaats onbereikbaar is, ontoegankelijk is (privaat domein zonder toestemming) of bij extreem hoog waterpeil.
+Dit wordt steeds gedocumenteerd op het veldformulier.
+Bij extreem hoog waterpeil wordt de locatie later dat jaar of het daaropvolgende jaar opnieuw bezocht.
+
+Indien geen *Luronium natans* wordt aangetroffen op de locatie, wordt slechts een deel van het veldformulier ingevuld (zie \@ref(veldformulier)).
+
+Vanuit praktische overwegingen (weersomstandigheden, identificatie, begeleidende vegetatie) gebeurt de monitoring best gedurende het hoogtepunt van de bloeiperiode (juni-juli).
+Populaties op tijdelijk droogvallende standplaatsen worden best tussen mei en juni bemonsterd.

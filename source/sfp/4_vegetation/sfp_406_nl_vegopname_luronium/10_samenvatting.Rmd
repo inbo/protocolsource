@@ -1,0 +1,25 @@
+# Samenvatting
+
+```{=html}
+<!--
+Een samenvattende opsomming van de te volgen stappen.
+Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
+-->
+```
+Een samenvattende opsomming van de te volgen stappen:
+
+1.  controleer de lijst met benodigdheden en het niveau van de batterijen voor vertrek;
+
+2.  navigeer met een GPS naar de veldlocatie;
+
+3.  zoek naar *Luronium natans* door systematisch transecten van 3 à 4 meter breedte af te lopen;
+
+4.  bepaal de secchi- en waterdiepte volgens het protocol sfp-113;
+
+5.  vul het veldformulier in en controleer de volledigheid, voeg eventuele uitzonderlijke veldwaarnemingen toe;
+
+6.  soorten die niet konden worden geïdentificeerd op terrein, worden binnen de week na bemonstering gedetermineerd;
+
+7.  registreer de veldgegevens in Recorder;
+
+8.  klasseer de foto's.

@@ -1,0 +1,32 @@
+# Vereiste competenties
+
+```{=html}
+<!--
+Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het protocol op een gepaste manier te kunnen uitvoeren.
+Eventueel kan er verwezen worden naar bepaalde opleidingen.
+
+sfp-113 nog toe te voegen aan protocollenwebsite
+-->
+```
+De veldwerker is vertrouwd met volgende deelprotocollen:
+
+-   veiligheid in en rond water (sfp-112; protocol in ontwerp);
+
+-   bepaling doorzicht waterkolom oppervlaktewater op basis van de Secchi-diepte (sfp-113);
+
+-   bioveiligheidsmaatregelen (sfp-015, protocol in ontwerp).
+
+Daarnaast zijn volgende algemene competenties vereist (naar Bijkerk 2014):
+
+-   voldoende kennis van veldkenmerken van macrofyten in stilstaande en stromende wateren en vertrouwd zijn met technieken om ze te kunnen identificeren;
+
+-   nauwkeurigheid: de uitvoering van veldobservaties en het vastleggen van veldwaarnemingen vereisen een grote mate van accuratesse;
+
+-   vermogen te plannen en te organiseren: bij de uitvoering van veldcampagnes moeten tal van werkzaamheden gepland, georganiseerd en op elkaar afgestemd worden.
+    De veldmedewerker moet in staat zijn om hier zelfstandig of in overleg met de projectleider uitvoering aan te geven;
+
+-   zelfstandigheid: de veldmedewerker moet in staat zijn om het merendeel van de werkzaamheden zelfstandig (op locatie) uit te voeren;
+
+-   vermogen tot samenwerken en communiceren;
+
+-   de veldmedewerker moet fysiek in staat kunnen zijn om het protocol in veilige omstandigheden te kunnen uitvoeren (kunnen zwemmen, ...).
