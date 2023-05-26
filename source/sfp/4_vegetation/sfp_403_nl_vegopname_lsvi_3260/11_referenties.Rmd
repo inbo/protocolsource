@@ -20,6 +20,7 @@ De Saeger S., Paelinckx D., Demolder H., Denys L., Packet J., Thomaes A., Vandek
 (2008).
 Sleutel voor het karteren van NATURA2000 habitattypen in Vlaanderen, grotendeels vertrekkende van de karteringseenheden van de Biologische Waarderingskaart, versie 5.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
+
 Denys L.
 (2011).
 Advies over de bepaling van de vegetatieontwikkeling van submerse vegetatie en enkele aanpassingen m.b.t. de beoordeling van macrofyten in Vlaamse meren voor de Europese Kaderrichtlijn Water.
@@ -65,10 +66,12 @@ Leyssen A., Packet J., Denys L.
 (2007).
 Handleiding macrofyteninventarisatie en fytobenthosstaalname in waterlopen.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
+
 Oosterlynck P., De Saeger S., Leyssen A., Provoost S., Thomaes A., Vandevoorde B., Wouters J., Paelinckx D.
 (2020).
 Criteria voor de beoordeling van de lokale staat van instandhouding van de Natura 2000-habitattypen, versie 3.0.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
+
 Osté A.J., de Groot B., van Dam O.
 (2013).
 Handboek Hydromorfologie 2.0.
@@ -95,6 +98,7 @@ T'jollyn F., Bosch H., Demolder H., De Saeger S., Leyssen A., Thomaes A., Wouter
 (2009).
 Ontwikkeling van criteria voor de beoordeling van de lokale staat van instandhouding van de Natura 2000 habitattypen: Versie 2.0.
 Instituut voor Natuur- en Bosonderzoek, Brussel.
+
 VMM.
 (2010).
 Hydromorfologie: handleiding veldwerkformulier.
@@ -104,18 +108,12 @@ West Virginia Department of Environmental Protection.
 (2018).
 Stream flow measurement protocols.
 Department of Environmental Protection, West-Virginia.
-Westra T., Oosterlynck P., Govaere L., Leyssen A., Denys L., Packet J., Scheers K., Vanderhaeghe F., Vanden Borre J.
-(2022).
-Monitoring scheme for biotic habitat quality of Natura 2000 habitat types in Flanders, Belgium.
-Revision of the monitoring design.
-. Research Institute for Nature and Forest Brussels.
-25.
 
 Westra T., Oosterlynck P., Govaere L., Leyssen A., Denys L., Packet J., Scheers K., Vanderhaeghe F., Vanden Borre J.
 (2022).
 Monitoring scheme for biotic habitat quality of Natura 2000 habitat types in Flanders, Belgium.
 Revision of the monitoring design.
-. Research Institute for Nature and Forest Brussels.
+Research Institute for Nature and Forest Brussels.
 25.
 
 ::: {#refs}
@@ -201,3 +199,4 @@ Instituut voor Natuur- en Bosonderzoek, Brussel.
 INBO.R.2014.1414229.
 -->
 ```
+

@@ -67,7 +67,7 @@ Met een loep van 20x kunnen detailkenmerken (kranswieren, sterrenkroos, ...) tij
 
 Om de breedte van de waterloop te meten is een oprolbaar meetlint nodig.
 Zorg ook voor een pin met haak voor het vastmaken van het meetlint.
-Als alternatief kan een laserafstandsmeter of een smartphoneapplicatie die afstanden meet (bv. SmartMeasure[\^06_benodigdheden-2]) worden gebruikt.
+Als alternatief kan een laserafstandsmeter of een smartphoneapplicatie die afstanden meet (bv. [SmartMeasure](https://play.google.com/store/apps/details?id=kr.sira.measure&hl=nl)) worden gebruikt.
 
 ### Vegetatiehark met telescopische steel
 
