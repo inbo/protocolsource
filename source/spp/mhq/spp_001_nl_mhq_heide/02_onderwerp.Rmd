@@ -49,7 +49,23 @@ Snavelbiesvegetaties (7150) komen voor op dynamische locaties zoals plagplekken 
 Wel is het relevant om al deze types te kunnen onderscheiden van de doelvegetaties omdat ze ermee in overgang of mozaïek kunnen voorkomen.
 Hiervoor kan men zich best gebruik maken van de karteersleutel voor heides [@desaeger2016]
 
-### Vegetatiekundige beschrijving van de betreffende types
+### Vegetatiekundige beschrijving van de relevante heidetypes
+
+Landduinen en hun begeleidende vegetatietypes komen voor op profielloze zandgronden.
+Dit zijn in geologische termen jonge bodems die door zandverstuiving ontstaan zijn, soms bovenop oudere bodems, waar wel een profielontwikkeling heeft plaatsgevonden (podsols).
+Op het terrein kan je dus naast de bodemkaart met behulp van een grondboor vaststellen of er profielontwikkeling is in het bovenste deel (bv. minimaal enkele tientallen cm).
+Een landduinlandschap heeft vaak nog een duinstructuur, waarbinnen grotere en/of kleinere zandverstuivingen herkenbaar zijn (zie Figuur \@ref(fig:landduin)).
+Dit duidt er dan in meer vastgelegde situaties op dat je je in een voormalig stuifzandgebied bevindt.
+Vegetaties met dwergstruiken op landduinbodem resorteren onder 2310 psammofiele heide (psammos= zand in het Grieks) en de pioniersvegetaties (buntgras, zandstruisgras, mossen en korstmossen) worden als 2330 geclassificeerd.
+
+(ref:landduin) Voorbeeld van een psammofiele buntgrasvegetatie (2330_bu) op stuifzandbodem, met een typisch duinreliëf, doch in een gefixeerd stadium (weinig open zand)
+
+```{r landduin, fig.cap="(ref:landduin)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "stuifduin.jpg"))
+```
 
 **2330_bu buntgrasvegetatie op landduinen** Buntgrasvegetaties komen voor op landduinen waar de bodem door de hoge dynamiek nog geen profielontwikkeling heeft doorgemaakt (jonge bodems).Hoogstens is er een dunne humuslaag aanwezig.In goed ontwikkelde vormen zijn er aanzienlijke delen open zand maar de meeste landduinen in Vlaanderen zijn in min of meerdere mate gefixeerd door onvoldoende windwerking.
 De vegetatie wordt gekenmerkt door een hoog aandeel mossen en korstmossen die de bodem in een eerste fase fixeren, in combinatie met een aantal typische zandbindende vaatplanten.
@@ -66,46 +82,33 @@ Qua vegetatiesamenstelling van de hogere planten is er geen duidelijk onderschei
 
 *Typische soorten: Struikhei (Calluna vulgaris), Klein warkruid (Cuscuta epithymum), Stekelbrem (Genista anglica), Kruipbrem (Genista pilosa), aangevuld met de typische soorten van 2330_bu*
 
-Stuifduinen en hun begeleidende vegetatietypes komen voor op profielloze zandgronden.
-Dit zijn in geologische termen jonge bodems die door zandverstuiving ontstaan zijn, soms bovenop oudere bodems, waar wel een profielontwikkeling heeft plaatsgevonden (podsols).Op het terrein kan je dus naast de bodemkaart met behulp van een grondboor vaststellen of er profielontwikkeling is in het bovenste deel (bv. minimaal enkele tientallen cm).
-Het landschap van stuifzandbodems heeft vaak nog een duinstructuur, waarbinnen grotere en/of kleinere zandverstuivingen herkenbaar zijn (zie Figuur \@ref(fig:stuifduin)).
-Dit duidt er dan in meer vastgelegde duinensituaties op dat je je in een voormalig stuifzandgebied bevindt.
-Vegetaties met dwergstruiken op stuifzandbodem resorteren onder 2310 psammofiele heide (psammos= zand in het Grieks) en de pioniersvegetaties (buntgras, zandstruisgras, mossen en korstmossen) worden als 2330 geclassificeerd.
-
-(ref:stuifduin) Voorbeeld van een psammofiele buntgrasvegetatie (2330_bu) op stuifzandbodem, met een typisch duinreliëf, doch in een gefixeerd stadium (weinig open zand)
-
-```{r stuifduin, fig.cap="(ref:stuifduin)"}
-include_graphics(
-  path = file.path(path_to_protocol,
-                   "media",
-                   "stuifduin.jpg"))
-```
-
-**4010 Noord-Atlantische vochtige heide** Dit zijn erg uiteenlopende (dwergstruik)vegetaties die voorkomen op locaties waar de watertafel jaarrond vrij dicht onder het maaiveld blijft (tot maximaal 1m) en vaak met een abundant voorkomen van gewone dopheide en veenmossen.
-Op de natste plekken spreken we van venige heide waar dopheide minder abundant is en het vooral helofyten en veenmossen zijn die aspectbepalend worden, samen met pijpenstrootje.
-Struikheide is vaak ook aanwezig in natte heide.
+**4010 Noord-Atlantische vochtige heide** Dit zijn erg uiteenlopende (dwergstruik)vegetaties die voorkomen op locaties waar de grondwatertafel jaarrond vrij dicht onder het maaiveld blijft (tot maximaal 1m) en in goed ontwikkelde situaties vaak met een abundant aspect van gewone dopheide en veenmossen.
+Op de natste plekken spreken we van venige heide waar dopheide wat minder abundant is en het vooral helofyten en veenmossen zijn die aspectbepalend worden.
 Ook door pijpenstrootje gedomineerde situaties op natte bodems kwalificeren als 4010.
 
-*Typische soorten: Gewone dophei (Erica tetralix), Kleine zonnedauw (Drosera intermedia), Ronde zonnedauw (Drosera rotundifolia), Veenpluis (Eriophorum polystachion), Klokjesgentiaan (Gentiana pneumonanthe), Trekrus (Juncus squarrosus), Beenbreek (Narthecium ossifragum), Witte snavelbies (Rhynchospora alba), Veenbies (Scirpus cespitosus), Tweenervige zegge (Carex binervis), Bruine snavelbies (Rhynchospora fusca), Wilde gagel (Myrica gale) en qua veenmossen vooral Kussentjesveenmos (Sphagnum compactum), Wrattig veenmos (Sphagnum papillosum) en Zacht veenmos (Sphagnum tenellum)*
+*Typische soorten: Gewone dophei (Erica tetralix), Kleine zonnedauw (Drosera intermedia), Ronde zonnedauw (Drosera rotundifolia), Veenpluis (Eriophorum polystachion), Klokjesgentiaan (Gentiana pneumonanthe), Trekrus (Juncus squarrosus), Beenbreek (Narthecium ossifragum), Witte snavelbies (Rhynchospora alba), Veenbies (Scirpus cespitosus), Tweenervige zegge (Carex binervis), Bruine snavelbies (Rhynchospora fusca), Wilde gagel (Myrica gale) en qua veenmossen vooral Kussentjesveenmos (Sphagnum compactum), Wrattig veenmos (Sphagnum papillosum), Zacht veenmos (Sphagnum tenellum) maar ook gewoon veenmos (Sphagnum palustre) en geoord veenmos (Sphagnum auriculatum)*
 
 **4030 Droge Europese heide** Groenblijvende formaties van dwergstruiken, en dan voornamelijk struikhei.
-Ook gedegradeerde (vergraste en/of deels verboste) heideterreinen vallen hieronder.
+Ook gedegradeerde (vergrast met pijpestrootje of bochtige smele en/of deels verboste) heideterreinen vallen hieronder.
 
 *Typische soorten: Struikhei (Calluna vulgaris), Klein warkruid (Cuscuta epithymum), Kleine wolfsklauw (Diphasiastrum tristachyum), Rode dophei (Erica cinerea), Stekelbrem (Genista anglica), Kruipbrem (Genista pilosa), Grote wolfsklauw (Lycopodium clavatum), Rode bosbes (Vaccinium vitis-idaea), blauwe bosbes (Vaccinium myrtillus)*
 
-**Geen doelvegetatie binnen dit stratum van het meeetnet maar gebonden aan heidelandschap en dus mogelijk in complex met meetpunten:**
+**Open vegetatietypes gebonden aan het heidelandschap die bij dit onderdeel van het meetnet worden gerekend maar dus mogelijk wel in complex met deze meetpunten voorkomen:**
 
 *7140_oli Overgangsvenen*
 
-Dit zijn venige heides of verlandende vennen waar de veenvorming al dermate doorgezet is dat er hoogveensoorten beginnen te groeien.Ze luiden een relatief lange tussenfase in naar *actief hoogveen (7110)*, dat in Vlaanderen enkel nog aan het Ven onder de Berg voorkomt.
+Dit zijn venige heides of verlandende vennen waar de veenvorming al dermate doorgezet is dat er hoogveensoorten beginnen te groeien.
+Ze luiden een relatief lange overgangsfase in naar *actief hoogveen (7110)*, dat in Vlaanderen enkel nog aan het Ven onder de Berg voorkomt.
 Specifieke veenmossoorten (vaak typische met wijnrode tinten) zijn hier indicatief naast hoogveensoorten als Lavendelheide, Eénarig wollegras en Kleine veenbes.
 Er is een afwisseling van veenmosbulten met waterhoudende depressies met venachtige begroeiingen.
-*Typische soorten: Lavendelhei (Andromeda polifolia), Eenarig wollegras (Eriophorum vaginatum), Kleine veenbes (Vaccinium oxycoccos) Ronde zonnedauw (Drosera rotundifolia), Witte snavelbies (Rhynchospora alba), Slijkzegge (Carex limosa), Veenbloembies (Scheuchzeria palustris) , Veenmosorchis (Hammarbya paludosa), Hoogveenveenmos (Sphagnum magellanicum), Wrattig veenmos (Sphagnum papillosum), Rood veenmos (Sphagnum rubellum), aangevuld met alle typische soorten van 4010.*
+
+*Typische soorten: Lavendelhei (Andromeda polifolia), Eénarig wollegras (Eriophorum vaginatum), Kleine veenbes (Vaccinium oxycoccos), Ronde zonnedauw (Drosera rotundifolia), Witte snavelbies (Rhynchospora alba), Slijkzegge (Carex limosa), Veenbloembies (Scheuchzeria palustris) , Veenmosorchis (Hammarbya paludosa), Hoogveenveenmos (Sphagnum magellanicum), Wrattig veenmos (Sphagnum papillosum), Rood veenmos (Sphagnum rubellum), aangevuld met alle typische soorten van 4010.*
 
 *7150 Snavelbiesvegetaties*
 
-Pioniersgemeenschappen met snavelbies op plagplekken of periodiek overstromende venoevers.Meestal neemt dit type slechts geringe oppervlaktes in en evolueert het op plagplekken na een aantal jaar verder naar natte heide waarmee het meestal in complex voorkomt.Door betreding kunnen deze situaties ook in stand gehouden worden.De kruidlaag is ijl met een aanzienlijk aandeel open bodem maar kan in latere fasen hoge bedekkingen hebben.
+Pioniersgemeenschappen met snavelbies op plagplekken of ven(oever)situaties met schommelende waterstanden.
+Meestal neemt dit type slechts geringe oppervlaktes in en evolueert het op plagplekken na een aantal jaar verder naar natte heide waarmee het doorgaans in complex voorkomt.Door betreding kunnen deze situaties ook in stand gehouden worden.De kruidlaag is ijl met een aanzienlijk aandeel open bodem maar kan in latere fasen hoge bedekkingen aan natte heidesoorten kennen.
+
 *Typische soorten: Kleine zonnedauw (Drosera intermedia), Ronde zonnedauw (Drosera rotundifolia), Moeraswolfsklauw (Lycopodiella inundata), Witte snavelbies (Rhynchospora alba), Bruine snavelbies (Rhynchospora fusca)*
 
-*Meer info:* *-Systematiek van natuurtypen voor de biotopen heide,moeras, duin en slik en schor: Deel 2 Heiden (Zwaenepoel et al., 2002)* *-Europees beschermde natuur in Vlaanderen (Decleer et al., 2007)*
-
+*Meer info:* *-Systematiek van natuurtypen voor de biotopen heide,moeras, duin en slik en schor: Deel 2 Heiden [@Zwaenepoel2002]* *-Europees beschermde natuur in Vlaanderen [@Decleer2007]*
