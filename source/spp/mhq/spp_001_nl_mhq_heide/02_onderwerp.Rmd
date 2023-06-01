@@ -16,10 +16,10 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 -   habitattype 4010: vochtige en natte heide
 -   habitattype 4030: droge heide
 -   SVI: staat van instandhouding
--   LSVI: Lokale staat van instandhouding
--   SBZ: Speciale BeschermingsZone
+-   LSVI: lokale staat van instandhouding
+-   SBZ: speciale beschermingszone
 -   RTK GNSS: Real Time Kinematic Global Navigation Satellite System waarbij cm of decimeter nauwkeurige positiebepaling mogelijk is. Een alternatief is werken met een Fieldmap installatie.
--   Fieldmap: geïntegreerde tool die is ontworpen voor veldgegevensverzameling en ondermeer gebruikt wordt bij de Bosinventaris.
+-   Fieldmap: geïntegreerde tool die is ontworpen voor veldgegevensverzameling en ondermeer gebruikt wordt bij de Vlaamse Bosinventaris. De positiebepaling gebeurt hier d.m.v. lasermetingen
 
 ## Doelstelling en toepassingsgebied
 
@@ -34,8 +34,9 @@ Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt
 ### Doelstelling
 
 Dit protocol beschrijft de werkwijze die dient gevolgd te worden voor de gegevensinzameling ten behoeve van de 6-jaarlijkse rapportage aan de EU omtrent de staat van instandhouding van de heidehabitats, meer bepaald de habitattypes 2310, 2330_bu, 4010 en 4030.
-In deze vegetatietypes dienen een 1000-tal random geselecteerde meetpunten in Vlaams heidehabitat opgemeten te worden en dit gebeurt op elk meetpunt op twee schaalniveaus.Enerzijds een vegetatie-opname op een vierkante vegetatieplot van 3 op 3 meter en anderzijds het schatten van een aantal LSVI-indicatoren op een cirkelplot met diameter 18m.
-De meetpunten worden herbezocht met een frequentie van 1 keer om de 6 jaar en laten toe om een uitspraak te doen over het aandeel habitat dit zich in een gunstige/ongunstige toestand bevindt en dit per type op niveau Vlaanderen, met een hogere nauwkerigheid binnen SBZ.
+In deze vegetatietypes dienen in Vlaanderen een 1000-tal random geselecteerde meetpunten in heidehabitat opgemeten te worden en dit telkens op twee verschillende schaalniveaus.
+Enerzijds een vegetatie-opname op een vierkante vegetatieplot van 3 op 3 meter en anderzijds een cirkelvormige plot met diameter 18m waar een aantal bijkomende indicatoren dienen ingeschat te worden.
+De meetpunten worden bemeten met een frequentie van 1 keer om de 6 jaar en laten op die manier toe om een uitspraak te doen over het aandeel habitat dit zich in een gunstige/ongunstige toestand bevindt en dit voor elk afzonderlijk habitattype en op niveau Vlaanderen, met een hogere nauwkerigheid binnen SBZ.
 Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar @paelinckx2019.
 
 ### Toepassingsgebied
@@ -43,21 +44,25 @@ Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar @paelinc
 Dit veldprotocol is specifiek van toepassing bij de gegevensinzameling in het monitoringsmeetnet kwaliteit van de Natura2000 heidehabitats.
 Qua Natura 2000 heidevegetaties zijn voor een 6-tal habitattypes (4030, 2310, 2330_bu, 7150, 7140_oli en 4010) meetnetten uitgewerkt.
 Jeneverbesstruweel (5130) en actief hoogveen (7110) zijn dermate zeldzaam dat we ze niet via een steekproef monitoren.
-Overgangsveen (7140_oli) betreft veelal een vorm van venige heide maar wordt in de groep van de moerassen gemonitord.Snavelbiesvegetaties (7150) komen voor op dynamische locaties zoals plagplekken en venoevers en vereisen een specifieke, nog uit te werken aanpak.
-Wel is het relevant om deze laatste twee types te kunnen onderscheiden van de doelvegetaties omdat ze ermee in overgang of mozaïek kunnen voorkomen.
+Overgangsveen (7140_oli) betreft veelal een vorm van venige heide maar wordt in de groep van de moerassen behandeld.
+Snavelbiesvegetaties (7150) komen voor op dynamische locaties zoals plagplekken en venoevers en vereisen een specifieke, nog uit te werken aanpak.
+Wel is het relevant om al deze types te kunnen onderscheiden van de doelvegetaties omdat ze ermee in overgang of mozaïek kunnen voorkomen.
+Hiervoor kan men zich best gebruik maken van de karteersleutel voor heides [@desaeger2016]
 
-### Vegetatiekundige beschrijving van de betreffende types:
+### Vegetatiekundige beschrijving van de betreffende types
 
-**2330_bu Buntgrasvegetatie op landduinen** Buntgrasvegetaties komen voor op landduinen waar de bodem door de hoge dynamiek nog geen profielontwikkeling heeft doorgemaakt.Hoogstens is er een dunne humuslaag aanwezig.In goed ontwikkelde vormen zijn er aanzienlijke delen open zand maar de meeste landduinen in Vlaanderen zijn in min of meerdere mate gefixeerd door afwezigheid van voldoende windwerking.De vegetatie wordt gekenmerkt door een hoog aandeel mossen en korstmossen die de bodem in een eerste fase fixeren, in combinatie met een aantal typische soorten zandbindende vaatplanten.
+**2330_bu buntgrasvegetatie op landduinen** Buntgrasvegetaties komen voor op landduinen waar de bodem door de hoge dynamiek nog geen profielontwikkeling heeft doorgemaakt (jonge bodems).Hoogstens is er een dunne humuslaag aanwezig.In goed ontwikkelde vormen zijn er aanzienlijke delen open zand maar de meeste landduinen in Vlaanderen zijn in min of meerdere mate gefixeerd door onvoldoende windwerking.
+De vegetatie wordt gekenmerkt door een hoog aandeel mossen en korstmossen die de bodem in een eerste fase fixeren, in combinatie met een aantal typische zandbindende vaatplanten.
 
 *Typische soorten: Buntgras (Corynephorus canescens), Heidespurrie (Spergula morisonii), Zandzegge (Carex arenaria), Zandstruisgras (Agrostis vinealis), Zilverhaver (Aira caryophyllea), Vroege haver (Aira praecox), Dwergviltkruid (Filago minima), Ruig haarmos (Polytrichum piliferum), rendiermossen (Cladina spp.), heidestaartjes en bekermossen (Cladonia spp.) en Cetraria spp.(IJslands mos en Kraakloof)*
 
-Op minder dynamische schrale standplaatsen in heidegebieden kan je ook dwerghavervegetaties aantreffen (2330_dw).
-Het onderscheid tussen beide subtypes is niet altijd even makkelijk maar doorgaans zijn deze minder rijk aan mossen en korstmossen, en wordt buntgras vervangen door Vroege en/of Zilverhaver.
+Op minder dynamische, schrale standplaatsen in heidegebieden kan je ook dwerghavervegetaties aantreffen (2330_dw).
+Het onderscheid tussen beide subtypes is zelden echt scherp maar doorgaans zijn de dwerghavervegetaties wat minder rijk aan mossen en korstmossen, en wordt buntgras vervangen door Vroege en/of Zilverhaver.
 
 **2310 Droge heide op landduinen** Dit type heide komt voor op dezelfde types bodems als de buntgrasvegetaties maar omvatten een latere in de successiereeks waarbij de landduin verder gefixeerd is geraakt.
 Kensoort is Struikheide aangevuld met andere soorten van droge heide.
-Vaak zullen soorten van 2330 en 2310 door elkaar heen groeien en komen de vegetatietypes in mozaÏek met elkaar voor.Qua vegetatiesamenstelling van de hogere planten is er geen duidelijk onderscheid met droge heide (4030), wel is er meestal een andere mos- en korstmoslaag aanwezig en dient in de eerste plaats naar de bodemtextuur gekeken te worden om het onderscheid te maken.
+Vaak zullen soorten van 2330 en 2310 door elkaar heen groeien en komen de vegetatietypes in mozaÏek met elkaar voor.
+Qua vegetatiesamenstelling van de hogere planten is er geen duidelijk onderscheid met droge heide (4030), wel is er meestal een andere mos- en korstmoslaag aanwezig en dient in de eerste plaats naar de bodemgenese gekeken te worden om het onderscheid te maken.
 
 *Typische soorten: Struikhei (Calluna vulgaris), Klein warkruid (Cuscuta epithymum), Stekelbrem (Genista anglica), Kruipbrem (Genista pilosa), aangevuld met de typische soorten van 2330_bu*
 
@@ -103,3 +108,4 @@ Pioniersgemeenschappen met snavelbies op plagplekken of periodiek overstromende 
 *Typische soorten: Kleine zonnedauw (Drosera intermedia), Ronde zonnedauw (Drosera rotundifolia), Moeraswolfsklauw (Lycopodiella inundata), Witte snavelbies (Rhynchospora alba), Bruine snavelbies (Rhynchospora fusca)*
 
 *Meer info:* *-Systematiek van natuurtypen voor de biotopen heide,moeras, duin en slik en schor: Deel 2 Heiden (Zwaenepoel et al., 2002)* *-Europees beschermde natuur in Vlaanderen (Decleer et al., 2007)*
+

@@ -15,13 +15,13 @@ library(readxl)
 #   language = "nl",
 #   subtitle = "psammofiele heide (2310), buntgrasvegetaties (2330_bu), droge heide (4030), natte heide (4010)")
 
-#render_protocol(protocol_code = "spp-001-nl")
+render_protocol(protocol_code = "spp-001-nl")
 #renv::restore()
 
 protocolhelper::add_dependencies(
   code_mainprotocol = "spp-001-nl",
-  protocol_code = c("sfp-401-nl"),
-  version_number = c("2023.03"),
-  params = list(NA)
+  protocol_code = c("sfp-401-nl", "sfp-001-nl"),
+  version_number = c("2023.03", "2023.1"),
+  params = list(NA, NA)
   )
 
