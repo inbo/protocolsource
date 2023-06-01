@@ -1,8 +1,24 @@
 # Extra benodigdheden t.o.v. de subprotocols
 
--   rolmeter of touw van 18m, ultrasone afstandmeter (zie Fig. 2)
+-   rolmeter of touw van 18m, ultrasone afstandmeter (zie Figuur \@ref(fig:Haglof))
 -   Kompas, kan eventueel ook via een app op een smartphone
--   RTK-GNSS of Fieldmap installatie voor navigatie en data-opslag
--   Fototoestel, kan eventueel ook via een smartphone
+-   RTK-GNSS of Fieldmap installatie voor navigatie en data-opslag (zie Figuur \@ref(fig:Trimble))
+-   Fototoestel, kan eventueel ook met een smartphone
 
-![Figuur 2: Voorbeeld van een handige afstandsmeter voor de 18meter plot: Haglöf ultrasone afstandmeter](media/Haglof.png)
+(ref:Haglof) Voorbeeld van een ultrasone afstandsmeter voor het afbakenen van de 18meter plot
+
+```{r Haglof, fig.cap="(ref:Haglof)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "Haglof.png"))
+```
+
+(ref:Trimble) Voorbeeld van een RTK-GPS waarvan het signaal op een smartphone kan binnengehaald worden
+
+```{r Trimble, fig.cap="(ref:Trimble)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "Trimble.png"))
+```
