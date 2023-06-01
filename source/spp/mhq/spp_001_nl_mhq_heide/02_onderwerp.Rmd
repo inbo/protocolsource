@@ -40,7 +40,10 @@ Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar @paelinc
 
 ### Toepassingsgebied
 
-Dit veldprotocol is specifiek van toepassing voor de gegevensinzameling in het monitoringsmeetnet kwaliteit van de Natura2000 heidehabitats.Qua Natura 2000 heidevegetaties zijn voor een 6-tal habitattypes (4030, 2310, 2330_bu, 7150, 7140_oli en 4010) meetnetten uitgewerkt.Jeneverbesstruweel (5130) en actief hoogveen (7110) zijn dermate zeldzaam dat we ze niet via een steekproef monitoren.Overgangsveen (7140_oli) betreft veelal een vorm van venige heide maar wordt in de groep van de moerassen gemonitord.Snavelbiesvegetaties (7150) komen voor op dynamische locaties zoals plagplekken en venoevers en vereisen een specifieke, nog uit te werken aanpak.
+Dit veldprotocol is specifiek van toepassing bij de gegevensinzameling in het monitoringsmeetnet kwaliteit van de Natura2000 heidehabitats.
+Qua Natura 2000 heidevegetaties zijn voor een 6-tal habitattypes (4030, 2310, 2330_bu, 7150, 7140_oli en 4010) meetnetten uitgewerkt.
+Jeneverbesstruweel (5130) en actief hoogveen (7110) zijn dermate zeldzaam dat we ze niet via een steekproef monitoren.
+Overgangsveen (7140_oli) betreft veelal een vorm van venige heide maar wordt in de groep van de moerassen gemonitord.Snavelbiesvegetaties (7150) komen voor op dynamische locaties zoals plagplekken en venoevers en vereisen een specifieke, nog uit te werken aanpak.
 Wel is het relevant om deze laatste twee types te kunnen onderscheiden van de doelvegetaties omdat ze ermee in overgang of mozaïek kunnen voorkomen.
 
 ### Vegetatiekundige beschrijving van de betreffende types:
@@ -64,7 +67,7 @@ Het landschap van stuifzandbodems heeft vaak nog een duinstructuur, waarbinnen g
 Dit duidt er dan in meer vastgelegde duinensituaties op dat je je in een voormalig stuifzandgebied bevindt.
 Vegetaties met dwergstruiken op stuifzandbodem resorteren onder 2310 psammofiele heide (psammos= zand in het Grieks) en de pioniersvegetaties (buntgras, zandstruisgras, mossen en korstmossen) worden als 2330 geclassificeerd.
 
-(ref:stuifduin) Voorbeeld van een psammofiele buntgrasvegetatie (2330_bu) op stuifzandbodem, met een typisch duinreliëf
+(ref:stuifduin) Voorbeeld van een psammofiele buntgrasvegetatie (2330_bu) op stuifzandbodem, met een typisch duinreliëf, doch in een gefixeerd stadium (weinig open zand)
 
 ```{r stuifduin, fig.cap="(ref:stuifduin)"}
 include_graphics(

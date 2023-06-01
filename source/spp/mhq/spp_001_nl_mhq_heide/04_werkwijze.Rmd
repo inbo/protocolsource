@@ -132,7 +132,7 @@ beslisregels_buiten_sbz %>%
 
 ## STAP 6:subprotocol vegetatie-opname met Londo-schaal
 
-==link naar subprotocol Londo-opname==
+[zie protocol sfp-401-nl versie 2023.03](../2023.03/index.html)
 
 ## STAP 7:meten van de variabelen in de 18meter-plot
 
