@@ -16,7 +16,7 @@ include_graphics(
 
 (ref:Trimble) Voorbeeld van een RTK-GPS waarvan het signaal op een smartphone kan binnengehaald worden
 
-```{r Trimble, fig.cap="(ref:Trimble)"}
+```{r Trimble, fig.cap="(ref:Trimble)", out.width="50%", fig.align ="center"}
 include_graphics(
   path = file.path(path_to_protocol,
                    "media",

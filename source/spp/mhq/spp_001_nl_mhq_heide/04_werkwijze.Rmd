@@ -12,28 +12,34 @@ Volg subprotocol A `<protocol-code>_YYYY.NN` om te bepalen of de locatie tot de 
 Volg subprotocol B `<protocol-code>_YYYY.NN` waarin de staalnameprocedure wordt uitgelegd.
 Volg subprotocol C `<protocol-code>_YYYY.NN` waarin labo-analyse wordt uitgelegd.
 
-De doelstelling is om de subprotocols te organiseren in een coherent hoofd protocol waarin ontbrekende elementen aangevuld worden die niet in de subprotocols staan, zoals wanneer een bepaald subprotocol wel of niet wordt uitgevoerd, of kleine extra stappen die geen eigen subprotocol vereisen.
+De doelstelling is om de subprotocols te organiseren in een coherent hoofdprotocol waarin ontbrekende elementen aangevuld worden die niet in de subprotocols staan, zoals wanneer een bepaald subprotocol wel of niet wordt uitgevoerd, of kleine extra stappen die geen eigen subprotocol vereisen.
 -->
 ```
 Volg volgende stappen in chronologische volgorde:
 
 > 1.  navigatie naar meetpunt
+>
 > 2.  Vegetatieplot installeren
+>
 > 3.  fototografisch documenteren van het meetpunt
+>
 > 4.  bepalen of een meetpunt tot de doelpopulatie behoort of niet
+>
 > 5.  eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
+>
 > 6.  subprotocol vegetatie-opname met Londo-schaal
+>
 > 7.  meten van de variabelen in de 18m plot
 
-## STAP 1: Navigatie naar een meetpunt
+### STAP 1: Navigatie naar een meetpunt
 
 De navigatie naar de steekproefpunten gebeurt met behulp van een zogeheten RTK-GNSS of FIELDMAP installatie (of combinatie van beiden) waarin de X en Y coördinaten van de proefvlakken op voorhand ingelezen zijn.
 De nauwkeurigheid van een commerciële GPS of een ingebouwde GPS in een smartphone is te laag om bij een herbezoek hetzelfde proefvlak voldoende goed te lokaliseren.
 Het kan wel handig zijn om met zo'n toestel eerst naar de omgeving van het meetpunt te navigeren en pas dan over te schakelen naar de nauwkeurige GPS-apparatuur voor het inmeten van de exacte locatie.Eens het meetpunt bepaald is, wordt het vegetatieproefvlak van 3 op 3 meter geïnstalleerd in stap 2.
 
-## STAP 2: Installeren van het vegetatieproefvlak (3mx3m)
+### STAP 2: Installeren van het vegetatieproefvlak (3mx3m)
 
-Het vegetatieproefvlak wordt geïnstalleerd volgens de werkwijze in **subprotocol A**
+Het vegetatieproefvlak wordt geïnstalleerd volgens de werkwijze in [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)
 
 De oriëntatie van het proefvlak is als volgt:
 
@@ -41,18 +47,19 @@ De oriëntatie van het proefvlak is als volgt:
 
 (ref:plot9m) Oriëntatie van de vegetatie-en structuurplot
 
-```{r plot9m, fig.cap="(ref:plot9m)"}
+```{r plot9m, fig.cap="(ref:plot9m)", out.width="75%", fig.align ="center"}
 include_graphics(
   path = file.path(path_to_protocol,
                    "media",
                    "plot9M.png"))
 ```
 
-## STAP 3: Fotografisch documenteren
+### STAP 3: Fotografisch documenteren
 
 Neem de foto's vooraleer je de vegetatie-opname maakt.
-Foto's worden altijd gemaakt, ook wanneer er geen opname zal uitgevoerd worden (zie 5.5).
-Indien je werkt met een externe camera codeer dan duidelijk in de daartoe voorziene velden in de veldcomputer of het vrije veld 'opmerkingen'van de papieren formulieren.
+Foto's worden altijd gemaakt, ook wanneer er geen opname zal uitgevoerd worden (zie 5.1.5).
+Indien je werkt met een externe camera codeer het beeld dan duidelijk in de daartoe voorziene velden in de veldcomputer of het vrije veld 'opmerkingen'van de papieren formulieren.
+Je kan ook eerste een foto maken van het unieke ID nummer van de plot en daarna de foto's van de vegetatie-opname maken.
 De foto's worden genomen vanuit het zuiden kijkend naar het noorden.
 De camera tilten in portrait oriëntatie waardoor de vegetatie maximaal in het fotokader valt.
 Neem 2 foto's per meetpunt: één overzichts foto waarbij je de plot landschappelijk kadert, en een tweede waarbij je enkel de vegetatie in de plot fotografeert (zie Figuur \@ref(fig:fotovoorbeeld)).
@@ -66,7 +73,7 @@ include_graphics(
                    "fotoproefvlak.png"))
 ```
 
-## STAP 4: Bepalen of een meetpunt tot de doelpopulatie behoort of niet
+### STAP 4: Bepalen of een meetpunt tot de doelpopulatie behoort of niet
 
 In deze stap dienen we te controleren of de doelvegetatie effectief aanwezig is in het vegetatieproefvlak opdat we een meting kunnen uitvoeren.
 De habitatkaart werd gebruikt als steekproefkader om de meetpunten te selecteren, maar omwille van verschillende redenen (voorkomen van complexen in de kartering, polygoongrenzen die niet exact overeenkomen met de terreinsituatie, verouderde kaartgegevens,... ) kan een geselecteerde plot buiten de doelvegetatie vallen.
@@ -88,53 +95,22 @@ Het schaalniveau waarop de sleutel dient toegepast te worden is niet dat van een
 Indien het eerder een geleidelijke overgang betreft naar een verwant vegetatietype dan wordt dit beschouwd als een onderdeel van de doelvegetatie en wordt de opname gemaakt inclusief de overgang.
 
 Noteer steeds op welk aandeel (in %) van de plot je data betrekking heeft.
-Bij het schatten blijf je echter werken alsof je op een volledige plot zou doen, je gaat m.a.w. niet herrekenen voor het aandeel dat effectief doelvegetatie bevat.In een 3mx3m plot blijft 30cmx30cm dus 1%.
+Bij het schatten blijf je echter werken alsof je op een volledige plot zou doen, je gaat m.a.w. niet herrekenen voor het aandeel dat effectief doelvegetatie bevat.
+In een 3mx3m plot blijft 30cmx30cm dus 1%.
 
 Voor de structuurplot (zie stap 7) wordt gelijkaardig gewerkt en dient ook het aandeel doelvegetatie waarop de inschatting betrekking heeft vermeld te worden.
 De inschatting van de bedekking gebeurt eveneens alsof het een volledige cirkelplot betreft, m.a.w. 10m² is 1%.
 In geval van twijfel voeren we de opname uit en documenteren we in het opmerkingenveld
 
-## STAP 5: Eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
+### STAP 5: Eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
 
-Wanneer men op het initiële meetpunt niet de gewenste doelvegetatie aantreft, kan het wel zijn dat dit meetpunt kan opgemeten worden voor een ander (heide)habitattype.
-Dat hangt af van drie zaken: - welke vegetatie daar dan effectief wel voorkomt - van het rangnummer van het meetpunt - of het meetpunt zich binnen of buiten een SBZ bevindt
+[zie protocol sfp-001-nl versie 2023.01](../2023.01/index.html)
 
-Het rangnummer van de plot en de SBZ gegevens vind je als attributen bij het meetpunt.
-Via Tabel \@ref(tab:beslisregels-meetpunt-binnen) en Tabel \@ref(tab:beslisregels-meetpunt-buiten) kan men controleren of en voor welk type het punt wel kan opgenomen worden.
-
-*Voorbeeld: Meetpunt met ranking 296.657 ligt in habitatrichtlijngebied en dient bezocht te worden voor natte heide 4010. Bij aankomst blijkt echter dat op dat meetpunt droge heide 4030 voorkomt. Gezien het ranknummer echter kleiner is dan 296.658, wordt het punt wel opgenomen voor de steekproef van 4030*
-
-```{r beslisregels-meetpunt-binnen}
-beslisregels_binnen_sbz <- read_excel(
-  file.path(
-    path_to_protocol,
-    "data",
-    "beslisregels.xlsx"), 
-  sheet = "binnen_sbz")
-
-beslisregels_binnen_sbz %>%
-  kable(caption = "Beslisregels binnen SBZ")
-
-
-```
-
-```{r beslisregels-meetpunt-buiten}
-beslisregels_buiten_sbz <- read_excel(
-  file.path(
-    path_to_protocol,
-    "data",
-    "beslisregels.xlsx"), 
-  sheet = "buiten_sbz")
-
-beslisregels_buiten_sbz %>%
-  kable(caption = "beslisregels buiten SBZ")
-```
-
-## STAP 6:subprotocol vegetatie-opname met Londo-schaal
+### STAP 6:subprotocol vegetatie-opname met Londo-schaal
 
 [zie protocol sfp-401-nl versie 2023.03](../2023.03/index.html)
 
-## STAP 7:meten van de variabelen in de 18meter-plot
+### STAP 7:meten van de variabelen in de 18meter-plot
 
 Aandeel doelvegetatie in de 18m-plot opgeven!
 
@@ -199,14 +175,6 @@ Afwezigheid ook aangeven!
 Aanwezigheid grijs kronkelsteeltje Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van Grijs kronkelsteeltje.
 Afwezigheid ook aangeven!
 
-## Samenvatting
+### Samenvatting
 
 (ref:samenvatting) Samenvatting stappenplan
-
-```{r samenvatting, fig.cap="(ref:samenvatting)"}
-include_graphics(
-  path = file.path(path_to_protocol,
-                   "media",
-                   "samenvatting_Werkwijze.png"))
-
-```
