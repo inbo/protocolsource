@@ -1,0 +1,10 @@
+# Veiligheid
+
+```{=html}
+<!--
+Alle aandachtspunten in verband met veilig werken.
+-->
+```
+Alle algemene veiligheidsregels in verband met werken in en langs water of werken vanuit een boot zijn van toepassing (protocol in ontwikkeling sfp-112 Veiligheid in en rond water).
+
+Ook bioveiligheidsmaatregelen in verband met verspreiding van invasieve niet-inheemse soorten en pathogenen zijn van toepassing (protocol in ontwikkeling sfp-015 Bioveiligheidsmaatregelen).

@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.1",
+    "Version": "4.3.0",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -180,7 +180,7 @@
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.33",
+      "Version": "0.34",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -193,7 +193,7 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "948ba48e07aa772d3e5564ce8c0a7896"
+      "Hash": "25e3e995e30c235ea6fcc76677efbe27"
     },
     "brew": {
       "Package": "brew",
@@ -267,14 +267,12 @@
     },
     "checklist": {
       "Package": "checklist",
-      "Version": "0.3.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteUsername": "inbo",
-      "RemoteRepo": "checklist",
-      "RemoteRef": "main",
-      "RemoteSha": "d3c2691569c6a2de95a9dbdcc47ec278f9a04e58",
-      "RemoteHost": "api.github.com",
+      "Version": "0.3.2",
+      "Source": "Repository",
+      "Repository": "https://inbo.r-universe.dev",
+      "RemoteUrl": "https://github.com/inbo/checklist",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "a475267f230ce10ee6495cb111d0191252d718db",
       "Requirements": [
         "R",
         "R6",
@@ -298,7 +296,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "e7f3f6e32b21c862300aa0c5b5d1961c"
+      "Hash": "305d69a7a519c2e7771fe429030f3151"
     },
     "checkmate": {
       "Package": "checkmate",
@@ -648,14 +646,14 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.20",
+      "Version": "0.21",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "4b68aa51edd89a0e044a66e75ae3cc6c"
+      "Hash": "d59f3b464e8da1aef82dc04b588b8dfb"
     },
     "fansi": {
       "Package": "fansi",
@@ -912,7 +910,7 @@
     },
     "httpuv": {
       "Package": "httpuv",
-      "Version": "1.6.9",
+      "Version": "1.6.10",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -923,11 +921,11 @@
         "promises",
         "utils"
       ],
-      "Hash": "1046aa31a57eae8b357267a56a0b6d8b"
+      "Hash": "503490b202c9ae28e7f58b9b5ae21d9f"
     },
     "httr": {
       "Package": "httr",
-      "Version": "1.4.5",
+      "Version": "1.4.6",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -938,11 +936,11 @@
         "mime",
         "openssl"
       ],
-      "Hash": "f6844033201269bec3ca0097bc6c97b3"
+      "Hash": "7e5e3cbd2a7bc07880c94e22348fb661"
     },
     "httr2": {
       "Package": "httr2",
-      "Version": "0.2.2",
+      "Version": "0.2.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -957,7 +955,7 @@
         "rlang",
         "withr"
       ],
-      "Hash": "5c09fe33064978ede54de42309c8b532"
+      "Hash": "193bb297368afbbb42dc85784a46b36e"
     },
     "hunspell": {
       "Package": "hunspell",
@@ -974,15 +972,14 @@
     "inbodb": {
       "Package": "inbodb",
       "Version": "0.0.4",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "inbo",
-      "RemoteRepo": "inbodb",
-      "RemoteRef": "main",
+      "Source": "Repository",
+      "Repository": "https://inbo.r-universe.dev",
+      "RemoteUrl": "https://github.com/inbo/inbodb",
+      "RemoteRef": "HEAD",
       "RemoteSha": "71e918c0c9ee2c48ee7f8da3872a67e68ab98c34",
       "Requirements": [
         "DBI",
+        "R",
         "assertthat",
         "dbplyr",
         "dplyr",
@@ -991,7 +988,7 @@
         "odbc",
         "rlang"
       ],
-      "Hash": "c5cc605b1e86d1aafd22209b68793ed8"
+      "Hash": "277c38fbe008b159070b050f111bde2f"
     },
     "ini": {
       "Package": "ini",
@@ -1112,6 +1109,7 @@
       "Version": "3.0.2.9000",
       "Source": "Repository",
       "Repository": "https://inbo.r-universe.dev",
+      "RemoteType": "repository",
       "RemoteUrl": "https://github.com/r-lib/lintr",
       "RemoteRef": "HEAD",
       "RemoteSha": "3a8d4957ce33a7b0613ee917d887209118cf63d2",
@@ -1129,7 +1127,7 @@
         "xml2",
         "xmlparsedata"
       ],
-      "Hash": "8257b354eac8a00d6d582d621347af71"
+      "Hash": "59743a5af05d98c3af002f110d3c4c01"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -1138,7 +1136,7 @@
       "Repository": "https://inbo.r-universe.dev",
       "RemoteUrl": "https://github.com/tidyverse/lubridate",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b0440b09619b7d4a2b11f207ca0c4e2416ba3f5b",
+      "RemoteSha": "87afddf0a9c583ad2e0bd15631e08c9469a82a0a",
       "Requirements": [
         "R",
         "generics",
@@ -1470,9 +1468,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
-      "RemoteRef": "main",
+      "RemoteUsername": "inbo",
+      "RemoteRef": "HEAD",
       "RemoteSha": "8daa0928a03141eb2021f66ffc514a94ca3b5319",
       "Requirements": [
         "R",
@@ -1496,7 +1494,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "479a06afa98a9edd45236361a07e50c3"
+      "Hash": "b1c5c4a8c7f0580fd7637d8bb7f2e67b"
     },
     "ps": {
       "Package": "ps",
@@ -1663,13 +1661,18 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.17.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "Version": "0.17.3-76",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "renv",
+      "RemoteRef": "main",
+      "RemoteSha": "a2932f4067e5d525bbe154a6b9734f181e0b1b92",
       "Requirements": [
         "utils"
       ],
-      "Hash": "4543b8cd233ae25c6aba8548be9e747e"
+      "Hash": "b8b506b737661f895a7bbdc4c0415d49"
     },
     "rex": {
       "Package": "rex",
@@ -1948,7 +1951,7 @@
     },
     "spatstat.geom": {
       "Package": "spatstat.geom",
-      "Version": "3.1-0",
+      "Version": "3.2-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1963,7 +1966,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "29dcd12bf44a63d24e95dd6adb9e71d2"
+      "Hash": "a5df69fe7ab3f6f645b8332d08486b65"
     },
     "spatstat.linnet": {
       "Package": "spatstat.linnet",
@@ -2052,7 +2055,7 @@
     },
     "spatstat.utils": {
       "Package": "spatstat.utils",
-      "Version": "3.0-2",
+      "Version": "3.0-3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2063,7 +2066,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "709f446323db399458f7caaef8dcdf95"
+      "Hash": "8f9764a85e3ca99604625f7ab6012418"
     },
     "stringi": {
       "Package": "stringi",
@@ -2382,7 +2385,7 @@
     },
     "waldo": {
       "Package": "waldo",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2395,7 +2398,7 @@
         "rlang",
         "tibble"
       ],
-      "Hash": "57ddc85f4e22b2d4054f7db2962e3170"
+      "Hash": "2c993415154cdb94649d99ae138ff5e5"
     },
     "whisker": {
       "Package": "whisker",

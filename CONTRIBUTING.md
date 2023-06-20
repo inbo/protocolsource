@@ -145,7 +145,7 @@ Tips & Tricks:
 
 ## <a name="branching"></a>Branching model
 
-![](src/management/protocols-gitflow-model.png)
+![](source/management/protocols-gitflow-model.png)
 
 We use a simple branching model.
 The main branch is protected and can only receive commits from reviewed pull requests.
@@ -219,9 +219,9 @@ This website will host all approved and published versions of all protocols.
 
 7.  When you think your protocol is ready to be reviewed, visit [github protocolsource](https://github.com/inbo/protocolsource) and start a Pull Request (PR)
 
-    ![](src/management/pr-on-github-1.png)
+    ![](source/management/pr-on-github-1.png)
 
-    ![](src/management/pr-on-github-2.png)
+    ![](source/management/pr-on-github-2.png)
 
    1. Wait for the continuous integration checks to finish and see if the checks succeeded.
    These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`, and update the version number if needed.
@@ -237,14 +237,14 @@ This website will host all approved and published versions of all protocols.
     At least one repo admin and one other subject-matter specialist must review the protocol.
     The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
-    ![](src/management/pr-on-github-4.png)
+    ![](source/management/pr-on-github-4.png)
 
 10.  Reviewers can follow [these guidelines](REVIEWING.md)
 
 11. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push).
     If the review requires substantial changes, it is wise to temporarilly mark the PR as draft
 
-    ![](src/management/pr-on-github-3.png)
+    ![](source/management/pr-on-github-3.png)
 
     When you have dealt with the reviewer comments, go to your draft pull request and press 'ready for review'
 
