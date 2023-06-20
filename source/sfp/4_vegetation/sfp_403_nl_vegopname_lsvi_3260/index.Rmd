@@ -19,6 +19,13 @@ bibliography:
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 url: https://inbo.github.io/protocols/
 github_repo: inbo/protocolsource
+params:
+  dependencies:
+    value:
+    - protocol_code: sfp-113-nl
+      version_number: '2023.04'
+      params: .na
+      appendix: false
 ---
 
 ```{=html}

@@ -37,7 +37,7 @@ Aandachtspunten:
 
 -   Indien het steekproefpunt niet bereikbaar is, wordt dit genoteerd op het veldformulier en wordt dit steekproefpunt vervangen door het eerstvolgende reservepunt.
 
-### Vegetatieopname (achterkant veldformulier; Bijlage \@ref(veldformulier))
+### Vegetatieopname (achterkant veldformulier; Bijlage \@ref(veldformulier)) {#vegopn}
 
 -   De waterdiepte bepaalt de wijze van opname:
 
@@ -230,7 +230,7 @@ Indien de schijf tot op de bodem zichtbaar is, wordt 'bodemzicht' aangevinkt.
 De meting van de secchi-diepte dient in het midden van de waterloop uitgevoerd te worden ter hoogte van de plaats waar ook het dwarsprofiel wordt opgemeten.
 Bij te grote diepte, kan de secchi-diepte bepaald worden vanop een brug.
 Wanneer door stroming de secchi-schijf sterk afdrijft en de schijf niet loodrecht onder het wateroppervlak komt te hangen, kan de secchi-schijf aan de onderzijde verzwaard worden.
-Zie ook deelprotocol (sfp-113).
+Zie ook protocol [sfp-113](https://inbo.github.io/protocols/2023.04/index.html).
 
 #### Dominant oeverprofiel
 
