@@ -4,9 +4,11 @@
 <!--
 Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het protocol op een gepaste manier te kunnen uitvoeren.
 Eventueel kan er verwezen worden naar bepaalde opleidingen.
+Hier nog verwijzen naar protocols in ontwikkeling: sfp-015, sfp-112 en sfp-118. 
 -->
 ```
-Voldoende kennis van de veldkenmerken van macrofyten die in waterlopen worden aangetroffen, vertrouwd zijn met technieken om ze te kunnen identificeren en vertrouwd zijn met de deelprotocol sfp-015, sfp-112, sfp-113 en sfp-118.
+Voldoende kennis van de veldkenmerken van macrofyten die in waterlopen worden aangetroffen, vertrouwd zijn met technieken om ze te kunnen identificeren en vertrouwd zijn met het protocol [sfp-113-nl 2023.04](../2023.04/index.html).
+
 Daarnaast zijn volgende algemene competenties vereist (naar Bijkerk, 2014):
 
 -   nauwkeurigheid: de uitvoering van veldmetingen en het vastleggen van veldwaarnemingen vereisen een grote mate van accuraatheid;
