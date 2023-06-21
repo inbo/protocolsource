@@ -1,0 +1,13 @@
+# Principe
+
+```{=html}
+<!--
+Korte omschrijving van de principes waarop het protocol gebaseerd is.
+Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
+-->
+```
+De LSVI geeft inzichten in de toestand van de populatie en de kwaliteit van het leefgebied.
+De LSVI-indicatoren worden ingedeeld in criteria voor bepaling van de toestand van de populatie en de habitatkwaliteit; ze omvatten de populatiegrootte, populatiestructuur, vegetatiestructuur, habitatkenmerken en verstoringsindicatoren.
+Voor elke indicator wordt een drempelwaarde gegeven die een beoordeling tussen een gunstige en ongunstige toestand toelaat (Denys et al. 2008, Lommaert et al. 2020).
+Via dit veldprotocol worden de nodige gegevens verzameld om de LSVI-indicatoren voor de habitatrichtlijnsoort *Luronium natans* te kunnen bepalen.
+

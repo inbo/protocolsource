@@ -1,3 +1,10 @@
+### First version of protocol: sfp-406-nl
+
+- Title: Vegetatieopname en LSVI-bepaling *Luronium natans*
+- Published on: 2023-06-21
+- Version number: 2023.06
+- Link to this version: [sfp-406-nl version 2023.06](2023.06/index.html)
+
 ### Update of protocol: sfp-403-nl
 
 - Title: Vegetatieopname en LSVI-bepaling habitat 3260

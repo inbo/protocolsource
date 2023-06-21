@@ -1,0 +1,52 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+**LSVI**: lokale staat van instandhouding.
+
+***Luronium*****-vlek**: vegetatievlek van *Luronium natans*; deze ligt minstens 2 m verwijderd van een andere vlek.
+De locatie van deze vlek wordt op kaart vastgelegd om bij een volgende monitoringsronde de vindplaats in het waterlichaam terug te vinden en de evolutie op te volgen.
+
+**populatie**: Populaties of deelpopulaties van *Luronium* worden hier onderscheiden op basis van afwijkingen in de fysische of chemische kenmerken van de groeiplaatsen; concreet betekent dit dat één plas of waterloop meestal één populatie bevat.
+
+**PVI:** 'plant volume infested': het percentage van het watervolume dat wordt ingenomen door ondergedoken vegetatie (Canfield et al. 1984).
+
+**veldlocatie:** de te monitoren locatie met aanwijzingen van voorkomen van *Luronium natans.*
+
+**waterdiepte**: verticale afstand tussen het wateroppervlak en het bodemoppervlak.
+
+**waterlichaam** of oppervlaktewaterlichaam: een onderscheiden oppervlaktewater van aanzienlijke omvang, zoals een meer, een waterbekken, een stroom, een rivier, een kanaal, of een deel ervan, een overgangswater of een strook kustwater (KRW 2000).
+Hier wordt de term gebruikt als verzamelnaam voor een plas of een waterloop.
+
+## Doelstelling en toepassingsgebied
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+Het doel van het veldprotocol is veldgegevens te verzamelen van de populaties van de habitatrichtlijnsoort *Luronium natans* (drijvende waterweegbree) om de verspreiding en kwaliteit van de soort op Vlaams niveau te bepalen voor de EU-rapportage (artikel 17; European Commission, 1992).
+De gehanteerde methode is beschreven in het rapport over de monitoring van de soorten (Van Landuyt 2014) en de beoordeling van de lokale staat van instandhouding van de habitatrichtlijnsoorten (Denys et al. 2008; Lommaert et al. 2020).
+
+Het veldprotocol kan toegepast worden op locaties waar *Luronium natans* voorkomt of verdwenen is, zowel in stilstaande als in stromende wateren.
+Aangezien de soort op een beperkt aantal plaatsen voorkomt, worden alle populaties opgevolgd en wordt er geen steekproef van op te volgen populaties getrokken.
+Bij de bemonstering is het niet nodig om de volgorde aan te houden van het randomgrid (Westra et al. 2014).
+Er wordt bijgevolg voorrang gegeven aan locaties die het langst geleden werden geïnventariseerd.
+
+De soort is gekend van een 40-tal locaties (Bijlage \@ref(veldlocaties); datum 2020-11-24).
+Er worden 3 vindplaatsen jaarlijks opgevolgd (Roskampsputje, Heuvelsven en Daelemansloop) om korte-termijn-fluctuaties te kunnen inschatten.
+Nieuwe meldingen van *Luronium natans* worden - indien haalbaar - in hetzelfde jaar bezocht.
+De overige vindplaatsen worden 6-jaarlijks opgevolgd.
+Van Landuyt (2014) raadt echter een 3-jaarlijkse monitoringscyclus aan, terwijl andere monitoringsinitiatieven 12-jaarlijks meten.
+
+Er is een grote overlap tussen de vindplaatsen van *Luronium natans* en de habitatwaardige plassen die opgenomen zijn in het habitatkwaliteitsmeetnet voor stilstaande wateren (Westra et al. 2014).
+De veldkenmerken van *Luronium natans* kunnen gelijktijdig met het veldwerk voor habitattype 3130 bepaald worden.
+Een extra voordeel hierbij is dat de gegevens gelinkt kunnen worden aan de resultaten van de abiotische staalname van deze locaties.
