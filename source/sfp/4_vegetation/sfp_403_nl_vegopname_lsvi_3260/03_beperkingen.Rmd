@@ -12,6 +12,17 @@ De reden hiervoor wordt genoteerd:
 
 -   geen toestemming;
 
--   tijdelijk ongeschikt (niet toegankelijk, gevaarlijke hond, verhoogd waterpeil, uitgedroogd, ...): het loont de moeite om de locatie later dat jaar een opnieuw te bezoeken;
+-   tijdelijk ongeschikt (niet toegankelijk, gevaarlijke hond, verhoogd waterpeil, onvoldoende watervoerend, werken aan de waterloop, ...): het loont de moeite om de locatie later in het jaar of tijdens het volgende jaar opnieuw te bezoeken;
 
--   permanent ongeschikt (hek, niet bereikbaar op een veilige manier, teveel bodemverharding, te groot deel ingebuisd, ...).
+-   permanent ongeschikt (hek, niet bereikbaar op een veilige manier, teveel bodemverharding, te groot deel overwelfd, ...).
+    Om een representatieve opname te kunnen maken, dient de schaduw op het wateroppervlak minder dan 30 % te bedragen (Denys et al., 2016; Oosterlynck et al., 2020) en de bodemverharding of overwelving minder dan 10 %.
+    Wordt deze grenswaarde overschreden, dan wordt de locatie in willekeurige richting 100 m stroomaf- of -opwaarts verschoven.
+    Indien ook deze locatie ongeschikt blijkt, wordt dit steekproefpunt vervangen door het eerstvolgende reservepunt.
+
+De opnames worden uitgevoerd in het groeiseizoen van de water- en oeverplanten.
+Idealiter wordt er medio juni gestart met opnames van veldlocaties met waterranonkels, omdat deze eerst bloeien.
+Vervolgens worden bovenlopen met kans op uitdroging geïnventariseerd.
+Daarna worden de overige veldlocaties bezocht.
+De vegetatieopnames worden best voor eind juli uitgevoerd om de kans op afwezigheid van watervegetatie door vegetatieruimingen te beperken.
+De vegetatieopnames in de Grensmaas kunnen eind augustus uitgevoerd worden, wanneer het waterpeil lager is en dit bijgevolg veiliger is.
+
