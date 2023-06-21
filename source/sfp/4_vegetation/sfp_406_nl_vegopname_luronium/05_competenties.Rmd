@@ -9,11 +9,11 @@ Eventueel kan er verwezen worden naar bepaalde opleidingen.
 ```
 De veldwerker is vertrouwd met volgende deelprotocollen:
 
--   veiligheid in en rond water (sfp-112; protocol te ontwikkelen);
+-   veiligheid in en rond water;
 
 -   bepaling doorzicht waterkolom oppervlaktewater op basis van de Secchi-diepte ([sfp-113 2023.04](../2023.04/index.html));
 
--   bioveiligheidsmaatregelen (sfp-015, protocol te ontwikkelen).
+-   bioveiligheidsmaatregelen.
 
 Daarnaast zijn volgende algemene competenties vereist (naar Bijkerk 2014):
 
