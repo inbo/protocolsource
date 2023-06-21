@@ -46,7 +46,7 @@ bijlage %>%
 
 # Veldformulier habitatkwaliteit waterlopen met habitattype 3260 {#veldformulier}
 
-Het veldwerkformulier kan [hier](https://docs.google.com/document/d/0BwHLCKB3fXyDamgyRW1XUU5VbDQ/edit?usp=sharing&ouid=110742384115777694200&resourcekey=0-d6fWDWYUI81M-1H3F79dQg&rtpof=true&sd=true) gedownload worden.
+Het veldwerkformulier kan [hier](https://docs.google.com/document/d/12lnKnR1vqXqlR8tRAa7a0_mOXD2Ur2jF/edit) gedownload worden.
 
 # Determinatiewerken {#determinatie}
 
@@ -56,6 +56,7 @@ Duistermaat L.
 (2020) Heukels' Flora van Nederland.
 Noordhoff Naturalis Biodiversity Center.
 ISBN 978-90-01-58956-1.
+
 Eggelte H.
 (2000) Veldgids Nederlandse Flora.
 KNNV. ISBN90 5011 135 1.

@@ -1,0 +1,41 @@
+# Beperkingen van het protocol
+
+```{=html}
+<!--
+Alleen in te vullen indien van toepassing.
+Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol.
+Vermeld hier ook mogelijke interferenties, knelpunten, ...
+-->
+```
+Er zijn verschillende factoren die in het veld invloed kunnen hebben op het correct bepalen van de secchi-diepte. 
+
+## Weersomstandigheden
+
+Wisselende bewolking, regen en beweging van het wateroppervlak zijn de meest courante factoren die het vastleggen van de secchi-diepte kunnen beïnvloeden.
+Bewolking beperkt de instraling waardoor de secchi-diepte negatief wordt beïnvloed.
+Wind, regen, enz., zorgen voor wisselende reflectie en agitatie van het wateroppervlak, waardoor de waarnemer beperkt wordt in het bepalen van de exacte diepte.
+In bepaalde omstandigheden kan dit er zelfs toe leiden dat de bepaling van de secchi-diepte volledig onmogelijk is.
+De omstandigheden waarbij de bepaling gebeurt dienen steeds te worden gedocumenteerd.
+
+## Vegetatieontwikkeling
+
+Ook de vegetatie kan het vastleggen van de secchi-diepte bemoeilijken.
+Vegetatie aan of vlak onder het wateroppervlak kan het doorvallend licht onder water dermate beperken dat de gemeten secchi-diepte geen goede maat is voor de helderheid van de waterkolom.
+Drijflagen van algen, pollen, ... kunnen een vergelijkbaar effect hebben.
+Schaduw van overhangende bomen en struiken vermindert de instraling en daarmee de optimale zichtbaarheid van de secchi-schijf.
+Submerse vegetatie en draadalgen kunnen het neerlaten van de secchi-schijf verhinderen of ze aan het zicht onttrekken.
+
+## Afdrijven van de secchi-schijf
+
+Indien de secchi-schijf niet loodrecht onder het wateroppervlak komt te hangen, zoals bij meting vanop een bewegende boot of in stromend water, zal de gemeten secchi-diepte afwijken van de werkelijke.
+In dergelijke gevallen kan verzwaring van de secchi-schijf aan de onderzijde noodzakelijk zijn.
+
+## Omwoelen waterbodem
+
+De waterkolom kan in bepaalde gevallen voorafgaand aan de bepaling, al dan niet lokaal, zeer tijdelijk vertroebeld zijn door omwoelen van de waterbodem (bijv. ten gevolge het waden van de staalnemer, vee of bootverkeer).
+Het is van groot belang om zeer voorzichtig te werk te gaan om zelf geen vertroebeling te veroorzaken en eventueel te wachten tot door verstoring in suspensie gebracht materiaal terug bezonken is.
+
+## IJsvorming
+
+Bij een bevroren wateroppervlak is het niet mogelijk om de secchi-diepte te bepalen, tenzij een aanzienlijk oppervlak ijsvrij kan worden gemaakt.
+Het ijs beperkt het doordringend licht onder water, zodat een correcte meting onmogelijk is.
