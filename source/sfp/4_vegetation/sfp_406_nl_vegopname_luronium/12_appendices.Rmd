@@ -2,9 +2,9 @@
 
 # Bijlage 1: veldformulier {#veldformulier}
 
-Het veldwerkformulier kan [hier](https://docs.google.com/spreadsheets/d/1sWFkdzMlyaL4iSN8bBfETIbfSq_ITkyC/edit#gid=838496352) gedownload worden.
+Het veldwerkformulier kan [hier](https://docs.google.com/spreadsheets/d/1sWFkdzMlyaL4iSN8bBfETIbfSq_ITkyC) gedownload worden.
 
 # Bijlage 2: lijst van veldlocaties (inclusief unieke locatiecode) {#veldlocaties}
 
-De lijst van veldlocaties kan [hier](https://docs.google.com/spreadsheets/d/1sWFkdzMlyaL4iSN8bBfETIbfSq_ITkyC/edit#gid=838496352) door INBO-medewerkers gedownload worden.
+De lijst van veldlocaties kan [hier](https://docs.google.com/spreadsheets/d/1FrFj9HyFkdN8Kb_ws-wXzxQCY7-vAg9L) door INBO-medewerkers gedownload worden.
 Personen die niet tot het INBO behoren moeten eerst toegang vragen tot dit bestand.
