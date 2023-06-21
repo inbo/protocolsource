@@ -5,16 +5,15 @@
 Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het protocol op een gepaste manier te kunnen uitvoeren.
 Eventueel kan er verwezen worden naar bepaalde opleidingen.
 
-sfp-113 nog toe te voegen aan protocollenwebsite
 -->
 ```
 De veldwerker is vertrouwd met volgende deelprotocollen:
 
--   veiligheid in en rond water (sfp-112; protocol in ontwerp);
+-   veiligheid in en rond water (sfp-112; protocol te ontwikkelen);
 
--   bepaling doorzicht waterkolom oppervlaktewater op basis van de Secchi-diepte (sfp-113);
+-   bepaling doorzicht waterkolom oppervlaktewater op basis van de Secchi-diepte ([sfp-113 2023.04](../2023.04/index.html));
 
--   bioveiligheidsmaatregelen (sfp-015, protocol in ontwerp).
+-   bioveiligheidsmaatregelen (sfp-015, protocol te ontwikkelen).
 
 Daarnaast zijn volgende algemene competenties vereist (naar Bijkerk 2014):
 

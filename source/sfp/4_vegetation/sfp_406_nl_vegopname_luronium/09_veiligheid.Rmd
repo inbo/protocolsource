@@ -7,9 +7,9 @@ Alle aandachtspunten in verband met veilig werken.
 ```
 Tijdens het veldwerk gelden volgende veiligheidsregels:
 
--   algemene veiligheidsregels voor het werken in en nabij water (sfp-112; te ontwikkelen);
+-   algemene veiligheidsregels voor het werken in en nabij water (sfp-112; protocol te ontwikkelen);
 
--   bioveiligheidsmaatregelen voor het voorkomen van de verspreiding van invasieve exoten (sfp-015; te ontwikkelen).
+-   bioveiligheidsmaatregelen voor het voorkomen van de verspreiding van invasieve exoten (sfp-015; protocol te ontwikkelen).
 
 Voorzichtigheid is ten zeerste geboden bij diepe en snelstromende waterlopen, bij weke waterbodem en bij gladde taluds.
 Gebruik een veiligheidstouw of reddingsvest wanneer de situatie dit vereist.

@@ -61,7 +61,7 @@ Subtitels gebruiken om elke stap te omschrijven.
 
 ### Secchi-diepte bepalen en registratie van overige kenmerken
 
-Voor de technische uitvoering van de secchi-diepte-bepaling wordt verwezen naar deelprotocol sfp-113.
+Voor de technische uitvoering van de secchi-diepte-bepaling wordt verwezen naar protocol [sfp-113 2023.04](../2023.04/index.html).
 De secchi-diepte wordt op twee plaatsen bepaald: één bepaling voor het volledige waterlichaam (in het midden van de waterloop of plas) en één in een representatieve zone van de *Luronium natans*-populatie of op de plek waar de soort vroeger is waargenomen.
 Bij voorkeur wordt de secchi-diepte bepaald in een vegetatieloze of vegetatiearme zone.
 De waterdiepte waar de secchi-diepte werd bepaald, wordt eveneens genoteerd.

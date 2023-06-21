@@ -1,6 +1,6 @@
 # Wijzigingen t.o.v. vorige versies
 
-## [2023.04](../2023.04/index.html)
+## [2023.06](../2023.06/index.html)
 
 -   Dit is de eerste versie van het protocol dat dateert van 09-02-2022. Het oorspronkelijk versienummer is 1.0
 
