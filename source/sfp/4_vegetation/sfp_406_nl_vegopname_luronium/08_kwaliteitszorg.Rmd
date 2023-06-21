@@ -8,7 +8,7 @@ Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel v
 In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
 -->
 ```
-Zie kwaliteitszorg van protocol [sfp-113 2023.04](../2023.04/index.html)
+Zie kwaliteitszorg van protocol [sfp-113 2023.04](../2023.04/index.html).
 
 Neem steeds alle relevante protocollen mee in het veld en kijk voor het vertrek steeds na of al het materiaal aanwezig is en of op batterijen werkende toestellen voldoende zijn opgeladen.
 De checklist van het veldmateriaal staat in Tabel \@ref(tab:Tabel1).
