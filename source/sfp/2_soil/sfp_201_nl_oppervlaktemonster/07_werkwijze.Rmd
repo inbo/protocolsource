@@ -163,7 +163,7 @@ Bij voorkeur wordt deze informatie vooraf (indien reeds beschikbaar) op 'heavy d
 -   Datum van bemonstering
 -   Naam staalnemer
 
-### Transport , bewaring en documentatie van de monsters
+### Transport, bewaring en documentatie van de monsters
 
 Monsters kunnen ten gevolge van fysische, chemische of biologische reacties wijzigingen ondergaan tussen het ogenblik waarop ze worden genomen en de analyse.
 Om dit te voorkomen worden de volgende voorzorgsmaatregelen getroffen:
