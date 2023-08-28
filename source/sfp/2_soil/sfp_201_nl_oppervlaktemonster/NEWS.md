@@ -1,6 +1,6 @@
 # Wijzigingen t.o.v. vorige versies
 
-## [2023.03](../2023.03/index.html)
+## [2023.07](../2023.07/index.html)
 
 -   Omzetting van Word versie van het protocol (oud versienummer 1.5)
 
