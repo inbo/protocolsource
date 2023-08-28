@@ -14,7 +14,7 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
 
 -   Verwijder bij elk monsters het overtollig materiaal van de guts
 
--   Neem van elk monster het gewenste materiaal (bvb. over een diepte van de eerste 10 cm) en breng in een mengemmertje
+-   Neem van elk monster het gewenste materiaal (in dit geval van `r params$begin_diepte_cm` -- `r params$eind_diepte_cm` cm diep) en breng in een mengemmertje
 
 -   Verwijder zoveel mogelijk het materiaal dat niet mee opgenomen mag worden in het laboratoriummonster (levend materiaal, steentjes, ...)
 

@@ -93,7 +93,7 @@ include_graphics(
     Het draaien zorgt voor minder bodemverlies en werkt de onderdruk tegen die onder de guts aanwezig is.
     Zo bekomt men dus een minimaal geroerd monster (Figuur \@ref(fig:Foto3)).
 
-    ![(\#fig:Foto3) Minimaal geroerd bodemmateriaal bij bodembemonstering met een guts © N. Cools](./media/image6.jpg){width="4.304419291338583in" height="3.2283147419072615in"}
+    ![(#fig:Foto3) Minimaal geroerd bodemmateriaal bij bodembemonstering met een guts © N. Cools](./media/image6.jpg){width="4.304419291338583in" height="3.2283147419072615in"}
 
 -   Het materiaal in de guts zal aan open zijde van de holle buis steeds wat materiaal bevatten van de bovenliggende lagen.
     Dit materiaal wordt verwijderd met de spatel of een mes en opgevangen in een 'afvalbakje'.
@@ -101,7 +101,7 @@ include_graphics(
 -   Vervolgens snijd je met de gebogen spatel de cilindrische kolom bodemmateriaal af langs de gutsboorranden (zie Figuur \@ref(fig:werkwijze-guts)).
     Het achtergebleven bodemmateriaal is geschikt voor bemonstering.
 
--   Vervolgens duid je met de spatel het te bemonsteren diepte-interval aan (bvb. 0 -- 10 cm) op het materiaal in de boor door dit lichtjes in te snijden.
+-   Vervolgens duid je met de spatel het te bemonsteren diepte-interval aan (bvb. `r params$begin_diepte_cm` -- `r params$eind_diepte_cm` cm) op het materiaal in de boor door dit lichtjes in te snijden.
     Dit is het moment voor het nemen van een foto.
 
 -   Vervolgens verwijder je het teveel aan materiaal in het 'afvalemmertje' en verzamel je het bodemmateriaal uit het gewenste diepte-interval in het mengemmertje.
@@ -150,7 +150,7 @@ Een voorbeeldje:
 
 -   De Omgevingsfoto: CODEPROEFVLAK_O
 -   De foto van het proefvlak/plot: CODEPROEFVLAK_PLOT
--   De foto van het 0 -- 10 cm staal: CODEPROEFVLAK_M01
+-   De foto van het `r params$begin_diepte_cm` -- `r params$eind_diepte_cm` cm staal: CODEPROEFVLAK_M01
 
 ### Identificatie (etikettering) van de monsters
 
@@ -159,7 +159,7 @@ Bij voorkeur wordt deze informatie vooraf (indien reeds beschikbaar) op 'heavy d
 
 -   Plaatsnaam (hoofdgemeente en toponiem)
 -   Unieke veldidentificatiecode van het proefvlak
--   Bemonsteringsdiepte (in dit geval 0-10 cm)
+-   Bemonsteringsdiepte (in dit geval `r params$begin_diepte_cm` -- `r params$eind_diepte_cm` cm)
 -   Datum van bemonstering
 -   Naam staalnemer
 
