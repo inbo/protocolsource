@@ -46,9 +46,11 @@ Note also that any dependency packages needed by the packages listed in the [DES
 
 Apart from the above R packages, you will also need a working installation of TinyTeX, which is an external open-source software package that is needed to render protocols to PDF format (i.e. when you run `protocolhelper::render_protocol()` see [Workflow](#workflow)).
 
-To install this, we recommend to follow the [installation instructions](https://github.com/inbo/INBOmd/#installation) provided by the `INBOmd` R package.
-Please make sure to install this from an R session that runs outside of the RStudio `protocolsource.Rproj`.
-So, close the RStudio project and any other R sessions and start the most recent version of R that is installed on your system and copy-paste the installation instructions in the R console.
+To install this:
+
+-   close the RStudio project and any other R sessions and start the most recent version of R that is installed on your system
+
+-   follow the [installation instructions](https://github.com/inbo/INBOmd/#installation) provided by the `INBOmd` R package and copy-paste the installation instructions in the R console.
 
 ## `(R)markdown` syntax and learning `Rmarkdown`
 
