@@ -278,13 +278,16 @@ This will allow you to check the resulting output locally.
 
 ### From an existing docx protocol
 
+Even if you are converting an older published protocol, we recommend leaving the date field to it's default value (current date) and instead mention in the `NEWS.md` file that this is a conversion from protocol so-and-so published first on date such-and-such.
+
+
 ```r
 library(protocolhelper)
 create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
            short_title = "vegopname terrest",
            authors = "De Bie, Els",
            orcids = "0000-0000-1234-5678",
-           date = "2016-07-19", 
+           date = "`r Sys.Date()`", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
            file_manager = "Hans Van Calster", 
            theme = "vegetation",
