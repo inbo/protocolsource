@@ -298,6 +298,8 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
 
 ### From a new template
 
+For a field protocol (sfp) (you need to specify a theme):
+
 ```r
 library(protocolhelper)
 create_sfp(title = "titel van het protocol",
@@ -315,7 +317,7 @@ create_sfp(title = "titel van het protocol",
            render = FALSE)
 ```
 
-Alternatively, for a project-specific protocol:
+Alternatively, for a project-specific protocol (you need to specify a project_name):
 
 ```r
 library(protocolhelper)
@@ -330,6 +332,25 @@ create_spp(title = "Bodemstalen nemen",
            language = "nl",
            render = FALSE)
 ```
+
+Or for a standard operating procedure (similarly for sip or sap; no need to specify theme or project_name):
+
+```r
+library(protocolhelper)
+create_sop(title = "titel van het protocol",
+           subtitle = "optionele subtitel", 
+           short_title = "korte titel",
+           authors = c("Achternaam1, Voornaam1", "Achternaam2, voornaam2"),
+           orcids = c("0000-0000-1234-5678", "0000-0000-1234-8765"),
+           date = "`r Sys.Date()`", 
+           reviewers = "Voornaam Naam, ...", 
+           file_manager = "Voornaam Naam", 
+           language = "nl",
+           from_docx = NULL,
+           protocol_number = NULL, 
+           render = FALSE)
+```
+
 
 ## <a name="parameterized"></a>What to do in case of parameterized protocols?
 
