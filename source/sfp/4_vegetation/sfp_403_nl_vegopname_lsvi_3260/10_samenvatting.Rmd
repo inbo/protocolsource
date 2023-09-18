@@ -10,23 +10,27 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
     Controleer **lijst met benodigdheden** voor vertrek.
 
 -   STAP 2.
-    **Navigeer met GPS naar het steekproefpunt** (meest stroomafwaarts gelegen punt van 100m-traject).
-    Noteer het percentage van het 100m-traject dat een overwelving bevat.
-    Indien dit percentage \> 10 % wordt het steekproefpunt random stroomopwaarts of stroomafwaarts verschoven.
+    **Navigeer met GPS naar het steekproefpunt** (meest stroomafwaarts gelegen punt van 100m-segment).
+    Noteer het percentage van het 100m-segment dat een overwelving bevat of beschaduwd is.
+    Indien dit percentage \> 10 % (resp. 30 %) wordt het steekproefpunt random stroomopwaarts of stroomafwaarts verschoven.
 
 -   STAP 3.
+    Voer de volgende metingen uit:
+
+    -   bepaling waterdiepte, breedte en slibdikte van een doorsnee dwarsprofiel,
+    -   bepaling secchi-diepte,
+    -   bepaling stroomsnelheid.
+
+-   STAP 4.
     **Voer vegetatieopname uit**.
     Afhankelijk van de waterdiepte gebeurt dit op een van volgende manieren: door het water wadend, harkend vanuit het doorwaadbare deel van de waterloop of harkend vanaf de oever.
 
-    -   Wanneer het traject stroomopwaarts wordt afgelegd, noteert men (1) alle soorten (met wortels in water of waterbodem), (2) de groeivorm van de soorten wanneer deze afwijkt van wat doorgaans wordt aangetroffen (zie Bijlage \@ref(groeivormen)) en (3) het aantal vegetatievlekken van sleutelsoorten per oppervlakteklasse.
-        Soorten die niet ter plekke kunnen geïdentificeerd worden, bewaart men in gelabelde plastiek zakjes en worden later op naam gebracht.
-
-    -   Op het einde van het 100m-traject maakt men een inschatting van (1) de totale bedekking van de genoteerde planten, (2) de bedekking van de klassen van submerse vegetatieontwikkeling, (3) de bedekking van verstoringsindicatoren (helofyten, eutrofiëringsindicatoren en invasieve exoten), (4) de totale oppervlakte van vegetatievlekken met sleutelsoorten en (5) de oppervlakte van de grootste vegetatievlek met sleutelsoorten.
-        De geschatte bedekkingen worden gecontroleerd wanneer het traject stroomafwaarts wordt afgelegd.
-
--   STAP 4.
-    Bepaal de **standplaatskarakteristieken** wanneer het traject stroomafwaarts wordt afgelegd: (1) Waterpeil (a.d.h.v. de categorieën in invulformulier), (2) % beschaduwing bomen en oevervegetatie, (3) helderheid waterkolom (met Secchi-schijf), (4) breedte (met rolmeter of SmartMeasure-app), diepte (met vouwmeter of telescopische steel) en slibdikte (met bamboestok met schaalverdeling) van een doorsnee dwarsprofiel, (5) dominant oeverprofiel per oeverzijde (a.d.h.v. de categorieën in invoerformulier) (6) recent beheer indien dit zichtbaar is op terrein.
+    -   Wanneer het segment stroomopwaarts wordt afgelegd, noteert men (1) alle soorten (met wortels in water of waterbodem), (2) de groeivorm van de soorten wanneer deze afwijkt van wat doorgaans wordt aangetroffen (zie Bijlage \@ref(groeivormen)) en (3) het aantal vegetatievlekken van sleutelsoorten per oppervlakteklasse. Soorten die niet ter plekke kunnen geïdentificeerd worden, bewaart men in gelabelde zakjes en worden later op naam gebracht.
+    -   Op het einde van het 100m-segment maakt men een inschatting van (1) de totale bedekking van de genoteerde planten, (2) de bedekking van de klassen van submerse vegetatieontwikkeling, (3) de bedekking van verstoringsindicatoren (helofyten, eutrofiëringsindicatoren en invasieve exoten), (4) de totale oppervlakte van vegetatievlekken met sleutelsoorten en (5) de oppervlakte van de grootste vegetatievlek met sleutelsoorten. De geschatte bedekkingen worden gecontroleerd wanneer het segment stroomafwaarts wordt afgelegd.
 
 -   STAP 5.
+    Bepaal de **standplaatskarakteristieken** wanneer het segment stroomafwaarts wordt afgelegd: % beschaduwing bomen en oevervegetatie, dominant oeverprofiel per oeverzijde (a.d.h.v. de categorieën in invoerformulier) en recent beheer indien dit zichtbaar is op terrein.
+
+-   STAP 6.
     Soorten die niet konden worden geïdentificeerd op terrein, worden binnen de week na bemonstering gedetermineerd.
     Gegevens worden ingegeven in INBOVEG indien dit nog niet is gebeurd op terrein.
