@@ -11,7 +11,7 @@ date: '`r Sys.Date()`'
 reviewers: Gerrit Genouw
 file_manager: Toon Van Daele
 protocol_code: sfp-104-nl
-version_number: '2023.03'
+version_number: '2023.07'
 language: nl
 lang: nl
 theme: water
