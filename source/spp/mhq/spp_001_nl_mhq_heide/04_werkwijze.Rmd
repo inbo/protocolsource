@@ -62,7 +62,7 @@ Indien je werkt met een externe camera codeer het beeld dan duidelijk in de daar
 Je kan ook eerste een foto maken van het unieke ID nummer van de plot en daarna de foto's van de vegetatie-opname maken.
 De foto's worden genomen vanuit het zuiden kijkend naar het noorden.
 De camera tilten in portrait oriëntatie waardoor de vegetatie maximaal in het fotokader valt.
-Neem 2 foto's per meetpunt: één overzichts foto waarbij je de plot landschappelijk kadert, en een tweede waarbij je enkel de vegetatie in de plot fotografeert (zie Figuur \@ref(fig:fotovoorbeeld)).
+Neem 2 foto's per meetpunt: één overzichtsfoto waarbij je de plot landschappelijk kadert, en een tweede waarbij je enkel de vegetatie in de plot fotografeert (zie Figuur \@ref(fig:fotovoorbeeld)).
 
 (ref:fotovoorbeeld) Voorbeeld van een foto van het proefvlak in het landschap (links) en ingezoomd op het proefvlak zelf (rechts)
 
