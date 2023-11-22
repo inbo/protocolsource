@@ -58,7 +58,7 @@ include_graphics(
 
 Neem de foto's vooraleer je de vegetatie-opname maakt.
 Foto's worden altijd gemaakt, ook wanneer er geen opname zal uitgevoerd worden (zie 5.1.5).
-Indien je werkt met een externe camera codeer het beeld dan duidelijk in de daartoe voorziene velden in de veldcomputer of het vrije veld 'opmerkingen'van de papieren formulieren.
+Indien je werkt met een externe camera codeer het beeld dan duidelijk in de daartoe voorziene velden in de veldcomputer of het vrije veld 'opmerkingen' van de papieren formulieren.
 Je kan ook eerste een foto maken van het unieke ID nummer van de plot en daarna de foto's van de vegetatie-opname maken.
 De foto's worden genomen vanuit het zuiden kijkend naar het noorden.
 De camera tilten in portrait oriëntatie waardoor de vegetatie maximaal in het fotokader valt.
