@@ -43,7 +43,7 @@ Het vegetatieproefvlak wordt geïnstalleerd volgens de werkwijze in [protocol sf
 
 De oriëntatie van het proefvlak is als volgt:
 
--   het punt waar naartoe genavigeerd werd is de zuidoostelijke hoek van de vegetatieplot. Hier wordt er een eerst hoekpaaltje geplaatst en van daaruit wordt met behulp van een (digitaal) kompas 3 meter naar het noorden afgemeten en een tweede paaltje geplaatst. Dit wordt herhaal vanaf het tweede hoekpunt naar het westen en tenslotte vanuit het derde hoekpunt naar het zuiden, zodat een vierkant met oppervlakte 9m² bekomen wordt (zie Figuur \@ref(fig:plot9m))
+-   het punt waar naartoe genavigeerd werd is de zuidoostelijke hoek van de vegetatieplot. Hier wordt er een eerst hoekpaaltje geplaatst en van daaruit wordt met behulp van een (digitaal) kompas 3 meter naar het noorden afgemeten en een tweede paaltje geplaatst. Dit wordt herhaald vanaf het tweede hoekpunt naar het westen en tenslotte vanuit het derde hoekpunt naar het zuiden, zodat een vierkant met oppervlakte 9m² bekomen wordt (zie Figuur \@ref(fig:plot9m))
 
 (ref:plot9m) Oriëntatie van de vegetatie-en structuurplot
 
