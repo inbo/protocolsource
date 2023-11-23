@@ -178,3 +178,11 @@ Afwezigheid ook aangeven!
 ### Samenvatting
 
 (ref:samenvatting) Samenvatting stappenplan
+
+```{r stappenplan, fig.cap="(ref:samenvatting)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "samenvatting_Werkwijze.png"))
+
+```
