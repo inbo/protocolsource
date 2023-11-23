@@ -101,7 +101,7 @@ In een 3 m x 3 m plot blijft 30 cm x 30 cm dus 1%.
 
 Voor de structuurplot (zie stap 7) wordt gelijkaardig gewerkt en dient ook het aandeel doelvegetatie waarop de inschatting betrekking heeft vermeld te worden.
 De inschatting van de bedekking gebeurt eveneens alsof het een volledige cirkelplot betreft, m.a.w. 10 m² is 1%.
-In geval van twijfel voeren we de opname uit en documenteren we in het opmerkingenveld
+In geval van twijfel voeren we de opname uit en documenteren we in het opmerkingenveld.
 
 ### STAP 5: Eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
 
