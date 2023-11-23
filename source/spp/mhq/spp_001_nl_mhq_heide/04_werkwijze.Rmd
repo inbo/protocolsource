@@ -35,7 +35,8 @@ Volg volgende stappen in chronologische volgorde:
 
 De navigatie naar de steekproefpunten gebeurt met behulp van een zogeheten RTK-GNSS of FIELDMAP installatie (of combinatie van beiden) waarin de X en Y coördinaten van de proefvlakken op voorhand ingelezen zijn.
 De nauwkeurigheid van een commerciële GPS of een ingebouwde GPS in een smartphone is te laag om bij een herbezoek hetzelfde proefvlak voldoende goed te lokaliseren.
-Het kan wel handig zijn om met zo'n toestel eerst naar de omgeving van het meetpunt te navigeren en pas dan over te schakelen naar de nauwkeurige GPS-apparatuur voor het inmeten van de exacte locatie.Eens het meetpunt bepaald is, wordt het vegetatieproefvlak van 3 op 3 meter geïnstalleerd in stap 2.
+Het kan wel handig zijn om met zo'n toestel eerst naar de omgeving van het meetpunt te navigeren en pas dan over te schakelen naar de nauwkeurige GPS-apparatuur voor het inmeten van de exacte locatie.
+Eens het meetpunt bepaald is, wordt het vegetatieproefvlak van 3 op 3 meter geïnstalleerd in stap 2.
 
 ### STAP 2: Installeren van het vegetatieproefvlak (3 m x 3 m)
 
