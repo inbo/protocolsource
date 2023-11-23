@@ -76,7 +76,7 @@ include_graphics(
 
 ### STAP 4: Bepalen of een meetpunt tot de doelpopulatie behoort of niet
 
-In deze stap dienen we te controleren of de doelvegetatie effectief aanwezig is in het vegetatieproefvlak opdat we een meting kunnen uitvoeren.
+Vooraleer we een meting uitvoeren, moeten we eerst controleren of de doelvegetatie effectief aanwezig is in het vegetatieproefvlak.
 De habitatkaart werd gebruikt als steekproefkader om de meetpunten te selecteren, maar omwille van verschillende redenen (voorkomen van complexen in de kartering, polygoongrenzen die niet exact overeenkomen met de terreinsituatie, verouderde kaartgegevens,... ) kan een geselecteerde plot buiten de doelvegetatie vallen.
 Daarom dienen we steeds te bepalen met welk vegetatietype we te maken hebben.
 Daarvoor gebruiken we de karteersleutels, in dit geval de heidesleutel (<https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/>).Hierin zijn ook de relevante contact- en rompgemeenschappen opgenomen.
