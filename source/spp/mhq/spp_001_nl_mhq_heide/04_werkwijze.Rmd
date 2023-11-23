@@ -109,7 +109,7 @@ Zie [protocol sfp-001-nl versie 2023.01](../2023.01/index.html).
 
 ### STAP 6:subprotocol vegetatie-opname met Londo-schaal
 
-[zie protocol sfp-401-nl versie 2023.03](../2023.03/index.html)
+Zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html).
 
 ### STAP 7:meten van de variabelen in de 18 meter-structuurplot
 
