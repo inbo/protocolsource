@@ -107,7 +107,7 @@ In geval van twijfel voeren we de opname uit en documenteren we in het opmerking
 
 Zie [protocol sfp-001-nl versie 2023.01](../2023.01/index.html).
 
-### STAP 6:subprotocol vegetatie-opname met Londo-schaal
+### STAP 6: Subprotocol vegetatie-opname met Londo-schaal
 
 Zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html).
 
