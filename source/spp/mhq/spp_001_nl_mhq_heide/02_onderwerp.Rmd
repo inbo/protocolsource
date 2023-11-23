@@ -100,7 +100,7 @@ Ook gedegradeerde (vergrast met pijpestrootje of bochtige smele en/of deels verb
 
 **Open vegetatietypes gebonden aan het heidelandschap die bij dit onderdeel van het meetnet worden gerekend maar dus mogelijk wel in complex met deze meetpunten voorkomen:**
 
-*7140_oli Overgangsvenen*
+**7140_oli Overgangsvenen**
 
 Dit zijn venige heides of verlandende vennen waar de veenvorming al dermate doorgezet is dat er hoogveensoorten beginnen te groeien.
 Ze luiden een relatief lange overgangsfase in naar *actief hoogveen (7110)*, dat in Vlaanderen enkel nog aan het Ven onder de Berg voorkomt.
