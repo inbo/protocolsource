@@ -70,7 +70,9 @@ include_graphics(
                    "stuifduin.jpg"))
 ```
 
-**2330_bu buntgrasvegetatie op landduinen** Buntgrasvegetaties komen voor op landduinen waar de bodem door de hoge dynamiek nog geen profielontwikkeling heeft doorgemaakt (jonge bodems).Hoogstens is er een dunne humuslaag aanwezig.In goed ontwikkelde vormen zijn er aanzienlijke delen open zand maar de meeste landduinen in Vlaanderen zijn in min of meerdere mate gefixeerd door onvoldoende windwerking.
+**2330_bu buntgrasvegetatie op landduinen** Buntgrasvegetaties komen voor op landduinen waar de bodem door de hoge dynamiek nog geen profielontwikkeling heeft doorgemaakt (jonge bodems).
+Hoogstens is er een dunne humuslaag aanwezig.
+In goed ontwikkelde vormen zijn er aanzienlijke delen open zand, maar de meeste landduinen in Vlaanderen zijn in min of meerdere mate gefixeerd door onvoldoende windwerking.
 De vegetatie wordt gekenmerkt door een hoog aandeel mossen en korstmossen die de bodem in een eerste fase fixeren, in combinatie met een aantal typische zandbindende vaatplanten.
 
 *Typische soorten: Buntgras (Corynephorus canescens), Heidespurrie (Spergula morisonii), Zandzegge (Carex arenaria), Zandstruisgras (Agrostis vinealis), Zilverhaver (Aira caryophyllea), Vroege haver (Aira praecox), Dwergviltkruid (Filago minima), Ruig haarmos (Polytrichum piliferum), rendiermossen (Cladina spp.), heidestaartjes en bekermossen (Cladonia spp.) en Cetraria spp.(IJslands mos en Kraakloof)*
