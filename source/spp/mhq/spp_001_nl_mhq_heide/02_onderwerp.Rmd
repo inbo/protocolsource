@@ -38,7 +38,8 @@ In deze vegetatietypes dienen in Vlaanderen een 1000-tal random geselecteerde me
 
 - een vierkante vegetatieplot van 3 op 3 meter waar een vegetatie-opname wordt uitgevoerd;
 - een cirkelvormige plot met diameter 18m waar een aantal bijkomende indicatoren dienen ingeschat te worden.
-De meetpunten worden bemeten met een frequentie van 1 keer om de 6 jaar en laten op die manier toe om een uitspraak te doen over het aandeel habitat dit zich in een gunstige/ongunstige toestand bevindt en dit voor elk afzonderlijk habitattype en op niveau Vlaanderen, met een hogere nauwkerigheid binnen SBZ.
+De meetpunten worden om de zes jaar opgemeten. 
+De ingezamelde gegevens laten toe om per habitattype een uitspraak te doen over het aandeel habitat dat zich in een gunstige/ongunstige toestand bevindt  in Vlaanderen en binnen SBZ.
 Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar @paelinckx2019.
 
 ### Toepassingsgebied
