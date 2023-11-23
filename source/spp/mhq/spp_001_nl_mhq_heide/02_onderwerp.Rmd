@@ -34,8 +34,10 @@ Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt
 ### Doelstelling
 
 Dit protocol beschrijft de werkwijze die dient gevolgd te worden voor de gegevensinzameling ten behoeve van de 6-jaarlijkse rapportage aan de EU over de Staat Van Instandhouding (SVI) van de heidehabitats, meer bepaald de habitattypes 2310, 2330_bu, 4010 en 4030.
-In deze vegetatietypes dienen in Vlaanderen een 1000-tal random geselecteerde meetpunten in heidehabitat opgemeten te worden en dit telkens op twee verschillende schaalniveaus.
-Enerzijds een vegetatie-opname op een vierkante vegetatieplot van 3 op 3 meter en anderzijds een cirkelvormige plot met diameter 18m waar een aantal bijkomende indicatoren dienen ingeschat te worden.
+In deze vegetatietypes dienen in Vlaanderen een 1000-tal random geselecteerde meetpunten in heidehabitat opgemeten te worden en dit telkens op twee verschillende schaalniveaus:
+
+- een vierkante vegetatieplot van 3 op 3 meter waar een vegetatie-opname wordt uitgevoerd;
+- een cirkelvormige plot met diameter 18m waar een aantal bijkomende indicatoren dienen ingeschat te worden.
 De meetpunten worden bemeten met een frequentie van 1 keer om de 6 jaar en laten op die manier toe om een uitspraak te doen over het aandeel habitat dit zich in een gunstige/ongunstige toestand bevindt en dit voor elk afzonderlijk habitattype en op niveau Vlaanderen, met een hogere nauwkerigheid binnen SBZ.
 Voor meer info omtrent de werkwijze van deze bepaling verwijzen we naar @paelinckx2019.
 
