@@ -1,4 +1,4 @@
-book_filename: sfp_403_nl_vegopname_lsvi_3260.Rmd
+book_filename: sfp_406_nl_vegopname_luronium.Rmd
 delete_merged_file: true
 rmd_files:
 - index.Rmd
@@ -16,7 +16,7 @@ rmd_files:
 - 11_referenties.Rmd
 - 12_appendices.Rmd
 - 13_subprotocols.Rmd
-output_dir: ../../../../../protocoldocs/docs/sfp/4_vegetation/sfp_403_nl_vegopname_lsvi_3260
+output_dir: ../../../../../protocoldocs/docs/sfp/4_vegetation/sfp_406_nl_vegopname_luronium
 language:
   label:
     fig: 'Figuur '

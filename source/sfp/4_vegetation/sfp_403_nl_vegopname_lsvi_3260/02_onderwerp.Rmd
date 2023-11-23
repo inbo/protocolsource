@@ -2,18 +2,30 @@
 
 ## Definities en afkortingen
 
-**Habitattype 3260:** Dit Natura 2000-habitattype omvat de submontane - en laaglandrivieren met vegetaties behorende tot het *Ranunculion fluitantis* en het *Callitricho-Batrachion.* Het wordt voornamelijk gekenmerkt door het voorkomen van waterranonkels, haaksterrenkroos en/of bepaalde fonteinkruiden.
-Het al dan niet voorkomen van dit habitattype wordt in Vlaanderen bepaald door de aanwezigheid van een aantal sleutelsoorten die vermeld staan in Bijlage \@ref(sleutel) (De Saeger et al., 2008; Leyssen et al., 2010).
-Indien minstens één van deze soorten wordt aangetroffen, wordt het betreffende deel van de waterloop over de volledige breedte van de waterloop (genaamd waterloopsegment) gerekend tot habitattype 3260.
-Een 100 m-strook die tijdens deze kwaliteitsbepaling wordt opgemeten, wordt bijgevolg als habitat beschouwd indien hierin één sleutelsoort wordt aangetroffen.
+**Bodemplaat**: lokale bodemverharding zonder opstuwing (VMM, 2010), meestal is dit een betonnen plaat.
 
-**Vegetatievlek**: een aaneengesloten vegetatie waarin sleutelsoorten van het habitattype meer bedekken dan andere soorten.
-In waterlopen bestaat een vegetatievlek vaak slechts uit één (sleutel)soort.
-Er wordt van twee vegetatievlekken gesproken indien de afstand tussen beide minstens 2 m bedraagt.
+**Bodemval**: lokale bodemverharding met opstuwende werking, bijvoorbeeld door een lokale artificiële verhoging van de bedding (VMM, 2010).
+Duiker: een duiker of koker gaat meestal relatief rechtlijnig onder een weg, gebouw of andere constructie door.
+Het onderscheid met een sifon is dat er in een duiker in normale omstandigheden nog lucht aanwezig is boven het wateroppervlak, terwijl dit bij een sifon nooit het geval is (VMM, 2010).
 
-**'Grof' organisch materiaal**: bladeren, dood plantaardig materiaal en dood hout in de bedding van de waterloop.
+**Groeivorm**: De groeivorm of levensvorm van een macrofyt is een indeling naar haar morfologische kenmerken.
+Volgende groeivormen worden onderscheiden: lemniden, riccielliden, ceratophylliden, hydrochariden, salviniiden, stratiotiden, elodeiden, parvopotamiden, magnopotamiden, myrophylliden, chariden, batrachiiden, pepliden, vallisneriiden, nymphaeiden, isoëtiden, watermossen, veenmossen, filamenteuze algen, oever-/moerasplanten en grote monocotylen (Schneiders et al., 2004).
+
+**Grof organisch materiaal**: bladeren, dood plantaardig materiaal en dood hout in de bedding van de waterloop.
 De grens tussen grof en fijn organisch materiaal (coarse (CPOM) versus fine particulate organic matter (FPOM)), wordt gelegd op 1 mm (Bird & Kaushik, 1981).
 De klasseindeling van het dood hout (twijgjes met diameter \< 3 cm, takken met diameter tussen 3 -- 30 cm en grote takken of stammen met diameter \> 30 cm) is conform deze van VMM (2010).
+
+**Habitattype 3260**: Dit Natura 2000-habitattype omvat de submontane - en laaglandrivieren met vegetaties behorende tot het *Ranunculion fluitantis* en het *Callitricho-Batrachion*.
+Het wordt voornamelijk gekenmerkt door het voorkomen van waterranonkels, haaksterrenkroos en/of bepaalde fonteinkruiden.
+Het al dan niet voorkomen van dit habitattype wordt in Vlaanderen bepaald door de aanwezigheid van een aantal sleutelsoorten die vermeld staan in Bijlage 1 (De Saeger et al., 2008; Leyssen et al., 2010).
+Indien minstens één van deze soorten wordt aangetroffen, wordt het betreffende deel van de waterloop over de volledige breedte van de waterloop gerekend tot habitattype 3260.
+Een 100 m-segment dat tijdens deze kwaliteitsbepaling wordt opgemeten, wordt bijgevolg als habitat beschouwd indien hierin één sleutelsoort wordt aangetroffen.
+
+**KRW**: Europese Kaderrichtlijn water.
+
+**LSVI**: lokale staat van instandhouding.
+
+**Overwelving**: sifon, duiker of een brug over een waterloop.
 
 **Slib**: bestaat in hoofdzaak uit fijne minerale deeltjes, zoals klei of leem en een organische fractie.
 Het heeft een fijnere textuur dan de bedding.
@@ -22,35 +34,27 @@ Er vindt een ophoging van de volledige bedding plaats, terwijl bij sedimentbanke
 Een sedimentbank kan uit slib bestaan, maar wordt als een natuurlijke afzettingsvorm beschouwd.
 De variabele slib is hier enkel bedoeld voor duidelijke uniforme slibafzettingen in de bedding (VMM, 2010).
 
-**Bodemplaat**: lokale bodemverharding zonder opstuwing (VMM, 2010), meestal is dit een betonnen plaat.
-
-**Bodemval**: lokale bodemverharding met opstuwende werking, bijvoorbeeld door een lokale artificiële verhoging van de bedding (VMM, 2010).
-
 **Sifon**: overdekt U-vormig deel van een waterloop met hevelwerking volgens het principe van de communicerende vaten, meestal onder een andere waterloop.
 De sifon zelf is dus volledig gevuld met water (VMM, 2010).
 
-**Duiker**: Een duiker of koker gaat meestal relatief 'rechtlijnig' onder een weg, gebouw of andere constructie door.
-Het onderscheid met een sifon is dat er in een duiker in normale omstandigheden nog lucht aanwezig is boven het wateroppervlak, terwijl dit bij een sifon nooit het geval is (VMM, 2010).
-
-**Overwelving**: sifon, duiker of een brug over een waterloop.
+**Steekproefpunt** of **(veld)locatie**: Voor het habitatkwaliteitsmeetnet (zie verder) komt de steekproefeenheid voor waterlopen overeen met een 100m-segment van de waterloop.
+Dit is het segment waarvan de biotische karakterisatie wordt beoogd.
+Dit segment wordt aangeduid als het meest stroomafwaarts gelegen punt van het te inventariseren segment van 100 meter (Figuur 4).
 
 **Stroomdeflector**: artificiële obstructie in de bedding van de waterloop die wordt aangebracht tegen de oever om deze te beschermen of de stroming te beïnvloeden.
 
-**LSVI**: lokale staat van instandhouding.
-
-**KRW**: Europese Kaderrichtlijn water.
-
-**Groeivorm**: De groeivorm of levensvorm van een macrofyt is een indeling naar haar morfologische kenmerken.
-Volgende groeivormen worden onderscheiden: lemniden, riccielliden, ceratophylliden, hydrochariden, salviniiden, stratiotiden, elodeiden, parvopotamiden, magnopotamiden, myrophylliden, chariden, batrachiiden, pepliden, vallisneriiden, nymphaeiden, isoëtiden, watermossen, veenmossen, filamenteuze algen, oever-/moerasplanten en grote monocotylen (Schneiders et al., 2004).
+**Vegetatievlek**: een aaneengesloten vegetatie waarin sleutelsoorten van het habitattype meer bedekken dan andere soorten.
+In waterlopen bestaat een vegetatievlek vaak slechts uit één (sleutel)soort.
+Er wordt van twee vegetatievlekken gesproken indien de afstand tussen beide minstens 2 m bedraagt.
 
 ## Doelstelling en toepassingsgebied
 
-Het doel van het veldprotocol is om gegevens te verzamelen die een beoordeling van de indicatoren van de LSVI toelaten voor een 100 meter-strook van het Natura 2000-habitattype 3260.
-De LSVI-indicatoren zijn beschreven door T'jollyn et al. (2009, versie 2) en Oosterlynck et al. (in voorbereiding, versie 3).
+Het doel van het veldprotocol is om gegevens te verzamelen die een beoordeling van de indicatoren van de LSVI toelaten voor een 100 meter-segment van het Natura 2000-habitattype 3260.
+De LSVI-indicatoren zijn beschreven door T'jollyn et al. (2009, versie 2) en Oosterlynck et al. (2020, versie 3).
 Daarnaast laat het veldprotocol ook toe om de kwaliteit van macrofyten in functie van de KRW te beoordelen (Leyssen et al., 2005; Schneiders et al., 2004).
 
 Het veldprotocol wordt gebruikt voor het bemonsteren van de steekproefpunten van het habitatkwaliteitsmeetnet voor habitattype 3260.
-De selectiemethode van steekproefpunten is beschreven in het rapport over de habitatkwaliteitsmonitoring [@westra2014].
+De selectiemethode van steekproefpunten is beschreven in het rapport over de habitatkwaliteitsmonitoring (Westra et al., 2022; Westra et al., 2014).
 Dit meetnet is geconcipieerd om de habitatkwaliteit van habitattype 3260 op Vlaams schaalniveau te kunnen inschatten.
 De resultaten van dit meetnet zullen o.a.
 gebruikt worden voor de 6-jaarlijkse rapportage over de staat van instandhouding van habitattype 3260 aan de Europese Commissie.
