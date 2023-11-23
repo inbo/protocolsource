@@ -47,7 +47,7 @@ Jeneverbesstruweel (5130) en actief hoogveen (7110) zijn dermate zeldzaam dat we
 Overgangsveen (7140_oli) betreft veelal een vorm van venige heide maar wordt in de groep van de moerassen behandeld.
 Snavelbiesvegetaties (7150) komen voor op dynamische locaties zoals plagplekken en venoevers en vereisen een specifieke, nog uit te werken aanpak.
 Wel is het relevant om al deze types te kunnen onderscheiden van de doelvegetaties omdat ze ermee in overgang of mozaïek kunnen voorkomen.
-Hiervoor kan men zich best gebruik maken van de karteersleutel voor heides [@desaeger2016]
+Hiervoor kan men zich best gebruik maken van de karteersleutel voor heides [@desaeger2016].
 
 ### Vegetatiekundige beschrijving van de relevante heidetypes
 
@@ -111,4 +111,4 @@ Meestal neemt dit type slechts geringe oppervlaktes in en evolueert het op plagp
 
 *Typische soorten: Kleine zonnedauw (Drosera intermedia), Ronde zonnedauw (Drosera rotundifolia), Moeraswolfsklauw (Lycopodiella inundata), Witte snavelbies (Rhynchospora alba), Bruine snavelbies (Rhynchospora fusca)*
 
-*Meer info:* *-Systematiek van natuurtypen voor de biotopen heide,moeras, duin en slik en schor: Deel 2 Heiden [@Zwaenepoel2002]* *-Europees beschermde natuur in Vlaanderen [@Decleer2007]*
+*Meer info:* *-Systematiek van natuurtypen voor de biotopen heide,moeras, duin en slik en schor: Deel 2 Heiden* [@vandenbussche2002] *- Europees beschermde natuur in Vlaanderen* [@decleer2007].
