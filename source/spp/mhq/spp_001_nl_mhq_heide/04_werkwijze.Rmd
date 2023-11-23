@@ -40,7 +40,7 @@ Eens het meetpunt bepaald is, wordt het vegetatieproefvlak van 3 op 3 meter geï
 
 ### STAP 2: Installeren van het vegetatieproefvlak (3 m x 3 m)
 
-Het vegetatieproefvlak wordt geïnstalleerd volgens de werkwijze in [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)
+Het vegetatieproefvlak wordt geïnstalleerd volgens de werkwijze in [protocol sfp-401-nl versie 2023.03](../2023.03/index.html).
 
 De oriëntatie van het proefvlak is als volgt:
 
