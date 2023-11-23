@@ -105,7 +105,7 @@ In geval van twijfel voeren we de opname uit en documenteren we in het opmerking
 
 ### STAP 5: Eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
 
-[zie protocol sfp-001-nl versie 2023.01](../2023.01/index.html)
+Zie [protocol sfp-001-nl versie 2023.01](../2023.01/index.html).
 
 ### STAP 6:subprotocol vegetatie-opname met Londo-schaal
 
