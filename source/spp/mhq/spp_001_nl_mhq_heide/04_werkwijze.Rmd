@@ -25,9 +25,9 @@ Volg volgende stappen in chronologische volgorde:
 >
 > 4.  bepalen of een meetpunt tot de doelpopulatie behoort of niet
 >
-> 5.  eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
+> 5.  eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort volgens sub-protocol meetpunten vervangen ([protocol sfp-001-nl versie 2023.01](../2023.01/index.html)).
 >
-> 6.  subprotocol vegetatie-opname met Londo-schaal
+> 6.  vegetatie-opname uitvoeren volgens subprotocol vegetatie-opname met Londo-schaal ([protocol sfp-401-nl versie 2023.03](../2023.03/index.html)).
 >
 > 7.  meten van de variabelen in de 18 meter structuurplot
 
@@ -71,7 +71,7 @@ Neem 2 foto's per meetpunt: één overzichtsfoto waarbij je de plot landschappel
 include_graphics(
   path = file.path(path_to_protocol,
                    "media",
-                   "fotoproefvlak.png"))
+                   "fotoproefvlak.jpg"))
 ```
 
 ### STAP 4: Bepalen of een meetpunt tot de doelpopulatie behoort of niet
