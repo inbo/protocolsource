@@ -58,7 +58,7 @@ include_graphics(
 ### STAP 3: Fotografisch documenteren
 
 Neem de foto's vooraleer je de vegetatie-opname maakt.
-Foto's worden altijd gemaakt, ook wanneer er geen opname zal uitgevoerd worden (zie 5.1.5).
+Foto's worden altijd gemaakt, ook wanneer er geen opname uitgevoerd wordt (zie 5.1.5).
 Indien je werkt met een externe camera codeer het beeld dan duidelijk in de daartoe voorziene velden in de veldcomputer of het vrije veld 'opmerkingen' van de papieren formulieren.
 Je kan ook eerste een foto maken van het unieke ID nummer van de plot en daarna de foto's van de vegetatie-opname maken.
 De foto's worden genomen vanuit het zuiden kijkend naar het noorden.
@@ -76,38 +76,38 @@ include_graphics(
 
 ### STAP 4: Bepalen of een meetpunt tot de doelpopulatie behoort of niet
 
-Vooraleer we een meting uitvoeren, moeten we eerst controleren of de doelvegetatie effectief aanwezig is in het vegetatieproefvlak.
-De habitatkaart werd gebruikt als steekproefkader om de meetpunten te selecteren, maar omwille van verschillende redenen (voorkomen van complexen in de kartering, polygoongrenzen die niet exact overeenkomen met de terreinsituatie, verouderde kaartgegevens,... ) kan een geselecteerde plot buiten de doelvegetatie vallen.
+Vooraleer we een meting uitvoeren, moeten we eerst controleren of de vegetatie in het proefvlak effectief classificeert als het beoogde doelvegetatietype.
+De habitatkaart is gebruikt als steekproefkader om de meetpunten te selecteren, maar omwille van verschillende redenen (voorkomen van complexen in de kartering, polygoongrenzen die niet exact overeenkomen met de terreinsituatie, verouderde kaartgegevens,... ) kan een geselecteerde plot buiten de doelvegetatie vallen.
 Daarom dienen we steeds te bepalen met welk vegetatietype we te maken hebben.
-Daarvoor gebruiken we de karteersleutels, in dit geval de heidesleutel (<https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/>).Hierin zijn ook de relevante contact- en rompgemeenschappen opgenomen.
+Daarvoor gebruiken we de karteersleutels, in dit geval de heidesleutel (<https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/>).
+Hierin zijn ook de relevante contact- en rompgemeenschappen opgenomen.
 Het schaalniveau waarop de sleutel dient toegepast te worden is niet dat van een vegetatieplot maar deze van de min of meer homogene vegetatievlek waarin het proefvlak zich bevindt.
 
 **Onderstaande beslisregels worden gehanteerd voor het al dan niet opmeten van een proefvlak**
 
--   de vegetatieplot bevat een homogene vlek doelvegetatie --\> opname doen
--   de vegetatieplot bevat geen doelvegetatie --\> opname niet doen voor dit doeltype, ga naar stap 5 om te checken of het meetpunt in aanmerking komt voor opname bij een ander type
+-   de vegetatieplot maakt deel uit van een homogene, grotere vlek doelvegetatie --\> opname doen
+-   de vegetatieplot maakt geen deel uit van een doelvegetatievlek --\> opname niet doen voor dit doeltype, ga naar stap 5 om te bepalen hoe je eventueel het meetpunt kan vervangen door een andere meetlocatie in de nabijheid
 -   de vegetatieplot bevat naast doelvegetatie ook (een) andere vegetatietype(s) die ruimtelijk duidelijk van elkaar gescheiden zijn (bv. bos naast een heideterrein, weg/akker naast een heide)
     -   --\> opname niet doen wanneer aandeel doelvegetatie in de vegetatieplot kleiner is dan 50%,
     -   --\> opname doen wanneer doelvegetatie in de vegetatieplot gelijk of groter is dan 50%
--   de structuurplot bevat doelvegetatie en een andere vegetatietype(s) in mozaïek of in overgang met elkaar
-    -   --\> opname niet doen wanneer doelvegetatie inclusief overgangen minder is dan 50%, ga naar stap 5 om te checken of het meetpunt in aanmerking komt voor opname bij een ander type
-    -   --\> opname doen wanneer doelvegetatie inclusief overgangen gelijk of meer is dan 50% bedraagt. Overgangen tussen de verschillende heidehabitats zijn ruim te interpreteren (bv. snavelbiesverbond gaat snel over in 4010, 2330_bu en 2310 vormen mozaïeken, 4010 met 7140_oli, enz.)
 
 Indien het eerder een geleidelijke overgang betreft naar een verwant vegetatietype dan wordt dit beschouwd als een onderdeel van de doelvegetatie en wordt de opname gemaakt inclusief de overgang.
 
 Noteer steeds op welk aandeel (in %) van de plot je data betrekking heeft.
-Bij het schatten blijf je echter werken alsof je op een volledige plot zou doen, je gaat m.a.w. niet herrekenen voor het aandeel dat effectief doelvegetatie bevat.
-In een 3 m x 3 m plot blijft 30 cm x 30 cm dus 1%.
+Doe dit zowel voor de vegetatieplot als de cirkelvormige structuurplot.
+Bij het schatten van de bedekkingen blijf je echter werken alsof je op een volledige plot zou doen, je gaat m.a.w. niet herrekenen voor het aandeel dat effectief doelvegetatie bevat.
+Bv.
+in een 3 m x 3 m plot blijft 30 cm x 30 cm dus 1%, ook wanneer 1/4 van de volledige plot niet tot de doelvegetatie behoort.
 
 Voor de structuurplot (zie stap 7) wordt gelijkaardig gewerkt en dient ook het aandeel doelvegetatie waarop de inschatting betrekking heeft vermeld te worden.
 De inschatting van de bedekking gebeurt eveneens alsof het een volledige cirkelplot betreft, m.a.w. 10 m² is 1%.
-In geval van twijfel voeren we de opname uit en documenteren we in het opmerkingenveld.
+In geval van twijfel voeren we de opname uit en documenteren we de problemen in het opmerkingenveld.
 
-### STAP 5: Eventueel vervangen van de meetlocatie in het geval het originele meetpunt niet tot de doelpopulatie behoort
+### STAP 5: Vervangpunten selecteren in het geval het originele meetpunt niet tot de doelpopulatie behoort
 
 Zie [protocol sfp-001-nl versie 2023.01](../2023.01/index.html).
 
-### STAP 6: Subprotocol vegetatie-opname met Londo-schaal
+### STAP 6: Vegetatie-opname maken met behulp van de Londo-schaal in de 3 m x 3m plot
 
 Zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html).
 
@@ -115,28 +115,28 @@ Zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html).
 
 Aandeel doelvegetatie in de 18 meter-plot opgeven!
 
-Alle criteria worden voor elk habitattype gescoord.
+Alle criteria dienen voor elk habitattype gescoord te worden.
 Indien afwezig scoor je met de waarde 0.
 
 **Verbossing**
 
-De 18 meter-structuurplot wordt bekeken voor wat betreft verbossingsgraad (relatieve bedekkingsgraad in %).
-Alle houtige gewassen vanaf 80cm hoogte worden meegeteld voor deze schatting.
-Bomen en struiken die vanuit het naastgelegen bos of houtkant overhangen worden niet meegerekend voor deze indicator.
+De 18 meter-structuurplot wordt bekeken voor wat betreft verbossingsgraad (bedekking totale kroonprojectie in %).
+Alle houtige gewassen vanaf 80cm hoogte worden meegeteld voor deze indicator.
+Bomen en struiken die vanuit een naastgelegen bos of houtkant overhangen worden niet meegerekend voor deze indicator.
 Eventuele overlap tussen boom- en struiklaag wordt niet dubbel geteld.
 Het gaat m.a.w. over het aandeel doelvegetatie in de structuurplot die overdekt wordt door bomen of struiken.
 Hou voor de schatting van de bedekking in het achterhoofd dat 10 m² ongeveer 1% is van de 18 meter-cirkelplot (\~1017 m²).
 Schattingen tot op 1% nauwkeurig zijn redelijk haalbaar bij lage bedekkingen,maar worden lastiger naarmate de verbossingsgraad toeneemt.
+Bij hogere verbossingsgraad is een schatting tot op 5% voldoende nauwkeurig.
 Interpretatie via luchtfoto of een schets zijn hierbij een hulpmiddel.
 Indien een gedeelte van de plot geen doelvegetatie bevat wordt dit deel niet in beschouwing genomen voor de verbossing.
-Maar de inschatting gebeurt wel volgens dezelfde verdeling m.a.w. 10 m² blijft 1% ook al ben je bv.
-maar op een halve cirkelplot aan het meten.
+Maar de inschatting gebeurt wel volgens dezelfde verdeling m.a.w. 10 m² blijft 1% ook al bevindt zich maar in de helft van de vegetatieplot effectief doelvegetatie.
 
 **Successiestadia van buntgrasvegetaties**
 
-Vooral bij de landduinen (2330_bu en 2310) is de aanwezigheid van de verschillende ontwikkelingsstadia een belangrijke structuurparameter: open zand, buntgrasvegetatie, mostapijtjes, korstmosvegetatie.
+Vooral bij de landduinen (2330 en 2310) is de aanwezigheid van de verschillende ontwikkelingsstadia een belangrijke structuurparameter: open zand, buntgrasvegetatie, mostapijtjes, korstmosvegetatie.
 Scoor de aanwezigheid van elk van deze fases door middel van een code uit de beheermonitoringsschaal (bijlage 1) op het niveau van de structuurplot.
-Afwezigheid ook aangeven!
+Afwezigheid ook aangeven d.m.v. score 0!
 
 **Ouderdomsstructuur Struikhei**
 
@@ -144,7 +144,8 @@ De levenscyclus van Struikhei kent 4 fasen.
 Elke fase verschilt qua bedekking, productie en bloei van Struikhei, maar ook qua microklimaat en soortensamenstelling.
 Hoe meer fasen in een heide aanwezig zijn, hoe structuurrijker, hoe soortenrijker en hoe robuuster de heidehabitat is.
 Eenvormige ouderdomsstructuur hangt meestal samen met een onaangepast beheer.
-Er worden vier leeftijdscategorieën onderscheiden, namelijk, pioniersstadium, ontwikkelingsstadium, climaxstadium en degeneratiestadium (zie Figuur \@ref(fig:Callunastadia)).Scoor de aanwezigheid van elk stadium m.b.v. codes uit de beheermonitoringsschaal (bijlage 1).Afwezigheid ook aangeven!
+Er worden vier leeftijdscategorieën onderscheiden, namelijk, pioniersstadium, ontwikkelingsstadium, climaxstadium en degeneratiestadium (zie Figuur \@ref(fig:Callunastadia)).
+Scoor de aanwezigheid van elk stadium m.b.v. codes uit de beheermonitoringsschaal (bijlage 1).Afwezigheid ook aangeven d.m.v. score 0!
 
 (ref:Callunastadia) Cyclische successiestadia in 4 fasen bij Calluna vulgaris (uit Burrows, 1990)
 
@@ -163,18 +164,29 @@ Afwezigheid ook noteren!
 
 **Aanwezigheid dwergstruiken**
 
-Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van alle dwergstruiken (Erica, Calluna, Cytisus, Vaccinium, Genista ...) op het niveau van de structuurplot.
+Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van alle dwergstruiken (Gewone Dophei, Struikhei, Blauwe bosbes, Stekelbrem, Kruipbrem, Rode Dophei, Lavendelhei, Rode bosbes,...) op het niveau van de structuurplot.
 Afwezigheid ook aangegeven!
 
 **Vergrassing**
 
-Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van bochtige smele, pijpenstrootje, zwenkgrassen, duinriet en struisgrassen.
+Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Bochtige smele, Pijpenstrootje, zwenkgrassen, Duinriet en Struisgrassen.
 Afwezigheid ook aangeven!
 
 **Verruiging** Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Adelaarsvaren en Braam.
 Afwezigheid ook aangeven!
-Aanwezigheid grijs kronkelsteeltje Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van Grijs kronkelsteeltje.
+
+**Aanwezigheid grijs kronkelsteeltje** Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van het mos Grijs kronkelsteeltje (zie Figuur \@ref(fig:Grijskronkelsteeltje)).
 Afwezigheid ook aangeven!
+
+(ref:Grijskronkelsteeltje) Grijs kronkelsteeltje
+
+```{r Grijskronkelsteeltje, fig.cap="(ref:Grijskronkelsteeltje)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "campintro.jpg"))
+
+```
 
 ### Samenvatting
 
