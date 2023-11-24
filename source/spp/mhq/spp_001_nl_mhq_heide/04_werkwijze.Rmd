@@ -178,7 +178,7 @@ Afwezigheid ook aangeven!
 **Aanwezigheid grijs kronkelsteeltje** Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van het mos Grijs kronkelsteeltje (zie Figuur \@ref(fig:Grijskronkelsteeltje)).
 Afwezigheid ook aangeven!
 
-(ref:Grijskronkelsteeltje) Grijs kronkelsteeltje
+(ref:Grijskronkelsteeltje) Enkele typische verschijningsvormen van het mos Grijs kronkelsteeltje. De glasharen in combinatie met de bladvorm zijn een duidelijk veldkenmerk.
 
 ```{r Grijskronkelsteeltje, fig.cap="(ref:Grijskronkelsteeltje)"}
 include_graphics(
@@ -188,9 +188,9 @@ include_graphics(
 
 ```
 
-### Samenvatting
+### Samenvattend diagram
 
-(ref:samenvatting) Samenvatting stappenplan
+(ref:samenvatting) Diagram stappenplan
 
 ```{r stappenplan, fig.cap="(ref:samenvatting)"}
 include_graphics(
