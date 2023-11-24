@@ -1,7 +1,7 @@
 ### First version of protocol: spp-001-nl
 
 - Title: Veldprotocol Kwaliteitsmeetnet Natura 2000 habitats partim heidehabitats
-- Published on: 2023-11-23
+- Published on: 2023-11-24
 - Version number: 2023.07
 - Link to this version: [spp-001-nl version 2023.07](2023.07/index.html)
 
