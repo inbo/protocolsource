@@ -171,7 +171,9 @@ Afwezigheid ook aangegeven!
 Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Bochtige smele, Pijpenstrootje, zwenkgrassen, Duinriet en Struisgrassen.
 Afwezigheid ook aangeven!
 
-**Verruiging** Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Adelaarsvaren en Braam.
+**Verruiging** 
+
+Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Adelaarsvaren en Braam.
 Afwezigheid ook aangeven!
 
 **Aanwezigheid grijs kronkelsteeltje** Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van het mos Grijs kronkelsteeltje (zie Figuur \@ref(fig:Grijskronkelsteeltje)).
