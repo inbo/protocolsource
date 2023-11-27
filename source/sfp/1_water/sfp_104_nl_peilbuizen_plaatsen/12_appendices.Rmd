@@ -1,0 +1,127 @@
+# (APPENDIX) Bijlagen {.unnumbered}
+
+# Checklist met materiaal (bijlage 1)
+
+```{=html}
+<!--
+Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
+O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
+-->
+```
+-   Materiaal voor een peilbuis in PVC:
+
+    -   Blinde buis, PVC, diameter 50mm
+    -   Filterbuis, PVC, diameter 50mm
+    -   Afsluitdop, PVC, diameter 50mm
+    -   Schroefdop, PVC, diameter 50mm
+    -   Koppelstukken (moffen), PVC, diameter 50mm (Twee of meer per peilbuis)
+    -   Filterkous (polypropyleen, 30-65 mm diameter)
+    -   Plastic riempjes (kabelbinders), minstens 20 cm lengte
+
+-   Materiaal voor een peilbuis in HDPE:
+
+    -   Blinde buis, HDPE, diameter 50mm, lengte in functie van de diepte
+    -   Filterbuis, HDPE, diameter 50mm, lengte 50cm per peilbuis
+    -   Afsluitdop, HDPE, diameter 50mm
+    -   Schroefdop, HDPE, diameter 50mm
+    -   Koppelstukken (klemmoffen), HDPE, diameter 50mm, twee of meer per peilbuis
+    -   Filterkous (polypropyleen, 30-65 mm diameter)
+    -   Plastic riempjes (kabelbinders), minstens 20cm lengte
+
+-   Materiaal voor de afwerking
+
+    -   Bentonietkorrels QSE (optioneel)
+    -   Filterzand SiO2 (optioneel)
+    -   Beschermbuis met kap (optioneel), elektrolytisch verzinkt, diameter 77mm, met afsluitbaar deksel en ondergrondse verankering
+    -   Straatpot 200x200mm (optioneel), vloeistofvrij, met of zonder inbus afsluiting
+
+-   Werkmateriaal
+
+    -   Boormateriaal (afhankelijk van het bodemtype)
+
+        -   Voor vaste sedimenten
+            -   Edelmanboor (diameter 7 cm.)
+            -   Smalle versie van de Edelmanboor
+            -   Riversideboor
+            -   Spiraalboor
+            -   Handvat en nodige verleng- en koppelstukken
+        -   Bij losse sedimenten (zand, fijn grind, ...)
+            -   Pulsboor voor losse sedimenten
+            -   Verbuizingselementen + 2 klemmen
+        -   Voor stenige bodems
+            -   Keienvanger
+            -   Verkennende boring
+            -   Gutsboor
+
+    -   Emmer om de buis met water te vullen
+
+    -   IJzerzaag, geschikt voor het doorzagen van PVC of HDPE buizen
+
+    -   Meetlint of meetlat (cm)
+
+    -   Permanente marker
+
+    -   Schaar of mes
+
+    -   Waterbestendige stift voor het aanbrengen van het buisnummer
+
+    -   Enkel voor het plaatsen van een beschermbuis
+
+        -   Voorhamer en houten blok
+        -   Spade (enkel bij harde/compacte bodems)
+
+    -   Enkel voor het plaatsen van een straatpot
+
+        -   Spade Enkel voor PVC peilbuis
+        -   PVC lijm, bv. in potje (100ml) met borstel
+        -   Ruw schuurpapier (P100 of ruwer)
+
+-   Materiaal om de locatie te beschrijven
+
+    -   Afdruk orthofoto en/of topografische kaart
+    -   GPS (handGPS, smartphone of RTK-GPS)
+    -   Fototoestel (smartphone of fotocamera)
+
+# Checklist met te noteren informatie over het meetpunten (bijlage 2)
+
+-   Gebiedsinformatie
+
+    -   Naam van het gebied
+    -   Gemeente
+    -   Vegetatietype
+    -   Eigenaar / beheerder
+
+-   Boorverslag
+
+    -   Textuur: grind / grof zand / fijn zand / leem / klei / zware klei / veen
+
+    -   Kleur: Zwart -- donkerbruin -- lichtbruin -- groen -- geel - ...
+
+    -   Dikte van de organische laag (m)
+
+    -   Diepte van (m):
+
+        -   de grondwaterstand tijdens de boring;
+        -   de gleyverschijnselen (vanaf waar tot waar, als opmerking bij de verschillende kleuren-/textuurlagen)
+        -   het aanwezige grind (ook de afmeting ervan [klein-middel-groot, licht-zwaar] als opmerking bij de verschillende kleur-/textuurlagen of als band/aparte laag)
+        -   het begin van de reductiehorizont.
+
+    -   Aanwezigheid van: kalkconcreties, harde ijzer of mangaan laagjes (veelvoorkomend in Podzols.).
+
+    -   Foto's van de boorstaat: overzicht en detail foto's indien opmerkelijke verschijnselen (grind, kleilagen, tussenlaag zonder gleyverschijnselen,...)
+
+-   Informatie over het meetpunt
+
+    -   Meetpuntcode
+    -   Totale lengte van de buis (m)
+    -   Lengte van de filter (m)
+    -   Diameter (mm)
+    -   Grind gestort? Ja/Nee
+    -   Bentoniet stop? Ja/Nee
+    -   Afwerking (geen, straatpot of beschermbuis)
+    -   Coördinaten (WGS84 / Lambert)
+    -   Manier inmeten coördinaten (schatting op kaart, smartphone, handGPS, RTK-GPS)
+    -   Hoogte van het meetpunt boven maaiveld (m)
+    -   Hoogte van het meetpunt (mTAW)
+    -   Hoogte van het maaiveld (mTAW)
+    -   Foto van het meetpunt met de omgeving (Z-gericht, bij afwijking hiervan moet de richting uitdrukkelijk vermeld worden)
