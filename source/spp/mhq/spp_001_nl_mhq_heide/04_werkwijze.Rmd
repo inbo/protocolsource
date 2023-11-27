@@ -120,8 +120,7 @@ Indien afwezig scoor je met de waarde 0.
 
 **Verbossing**
 
-De 18 meter-structuurplot wordt bekeken voor wat betreft verbossingsgraad (bedekking totale kroonprojectie in %).
-Alle houtige gewassen vanaf 80cm hoogte worden meegeteld voor deze indicator.
+Om de verbossing te bepalen, schatten we de bedekking (%) van de totale kroonprojectie van alle houtige gewassen met hoogte van minstens 80 cm.
 Bomen en struiken die vanuit een naastgelegen bos of houtkant overhangen worden niet meegerekend voor deze indicator.
 Eventuele overlap tussen boom- en struiklaag wordt niet dubbel geteld.
 Het gaat m.a.w. over het aandeel doelvegetatie in de structuurplot die overdekt wordt door bomen of struiken.
