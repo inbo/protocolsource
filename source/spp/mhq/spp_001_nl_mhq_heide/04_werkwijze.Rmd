@@ -128,8 +128,8 @@ Hou voor de schatting van de bedekking in het achterhoofd dat 10 m² ongeveer 1%
 Schattingen tot op 1% nauwkeurig zijn redelijk haalbaar bij lage bedekkingen, maar worden lastiger naarmate de verbossingsgraad toeneemt.
 Bij hogere verbossingsgraad is een schatting tot op 5% voldoende nauwkeurig.
 Interpretatie via luchtfoto of een schets zijn hierbij een hulpmiddel.
-Indien een gedeelte van de plot geen doelvegetatie bevat wordt dit deel niet in beschouwing genomen voor de verbossing.
-Maar de inschatting gebeurt wel volgens dezelfde verdeling m.a.w. 10 m² blijft 1% ook al bevindt zich maar in de helft van de vegetatieplot effectief doelvegetatie.
+Indien een gedeelte van de plot geen doelvegetatie bevat, wordt dit deel niet in beschouwing genomen voor de verbossing.
+Maar de inschatting gebeurt wel volgens dezelfde verdeling, m.a.w. 10 m² blijft 1% ook al bevindt zich maar in de helft van de vegetatieplot effectief doelvegetatie.
 
 **Successiestadia van buntgrasvegetaties**
 
