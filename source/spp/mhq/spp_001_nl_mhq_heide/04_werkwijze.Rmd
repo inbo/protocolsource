@@ -129,6 +129,15 @@ Aandeel doelvegetatie in de 18 meter-plot opgeven!
 
 Alle criteria dienen voor elk habitattype gescoord te worden.
 Indien afwezig scoor je met de waarde 0.
+Voor een aantal van deze criteria dient het protocol van de beheermonitoring gevolgd te worden (nog te ontwikkelen) en de schattingen te doen a.d.h.v. de onderstaande beheermonitoringsschaal.
+
+```{r BHM_schaal}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "BHM_schaal.png"))
+
+```
 
 **Verbossing**
 
@@ -146,7 +155,7 @@ Maar de inschatting gebeurt wel volgens dezelfde verdeling, m.a.w. 10 m² blijft
 **Successiestadia van buntgrasvegetaties**
 
 Vooral bij de landduinen (2330 en 2310) is de aanwezigheid van de verschillende ontwikkelingsstadia een belangrijke structuurparameter: open zand, buntgrasvegetatie, mostapijtjes, korstmosvegetatie.
-Scoor de aanwezigheid van elk van deze fases door middel van een code uit de beheermonitoringsschaal (bijlage 1) op het niveau van de structuurplot.
+Scoor de aanwezigheid van elk van deze fases door middel van een code uit de beheermonitoringsschaal (zie hoger) op het niveau van de structuurplot.
 Afwezigheid ook aangeven d.m.v. score 0!
 
 **Ouderdomsstructuur Struikhei**
@@ -156,7 +165,7 @@ Elke fase verschilt qua bedekking, productie en bloei van Struikhei, maar ook qu
 Hoe meer fasen in een heide aanwezig zijn, hoe structuurrijker, hoe soortenrijker en hoe robuuster de heidehabitat is.
 Eenvormige ouderdomsstructuur hangt meestal samen met een onaangepast beheer.
 Er worden vier leeftijdscategorieën onderscheiden, namelijk, pioniersstadium, ontwikkelingsstadium, climaxstadium en degeneratiestadium (zie Figuur \@ref(fig:Callunastadia)).
-Scoor de aanwezigheid van elk stadium m.b.v. codes uit de beheermonitoringsschaal (bijlage 1).
+Scoor de aanwezigheid van elk stadium m.b.v. codes uit de beheermonitoringsschaal (zie hoger).
 Afwezigheid ook aangeven d.m.v. score 0!
 
 (ref:Callunastadia) Cyclische successiestadia in 4 fasen bij Calluna vulgaris (uit Burrows, 1990)
@@ -171,27 +180,27 @@ include_graphics(
 
 **Aanwezigheid veenmoslaag**
 
-Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van alle veenmossoorten samen op het niveau van de structuurplot.
+Schat d.m.v. een code van de beheermonitoringsschaal (zie hoger) de bedekking van alle veenmossoorten samen op het niveau van de structuurplot.
 Afwezigheid ook noteren!
 
 **Aanwezigheid dwergstruiken**
 
-Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van alle dwergstruiken (Gewone Dophei, Struikhei, Blauwe bosbes, Stekelbrem, Kruipbrem, Rode Dophei, Lavendelhei, Rode bosbes,...) op het niveau van de structuurplot.
+Schat d.m.v. een code van de beheermonitoringsschaal (zie hoger) de bedekking van alle dwergstruiken (Gewone Dophei, Struikhei, Blauwe bosbes, Stekelbrem, Kruipbrem, Rode Dophei, Lavendelhei, Rode bosbes,...) op het niveau van de structuurplot.
 Afwezigheid ook aangegeven!
 
 **Vergrassing**
 
-Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Bochtige smele, Pijpenstrootje, zwenkgrassen, Duinriet en Struisgrassen.
+Schat d.m.v. een code van de beheermonitoringsschaal (zie hoger) de gezamelijke bedekking van Bochtige smele, Pijpenstrootje, zwenkgrassen, Duinriet en Struisgrassen.
 Afwezigheid ook aangeven!
 
 **Verruiging**
 
-Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Adelaarsvaren en Braam.
+Schat d.m.v. een code van de beheermonitoringsschaal (zie hoger) de gezamelijke bedekking van Adelaarsvaren en Braam.
 Afwezigheid ook aangeven!
 
 **Aanwezigheid grijs kronkelsteeltje**
 
-Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van het mos Grijs kronkelsteeltje (zie Figuur \@ref(fig:Grijskronkelsteeltje)).
+Schat d.m.v. een code van de beheermonitoringsschaal (zie hoger) de bedekking van het mos Grijs kronkelsteeltje (zie Figuur \@ref(fig:Grijskronkelsteeltje)).
 Afwezigheid ook aangeven!
 
 (ref:Grijskronkelsteeltje) Enkele typische verschijningsvormen van het mos Grijs kronkelsteeltje. De glasharen in combinatie met de bladvorm zijn een duidelijk veldkenmerk.
