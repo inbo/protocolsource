@@ -16,7 +16,7 @@ create_protocol(
                             natte heide (4010)"
                 )
 
-render_protocol(protocol_code = "spp-001-nl")
+render_protocol(protocol_code = "sfp_001_nl")
 #renv::restore()
 
 protocolhelper::add_dependencies(
