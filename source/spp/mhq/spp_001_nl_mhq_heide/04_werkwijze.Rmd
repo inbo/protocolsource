@@ -95,7 +95,7 @@ Indien het eerder een geleidelijke overgang betreft naar een verwant vegetatiety
 
 Noteer steeds op welk aandeel (in %) van de plot je data betrekking heeft.
 Doe dit zowel voor de vegetatieplot als de cirkelvormige structuurplot.
-Bij het schatten van de bedekkingen blijf je echter werken alsof je op een volledige plot zou doen, je gaat m.a.w. niet herrekenen voor het aandeel dat effectief doelvegetatie bevat.
+Bij het schatten van de bedekkingen van de aanwezige soorten blijf je dit doen ten opzichte van de volledige plot. Je gaat de bedekkingen dus niet herrekenen voor het aandeel dat effectief doelvegetatie bevat.
 Bv.
 in een 3 m x 3 m plot blijft 30 cm x 30 cm dus 1%, ook wanneer 1/4 van de volledige plot niet tot de doelvegetatie behoort.
 
