@@ -125,7 +125,7 @@ Bomen en struiken die vanuit een naastgelegen bos of houtkant overhangen worden 
 Eventuele overlap tussen boom- en struiklaag wordt niet dubbel geteld.
 Het gaat m.a.w. over het aandeel doelvegetatie in de structuurplot die overdekt wordt door bomen of struiken.
 Hou voor de schatting van de bedekking in het achterhoofd dat 10 m² ongeveer 1% is van de 18 meter-cirkelplot (\~1017 m²).
-Schattingen tot op 1% nauwkeurig zijn redelijk haalbaar bij lage bedekkingen,maar worden lastiger naarmate de verbossingsgraad toeneemt.
+Schattingen tot op 1% nauwkeurig zijn redelijk haalbaar bij lage bedekkingen, maar worden lastiger naarmate de verbossingsgraad toeneemt.
 Bij hogere verbossingsgraad is een schatting tot op 5% voldoende nauwkeurig.
 Interpretatie via luchtfoto of een schets zijn hierbij een hulpmiddel.
 Indien een gedeelte van de plot geen doelvegetatie bevat wordt dit deel niet in beschouwing genomen voor de verbossing.
