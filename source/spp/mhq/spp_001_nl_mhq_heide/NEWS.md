@@ -16,6 +16,6 @@ Gesorteerd van recent naar oud.
 - Eerste versie van het protocol
 -->
 ```
-## [2023.07](../2023.07/index.html)
+## [2023.08](../2023.08/index.html)
 
 -   Eerste versie
