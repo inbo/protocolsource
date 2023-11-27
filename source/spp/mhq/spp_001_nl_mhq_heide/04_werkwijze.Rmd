@@ -100,7 +100,7 @@ Bv.
 in een 3 m x 3 m plot blijft 30 cm x 30 cm dus 1%, ook wanneer 1/4 van de volledige plot niet tot de doelvegetatie behoort.
 
 Voor de structuurplot (zie stap 7) wordt gelijkaardig gewerkt en dient ook het aandeel doelvegetatie waarop de inschatting betrekking heeft vermeld te worden.
-De inschatting van de bedekking gebeurt eveneens alsof het een volledige cirkelplot betreft, m.a.w. 10 m² is 1%.
+De inschatting van de bedekking van de structuurvariabelen gebeurt eveneens alsof het een volledige cirkelplot betreft, m.a.w. 10 m² is 1%.
 In geval van twijfel voeren we de opname uit en documenteren we de problemen in het opmerkingenveld.
 
 ### STAP 5: Vervangpunten selecteren in het geval het originele meetpunt niet tot de doelpopulatie behoort
