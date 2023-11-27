@@ -144,7 +144,7 @@ Elke fase verschilt qua bedekking, productie en bloei van Struikhei, maar ook qu
 Hoe meer fasen in een heide aanwezig zijn, hoe structuurrijker, hoe soortenrijker en hoe robuuster de heidehabitat is.
 Eenvormige ouderdomsstructuur hangt meestal samen met een onaangepast beheer.
 Er worden vier leeftijdscategorieën onderscheiden, namelijk, pioniersstadium, ontwikkelingsstadium, climaxstadium en degeneratiestadium (zie Figuur \@ref(fig:Callunastadia)).
-Scoor de aanwezigheid van elk stadium m.b.v. codes uit de beheermonitoringsschaal (bijlage 1).Afwezigheid ook aangeven d.m.v. score 0!
+Scoor de aanwezigheid van elk stadium m.b.v. codes uit de beheermonitoringsschaal (bijlage 1). Afwezigheid ook aangeven d.m.v. score 0!
 
 (ref:Callunastadia) Cyclische successiestadia in 4 fasen bij Calluna vulgaris (uit Burrows, 1990)
 
