@@ -176,7 +176,9 @@ Afwezigheid ook aangeven!
 Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de gezamelijke bedekking van Adelaarsvaren en Braam.
 Afwezigheid ook aangeven!
 
-**Aanwezigheid grijs kronkelsteeltje** Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van het mos Grijs kronkelsteeltje (zie Figuur \@ref(fig:Grijskronkelsteeltje)).
+**Aanwezigheid grijs kronkelsteeltje** 
+
+Schat d.m.v. een code van de beheermonitoringsschaal (bijlage 1) de bedekking van het mos Grijs kronkelsteeltje (zie Figuur \@ref(fig:Grijskronkelsteeltje)).
 Afwezigheid ook aangeven!
 
 (ref:Grijskronkelsteeltje) Enkele typische verschijningsvormen van het mos Grijs kronkelsteeltje. De glasharen in combinatie met de bladvorm zijn een duidelijk veldkenmerk.
