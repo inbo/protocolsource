@@ -6,3 +6,4 @@ Een samenvattende opsomming van de te volgen stappen.
 Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
 -->
 ```
+1 Voorbereiding terreinwerk 2 Uitvoering terreinwerk 2.1 Vegetatie-opname 2.2 Foto's (optioneel) 3 Registratie en bewaring van de resultaten

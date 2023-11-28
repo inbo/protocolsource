@@ -8,6 +8,14 @@ Opsomming van de apparatuur die nodig is en verwijzingen naar de `sip`'s (Standa
 Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
 -->
 ```
+-   hand-GPS (nauwkeurigheid +/- 5 m)
+-   (eventueel) RTK -- GPS (nauwkeurigheid ongeveer 5 cm)
+-   (eventueel) kompas
+-   (eventueel) digitale camera
+-   (eventueel) tablet of veldcomputer
+-   (eventueel) Fieldmap configuratie (GPS, digitaal kompas, veldcomputer)
+-   reservebatterijen
+
 ## Materiaal
 
 ```{=html}
@@ -17,6 +25,18 @@ Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen,
 Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit `PE`, met afsluitbare deksel uit `PP`.
 -->
 ```
+-   wegenatlas, kaartmateriaal op voorhand voorbereid via GIS
+-   notaboek of --fiches (zie Bijlage \@ref(bijlage-opnameformulier) Veldformulier)
+-   voldoende schrijfmateriaal
+-   flora (naamgeving volgens Flora van België, Grothertogdom Luxemburg, Noord-Frankrijk en de aangrenzende gebieden (Lambinon et al., 1998))
+-   loep (8x, 10x, 15x)
+-   lint- (min. 5m) of vouwmeter
+-   4 markeerstokken + touw (met markering proefvlaklengte en -diagonaal)
+-   eventueel markeerverf voor in bossystemen
+-   recipiënten (mapjes, krantenpapier, plastic zakje) om niet gedetermineerde planten te bewaren
+-   paraplu (om papieren droog te houden)
+-   (eventueel) materiaal voor permanente markering (bv. Fenopaal)
+
 ## Reagentia en oplossingen (indien van toepassing)
 
 ```{=html}
@@ -29,3 +49,4 @@ bijvoorbeeld: Zwavelzuur `1M`: verdun zwavelzuur geconcentreerd 18 maal met `ult
 Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -->
 ```
+Niet van toepassing

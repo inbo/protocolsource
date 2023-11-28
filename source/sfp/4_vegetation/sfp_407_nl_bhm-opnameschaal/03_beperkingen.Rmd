@@ -7,15 +7,27 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
-Indien deze procedure ingezet wordt voor trendbepaling zijn verdere afspraken over de detailgraad, hoe het terrein te doorkruisen (**zie bv. figuur in bijlage 2**) en het tijdstip van herbezoek noodzakelijk om de reproduceerbaarheid te verhogen.
+Indien deze procedure ingezet wordt voor trendbepaling op zijn bijkomende afspraken over de detailgraad, hoe het terrein te doorkruisen (zie bv. Figuur \@ref(fig:transect)) en het tijdstip van herbezoek aangewezen om de reproduceerbaarheid te verhogen.
+
+(ref:transect) Voorbeeld van een gestructureerde wandeling doorheen een te inventariseren perceel.
+
+```{r transect, fig.cap="(ref:transect)"}
+include_graphics(
+  path = file.path(path_to_protocol,
+                   "media",
+                   "transect.png"))
+```
+
 Omdat er densiteiten worden gebruikt dient de teleenheid nader omschreven te worden.
-Dit is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie bij 2).
+Dit is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie bij Werkwijze).
 Alle vegetatie-opnames dienen uitgevoerd te worden in het optimale vegetatieseizoen.
 Dit is afhankelijk van het vegetatietype.
 Factoren die hierbij een rol spelen zijn o.a.
 biomassaproductie, bloei van relevante soorten, (maai)beheer en toegankelijkheid.
 In Figuur \@ref(fig:seizoen) wordt per vegetatietype een indicatie gegeven van de optimale inventarisatieperiode.
 Het is niet de bedoeling om vegetatie-opnames van verschillende tijdsstippen in het jaar te combineren tot één opname.
+
+(ref:seizoen) Weergave van de optimale en suboptimale inventarisatieperiode per biotoopgroep (Vriens et al., 2011)
 
 ```{r seizoen, fig.cap="(ref:seizoen)"}
 include_graphics(
@@ -26,10 +38,9 @@ include_graphics(
 
 Daarnaast dient er voldoende terugkoppeling te zijn tussen verschillende waarnemers om waarnemersafhankelijke variatie zo laag mogelijk te krijgen.
 Bij gegevensverwerking moet rekening worden gehouden met de semi-kwantitatieve aard van de beheermonitoringsschaal en het toepassingsgebied ervan.
-Een mathematische omzetting naar procentuele bedekking is mogelijk en is voorzien in INBOVEG (**zie bijlage 3**), maar hiermee moet omzichtig omgegaan worden i.v.m. de schijnnauwkeurigheid van de toegekende waarden.
+Een mathematische omzetting naar procentuele bedekking is mogelijk en is voorzien in INBOVEG (zie Fig \@ref(fig:codes)), maar hiermee moet omzichtig omgegaan worden i.v.m. de schijnnauwkeurigheid van de toegekende waarden.
 Een numerieke verwerking ten behoeve van een vegetatieclassificatie ligt buiten het toepassingsgebied en wordt beter vermeden.
 Men dient er immers rekening mee te houden dat opnames die met deze methode worden gemaakt niet steeds betrekking hebben op homogene vegetaties (dit is doorgaans geen probleem voor syntaxa op niveau van alliantie of ordes, maar mogelijk wel op associatieniveau).
-Voor aquatische vegetatie van stromende wateren wordt verwezen naar **SVP-403** (Vegetatieopname en LSVI bepaling habitat 3260).
-Voor vegetatie-opnames in kleinere proefvlakken wordt verwezen naar **SVP-401**.
-Voor opnames met behulp van de Tansley schaal verwijzen we naar **SVP-402**.
-
+Voor aquatische vegetatie van stromende wateren wordt verwezen naar [protocol sfp-403-nl versie 2023.05](../2023.05/index.html) (Vegetatieopname en LSVI-bepaling habitat 3260).
+Voor vegetatie-opnames in kleinere proefvlakken wordt verwezen naar [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie.
+Voor opnames met behulp van de Tansley schaal moet nog een protocol opgesteld worden.

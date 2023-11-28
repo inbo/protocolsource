@@ -8,9 +8,83 @@ Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het 
 Subtitels gebruiken om elke stap te omschrijven.
 -->
 ```
-### Subtitel 1
+### Voorbereiding terreinwerk
 
-### Subtitel 2
+De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de doelstelling en voorgeschiedenis van het project en van het beschikbare materiaal en apparatuur voor het project.
+
+1.  Kaartmateriaal met te bezoeken locaties wordt voorbereid in een GIS-omgeving.
+    Indien geen veldcomputer/tablet voorhanden, worden de kaarten in kleur geprint, met een duidelijke schaalvermelding.
+    Eventueel worden overzichtskaarten gemaakt zodat de kortste afstand, of de gemakkelijkste weg tot het punt of perceel duidelijk is (bv. brugjes over rivieren, onverharde wegen, ...).
+
+2.  Voor elke locatie/vegetatietype in het studiegebied is de optimale periode bepaald waarin het veldwerk wordt uitgevoerd.
+
+3.  In het geval van temporele herhalingen kan het nodig zijn om de wijze waarop percelen doorkruist worden vast te leggen, bv.
+    door een GPS-track.
+    Bij een herbezoek kan deze track op de kaarten aangeduid worden.
+
+4.  Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen, of op voorhand bestudeerd.
+    Er is wel per project een afweging nodig van de voor- en nadelen die hieraan verbonden zijn.
+    Aan de hand van oude opnames een globale soortenlijst van het gebied samenstellen is aan te raden om op voorhand vertrouwd te geraken met de soorten.
+    Mogelijke voordelen: kan helpen bij herlokalisatie, leereffect, ... Mogelijke nadelen: overnemen van foute determinaties, vertekening door verhoogde zoekinspanning naar ontbrekende soorten of door bijstellen van de bedekking, ...
+
+5.  Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen worden, indien voorhanden.
+    Er is wel per project een afweging nodig van de voor- en nadelen die hieraan verbonden zijn.
+    Aan de hand van oude opnames een globale soortenlijst van het gebied samenstellen is aan te raden om op voorhand vertrouwd te geraken met de soorten.
+
+    -   Mogelijke voordelen: kan helpen bij herlokalisatie, leereffect, ...
+    -   Mogelijke nadelen: overnemen van foute determinaties, onbewuste vertekening door verhoogde zoekinspanning naar ontbrekende soorten of door bijstellen van de bedekking, ...
+
+6.  Print voldoende veldformulieren af, per proefvlak minstens 1 veldformulier.
+
+7.  Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist, zie hoofdstuk \@ref(benodigdheden)).
+
+8.  Zorg ervoor dat je de nodige toestemmingen hebt om de percelen te betreden.
+
+### Terreinwerk
+
+1.  Foto (optioneel) Om problemen te vermijden bij de latere verwerking van het fotomateriaal wordt aangeraden om per foto een duidelijk zichtbare identificatiecode en de oriëntatie weer te geven.
+    We raden aan om eerst een foto van de identificatiecode op het invulformulier te maken vooraleer het terrein te fotograferen.
+    Indien dit onmogelijk is, codeer dan duidelijk in het daartoe voorziene veld op het veldformulier of bij afwezigheid daarvan in het vrije veld 'opmerkingen'.
+    Met de nieuwe smartphones is het trouwens mogelijk om de locatie van de genomen foto te taggen.
+    Het is belangrijk om achteraf de fotobestanden een gestructureerde naam (bv. Identificatiecode_Oriëntatie_Datum) te geven.
+    Voor opslag en beheer van fotobestanden zal in een latere fase hiervoor een Digital Asset Management-tool beschikbaar komen.
+
+2.  Opname Het perceel/gebied wordt op systematische manier doorkruist, waarbij het de bedoeling is dat elk deel van het terrein in zekere mate 'gezien is' voor wat betreft zijn soortensamenstelling.
+    Hierbij is het landschapsecologische inzicht van de waarnemer vaak doorslaggevend.
+    Sommige delen kunnen 'sneller' bekeken worden dan andere.
+    Bij homogene soortenarme situaties volstaat het om b.v.
+    een perceel langs beide diagonalen te doorkruisen.
+    Tijdens dit inventariseren worden alle aanwezige soorten per vegetatielaag genoteerd.
+    Indien de inventarisatie herhaald dient te worden i.k.v. monitoring dient het gevolgde traject gedocumenteerd te worden.
+    Bij het noteren van de soortnamen wordt bij voorkeur gewerkt met wetenschappelijke namen.
+    Door het werken met (onvolledige) Nederlandse namen ontstaan vaak verwarring bij het invoeren van de gegevens (bv. bevernel, esdoorn, iep, ...) Planten die net buiten het onderzoeksgebied staan maar die een bedekking of presentie halen in het perceel dienen genoteerd te worden voor zover zij niet verwaarloosbaar zijn als randeffect (bv. overhangende takken van bomen).
+    Schat dan per vegetatielaag voor elke soort de juiste schaalcode in.
+    Gebruik hiervoor de visuele ondersteuning in bijlage 1.
+    De soorten worden per laag ingeschat maar telkens relatief ten opzichte van het gehele perceel.
+    Wanneer een soort een zekere bedekking (circa 5%) inneemt, speelt de densiteit geen rol meer.
+    In de uitgebreide Tansley wordt vanaf de categorie 'Bedekkend' dan ook de bedekking (zie definitie) i.p.v. abundantie gebruikt om de klassegrenzen te definiëren.
+    De mate van bedekking krijgt ook voorrang op de densiteit bij het bepalen van de bijpassende schaalcode.
+    Bv.
+    4 oude eiken in een grasland, die ongeveer 10% bedekken, krijgen niet de code 'Schaars' maar wel 'Bedekkend'.
+    Bij fijnbladige soorten kan het aangewezen zijn om een correctiefactor toe te passen aangezien de bedekking binnen de contour van deze planten niet 100% is (bv. smalbladige wilgen).
+    Een strategie om de bedekking van zulke soorten in te schatten is dan ook de bedekking voor de verticale projectie van de omhullenden te schatten en deze naar beneden te corrigeren (0 \< correctiefactor \< 1) voor de ijlheid van het gebladerte.
+    Deze correctiefactor is opnieuw een visuele schatting, maar dan één die éénmalig kan geschat worden en daarna consequent gebruikt.
+    De totale bedekkingen van strooisellaag, algenlaag, moslaag, kruidlaag, boom- en struiklaag worden afzonderlijk ingeschat met telkens maximaal 100% bedekking.
+    Daarnaast wordt ook de totale bedekking over de lagen heen ingeschat (dit is 100% min de bedekking van onbedekte bodem of open water).
+    De standaard INBO-schaal voor de bedekking (INBO-structuur in INBOVEG) is een rechtstreekse schatting van het percentage in sprongen van 10%, 5% en 1%, waarbij op de uiteinden van de schaal kleinere sprongen genomen worden.
+    Dit resulteert in 0, 1, 2, 3, 4, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 85, 90, 95, 96, 97, 98, 99, 100%.
+    De moslaag betreft standaard alle bodembewonende mos- en korstmossoorten, inclusief lever- en hauwmossen.
+    Voor boom- en rotsbewonende soorten zijn bijkomende projectspecifieke afspraken nodig.
+    Kiemplanten van houtige gewassen aanwezig in de kruidlaag worden genoteerd met vermelding kiemplant (k) bij de fenologie.
+    Tot de struiklaag worden de houtige planten van 80 cm tot 6 m gerekend.
+    De boomlaag bestaat uit houtige planten hoger dan 6 m.
+    Lianen worden meegerekend tot de hoogste laag waarin ze opklimmen.
+    Lianen in de kruidlaag worden ook steeds in die laag genoteerd (bv. klimop).
+    Aandachtspunten:
+
+-   Doorgaans heeft de waarnemer de neiging om opvallende of bloeiende soorten te overschatten. Andere minder opvallende soorten worden doorgaans onderschat (Kent & Coker, 1992).
+-   Bij het toekennen van een code wordt door een waarnemer (al dan niet) onbewust enkel de onmiddellijke omgeving gebruikt als referentiebeeld. Je schat op een deel van het perceel waarover je een overzicht hebt. Afhankelijk van de overzichtelijkheid van het terrein waarvoor je de opname maakt is deze oppervlakte beperkt tot zeer beperkt (enkele tientallen m² tot enkele honderdtallen m²). Wees je hiervan bewust en corrigeer indien overige delen van het perceel afwijken ten opzichte van het deel waarop je tijdens het inschatten zicht hebt.
+-   Overloop aan het einde van de opname de toegekende codes ter controle. Vaak gebeuren nog aanpassingen aan de initiële inschatting door te vergelijken met de ingeschatte klassen van andere soorten ('relatief schatten').
 
 ## Registratie en bewaring van resultaten
 
@@ -24,3 +98,8 @@ Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar dez
 Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
 ```
+De resultaten van de vegetatieopnames worden genoteerd op de desbetreffende invulformulieren (**zie voorbeeld in bijlage 2**) of opgeslagen via digitale veldapparatuur.
+Alle opnames worden later ingegeven in INBOVEG in een daartoe specifiek ontworpen 'survey'.
+De foto's worden eventueel gearchiveerd in een databank, waarin een link mogelijk is naar een unieke identificatiecode voor de locatie of de bijhorende vegetatieopname.
+De naam van de foto wordt "Identificatiecode_Nr_Datum".
+
