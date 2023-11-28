@@ -1,0 +1,54 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+**Abundantie of densiteit** = een maat voor de talrijkheid van een soort, meestal gekoppeld aan een bepaalde oppervlakte (densiteit).
+Het is het aantal individuen of andere teleenheden (bv. scheuten) van een soort per oppervlakte.
+Het gebruik van densiteit als meetvariabele vereist afspraken omtrent de teleenheid (plantenindividu, pollen- en mattenvormers, uitlopers, ...)
+
+**Aquatische vegetatie** = watergebonden vegetatie, drijvend of (gedeeltelijk) ondergedoken in de waterkolom.
+
+**Bedekking** = een maat van voorkomen die meer gelinkt is met biomassa (een soort kan bijvoorbeeld zeer talrijk voorkomen maar met lage biomassa/bedekking): de bedekking van een plantensoort (of laag van de vegetatie, bv. boomlaag) is de proportie van de bodem die bedekt is door een soort, indien alle andere soorten verwijderd zouden worden.
+M.a.w. het is de verticale projectie van alle bovengrondse plantendelen van alle individuen van een soort op de bodem.
+De bedekking wordt uitgedrukt als een proportie of een percentage.
+
+**Bedekkingsschaal** = een meestal ordinale schaal die gebruikt wordt om in het veld voor een plantensoort de visueel ingeschatte bedekking te noteren.
+Sommige schalen zijn een combinatie van klassen voor bedekkingspercentages en klassen voor abundanties bij lage bedekkingen.
+Elke klasse in de ordinale schaal krijgt een code die genoteerd wordt.
+
+**Vegetatiegelaagdheid** = verticale organisatie van de vegetatie.
+Bij een vegetatie-opname wordt meestal een onderscheid gemaakt in de verschillende structuurlagen (bv. moslaag, kruidlaag, struiklaag en boomlaag).
+De kruidlaag omvat alle niet-houtige gewassen en houtige gewassen tot maximaal 80 cm, de struiklaag omvat alle houtige gewassen tussen 80 cm en 6 m.
+Lianen worden afhankelijk van hun hoogte tot de kruid-, struik- of boomlaag gerekend.
+De boomlaag bestaat uit houtige planten hoger dan 6 m.
+Voor bossen ligt de opdeling tussen kruid- en struiklaag op 2 m, voor struik- en boomlaag op 8 m.
+
+**Habitatvlek** = een afgebakende zone waarbinnen een homogeen vegetatietype voorkomt.
+De afbakening\*\* gebeurt op basis van karteerregels die betrekking hebben op een fytosociologische definitie.
+Een synoniem hiervoor is habitatlocatie.
+
+**(Semi-)terrestrische vegetatie** = Niet-aquatische vegetaties (waterplanten - hydrofyten) die aan land gebonden zijn, zij wortelen minstens in de bodem.
+
+**Soortensamenstelling** = de lijst van soorten die voorkomen binnen het proefvlak/onderzochte perceel.
+
+**Strooisellaag** = liggend afgestorven plantenmateriaal bovenop de bodem, niet vasthangend aan de moederplant waarin organisch materiaal nog herkenbaar te vinden is.
+Strooisel omvat dus bladeren, stengels, twijgen en andere houtachtige plantenresten, zowel intact en herkenbaar materiaal als gedeeltelijk gecomposteerd en gefragmenteerd materiaal.
+
+**Vegetatie-opname** = beschrijving van de vegetatiesamenstelling door middel van een volledige lijst van de aanwezige soorten en de mate waarin ze voorkomen (biomassa, densiteit, bedekking, ...)
+
+## Doelstelling en toepassingsgebied
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+
