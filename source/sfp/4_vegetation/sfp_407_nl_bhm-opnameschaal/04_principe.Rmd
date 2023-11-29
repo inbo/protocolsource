@@ -6,7 +6,7 @@ Korte omschrijving van de principes waarop het protocol gebaseerd is.
 Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
 -->
 ```
-Naar @Sutherland2006, @De Cock2008 en @Demeulenaere2002
+Naar @Sutherland2006, @DeCock2008 en @Demeulenaere2002
 
 De beheermonitoringsschaal zoals in dit protocol beschreven is een herwerking van de methode die voorgesteld is in @Demeulenaere2002.
 Naast het herbenoemen van een aantal taalkundig verwarrende categorienamen, zijn er ook naar indicatieve bedekking en abundanties lichte aanpassingen gebeurd.
