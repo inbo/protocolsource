@@ -7,19 +7,10 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
-Indien deze procedure ingezet wordt voor trendbepaling op zijn bijkomende afspraken over de detailgraad, hoe het terrein te doorkruisen (zie bv. Figuur \@ref(fig:transect)) en het tijdstip van herbezoek aangewezen om de reproduceerbaarheid te verhogen.
-
-(ref:transect) Voorbeeld van een gestructureerde wandeling doorheen een te inventariseren perceel.
-
-```{r transect, fig.cap="(ref:transect)"}
-include_graphics(
-  path = file.path(path_to_protocol,
-                   "media",
-                   "transect.png"))
-```
+Indien deze procedure ingezet wordt voor trendbepaling op zijn bijkomende afspraken over de detailgraad, hoe het terrein te doorkruisen en het tijdstip van herbezoek aangewezen om de reproduceerbaarheid te verhogen.
 
 Omdat er densiteiten worden gebruikt dient de teleenheid nader omschreven te worden.
-Dit is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie bij Werkwijze).
+Dit is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie bij @Werkwijze).
 Alle vegetatie-opnames dienen uitgevoerd te worden in het optimale vegetatieseizoen.
 Dit is afhankelijk van het vegetatietype.
 Factoren die hierbij een rol spelen zijn o.a.
@@ -27,7 +18,7 @@ biomassaproductie, bloei van relevante soorten, (maai)beheer en toegankelijkheid
 In Figuur \@ref(fig:seizoen) wordt per vegetatietype een indicatie gegeven van de optimale inventarisatieperiode.
 Het is niet de bedoeling om vegetatie-opnames van verschillende tijdsstippen in het jaar te combineren tot één opname.
 
-(ref:seizoen) Weergave van de optimale en suboptimale inventarisatieperiode per biotoopgroep (Vriens et al., 2011)
+(ref:seizoen) Weergave van de optimale en suboptimale inventarisatieperiode per biotoopgroep (@Vriens2010)
 
 ```{r seizoen, fig.cap="(ref:seizoen)"}
 include_graphics(
