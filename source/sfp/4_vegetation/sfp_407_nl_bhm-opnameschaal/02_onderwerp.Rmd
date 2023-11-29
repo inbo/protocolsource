@@ -29,7 +29,7 @@ De boomlaag bestaat uit houtige planten hoger dan 6 m.
 Voor bossen ligt de opdeling tussen kruid- en struiklaag op 2 m, voor struik- en boomlaag op 8 m.
 
 **Habitatvlek** = een afgebakende zone waarbinnen een homogeen vegetatietype voorkomt.
-De afbakening\*\* gebeurt op basis van karteerregels die betrekking hebben op een fytosociologische definitie.
+De afbakening gebeurt op basis van karteerregels die betrekking hebben op een fytosociologische definitie.
 Een synoniem hiervoor is habitatlocatie.
 
 **(Semi-)terrestrische vegetatie** = Niet-aquatische vegetaties (waterplanten - hydrofyten) die aan land gebonden zijn, zij wortelen minstens in de bodem.
@@ -52,9 +52,9 @@ Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt
 -->
 ```
 De beheermonitoringsschaal wordt gebruikt voor het schatten van de mate van voorkomen van plantensoorten over grotere oppervlaktes (grootte-orde van 1000 m² tot enkele hectares), zoals een proefvlakcirkel van 1000 m², delen van gebruikspercelen, beheerblokken en vegetatie-eenheden.
-De schaal heeft zowel kenmerken van de klassieke bedekkingsschalen, zoals de schaal van Londo, die gebruikt wordt voor kleine proefvlakken (**SVP-401**), als van de Tansley-schaal, die ook courant ingezet wordt bij het inventariseren voor grotere oppervlaktes (**SVP-402**).
-Net zoals bij **SVP-401**, gaat het hier om een meer kwantitatief gedefinieerde schaal, echter met minder onderverdelingen als de Londo.
-In overeenstemming met **SVP-401**, maar in tegenstelling tot **SVP-402**, is de schaal relatief ten opzichte van de oppervlakte waarover men een uitspraak doet.
-Vergelijkbaar met **SVP-402**, heeft de schaal een aantal aanpassingen waarmee vaak voorkomende problemen bij inschattingen over grotere oppervlaktes kunnen ondervangen worden (bv lokaal afwijkende vegetatie).
+De schaal heeft zowel kenmerken van de klassieke bedekkingsschalen, zoals de schaal van Londo, die gebruikt wordt voor kleine proefvlakken (zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)), als van de Tansley-schaal, die ook courant ingezet wordt bij het inventariseren voor grotere oppervlaktes (protocol nog te ontwikkelen).
+Net zoals bij [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)), gaat het hier om een meer kwantitatief gedefinieerde schaal, echter met minder onderverdelingen als de Londo-schaal.
+In overeenstemming met [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)), maar in tegenstelling tot de Tansley schaal, is de beheermonitoringschaal relatief ten opzichte van de oppervlakte waarover men een uitspraak doet.
+Vergelijkbaar met de Tansley-schaal methode, heeft de beheermonitoringschaal een aantal aanpassingen waarmee vaak voorkomende problemen bij inschattingen over grotere oppervlaktes kunnen ondervangen worden (bv lokaal afwijkende vegetatie).
 Wanneer een grotere oppervlakte (bv. een gebruiksperceel) bekeken wordt, geeft dit een completer beeld van de soortensamenstelling (wat positief is voor de bruikbaarheid van de gegevens op perceelsniveau), maar de inschattingen van de bedekking worden moeilijker waardoor de reproduceerbaarheid lager is.
-Enkele voorbeelden van projecten waar deze methode (of een afgeleide vorm ervan) gebruikt is zijn de graslandverificatie in kader van het mestactieplan en de inventarisatie van het historisch permanent grasland in de polders (**De Saeger et al, 2014; Vriens et al, 2010**).
+Enkele voorbeelden van projecten waar deze methode (of een afgeleide vorm ervan) gebruikt is zijn de graslandverificatie in kader van het mestactieplan en de inventarisatie van het historisch permanent grasland in de polders (@De Saeger2014; @Vriens2010).
