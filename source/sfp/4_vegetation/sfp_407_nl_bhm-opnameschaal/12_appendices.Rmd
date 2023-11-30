@@ -1,17 +1,28 @@
 # (APPENDIX) Bijlagen {.unnumbered}
 
-#Bijlage Visuele ondersteuning beheermonitoringschaal
-
-ref:visueleondersteuning Visuele ondersteuning van de codes van de beheermonitoringschaal.
+##Bijlage Visuele ondersteuning beheermonitoringschaal
 
 De figuren geven een indruk van de waargenomen aantallen, telkens een minimum en een maximum, bij het doorkruisen van een inventarisatie-eenheid.
-ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant
+ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D =
+
+(ref:visueleondersteuning) Visuele ondersteuning van de codes van de beheermonitoringschaal.
 
 ```{r visueleondersteuning, fig.cap="(ref:visueleondersteuning)"}
 include_graphics(
   path = file.path(path_to_protocol,
                    "media",
-                   c("zeerschaars-1.png", "schaars-1.png", "weinigtalrijk-1.png"))
+                   c("zeerschaars-1.png", 
+                   "schaars-1.png", 
+                   "weinigtalrijk-1.png",
+                   "talrijk-1.png",
+                   "bedekkend-1.png",
+                   "kwartbedekkend-1.png",
+                   "halfbedekkend-1.png",
+                   "dominant.png"))
 ```
 
-#Bijlage Voorbeeld van een herhaalbare gestructureerde wandeling doorheen een perceel #Bijlage Indicatieve omzetting naar een bedekkingspercentage #Bijlage Veldformulier #Bijlage Projectfiche
+## Bijlage Indicatieve omzetting naar een bedekkingspercentage
+
+## Bijlage Veldformulier
+
+## Bijlage Projectfiche
