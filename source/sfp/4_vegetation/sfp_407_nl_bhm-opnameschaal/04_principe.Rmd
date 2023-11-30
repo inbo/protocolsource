@@ -25,19 +25,15 @@ include_graphics(
 
 Indien een soort minstens 5% bedekt, worden enkel de codes vanaf B gebruikt (ook al gaat het maar om 1 of enkele individuen).
 De densiteiten zijn geformuleerd voor oppervlaktes van om en bij 1 ha.
-Indien het bestudeerde perceel duidelijk afwijkt van 1 ha, dienen de indicatieve klassegrenzen vermenigvuldigd te worden met een factor evenredig aan de oppervlaktetoename (bv. voor een grasland van 2 ha wordt de ondergrens van talrijk \>100 individuen, berekend uit tweemaal \>50 individuen).
+Indien het bestudeerde perceel duidelijk afwijkt van 1 ha, dienen de indicatieve klassegrenzen vermenigvuldigd te worden met een factor evenredig aan de oppervlaktetoename (of afname) (bv. voor een grasland van 2 ha wordt de ondergrens van talrijk \>100 individuen, berekend uit tweemaal \>50 individuen).
 Eén pol van een polvormende soort wordt als 1 teleenheid/individu gerekend.
 Polvormende soorten zijn bv.
-pijpenstrootje, pitrus, zompzegge, elzenzegge, pluimzegge, buntgras, veelbloemige veldbies, bochtige smele, ... Voor mattenvormende soorten wordt 1 m² als 1 teleenheid gebruikt.
-Mattenvormende soorten zijn soorten met uitlopers zoals gewoon struisgras, gewone veldbies, riet, veldrus, zandzegge, heen, e.a.
-of wortelstokken (rhizomen) zoals bosanemoon, adelaarsvaren, beenbreek, lelietje-van-dalen, dalkruid, eenbes, ... Bij het geclusterd voorkomen van soorten die geen pollen- of matten vormen worden echter de individuele bovengrondse delen geteld voor het benaderen van de densiteit (bv. boshyacint).
+pijpenstrootje, pitrus, zompzegge, elzenzegge, pluimzegge, buntgras, veelbloemige veldbies, bochtige smele, ... Bij het geclusterd voorkomen van soorten die geen pollen vormen, maar mogelijks wel via rhizomen of ondergrondse worteluitlopers verbonden zijn, worden steeds de individuele bovengrondse delen geteld voor het benaderen van de densiteit (bv. adelaarsvaren, gewoon struisgras, salomonszegel, ...).
 Net zoals bij de meeste visuele bedekkingsschalen is de beheermonitoringsschaal opgebouwd volgens een geometrische reeks (afstand tussen opeenvolgende klassen is klein bij lage abundantie en wordt groter bij hogere abundantie).
 Het menselijk oog kan immers gemakkelijker verschillen in de lagere densiteiten onderscheiden.
 Een verschil tussen 2 en 8 individuen blijft gemakkelijk waarneembaar, terwijl een verschil tussen 90 en 110 planten visueel amper in te schatten is.
 
-In bijlage 1 staan figuren ter visuele ondersteuning van de codes van de beheermonitoringschaal.
-Deze geven een impressie van de ondergrens van het aantal plantenindividuen per eenheid die je waarneemt tijdens een inventarisatie.
-Ze zijn niet te interpreteren als de (veronderstelde) effectieve aantallen (die quasi altijd hoger zijn).
+In /@ref(bijlage_inschatten_bedekkingen staan figuren ter visuele ondersteuning van de codes van de beheermonitoringschaal. Deze geven een impressie van de ondergrens van het aantal plantenindividuen per eenheid die je waarneemt tijdens een inventarisatie. Ze zijn niet te interpreteren als de (veronderstelde) effectieve aantallen (die quasi altijd hoger zijn).
 Door middel van een suffix aan een code toe te voegen, kan het lokaal voorkomen van soorten in afwijkende vegetatiedelen binnen dezelfde inventarisatie-eenheid specifiek geduid worden (bv. de toegangszone van een grasland met tredsoorten, poel, open plek in bossen, ...).
 Suffix /2 heeft betrekking op een afwijkende vegetatiesamenstelling in 1/4de tot 1/2de van de inventarisatie-eenheid, suffix /4 betreft 1/8ste tot 1/4de en suffix /8 1/8ste of minder van de oppervlakte.
 In bijlage 1 worden enkele figuren ter illustratie van dit principe getoond.
