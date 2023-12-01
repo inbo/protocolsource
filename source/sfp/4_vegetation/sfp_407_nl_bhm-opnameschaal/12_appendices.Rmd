@@ -1,28 +1,47 @@
 # (APPENDIX) Bijlagen {.unnumbered}
 
-##Bijlage Visuele ondersteuning beheermonitoringschaal
+# Bijlage Visuele ondersteuning beheermonitoringschaal {#bijlage-visueel}
 
-De figuren geven een indruk van de waargenomen aantallen, telkens een minimum en een maximum, bij het doorkruisen van een inventarisatie-eenheid.
-ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D =
+De figuren geven een indruk van de waargenomen aantallen, telkens een minimum en een maximum, bij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning)).
 
-(ref:visueleondersteuning) Visuele ondersteuning van de codes van de beheermonitoringschaal.
+(ref:visueleondersteuning) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
-```{r visueleondersteuning, fig.cap="(ref:visueleondersteuning)"}
+```{r visueleondersteuning, fig.cap="(ref:visueleondersteuning)", fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
 include_graphics(
-  path = file.path(path_to_protocol,
-                   "media",
-                   c("zeerschaars-1.png", 
-                   "schaars-1.png", 
-                   "weinigtalrijk-1.png",
-                   "talrijk-1.png",
-                   "bedekkend-1.png",
-                   "kwartbedekkend-1.png",
-                   "halfbedekkend-1.png",
-                   "dominant.png"))
+  path = file.path(
+    path_to_protocol,
+    "media",
+    c("zeerschaars-1.png", 
+      "schaars-1.png", 
+      "weinigtalrijk-1.png",
+      "talrijk-1.png",
+      "bedekkend-1.png",
+      "kwartbedekkend-1.png",
+      "halfbedekkend-1.png",
+      "dominant-1.png"
+    )
+  )
+)
 ```
 
-## Bijlage Indicatieve omzetting naar een bedekkingspercentage
+Figuur \@ref(fig:rand-afwijkend) toont enkele voorbeelden hoe de beheermonitoringschaal omgaat met situaties waarbij een soort (grotendeels = meer dan twee klassen verschil in bedekkingschaal tussen de afwijkende vegetatievlek of de randzone en de rest van het perceel of habitatvlek) alleen voorkomt in lokaal afwijkende vegetatie of randsituaties.
 
-## Bijlage Veldformulier
+(ref:rand-afwijkend) Visualisatie van bedekking van een soort die enkel voorkomt in een zone met lokaal afwijkende vegetatie of in een randzone.
 
-## Bijlage Projectfiche
+```{r rand-afwijkend, fig.cap="(ref:rand-afwijkend)", fig.align="center"}
+include_graphics(
+  file.path(
+    path_to_protocol,
+    "media",
+    c(
+      "lokaalrand-1.png"
+    )
+  )
+)
+```
+
+# Bijlage Indicatieve omzetting naar een bedekkingspercentage {#bijlage-omzetting}
+
+# Bijlage Veldformulier {#bijlage-veldformulier}
+
+# Bijlage Projectfiche {#bijlage-projectfiche}
