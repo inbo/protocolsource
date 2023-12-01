@@ -98,8 +98,7 @@ Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar dez
 Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
 ```
-De resultaten van de vegetatieopnames worden genoteerd op de desbetreffende invulformulieren (**zie voorbeeld in bijlage 2**) of opgeslagen via digitale veldapparatuur.
+De resultaten van de vegetatieopnames worden genoteerd op de desbetreffende invulformulieren (**zie voorbeeld in bijlage** \@ref(bijlage-veldformulier)) of opgeslagen via digitale veldapparatuur.
 Alle opnames worden later ingegeven in INBOVEG in een daartoe specifiek ontworpen 'survey'.
 De foto's worden eventueel gearchiveerd in een databank, waarin een link mogelijk is naar een unieke identificatiecode voor de locatie of de bijhorende vegetatieopname.
 De naam van de foto wordt "Identificatiecode_Nr_Datum".
-

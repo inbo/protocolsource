@@ -1,3 +1,7 @@
+---
+bibliography: referenties.yaml
+---
+
 # Principe
 
 ```{=html}
@@ -6,9 +10,9 @@ Korte omschrijving van de principes waarop het protocol gebaseerd is.
 Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
 -->
 ```
-Naar @Sutherland2006, @DeCock2008 en @Demeulenaere2002
+Naar @sutherland2006, @DeCock2008 en @demeulenaere2002.
 
-De beheermonitoringsschaal zoals in dit protocol beschreven is een herwerking van de methode die voorgesteld is in @Demeulenaere2002.
+De beheermonitoringsschaal zoals in dit protocol beschreven is een herwerking van de methode die voorgesteld is in @demeulenaere2002.
 Naast het herbenoemen van een aantal taalkundig verwarrende categorienamen, zijn er ook naar indicatieve bedekking en abundanties lichte aanpassingen gebeurd.
 De beheermonitoringschaal is in essentie een vorm van de Londo of Braun-Blanquet schaal (zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)) over een grotere oppervlakte.
 We bevelen opnames van dit type aan voor inventarisaties van gebruikspercelen in de range van 0.1 ha tot 5 ha.
@@ -33,7 +37,9 @@ Net zoals bij de meeste visuele bedekkingsschalen is de beheermonitoringsschaal 
 Het menselijk oog kan immers gemakkelijker verschillen in de lagere densiteiten onderscheiden.
 Een verschil tussen 2 en 8 individuen blijft gemakkelijk waarneembaar, terwijl een verschil tussen 90 en 110 planten visueel amper in te schatten is.
 
-In /@ref(bijlage_inschatten_bedekkingen staan figuren ter visuele ondersteuning van de codes van de beheermonitoringschaal. Deze geven een impressie van de ondergrens van het aantal plantenindividuen per eenheid die je waarneemt tijdens een inventarisatie. Ze zijn niet te interpreteren als de (veronderstelde) effectieve aantallen (die quasi altijd hoger zijn).
+In Bijlage \@ref(bijlage-visueel) staan figuren ter visuele ondersteuning van de codes van de beheermonitoringschaal.
+Deze geven een impressie van de ondergrens van het aantal plantenindividuen per eenheid die je waarneemt tijdens een inventarisatie.
+Ze zijn niet te interpreteren als de (veronderstelde) effectieve aantallen (die quasi altijd hoger zijn).
 Door middel van een suffix aan een code toe te voegen, kan het lokaal voorkomen van soorten in afwijkende vegetatiedelen binnen dezelfde inventarisatie-eenheid specifiek geduid worden (bv. de toegangszone van een grasland met tredsoorten, poel, open plek in bossen, ...).
 Suffix /2 heeft betrekking op een afwijkende vegetatiesamenstelling in 1/4de tot 1/2de van de inventarisatie-eenheid, suffix /4 betreft 1/8ste tot 1/4de en suffix /8 1/8ste of minder van de oppervlakte.
 In bijlage 1 worden enkele figuren ter illustratie van dit principe getoond.
@@ -55,3 +61,4 @@ Maar twee exemplaren zijn uitgegroeid tot een struiklaag en krijgen in deze laag
 Een ander voorbeeld: in een bos met een tapijt bosanemoon onder een scherm van zomereik coderen we beide soorten met de code D dominant.
 Er zijn geen beperking met betrekking to het voorkomen van combinaties van codes, behalve indien mathematisch onmogelijk binnen éénzelfde vegetatielaag (bv. 3 maal de code halfbedekkend in de kruidlaag kan niet).
 Dode exemplaren van planten (bv. éénjarigen) worden als aanwezig genoteerd tenzij het bomen en struiken betreft.
+
