@@ -7,7 +7,6 @@ author:
   orcid: 0000-0001-8595-8426
 date: '2023-11-28'
 reviewers:
-- Hans Van Calster
 - Toon Westra
 - Steven De Saeger
 file_manager: Patrik Oosterlynck
