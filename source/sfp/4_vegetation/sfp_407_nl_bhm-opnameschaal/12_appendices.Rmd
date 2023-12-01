@@ -2,7 +2,8 @@
 
 # Bijlage Visuele ondersteuning beheermonitoringschaal {#bijlage-visueel}
 
-De figuren geven een indruk van de waargenomen aantallen, telkens een minimum en een maximum, bij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning)).
+De figuren geven voor elke code uit de beheermonitoringschaal een minimale en maximale visuele indruk van de waargenomen aantallen die men waarneemtbij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning)).
+ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
 (ref:visueleondersteuning) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
@@ -24,7 +25,7 @@ include_graphics(
 )
 ```
 
-Figuur \@ref(fig:rand-afwijkend) toont enkele voorbeelden hoe de beheermonitoringschaal omgaat met situaties waarbij een soort (grotendeels = meer dan twee klassen verschil in bedekkingschaal tussen de afwijkende vegetatievlek of de randzone en de rest van het perceel of habitatvlek) alleen voorkomt in lokaal afwijkende vegetatie of randsituaties.
+Figuur \@ref(fig:rand-afwijkend) toont enkele voorbeelden hoe de beheermonitoringschaal omgaat met situaties waarbij een soort alleen voorkomt in lokaal afwijkende vegetatie of randsituaties (meer dan twee klassen verschil in bedekkingschaal tussen de afwijkende vegetatievlek of de randzone en de rest van het perceel of habitatvlek).
 
 (ref:rand-afwijkend) Visualisatie van bedekking van een soort die enkel voorkomt in een zone met lokaal afwijkende vegetatie of in een randzone.
 
@@ -42,6 +43,29 @@ include_graphics(
 
 # Bijlage Indicatieve omzetting naar een bedekkingspercentage {#bijlage-omzetting}
 
+(ref:indcover) Indicatieve omzetting van bedekkingspercentages naar absolute bedekkingen
+
+```{r indcover, fig.cap="(ref:indcover)", fig.align="center"}
+include_graphics(file.path(
+  path_to_protocol, 
+  "media",
+  c("indcover.png")))
+```
+
+Voor de lokale varianten van een categorie (X/2, X/4, X/8 en XR) wordt de standaard procentuele bedekking van de categorie vermenigvuldigd met een respectievelijke factor 3/8, 3/16, 1/16 en 1/16.
+Bv.
+WT=0.030%, WT2=0.01125%, WT4=0.005625%, WT8=0.001875% en WTR=0.001875%.
+
 # Bijlage Veldformulier {#bijlage-veldformulier}
+
+(ref:veldform) Voorbeeld van een veldformulier waarbij de beheermonitoringschaal is gebruikt
+
+```{r veldform, fig.cap="(ref:veldform)", fig.align="center"}
+include_graphics(file.path(
+  path_to_protocol, 
+  "media",
+  c("veldform.png")))
+
+```
 
 # Bijlage Projectfiche {#bijlage-projectfiche}
