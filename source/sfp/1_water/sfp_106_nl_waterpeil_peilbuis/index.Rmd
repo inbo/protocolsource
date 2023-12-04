@@ -21,6 +21,13 @@ bibliography:
 - referenties.yaml
 - referenties.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+params:
+  dependencies:
+    value:
+    - protocol_code: sfp-104-nl
+      version_number: '2023.03'
+      params: .na
+      appendix: false
 ---
 
 ```{=html}
