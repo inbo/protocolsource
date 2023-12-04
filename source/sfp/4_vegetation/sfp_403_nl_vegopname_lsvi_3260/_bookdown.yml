@@ -1,6 +1,5 @@
 book_filename: sfp_403_nl_vegopname_lsvi_3260.Rmd
 delete_merged_file: true
-edit: https://github.com/inbo/protocolsource/edit/main/source/sfp/4_vegetation/sfp_403_nl_vegopname_lsvi_3260/%s
 rmd_files:
 - index.Rmd
 - NEWS.md

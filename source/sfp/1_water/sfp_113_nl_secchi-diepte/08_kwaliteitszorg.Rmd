@@ -1,0 +1,20 @@
+# Kwaliteitszorg
+
+```{=html}
+<!--
+Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen.
+Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld, ...).
+Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen.
+In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
+-->
+```
+De secchi-schijf dient steeds zuiver te zijn; de witte en zwarte vlakken mogen geen noemenswaardige verkleuring vertonen en duidelijk begrensd zijn.
+Het koord aan de secchi-schijf wordt bij voorkeur op een spoel gedraaid om knikken en/of knopen te vermijden.
+Indien dieptemarkeringen op het koord staan aangeduid moeten deze correct zijn en duidelijk af te lezen.
+Het koord van de secchi-schijf dient rek- en krimpresistent te zijn.
+
+De omgevingsfactoren die de secchi-diepte mogelijk beïnvloeden (zie [Beperkingen van het protocol]) worden op het staalnameformulier in het opmerkingenveld ingevuld.
+De opmerkingen worden in een databank bewaard.
+
+Vertroebeling van het water dient tot een minimum beperkt te worden door voorzichtig te waden en eventueel te wachten tot alles terug bezonken is.
+Indien andere werkzaamheden (bijv. vegetatie-onderzoek) het water kunnen vertroebelen, dient de secchi-diepte eerst te worden gemeten.

@@ -1,0 +1,87 @@
+---
+title: Veldprotocol Kwaliteitsmeetnet Natura 2000 habitats partim heidehabitats
+subtitle: psammofiele heide (2310), buntgrasvegetaties (2330_bu), droge heide (4030),
+  natte heide (4010)
+author:
+- name: Oosterlynck, Patrik
+  orcid: 0000-0002-5712-0770
+date: '`r Sys.Date()`'
+reviewers:
+- Hans Van Calster
+- Toon Westra
+- Leen Govaere
+file_manager: Patrik Oosterlynck
+protocol_code: spp-001-nl
+version_number: '2023.08'
+language: nl
+lang: nl
+template_name: spp
+project_name: mhq
+site: bookdown::bookdown_site
+bibliography: referenties.yaml
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+params:
+  dependencies:
+    value:
+    - protocol_code: sfp-401-nl
+      version_number: '2023.03'
+      params: .na
+      appendix: false
+    - protocol_code: sfp-001-nl
+      version_number: '2023.01'
+      params: .na
+      appendix: false
+---
+
+```{=html}
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse `Rmd` bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titel hoofdingen staan en vermeld expliciet "niet van toepassing".
+-->
+```
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = "100%",
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(dplyr)
+library(purrr)
+library(protocolhelper)
+library(pander)
+panderOptions("table.alignment.default", "left")
+metadata <- rmarkdown::metadata
+path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
+type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
+library(readxl)
+```
+
+# Metadata {.unnumbered}
+
+```{r metadata-table}
+tibble(
+  reviewers = metadata[["reviewers"]] |> paste(collapse = ", "),
+  documentbeheerder = metadata[["file_manager"]],
+  protocolcode = metadata[["protocol_code"]],
+  versienummer = metadata[["version_number"]],
+  taal = metadata[["language"]],
+  projectnaam = metadata[["project_name"]]
+) %>%
+  kable()
+```
+
+```{r results="asis"}
+sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
+```

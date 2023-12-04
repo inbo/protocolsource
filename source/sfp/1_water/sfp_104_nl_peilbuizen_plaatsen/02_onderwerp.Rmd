@@ -1,0 +1,49 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+-   **Peilbuis**: een peilbuis met in het ondergrondse deel een filterelement over de hele lengte voor het meten van de grondwaterstand nabij het maaiveld (Figuur \@ref(fig:Figuur1) rechts).
+    Grondwater kan over de volledige ondergrondse lengte van het instrument door perforaties naar binnen en naar buiten stromen.
+    De filter snijdt steeds met de grondwaterstand, behalve als het grondwaterpeil boven het maaiveld uitstijgt.
+    Het waterpeil in de buis wijkt weinig of niet af van de grondwaterstand.
+    Strikt gezien moet dit een grondwaterstandsbuis noemen, maar de term peilbuis is zodanig algemeen in gebruik dat het gebruiken van een nieuwe term tot nog veel meer verwarring zou leiden.
+
+-   **Piëzometer:** een buis met een filterelement van enkele tientallen centimeter (de INBO afspraak is 50 cm) voor het meten van de stijghoogte (of ook drukhoogte) op een bepaalde diepte (Figuur \@ref(fig:Figuur1) links).
+    Het peil in de buis komt overeen met de druk ter hoogte van de filter en die kan verschillen van het grondwaterpeil.
+    De stijghoogte is de resultante van de hydraulische druk die ter hoogte van de filter in de ondergrond heerst.
+    De stijghoogte kan hoger, gelijk of lager zijn dan de grondwaterstand.
+    Op het INBO worden vrijwel uitsluitend piëzometers geplaatst.
+    Bij de analyse van de chemische samenstelling heeft een piëzometer minder risico op invloed van insijpelend regenwater.
+    Bovendien wijkt de hydrostatische druk in de meeste gevallen niet of nauwelijks af van het grondwaterpeil als de piëzometer "kort" is (doorgaans \< 2-3 meter)
+
+-   **Freatisch grondwater:** grondwater dat onderhevig is aan atmosferische druk, wat in onze contreien ook ondiep grondwater genoemd wordt.
+    Het oppervlak van dat freatisch grondwater wordt ook het freatisch oppervlak genoemd.
+
+![(#fig:Figuur1) Schematische voorstelling van een piëzometer (links) en een peilbuis (rechts).](./media/image2.png){width="4.515625546806649in" height="3.113963254593176in"}
+
+## Doelstelling en toepassingsgebied
+
+Dit protocol beschrijft het manueel plaatsen van relatief ondiepe piëzometers.
+Ze zijn doorgaans niet meer dan 5 meter diep en hebben een beperkte diameter (de INBO afspraak is 5 cm).
+Dit type peilbuizen wordt in natuurgebieden vaak geplaatst om de ondiepe grondwaterstand op te volgen die direct van belang is voor de vegetatie.
+Het plaatsen van diepere (\> 5 m diepte) en/of machinaal geplaatste piëzometers komt in deze richtlijn niet aan bod.
+Gedetailleerde informatie over o.a.
+diepere meetpunten is o.a.
+terug te vinden in het Handboek meten van grondwaterstanden in peilbuizen [@Bouma_2012].
+
+Dit protocol beschrijft uitsluitend de plaatsing van het meetpunt.
+Het vereiste aantal meetpunten in een gebied en de keuze van de geschikte meetlocaties maken deel uit van het onderzoeksopzet en de meetdoelstelling.
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```

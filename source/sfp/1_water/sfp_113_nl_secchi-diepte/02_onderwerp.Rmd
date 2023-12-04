@@ -1,0 +1,46 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+**Oppervlaktewater:** al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003).
+
+**Sapropelium:** rottingsslib; afzetting van organisch sediment in anaerobe omstandigheden. 
+
+**Secchi-diepte:** diepte tot waarop de secchi-schijf visueel waarneembaar is in de waterkolom.
+
+**Secchi-schijf:** gestandaardiseerde zwart-witte schijf, bevestigd aan een koord of staaf, waarmee de secchi-diepte bepaald wordt (zie [Materiaal]).
+
+**Waterbodem:** bodemsubstraat dat zich onder de waterkolom bevindt, inclusief slib en sapropelium.
+
+**Waterdiepte:** verticale afstand tussen het wateroppervlak en de waterbodem.
+Hierbij wordt de dikte van de sedimentlaag zoals slib niet meegerekend.
+
+**Waterkolom:** de diepte van het water van de waterspiegel (het wateroppervlak) tot de onderwaterbodem.
+
+**Zichtdiepte:** maat voor de diepte tot waarop licht in de waterkolom doordringt.
+Dit is de diepte waarop ongeveer nog 5% van het zonlicht doordringt in het water.
+Berekend als tweemaal de secchi-diepte.
+
+## Doelstelling en toepassingsgebied
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+De mate waarin zonlicht in de waterkolom doordringt is een belangrijk ecologisch gegeven.
+Ze wordt onder meer bepaald door de aard en concentratie van zwevende deeltjes, waaronder fytoplankton, colloïden en opgeloste stoffen.
+Het verloop in de tijd kan zodoende een aanwijzing zijn voor de mate van eutrofiëring, verzuring, verontreiniging, gewijzigde sedimenstabiliteit, etc.
+De diepte waarop straling doordringt is van rechtstreeks belang voor de mogelijke ontwikkeling van wortelende submerse vegetatie en bepalend voor zowel de diepte tot waarop vegetatieontwikkeling mogelijk is (fotosynthese), als de samenstelling.
+De helderheid van de waterkolom is afhankelijk van verschillende in de tijd variërende factoren, zoals weersomstandigheden en de fenologie van organismen en is dynamisch in de tijd.
+Ook kan de helderheid van de waterkolom door lokale omstandigheden in eenzelfde waterlichaam ruimtelijk variëren.
+De bepaling van de secchi-diepte, genoemd naar Angelo Secchi (1818-1878), is een beproefde, eenvoudige methode om het doorzicht van de waterkolom in het veld te bepalen (Preisendorfer, 1986).
+De procedure kan worden toegepast in stilstaand en (zwak) stromend water.

@@ -1,0 +1,87 @@
+# Referenties {.unnumbered}
+
+::: {#refs}
+:::
+
+```{=html}
+<!--
+Eventueel opsplitsen in sleutelreferentie en overige referenties.
+-->
+```
+Bijkerk R.
+(red) (2014) Handboek Hydrobiologie.
+Biologisch onderzoek voor de ecologische beoordeling van Nederlandse zoete en brakke oppervlaktewateren.
+Deels aangepaste versie (Rapport 2014 - 02).
+Stichting Toegepast Onderzoek Waterbeheer, Amersfoort.
+
+Canfield D.E., Shireman J.V., Colle D.E., Haller W.T., Watkins C.E., & Maceina M. J., 1984.
+Prediction of chlorophyll *a* concentrations in Florida lakes: Importance of aquatic macrophytes.
+Canadian Journal of Fisheries and Aquatic Sciences,41(3), 497--501.
+<https://doi.org/10.1139/f84-059>
+
+Denys L., Packet J., Leyssen A., Adriaens D.
+(2008).
+Drijvende waterweegbree (Luronium natans).
+In: Adriaens D., Adriaens T., Ameeuw G.
+(editors).
+Ontwikkeling van criteria voor de beoordeling van de lokale staat van instandhouding van de habitatrichtlijnsoorten.
+Instituut voor Natuur- en Bosonderzoek, Brussel.
+p 32-36.
+
+European Commission.
+(1992).
+Council Directive 92/43/EEC of 21 May 1992 on the conservation of natural habitats and of wild fauna and flora.
+Official Journal of the European Communities L206: 7-50.
+
+KRW (2000).
+Richtlijn 2000/60/EG van het Europees parlement en de raad van 23 oktober 2000 tot vaststelling van een kader voor communautaire maatregelen betreffende het waterbeleid.
+Publicatieblad van de Europese Gemeenschappen.
+
+Lansdown R.V., Wade P.M.
+(2003).
+Ecology of the Floating Water-plantain.
+English Nature, Peterborough.
+
+Leyssen A., Scheers K., Smeekens V., Wils C., Packet J., De Knijf G., Denys L.
+(2020).
+Watervlakken versie 1.1: polygonenkaart van stilstaand water in Vlaanderen.
+Uitgave 2020.
+Instituut voor Natuur- en Bosonderzoek, Brussel.
+Rapporten van het Instituut voor Natuur- en Bosonderzoek 2020 (40).
+
+Lommaert L., Adriaens D., Pollet M.
+(2020).
+Criteria voor de beoordeling van de lokale staat van instandhouding van de Habitatrichtlijnsoorten in Vlaanderen.
+Versie 2.0.
+Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+Lucassen E.C.H.E.T., van den Munckhof P.J.J., Brouwer E., Roelofs J.G.M. (2007).
+Een soortbeschermingsplan voor de Drijvende waterweegbree (*Luronium natans*) in Noord-Brabant.
+Provincie Noord-Brabant.
+
+Mergeay & Vanden Broeck (2020) Algemene genetische criteria voor de instandhouding van populaties.
+In: Lommaert L., Adriaens D., Pollet M.
+(2020).
+Criteria voor de beoordeling van de lokale staat van instandhouding van de Habitatrichtlijnsoorten in Vlaanderen.
+Versie 2.0.
+Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+Oosterlynck P., De Saeger S., Leyssen A., Provoost S., Thomaes A., Vandevoorde B., Wouters J., Paelinckx D.
+(2020).
+Criteria voor de beoordeling van de lokale staat van instandhouding van de Natura2000 habitattypen in Vlaanderen.
+Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+Van Landuyt W.
+(2014).
+Blauwdruk vaatplanten, mossen en lichenen.
+In: De Knijf G., Westra T., Onkelinx T., Quataert P., Pollet M.
+(editors).
+Monitoring Natura 2000-soorten en overige soorten prioritair voor het Vlaams beleid Blauwdrukken soortenmonitoring in Vlaanderen.
+Instituut voor Natuur- en Bosonderzoek Brussel.
+p 102-113.
+
+Westra T., Oosterlynck P., Van Calster H., Paelinckx D., Denys L., Leyssen A., Packet J., Onkelinx T., Louette G., Waterinckx M., Quataert P. (2014).
+Monitoring Natura 2000 - habitats.
+Meetnet habitatkwaliteit.
+Instituut voor Natuur- en Bosonderzoek, Brussel.
+Rapporten van het Instituut voor Natuur- en Bosonderzoek 2014 (1414229).
