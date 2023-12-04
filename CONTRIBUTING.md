@@ -46,9 +46,11 @@ Note also that any dependency packages needed by the packages listed in the [DES
 
 Apart from the above R packages, you will also need a working installation of TinyTeX, which is an external open-source software package that is needed to render protocols to PDF format (i.e. when you run `protocolhelper::render_protocol()` see [Workflow](#workflow)).
 
-To install this, we recommend to follow the [installation instructions](https://github.com/inbo/INBOmd/#installation) provided by the `INBOmd` R package.
-Please make sure to install this from an R session that runs outside of the RStudio `protocolsource.Rproj`.
-So, close the RStudio project and any other R sessions and start the most recent version of R that is installed on your system and copy-paste the installation instructions in the R console.
+To install this:
+
+-   close the RStudio project and any other R sessions and start the most recent version of R that is installed on your system
+
+-   follow the [installation instructions](https://github.com/inbo/INBOmd/#installation) provided by the `INBOmd` R package and copy-paste the installation instructions in the R console.
 
 ## `(R)markdown` syntax and learning `Rmarkdown`
 
@@ -145,7 +147,7 @@ Tips & Tricks:
 
 ## <a name="branching"></a>Branching model
 
-![](src/management/protocols-gitflow-model.png)
+![](source/management/protocols-gitflow-model.png)
 
 We use a simple branching model.
 The main branch is protected and can only receive commits from reviewed pull requests.
@@ -219,9 +221,9 @@ This website will host all approved and published versions of all protocols.
 
 7.  When you think your protocol is ready to be reviewed, visit [github protocolsource](https://github.com/inbo/protocolsource) and start a Pull Request (PR)
 
-    ![](src/management/pr-on-github-1.png)
+    ![](source/management/pr-on-github-1.png)
 
-    ![](src/management/pr-on-github-2.png)
+    ![](source/management/pr-on-github-2.png)
 
    1. Wait for the continuous integration checks to finish and see if the checks succeeded.
    These checks will run `protocolhelper::check_frontmatter()` and `protocolhelper::check_structure()`, and update the version number if needed.
@@ -237,14 +239,14 @@ This website will host all approved and published versions of all protocols.
     At least one repo admin and one other subject-matter specialist must review the protocol.
     The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
 
-    ![](src/management/pr-on-github-4.png)
+    ![](source/management/pr-on-github-4.png)
 
 10.  Reviewers can follow [these guidelines](REVIEWING.md)
 
 11. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push).
     If the review requires substantial changes, it is wise to temporarilly mark the PR as draft
 
-    ![](src/management/pr-on-github-3.png)
+    ![](source/management/pr-on-github-3.png)
 
     When you have dealt with the reviewer comments, go to your draft pull request and press 'ready for review'
 
@@ -276,13 +278,16 @@ This will allow you to check the resulting output locally.
 
 ### From an existing docx protocol
 
+Even if you are converting an older published protocol, we recommend leaving the date field to it's default value (current date) and instead mention in the `NEWS.md` file that this is a conversion from protocol so-and-so published first on date such-and-such.
+
+
 ```r
 library(protocolhelper)
 create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
            short_title = "vegopname terrest",
            authors = "De Bie, Els",
            orcids = "0000-0000-1234-5678",
-           date = "2016-07-19", 
+           date = "`r Sys.Date()`", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
            file_manager = "Hans Van Calster", 
            theme = "vegetation",
@@ -295,6 +300,8 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
 ```
 
 ### From a new template
+
+For a field protocol (sfp) (you need to specify a theme):
 
 ```r
 library(protocolhelper)
@@ -313,7 +320,7 @@ create_sfp(title = "titel van het protocol",
            render = FALSE)
 ```
 
-Alternatively, for a project-specific protocol:
+Alternatively, for a project-specific protocol (you need to specify a project_name):
 
 ```r
 library(protocolhelper)
@@ -328,6 +335,25 @@ create_spp(title = "Bodemstalen nemen",
            language = "nl",
            render = FALSE)
 ```
+
+Or for a standard operating procedure (similarly for sip or sap; no need to specify theme or project_name):
+
+```r
+library(protocolhelper)
+create_sop(title = "titel van het protocol",
+           subtitle = "optionele subtitel", 
+           short_title = "korte titel",
+           authors = c("Achternaam1, Voornaam1", "Achternaam2, voornaam2"),
+           orcids = c("0000-0000-1234-5678", "0000-0000-1234-8765"),
+           date = "`r Sys.Date()`", 
+           reviewers = "Voornaam Naam, ...", 
+           file_manager = "Voornaam Naam", 
+           language = "nl",
+           from_docx = NULL,
+           protocol_number = NULL, 
+           render = FALSE)
+```
+
 
 ## <a name="parameterized"></a>What to do in case of parameterized protocols?
 

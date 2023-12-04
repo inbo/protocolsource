@@ -14,11 +14,9 @@ In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, 
 -   Het veldformulier wordt volledig ingevuld.
     Net na de inventarisatie wordt gecontroleerd of alle velden van het veldformulier werden ingevuld.
 
--   Specimens die op het terrein niet op naam kunnen worden gebracht, worden meegenomen naar het labo ter identificatie; bij twijfel wordt dit specimen voorgelegd aan derden ter controle.
+-   In het digitaal Google-veldformulier en INBOVEG zijn een aantal automatische controles ingebouwd of verplicht in te vullen velden aangeduid, waardoor de kans op foutief ingevoerde waarden wordt verminderd.
+
+-   Specimen die op het terrein niet op naam kunnen worden gebracht, worden meegenomen naar het labo ter identificatie; bij twijfel wordt dit specimen voorgelegd aan derden ter controle.
 
 -   Voor elke in INBOVEG ingevoerde opname wordt gecontroleerd of het aantal en de bedekking van de ingevoerde soorten overeenkomt met deze van het veldformulier.
-
--   In INBOVEG zijn een aantal automatische controles ingebouwd of verplicht in te vullen velden aangeduid, waardoor de kans op foutief ingevoerde waarden wordt verminderd.
-
--   Nadat alle opnames van een veldseizoen zijn ingevoerd in INBOVEG, wordt via query's of kruistabellen gecontroleerd of alle kenmerken voor alle opnames werden ingevoerd in INBOVEG.
-
+    Nadat alle opnames van een veldseizoen zijn ingevoerd in INBOVEG, wordt via query's of kruistabellen gecontroleerd of alle kenmerken voor alle opnames werden ingevoerd in INBOVEG.

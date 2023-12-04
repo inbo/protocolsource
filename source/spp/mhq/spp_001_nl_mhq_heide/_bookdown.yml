@@ -1,0 +1,28 @@
+book_filename: spp_001_nl_mhq_heide.Rmd
+output_dir: ../../../../../protocoldocs/docs/spp/mhq/spp_001_nl_mhq_heide
+rmd_files:
+- index.Rmd
+- NEWS.md
+- 01_afhankelijkheden.Rmd
+- 02_onderwerp.Rmd
+- 03_benodigdheden.Rmd
+- 04_werkwijze.Rmd
+- 05_kwaliteitszorg.Rmd
+- 06_veiligheid.Rmd
+- 07_referenties.Rmd
+- 08_subprotocols.Rmd
+delete_merged_file: true
+language:
+  label:
+    fig: 'Figuur '
+    tab: 'Tabel '
+    eq: 'Vergelijking '
+    thm: 'Theorema '
+    lem: 'Lemma '
+    def: 'Definitie '
+    cor: 'Bijgevolg '
+    prp: 'Propositie '
+    ex: 'Voorbeeld '
+    proof: 'Bewijs. '
+    remark: 'Opmerking. '
+

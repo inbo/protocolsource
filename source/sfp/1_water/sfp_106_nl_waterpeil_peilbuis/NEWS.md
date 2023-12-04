@@ -16,6 +16,6 @@ Gesorteerd van recent naar oud.
 - Eerste versie van het protocol
 -->
 ```
-## [2023.02](../2023.02/index.html)
+## [2023.09](../2023.09/index.html)
 
 -   Dit is de eerste revisie van het document. De tekst is gebaseerd op bestaande documenten in het INBO [@VanDaele_2003], literatuurgegevens en gesteund op de kennis van de terreinmedewerkers van het INBO.
