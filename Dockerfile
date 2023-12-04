@@ -46,6 +46,18 @@ RUN  apt-get update \
   && apt-get install -y --no-install-recommends \
      libv8-dev
 
+## Install tinytex
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+    r-cran-tinytex
+RUN  Rscript -e 'tinytex::install_tinytex(force = TRUE)'
+
+## Install LaTeX packages
+RUN apt-get update \
+  && apt-get install -y  --no-install-recommends \
+    ghostscript \
+  && Rscript -e 'tinytex::tlmgr_install(c("amsmath", "amssymb", "array", "babel-dutch", "babel-english", "babel-french", "beamer", "beamerarticle", "biblatex", "bookmark", "booktabs", "calc", "caption", "csquotes", "dvips", "etoolbox", "fancyvrb", "fontenc", "fontspec", "footnote", "footnotehyper", "geometry", "graphicx", "helvetic", "hyperref", "hyphen-dutch", "hyphen-french", "iftex", "inconsolata", "inputenc", "listings", "lmodern", "longtable", "luatexja-preset", "luatexja-fontspec", "mathspec", "microtype", "multirow", "natbib", "orcidlink", "parskip", "pgfpages", "selnolig", "setspace", "soul", "svg", "tex", "textcomp", "times", "unicode-math", "upquote", "url", "xcolor", "xeCJK", "xurl"))'
+
 WORKDIR /github/workspace
 
 RUN R -e "install.packages('renv', repos = c(CRAN = 'https://cloud.r-project.org'))"

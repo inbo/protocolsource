@@ -1,0 +1,49 @@
+# Werkwijze
+
+## Uitvoering
+
+```{=html}
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het protocol uit te voeren.
+Subtitels gebruiken om elke stap te omschrijven.
+-->
+```
+De secchi-diepte wordt overdag gemeten, bij voorkeur bij windstil, droog weer met hooguit beperkte bewolking.
+Tijdens de bepaling van de secchi-diepte staat de waarnemer met de rug naar de zon, om zo de reflectie van de zon op het wateroppervlak te minimaliseren.
+De secchi-diepte kan, al naargelang de diepte, vanop de oever, een steiger, al wadend of vanuit een boot worden uitgevoerd.
+Indien mogelijk, wordt de secchi-diepte bepaald op het diepste punt van het waterlichaam in een vegetatieloze of vegetatiearme zone.
+Bij bepaling op een andere plaats dient de plaatselijke waterdiepte tevens te worden genoteerd.
+Indien de schijf niet loodrecht naar beneden kan gelaten worden dient de schijf verzwaard te worden.
+Wanneer de secchi-schijf zichtbaar is en op de waterbodem ligt, is er sprake van bodemzicht en is de secchi-diepte hetzelfde als de waterdiepte op het meetpunt.
+
+De meting van de secchi-diepte bestaat uit volgende stappen:
+
+1.  Laat de secchi-schijf langzaam in het water zakken totdat de zwarte en witte vlakken op de bovenzijde van de schijf niet meer van elkaar te onderscheiden zijn.
+    Let er op dat de secchi-schijf perfect loodrecht hangt.
+    Bepaal deze diepte (waarde 1);
+
+2.  Laat de secchi-schijf vervolgens verder zakken en haal hem langzaam terug op totdat de zwarte en witte vlakken op de bovenzijde van de schijf terug te onderscheiden zijn.
+    Bepaal ook deze diepte (waarde 2);
+
+3.  Bereken het gemiddelde van deze twee dieptes (waarde 1 en 2);
+
+4.  Herhaal deze procedure drie maal en bereken het gemiddelde van de drie waarden; dit is de secchi-diepte;
+
+5.  Meet de waterdiepte op de meetlocatie (wateroppervlak tot waterbodem);
+
+6.  Noteer secchi-diepte en waterdiepte op het meetpunt op het staalnameformulier of voer deze digitaal in.
+
+## Registratie en bewaring van resultaten
+
+```{=html}
+<!--
+Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
+Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar `sip` (standaard instrument protocol, `<protocol-code>-YYYY.NN`) indien beschikbaar; indien geen sip beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
+Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden.
+Geef aan of de stalen voorbehandeld moeten worden.
+Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen.
+Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
+-->
+```
+De gemeten waarden en eventuele opmerkingen (factoren die de procedure bemoeilijken, zie [Beperkingen van het protocol]) worden ingevuld op het analoge of digitale staalnameformulier en in een databank bewaard.
+Indien de neergelaten schijf tot op de bodem zichtbaar blijft wordt dit genoteerd als 'bodemzicht'.

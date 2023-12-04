@@ -1,0 +1,107 @@
+---
+references:
+- id: paelinckx2019
+  accessed: "17:08:41"
+  author:
+  - family: Paelinckx
+    given: Desiré
+  - family: Saeger
+    given: Steven De
+  - family: Oosterlynck
+    given: Patrik
+  - family: Borre
+    given: Jeroen Vanden
+  - family: Westra
+    given: Toon
+  - family: Denys
+    given: Luc
+  - family: Leyssen
+    given: An
+  - family: Provoost
+    given: Sam
+  - family: Thomaes
+    given: Arno
+  - family: Vandevoorde
+    given: Bart
+  - family: Spanhove
+    given: Toon
+  DOI: 10.21436/inbor.16122667
+  issued: 2019
+  key: DQY7D6B4
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Instituut
+  source: pureportal.inbo.be
+  title: "Regionale staat van instandhouding voor de habitattypen van de
+    Habitatrichtlijn: Rapportageperiode 2013 - 2018"
+  title-short: Regionale staat van instandhouding voor de habitattypen
+    van de Habitatrichtlijn
+  type: article-journal
+  URL: "https://pureportal.inbo.be/nl/publications/regionale-staat-van-instandhouding-voor-de-habitattypen-van-de-ha"
+- id: decleer2007
+  accessed: "13:03:03"
+  author:
+  - family: Decleer
+    given: Kris
+  ISBN: 978-90-403-0267-1
+  issued: 2007
+  key: 2ZWGJ5EM
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Instituut voor Natuur- en Bosonderzoek
+  source: pureportal.inbo.be
+  title: "Europees beschermde natuur in Vlaanderen en het Belgisch deel
+    van de Noordzee: habitattypen, dier- en plantensoorten"
+  title-short: Europees beschermde natuur in Vlaanderen en het Belgisch
+    deel van de Noordzee
+  type: book
+  URL: "https://pureportal.inbo.be/nl/publications/europees-beschermde-natuur-in-vlaanderen-en-het-belgisch-deel-van"
+- id: desaeger2016
+  author:
+  - family: De Saeger
+    given: S
+  - family: De Blust
+    given: G
+  - family: Oosterlynck
+    given: P
+  - family: Paelinckx
+    given: D
+  issued: 2016
+  key: WJI2UI3W
+  libraryID: 1
+  note: "Publication Title: Rapporten van het Instituut voor Natuur- en
+    Bosonderzoek"
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publication Title: Rapporten
+  publisher: Instituut voor Natuur- en Bosonderzoek
+  publisher-place: Brussel
+  title: "BWK en Habitatkartering, een praktische handleiding. Deel 2:
+    de heidesleutel. Versie1, maart 2016"
+  type: book
+  volume: 11613662
+- id: vandenbussche2002
+  author:
+  - family: Vandenbussche
+    given: Veerle
+  - family: T'Jollyn
+    given: Filiep
+  - family: Zwaenepoel
+    given: A
+  - family: De Blust
+    given: Geert
+  - family: Hoffmann
+    given: Maurice
+  collection-title: Verslag van het Instituut voor Natuurbehoud
+  Issue: 2002.13
+  issued: 2002
+  key: N5G4YKV4
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Instituut voor Natuurbehoud
+  title: "Systematiek van natuurtypen voor de biotopen heide, moeras,
+    duin, slik en schor: deel 2 : heide"
+  type: book
+...
