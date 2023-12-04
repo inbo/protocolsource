@@ -14,7 +14,7 @@ date: '`r Sys.Date()`'
 reviewers: Gerrit Genouw
 file_manager: Mathias Wackenier
 protocol_code: sfp-105-nl
-version_number: '2023.03'
+version_number: '2023.09'
 language: nl
 theme: water
 site: bookdown::bookdown_site
