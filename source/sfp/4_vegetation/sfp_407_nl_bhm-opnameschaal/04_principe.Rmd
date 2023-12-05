@@ -47,7 +47,7 @@ Het duiden van dergelijk lokaal voorkomen wordt niet toegepast in min of meer ho
 Mogelijke voorbeelden waar dit dus niet toegepast wordt zijn bossen op rabatten, buntgrasvegetaties in stuifduin, homogeen zuur bossen waar de typische soorten slechts schaars aanwezig zijn, e.a.
 Deze methode voor lokale vegetatiepatronen wordt ook niet gehanteerd voor vegetatieverschillen die zich enkel voordoen in de randen.
 Daartoe maken we gebruik van het suffix R in combinatie met een schaalcode (bv. BR: Bedekkend in de Rand).
-Zie ook bijlage 1.
+Zie ook Bijlage \@ref(bijlage-visueel).
 Bijgevolg wordt een zeker breedte vanaf de rand (afhankelijk van de breedte van de waargenomen randeffecten) buiten beschouwing gelaten voor de rest van de opname.
 Afhankelijk van de doelstellingen van het project kan er voor gekozen worden om de randen al dan niet altijd afzonderlijk te beschrijven of om dat enkel in bepaalde (ecologische relevante) gevallen te doen.
 Net zoals bij een klassieke opname, kan bij een opname van dit type ook de vegetatiegelaagdheid worden weergegeven.
@@ -61,3 +61,4 @@ Maar twee exemplaren zijn uitgegroeid tot een struiklaag en krijgen in deze laag
 Een ander voorbeeld: in een bos met een tapijt bosanemoon onder een scherm van zomereik coderen we beide soorten met de code D dominant.
 Er zijn geen beperking met betrekking to het voorkomen van combinaties van codes, behalve indien mathematisch onmogelijk binnen éénzelfde vegetatielaag (bv. 3 maal de code halfbedekkend in de kruidlaag kan niet).
 Dode exemplaren van planten (bv. éénjarigen) worden als aanwezig genoteerd tenzij het bomen en struiken betreft.
+

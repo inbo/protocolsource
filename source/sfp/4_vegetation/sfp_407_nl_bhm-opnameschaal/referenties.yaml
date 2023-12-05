@@ -153,4 +153,58 @@ references:
   publisher: John Wiley & Sons
   title: Vegetation Description and Analysis
   type: book
+- id: lambinon1998
+  author:
+  - family: Lambinon
+    given: J.
+  - family: De Langhe
+    given: J.-E.
+  - family: Delvosalle
+    given: L.
+  - family: Duvigneaud
+    given: J.
+  issued: 1998
+  key: VVTSZU5Q
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Flora van België, het Groothertogdom Luxemburg, Noord-Frankrijk
+    en de aangrenzende gebieden (Pteridofyten en Spermatofyten)
+  type: book
+- id: lambinon1998a
+  author:
+  - family: Lambinon
+    given: J.
+  - family: De Langhe
+    given: J.-E.
+  - family: Delvosalle
+    given: L.
+  - family: Duvigneaud
+    given: J.
+  issued: 1998
+  key: VVTSZU5Q
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Flora van België, het Groothertogdom Luxemburg, Noord-Frankrijk
+    en de aangrenzende gebieden (Pteridofyten en Spermatofyten)
+  type: book
+- id: lambinon1998
+  author:
+  - family: Lambinon
+    given: J.
+  - family: De Langhe
+    given: J.-E.
+  - family: Delvosalle
+    given: L.
+  - family: Duvigneaud
+    given: J.
+  issued: 1998
+  key: VVTSZU5Q
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Flora van België, het Groothertogdom Luxemburg, Noord-Frankrijk
+    en de aangrenzende gebieden (Pteridofyten en Spermatofyten)
+  type: book
 ...

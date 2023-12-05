@@ -68,4 +68,13 @@ include_graphics(file.path(
 
 ```
 
-# Bijlage Projectfiche {#bijlage-projectfiche}
+# Bijlage Projectfiche en defaultwaarden {#bijlage-projectfiche}
+
+```{r projectfiche, fig.cap="(ref:projectfiche)", fig.align= "center"}
+include_graphics(file.path(path_to_procol,
+                           "media",
+                           c("projectfiche.png")))
+
+```
+
+Indien afgeweken wordt van de defaultwaarden, geef dan een korte motivatie waarom (of verwijs naar een rapport / referentie).

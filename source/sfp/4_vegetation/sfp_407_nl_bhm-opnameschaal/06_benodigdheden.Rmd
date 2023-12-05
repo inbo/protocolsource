@@ -1,3 +1,7 @@
+---
+bibliography: referenties.yaml
+---
+
 # Benodigdheden
 
 ## Apparatuur
@@ -28,14 +32,14 @@ Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 
 -   wegenatlas, kaartmateriaal op voorhand voorbereid via GIS
 -   notaboek of --fiches (zie Bijlage \@ref(bijlage-veldformulier))
 -   voldoende schrijfmateriaal
--   flora (naamgeving volgens Flora van België, Grothertogdom Luxemburg, Noord-Frankrijk en de aangrenzende gebieden (Lambinon et al., 1998))
+-   flora (naamgeving volgens Flora van België, Grothertogdom Luxemburg, Noord-Frankrijk en de aangrenzende gebieden [@lambinon1998]
 -   loep (8x, 10x, 15x)
 -   lint- (min. 5m) of vouwmeter
 -   4 markeerstokken + touw (met markering proefvlaklengte en -diagonaal)
 -   eventueel markeerverf voor in bossystemen
 -   recipiënten (mapjes, krantenpapier, plastic zakje) om niet gedetermineerde planten te bewaren
 -   paraplu (om papieren droog te houden)
--   (eventueel) materiaal voor permanente markering (bv. Fenopaal)
+-   (eventueel) materiaal voor permanente markering (bv. fenopaal)
 
 ## Reagentia en oplossingen (indien van toepassing)
 

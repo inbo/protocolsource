@@ -11,7 +11,7 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
-Indien deze procedure ingezet wordt voor trendbepaling op zijn bijkomende afspraken over de detailgraad, hoe het terrein te doorkruisen en het tijdstip van herbezoek aangewezen om de reproduceerbaarheid te verhogen.
+Indien deze procedure ingezet wordt voor trendbepaling zijn bijkomende afspraken over de detailgraad, hoe het terrein te doorkruisen en het tijdstip van herbezoek aangewezen om de reproduceerbaarheid te verhogen.
 
 Omdat er densiteiten worden gebruikt dient de teleenheid nader omschreven te worden.
 Dit is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie bij hoofdstuk \@ref(werkwijze) Werkwijze .
