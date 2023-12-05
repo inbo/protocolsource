@@ -33,7 +33,7 @@ include_graphics(
 
 Daarnaast dient er voldoende terugkoppeling te zijn tussen verschillende waarnemers om waarnemersafhankelijke variatie zo laag mogelijk te krijgen.
 Bij gegevensverwerking moet rekening worden gehouden met de semi-kwantitatieve aard van de beheermonitoringsschaal en het toepassingsgebied ervan.
-Een mathematische omzetting naar procentuele bedekking is mogelijk en is voorzien in INBOVEG (zie tabel \@ref(fig:codes)), maar hiermee moet omzichtig omgegaan worden i.v.m. de schijnnauwkeurigheid van de toegekende waarden.
+Een mathematische omzetting naar procentuele bedekking is mogelijk en is voorzien in INBOVEG (zie Bijlage \@ref(bijlage-omzetting)), maar hiermee moet omzichtig omgegaan worden i.v.m. de schijnnauwkeurigheid van de toegekende waarden.
 Een numerieke verwerking ten behoeve van een vegetatieclassificatie ligt buiten het toepassingsgebied en wordt beter vermeden.
 Men dient er immers rekening mee te houden dat opnames die met deze methode worden gemaakt niet steeds betrekking hebben op homogene vegetaties (dit is doorgaans geen probleem voor syntaxa op niveau van alliantie of ordes, maar mogelijk wel op associatieniveau).
 

@@ -10,7 +10,7 @@ In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, 
 ```
 ## Voor de campagne
 
--   Opleiding voor de terreinmedewerkers (soortenkennis, inschatting bedekkingen, interpretatie van de codes). Dit kan onder meer door in groep en met behulp van voorbeeldfiguren de inschattingen op elkaar af te stellen (zie ook bijlage 1).
+-   Opleiding voor de terreinmedewerkers (soortenkennis, inschatting bedekkingen, interpretatie van de codes). Dit kan onder meer door in groep en met behulp van voorbeeldfiguren de inschattingen op elkaar af te stellen (zie ook Bijlage \@ref(bijlage-visueel)).
 -   Nakijken of alle nodige apparatuur en materiaal aanwezig is en functioneert.
 -   De nodige toelatingen regelen voor het betreden van de studiegebieden.
 
