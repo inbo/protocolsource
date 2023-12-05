@@ -71,7 +71,7 @@ include_graphics(file.path(
 # Bijlage Projectfiche en defaultwaarden {#bijlage-projectfiche}
 
 ```{r projectfiche, fig.cap="(ref:projectfiche)", fig.align= "center"}
-include_graphics(file.path(path_to_procol,
+include_graphics(file.path(path_to_protocol,
                            "media",
                            c("projectfiche.png")))
 
