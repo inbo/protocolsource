@@ -1,3 +1,7 @@
+---
+bibliography: referenties.yaml
+---
+
 # Beperkingen van het protocol
 
 ```{=html}
@@ -18,7 +22,7 @@ biomassaproductie, bloei van relevante soorten, (maai)beheer en toegankelijkheid
 In Figuur \@ref(fig:seizoen) wordt per vegetatietype een indicatie gegeven van de optimale inventarisatieperiode.
 Het is niet de bedoeling om vegetatie-opnames van verschillende tijdsstippen in het jaar te combineren tot één opname.
 
-(ref:seizoen) Weergave van de optimale en suboptimale inventarisatieperiode per biotoopgroep (@Vriens2010)
+(ref:seizoen) Weergave van de optimale en suboptimale inventarisatieperiode per biotoopgroep ([@vriens2011])
 
 ```{r seizoen, fig.cap="(ref:seizoen)"}
 include_graphics(
@@ -36,4 +40,3 @@ Men dient er immers rekening mee te houden dat opnames die met deze methode word
 Voor aquatische vegetaties van stromende wateren wordt verwezen naar [protocol sfp-403-nl versie 2023.05](../2023.05/index.html) (Vegetatieopname en LSVI-bepaling habitat 3260).
 Voor vegetatie-opnames in kleinere proefvlakken wordt verwezen naar [protocol sfp-401-nl versie 2023.03](../2023.03/index.html) (Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie).
 Voor opnames met behulp van de Tansley schaal moet nog een protocol opgesteld worden.
-

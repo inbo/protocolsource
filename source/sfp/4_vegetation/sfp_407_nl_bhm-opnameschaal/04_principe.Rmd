@@ -10,9 +10,9 @@ Korte omschrijving van de principes waarop het protocol gebaseerd is.
 Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
 -->
 ```
-Naar @sutherland2006, @DeCock2008 en @demeulenaere2002.
+Naar @sutherland2006, [@decock2008]en [@demeulenaere2002].
 
-De beheermonitoringsschaal zoals in dit protocol beschreven is een herwerking van de methode die voorgesteld is in @demeulenaere2002.
+De beheermonitoringsschaal zoals in dit protocol beschreven is een herwerking van de methode die voorgesteld is in [@demeulenaere2002].
 Naast het herbenoemen van een aantal taalkundig verwarrende categorienamen, zijn er ook naar indicatieve bedekking en abundanties lichte aanpassingen gebeurd.
 De beheermonitoringschaal is in essentie een vorm van de Londo of Braun-Blanquet schaal (zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)) over een grotere oppervlakte.
 We bevelen opnames van dit type aan voor inventarisaties van gebruikspercelen in de range van 0.1 ha tot 5 ha.
@@ -61,4 +61,3 @@ Maar twee exemplaren zijn uitgegroeid tot een struiklaag en krijgen in deze laag
 Een ander voorbeeld: in een bos met een tapijt bosanemoon onder een scherm van zomereik coderen we beide soorten met de code D dominant.
 Er zijn geen beperking met betrekking to het voorkomen van combinaties van codes, behalve indien mathematisch onmogelijk binnen éénzelfde vegetatielaag (bv. 3 maal de code halfbedekkend in de kruidlaag kan niet).
 Dode exemplaren van planten (bv. éénjarigen) worden als aanwezig genoteerd tenzij het bomen en struiken betreft.
-

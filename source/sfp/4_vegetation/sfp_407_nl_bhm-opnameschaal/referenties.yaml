@@ -25,4 +25,106 @@ references:
   title: Een hiërarchisch monitoringssyteem voor beheersevaluatie van
     natuurreservaten in Vlaanderen.
   type: report
+- id: vriens2011
+  author:
+  - family: Vriens
+    given: Lieve
+  - family: Bosch
+    given: Hans
+  - family: De Knijf
+    given: Geert
+  - family: De Saeger
+    given: Steven
+  - family: Guelinckx
+    given: Robin
+  - family: Oosterlynck
+    given: Patrik
+  - family: Van Hove
+    given: Martine
+  - family: Paelinckx
+    given: Desiré
+  collection-title: Mededelingen van het Instituut voor Natuur- en
+    Bosonderzoek
+  issued: 2011
+  key: GAE5CW4F
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Instituut voor Natuur- en Bosonderzoek
+  title: "De biologische waarderingskaart: biotopen en hun verspreiding
+    in vlaanderen en het Brussels Hoofdstedelijk Gewest"
+  type: book
+  volume: INBO.M.2011.1
+- id: desaeger2014
+  author:
+  - family: De Saeger
+    given: Steven
+  - family: Hoffmann
+    given: M.
+  - family: Louette
+    given: G.
+  - family: Oosterlynck
+    given: P.
+  - family: Paelinckx
+    given: D.
+  issued: 2014
+  key: 3A3VHK2A
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: INBO.A.2013.127
+  title: Historisch permanent grasland anno 2013 in de West-Vlaamse
+    polders en het Meetjeslands krekengebied
+  type: article
+- id: vriens2011
+  author:
+  - family: Vriens
+    given: Lieve
+  - family: Bosch
+    given: Hans
+  - family: De Knijf
+    given: Geert
+  - family: De Saeger
+    given: Steven
+  - family: Guelinckx
+    given: Robin
+  - family: Oosterlynck
+    given: Patrik
+  - family: Van Hove
+    given: Martine
+  - family: Paelinckx
+    given: Desiré
+  collection-title: Mededelingen van het Instituut voor Natuur- en
+    Bosonderzoek
+  issued: 2011
+  key: GAE5CW4F
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Instituut voor Natuur- en Bosonderzoek
+  title: "De biologische waarderingskaart: biotopen en hun verspreiding
+    in vlaanderen en het Brussels Hoofdstedelijk Gewest"
+  type: book
+  volume: INBO.M.2011.1
+- id: decock2008
+  author:
+  - family: De Cock
+    given: R.
+  - family: Hoffmann
+    given: M.
+  - family: Maes
+    given: D.
+  - family: De Blust
+    given: G.
+  collection-title: Rapport Instituut voor Natuurbehoud
+  issued: 2008
+  key: 437BKN7I
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher-place: Brussel
+  title: "Begeleiding en opvolging van de beheermonitoring van de
+    Vlaamse Natuurreservaten : vademecum deel 1 en 2 : concept
+    beheermonitoring en methodiek met technische bijlagen en
+    multisoortenlijsten"
+  type: book
 ...
