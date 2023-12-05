@@ -11,11 +11,11 @@ bibliography: referenties.yaml
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
 -->
 ```
-**Abundantie of densiteit** = een maat voor de talrijkheid van een soort, meestal gekoppeld aan een bepaalde oppervlakte (densiteit).
+**Abundantie of densiteit** = een maat voor de talrijkheid: abundantie wordt gebruikt om aan te geven hoe talrijk een soort voorkomt, en is meestal gekoppeld aan een bepaalde oppervlakte (densiteit).
 Het is het aantal individuen of andere teleenheden (bv. scheuten) van een soort per oppervlakte.
-Het gebruik van densiteit als meetvariabele vereist afspraken omtrent de teleenheid (plantenindividu, pollen- en mattenvormers, uitlopers, ...)
+Deze term wordt bijvoorbeeld gebruikt in de vegetatiekunde, waar verschillende systemen bestaan om de abundantie van plantensoorten in de vegetatie aan te geven.
 
-**Aquatische vegetatie** = watergebonden vegetatie, drijvend of (gedeeltelijk) ondergedoken in de waterkolom.
+**Aquatische vegetatie** = watergebonden vegetatie (waterplantvegetatie - hydrofyten), al dan niet drijvend of (gedeeltelijk) ondergedoken in de waterkolom.
 
 **Bedekking** = een maat van voorkomen die meer gelinkt is met biomassa (een soort kan bijvoorbeeld zeer talrijk voorkomen maar met lage biomassa/bedekking): de bedekking van een plantensoort (of laag van de vegetatie, bv. boomlaag) is de proportie van de bodem die bedekt is door een soort, indien alle andere soorten verwijderd zouden worden.
 M.a.w. het is de verticale projectie van alle bovengrondse plantendelen van alle individuen van een soort op de bodem.
@@ -31,6 +31,11 @@ De kruidlaag omvat alle niet-houtige gewassen en houtige gewassen tot maximaal 8
 Lianen worden afhankelijk van hun hoogte tot de kruid-, struik- of boomlaag gerekend.
 De boomlaag bestaat uit houtige planten hoger dan 6 m.
 Voor bossen ligt de opdeling tussen kruid- en struiklaag op 2 m, voor struik- en boomlaag op 8 m.
+
+**Proefvlak** = deel van het terrein waarbinnen de waarnemingen gedaan worden.
+Het heeft een vooraf vastgelegde vorm, grootte en oriëntatie.
+
+**PQ** = permanent quadraat: een proefvlak dat meermaals in de tijd wordt opgenomen, en dus resulteert in een tijdsreeks van vegetatie-opnames op éénzelfde locatie
 
 **Habitatvlek** = een afgebakende zone waarbinnen een homogeen vegetatietype voorkomt.
 De afbakening gebeurt op basis van karteerregels die betrekking hebben op een fytosociologische definitie.
