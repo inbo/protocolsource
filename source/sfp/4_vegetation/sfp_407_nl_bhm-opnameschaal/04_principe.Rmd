@@ -42,7 +42,7 @@ Deze geven een impressie van de ondergrens van het aantal plantenindividuen per 
 Ze zijn niet te interpreteren als de (veronderstelde) effectieve aantallen (die quasi altijd hoger zijn).
 Door middel van een suffix aan een code toe te voegen, kan het lokaal voorkomen van soorten in afwijkende vegetatiedelen binnen dezelfde inventarisatie-eenheid specifiek geduid worden (bv. de toegangszone van een grasland met tredsoorten, poel, open plek in bossen, ...).
 Suffix /2 heeft betrekking op een afwijkende vegetatiesamenstelling in 1/4de tot 1/2de van de inventarisatie-eenheid, suffix /4 betreft 1/8ste tot 1/4de en suffix /8 1/8ste of minder van de oppervlakte.
-In bijlage 1 worden enkele figuren ter illustratie van dit principe getoond.
+In Bijlage \@ref(bijlage-visueel) worden enkele figuren ter illustratie van dit principe getoond.
 Het duiden van dergelijk lokaal voorkomen wordt niet toegepast in min of meer homogene vegetaties of mozaïeken met een uitgesproken herhaalpatroon.
 Mogelijke voorbeelden waar dit dus niet toegepast wordt zijn bossen op rabatten, buntgrasvegetaties in stuifduin, homogeen zuur bossen waar de typische soorten slechts schaars aanwezig zijn, e.a.
 Deze methode voor lokale vegetatiepatronen wordt ook niet gehanteerd voor vegetatieverschillen die zich enkel voordoen in de randen.
