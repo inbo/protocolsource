@@ -1,3 +1,7 @@
+---
+bibliography: referenties.yaml
+---
+
 # Werkwijze
 
 ## Uitvoering
@@ -82,7 +86,7 @@ De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de do
     Lianen in de kruidlaag worden ook steeds in die laag genoteerd (bv. klimop).
     Aandachtspunten:
 
--   Doorgaans heeft de waarnemer de neiging om opvallende of bloeiende soorten te overschatten. Andere minder opvallende soorten worden doorgaans onderschat (Kent & Coker, 1992).
+-   Doorgaans heeft de waarnemer de neiging om opvallende of bloeiende soorten te overschatten. Andere minder opvallende soorten worden doorgaans onderschat [@kent1994].
 -   Bij het toekennen van een code wordt door een waarnemer (al dan niet) onbewust enkel de onmiddellijke omgeving gebruikt als referentiebeeld. Je schat op een deel van het perceel waarover je een overzicht hebt. Afhankelijk van de overzichtelijkheid van het terrein waarvoor je de opname maakt is deze oppervlakte beperkt tot zeer beperkt (enkele tientallen m² tot enkele honderdtallen m²). Wees je hiervan bewust en corrigeer indien overige delen van het perceel afwijken ten opzichte van het deel waarop je tijdens het inschatten zicht hebt.
 -   Overloop aan het einde van de opname de toegekende codes ter controle. Vaak gebeuren nog aanpassingen aan de initiële inschatting door te vergelijken met de ingeschatte klassen van andere soorten ('relatief schatten').
 
