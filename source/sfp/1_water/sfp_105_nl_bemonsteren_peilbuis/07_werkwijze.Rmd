@@ -1,0 +1,152 @@
+# Werkwijze
+
+## Uitvoering
+
+```{=html}
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het protocol uit te voeren.
+Subtitels gebruiken om elke stap te omschrijven.
+-->
+```
+### Stappenplan
+
+De werkwijze voor het bemonsteren van een piëzometer voor een grondwatermonsters bestaat uit volgende stappen:
+
+-   Reinigen van de peilbuis of piëzometer
+
+-   Bemonsteren van een peilbuis of piëzometer
+
+-   Bepalen van de ogenblikkelijke variabelen
+
+-   Vullen van de recipiënten
+
+-   Bewaren en transporteren van watermonsters
+
+### Reinigen van een piëzometer
+
+Voor de staalname wordt de piëzometer eerst gereinigd met een borstel en daarna leeggepompt.
+
+De piëzometer wordt eerst geschuurd met een flessenborstel gemonteerd op een lange steel.
+Na het inbrengen van die flessenborstel in de buis, wordt flink op en neer bewogen over de gehele lengte van de buis, om vastzittende bacterie-kolonies en andere contaminanten van de buis los te schuren en eventueel gesedimenteerd materiaal terug in suspensie te brengen.
+
+Daarna wordt (in de mate van het mogelijke) al het water met een peristaltische pomp uit de piëzometer gepompt.
+De telfondarm wordt volledig tot op de bodem van de peilbuis gebracht.
+Zo wordt eventueel slib uit de piëzometer afgevoerd.
+Het pompen zorgt ervoor dat vers grondwater wordt bemonsterd.
+Bij beperkte watertoevoer (wat bij deze piëzometers doorgaans het geval is) naar de buis zal de piëzometer na enkele minuten leeggepompt zijn.
+Het opgepompte water wordt minstens twee meter van de locatie van de peilbuis afgevoerd.
+
+<!-- ?Iets over de snelheid van leegpompen toe te voegen ? -->
+
+### Bemonsteren van een peilbuis of piëzometer
+
+Het bemonsteren van een peilbuis gebeurt in een periode van 1 tot 3 dagen na het reinigen van de peilbuis.
+De bemonstering gebeurt met een peristaltische pomp of kogelklepbemonsteraar.
+
+Bij het nemen van een monster met een peristaltische pomp, wordt een teflondarm tot op een diepte van 10 cm onder het waterpeil van de peilbuis gebracht.
+De teflondarm wordt verbonden met de peristaltische pomp en het 'vers' grondwater wordt met een matige snelheid opgepompt zodat geen gasbellen in het opgepompte water terechtkomen.
+Er moet absoluut vermeden worden dat de peilbuis leeggepompt wordt tijdens de staalname.
+Het opgepompte water wordt opgevangen in een recipiënt (monsternamepot) totdat een volume van minstens 500 ml is bereikt.
+Bij voldoende wateraanvoer in de peilbuis wordt de eerste 100 ml niet opgevangen.
+
+<!-- Parametrisatie van deze cijfers zinvol / nodig? Je kan aangeven dat deze cijfers de INBO defaultwaarden zijn, maar dat daar in projectspecifieke context van kan afgeweken worden als dat nodig is. -->
+
+Bij het nemen van een monster met een kogelklepbemonsteraar wordt de kogelklep zo diep mogelijk onder het waterpeil gebracht zonder de bodem van de peilbuis te raken.
+Trek daarna de kogelklep rustig omhoog.
+Om voldoende staalvolume te bekomen moet vaak meerdere keren bemonsterd worden.
+
+### Bepalen van de ogenblikkelijke variabelen
+
+Omdat sommige variabelen veranderingen ondergaan tijdens het transport van het watermonsters naar het laboratorium, worden deze variabelen bij voorkeur op het terrein gemeten.
+Het betreft de variabelen zuurtegraad (pH) en geleidbaarheid (EC).
+Het bepalen van deze variabelen gebeurt met een veldmeter.
+Het gebruik van de veldmeter (met elektroden) is beschreven in [SIP-054](https://sites.google.com/inbo.be/veldprotocollen/standaard-instrument-procedures-sip) en in de veldset bevindt zich tevens een beperkte handleiding.
+
+Vooraleer de metingen uit te voeren moet de apparatuur voor zuurtegraad (pH) en geleidbaarheid (EC) gecontroleerd worden op een goede werking.
+De controle oplossingen bevinden zich in de veldset.
+De veldmeter wordt door het analytisch laboratorium gekalibreerd geleverd, maar bij regelmatig gebruik moet de apparatuur minstens voor en na een reeks van metingen gecontroleerd worden.
+
+-   Controleer de pH-elektrode met bufferoplossing van pH=5
+
+-   Controleer de EC-elektrode met een oplossing van 1413 $\mu$S/cm
+
+De waarden waarbinnen de controle moet vallen staan vermeld op het veldformulier.
+Indien de controle niet wordt aanvaard, dan moeten corrigerende maatregelen genomen worden.
+Deze bestaan o.a.
+uit de verificatie van de controle, verificatie van de controle oplossing en indien nodig herkalibratie van de apparatuur.
+De oplossingen voor herkalibratie bevinden zich in de veldset.
+Indien de controle wordt aanvaard, dan kunnen de analyses op het terrein uitgevoerd worden.
+
+Een deelmonster van het verzamelde watermonster wordt overgebracht in een meetrecipiënt (HDPE, minstens 250ml) voor het bepalen van de ogenblikkelijke variabelen.
+Op het deelmonster wordt In eerste fase de geleidbaarheid van het waterstaal bepaald en pas daarna de zuurtegraad.
+Bij een iets verouderde pH- elektrode bestaat de kans dat deze KCl lekt waardoor de meting van de geleidbaarheid wordt beïnvloed (lees: te hoge waarde).
+
+-   Bepalen van de geleidbaarheid: de elektrode wordt in het meetrecipiënt gebracht zodanig dat de geleidbaarheidscel volledig ondergedompeld is in de meetvloeistof.
+    Onder licht roeren met de elektrode, wordt de geleidbaarheid afgelezen indien het meetsignaal stabiel is.
+    Een stabiel meetsignaal wordt bekomen met de AR functietoets.
+    De geleidbaarheid wordt afgelezen in $\mu$S/cm of mS/cm (opgepast!) en genoteerd op het veldformulier.
+
+-   Bepalen van de zuurtegraad: de elektrode wordt in het meetrecipiënt gebracht tot dat deze minstens 5 cm volledig ondergedompeld is in de meetvloeistof.
+    Onder licht roeren met de elektrode, wordt de zuurtegraad afgelezen indien het meetsignaal stabiel is.
+    Een stabiel meetsignaal wordt bekomen met de AR functietoets.
+    De zuurtegraad wordt afgelezen in eq/l en genoteerd op het veldformulier.
+
+### Recipiënten voor het vullen van de recipiënten
+
+Door het analytisch laboratorium worden de deelrecipiënten voor chemische variabelen aangeleverd.
+De richtlijnen voor de nodige recipiënten staan beschreven in [SOP-006](https://sites.google.com/inbo.be/veldprotocollen/standaard-veld-procedures-svp/0-generiek) "klaarzetten materiaal voor staalname watermonsters" van het analytisch labo.
+De deelrecipiënten worden per staal gebundeld in een plastic zakje.
+Het aantal deelrecipiënten is afhankelijk van de te meten variabelen.
+Er wordt aangeraden alle deelrecipiënten volledig te vullen om oxidatie via de headspace te vermijden.
+
+Voor een standaard grondwateranalyse worden de variabelen zuurtegraad, geleidbaarheid, alkaliniteit (carbonaten), anionen (Cl, NO~2~, NO~3~, SO~4~ en PO~4~), kationen (Na, K, Mg, Ca) en metalen (Fe, Mn, Si, Al) gemeten.
+Hiervoor dienen volgende recipiënten gevuld te worden:
+
+-   **Fles, 250 ml rode of witte dop**: vul het flesje volledig met grondwater en sluit het daarna goed af.
+    Dit deelrecipiënt wordt gebruikt voor het bepalen van de zuurtegraad (pH), geleidbaarheid (EC), alkaliniteit met de titrator en anionen & kationen met IC.
+    De variabelen worden niet geconserveerd, maar worden direct gemeten in het labo bij ontvangst van het monster.
+    In het laboratorium wordt het monster over een 0,20 $\mu$m filter gefiltreerd voor analyse.
+
+-   **Falcontube, 30 ml met witte dop**: vul het flesje volledig met 0,20 $\mu$m (of 0.45 $\mu$m?) gefiltreerd grondwater en sluit het daarna goed af.
+    Het deelrecipiënt bevat van 250 $\mu$l geconcentreerd salpeterzuur (HNO~3~) voor het bewaren van de variabelen bij een pH\<2.
+    Bij het openen van het recipiënt kunnen zure dampen vrijkomen en moeten de nodige veiligheidsmaatregelen in acht genomen worden (buisje niet te dicht bij de mond houden!).
+    Neem een spuit van 100 ml en zuig de spuit voorzichtig vol met grondwater.
+    Plaats een spuitfilter op de spuit en filter het grondwater in het deelrecipiënt.
+    Indien de filter verstopt, wordt een andere filter op de spuit geplaatst.
+    Dit deelrecipiënt wordt gebruikt voor het bepalen van mineralen en metalen met ICP-AES.
+
+-   **Falcontube, 50 ml met rode dop**: vul het flesjes volledig met grondwater en sluit het daarna goed af.
+    Dit deelrecipiënt wordt door het laboratorium ingevroren (-18°C) als reservemonster en 6 maanden bewaard.
+    Wanneer onvoldoende volume staal beschikbaar is, kan dit staal eventueel weggelaten worden.
+
+## Registratie en bewaring van resultaten
+
+```{=html}
+<!--
+Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
+Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar sip (standard instrument protocol, <protocol-code>-YYYY.NN) indien beschikbaar; indien geen sip beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
+Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden.
+Geef aan of de stalen voorbehandeld moeten worden.
+Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen.
+Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
+-->
+```
+De deelmonsters worden zo snel mogelijk na het vullen bewaard in een koelbox met koelelementen.
+De monsters worden koel getransporteerd om omvormingen te vermijden.
+Na de bemonstering worden de stalen zo snel mogelijk afgegeven in het analytisch laboratorium voor analyse.
+In het laboratorium worden de monsters geanalyseerd volgens de voorschriften van bewaarcondities.
+Deze staan beschreven in de procedure [SOP-005](https://sites.google.com/inbo.be/veldprotocollen/standaard-veld-procedures-svp/0-generiek) "Richtlijnen voor conserveren van monsters" in het kwaliteitshandboek van het analytisch laboratorium.
+
+De resultaten van de veldmetingen (zuurtegraad, geleidbaarheid) en metadata over de bemonstering worden genoteerd op het veldformulier (zie bijlage).
+Op het veldformulier staat in de eerste kolom de labocode (labo-ID) van het staal vermeld.
+Dat is een unieke code van het monster in het LIMS van het laboratorium.
+Het labo-ID staat ook vermeld op elk deelrecipiënt.
+Bij het vullen van de deelrecipiënten moet de staalcode (veld-ID) vermeld worden op het veldformulier in de kolom naast het labo-ID.
+Op deze manier wordt de link gemaakt tussen het veld-ID en labo-ID.
+
+Bij ontvangst van de monsters in het laboratorium wordt het veldformulier volledig ingevuld.
+Naast de meetresultaten van zuurtegraad en geleidbaarheid wordt ook informatie over de bemonstering (datum, wie) en afgifte van de stalen (datum, wie) genoteerd, alsook metadata over de bemonstering (matrix, aard van het staal, ...).
+Het veldformulier wordt gedeeld op drive onder LABODATA en een volledig ingevuld formulier wordt geïmporteerd in het LIMS van het labo.
+
+Bijkomende informatie over de bemonstering, belangrijk voor de opdrachtgever, wordt genoteerd in een veldboekje.
+Voor te noteren informatie, zie checklist van de bemonstering (zie bijlage).
