@@ -1,5 +1,5 @@
 book_filename: sfp_106_nl_waterpeil_peilbuis.Rmd
-output_dir: ../../../../../protocoldocs/sfp/1_water/sfp_106_nl_waterpeil_peilbuis
+output_dir: ../../../../../protocoldocs/docs/sfp/1_water/sfp_106_nl_waterpeil_peilbuis
 rmd_files:
 - index.Rmd
 - NEWS.md
