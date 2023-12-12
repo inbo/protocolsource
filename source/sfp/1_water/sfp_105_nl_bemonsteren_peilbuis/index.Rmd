@@ -28,7 +28,7 @@ params:
   dependencies:
     value:
     - protocol_code: sfp-104-nl
-      version_number: '2023.03'
+      version_number: '2023.07'
       params: .na
       appendix: false
 ---
