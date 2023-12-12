@@ -1,0 +1,22 @@
+# Kwaliteitszorg
+
+```{=html}
+<!--
+Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen.
+Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld, ...).
+Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen.
+In dit onderdeel kunnen ook bepaalde intercalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
+-->
+```
+Tijdens de bemonstering en transport van de monster naar het laboratorium moet de nodige aandacht besteed worden aan de bewaarcondities van de variabelen.
+Chemische oxidatie van variabelen (metalen (Fe^2+^, Mn^2+^, ..) stikstofverbindingen (NH~4~^+^, NO~2~^-^), ...) kunnen plaatsvinden doordat extra zuurstof in het monster terechtkomt.
+Bij de bemonstering moet vermeden worden dat het opgepompte monster zich mengt met lucht (lees: zuurstof), alsook bij het vullen van de recipiënten.
+Recipiënten worden met een matige snelheid en volledig worden gevuld, zodat geen extra zuurstof in het monster komt en er zich geen headspace bevindt bovenaan het recipiënt.
+Het transport van de monsters gebeurt bij voorkeur bij een temperatuur lager dan de bemonsteringstemperatuur van het staal.
+
+Na de analysen in het laboratorium wordt een ionenbalans opgemaakt door het sommeren van alle gemeten kationen en het sommeren van alle gemeten anionen.
+Er afwijking tussen de som van de kationen en anionen kan niet alleen een indicatie zijn van een verkeerde meting, maar ook een indicatie dat anionen zijn neergeslagen tijdens het transport.
+De metalen (zoals Fe) worden op het terrein geconserveerd voor de meting, maar zijn ook aanwezig in het recipiënt waar de anionen en kationen op worden bepaald.
+Dit recipiënt kan omwille van de meettechniek niet geconserveerd worden en neerslag van metalen in het recipiënt gaat altijd gepaard met neerslaan van anionen (PO~4~, SO~4~, ...).
+Vandaar het belang dat de metingen van anionen direct gestart worden na ontvangst van het monster in het labo.
+

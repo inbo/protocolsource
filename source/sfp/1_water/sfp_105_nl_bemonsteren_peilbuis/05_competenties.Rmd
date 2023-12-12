@@ -1,0 +1,16 @@
+# Vereiste competenties
+
+```{=html}
+<!--
+Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het protocol op een gepaste manier te kunnen uitvoeren.
+Eventueel kan er verwezen worden naar bepaalde opleidingen.
+-->
+```
+Voor het reinigen en het bemonsteren van peilbuizen of piëzometers moet een opleiding worden gevolgd.
+Deze opleiding wordt verzorgd door de projectverantwoordelijke(n).
+Tijdens deze opleiding worden niet alleen de activiteiten voor het nemen van een grondwatermonster verzorgd, maar ook het onderhoud van het materiaal.
+
+Voor het bepalen van de ogenblikkelijke variabelen (pH, EC) moet de opleiding van het analytisch laboratorium worden gevolgd.
+Naast de theorie bevat deze opleiding een praktisch luik over het gebruik van de veldmeter, de kalibratie van de apparatuur en het onderhoud van de apparatuur.
+Tevens worden de nodige veiligheidsmaatregelen toegelicht bij het gebruik van sterke zuren.
+
