@@ -1,0 +1,30 @@
+# Veiligheid
+
+```{=html}
+<!--
+Alle aandachtspunten in verband met veilig werken.
+-->
+```
+De metingen worden uitgevoerd op het terrein; de veiligheidsvoorschriften opgesteld voor het veldwerk dienen gevolgd te worden.
+
+-   Controleer voor het betreden van het terrein of aanwezig grazers geen gevaar kunnen vormen.
+
+-   Draag aangepast schoeisel, zorg voor beschermende kledij of middelen (tegen irriterende planten, insecten, zon,...).
+
+-   Betreed moeilijk begaanbare, moerassige terreinen in duo of zorg minstens dat je een GSM met noodnummers bij hebt.
+
+-   Wanneer je de guts uit de grond haalt, houd je rug recht en je knieën gebogen om letsels te vermijden.
+
+-   Wees voorzichtig bij het ledigen van de boor zodat je jezelf niet snijdt aan de snijranden van de boor of aan de snijranden van de spatel/mes.
+
+-   Wees voorzichtig tijdens onweer in het open veld.
+    Je draagt immers een metalen staaf met je mee wat de bliksem kan aantrekken.
+
+-   Stoot je op een ondoordringbare laag of een grote steen of boomwortel, forceer de boor dan niet want je zou het materiaal kunnen beschadigen.
+    Steek beter opnieuw op een andere plaats (bvb. in geval van een stenige bodem).
+
+-   In het geval dat je een hamer moet gebruiken op een guts met een slagkop, gebruik steeds een terugslagvrije hamer (Figuur \@ref(fig:gutsboren)).
+    Gebruik zeker nooit metalen hamers.
+
+-   Houd de guts steeds vast bij de synthetische handvaten tijdens het boren.
+    Deze zorgen voor isolatie indien je een ondergrondse elektriciteitskabel zou raken.

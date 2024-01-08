@@ -1,0 +1,24 @@
+# (APPENDIX) Bijlagen {.unnumbered}
+
+# Bijlage: instelwaarden {#bijlage-params}
+
+```{r params-tabel}
+vertaal <- c(
+  proefvlak_vorm = "Proefvlak vorm",
+  begin_diepte_cm = "Bemonsteringsdiepte begin (cm)",
+  eind_diepte_cm = "Bemonsteringsdiepte einde (cm)",
+  aantal_steken = "Aantal steken",
+  guts_diameter_mm = "Guts diameter (mm)")
+
+params %>%
+  flatten() %>%
+  tibble::enframe() %>%
+  filter(name != "dependencies") %>%
+  mutate(name = recode(name, !!!vertaal)) %>%
+  rename(naam = name, waarde = value) %>%
+  kable()
+```
+
+# Bijlage: Opnameformulier voor oppervlaktemonsters {#bijlage-opnameformulier}
+
+Dit formulier wordt in een [afzonderlijk PDF document](./media/sfp-201-nl_bijlage_b_opnameformulier_oppervlaktemonsters.pdf) bewaard zodat het duidelijk op twee zijden van een A4 blad kan afgedrukt worden.
