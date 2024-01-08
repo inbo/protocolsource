@@ -29,8 +29,8 @@ Het is een portie materiaal dat geselecteerd werd uit een grotere hoeveelheid ma
 Het is dus een samengesteld monster dat verkregen wordt door (deel)monsters te mengen.
 De deelmonsters zijn genomen op meerdere plaatsen volgens een specifiek diepte-interval.
 
-**Laboratoriummonster:** een monster binnengebracht in het laboratorium na bemonstering waarop geen verdere behandelingen zijn uitgevoerd.
-Het laboratoriummonster is het finale monster vanuit het standpunt van bemonstering, maar het initiële monster vanuit het standpunt van het laboratorium.
+**Laboratoriummonster:** een monster zoals het binnengebracht wordt in het analytisch laboratorium.
+Het laboratoriummonster is het finale monster vanuit het standpunt van bemonstering en eventuele voorbehandeling (drogen, deeltjes verkleinen en homogeniseren), maar het initiële monster vanuit het standpunt van het analytisch laboratorium.
 In laboratoriumtermen is dit het 'natief staal'.
 
 **Oppervlaktemonster:** een oppervlaktemonster is een monster genomen net onder het bodemoppervlak zonder de strooisellaag, op een diepte tot maximaal 30 cm diepte.
