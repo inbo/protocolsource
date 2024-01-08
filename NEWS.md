@@ -1,3 +1,10 @@
+### First version of protocol: sfp-201-nl
+
+- Title: Bemonsteren aan de hand van oppervlaktemonsters
+- Published on: 2024-01-08
+- Version number: 2024.01
+- Link to this version: [sfp-201-nl version 2024.01](2024.01/index.html)
+
 ### First version of protocol: sfp-106-nl
 
 - Title: Richtlijnen voor het bepalen van het waterpeil in peilbuizen
