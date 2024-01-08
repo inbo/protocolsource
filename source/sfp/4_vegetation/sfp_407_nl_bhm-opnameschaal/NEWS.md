@@ -2,7 +2,7 @@
 
 ## [2023.09](../2023.09/index.html)
 
-Dit is de eerste versie van het protocol - ...
+Dit is de eerste versie van het protocol
 
 ```{=html}
 <!--
