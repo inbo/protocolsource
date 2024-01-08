@@ -148,7 +148,6 @@ Google Drive bewaard.
 De volgende principes worden gehanteerd bij de naamgeving van de foto's: de naam van de foto gaat van algemeen naar specifiek.
 Een voorbeeldje:
 
--   De Omgevingsfoto: CODEPROEFVLAK_O
 -   De foto van het proefvlak/plot: CODEPROEFVLAK_PLOT
 -   De foto van het `r params$begin_diepte_cm` -- `r params$eind_diepte_cm` cm staal: CODEPROEFVLAK_M01
 
