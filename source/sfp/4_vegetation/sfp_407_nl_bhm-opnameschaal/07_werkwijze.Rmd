@@ -31,18 +31,11 @@ De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de do
     Aan de hand van oude opnames een globale soortenlijst van het gebied samenstellen is aan te raden om op voorhand vertrouwd te geraken met de soorten.
     Mogelijke voordelen: kan helpen bij herlokalisatie, leereffect, ... Mogelijke nadelen: overnemen van foute determinaties, vertekening door verhoogde zoekinspanning naar ontbrekende soorten of door bijstellen van de bedekking, ...
 
-5.  Historische vegetatieopnames of soortenlijsten kunnen mee op terrein genomen worden, indien voorhanden.
-    Er is wel per project een afweging nodig van de voor- en nadelen die hieraan verbonden zijn.
-    Aan de hand van oude opnames een globale soortenlijst van het gebied samenstellen is aan te raden om op voorhand vertrouwd te geraken met de soorten.
+5.  Print voldoende veldformulieren af, per proefvlak minstens 1 veldformulier.
 
-    -   Mogelijke voordelen: kan helpen bij herlokalisatie, leereffect, ...
-    -   Mogelijke nadelen: overnemen van foute determinaties, onbewuste vertekening door verhoogde zoekinspanning naar ontbrekende soorten of door bijstellen van de bedekking, ...
+6.  Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist, zie hoofdstuk \@ref(benodigdheden)).
 
-6.  Print voldoende veldformulieren af, per proefvlak minstens 1 veldformulier.
-
-7.  Ga na of alle benodigdheden aanwezig zijn en functioneren (checklist, zie hoofdstuk \@ref(benodigdheden)).
-
-8.  Zorg ervoor dat je de nodige toestemmingen hebt om de percelen te betreden.
+7.  Zorg ervoor dat je de nodige toestemmingen hebt om de percelen te betreden.
 
 ### Terreinwerk
 
