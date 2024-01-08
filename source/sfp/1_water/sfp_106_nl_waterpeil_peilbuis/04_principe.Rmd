@@ -1,0 +1,47 @@
+# Principe
+
+```{=html}
+<!--
+Korte omschrijving van de principes waarop het protocol gebaseerd is.
+Bv principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
+-->
+```
+## Manuele peilmeting
+
+De peilmeting is de afstand tussen het referentiepunt (de bovenrand van de peilbuis zonder dop) en het wateroppervlak in de peilbuis (figuur \@ref(fig:Figuur1)).
+Omdat deze meting naar beneden gericht is wordt dit met een negatief cijfer genoteerd.
+Heel uitzonderlijk (bv. bij een overstroming) kan het peil boven het referentiepunt uitkomen.
+In dat geval moet een positieve waarde genoteerd worden.
+
+De peilmeting geeft de drukhoogte weer.
+Voor een grondwaterstandsbuis komt dit overeen met de grondwaterstand, voor een piëzometer kan het peil iets hoger of lager zijn dan de grondwaterstand (zie SVP-104).
+Het peil in mTAW wordt berekend door de hoogte van het referentiepunt en de peilmeting op te tellen.
+De diepte van het peil t.o.v. het maaiveld wordt berekend door de peilmeting op te tellen bij de hoogte van het referentiepunt t.o.v. maaiveld.
+
+![(#fig:Figuur1) Handmatige peilmeting (meting t.o.v. maaiveld en t.o.v. TAW).](./media/image4.png){width="4.416666666666667in" height="3.4791666666666665in"}
+
+In het veld wordt enkel de peilmeting ten opzichte van het nulpunt genoteerd.
+De berekeningen t.o.v. maaiveld en/of mTAW gebeuren achteraf.
+
+## Metingen met automatische druksensoren
+
+De druksensor meet geen nauwkeurige absolute druk, maar nauwkeurige relatieve verschillen in druk.
+De drukverschillen zijn de resultante van verandering in de hoogte van de waterkolom boven de sensor en de verandering in atmosferische druk.
+Een druk van 1 millibar luchtdruk komt overeen met de druk van 1 cm waterkolom.
+De veranderingen in atmosferische druk moeten dus worden gecompenseerd.
+
+Sommige druksensoren zijn voorzien van een darmpje dat de luchtdruk bovenaan de peilbuis meet en de veranderingen in luchtdruk onmiddellijk compenseert (figuur \@ref(fig:Figuur2)).
+Dit darmpje mag dan wel nooit verstopt raken of vol water lopen.
+Voor druksensoren zonder luchtdrukcompensatie zijn afzonderlijke luchtdrukmetingen vereist en wordt achteraf gecompenseerd.
+
+Om de drukmeting om te zetten in een waarde van het waterpeil ten opzichte van het nulpunt is een referentiemeting vereist.
+Dit is een manuele peilmeting (zoals hierboven beschreven) die gekoppeld wordt aan een meting van de druksensor op hetzelfde ogenblik.
+
+De druksensor wordt in de peilbuis onder de laagst mogelijke grondwaterstand opgehangen (figuur \@ref(fig:Figuur2)).
+Wanneer het peil onder de sensor zakt meet de sensor enkel nog de atmosferische druk.
+
+Het grote voordeel van automatische druksensoren is dat ze blijven meten, ook wanneer de peilbuis volledig onder water staat of moeilijk toegankelijk is.
+In overstroombare gebieden is dit een groot voordeel ten aanzien van manuele metingen.
+
+![(#fig:Figuur2) Opstelling van een druksensor met ingebouwde luchtdrukcompensatie (A) en zonder luchtdrukcompensatie (B)](./media/image1.png){width="5.187847769028871in" height="3.5328805774278216in"}
+

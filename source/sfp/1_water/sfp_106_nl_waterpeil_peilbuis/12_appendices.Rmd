@@ -1,0 +1,32 @@
+# (APPENDIX) Bijlagen {.unnumbered}
+
+```{=html}
+<!--
+Oplijsting van de bijlages die toegevoegd zijn aan dit protocol.
+O.a. invulformulier of tabel met projectspecifieke gegevens voor de variabelen (bv afmetingen van proefvlak, diepte van oppervlaktemonster bodem, ...).
+-->
+```
+## Bijlage: Checklist met materiaal
+
+-   Meetlint met klokje of Meetlint met sensor.
+    Het is aangeraden om steeds een meetlint met klokje mee te nemen als backup
+
+-   Informatie om de locatie van de peilbuizen terug te vinden (kaart, coordinaten, ...)
+
+-   GPS (handGPS, smartphone of RTK-GPS)
+
+-   Schrijfmateriaal (potlood, notitieboekje)
+
+## Bijlage: Checklist met te noteren gegevens in het veld {#checklist-measure}
+
+-   ID / code
+
+-   Datum en uur.
+    Het uur is erg belangrijk bij referentiemetingen voor drukmeters.
+
+-   peilmeting (m).
+    Negatief voor neerwaartse meting
+
+-   hoogte boven maaiveld (m) op het moment van de peilmeting
+
+-   Na eventuele correctie van de hoogte boven maaiveld ook de hoogte boven maaiveld (m) na de meting noteren.

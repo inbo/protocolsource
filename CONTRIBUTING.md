@@ -46,9 +46,11 @@ Note also that any dependency packages needed by the packages listed in the [DES
 
 Apart from the above R packages, you will also need a working installation of TinyTeX, which is an external open-source software package that is needed to render protocols to PDF format (i.e. when you run `protocolhelper::render_protocol()` see [Workflow](#workflow)).
 
-To install this, we recommend to follow the [installation instructions](https://github.com/inbo/INBOmd/#installation) provided by the `INBOmd` R package.
-Please make sure to install this from an R session that runs outside of the RStudio `protocolsource.Rproj`.
-So, close the RStudio project and any other R sessions and start the most recent version of R that is installed on your system and copy-paste the installation instructions in the R console.
+To install this:
+
+-   close the RStudio project and any other R sessions and start the most recent version of R that is installed on your system
+
+-   follow the [installation instructions](https://github.com/inbo/INBOmd/#installation) provided by the `INBOmd` R package and copy-paste the installation instructions in the R console.
 
 ## `(R)markdown` syntax and learning `Rmarkdown`
 
@@ -276,13 +278,16 @@ This will allow you to check the resulting output locally.
 
 ### From an existing docx protocol
 
+Even if you are converting an older published protocol, we recommend leaving the date field to it's default value (current date) and instead mention in the `NEWS.md` file that this is a conversion from protocol so-and-so published first on date such-and-such.
+
+
 ```r
 library(protocolhelper)
 create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
            short_title = "vegopname terrest",
            authors = "De Bie, Els",
            orcids = "0000-0000-1234-5678",
-           date = "2016-07-19", 
+           date = "`r Sys.Date()`", 
            reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
            file_manager = "Hans Van Calster", 
            theme = "vegetation",
@@ -295,6 +300,8 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
 ```
 
 ### From a new template
+
+For a field protocol (sfp) (you need to specify a theme):
 
 ```r
 library(protocolhelper)
@@ -313,7 +320,7 @@ create_sfp(title = "titel van het protocol",
            render = FALSE)
 ```
 
-Alternatively, for a project-specific protocol:
+Alternatively, for a project-specific protocol (you need to specify a project_name):
 
 ```r
 library(protocolhelper)
@@ -328,6 +335,25 @@ create_spp(title = "Bodemstalen nemen",
            language = "nl",
            render = FALSE)
 ```
+
+Or for a standard operating procedure (similarly for sip or sap; no need to specify theme or project_name):
+
+```r
+library(protocolhelper)
+create_sop(title = "titel van het protocol",
+           subtitle = "optionele subtitel", 
+           short_title = "korte titel",
+           authors = c("Achternaam1, Voornaam1", "Achternaam2, voornaam2"),
+           orcids = c("0000-0000-1234-5678", "0000-0000-1234-8765"),
+           date = "`r Sys.Date()`", 
+           reviewers = "Voornaam Naam, ...", 
+           file_manager = "Voornaam Naam", 
+           language = "nl",
+           from_docx = NULL,
+           protocol_number = NULL, 
+           render = FALSE)
+```
+
 
 ## <a name="parameterized"></a>What to do in case of parameterized protocols?
 
