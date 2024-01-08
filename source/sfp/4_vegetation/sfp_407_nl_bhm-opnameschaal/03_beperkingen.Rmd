@@ -20,7 +20,6 @@ Dit is afhankelijk van het vegetatietype.
 Factoren die hierbij een rol spelen zijn o.a.
 biomassaproductie, bloei van relevante soorten, (maai)beheer en toegankelijkheid.
 In Figuur \@ref(fig:seizoen) wordt per vegetatietype een indicatie gegeven van de optimale inventarisatieperiode.
-Het is niet de bedoeling om vegetatie-opnames van verschillende tijdsstippen in het jaar te combineren tot één opname.
 
 (ref:seizoen) Weergave van de optimale en suboptimale inventarisatieperiode per biotoopgroep (naar @vriens2011)
 
