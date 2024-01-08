@@ -10,7 +10,7 @@ date: '`r Sys.Date()`'
 reviewers: Hans Van Calster
 file_manager: Hans Van Calster
 protocol_code: sfp-201-nl
-version_number: '2023.07'
+version_number: '2024.01'
 language: nl
 lang: nl
 theme: soil
@@ -22,7 +22,7 @@ params:
   proefvlak_vorm: vierkant
   begin_diepte_cm: 0
   eind_diepte_cm: 10
-  aantal_steken: !r 3^2
+  aantal_steken: 3^2
   guts_diameter_mm: 25
 ---
 
