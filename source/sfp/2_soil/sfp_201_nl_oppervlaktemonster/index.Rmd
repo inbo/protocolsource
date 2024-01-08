@@ -22,7 +22,7 @@ params:
   proefvlak_vorm: vierkant
   begin_diepte_cm: 0
   eind_diepte_cm: 10
-  aantal_steken: 3^2
+  aantal_steken: !r 3^2
   guts_diameter_mm: 25
 ---
 
