@@ -59,7 +59,7 @@ De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de do
     Gebruik hiervoor de visuele ondersteuning in bijlage 1.
     De soorten worden per laag ingeschat maar telkens relatief ten opzichte van het gehele perceel.
     Wanneer een soort een zekere bedekking (circa 5%) inneemt, speelt de densiteit geen rol meer.
-    In de uitgebreide Tansley wordt vanaf de categorie 'Bedekkend' dan ook de bedekking (zie definitie) i.p.v. abundantie gebruikt om de klassegrenzen te definiëren.
+    Vanaf de categorie 'Bedekkend' wordt de bedekking (zie definitie) i.p.v. abundantie gebruikt om de klassegrenzen te definiëren.
     De mate van bedekking krijgt ook voorrang op de densiteit bij het bepalen van de bijpassende schaalcode.
     Bv.
     4 oude eiken in een grasland, die ongeveer 10% bedekken, krijgen niet de code 'Schaars' maar wel 'Bedekkend'.
