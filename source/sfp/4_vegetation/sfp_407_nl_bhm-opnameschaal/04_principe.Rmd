@@ -21,10 +21,12 @@ Bij de beheermonitoringschaal worden de relatieve abundantie en de bedekking van
 De uitgebreide beheermonitoringschaal ziet er als volgt uit:
 
 ```{r codes}
-include_graphics(
-  path = file.path(path_to_protocol,
-                   "media",
-                   "codes.png"))
+codes <- read.csv2("data/bhm_kort.csv")
+```
+
+```{r codes}
+codes %>%
+  pander::pander(split.tables = Inf)
 ```
 
 Indien een soort minstens 5% bedekt, worden enkel de codes vanaf B gebruikt (ook al gaat het maar om 1 of enkele individuen).
@@ -32,7 +34,8 @@ De densiteiten zijn geformuleerd voor oppervlaktes van om en bij 1 ha.
 Indien het bestudeerde perceel duidelijk afwijkt van 1 ha, dienen de indicatieve klassegrenzen vermenigvuldigd te worden met een factor evenredig aan de oppervlaktetoename (of afname) (bv. voor een grasland van 2 ha wordt de ondergrens van talrijk \>100 individuen, berekend uit tweemaal \>50 individuen).
 Eén pol van een polvormende soort wordt als 1 teleenheid/individu gerekend.
 Polvormende soorten zijn bv.
-pijpenstrootje, pitrus, zompzegge, elzenzegge, pluimzegge, buntgras, veelbloemige veldbies, bochtige smele, ... Bij het geclusterd voorkomen van soorten die geen pollen vormen, maar mogelijks wel via rhizomen of ondergrondse worteluitlopers verbonden zijn, worden steeds de individuele bovengrondse delen geteld voor het benaderen van de densiteit (bv. adelaarsvaren, gewoon struisgras, salomonszegel, ...).
+pijpenstrootje, pitrus, zompzegge, elzenzegge, pluimzegge, buntgras, veelbloemige veldbies, bochtige smele, ...
+Bij het geclusterd voorkomen van soorten die geen pollen vormen, maar mogelijks wel via rhizomen of ondergrondse worteluitlopers verbonden zijn, worden steeds de individuele bovengrondse delen geteld voor het benaderen van de densiteit (bv. adelaarsvaren, gewoon struisgras, salomonszegel, ...).
 Net zoals bij de meeste visuele bedekkingsschalen is de beheermonitoringsschaal opgebouwd volgens een geometrische reeks (afstand tussen opeenvolgende klassen is klein bij lage abundantie en wordt groter bij hogere abundantie).
 Het menselijk oog kan immers gemakkelijker verschillen in de lagere densiteiten onderscheiden.
 Een verschil tussen 2 en 8 individuen blijft gemakkelijk waarneembaar, terwijl een verschil tussen 90 en 110 planten visueel amper in te schatten is.
@@ -61,4 +64,3 @@ Maar twee exemplaren zijn uitgegroeid tot een struiklaag en krijgen in deze laag
 Een ander voorbeeld: in een bos met een tapijt bosanemoon onder een scherm van zomereik coderen we beide soorten met de code D dominant.
 Er zijn geen beperking met betrekking to het voorkomen van combinaties van codes, behalve indien mathematisch onmogelijk binnen éénzelfde vegetatielaag (bv. 3 maal de code halfbedekkend in de kruidlaag kan niet).
 Dode exemplaren van planten (bv. éénjarigen) worden als aanwezig genoteerd tenzij het bomen en struiken betreft.
-
