@@ -12,13 +12,13 @@ Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter vis
 ```
 Naar @sutherland2006, @decock2008 en @demeulenaere2002.
 
-De beheermonitoringsschaal zoals in dit protocol beschreven is een herwerking van de methode die voorgesteld is in [@demeulenaere2002].
+De beheermonitoringsschaal zoals in dit protocol beschreven is een herwerking van de methode die voorgesteld is in @demeulenaere2002.
 Naast het herbenoemen van een aantal taalkundig verwarrende categorienamen, zijn er ook naar indicatieve bedekking en abundanties lichte aanpassingen gebeurd.
-De beheermonitoringschaal is in essentie een vorm van de Londo of Braun-Blanquet schaal (zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)) over een grotere oppervlakte.
+De beheermonitoringschaal is in essentie een vorm van de Londo of Braun-Blanquet schaal (zie [protocol sfp-401-nl versie 2023.03](../2023.03/index.html)) maar aangepast voor het maken van vegetatie-opnames over grotere oppervlaktes.
 We bevelen opnames van dit type aan voor inventarisaties van gebruikspercelen in de range van 0.1 ha tot 5 ha.
-Het is daarbij niet de bedoeling om de laatste soort te vinden in een perceel maar eerder om op een relatief snelle wijze de vegetatiesamenstelling goed te beschrijven.
-Bij de beheermonitoringschaal worden de relatieve abundantie en de bedekking van de soort betrokken ter begrenzing van de verschillende categorieën om zo een enigszins eenduidige interpretatie te bevorderen en daarmee vergelijkbaarheid van de gegevens te verhogen.
-De uitgebreide beheermonitoringschaal ziet er als volgt uit:
+Het is daarbij minder de bedoeling om de laatste soort te vinden in een perceel maar eerder om op een relatief snelle wijze de vegetatiesamenstelling van een relatief grotere oppervlakte goed te beschrijven.
+
+De hoofdcodes van de beheermonitoringschaal zien er als volgt uit:
 
 ```{r codes}
 codes <- read.csv2("data/bhm_kort.csv")
@@ -30,7 +30,7 @@ codes %>%
   pander::pander(split.tables = Inf)
 ```
 
-Indien een soort minstens 5% bedekt, worden enkel de codes vanaf B gebruikt (ook al gaat het maar om 1 of enkele individuen).
+Bij de beheermonitoringschaal worden zowel de relatieve abundantie als de bedekking van soorten betrokken ter begrenzing van de verschillende categorieën om zo een enigszins eenduidige interpretatie van een code mogelijk te maken en daarmee de vergelijkbaarheid van de gegevens te verhogen.Indien een soort minstens 5% bedekt, worden enkel de codes vanaf B gebruikt (ook al gaat het maar om 1 of enkele individuen).
 De densiteiten zijn geformuleerd voor oppervlaktes van om en bij 1 ha.
 Indien het bestudeerde perceel duidelijk afwijkt van 1 ha, dienen de indicatieve klassegrenzen vermenigvuldigd te worden met een factor evenredig aan de oppervlaktetoename (of afname) (bv. voor een grasland van 2 ha wordt de ondergrens van talrijk \>100 individuen, berekend uit tweemaal \>50 individuen).
 Eén pol van een polvormende soort wordt als 1 teleenheid/individu gerekend.
@@ -65,3 +65,4 @@ Maar twee exemplaren zijn uitgegroeid tot een struiklaag en krijgen in deze laag
 Een ander voorbeeld: in een bos met een tapijt bosanemoon onder een scherm van zomereik coderen we beide soorten met de code D dominant.
 Er zijn geen beperking met betrekking to het voorkomen van combinaties van codes, behalve indien mathematisch onmogelijk binnen éénzelfde vegetatielaag (bv. 3 maal de code halfbedekkend in de kruidlaag kan niet).
 Dode exemplaren van planten (bv. éénjarigen) worden als aanwezig genoteerd tenzij het bomen en struiken betreft.
+
