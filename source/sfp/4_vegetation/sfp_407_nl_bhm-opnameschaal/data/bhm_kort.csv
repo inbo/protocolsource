@@ -1,0 +1,9 @@
+﻿Code;Naam;Densiteit (per ha);Indicatieve bedekking
+ZS;Zeer Schaars;1-3 individu(en);<<5%
+S;Schaars;4-9 individuen;<<5%
+WT;Weinig  Talrijk;10-49 individuen;<<5%
+T;Talrijk;>= 50 individuen;<5%
+B;Bedekkend;niet van belang;5-25%
+KB;Kwartbedekkend;niet van belang;25-50%
+HB;Halfbedekkend;niet van belang;50-75%
+D;Dominant;niet van belang;>=75%

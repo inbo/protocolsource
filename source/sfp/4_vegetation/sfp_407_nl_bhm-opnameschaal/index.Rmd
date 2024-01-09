@@ -11,7 +11,7 @@ reviewers:
 - Steven De Saeger
 file_manager: Patrik Oosterlynck
 protocol_code: sfp-407-nl
-version_number: '2023.09'
+version_number: '2024.02'
 language: nl
 lang: nl
 template_name: sfp

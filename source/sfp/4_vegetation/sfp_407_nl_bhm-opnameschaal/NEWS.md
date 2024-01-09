@@ -1,8 +1,8 @@
 # Wijzigingen t.o.v. vorige versies
 
-## [2023.09](../2023.09/index.html)
+## [2024.02](../2024.02/index.html)
 
-Dit is de eerste versie van het protocol
+Dit is de eerste versie van dit protocol
 
 ```{=html}
 <!--
