@@ -24,7 +24,7 @@ De uitgebreide beheermonitoringschaal ziet er als volgt uit:
 codes <- read.csv2("data/bhm_kort.csv")
 ```
 
-```{r codes}
+```{r codetable}
 codes %>%
   pander::pander(split.tables = Inf)
 ```
