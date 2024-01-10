@@ -74,7 +74,6 @@ codes_uitg <- read.csv2("data/bhm_uitgebreid.csv")
 
 ```{r codetable_uitgebreid}
 codes_uitg %>%
-  rename("Densiteit per ha" = "Densiteit..per.ha.", "Indicatieve bedekking" = "Indicatieve.bedekking") %>%
   pander::pander(split.tables = Inf)
 ```
 
