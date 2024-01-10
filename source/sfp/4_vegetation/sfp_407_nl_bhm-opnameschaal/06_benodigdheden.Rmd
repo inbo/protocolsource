@@ -16,8 +16,8 @@ Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur me
 -   (eventueel) RTK -- GPS (nauwkeurigheid ongeveer 5 cm)
 -   (eventueel) kompas
 -   (eventueel) digitale camera
--   (eventueel) tablet of veldcomputer
--   (eventueel) Fieldmap configuratie (GPS, digitaal kompas, veldcomputer)
+-   (eventueel) tablet of veldcomputer met benodigde software (bv GIS, INBOVEG, GPS, digitaal kompas, ...)
+-   Fieldmap configuratie
 -   reservebatterijen
 
 ## Materiaal
