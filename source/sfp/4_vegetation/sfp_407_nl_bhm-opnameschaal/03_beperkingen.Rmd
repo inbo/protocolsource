@@ -13,8 +13,8 @@ Vermeld hier ook mogelijke interferenties, knelpunten, ...
 ```
 Indien deze procedure ingezet wordt voor monitoring zijn bijkomende afspraken over de detailgraad, hoe het terrein te doorkruisen en het tijdstip van herbezoek aangewezen om de reproduceerbaarheid te verhogen.
 
-Omdat er densiteiten worden gebruikt dient de teleenheid duidelijk omschreven te worden.
-Dit is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie ook bij hoofdstuk \@ref(werkwijze) Werkwijze .
+Omdat er densiteiten (aantalen/oppervlakte-eenheid) worden gebruikt dient de teleenheid duidelijk omschreven te worden.
+Deze is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie ook bij hoofdstuk \@ref(werkwijze) Werkwijze .
 Alle vegetatie-opnames dienen uitgevoerd te worden in het optimale vegetatieseizoen.
 Dit is afhankelijk van het vegetatietype.
 Factoren die hierbij een rol spelen zijn o.a.
@@ -30,7 +30,7 @@ include_graphics(
                    "seizoen.png"))
 ```
 
-Daarnaast dient er voldoende terugkoppeling te zijn tussen verschillende waarnemers om de variatie tussen de waarnemers zo laag mogelijk te houden.
+Daarnaast dient er regelmatig terugkoppeling en overleg te zijn tussen de verschillende waarnemers over de afspraken om de variatie tussen de waarnemers zo laag mogelijk te houden.
 Bij gegevensverwerking moet rekening worden gehouden met de semi-kwantitatieve aard van de beheermonitoringsschaal en het toepassingsgebied ervan.
 Een mathematische omzetting naar procentuele bedekking is mogelijk en is voorzien in INBOVEG (zie Bijlage \@ref(bijlage-omzetting)), maar hiermee moet omzichtig omgegaan worden i.v.m. schijnnauwkeurigheid van de toegekende waarden.
 Een numerieke verwerking ten behoeve van een vegetatieclassificatie ligt buiten het toepassingsgebied en wordt beter vermeden.
