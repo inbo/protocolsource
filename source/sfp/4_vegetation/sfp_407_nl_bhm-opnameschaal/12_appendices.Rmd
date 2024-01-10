@@ -67,14 +67,3 @@ include_graphics(file.path(
   c("veldform.png")))
 
 ```
-
-# Bijlage Projectfiche en defaultwaarden {#bijlage-projectfiche}
-
-```{r projectfiche, fig.cap="(ref:projectfiche)", fig.align= "center"}
-include_graphics(file.path(path_to_protocol,
-                           "media",
-                           c("projectfiche.png")))
-
-```
-
-Indien afgeweken wordt van de defaultwaarden, geef dan een korte motivatie waarom (of verwijs naar een rapport / referentie).
