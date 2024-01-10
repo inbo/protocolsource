@@ -18,7 +18,7 @@ De beheermonitoringschaal is in essentie een vorm van de Londo of Braun-Blanquet
 We bevelen opnames van dit type aan voor inventarisaties van gebruikspercelen in de range van 0.1 ha tot 5 ha.
 Het is daarbij minder de bedoeling om de laatste soort te vinden in een perceel maar eerder om op een relatief snelle wijze de vegetatiesamenstelling van een relatief grotere oppervlakte goed te beschrijven.
 
-De hoofdcodes van de beheermonitoringschaal zien er als volgt uit:
+De codes van de beheermonitoringschaal zien er als volgt uit:
 
 ```{r codes}
 codes <- read.csv2("data/bhm_kort.csv")
@@ -30,20 +30,31 @@ codes %>%
   pander::pander(split.tables = Inf)
 ```
 
-Bij de beheermonitoringschaal worden zowel de relatieve abundantie als de bedekking van soorten betrokken ter begrenzing van de verschillende categorieën om zo een enigszins eenduidige interpretatie van een code mogelijk te maken en daarmee de vergelijkbaarheid van de gegevens te verhogen.Indien een soort minstens 5% bedekt, worden enkel de codes vanaf B gebruikt (ook al gaat het maar om 1 of enkele individuen).
+Bij de beheermonitoringschaal worden zowel de relatieve abundantie (densiteit) als de bedekking van soorten betrokken ter begrenzing van de verschillende categorieën om zo een enigszins eenduidige interpretatie van een code mogelijk te maken en daarmee de vergelijkbaarheid van de gegevens te verhogen.
+Vanaf een soort minstens 5% bedekt, worden enkel de codes vanaf B gebruikt (ook al gaat het maar om 1 of enkele individuen).
 De densiteiten zijn geformuleerd voor oppervlaktes van om en bij 1 ha.
-Indien het bestudeerde perceel duidelijk afwijkt van 1 ha, dienen de indicatieve klassegrenzen vermenigvuldigd te worden met een factor evenredig aan de oppervlaktetoename (of afname) (bv. voor een grasland van 2 ha wordt de ondergrens van talrijk \>100 individuen, berekend uit tweemaal \>50 individuen).
+Indien het bestudeerde perceel opvallend groter is dan 1 ha, dienen de indicatieve klassegrenzen vermenigvuldigd te worden met een factor evenredig aan de oppervlaktetoename (bv. voor een grasland van 2 ha wordt de ondergrens van talrijk \>100 individuen, berekend uit tweemaal \>50 individuen).
+Voor proefvlakken of percelen kleiner dan 1 ha kan met de standaard klassegrenzen verder gewerkt worden, tenzij daar andere afspraken over gemaakt zouden worden.
+
+**Afspraken met betrekking tot de teleenheid/individuen**
+
+Voor de categorieën waarbij densiteiten relevant zijn is het van belang om de teleenheid goed te definiëren.
 Eén pol van een polvormende soort wordt als 1 teleenheid/individu gerekend.
 Polvormende soorten zijn bv.
 pijpenstrootje, pitrus, zompzegge, elzenzegge, pluimzegge, buntgras, veelbloemige veldbies, bochtige smele, ...
 Bij het geclusterd voorkomen van soorten die geen pollen vormen, maar mogelijks wel via rhizomen of ondergrondse worteluitlopers verbonden zijn, worden steeds de individuele bovengrondse delen geteld voor het benaderen van de densiteit (bv. adelaarsvaren, gewoon struisgras, salomonszegel, ...).
+
 Net zoals bij de meeste visuele bedekkingsschalen is de beheermonitoringsschaal opgebouwd volgens een geometrische reeks (afstand tussen opeenvolgende klassen is klein bij lage abundantie en wordt groter bij hogere abundantie).
 Het menselijk oog kan immers gemakkelijker verschillen in de lagere densiteiten onderscheiden.
 Een verschil tussen 2 en 8 individuen blijft gemakkelijk waarneembaar, terwijl een verschil tussen 90 en 110 planten visueel amper in te schatten is.
 
 In Bijlage \@ref(bijlage-visueel) staan figuren ter visuele ondersteuning van de codes van de beheermonitoringschaal.
-Deze geven een impressie van de ondergrens van het aantal plantenindividuen per eenheid die je waarneemt tijdens een inventarisatie.
-Ze zijn niet te interpreteren als de (veronderstelde) effectieve aantallen (die quasi altijd hoger zijn).
+Deze geven een impressie van de ondergrens van het aantal plantenindividuen per eenheid die je effectief waarneemt tijdens een inventarisatie.
+Ze zijn niet te interpreteren als de (veronderstelde) effectieve aantallen (die quasi altijd hoger zijn dan hetgeen waargenomen wordt).
+
+**Lokaal afwijkende vegetatiepatronen**
+
+Een proefvlak- of perceelsbeschrijving met de beheermonitoringsschaal laat toe om lokale variatie in de vegetatiesamenstelling tot op zekere hoogte te beschrijven.
 Door middel van een suffix aan een code toe te voegen, kan het lokaal voorkomen van soorten in afwijkende vegetatiedelen binnen dezelfde inventarisatie-eenheid specifiek geduid worden (bv. de toegangszone van een grasland met tredsoorten, poel, open plek in bossen, ...).
 Suffix /2 heeft betrekking op een afwijkende vegetatiesamenstelling in 1/4de tot 1/2de van de inventarisatie-eenheid, suffix /4 betreft 1/8ste tot 1/4de en suffix /8 1/8ste of minder van de oppervlakte.
 In Bijlage \@ref(bijlage-visueel) worden enkele figuren ter illustratie van dit principe getoond.
@@ -54,6 +65,21 @@ Daartoe maken we gebruik van het suffix R in combinatie met een schaalcode (bv. 
 Zie ook Bijlage \@ref(bijlage-visueel).
 Bijgevolg wordt een zeker breedte vanaf de rand (afhankelijk van de breedte van de waargenomen randeffecten) buiten beschouwing gelaten voor de rest van de opname.
 Afhankelijk van de doelstellingen van het project kan er voor gekozen worden om de randen al dan niet altijd afzonderlijk te beschrijven of om dat enkel in bepaalde (ecologische relevante) gevallen te doen.
+
+Hieronder worden alle mogelijk codecombinaties van de beheermonitoringschaal weergegeven, met een indicatie van de klassegrenzen qua densiteit en bedekking:
+
+```{r codes_uitgebreid}
+codes_uitg <- read.csv2("data/bhm_uitgebreid.csv")
+```
+
+```{r codetable_uitgebreid}
+codes_uitg %>%
+  rename("Densiteit per ha" = "Densiteit..per.ha.", "Indicatieve bedekking" = "Indicatieve.bedekking") %>%
+  pander::pander(split.tables = Inf)
+```
+
+**Vegetatielagen**
+
 Net zoals bij een klassieke opname, kan bij een opname van dit type ook de vegetatiegelaagdheid worden weergegeven.
 Het betreft meer bepaald: moslaag, kruidlaag, struiklaag, boomlaag.
 Dit geeft een overzicht van de verticale structuur van de vegetatie in het perceel.
@@ -63,6 +89,5 @@ De soorten worden per laag ingeschat maar telkens relatief ten opzichte van het 
 Jonge planten van éénstijlige meidoorn kunnen bijvoorbeeld talrijk voorkomen in de kruidlaag.
 Maar twee exemplaren zijn uitgegroeid tot een struiklaag en krijgen in deze laag de klasse sporadisch toegekend (d.i. hun densiteit over het gehele perceel en niet binnen de struiklaag).
 Een ander voorbeeld: in een bos met een tapijt bosanemoon onder een scherm van zomereik coderen we beide soorten met de code D dominant.
-Er zijn geen beperking met betrekking to het voorkomen van combinaties van codes, behalve indien mathematisch onmogelijk binnen éénzelfde vegetatielaag (bv. 3 maal de code halfbedekkend in de kruidlaag kan niet).
+Er zijn geen beperking met betrekking tot het voorkomen van combinaties van codes, behalve indien mathematisch onmogelijk binnen éénzelfde vegetatielaag (bv. 3 maal de code halfbedekkend in de kruidlaag kan niet of is zeer onwaarschijnlijk).
 Dode exemplaren van planten (bv. éénjarigen) worden als aanwezig genoteerd tenzij het bomen en struiken betreft.
-

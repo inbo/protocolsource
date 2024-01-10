@@ -11,14 +11,14 @@ S8;Schaars in minder dan 1/8 van het proefvlak;4-9 individuen;<<5%
 SR;Schaars in de rand van het proefvlak;4-9 individuen;<<5%
 WT;Weinig Talrijk;10-49 individuen;<<5%
 WT2;Weinig Talrijk in 1/4 tot  1/2 van het proefvlak;10-49 individuen;<<5%
-WT4;Weinig Talrijk in 1/8 tot  1/4 van het proefvlak;;<<5%
-WT8;Weinig Talrijk in minder dan 1/8 van het proefvlak;;<<5%
-WTR;Weinig Talrijk in de rand van het proefvlak;;<<5%
-T;Talrijk;;<5%
-T2;Talrijk in 1/4 tot  1/2 van het proefvlak;;<5%
-T4;Talrijk in 1/4 tot  1/8 van het proefvlak;;<5%
-T8;Talrijk in minder dan 1/8 van het proefvlak;;<5%
-TR;Talrijk in de rand van het proefvlak;;<5%
+WT4;Weinig Talrijk in 1/8 tot  1/4 van het proefvlak;10-49 individuen;<<5%
+WT8;Weinig Talrijk in minder dan 1/8 van het proefvlak;10-49 individuen;<<5%
+WTR;Weinig Talrijk in de rand van het proefvlak;10-49 individuen;<<5%
+T;Talrijk;>=50 individuen;<5%
+T2;Talrijk in 1/4 tot  1/2 van het proefvlak;>=50 individuen;<5%
+T4;Talrijk in 1/4 tot  1/8 van het proefvlak;>=50 individuen;<5%
+T8;Talrijk in minder dan 1/8 van het proefvlak;>=50 individuen;<5%
+TR;Talrijk in de rand van het proefvlak;>=50 individuen;<5%
 B;Bedekkend;niet van belang;5-25%
 B2;Bedekkend in 1/4 tot  1/2 van het proefvlak;niet van belang;5-25%
 B4;Bedekkend in 1/8 tot  1/4 van het proefvlak;niet van belang;5-25%
