@@ -1,5 +1,5 @@
 ---
-title: Veldprotocol voor vegetatie-opname in grote proefvlakken en percelen met behulp van de beheermonitoringschaal
+title: Veldprotocol voor vegetatie-opnames in grote proefvlakken en percelen met behulp van de beheermonitoringschaal
 author:
 - name: Oosterlynck, Patrik
   orcid: 0000-0002-5712-0770
