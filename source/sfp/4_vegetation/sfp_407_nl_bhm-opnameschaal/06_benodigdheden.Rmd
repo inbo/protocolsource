@@ -30,7 +30,7 @@ Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 
 -->
 ```
 -   wegenatlas, kaartmateriaal op voorhand voorbereid via GIS
--   notaboek of --fiches (zie Bijlage \@ref(bijlage-veldformulier))
+-   notaboek of veldformulieren (zie Bijlage \@ref(bijlage-veldformulier))
 -   voldoende schrijfmateriaal
 -   flora (naamgeving volgens Flora van België, Grothertogdom Luxemburg, Noord-Frankrijk en de aangrenzende gebieden [@lambinon1998]
 -   loep (8x, 10x, 15x)
