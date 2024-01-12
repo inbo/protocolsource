@@ -66,7 +66,7 @@ Zie ook Bijlage \@ref(bijlage-visueel).
 Bijgevolg wordt een zeker breedte vanaf de rand (afhankelijk van de breedte van de waargenomen randeffecten) buiten beschouwing gelaten voor de rest van de opname.
 Afhankelijk van de doelstellingen van het project kan er voor gekozen worden om de randen al dan niet altijd afzonderlijk te beschrijven of om dat enkel in bepaalde (ecologische relevante) gevallen te doen.
 
-Hieronder worden alle mogelijk codecombinaties van de beheermonitoringschaal weergegeven, met een indicatie van de klassegrenzen qua densiteit en bedekking:
+Hieronder worden alle mogelijk codecombinaties voor lokale variatie van de weergegeven, met een indicatie van de klassegrenzen qua densiteit en bedekking:
 
 ```{r codes_uitgebreid}
 codes_uitg <- read.csv2("data/bhm_uitgebreid.csv")
@@ -74,6 +74,8 @@ codes_uitg <- read.csv2("data/bhm_uitgebreid.csv")
 
 ```{r codetable_uitgebreid}
 codes_uitg %>%
+  select(CODE, Naam) %>%
+  rename("Codes" = "CODE") %>%
   pander::pander(split.tables = Inf)
 ```
 
