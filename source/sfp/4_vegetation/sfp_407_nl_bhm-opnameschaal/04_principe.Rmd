@@ -26,6 +26,7 @@ codes <- read.csv2("data/bhm_kort.csv")
 
 ```{r codetable}
 codes %>%
+  select(Code,Naam,Densiteit..per.ha,Indicatieve.bedekking) 
   rename("Densiteit per ha" = "Densiteit..per.ha.", "Indicatieve bedekking" = "Indicatieve.bedekking") %>%
   pander::pander(split.tables = Inf)
 ```
@@ -66,7 +67,7 @@ Zie ook Bijlage \@ref(bijlage-visueel).
 Bijgevolg wordt een zeker breedte vanaf de rand (afhankelijk van de breedte van de waargenomen randeffecten) buiten beschouwing gelaten voor de rest van de opname.
 Afhankelijk van de doelstellingen van het project kan er voor gekozen worden om de randen al dan niet altijd afzonderlijk te beschrijven of om dat enkel in bepaalde (ecologische relevante) gevallen te doen.
 
-Hieronder worden alle mogelijk codecombinaties voor lokale variatie van de weergegeven, met een indicatie van de klassegrenzen qua densiteit en bedekking:
+Hieronder worden alle mogelijk codecombinaties voor lokale variatie in een proefvlak of perceel weergegeven:
 
 ```{r codes_uitgebreid}
 codes_uitg <- read.csv2("data/bhm_uitgebreid.csv")

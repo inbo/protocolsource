@@ -1,9 +1,9 @@
 ﻿CODE;Naam;Densiteit per ha;Indicatieve bedekking
 ZS;Zeer Schaars;1-3 individu(en);<<5%
-ZS2;Zeer schaars in 1/4 tot  1/2 van het proefvlak;1-3 individu(en);<<5%
-ZS4;Zeer schaars in 1/8 tot  1/4 van het proefvlak;1-3 individu(en);<<5%
+ZS2;Zeer Schaars in 1/4 tot  1/2 van het proefvlak;1-3 individu(en);<<5%
+ZS4;Zeer Schaars in 1/8 tot  1/4 van het proefvlak;1-3 individu(en);<<5%
 ZS8;Zeer Schaars in minder dan 1/8 van het proefvlak;1-3 individu(en);<<5%
-ZSR;Zeer schaars in de rand van het proefvlak;1-3 individu(en);<<5%
+ZSR;Zeer Schaars in de rand van het proefvlak;1-3 individu(en);<<5%
 S;Schaars;4-9 individuen;<<5%
 S2;Schaars in 1/4 tot  1/2 van het proefvlak;4-9 individuen;<<5%
 S4;Schaars in 1/8 tot  1/4 van het proefvlak;4-9 individuen;<<5%
