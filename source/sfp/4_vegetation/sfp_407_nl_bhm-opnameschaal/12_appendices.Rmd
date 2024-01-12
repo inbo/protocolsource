@@ -45,11 +45,15 @@ include_graphics(
 
 (ref:indcover) Indicatieve omzetting van bedekkingspercentages naar absolute bedekkingen
 
-```{r indcover, fig.cap="(ref:indcover)", fig.align="center"}
-include_graphics(file.path(
-  path_to_protocol, 
-  "media",
-  c("indcover_bhm.png")))
+```{r codes_abs}
+codes_abs <- read.csv2("data/bhm_kort.csv")
+```
+
+```{r codetable_abs}
+codes_abs %>%
+  select(Code,Naam,Absolute.bedekking) %>%
+  rename("Absolute bedekking" = "Absolute.bedekking") %>%
+  pander::pander(split.tables = Inf)
 ```
 
 Voor de lokale varianten van een categorie (X/2, X/4, X/8 en XR) wordt de standaard procentuele bedekking van de categorie vermenigvuldigd met een respectievelijke factor 3/8, 3/16, 1/16 en 1/16.
