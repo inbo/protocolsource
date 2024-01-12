@@ -41,7 +41,7 @@ include_graphics(
 )
 ```
 
-# Bijlage Indicatieve omzetting naar een bedekkingspercentage {#bijlage-omzetting}
+# Bijlage Mathematische omzetting van de BHM_codes naar een absoluut bedekkingspercentage ten behoeve van een gegevensanalyse {#bijlage-omzetting}
 
 (ref:indcover) Indicatieve omzetting van bedekkingspercentages naar absolute bedekkingen
 
