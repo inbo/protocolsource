@@ -1,0 +1,25 @@
+# Veiligheid
+
+```{=html}
+<!--
+Alle aandachtspunten in verband met veilig werken.
+-->
+```
+Het deelrecipiënt voor het bepalen van metalen (falcontube 30 ml met witte dop) bevat van 250 $\mu$l geconcentreerd salpeterzuur (HNO~3~).
+Bij het openen van het recipiënt kunnen zure dampen vrijkomen en moeten de nodige veiligheidsmaatregelen in acht genomen worden (buisje niet te dicht bij de mond houden!).
+Vermijd ook contact van het zuur met de huid!
+Bij ongeval raadpleeg onderstaande H en P zinnen.
+
+Salpeterzuur
+
+-   H272: Kan brand bevorderen; oxiderend.
+
+-   H314: Veroorzaakt ernstige brandwonden.
+
+-   P220: Van kleding/.../brandbare stoffen verwijderd houden/bewaren.
+
+-   P280: Beschermende handschoenen, kleding, oogbescherming, gelaatsbescherming dragen.
+
+-   P305+P351+P338: Bij contact met de ogen: voorzichtig afspoelen met water gedurende een aantal minuten; contactlenzen verwijderen, indien mogelijk; blijven spoelen.
+
+-   P310: Na inslikken: Onmiddellijk een ANTIGIFCENTRUM/arts/... raadplegen.

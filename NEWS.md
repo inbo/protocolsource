@@ -1,3 +1,24 @@
+### First version of protocol: sfp-201-nl
+
+- Title: Bemonsteren aan de hand van oppervlaktemonsters
+- Published on: 2024-01-08
+- Version number: 2024.01
+- Link to this version: [sfp-201-nl version 2024.01](2024.01/index.html)
+
+### First version of protocol: sfp-106-nl
+
+- Title: Richtlijnen voor het bepalen van het waterpeil in peilbuizen
+- Published on: 2023-12-12
+- Version number: 2023.10
+- Link to this version: [sfp-106-nl version 2023.10](2023.10/index.html)
+
+### First version of protocol: sfp-105-nl
+
+- Title: Richtlijnen voor het bemonsteren van peilbuizen
+- Published on: 2023-12-12
+- Version number: 2023.09
+- Link to this version: [sfp-105-nl version 2023.09](2023.09/index.html)
+
 ### First version of protocol: spp-001-nl
 
 - Title: Veldprotocol Kwaliteitsmeetnet Natura 2000 habitats partim heidehabitats

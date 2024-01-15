@@ -1,0 +1,107 @@
+# Benodigdheden
+
+## Apparatuur
+
+```{=html}
+<!--
+Opsomming van de apparatuur die nodig is en verwijzingen naar de sip's (Standard Instrument Procedure; <protocol-code>-YYYY.NN) indien die er zijn.
+Indien geen specifiek sip's voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
+-->
+```
+-   Er zijn allerhande toestellen met **GPS** mogelijkheden op de markt.
+    Al deze toestellen kunnen gebruikt worden.
+    Vermits de nauwkeurigheid echter afhangt van het type toestel, wordt het type gehanteerde toestel op het opnameformulier vermeld.
+    Mogelijke typen zijn:
+
+    -   RTK GPS
+    -   Trimble met externe antenne
+    -   Handheld GPS (Garmin, ...)
+    -   Smartphone, iPad, iPhone
+
+-   **Digitaal fototoestel** (met correcte datum en uurinstelling) of Smartphone, tablet, iPad, iPhone met ingebouwd fototoestel.
+    Correcte instelling van datum en uur is van belang om de foto's correct te kunnen archiveren.
+
+## Materiaal
+
+```{=html}
+<!--
+Opsomming van gebruikte materialen.
+Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen, materiaal, ... 
+vb. vermeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit PE, met afsluitbare deksel uit PP.
+-->
+```
+-   **Gutsboor:** Een grondboor van het type 'guts' (Eng. Gouge auger, figuur \@ref(fig:gutsboren)). bestaat uit een cilindervormig boorlichaam waarvan het werkzame deel half cilindrisch is en van boven naar beneden een evenwijdig verloop heeft. Aan de onderzijde bevindt zich een scherpe snijrand. De minimale lengte van de holle buis moet 10 cm langer zijn dan de vooropgestelde bemonsteringsdiepte. De bemonsteringsdiepten moeten aangegeven zijn op de boor. Een diameter van 25 mm is meest geschikt voor de hier beschreven toepassing (minimale verstoring en toch voldoende monster). In zachte gronden wordt een gutsboor gebruikt zonder slagkop (figuur \@ref(fig:gutsboren) links); in hardere gronden een gutsboor mét slagkop (figuur \@ref(fig:gutsboren) rechts).
+
+(ref:gutsboren) **Links (Foto 1):** Set van gutsboren voor gebruik in zachte gronden [*©Eijkelkamp*](https://www.eijkelkamp.com/images/articles/1012/2f036e4b81700f990936f8ffdf5af7ac.jpg); **Rechts (Foto 2):** Set van gutsboren voor een iets hardere bodem. De gutsen zijn voorzien van een slagkop waarop men met een terugslagvrije hamer kan slaan om de guts dieper in de grond te brengen. [*©Eijkelkamp*](http://www.envco.ro/public/uploaded/640x480/soil-core-sampler-specific-1297995531.jpg)
+
+```{r gutsboren, fig.cap = "(ref:gutsboren)", fig.show = "hold", out.width = "50%", fig.align = "default"}
+include_graphics(
+  path = c("./media/image1.jpg", 
+           "./media/image2.jpg"))
+```
+
+-   1 **Afvalemmertje** (2,5 tot 3,0 L, polypropyleen)
+
+-   1 **Mengemmertje** (2,5 tot 3,0 L, polypropyleen) om het mengmonster aan te maken
+
+-   1 Universele **handborstel** van staaldraad (zie foto 2)
+
+-   **Documentatie** om het betreffende proefvlak te lokaliseren:
+
+    -   Afdruk van de orthofoto
+
+    -   aanduiding op topografische kaart
+
+    -   X en Y coördinaat indien de locatie vooraf reeds bepaald is (WGS84, latitude longitude coördinaten in decimale graden)
+
+    -   beschrijving van de toegankelijkheid van het terrein, situatieschets, vegetatietype, al dan niet aanwezigheid van peilbuis,...)
+
+-   **Legitimatiekaart en machtiging** van de beheerder of eigenaar van het terrein om het betreffende terrein te betreden en bodemmonsters te nemen
+
+-   **Kompas** (analoog, op GPS of App op smartphone)
+
+-   **Doek** (synthetisch of katoen) om materiaal te reinigen en af te drogen
+
+-   **Hamer**, terugslagvrije, staal met nylon kop (zie Figuur \@ref(fig:gutsboren))
+
+-   **Koelbox of koeltas** met vooraf gekoelde koelelementen
+
+-   1 **meetlint**, oprolbaar, min 25 m lengte (stalen of fibreglas) om hoekpunten proefvlak uit te zetten)
+
+-   1 **recipiënt** (monsterbakje), inhoud 750 ml, (zwart) bakje uit PP (polypropyleen) met doorzichtig deksel van (type Jorapack B x H x L = 15 \* 5 \* 18 cm)
+
+-   (Voorgedrukte met proefvlakcode) zelfklevende **etiketten**, type 'Heavy Duty', aantal: 1 per monster
+
+-   1 **spatel**, gebogen (Spatel 20, Eijkelkamp, Figuur \@ref(fig:gutsboren))
+
+-   **Opnameformulier** (zie voorbeeld in bijlage \@ref(bijlage-opnameformulier))
+
+-   **Schrijfmateriaal**: potlo(o)d(en), gum, slijper, dikke permanente markeerstift,
+
+-   (Voorgedrukte) **labels** ter markering van het **proefvlak** op de foto (aantal 1/proefvlak)
+
+-   **Schrijfplank**
+
+-   **Vouwmeter** (lengte 2 meter met centimeteraanduiding en wisselende kleuraanduiding voor de decimeters)
+
+-   4 **bamboestokjes** ter markering van de hoekpunten van het proefvlak
+
+## Reagentia en oplossingen (indien van toepassing)
+
+```{=html}
+<!--
+Een opsomming van reagentia, welke zuiverheid, volume, veiligheidsvoorschriften.
+vb. Zwavelzuur (H2SO4), geconcentreerd (96%), pro analyse + veiligheidsinfo (sterk zuur, bijtend, gebruik handschoenen, bril en masker bij gebruik)
+Een opsomming van oplossingen, welke zuiverheid, volume, veiligheidsvoorschriften.
+Indien deze oplossingen zelf worden bereid, vermeld dan ook de bereidingswijze.
+vb: Zwavelzuur 1M: verdun zwavelzuur geconcentreerd 18 maal met ultrapuur water.
+Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
+-->
+```
+-   Leidingwater in plastieken bidon, inhoud 5 L om materiaal te reinigen
+
+-   Drie druppelflesjes (inhoud 30-50 ml) met de volgende reagentia/oplossingen:
+
+    -   Zoutzuur (HCl), 10 %. Sterk zuur, bijtend. Gebruik handschoenen bij gebruik druppelflesje.
+    -   $\alpha$ -- $\alpha$' dipyridyl (IUPAC 2,2'-Bipyridine) is een 97% zuivere vaste stof in oplossing gebracht met 1 N ammoniumacetaat gebufferd op pH=7. Gebruik handschoenen bij gebruik druppelflesje.
+    -   Waterstofperoxide (H~2~O~2~), 10 %. Sterk zuur. Gebruik handschoenen bij gebruik druppelflesje.

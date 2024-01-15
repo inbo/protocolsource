@@ -1,0 +1,11 @@
+# Beperkingen van het protocol
+
+```{=html}
+<!--
+Alleen in te vullen indien van toepassing.
+Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol.
+Vermeld hier ook mogelijke interferenties, knelpunten, ...
+-->
+```
+De tekst gaat niet in op andere methodes om het peil te meten zoals akoestische metingen of drukmetingen in gesloten peilbuizen.
+Voor metingen in sterk zilte of sterk verontreinigde omstandigheden en grondwater in diepe en afgesloten watervoerende lagen zijn correcties en extra voorzorgsmaatregelen vereist die hier niet worden besproken.
