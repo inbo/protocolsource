@@ -22,7 +22,7 @@ In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, 
 
 ## Na de campagne
 
--   Checken of alle vermelde soorten kunnen voorkomen op die bepaalde standplaatsen o.a. door af te toetsen met de: floradatabank, waarnemingen.be
+-   Checken of alle vermelde soorten kunnen voorkomen op die bepaalde standplaatsen o.a. door af te toetsen met de: floradatabank, waarnemingen.be.
 -   Invoeren van de opname in InboVeg
 -   Inscannen veldnotities/veldformulieren en centraal in projectmap zetten. Een verwijzing (bv. link naar het bestand op google drive) kan als referentie aan de opname in InboVeg worden gekoppeld.
 -   De foto's worden gearchiveerd met behulp van een databank
