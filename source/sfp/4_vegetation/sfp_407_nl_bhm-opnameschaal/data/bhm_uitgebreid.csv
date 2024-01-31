@@ -1,0 +1,41 @@
+﻿CODE;Naam;Densiteit per ha;Indicatieve bedekking
+ZS;Zeer Schaars;1-3 individu(en);<<5%
+ZS2;Zeer Schaars in 1/4 tot  1/2 van het proefvlak;1-3 individu(en);<<5%
+ZS4;Zeer Schaars in 1/8 tot  1/4 van het proefvlak;1-3 individu(en);<<5%
+ZS8;Zeer Schaars in minder dan 1/8 van het proefvlak;1-3 individu(en);<<5%
+ZSR;Zeer Schaars in de rand van het proefvlak;1-3 individu(en);<<5%
+S;Schaars;4-9 individuen;<<5%
+S2;Schaars in 1/4 tot  1/2 van het proefvlak;4-9 individuen;<<5%
+S4;Schaars in 1/8 tot  1/4 van het proefvlak;4-9 individuen;<<5%
+S8;Schaars in minder dan 1/8 van het proefvlak;4-9 individuen;<<5%
+SR;Schaars in de rand van het proefvlak;4-9 individuen;<<5%
+WT;Weinig Talrijk;10-49 individuen;<<5%
+WT2;Weinig Talrijk in 1/4 tot  1/2 van het proefvlak;10-49 individuen;<<5%
+WT4;Weinig Talrijk in 1/8 tot  1/4 van het proefvlak;10-49 individuen;<<5%
+WT8;Weinig Talrijk in minder dan 1/8 van het proefvlak;10-49 individuen;<<5%
+WTR;Weinig Talrijk in de rand van het proefvlak;10-49 individuen;<<5%
+T;Talrijk;>=50 individuen;<5%
+T2;Talrijk in 1/4 tot  1/2 van het proefvlak;>=50 individuen;<5%
+T4;Talrijk in 1/4 tot  1/8 van het proefvlak;>=50 individuen;<5%
+T8;Talrijk in minder dan 1/8 van het proefvlak;>=50 individuen;<5%
+TR;Talrijk in de rand van het proefvlak;>=50 individuen;<5%
+B;Bedekkend;niet van belang;5-25%
+B2;Bedekkend in 1/4 tot  1/2 van het proefvlak;niet van belang;5-25%
+B4;Bedekkend in 1/8 tot  1/4 van het proefvlak;niet van belang;5-25%
+B8;Bedekkend in minder dan 1/8 van het proefvlak;niet van belang;5-25%
+BR;Bedekkend in de rand van het proefvlak;niet van belang;5-25%
+KB;Kwartbedekkend;niet van belang;25-50%
+KB2;Kwartbedekkend in 1/4 tot  1/2 van het proefvlak;niet van belang;25-50%
+KB4;Kwartbedekkend in 1/8 tot  1/4 van het proefvlak;niet van belang;25-50%
+KB8;Kwartbedekkend in minder dan 1/8 van het proefvlak;niet van belang;25-50%
+KBR;Kwartbedekkend in de rand van het proefvlak;niet van belang;25-50%
+HB;Halfbedekkend;niet van belang;50-75%
+HB2;Halfbedekkend in 1/4 tot  1/2 van het proefvlak;niet van belang;50-75%
+HB4;Halfbedekkend in 1/8 tot  1/4 van het proefvlak;niet van belang;50-75%
+HB8;Halfbedekkend in minder dan 1/8 van het proefvlak;niet van belang;50-75%
+HBR;Halfbedekkend in de rand van het proefvlak;niet van belang;50-75%
+D;Dominant;niet van belang;>=75%
+D2;Dominant in 1/4 tot  1/2 van het proefvlak;niet van belang;>=75%
+D4;Dominant in 1/8 tot  1/4 van het proefvlak;niet van belang;>=75%
+D8;Dominant in minder dan 1/8 van het proefvlak;niet van belang;>=75%
+DR;Dominant in de rand van het proefvlak;niet van belang;>=75%

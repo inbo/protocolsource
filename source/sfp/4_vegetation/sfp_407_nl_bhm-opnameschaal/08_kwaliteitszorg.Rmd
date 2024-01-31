@@ -1,0 +1,32 @@
+# Kwaliteitszorg
+
+```{=html}
+<!--
+Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen.
+Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld, ...).
+Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen.
+In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
+-->
+```
+## Voor de campagne
+
+-   Opleiding voor de terreinmedewerkers (soortenkennis, inschatting bedekkingen, interpretatie van de codes). Dit kan onder meer door in groep en met behulp van voorbeeldfiguren de inschattingen op elkaar af te stellen (zie ook Bijlage \@ref(bijlage-visueel)).
+-   Nakijken of alle nodige apparatuur en materiaal aanwezig is en functioneert.
+-   De nodige toelatingen regelen voor het betreden van de studiegebieden.
+
+## Tijdens de campagne
+
+-   Minimalisatie van variatie in uitwendige omstandigheden: opeenvolgende inventarisaties worden best zoveel mogelijk door dezelfde waarnemer uitgevoerd. De herhaling van opnames in het volgende jaar (of cyclus van jaren) dienen steeds rond dezelfde periode te gebeuren.
+-   Determinatiefouten kunnen opgevangen worden door bij onzekerheden foto's of beter nog, exemplaren te verzamelen (mossen in enveloppes, planten tussen krantenpapier in een herbariumpers). Zeldzame soorten worden niet ingezameld! Er wordt dan een tijdelijke naam (specx_volgnummer) gegeven en de foto of enveloppe wordt gelabeld met de unieke identificatiecode van de vegetatie-opname en de datum.
+-   Overlopen van de toegekende codes: nakijken of er een enigszins realistische totaal van bedekkingen wordt gemaakt.
+
+## Na de campagne
+
+-   Checken of alle vermelde soorten kunnen voorkomen op die bepaalde standplaatsen o.a. door af te toetsen met de: floradatabank, waarnemingen.be.
+-   Invoeren van de opname in InboVeg.
+-   Inscannen veldnotities/veldformulieren en centraal in projectmap zetten. Een verwijzing (bv. link naar het bestand op google drive) kan als referentie aan de opname in InboVeg worden gekoppeld.
+-   De foto's worden gearchiveerd met behulp van een databank.
+
+## Betrouwbaarheid
+
+-   Reproduceerbaarheid van de methode kan geëvalueerd worden door verschillende waarnemers onafhankelijk van elkaar hetzelfde perceel te laten beoordelen.

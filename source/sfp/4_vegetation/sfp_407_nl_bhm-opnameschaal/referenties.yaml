@@ -1,0 +1,210 @@
+---
+references:
+- id: demeulenaere2002
+  author:
+  - family: Demeulenaere
+    given: E
+  - family: Schollen
+    given: K
+  - family: Vandomme
+    given: V
+  - family: T'Jollyn
+    given: F
+  - family: Hendrickx
+    given: F
+  - family: Maelfait
+    given: J P
+  - family: Hoffmann
+    given: M
+  issued: 2002
+  key: UTRVVEC6
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: "Instituut voor Natuurbehoud: Rapport Instituut voor
+    Natuurbehoud 2002.09."
+  title: Een hiërarchisch monitoringssyteem voor beheersevaluatie van
+    natuurreservaten in Vlaanderen.
+  type: report
+- id: vriens2011
+  author:
+  - family: Vriens
+    given: Lieve
+  - family: Bosch
+    given: Hans
+  - family: De Knijf
+    given: Geert
+  - family: De Saeger
+    given: Steven
+  - family: Guelinckx
+    given: Robin
+  - family: Oosterlynck
+    given: Patrik
+  - family: Van Hove
+    given: Martine
+  - family: Paelinckx
+    given: Desiré
+  collection-title: Mededelingen van het Instituut voor Natuur- en
+    Bosonderzoek
+  issued: 2011
+  key: GAE5CW4F
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Instituut voor Natuur- en Bosonderzoek
+  title: "De biologische waarderingskaart: biotopen en hun verspreiding
+    in vlaanderen en het Brussels Hoofdstedelijk Gewest"
+  type: book
+  volume: INBO.M.2011.1
+- id: desaeger2014
+  author:
+  - family: De Saeger
+    given: Steven
+  - family: Hoffmann
+    given: M.
+  - family: Louette
+    given: G.
+  - family: Oosterlynck
+    given: P.
+  - family: Paelinckx
+    given: D.
+  issued: 2014
+  key: 3A3VHK2A
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: INBO.A.2013.127
+  title: Historisch permanent grasland anno 2013 in de West-Vlaamse
+    polders en het Meetjeslands krekengebied
+  type: article
+- id: vriens2011
+  author:
+  - family: Vriens
+    given: Lieve
+  - family: Bosch
+    given: Hans
+  - family: De Knijf
+    given: Geert
+  - family: De Saeger
+    given: Steven
+  - family: Guelinckx
+    given: Robin
+  - family: Oosterlynck
+    given: Patrik
+  - family: Van Hove
+    given: Martine
+  - family: Paelinckx
+    given: Desiré
+  collection-title: Mededelingen van het Instituut voor Natuur- en
+    Bosonderzoek
+  issued: 2011
+  key: GAE5CW4F
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Instituut voor Natuur- en Bosonderzoek
+  title: "De biologische waarderingskaart: biotopen en hun verspreiding
+    in vlaanderen en het Brussels Hoofdstedelijk Gewest"
+  type: book
+  volume: INBO.M.2011.1
+- id: decock2008
+  author:
+  - family: De Cock
+    given: R.
+  - family: Hoffmann
+    given: M.
+  - family: Maes
+    given: D.
+  - family: De Blust
+    given: G.
+  collection-title: Rapport Instituut voor Natuurbehoud
+  issued: 2008
+  key: 437BKN7I
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher-place: Brussel
+  title: "Begeleiding en opvolging van de beheermonitoring van de
+    Vlaamse Natuurreservaten : vademecum deel 1 en 2 : concept
+    beheermonitoring en methodiek met technische bijlagen en
+    multisoortenlijsten"
+  type: book
+- id: sutherland2006
+  author:
+  - family: Sutherland
+    given: W.J.
+  issued: 2006
+  key: F4JWHBCV
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Cambridge University Press
+  publisher-place: Cambridge, UK
+  title: Ecological Census Techniques---A Hand Book. 2nd Edition
+  type: book
+- id: kent1994
+  author:
+  - family: Kent
+    given: M.
+  - family: Coker
+    given: P.
+  issued: 1994
+  key: RHFRTJKC
+  language: Engels
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: John Wiley & Sons
+  title: Vegetation Description and Analysis
+  type: book
+- id: lambinon1998
+  author:
+  - family: Lambinon
+    given: J.
+  - family: De Langhe
+    given: J.-E.
+  - family: Delvosalle
+    given: L.
+  - family: Duvigneaud
+    given: J.
+  issued: 1998
+  key: VVTSZU5Q
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Flora van België, het Groothertogdom Luxemburg, Noord-Frankrijk
+    en de aangrenzende gebieden (Pteridofyten en Spermatofyten)
+  type: book
+- id: lambinon1998a
+  author:
+  - family: Lambinon
+    given: J.
+  - family: De Langhe
+    given: J.-E.
+  - family: Delvosalle
+    given: L.
+  - family: Duvigneaud
+    given: J.
+  issued: 1998
+  key: VVTSZU5Q
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Flora van België, het Groothertogdom Luxemburg, Noord-Frankrijk
+    en de aangrenzende gebieden (Pteridofyten en Spermatofyten)
+  type: book
+- id: lambinon1998
+  author:
+  - family: Lambinon
+    given: J.
+  - family: De Langhe
+    given: J.-E.
+  - family: Delvosalle
+    given: L.
+  - family: Duvigneaud
+    given: J.
+  issued: 1998
+  key: VVTSZU5Q
+  language: Nederlands
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Flora van België, het Groothertogdom Luxemburg, Noord-Frankrijk
+    en de aangrenzende gebieden (Pteridofyten en Spermatofyten)
+  type: book
+...

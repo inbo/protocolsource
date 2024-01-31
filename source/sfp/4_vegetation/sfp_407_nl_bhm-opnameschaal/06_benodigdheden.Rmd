@@ -1,0 +1,56 @@
+---
+bibliography: referenties.yaml
+---
+
+# Benodigdheden
+
+## Apparatuur
+
+```{=html}
+<!--
+Opsomming van de apparatuur die nodig is en verwijzingen naar de `sip`'s (Standaard Instrument Procedure; `<protocol-code>-YYYY.NN`) indien die er zijn.
+Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
+-->
+```
+-   hand-GPS (nauwkeurigheid +/- 5 m)
+-   (eventueel) RTK -- GPS (nauwkeurigheid ongeveer 5 cm)
+-   (eventueel) kompas
+-   (eventueel) digitale camera
+-   (eventueel) tablet of veldcomputer met benodigde software (bv GIS, INBOVEG, GPS, digitaal kompas, ...)
+-   Fieldmap configuratie
+-   reservebatterijen
+
+## Materiaal
+
+```{=html}
+<!--
+Opsomming van gebruikte materialen.
+Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen, materiaal, ... 
+Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit `PE`, met afsluitbare deksel uit `PP`.
+-->
+```
+-   wegenatlas, kaartmateriaal op voorhand voorbereid via GIS
+-   notaboek of veldformulieren (zie Bijlage \@ref(bijlage-veldformulier))
+-   voldoende schrijfmateriaal
+-   flora (naamgeving volgens Flora van België, Grothertogdom Luxemburg, Noord-Frankrijk en de aangrenzende gebieden [@lambinon1998]
+-   loep (8x, 10x, 15x)
+-   lint- (min. 5m) of vouwmeter
+-   4 markeerstokken + touw (met markering proefvlaklengte en -diagonaal)
+-   eventueel markeerverf voor in bossystemen
+-   recipiënten (mapjes, krantenpapier, plastic zakje) om niet gedetermineerde planten te bewaren
+-   paraplu (om papieren droog te houden)
+-   (eventueel) materiaal voor permanente markering (bv. fenopaal)
+
+## Reagentia en oplossingen (indien van toepassing)
+
+```{=html}
+<!--
+Een opsomming van reagentia, welke zuiverheid, volume, veiligheidsvoorschriften.
+Bijvoorbeeld. Zwavelzuur (`H2SO4`), geconcentreerd (96%), pro analyse en veiligheidsinfo (sterk zuur, bijtend, gebruik handschoenen, bril en masker bij gebruik)
+Een opsomming van oplossingen, welke zuiverheid, volume, veiligheidsvoorschriften.
+Indien deze oplossingen zelf worden bereid, vermeld dan ook de bereidingswijze.
+bijvoorbeeld: Zwavelzuur `1M`: verdun zwavelzuur geconcentreerd 18 maal met `ultrapuur` water.
+Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
+-->
+```
+Niet van toepassing
