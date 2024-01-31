@@ -14,7 +14,7 @@ Vermeld hier ook mogelijke interferenties, knelpunten, ...
 Indien deze procedure ingezet wordt voor monitoring zijn bijkomende afspraken over de detailgraad, hoe het terrein te doorkruisen en het tijdstip van herbezoek aangewezen om de reproduceerbaarheid te verhogen.
 
 Omdat er densiteiten (aantalen/oppervlakte-eenheid) worden gebruikt dient de teleenheid duidelijk omschreven te worden.
-Deze is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie ook bij hoofdstuk \@ref(werkwijze) Werkwijze .
+Deze is afhankelijk van de groeivorm van de plantensoort (bv. zijn alle bladeren van een adelaarsvaren één teleenheid, ondergronds verbonden door een wortelstok of dienen we elk afzonderlijk blad als teleenheid te rekenen; zie ook bij hoofdstuk \@ref(werkwijze) Werkwijze.
 Alle vegetatie-opnames dienen uitgevoerd te worden in het optimale vegetatieseizoen.
 Dit is afhankelijk van het vegetatietype.
 Factoren die hierbij een rol spelen zijn o.a.
