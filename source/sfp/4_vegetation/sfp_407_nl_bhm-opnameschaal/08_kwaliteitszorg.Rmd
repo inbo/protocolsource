@@ -16,7 +16,7 @@ In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, 
 
 ## Tijdens de campagne
 
--   Minimalisatie van variatie in uitwendige omstandigheden, dus bij opeenvolgende inventarisaties deze best zoveel mogelijk door dezelfde waarnemer laten uitvoeren. De herhaling van opnames in het volgende jaar (of cyclus van jaren) dienen steeds rond dezelfde periode te gebeuren.
+-   Minimalisatie van variatie in uitwendige omstandigheden: opeenvolgende inventarisaties worden best zoveel mogelijk door dezelfde waarnemer uitgevoerd. De herhaling van opnames in het volgende jaar (of cyclus van jaren) dienen steeds rond dezelfde periode te gebeuren.
 -   Determinatiefouten kunnen opgevangen worden door bij onzekerheden foto's of beter nog, exemplaren te verzamelen (mossen in enveloppes, planten tussen krantenpapier in een herbariumpers). Zeldzame soorten worden niet ingezameld! Er wordt dan een tijdelijke naam (specx_volgnummer) gegeven en de foto of enveloppe wordt gelabeld met de unieke identificatiecode van de vegetatie-opname en de datum.
 -   Overlopen van de toegekende codes: nakijken of er een enigszins realistische totaal van bedekkingen wordt gemaakt.
 
