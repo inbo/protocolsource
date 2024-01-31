@@ -29,7 +29,7 @@ include_graphics(
 include_graphics(
   path = file.path(
     path_to_protocol,
-    "media","dominant-1.png"
+    "media",c("dominant-1.png")
     )
   )
 ```
