@@ -2,7 +2,7 @@
 
 # Bijlage Visuele ondersteuning beheermonitoringschaal {#bijlage-visueel}
 
-De figuren geven voor elke code uit de beheermonitoringschaal een minimale en maximale visuele indruk van de waargenomen aantallen die men waarneemtbij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning)).
+De figuren geven voor elke code uit de beheermonitoringschaal een minimale en maximale visuele indruk van de waargenomen aantallen die men waarneemt bij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning)).
 ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
 (ref:visueleondersteuning) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
