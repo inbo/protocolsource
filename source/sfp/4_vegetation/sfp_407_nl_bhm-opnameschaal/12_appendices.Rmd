@@ -2,10 +2,10 @@
 
 # Bijlage Visuele ondersteuning beheermonitoringschaal {#bijlage-visueel}
 
-De figuren geven voor elke code uit de beheermonitoringschaal een minimale en maximale visuele indruk van de waargenomen aantallen die men waarneemt bij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning_2)).
+De figuren geven voor elke code uit de beheermonitoringschaal een minimale en maximale visuele indruk van de waargenomen aantallen die men waarneemt bij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning2)).
 ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
-(ref:visueleondersteuning_2) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
+(ref:visueleondersteuning2) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
 ```{r visueleondersteuning, fig.cap= FALSE, fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
 include_graphics(
@@ -25,7 +25,7 @@ include_graphics(
 )
 ```
 
-```{r visueleondersteuning_2, fig.cap= "(ref:visueleondersteuning_2)", fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
+```{r visueleondersteuning2, fig.cap= "(ref:visueleondersteuning_2)", fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
 include_graphics(
   path = file.path(
     path_to_protocol,
