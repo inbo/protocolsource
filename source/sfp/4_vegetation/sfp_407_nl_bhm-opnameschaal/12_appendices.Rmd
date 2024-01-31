@@ -2,12 +2,12 @@
 
 # Bijlage Visuele ondersteuning beheermonitoringschaal {#bijlage-visueel}
 
-De figuren geven voor elke code uit de beheermonitoringschaal een minimale en maximale visuele indruk van de waargenomen aantallen die men waarneemt bij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning)).
+De figuren geven voor elke code uit de beheermonitoringschaal een minimale en maximale visuele indruk van de waargenomen aantallen die men waarneemt bij het doorkruisen van een inventarisatie-eenheid (Figuur \@ref(fig:visueleondersteuning_2)).
 ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
-(ref:visueleondersteuning) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
+(ref:visueleondersteuning_2) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
-```{r visueleondersteuning, fig.cap="(ref:visueleondersteuning)", fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
+```{r visueleondersteuning, fig.cap= FALSE, fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
 include_graphics(
   path = file.path(
     path_to_protocol,
@@ -23,6 +23,15 @@ include_graphics(
     )
   )
 )
+```
+
+```{r visueleondersteuning_2, fig.cap= "(ref:visueleondersteuning_2)", fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
+include_graphics(
+  path = file.path(
+    path_to_protocol,
+    "media","dominant-1.png"
+    )
+  )
 ```
 
 Figuur \@ref(fig:rand-afwijkend) toont enkele voorbeelden hoe de beheermonitoringschaal omgaat met situaties waarbij een soort alleen voorkomt in lokaal afwijkende vegetatie of randsituaties (meer dan twee klassen verschil in bedekkingschaal tussen de afwijkende vegetatievlek of de randzone en de rest van het perceel of habitatvlek).
