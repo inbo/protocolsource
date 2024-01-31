@@ -68,7 +68,7 @@ De hier opgesomde voorbereidende stappen kunnen sterk afhankelijk zijn van de do
     4 oude eiken in een grasland, die samen ongeveer 10% bedekken, krijgen niet de code 'Schaars' maar wel 'Bedekkend'.
     Bij fijnbladige soorten kan het aangewezen zijn om een correctiefactor toe te passen aangezien de bedekking binnen de contour van deze planten niet 100% is (bv. smalbladige wilgen).
     Een strategie om de bedekking van zulke soorten in te schatten is dan ook de bedekking voor de verticale projectie van de omhullenden te schatten en deze naar beneden te corrigeren (0 \< correctiefactor \< 1) voor de ijlheid van het gebladerte.
-    Deze correctiefactor is opnieuw een visuele schatting, maar dan één die éénmalig kan geschat worden en daarna consequent gebruikt.
+    Deze correctiefactor is opnieuw een visuele schatting, maar dan een die eenmalig kan geschat worden en daarna consequent gebruikt.
     De totale bedekkingen van strooisellaag, algenlaag, moslaag, kruidlaag, boom- en struiklaag worden afzonderlijk ingeschat met telkens maximaal 100% bedekking.
     Daarnaast wordt ook de totale bedekking over de lagen heen ingeschat (dit is 100% min de bedekking van onbedekte bodem of open water).
     De standaard INBO-schaal voor de bedekking (INBO-structuur in INBOVEG) is een rechtstreekse schatting van het percentage in sprongen van 10%, 5% en 1%, waarbij op de uiteinden van de schaal kleinere sprongen genomen worden.
