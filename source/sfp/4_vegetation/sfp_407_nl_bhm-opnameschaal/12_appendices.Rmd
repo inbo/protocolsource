@@ -7,7 +7,7 @@ ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend,
 
 (ref:visueleondersteuning) Visuele ondersteuning van de codes van de beheermonitoringschaal. ZS = zeer schaars, S = schaars, WT = weinig talrijk, T = talrijk, B = bedekkend, KB = kwartbedekkend, HB = halfbedekkend en D = dominant.
 
-```{r visueleondersteuning, fig.cap= FALSE, fig.show=ifelse(is_html_output(), "hold", "asis"), fig.align="center"}
+```{r fig.show=ifelse(is_html_output(), "hold", "asis")}
 include_graphics(
   path = file.path(
     path_to_protocol,
@@ -18,9 +18,18 @@ include_graphics(
       "talrijk-1.png",
       "bedekkend-1.png",
       "kwartbedekkend-1.png",
-      "halfbedekkend-1.png",
-      "dominant-1.png"
+      "halfbedekkend-1.png"
     )
+  )
+)
+```
+
+```{r visueleondersteuning, fig.cap= "(ref:visueleondersteuning)", fig.align="center"}
+include_graphics(
+  path = file.path(
+    path_to_protocol,
+    "media",
+    "dominant-1.png"
   )
 )
 ```
@@ -71,3 +80,4 @@ include_graphics(file.path(
   c("veldform.png")))
 
 ```
+
