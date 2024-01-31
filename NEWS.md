@@ -1,7 +1,7 @@
 ### First version of protocol: sfp-407-nl
 
 - Title: Veldprotocol voor vegetatie-opnames in grote proefvlakken en percelen met behulp van de beheermonitoringschaal
-- Published on: 2024-01-15
+- Published on: 2024-01-31
 - Version number: 2024.02
 - Link to this version: [sfp-407-nl version 2024.02](2024.02/index.html)
 
