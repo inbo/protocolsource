@@ -39,7 +39,7 @@ Voor proefvlakken of percelen kleiner dan 1 ha kan met de standaard klassegrenze
 
 **Afspraken met betrekking tot de teleenheid/individuen**
 
-Voor de categorieën waarbij densiteiten relevant zijn is het van belang om de teleenheid goed te definiëren.
+Voor de categorieën waarbij densiteiten relevant zijn, is het van belang om de teleenheid goed te definiëren.
 Eén pol van een polvormende soort wordt als 1 teleenheid/individu gerekend.
 Polvormende soorten zijn bv.
 pijpenstrootje, pitrus, zompzegge, elzenzegge, pluimzegge, buntgras, veelbloemige veldbies, bochtige smele, ...
