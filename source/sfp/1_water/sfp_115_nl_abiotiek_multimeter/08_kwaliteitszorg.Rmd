@@ -1,0 +1,9 @@
+# Kwaliteitszorg
+
+Zorg er steeds voor dat het toestel correct wordt gekalibreerd bij de start van een meting. Houd het toestel, de elektroden en de bijhorende koffer proper en droog. Buffers voor controle en kalibratie dienen, indien niet voor eenmalig gebruik, regelmatig te worden aangevuld en vervangen zodat deze niet verdund of gecontamineerd worden. Voor verdere informatie over het gebruik, kalibratie en onderhoud van dit toestel verwijzen we naar het protocol SIP-055B.
+
+Onderhoud en het grondig reinigen van het staalnamemateriaal zijn van groot belang voor het voorkomen van contaminatie en dienen voorzichtig en correct te gebeuren. Alleen correct gereinigd materiaal mag getransporteerd en gebruikt worden in het veld. Handen van de staalnemer moeten proper zijn en bij voorkeur worden latex handschoenen (poederloos) gebruikt. Handen worden best gespoeld met water van de staalnamelocatie en in geen geval met detergenten etc., omdat deze het staal kunnen contamineren. Bij aanvang van de staalname, dient het materiaal dat in contact komt met het staal gespoeld te worden met water van de staalnamelocatie. Spoelen met lokaal water helpt het materiaal te acclimatiseren aan het staal en beperkt de contaminatie van producten of vorige stalen.
+
+Om contaminatie te voorkomen wordt het substaal waarop de bepalingen werden uitgevoerd niet gebruikt voor andere doeleinden.
+
+De gemeten waarden dienen steeds zorgvuldig en leesbaar ingevuld te worden op het staalnameformulier en dit formulier moet op zijn beurt correct worden geklasseerd. Indien van toepassing dienen eventuele omgevingsfactoren die invloed kunnen hebben op de kwaliteit van het staal op het staalnameformulier worden ingevuld (indien analoog, met potlood of watervaste stift) in het opmerkingenveld en achteraf in een databank worden bewaard zodat deze later kunnen worden geraadpleegd.

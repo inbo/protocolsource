@@ -1,0 +1,19 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+**Oppervlaktewater:** al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003).
+
+**Staalnamelocatie** of **steekproefeenheid**: het waterlichaam (poel, vijver, ...) waarvan de abiotische karakterisatie wordt beoogd en waarbinnen het staalnamepunt zich bevind. Voor stilstaande wateren is dit het gehele waterlichaam, voor waterlopen is dit een 100 meter segment van de waterloop (dit segment wordt aangeduid als het meest stroomafwaarts gelegen punt van het te bemonsteren 100 meter segment).
+
+**Staalnamepunt:** de exacte plaats binnen de staalnamelocatie waarop de abiotische staalname wordt uitgevoerd.
+
+**UPW**: ultrapuur water is sterk gezuiverd water dat vrijwel volledig vrij is van o.a. carbonaat, magnesium- en calciumionen, organische verbindingen en gassen; het heeft een elektrische geleidbaarheid van ongeveer 0,055 µS/cm bij 25 °C.
+
+**Waterkolom:** de diepte van het water van de waterspiegel (het wateroppervlak) tot de onderwaterbodem.
+
+## Doelstelling en toepassingsgebied
+
+Deze procedure beschrijft de bepaling van een selectie fysisch-chemische variabelen op een mengstaal van de waterkolom (genomen volgens SVP-114) op een specifieke plaats en tijdstip in het veld met behulp van de digitale veldmeter WTW Multi 3430. De hiermee gemeten variabelen zijn: de elektrische conductiviteit (EC) of het elektrisch geleidend vermogen (EGV), af te lezen in µS/cm bij lage waarden of mS/cm bij hoge waarden, de saliniteit (g/kg), de concentratie opgeloste zuurstof (mg/l), de zuurstofverzadiging (%), de zuurtegraad (pH) en temperatuur (°C). De variabelen opgeloste zuurstof, zuurstofverzadiging en temperatuur zijn zeer beïnvloedbaar door manipulatie en transport en moeten daarom altijd in het veld worden gemeten (deze worden door het analytisch labo niet opnieuw gemeten). Bij verdere analyse van het mengstaal zal de conductiviteit (EC) en zuurtegraad (pH) ook in het labo worden bepaald als controletest om de stabiliteit van de chemische toestand van het staal gedurende transport en bewaring te verifiëren. De daarbij bekomen waarden kunnen afwijken van de bepalingen in het veld.
+
+Deze gestandaardiseerde procedure kan toegepast worden op mengstalen van alle typen stilstaande en stromende oppervlaktewateren. Dit protocol is specifiek ontworpen voor de monitoring in kader van de meetnetten natuurlijk milieu (Vanderhaeghe et al. 2020).

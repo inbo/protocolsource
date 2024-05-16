@@ -1,0 +1,61 @@
+# Benodigdheden
+
+|                                                               |
+|:--------------------------------------------------------------|
+| staalnameformulieren & protocol                               |
+| klembord, potlood en slijper                                  |
+| laarzen, lieslaarzen, waadpak (site-afhankelijk)              |
+| latex handschoenen (poederloos)                               |
+| spuitfles met ultrapuur water (UPW)                           |
+| staalname-emmer                                               |
+| maatbeker                                                     |
+| digitale veldmeter type WTW Multi 3430 inclusief elektroden   |
+| buffers voor controle en kalibratie van de digitale veldmeter |
+
+Tabel 1: Checklist benodigd veldmateriaal.
+
+## Apparatuur
+
+### Digitale veldmeter type WTW Multi 3430
+
+De digitale veldmeter type WTW Multi 3430 (figuur 1) met elektrode voor zuurtegraad (pH), geleidbaarheid (EC) en zuurstof, wordt gebruikt voor metingen op het terrein. Met dit toestel worden de volgende variabelen gemeten: temperatuur (°C), zuurtegraad, geleidbaarheid (µS/cm bij lage waarden of mS/cm bij hoge waarden), saliniteit (g/kg), opgeloste zuurstof (mg/l) en zuurstofverzadiging (%). Voor richtlijnen en een handleiding voor het algemeen gebruik, kalibratie en onderhoud van dit toestel verwijzen we naar protocol SIP-055B.
+
+Zorg dat de batterij van het toestel steeds voldoende is opgeladen voorafgaand aan een veldmeting. Probeer het toestel steeds proper en droog te houden en te bewaren en te vervoeren in de daarvoor voorziene koffer. Bescherm het toestel zoveel mogelijk tegen extreme temperaturen (temperaturen lager dan 0°C en boven 30°C); het toestel is spatwaterdicht.
+
+![(#fig:Figuur1) Digitale veldmeter type WTW Multi 3430, met zuurstof-, zuurtegraad- en geleidbaarheidselektrode en bijhorende buffer- en kalibratievloeistoffen.](./media/image1.jpg){width="6.292361111111111in" height="4.716666666666667in"}
+
+### Geleidbaarheidselektrode, type WTW IDS TetraCon 925
+
+Elektrode voor het meten van de conductiviteit (EC) (µS/cm bij lage waarden of mS/cm bij hoge waarden) en saliniteit (g/kg) (figuur 1).
+
+### Zuurstofelektrode, type WTW IDS FDO925
+
+Elektrode voor het meten van opgeloste zuurstof (mg/l) en zuurstofverzadiging (%) (figuur 1).
+
+### Zuurtegraadelektrode, type WTW IDS Sentix 940
+
+Elektrode voor het meten van zuurtegraad (pH) (eq/l) en temperatuur (°C) (figuur 1).
+
+## Materiaal
+
+### Staalname-emmer:
+
+Witte emmer (polyethyleen), inhoud 10 l, met maatmarkering en giettuit (figuur 2).
+
+### Maatbeker:
+
+Doorzichtige maatbeker (polypropyleen), inhoud 2 l, met maatmarkering, giettuit en handvat (figuur 2).
+
+![Figuur 2: Maatbeker (links) en staalname-emmer (rechts).](./media/image2.jpg){width="6.299660979877515in" height="4.722222222222222in"}
+
+### Staalnameformulier (analoog of digitaal)
+
+Het staalnameformulier (zie SPP-116 bijlage 1) kan zowel digitaal als analoog gebruikt worden in het veld. Bij voorkeur wordt tijdens de staalname steeds de analoge versie ingevuld, zodat typfouten of problemen bij het opslaan niet mogelijk zijn en tevens een originele versie wordt bewaard om controle op een later tijdstip mogelijk te maken. Het staalnameformulier wordt duidelijk leesbaar en volledig ingevuld met potlood.
+
+## Reagentia en oplossingen (indien van toepassing)
+
+**Kaliumchloride (KCl) 3M (K4x):** KCL wordt gebruikt als bewaarvloeistof in het beschermkapje van de zuurtegraadelektrode zodat deze niet kan uitdrogen. Er zijn geen veiligheidsrisico's verbonden aan het gebruik van dit product.
+
+**Buffers:** voor de kalibratie van de digitale veldmeter worden de volgende buffers gebruikt: pH 7 (ST-pH7) en pH 4 (ST-pH4) (voor de zuurtegraad) en 1413 μS/cm (ST-EC1413) (voor de geleidbaarheidselektrode). Er zijn geen veiligheidsrisico's verbonden aan het gebruik van deze producten.
+
+**UPW:** Ultrapuur water, sterk gezuiverd water dat vrijwel volledig vrij is van o.a. carbonaat, magnesium- en calciumionen, organische verbindingen en gassen; het heeft een elektrische geleidbaarheid van ongeveer 0,055 µS/cm bij 25 °C. UPW wordt in een spuitfles gebruikt voor het afspoelen van de elektroden. Er zijn geen veiligheidsrisico's verbonden aan het gebruik van dit product.
