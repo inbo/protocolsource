@@ -1,0 +1,6 @@
+# Principe
+
+Dit protocol beschrijft de procedure voor het nemen van een waterstaal geschikt voor verdere analyse in het veld of in het labo.
+De voorgeschreven methode moet garanderen dat het geanalyseerde staal representatief is voor de fysische en chemische kenmerken van de waterkolom nabij de oppervlakte van het bemonsterde waterlichaam op een bepaalde plaats en tijdstip.
+Daarom wordt de wijze van staalname, het aantal deelstalen, de plaats van de staalname en de volgorde van de te nemen stappen eenduidig vastgelegd volgens een vooropgesteld staalnamepatroon.
+

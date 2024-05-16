@@ -1,0 +1,77 @@
+# Werkwijze
+
+## Uitvoering
+
+Hieronder wordt puntsgewijs een gedetailleerde omschrijving gegeven van alle stappen die doorlopen moeten worden om het veldprotocol uit te voeren.
+
+### Vastleggen toestand staalnamepunt
+
+Eerst wordt de toestand van het staalnamepunt gedocumenteerd op het staalnameformulier, waarbij uitzonderlijke waterstanden of weersomstandigheden, potentiële contaminanten (zoals opwarrelend slib, aanwezigheid van zoöplankton in het staal) of factoren die de correcte uitvoering van de procedure bemoeilijken (zoals ijs of een kroosdek) worden genoteerd (zie ook 4 Beperking van het protocol).
+Zo kan je hiermee rekening houden bij de staalname.
+Neem bij elke staalname en/of veldmeting steeds een overzichtsfoto en eventueel detailfoto's zodat dit later kan worden geraadpleegd.
+
+### Voorbereiding
+
+Bij aanvang van het veldwerk wordt het materiaal dat in contact komt met het staal overvloedig gespoeld met water van de staalnamelocatie.
+Spoelen met lokaal water helpt het materiaal te acclimatiseren aan het staal en beperkt de residuen van producten of vorige stalen.
+Doe dit zowel voor de recipiënten (uitgez. recipiënt nummer 7), staalname-emmer, maatbeker, spuit, latex handschoenen en laarzen als voor de elektrodes van de multimeter.
+Indien recipiënten gecertificeerd zijn als 'contaminant-vrij' is het spoelen van de recipiënten niet noodzakelijk.
+
+### Nemen van een mengstaal
+
+Kies eerst een geschikte plaats voor de staalname, op of in de directe omgeving (zo dicht mogelijk) van het staalnamepunt.
+Neem geen (deel)staal op plekken die recent werden verstoord door dieren of mensen.
+Ganzen, vee, etc. kunnen door verstoring van de waterbodem en de vegetatie, of door hun fecaliën, of het inbrengen van locatievreemd materiaal het staal contamineren.
+Neem indien mogelijk geen (deel)staal tussen dichte vegetatie en hou voldoende afstand van in- en uitstroompunten van waterlopen, duikers of lozingsvoorzieningen, tenzij dit specifiek wenselijk is.
+Wees alert voor plaatselijke contaminanten bij locaties naast wegen (bijvoorbeeld afstroom van regenwater van weginfrastructuur, strooizout in de winter, etc.) en andere antropogene elementen.
+
+Maak een mengstaal door met de maatbeker op drie punten (bij voorkeur twee of drie meter uit elkaar) een gelijk volume deelstaal (twee liter) te nemen.
+Doe dit steeds voorzichtig zonder de waterbodem of vegetatie te veel te verstoren.
+Laat de maatbeker diep genoeg zakken zodat het deelstaal water van de waterkolom bevat en niet enkel het water aan het oppervlak.
+Giet de inhoud van de maatbeker voorzichtig in de staalname-emmer zonder luchtbellen te veroorzaken.
+
+Indien het nemen van een staal gehinderd wordt door ijsvorming wordt eerst een voldoende grote opening in het ijs gemaakt waaruit alle brokken ijs en eventueel vuil en slib worden verwijderd.
+Vervolgens wacht men enkele minuten zodat het water vrij onder het ijs kan bewegen.
+Om contaminatie van omgewoelde bodem te vermijden wordt enkel bemonsterd als er minstens circa 10 cm water aanwezig is onder de ijslaag (VMM 2020).
+Deze werkwijze mag enkel uitgevoerd worden wanneer de veiligheid van de staalnemer gegarandeerd kan worden.
+
+### Vullen van recipiënten voor het laboratorium
+
+1.  [*Vul het recipiënt voor IPC met spuit en filters*]{.underline}
+
+Na het nemen van het mengstaal wordt eerst de spuit gevuld (de analyses op het staal van dit recipiënt zijn het meest contaminatiegevoelig).
+Spoel de spuit voor met staal en vul deze opnieuw (3 x).
+Draai de filter vast op de spuit (met de klok mee) en vul recipiënt 7 (Falcontube 30 ml met salpeterzuur 65%).
+Wanneer het water slechts traag door de filter druppelt, wordt een nieuwe filter gebruikt.
+Het recipiënt wordt met minstens 25 ml staal gevuld omdat de hoeveelheid salpeterzuur (1%) in het recipiënt op deze hoeveelheid staal is afgestemd.
+**Wees steeds voorzichtig bij het gebruik van salpeterzuur, draag handschoenen, voorkom inhalatie van dampen en contact met de huid en ogen.**
+
+2.  [Vul de overige recipiënten]{.underline}
+
+Vul nu de overige recipiënten in de aangegeven volgorde, startend met recipiënt 6 en eindigend met recipiënt 1 (zie tabel 2).
+De volgorde stemt overeen met de gevoeligheid van de analyses die per recipiënt worden uitgevoerd, waarbij de meest contaminatiegevoelige eerst worden gevuld.
+Doe dit voorzichtig en beperk de aanwezigheid van luchtbellen tot een minimum.
+Vul de recipiënten altijd tot aan de rand.
+Het vermijden of beperken van extra zuurstof in een waterstaal is een beperkende factor voor chemische en (micro-)biologische reacties welke de kwaliteit van het staal negatief kunnen beïnvloeden.
+
+Bij het openen van de recipiënten mogen de doppen niet met de onderkant (binnenzijde) op de ondergrond worden geplaatst.
+Leg open recipiënten niet op de grond, maar zet deze steeds recht op een stabiel oppervlak.
+De recipiënten worden net voor het vullen geopend en onmiddellijk na het vullen gesloten om de kans op contaminatie te minimaliseren.
+
+De 7 gevulde recipiënten worden steeds per staalnamepunt bijeen gevoegd in een zakje met gripsluiting.
+Ze worden koel (max. 4 °C) en donker bewaard in een goed afsluitende, koelbox met koude koelelementen.
+Bij lagere temperaturen wordt de microbiologische activiteit van de micro-organismen en chemische reacties vertraagd en blijft de toestand van het staal langer stabiel.
+Voor verdere richtlijnen rond het bewaren van waterstalen in het veld en tijdens transport wordt verwezen naar het protocol SOP-005.
+
+### Schoonmaken materiaal
+
+Na de staalname wordt het materiaal (emmer, maatbeker en spuit) ter plaatse gespoeld met overvloedig lokaal water om contaminatie met substraat of organismen op de volgende locatie te beperken.
+
+## Registratie en bewaring van resultaten
+
+De stalen worden zo snel mogelijk (binnen 24 uur na het nemen van het eerste staal) binnengebracht bij het analytisch labo.
+In het analytisch labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard.
+
+Bij de levering van de stalen aan het laboratorium wordt steeds een kopie gemaakt van het ingevulde staalnameformulier en samen met de stalen overhandigd.
+Het originele formulier wordt bewaard door de projectverantwoordelijke.
+Het staalnameformulier wordt vervolgens door de staalnemer gedigitaliseerd door de gegevens van het staalnameformulier manueel in te voeren in het digitale staalnameformulier op Google Drive.

@@ -1,0 +1,17 @@
+# Afhankelijkheden
+
+Procedures waarnaar in deze procedure verwezen wordt:
+
+-   SOP-005: Richtlijnen voor conserveren van watermonsters, chemische variabelen en praktische handelingen op terrein
+
+-   SVP-015: Bioveiligheidsmaatregelen (in opmaak)
+
+-   SVP-112: Veiligheid in en rond water (in opmaak)
+
+Procedures die verwijzen naar deze procedure:
+
+-   SPP-116: Abiotische staalname stilstaande wateren
+
+-   SPP-117: Abiotische staalname stromende wateren
+
+-   SVP-115: Veldmeting abiotiek oppervlaktewater met behulp van WTW Multi 3430 veldmeter
