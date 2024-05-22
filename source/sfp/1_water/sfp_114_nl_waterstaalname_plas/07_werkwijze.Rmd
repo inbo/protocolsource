@@ -37,7 +37,7 @@ Deze werkwijze mag enkel uitgevoerd worden wanneer de veiligheid van de staalnem
 
 ### Vullen van recipiënten voor het laboratorium
 
-1.  [*Vul het recipiënt voor IPC met spuit en filters*]{.underline}
+1.  [Vul het recipiënt voor IPC met spuit en filters]{.underline}
 
 Na het nemen van het mengstaal wordt eerst de spuit gevuld (de analyses op het staal van dit recipiënt zijn het meest contaminatiegevoelig).
 Spoel de spuit voor met staal en vul deze opnieuw (3 x).
