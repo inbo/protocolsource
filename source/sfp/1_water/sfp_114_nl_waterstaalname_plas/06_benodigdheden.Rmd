@@ -35,7 +35,7 @@ Witte emmer (polyethyleen), inhoud 10 l, met maatmarkering en giettuit (figuur \
 
 Doorzichtige maatbeker (polypropyleen), inhoud 2 l, met maatmarkering, giettuit en handvat (figuur \@ref(fig:Figuur1)).
 
-![(#fig:Figuur1) Figuur 7.1: Maatbeker (links) en staalname-emmer (rechts).](./media/image1.jpg){width="6.299660979877515in"}
+![(#fig:Figuur1) Maatbeker (links) en staalname-emmer (rechts).](./media/image1.jpg){width="6.299660979877515in"}
 
 **Recipiënten**
 
@@ -56,7 +56,7 @@ Gebruik daarom steeds de correcte recipiënten (nummers refereren naar figuur \@
 
 -   **7**, Falcontube, 30 ml (**FT-30W**): cilindrisch buisje of tube van 30 ml met conische bodem met rechtstaand stuk, vervaardigd uit polypropyleen (PP), niet-gegradueerd, met witte schroefdop vervaardigd uit polyethyleen (PE).
 
-![(#fig:Figuur2) Figuur 7.2: De 7 recipiënten die tijdens de staalname worden gevuld.](./media/image2.jpg){width="6.299660979877515in" height="3.763888888888889in"}
+![(#fig:Figuur2) De 7 recipiënten die tijdens de staalname worden gevuld.](./media/image2.jpg){width="6.299660979877515in" height="3.763888888888889in"}
 
 | **recipiënt** | **beschrijving**                   | **analyse**                                                                                    |
 |---------------|------------------------------------|------------------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ De spuiten kunnen voor meerdere staalnamepunten worden herbruikt, maar moeten da
 De spuiten worden steeds vervangen tussen sterk verschillende oppervlaktewateren en worden niet langer dan één dag gebruikt.
 Bewaar ongebruikte filters steeds in een schoon, droog en goed afgesloten zakje of ander recipiënt om contaminatie te voorkomen.
 
-![(#fig:Figuur3) Figuur 7.3: Links: filters (A-20/25) met een membraan met poriëngrootte van 0,20 µm (1) en spuiten (35 ml) met een conus met Luer-lock (2) en recipiënt met salpeterzuur 65% (3) Rechts: spuit met vastgeschroefde filter.](./media/image3.jpg){width="6.299660979877515in" height="2.138888888888889in"}
+![(#fig:Figuur3) Links: filters (A-20/25) met een membraan met poriëngrootte van 0,20 µm (1) en spuiten (35 ml) met een conus met Luer-lock (2) en recipiënt met salpeterzuur 65% (3) Rechts: spuit met vastgeschroefde filter.](./media/image3.jpg){width="6.299660979877515in" height="2.138888888888889in"}
 
 **Staalnameformulier (analoog of digitaal)**
 
