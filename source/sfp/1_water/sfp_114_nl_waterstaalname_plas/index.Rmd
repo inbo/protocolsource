@@ -3,7 +3,7 @@ title: Bemonstering waterkolom oppervlaktewater
 author:
 - name: Scheers, Kevin
   orcid: 0000-0002-4756-4247
-date: '2021-02-17'
+date: '`r Sys.Date()`'
 reviewers: An Leyssen, Luc Denys, Geert De Knijf, Toon Westra
 file_manager: Toon Westra
 protocol_code: sfp-114-nl
