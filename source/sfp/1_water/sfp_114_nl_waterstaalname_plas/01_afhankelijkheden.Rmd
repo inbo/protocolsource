@@ -45,11 +45,3 @@ if (exists("params")) {
 }
 rm(empty_table)
 ```
-
-Procedures waarnaar in deze procedure verwezen wordt:
-
--   SOP-005: Richtlijnen voor conserveren van watermonsters, chemische variabelen en praktische handelingen op terrein
-
--   SVP-015: Bioveiligheidsmaatregelen (in opmaak)
-
--   SVP-112: Veiligheid in en rond water (in opmaak)
