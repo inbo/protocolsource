@@ -1,7 +1,7 @@
 # Benodigdheden
 
 Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en materiaal voor het nemen van een waterstaal.
-Onder [Apparatuur], [Materiaal] en [Reagentia en oplossingen] worden een aantal specifieke benodigdheden van verdere uitleg voorzien.
+Onder [Apparatuur], [Materiaal] en [Reagentia en oplossingen](#reagentia) worden een aantal specifieke benodigdheden van verdere uitleg voorzien.
 
 +-------------------------------------------------------------+---------------------------------------------------------------------------+
 | -   staalnameformulieren & protocol of digitaal alternatief | -   staalname-emmer                                                       |
@@ -35,7 +35,9 @@ Witte emmer (polyethyleen), inhoud 10 l, met maatmarkering en giettuit (figuur \
 
 Doorzichtige maatbeker (polypropyleen), inhoud 2 l, met maatmarkering, giettuit en handvat (figuur \@ref(fig:Figuur1)).
 
-![(#fig:Figuur1) Maatbeker (links) en staalname-emmer (rechts).](./media/image1.jpg){width="6.299660979877515in"}
+```{r Figuur1, fig.cap="Maatbeker (links) en staalname-emmer (rechts)."}
+include_graphics("./media/image1.jpg")
+```
 
 **Recipiënten**
 
@@ -56,7 +58,9 @@ Gebruik daarom steeds de correcte recipiënten (nummers refereren naar figuur \@
 
 -   **7**, Falcontube, 30 ml (**FT-30W**): cilindrisch buisje of tube van 30 ml met conische bodem met rechtstaand stuk, vervaardigd uit polypropyleen (PP), niet-gegradueerd, met witte schroefdop vervaardigd uit polyethyleen (PE).
 
-![(#fig:Figuur2) De 7 recipiënten die tijdens de staalname worden gevuld.](./media/image2.jpg){width="6.299660979877515in" height="3.763888888888889in"}
+```{r Figuur2, fig.cap="De 7 recipiënten die tijdens de staalname worden gevuld."}
+include_graphics("./media/image2.jpg")
+```
 
 | **recipiënt** | **beschrijving**                   | **analyse**                                                                                    |
 |---------------|------------------------------------|------------------------------------------------------------------------------------------------|
@@ -90,11 +94,15 @@ De spuiten kunnen voor meerdere staalnamepunten worden herbruikt, maar moeten da
 De spuiten worden steeds vervangen tussen sterk verschillende oppervlaktewateren en worden niet langer dan één dag gebruikt.
 Bewaar ongebruikte filters steeds in een schoon, droog en goed afgesloten zakje of ander recipiënt om contaminatie te voorkomen.
 
-![(#fig:Figuur3) Links: filters (A-20/25) met een membraan met poriëngrootte van 0,20 µm (1) en spuiten (35 ml) met een conus met Luer-lock (2) en recipiënt met salpeterzuur 65% (3) Rechts: spuit met vastgeschroefde filter.](./media/image3.jpg){width="6.299660979877515in" height="2.138888888888889in"}
+(ref:Figuur3) Links: filters (A-20/25) met een membraan met poriëngrootte van 0,20 µm (1) en spuiten (35 ml) met een conus met Luer-lock (2) en recipiënt met salpeterzuur 65% (3) Rechts: spuit met vastgeschroefde filter.
+
+```{r Figuur3, fig.cap="(ref:Figuur3)"}
+include_graphics("./media/image3.jpg")
+```
 
 **Staalnameformulier (analoog of digitaal)**
 
-Het staalnameformulier (zie SPP-116 bijlage 1) kan zowel digitaal als analoog ingevuld worden in het veld.
+Het staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1) kan zowel digitaal als analoog ingevuld worden in het veld.
 Bij voorkeur wordt tijdens de staalname steeds de analoge versie ingevuld zodat typfouten of problemen bij gegevensopslag worden vermeden en er tevens een originele versie beschikbaar is voor controle op een later tijdstip.
 Het staalnameformulier wordt duidelijk leesbaar en volledig ingevuld met potlood, dat in tegenstelling tot inkt ook schrijft in natte omstandigheden en niet kan uitlopen.
 
@@ -104,7 +112,7 @@ Een ruime, dubbelwandige en goed afsluitende koelbox en ingevroren koelelementen
 De koelelementen mogen geen defecten (lekkage) vertonen.
 De koelelementen en de koelbox zijn bij voorkeur gemakkelijk te reinigen om contaminatie van de stalen te voorkomen.
 
-## Reagentia en oplossingen (indien van toepassing)
+## Reagentia en oplossingen (indien van toepassing) {#reagentia}
 
 **Salpeterzuur 65%, suprapur, (HNO~3~)** Sterk zuur dat zowel irriterend en corrosief werkt.
 Draag handschoenen bij gebruik, voorkom inademing van dampen en contact met de huid en ogen.
