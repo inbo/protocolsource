@@ -5,8 +5,7 @@ Om mogelijke besmetting en verwondingen bij de staalnemer en mogelijke contamina
 Draag bij het werken met salpeterzuur (recipiënt 7) steeds handschoenen, voorkom contact met de huid en ogen en adem de dampen niet in.
 Contact met de huid kan een tijdelijke (enkele dagen) verkleuring veroorzaken.
 
-Alle algemene veiligheidsregels voor het werken in en langs water of vanuit een boot zijn van toepassing (zie protocol Veiligheid in en rond water SVP-112).
+Alle algemene veiligheidsregels voor het werken in en langs water of vanuit een boot zijn van toepassing (zie protocol Veiligheid in en rond water [SVP-112]()).
 
 Ook bioveiligheidsmaatregelen in verband met de verspreiding van organismen tussen oppervlaktewateren, inz.
-invasieve niet-inheemse soorten en pathogenen, zijn van toepassing (zie protocol Bioveiligheidsmaatregelen SVP-015).
-
+invasieve niet-inheemse soorten en pathogenen, zijn van toepassing (zie protocol Bioveiligheidsmaatregelen [SVP-015]()).

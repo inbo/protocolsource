@@ -102,7 +102,7 @@ include_graphics("./media/image3.jpg")
 
 **Staalnameformulier (analoog of digitaal)**
 
-Het staalnameformulier (zie SPP-116 bijlage 1) kan zowel digitaal als analoog ingevuld worden in het veld.
+Het staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1) kan zowel digitaal als analoog ingevuld worden in het veld.
 Bij voorkeur wordt tijdens de staalname steeds de analoge versie ingevuld zodat typfouten of problemen bij gegevensopslag worden vermeden en er tevens een originele versie beschikbaar is voor controle op een later tijdstip.
 Het staalnameformulier wordt duidelijk leesbaar en volledig ingevuld met potlood, dat in tegenstelling tot inkt ook schrijft in natte omstandigheden en niet kan uitlopen.
 

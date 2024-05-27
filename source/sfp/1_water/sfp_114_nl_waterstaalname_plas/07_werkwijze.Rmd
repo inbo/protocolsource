@@ -61,7 +61,7 @@ De recipiënten worden net voor het vullen geopend en onmiddellijk na het vullen
 De 7 gevulde recipiënten worden steeds per staalnamepunt bijeen gevoegd in een zakje met gripsluiting.
 Ze worden koel (max. 4 °C) en donker bewaard in een goed afsluitende, koelbox met koude koelelementen.
 Bij lagere temperaturen wordt de microbiologische activiteit van de micro-organismen en chemische reacties vertraagd en blijft de toestand van het staal langer stabiel.
-Voor verdere richtlijnen rond het bewaren van waterstalen in het veld en tijdens transport wordt verwezen naar het protocol SOP-005.
+Voor verdere richtlijnen rond het bewaren van waterstalen in het veld en tijdens transport wordt verwezen naar het protocol [SOP-005](https://drive.google.com/file/d/1VAhwtApr3HcBt9rwqcwfg-MXJWrG_xzR/view).
 
 ### Schoonmaken materiaal
 
