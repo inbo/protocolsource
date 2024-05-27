@@ -48,7 +48,7 @@ Het recipiënt wordt met minstens 25 ml staal gevuld omdat de hoeveelheid salpet
 
 2.  [Vul de overige recipiënten]{.underline}
 
-Vul nu de overige recipiënten in de aangegeven volgorde, startend met recipiënt 6 en eindigend met recipiënt 1 (zie tabel \@ref(tab:Tabel1)).
+Vul nu de overige recipiënten in de aangegeven volgorde, startend met recipiënt 6 en eindigend met recipiënt 1 (zie tabel \@ref(tab:Tabel2)).
 De volgorde stemt overeen met de gevoeligheid van de analyses die per recipiënt worden uitgevoerd, waarbij de meest contaminatiegevoelige eerst worden gevuld.
 Doe dit voorzichtig en beperk de aanwezigheid van luchtbellen tot een minimum.
 Vul de recipiënten altijd tot aan de rand.
