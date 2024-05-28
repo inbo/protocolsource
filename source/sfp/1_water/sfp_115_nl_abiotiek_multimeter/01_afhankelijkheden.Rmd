@@ -1,17 +1,48 @@
 # Afhankelijkheden
 
-Procedures waarnaar in deze procedure verwezen wordt:
+```{=html}
+<!--
+Hier niets invullen.
+Indien er dependencies zijn deze invullen in de yaml sectie van index.Rmd
+-->
+```
+```{r dependencies}
+empty_table <- tibble(
+    protocol_code = character(),
+    version_number = character(),
+    params = character(),
+    appendix = logical()
+  ) %>%
+    add_row() %>%
+    rename(
+      `Protocolcode` = protocol_code,
+      `Versienummer` = version_number,
+      `Opgenomen als subprotocol` = appendix) %>%
+    pander(split.tables = Inf)
 
--   SIP-055B: Veldmeter voor pH, EC en O2, WTW Multi 3430
+if (exists("params")) {
+  if (!is.null(params$dependencies)) {
+    transpose(params$dependencies) %>%
+    as_tibble() %>%
+    mutate(protocol_code = as.character(protocol_code),
+           version_number = as.character(version_number),
+           params = as.character(params),
+           version_number = ifelse(params == "NA",
+                           paste0("[", version_number, "](../", 
+                                  version_number,"/", "index.html)"),
+                           version_number),
+           appendix = as.logical(appendix)) %>%
+    rename(
+      `Protocolcode` = protocol_code,
+      `Versienummer` = version_number,
+      `Opgenomen als subprotocol` = appendix) %>%
+    pander(split.tables = Inf)
+  } else {
+    empty_table
+  }
+} else {
+  empty_table
+}
+rm(empty_table)
+```
 
--   SVP-015: Bioveiligheidsmaatregelen (in opmaak)
-
--   SVP-112: Veiligheid in en rond water (in opmaak)
-
--   SVP-114: Bemonstering waterkolom oppervlaktewater
-
-Procedures die verwijzen naar deze procedure:
-
--   SPP-116: Abiotische staalname stilstaande wateren
-
--   SPP-117: Abiotische staalname stromende wateren
