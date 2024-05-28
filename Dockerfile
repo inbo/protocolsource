@@ -1,4 +1,4 @@
-FROM rocker/verse
+FROM rocker/verse:4.3.0
 
 ARG BUILD_DATE
 ARG VCS_REF
