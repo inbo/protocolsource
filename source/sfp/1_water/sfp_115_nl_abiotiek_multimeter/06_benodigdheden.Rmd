@@ -27,7 +27,7 @@ Voor richtlijnen en een handleiding voor het algemeen gebruik, kalibratie en ond
 
 Zorg dat de batterij van het toestel steeds voldoende is opgeladen voorafgaand aan een veldmeting.
 Probeer het toestel steeds proper en droog te houden en te bewaren en te vervoeren in de daarvoor voorziene koffer.
-Bescherm het toestel zoveel mogelijk tegen extreme temperaturen (temperaturen lager dan 0°C en boven 30°C); het toestel is spatwaterdicht.
+Bescherm het toestel zoveel mogelijk tegen extreme temperaturen (temperaturen lager dan 0° C en boven 30° C); het toestel is spatwaterdicht.
 
 ```{r Figuur1, fig.cap="Digitale veldmeter type WTW Multi 3430, met zuurstof-, zuurtegraad- en geleidbaarheidselektrode en bijhorende buffer- en kalibratievloeistoffen."}
 knitr::include_graphics("./media/image1.jpg")
@@ -70,10 +70,10 @@ Het staalnameformulier wordt duidelijk leesbaar en volledig ingevuld met potlood
 **Kaliumchloride (KCl) 3M (K4x):** KCL wordt gebruikt als bewaarvloeistof in het beschermkapje van de zuurtegraadelektrode zodat deze niet kan uitdrogen.
 Er zijn geen veiligheidsrisico's verbonden aan het gebruik van dit product.
 
-**Buffers:** voor de kalibratie van de digitale veldmeter worden de volgende buffers gebruikt: pH 7 (ST-pH7) en pH 4 (ST-pH4) (voor de zuurtegraad) en 1413 μS/cm (ST-EC1413) (voor de geleidbaarheidselektrode).
+**Buffers:** voor de kalibratie van de digitale veldmeter worden de volgende buffers gebruikt: pH 7 (ST-pH7) en pH 4 (ST-pH4) (voor de zuurtegraad) en 1413 µS/cm (ST-EC1413) (voor de geleidbaarheidselektrode).
 Er zijn geen veiligheidsrisico's verbonden aan het gebruik van deze producten.
 
 **UPW:** Ultrapuur water, sterk gezuiverd water dat vrijwel volledig vrij is van o.a.
-carbonaat, magnesium- en calciumionen, organische verbindingen en gassen; het heeft een elektrische geleidbaarheid van ongeveer 0,055 µS/cm bij 25 °C.
+carbonaat, magnesium- en calciumionen, organische verbindingen en gassen; het heeft een elektrische geleidbaarheid van ongeveer 0,055 µS/cm bij 25°C.
 UPW wordt in een spuitfles gebruikt voor het afspoelen van de elektroden.
 Er zijn geen veiligheidsrisico's verbonden aan het gebruik van dit product.
