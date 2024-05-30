@@ -1,0 +1,38 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+Hieronder worden enkele vaktechnische termen en afkortingen gedefinieerd.
+
+**ICP:** inductief gekoppeld plasma, een analytische analyse waarbij chemische elementen en met name metalen in een staal bepaald worden door dit in een plasma te brengen en vervolgens het geëmitteerde licht te analyseren.
+
+**Mengstaal:** een staal bekomen door het mengen van meerdere deelstalen.
+De deelstalen worden op verschillende, doorgaans ruimtelijk gespreide, plaatsen binnen eenzelfde staalnamelocatie genomen.
+
+**Oppervlaktewater:** al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003).
+
+**PVI:** 'plant volume infested', ook wel 'percent volume infested' of 'percent volume inhabited' (Canfield et al. 1984); het percentage van het watervolume dat ingenomen wordt door ondergedoken vegetatie.
+
+**Sapropelium:** rottingsslib; afzetting van organisch sediment in anaerobe omstandigheden.
+
+**Staal of monster:** Een portie die geselecteerd wordt uit een grotere hoeveelheid.
+In dit protocol bestaat het staal steeds uit een hoeveelheid water van de staalnamelocatie (poel, vijver, plas, ...).
+
+**Staalnamelocatie** of **steekproefeenheid**: het waterlichaam (poel, vijver, ...) waarvan de abiotische karakterisatie wordt beoogd en waarbinnen het staalnamepunt zich bevind.
+Voor stilstaande wateren is dit het gehele waterlichaam, voor waterlopen is dit een 100 meter segment van de waterloop (dit segment wordt aangeduid als het meest stroomafwaarts gelegen punt van het te bemonsteren 100 meter segment).
+
+**Staalnamepunt:** de exacte plaats binnen de staalnamelocatie waar de abiotische staalname wordt uitgevoerd.
+
+**Waterbodem:** bodemsubstraat dat zich onder de waterkolom bevindt, inclusief slib en sapropelium.
+
+**Waterkolom:** de diepte van het water van de waterspiegel (het wateroppervlak) tot de onderwaterbodem.
+
+## Doelstelling en toepassingsgebied
+
+Dit protocol beschrijft een methode voor het nemen van een waterstaal als schepstaal met een maatbeker en staalname-emmer in oppervlaktewater voor analyse van de watersamenstelling.
+Dit staal is enkel representatief voor de watersamenstelling nabij de oppervlakte.
+Het staal wordt vervolgens geanalyseerd in een analytisch laboratorium, met als doel de fysisch-chemische toestand van het oppervlaktewater op een specifieke plaats en tijdstip te bepalen, maar kan ook gebruikt worden om ter plaatse door middel van apparatuur of testkits bepaalde kenmerken onmiddellijk te bepalen.
+Voor een representatief beeld van de fysisch-chemische toestand is het doorgaans nodig om de staalname en metingen meermaals in de tijd te herhalen.
+In dit document behandelen we het veldmateriaal, de werkwijze, de randvoorwaarden, veiligheidsnormen en andere richtlijnen voor de staalname, het transport en de voorbereiding van waterstalen voor verdere analyse in het laboratorium.
+De beschreven methode is specifiek gericht op oppervlaktewater en is dus niet bedoeld voor grondwater of kustwateren.
+
