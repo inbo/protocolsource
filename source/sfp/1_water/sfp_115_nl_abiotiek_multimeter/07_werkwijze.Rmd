@@ -10,7 +10,7 @@ Meet met de verschillende elektrodes het volgende:
 
 -   zuurtegraadelektrode: temperatuur (°C) en zuurtegraad (pH) (eq/l);
 
--   geleidbaarheidselektrode: conductiviteit (EC) ($\micro$S/cm bij lage waarden of mS/cm bij hoge waarden) en saliniteit (g/kg);
+-   geleidbaarheidselektrode: conductiviteit (EC) (µS/cm bij lage waarden of mS/cm bij hoge waarden) en saliniteit (g/kg);
 
 -   zuurstofelektrode: opgeloste zuurstof (mg/l) en zuurstofverzadiging (%).
 
@@ -37,13 +37,13 @@ Ook het sponsje in de beschermhuls van de zuurstofmeter wordt gespoeld en opnieu
 
 -   spoel de elektroden grondig met water van het staalnamepunt;
 
--   plaats de elektroden in de maatbeker zodat het onderste 3/4^de^ van de elektrode zich onder water bevindt;
+-   plaats de elektroden in de maatbeker zodat het onderste 3/4de van de elektrode zich onder water bevindt;
 
 -   zet de digitale veldmeter aan en geef deze enkele minuten de tijd om te acclimatiseren;
 
 -   wanneer de waarden op het display stabiel zijn worden deze ingevuld op het staalnameforrmulier;
 
--   selecteer met de pijltjes en de 'M'-toets eerst de elektrode en vervolgens de variabele voor de conductiviteit ($\micro$S/cm bij lage waarden of mS/cm bij hoge waarden), gebruik indien gewenst de 'AutoRead' functie ('AR' toets en 'MENU/ENTER'), en vul de gemeten waarde in op het staalnameformulier;
+-   selecteer met de pijltjes en de 'M'-toets eerst de elektrode en vervolgens de variabele voor de conductiviteit (µS/cm bij lage waarden of mS/cm bij hoge waarden), gebruik indien gewenst de 'AutoRead' functie ('AR' toets en 'MENU/ENTER'), en vul de gemeten waarde in op het staalnameformulier;
 
 -   herhaal deze stap voor de saliniteit (g/kg) (geleidbaarheidselektrode), de opgeloste zuurstof (mg/l) en zuurstofverzadiging (%) (zuurstofelektrode), de zuurtegraad (pH) (eq/l) en temperatuur (°C) (zuurtegraadelektrode).
     Het is belangrijk dat om de conductiviteit en saliniteit eerst te meten en de zuurtegraad pas op het einde omdat bij het gebruik van de zuurtegraadelektrode ionen vrijkomen.
