@@ -209,8 +209,7 @@ This website will host all approved and published versions of all protocols.
 
     6.  Regularly preview the html and pdf versions of the protocol:
 
-        1.  with `protocolhelper::render_protocol("<protocol-code>")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol)
-        2.  alternatively, download the rendered version: see [these instructions](REVIEWING.md)
+        1.  with `protocolhelper::render_protocol("<protocol-code>")` (when this function is finished, read the message in the R console after "Output created: ..." to see where you can find and preview the rendered version of your protocol).
 
     7.  add text, media, references, ... to the Rmarkdown files
 
@@ -238,6 +237,7 @@ This website will host all approved and published versions of all protocols.
    1. Add reviewers.
     At least one repo admin and one other subject-matter specialist must review the protocol.
     The subject-matter specialist reviews the contents of the protocol and the repo-admin reviews technical aspects.
+    To give reviewers access to the rendered version of the protocol, you zip the rendered files and upload them online in the conversation space of your pull request.
 
     ![](source/management/pr-on-github-4.png)
 
