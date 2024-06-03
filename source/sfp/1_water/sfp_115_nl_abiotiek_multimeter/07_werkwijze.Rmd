@@ -31,7 +31,7 @@ Ook het sponsje in de beschermhuls van de zuurstofmeter wordt gespoeld en opnieu
 
 **Stappenplan:**
 
--   neem met de maatbeker een substaal van het mengstaal (voor het nemen van een mengstaal zie [SVP-114](https://inbo.github.io/protocols/2024.03/index.html));
+-   neem met de maatbeker een substaal van het mengstaal (voor het nemen van een mengstaal zie [sfp-114-nl](../2024.03/index.html));
 
 -   verwijder de beschermhuls van de zuurstofelektrode en de zuurtegraadelektrode;
 
