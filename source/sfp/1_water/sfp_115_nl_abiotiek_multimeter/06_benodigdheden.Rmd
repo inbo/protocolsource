@@ -47,11 +47,11 @@ Elektrode voor het meten van zuurtegraad (pH) (eq/l) en temperatuur (°C) (figuu
 
 ## Materiaal
 
-### Staalname-emmer:
+### Staalname-emmer
 
 Witte emmer (polyethyleen), inhoud 10 l, met maatmarkering en giettuit (figuur \@ref(fig:Figuur2)).
 
-### Maatbeker:
+### Maatbeker
 
 Doorzichtige maatbeker (polypropyleen), inhoud 2 l, met maatmarkering, giettuit en handvat (figuur \@ref(fig:Figuur2)).
 
