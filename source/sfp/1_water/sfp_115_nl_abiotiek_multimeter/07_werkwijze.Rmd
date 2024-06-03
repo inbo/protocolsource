@@ -60,6 +60,6 @@ Ook het sponsje in de beschermhuls van de zuurstofmeter wordt gespoeld en opnieu
 
 ## Registratie en bewaring van resultaten
 
-De gemeten waarden en eventuele opmerkingen worden ingevuld op het analoge (geprefereerd) of digitale staalnameformulier.
+De gemeten waarden en eventuele opmerkingen worden ingevuld op het analoge (geprefereerd) of digitale staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1).
 De metingen worden in een databank bewaard.
 Bij een analoog staalnameformulier wordt een kopie van het staalnameformulier bewaard door het labo en het origineel door de projectverantwoordelijke.
