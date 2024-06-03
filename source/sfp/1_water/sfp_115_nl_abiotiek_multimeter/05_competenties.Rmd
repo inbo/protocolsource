@@ -1,5 +1,5 @@
 # Vereiste competenties
 
--   Nemen van een mengstaal ([SVP-114](https://inbo.github.io/protocols/2024.03/index.html))
+-   Nemen van een mengstaal ([sfp-114-nl](../2024.03/index.html))
 
 -   Bediening veldmeter type WTW Multi 3430 ([SIP-055B]())
