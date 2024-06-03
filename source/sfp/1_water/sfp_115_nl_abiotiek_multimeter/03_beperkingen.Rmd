@@ -1,3 +1,3 @@
 # Beperkingen van het protocol
 
-Er zijn geen beperkingen tot deze procedure anders dan de beperkingen die het nemen van een mengstaal (zie protocol bemonstering waterkolom oppervlaktewater [SVP-114](https://inbo.github.io/protocols/2024.03/index.html)), waarop deze veldmeting gebeurt, onmogelijk maken.
+Er zijn geen beperkingen tot deze procedure anders dan de beperkingen die het nemen van een mengstaal (zie protocol bemonstering waterkolom oppervlaktewater [sfp-114-nl](../2024.03/index.html)), waarop deze veldmeting gebeurt, onmogelijk maken.
