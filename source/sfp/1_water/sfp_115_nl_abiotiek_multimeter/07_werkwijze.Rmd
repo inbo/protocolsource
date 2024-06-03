@@ -2,7 +2,7 @@
 
 ## Uitvoering
 
-De veldmeting wordt uitgevoerd met de digitale veldmeter type WTW Multi 3430 op een substaal van een mengstaal genomen volgens protocol [SVP-114](https://inbo.github.io/protocols/2024.03/index.html).
+De veldmeting wordt uitgevoerd met de digitale veldmeter type WTW Multi 3430 op een substaal van een mengstaal genomen volgens protocol [sfp-114-nl](../2024.03/index.html).
 De maatbeker en de elektroden moeten vooraf gespoeld worden met water van het staalnamepunt.
 Neem met de maatbeker een substaal van het mengstaal uit de staalname-emmer en doe de voorgespoelde elektrodes hierin.
 Let op dat de beschermhuls van de zuurtegraad-elektrode en die van de zuurstofelektrode voor het spoelen al werden verwijderd.
