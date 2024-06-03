@@ -16,7 +16,7 @@ rmd_files:
 - 11_referenties.Rmd
 - 12_appendices.Rmd
 - 13_subprotocols.Rmd
-output_dir: ../../../../docs/sfp/1_water/sfp_115_nl_abiotiek_multimeter
+output_dir: ../../../../../protocoldocs/docs/sfp/1_water/sfp_115_nl_abiotiek_multimeter
 language:
   label:
     fig: 'Figuur '
