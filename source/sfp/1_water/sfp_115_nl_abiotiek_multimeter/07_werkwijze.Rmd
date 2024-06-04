@@ -14,8 +14,8 @@ Meet met de verschillende elektrodes het volgende:
 
 -   zuurstofelektrode: opgeloste zuurstof (mg/l) en zuurstofverzadiging (%).
 
-Gebruik de pijltjes en de 'M'-toets om respectievelijk van elektrode en variabele te veranderen.
-Gebruik indien gewenst de 'AutoRead' functie door op de 'AR' toets en vervolgens op 'MENU/ENTER' te drukken en wacht tot het toestel de melding geeft dat de waarde stabiel is.
+Gebruik de pijltjes en de $M$-toets om respectievelijk van elektrode en variabele te veranderen.
+Gebruik indien gewenst de 'AutoRead' functie door op de $AR$ toets en vervolgens op 'MENU/ENTER' te drukken en wacht tot het toestel de melding geeft dat de waarde stabiel is.
 Voor verdere informatie over het gebruik, kalibratie en onderhoud van dit toestel verwijzen we naar het protocol [SIP-055B]().
 
 Geef het toestel steeds voldoende tijd om te stabiliseren en lees de waarden die weergegeven worden op de display pas af als deze stabiel zijn.
@@ -43,7 +43,7 @@ Ook het sponsje in de beschermhuls van de zuurstofmeter wordt gespoeld en opnieu
 
 -   wanneer de waarden op het display stabiel zijn worden deze ingevuld op het staalnameforrmulier;
 
--   selecteer met de pijltjes en de 'M'-toets eerst de elektrode en vervolgens de variabele voor de conductiviteit (µS/cm bij lage waarden of mS/cm bij hoge waarden), gebruik indien gewenst de 'AutoRead' functie ('AR' toets en 'MENU/ENTER'), en vul de gemeten waarde in op het staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1);
+-   selecteer met de pijltjes en de $M$ toets eerst de elektrode en vervolgens de variabele voor de conductiviteit (µS/cm bij lage waarden of mS/cm bij hoge waarden), gebruik indien gewenst de 'AutoRead' functie ($AR$ toets en 'MENU/ENTER'), en vul de gemeten waarde in op het staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1);
 
 -   herhaal deze stap voor de saliniteit (g/kg) (geleidbaarheidselektrode), de opgeloste zuurstof (mg/l) en zuurstofverzadiging (%) (zuurstofelektrode), de zuurtegraad (pH) (eq/l) en temperatuur (°C) (zuurtegraadelektrode).
     Het is belangrijk dat om de conductiviteit en saliniteit eerst te meten en de zuurtegraad pas op het einde omdat bij het gebruik van de zuurtegraadelektrode ionen vrijkomen.
