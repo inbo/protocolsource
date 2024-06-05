@@ -24,9 +24,9 @@ RUN apt-get update \
 COPY docker/Rprofile.site $R_HOME/etc/Rprofile.site
 
 ## Install pandoc
-RUN  wget https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-1-amd64.deb \
-  && dpkg -i pandoc-2.7.3-1-amd64.deb \
-  && rm pandoc-2.7.3-1-amd64.deb
+RUN  wget https://github.com/jgm/pandoc/releases/download/3.1.11/pandoc-3.1.11-1-amd64.deb \
+  && dpkg -i pandoc-3.1.11-1-amd64.deb \
+  && rm pandoc-3.1.11-1-amd64.deb
 
 ## Install git depencencies
 RUN apt-get update \
