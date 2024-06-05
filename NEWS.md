@@ -1,7 +1,7 @@
 ### First version of protocol: sfp-115-nl
 
 - Title: Veldmeting abiotiek oppervlaktewater met behulp van WTW Multi 3430 veldmeter
-- Published on: 2024-06-03
+- Published on: 2024-06-05
 - Version number: 2024.04
 - Link to this version: [sfp-115-nl version 2024.04](2024.04/index.html)
 
