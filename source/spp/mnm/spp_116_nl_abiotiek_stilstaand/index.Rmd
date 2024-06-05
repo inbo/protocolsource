@@ -7,7 +7,7 @@ date: '`r Sys.Date()`'
 reviewers: An Leyssen, Luc Denys, Geert De Knijf, Toon Westra
 file_manager: Toon Westra
 protocol_code: spp-116-nl
-version_number: '2024.01'
+version_number: '2024.05'
 language: nl
 lang: nl
 template_name: spp
