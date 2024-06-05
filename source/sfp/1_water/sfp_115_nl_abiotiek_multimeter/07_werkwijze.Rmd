@@ -1,0 +1,65 @@
+# Werkwijze
+
+## Uitvoering
+
+De veldmeting wordt uitgevoerd met de digitale veldmeter type WTW Multi 3430 op een substaal van een mengstaal genomen volgens protocol [sfp-114-nl](../2024.03/index.html).
+De maatbeker en de elektroden moeten vooraf gespoeld worden met water van het staalnamepunt.
+Neem met de maatbeker een substaal van het mengstaal uit de staalname-emmer en doe de voorgespoelde elektrodes hierin.
+Let op dat de beschermhuls van de zuurtegraad-elektrode en die van de zuurstofelektrode voor het spoelen al werden verwijderd.
+Meet met de verschillende elektrodes het volgende:
+
+-   zuurtegraadelektrode: temperatuur (°C) en zuurtegraad (pH) (eq/l);
+
+-   geleidbaarheidselektrode: conductiviteit (EC) (µS/cm bij lage waarden of mS/cm bij hoge waarden) en saliniteit (g/kg);
+
+-   zuurstofelektrode: opgeloste zuurstof (mg/l) en zuurstofverzadiging (%).
+
+Gebruik de pijltjes en de $M$-toets om respectievelijk van elektrode en variabele te veranderen.
+Gebruik indien gewenst de 'AutoRead' functie door op de $AR$ toets en vervolgens op 'MENU/ENTER' te drukken en wacht tot het toestel de melding geeft dat de waarde stabiel is.
+Voor verdere informatie over het gebruik, kalibratie en onderhoud van dit toestel verwijzen we naar het protocol [SIP-055B]().
+
+Geef het toestel steeds voldoende tijd om te stabiliseren en lees de waarden die weergegeven worden op de display pas af als deze stabiel zijn.
+Vul de gemeten waarden in op het staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1) met dezelfde nauwkeurigheid zoals weergegeven op de display van het toestel, zonder afronding.
+
+[Opmerking:]{.underline} Bij een zeer hoge zuurstofverzadiging kunnen waarden bereikt worden die buiten het meetbereik van de zuurstofelektrode liggen (meetbereik = concentratie 0 -- 20 mg/l, saturatie 0 -- 200%) en geeft het toestel de melding "**OFL**".
+Bij een foutmelding wordt de melding "**ERROR**" getoond.
+Beide meldingen verschillen van elkaar en worden hetzij als 'OFL' dan wel als 'ERROR' vermeld in op het staalnameformulier.
+
+Na elke meting dienen de elektrodes te worden gespoeld met de spuitfles met gedemineraliseerd water (UPW).
+Na de laatste meting van de dag wordt ook het beschermkapje van de zuurtegraadelektrode gespoeld met gedemineraliseerd water en wordt dit opnieuw gevuld met KCl als bewaarvloeistof.
+Ook het sponsje in de beschermhuls van de zuurstofmeter wordt gespoeld en opnieuw bevochtigd met UPW en het overtollige water wordt uitgeknepen.
+
+**Stappenplan:**
+
+-   neem met de maatbeker een substaal van het mengstaal (voor het nemen van een mengstaal zie [sfp-114-nl](../2024.03/index.html));
+
+-   verwijder de beschermhuls van de zuurstofelektrode en de zuurtegraadelektrode;
+
+-   spoel de elektroden grondig met water van het staalnamepunt;
+
+-   plaats de elektroden in de maatbeker zodat het onderste 3/4de van de elektrode zich onder water bevindt;
+
+-   zet de digitale veldmeter aan en geef deze enkele minuten de tijd om te acclimatiseren;
+
+-   wanneer de waarden op het display stabiel zijn worden deze ingevuld op het staalnameforrmulier;
+
+-   selecteer met de pijltjes en de $M$ toets eerst de elektrode en vervolgens de variabele voor de conductiviteit (µS/cm bij lage waarden of mS/cm bij hoge waarden), gebruik indien gewenst de 'AutoRead' functie ($AR$ toets en 'MENU/ENTER'), en vul de gemeten waarde in op het staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1);
+
+-   herhaal deze stap voor de saliniteit (g/kg) (geleidbaarheidselektrode), de opgeloste zuurstof (mg/l) en zuurstofverzadiging (%) (zuurstofelektrode), de zuurtegraad (pH) (eq/l) en temperatuur (°C) (zuurtegraadelektrode).
+    Het is belangrijk dat om de conductiviteit en saliniteit eerst te meten en de zuurtegraad pas op het einde omdat bij het gebruik van de zuurtegraadelektrode ionen vrijkomen.
+
+-   spoel de elektroden grondig na met het spuitflesje met UPW-water;
+
+-   controleer de vochtigheid van het sponsje in de beschermhuls van de zuurstofelektrode en bevestig de huls terug rond het uiteinde van de elektrode;
+
+-   controleer of er voldoende kaliumchloride (KCl) in de beschermhuls van de zuurtegraadelektrode zit (ongeveer 1/3de) en plaats deze huls rond het uiteinde van de elektrode;
+
+-   vul de overige gegevens correct in op het staalnameformulier;
+
+-   spoel alle veldmateriaal grondig na.
+
+## Registratie en bewaring van resultaten
+
+De gemeten waarden en eventuele opmerkingen worden ingevuld op het analoge (geprefereerd) of digitale staalnameformulier (zie [SPP-116](https://drive.google.com/file/d/1OH-WAQrHLDaW5CV8w2sUaVBPVGaEPqe5/view) bijlage 1).
+De metingen worden in een databank bewaard.
+Bij een analoog staalnameformulier wordt een kopie van het staalnameformulier bewaard door het labo en het origineel door de projectverantwoordelijke.

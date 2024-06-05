@@ -1,0 +1,33 @@
+book_filename: sfp_115_nl_abiotiek_multimeter.Rmd
+delete_merged_file: true
+rmd_files:
+- index.Rmd
+- NEWS.md
+- 01_afhankelijkheden.Rmd
+- 02_onderwerp.Rmd
+- 03_beperkingen.Rmd
+- 04_principe.Rmd
+- 05_competenties.Rmd
+- 06_benodigdheden.Rmd
+- 07_werkwijze.Rmd
+- 08_kwaliteitszorg.Rmd
+- 09_veiligheid.Rmd
+- 10_samenvatting.Rmd
+- 11_referenties.Rmd
+- 12_appendices.Rmd
+- 13_subprotocols.Rmd
+output_dir: ../../../../../protocoldocs/docs/sfp/1_water/sfp_115_nl_abiotiek_multimeter
+language:
+  label:
+    fig: 'Figuur '
+    tab: 'Tabel '
+    eq: 'Vergelijking '
+    thm: 'Theorema '
+    lem: 'Lemma '
+    def: 'Definitie '
+    cor: 'Bijgevolg '
+    prp: 'Propositie '
+    ex: 'Voorbeeld '
+    proof: 'Bewijs. '
+    remark: 'Opmerking. '
+

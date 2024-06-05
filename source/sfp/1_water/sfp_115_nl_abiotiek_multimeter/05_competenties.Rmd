@@ -1,0 +1,5 @@
+# Vereiste competenties
+
+-   Nemen van een mengstaal ([sfp-114-nl](../2024.03/index.html))
+
+-   Bediening veldmeter type WTW Multi 3430 ([SIP-055B]())
