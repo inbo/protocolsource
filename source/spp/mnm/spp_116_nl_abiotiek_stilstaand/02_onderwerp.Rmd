@@ -1,0 +1,57 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+**Mengstaal**: een staal bekomen door het mengen van meerdere deelstalen.
+De deelstalen worden op verschillende, doorgaans ruimtelijk gespreide, plaatsen binnen eenzelfde staalnamelocatie genomen.
+
+**oppervlaktewater**: al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003).
+
+**Staal of monster:** een portie die geselecteerd wordt uit een grotere hoeveelheid.
+In dit protocol bestaat het staal steeds uit een hoeveelheid water van de staalnamelocatie.
+
+**Staalnamelocatie** of **steekproefeenheid**: het waterlichaam (poel, vijver, plas ...) waarvan de abiotische karakterisatie wordt beoogd en waarbinnen het staalnamepunt zich bevind.
+
+**Staalnamepunt:** de exacte plaats binnen de staalnamelocatie waarop de abiotische staalname wordt uitgevoerd.
+
+**UPW**: ultrapuur water is sterk gezuiverd water dat vrijwel volledig vrij is van o.a.
+carbonaat, mangnesium- en calciumionen, organische verbindingen en gassen; het heeft een elketrische geleidbaarheid van ongeveer 0,055 µS/cm bij 25 °C.
+
+## Doelstelling en toepassingsgebied
+
+**Doelstelling**
+
+Deze procedure beschrijft de staalname en de bepaling van enkele veldkenmerken in stilstaande oppervlaktewateren, met het oog op de bepaling van de fysisch-chemische toestand van de waterkolom.
+Dit projectprotocol is een overkoepelend protocol waarin voor specifieke werkzaamheden wordt verwezen naar andere protocollen.
+Dit protocol is specifiek ontworpen voor de monitoring in kader van de meetnetten natuurlijk milieu (MNM; Vanderhaeghe et al. 2020).
+
+**Toepassingsgebied**
+
+Deze gestandaardiseerde procedure kan toegepast worden bij alle typen stilstaande oppervlaktewateren.
+Voor stromende wateren verwijzen we naar het projectprotocol [SPP-117]().
+
+**Beperkingen tot de procedure**
+
+In bepaalde omstandigheden kan er geen waterstaal genomen worden:
+
+-   Bepaalde activiteiten in het water of op de oever kunnen tijdelijk een zodanig grote impact hebben op de toestand van de waterkolom dat staalname niet zinvol of wenselijk is (vb. zeer veel omgewoeld slib tijdens slibruiming);
+
+-   Het staalnamepunt kan onmogelijk worden bereikt;
+
+-   Gedeeltelijk of geheel droogvallen van de staalnameplaats.
+    Er kunnen geen waterstalen genomen worden bij een te laag waterpeil.
+    Bij een waterdiepte minder dan 0,05 m is omwoeling van de waterbodem nagenoeg onvermijdelijk[^02_onderwerp-1];
+
+-   Bij een bevroren wateroppervlak kan een ijslaag de staalname verhinderen wanneer deze te dik is om te breken.
+    Bij diepere plassen is staalname bij ijsvorming niet mogelijk als de veiligheid van de staalnemer niet gegarandeerd kan worden.
+    Indien het breken van de ijslaag in zeer ondiep water zou leiden tot het omwoelen van de waterbodem is het nemen van een waterstaal niet mogelijk;
+
+-   Tijdens en vlak na overstroming kan het staalnamepunt onbereikbaar zijn of kan door het aandeel gebiedsvreemd water, staalname niet zinvol/wenselijk zijn;
+
+-   Bepaalde weersomstandigheden waarin de veiligheid van de staalnemer niet kan gegarandeerd worden (storm, bliksem, etc.) kunnen staalname onmogelijk maken.
+
+[^02_onderwerp-1]: Indien gewenst kan beroep worden gedaan op een andere bemonsteringsmethode
+
+Naast de hierboven opgesomde beperkingen kunnen er nog extra beperkingen zijn voor het uitvoeren van specifieke deelprotocollen.
+Voor deze deelprotocolspecifieke beperkingen verwijzen we naar de deelprotocollen [SFP-113](https://protocols.inbo.be/2023.04/index.html), [SFP-114](https://protocols.inbo.be/2024.03/index.html) en [SFP-115](https://protocols.inbo.be/2024.04/index.html).
+De beperkende factoren die de staalname bemoeilijken of verhinderen worden steeds gedocumenteerd in het opmerkingenveld op het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)).
