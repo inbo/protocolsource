@@ -28,7 +28,6 @@ Dit protocol is specifiek ontworpen voor de monitoring in kader van de meetnette
 **Toepassingsgebied**
 
 Deze gestandaardiseerde procedure kan toegepast worden bij alle typen stilstaande oppervlaktewateren.
-Voor stromende wateren verwijzen we naar het projectprotocol [SPP-117]().
 
 **Beperkingen tot de procedure**
 
