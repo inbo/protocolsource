@@ -11,7 +11,7 @@ jobs:
     name: "add protocol to website"
     steps:
       - name: lookup branch name
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - uses: tonynguyenit18/github-action-custom-vars@v1
       - name: test
         run: echo 'branch name =' $RECENT_MERGED_BRANCH_NAME
