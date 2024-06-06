@@ -52,5 +52,5 @@ In bepaalde omstandigheden kan er geen waterstaal genomen worden:
 [^02_onderwerp-1]: Indien gewenst kan beroep worden gedaan op een andere bemonsteringsmethode
 
 Naast de hierboven opgesomde beperkingen kunnen er nog extra beperkingen zijn voor het uitvoeren van specifieke deelprotocollen.
-Voor deze deelprotocolspecifieke beperkingen verwijzen we naar de deelprotocollen [SFP-113](https://protocols.inbo.be/2023.04/index.html), [SFP-114](https://protocols.inbo.be/2024.03/index.html) en [SFP-115](https://protocols.inbo.be/2024.04/index.html).
+Voor deze deelprotocolspecifieke beperkingen verwijzen we naar de deelprotocollen [SFP-113 2023.04](https://protocols.inbo.be/2023.04/index.html), [SFP-114 2024.03](https://protocols.inbo.be/2024.03/index.html) en [SFP-115 2024.04](https://protocols.inbo.be/2024.04/index.html).
 De beperkende factoren die de staalname bemoeilijken of verhinderen worden steeds gedocumenteerd in het opmerkingenveld op het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)).
