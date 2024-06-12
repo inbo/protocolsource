@@ -1,1 +1,33 @@
 # Extra benodigdheden t.o.v. de subprotocols
+
+Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en materiaal voor het uitvoeren van een abiotische staalname.
+
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+| Algemene benodigdheden                                              | Specifieke benodigdheden deelprotocollen                          |
++=====================================================================+===================================================================+
+| -   Staalnameformulier (analoog of digitaal)                        | -   Stroomsnelheidsmeter                                          |
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+| -   Klembord, potlood en slijper                                    | -   Horizontale waterhapper, voorzien van een voldoende lang touw |
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+| -   Laarzen, lieslaarzen, waadpak (site-afhankelijk)                | -   Telescopische steel met maatbeker                             |
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+| -   Latex handschoenen (poederloos)                                 |                                                                   |
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+| -   Plooimeter                                                      |                                                                   |
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+| -   Fototoestel                                                     |                                                                   |
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+| -   Documentatie van het staalnamepunt om dit te kunnen lokaliseren |                                                                   |
++---------------------------------------------------------------------+-------------------------------------------------------------------+
+
+: (#tab:Tabel1) Checklist benodigd veldmateriaal.
+
+## Materiaal
+
+Zie materiaal van de deelprotocollen ([SVP-113 2023.04](https://protocols.inbo.be/2023.04/index.html), [SVP-114 2024.03](https://protocols.inbo.be/2024.03/index.html), [SVP-115 2024.04](https://protocols.inbo.be/2024.04/index.html)), aangevuld met:
+
+-   Horizontale waterhapper (bijvoorbeeld Friedinger, Van Dorn, …) voorzien van nylonkoord of touw.
+
+-   Polyethyleen of polypropyleen maatbeker van 2 liter (+ reserve) voorzien van gietmondje en handvat.
+
+-   Telescopische steel + maatbeker.

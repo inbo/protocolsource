@@ -2,18 +2,49 @@
 
 ## Definities en afkortingen
 
-```{=html}
-<!--
-Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
--->
-```
+**staalnamelocatie** of **steekproefeenheid:** Voor het project meetnetten natuurlijk milieu (zie verder) komt de steekproefeenheid voor waterlopen overeen met een 100 meter segment van de waterloop.
+Dit is het segment waarvan de abiotische karakterisatie wordt beoogd.
+Dit segment wordt aangeduid als het meest stroomafwaarts gelegen punt van het te bemonsteren 100 meter segment.
+
+**staalnamepunt**: exacte plaats waar het waterstaal wordt genomen; dit is de meest geschikte dwarsdoorsnede van de waterloop binnen de staalnamelocatie (100 meter segment van de waterloop).
+
+**oppervlaktewater**: al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003)
+
+**staalnameformulier**: formulier waarop de veldmetingen, veldwaarnemingen en opmerkingen in verband met de staalname worden genoteerd
+
+**waterdiepte**: verticale afstand tussen het wateroppervlak en het bodemoppervlak
+
+zie definities en afkortingen van de deelprotocols ([SVP-113 2023.04](https://protocols.inbo.be/2023.04/index.html), [SVP-114 2024.03](https://protocols.inbo.be/2024.03/index.html), [SVP-115 2024.04](https://protocols.inbo.be/2024.04/index.html))
+
 ## Doelstelling en toepassingsgebied
 
-```{=html}
-<!--
-Doelstelling: omschrijving in woorden waarvoor het protocol dient.
-Voorbeelden wat er met de gegevens kan gedaan worden.
-Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
-Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
--->
-```
+### Doelstelling
+
+Deze procedure beschrijft de staalname van oppervlaktewater en de bepaling van enkele veldkenmerken in stromende wateren, met het oog op de bepaling van de fysisch-chemische toestand van de waterkolom.
+Dit projectprotocol is een overkoepelend protocol waarin voor specifieke werkzaamheden wordt verwezen naar andere protocollen.
+Dit protocol is specifiek ontworpen voor de monitoring in kader van de meetnetten natuurlijk milieu (Vanderhaeghe et al. 2020).
+
+### Toepassingsgebied
+
+Deze gestandaardiseerde procedure kan toegepast worden in stromende wateren, gaande van bovenlopen tot zeer grote rivieren.
+Het protocol kan tevens worden toegepast in polderwaterlopen, grachten en kanalen.
+Voor stilstaande wateren verwijzen we naar het projectprotocol [SPP-116 2024.05](https://protocols.inbo.be/2024.05/index.html).
+
+### Beperkingen tot de procedure
+
+In sommige omstandigheden kan er geen waterstaal genomen worden:
+
+-   Werken aan de waterloop: lopende of net uitgevoerde werken in of aan de waterloop die een dergelijke tijdelijke impact hebben dat de staalname niet representatief is voor de normale toestand (vb. zeer veel omgewoeld slib tijdens ruiming);
+
+-   Staalnamepunt onbereikbaar: het staalnamepunt kan onmogelijk worden bereikt;
+
+-   Onvoldoende watervoerend/-houdend: Er kunnen geen waterstalen genomen worden bij een zeer laag waterpeil volgens dit protocol (bv. waterdiepte zo laag dat omwoeling van de waterbodem onvermijdbaar is), of een dermate lage waterstand dat het water niet longitudinaal afstroomt.
+    In dit geval dient een andere bemonsteringsmethode te worden toegepast.
+    Een minimale waterdiepte van 10 à 20 cm naargelang de omstandigheden is vereist om volgens dit protocol een staal te nemen.
+
+-   Ijsvorming: de volledige waterkolom is bevroren of de dikte van de ijslaag verhindert de staalname;
+
+-   Extreem hoog waterpeil of extreem hoge stroomsnelheden: indien de omstandigheden een gevaar vormen voor de veiligheid van de staalnemer(s), kan de procedure niet worden uitgevoerd.
+
+Indien er geen waterstaal genomen kon worden, wordt dit steeds gedocumenteerd op het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)).
+De staalnamelocatie wordt verschoven of vervangen door een andere locatie volgens het unit selection protocol (in voorbereiding).

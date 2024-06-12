@@ -1,0 +1,196 @@
+---
+title: Abiotische staalname waterlopen
+author:
+- name: Leyssen, An
+  orcid: 0000-0003-3537-286X
+date: '2021-02-17'
+reviewers: Kevin Scheers, Jo Packet, Luc Denys, Geert De Knijf, Vincent Smeekens,
+  Toon Westra
+file_manager: Toon Westra
+protocol_code: spp-117-nl
+version_number: '2024.05'
+language: nl
+lang: nl
+template_name: spp
+project_name: mnm
+site: bookdown::bookdown_site
+bibliography: referenties.yaml
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+url: https://inbo.github.io/protocols/
+github_repo: inbo/protocolsource
+---
+
+# Metadata {.unnumbered}
+
+Placeholder
+
+
+
+<!--chapter:end:index.Rmd-->
+
+# Wijzigingen t.o.v. vorige versies
+
+## [2024.05](../2024.05/index.html)
+
+-   ...
+
+```{=html}
+<!--
+Omschrijf hier welke wijzigingen er gebeurd zijn ten opzichte van de vorige versie. 
+Vermeld bij elk versienummer, de reden van de wijziging en - wanneer relevant - een beknopte beschrijving van de wijziging.
+Gesorteerd van recent naar oud. 
+
+## [2020.02](../2020.02/index.html)
+
+- Toevoeging van ontbrekende stap in het stappenplan
+- Verbetering van schrijffouten
+
+## [2020.01](../2020.01/index.html)
+
+- Eerste versie van het protocol
+-->
+```
+
+<!--chapter:end:NEWS.md-->
+
+
+# Afhankelijkheden
+
+Placeholder
+
+
+
+<!--chapter:end:01_afhankelijkheden.Rmd-->
+
+
+# Onderwerp
+
+Placeholder
+
+
+## Definities en afkortingen
+## Doelstelling en toepassingsgebied
+### Doelstelling
+### Toepassingsgebied
+### Beperkingen tot de procedure
+
+<!--chapter:end:02_onderwerp.Rmd-->
+
+
+# Extra benodigdheden t.o.v. de subprotocols
+
+Placeholder
+
+
+## Materiaal
+
+<!--chapter:end:03_benodigdheden.Rmd-->
+
+# Overkoepelende werkwijze met verwijzing naar subprotocols
+
+Hieronder een samenvattende opsomming van de te volgen stappen:
+
+1.  Controleer de lijst met benodigdheden en het niveau van de batterijen voor vertrek;
+
+2.  Navigeer met een GPS naar de staalnamelocatie, beoordeel de situatie ter plekke;
+
+3.  Kies een geschikt staalnamepunt en documenteer deze (foto’s);
+
+4.  Bepaal de secchi- en waterdiepte volgens het protocol [SFP-113 2023.04](https://protocols.inbo.be/2023.04/index.html);
+
+5.  Bepaal de stroomsnelheid volgens het protocol [SFP-118]();
+
+6.  Spoel het materiaal voor met water van het staalnamepunt en neem een mengstaal volgens protocol [SFP-114 2024.03](https://protocols.inbo.be/2024.03/index.html);
+
+7.  Neem met de maatbeker een substaal van het mengstaal en voer de veldmeting uit volgens het protocol [SFP-115 2024.04](https://protocols.inbo.be/2024.04/index.html);
+
+8.  Vul en bewaar de recipiënten voor het laboratorium volgens het protocol [SFP-114 2024.03](https://protocols.inbo.be%20/2024.03/index.html) met het overige mengstaal;
+
+9.  Reinig het gebruikte materiaal;
+
+10. Controleer of het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)) volledig is ingevuld, voeg eventuele uitzonderlijke veldwaarnemingen toe;
+
+11. Breng de stalen en een kopie van het staalnameformulier binnen bij het labo (binnen 24u na het nemen van het eerste staal);
+
+12. Digitaliseer het staalnameformulier en klasseer de foto’s.
+
+## Voorbereiding terreinwerk
+
+Vooraf worden de XY-coördinaten van de staalnamelocatie ingevoerd in een standaard GPS of in een smartphone-applicatie.
+Dit is het meest stroomafwaarts gelegen punt van het te bemonsteren 100 meter segment van de waterloop, de steekproefeenheid voor het project meetnetten natuurlijk milieu.
+
+In juni-september, tijdens een veldbezoek voorafgaand aan de meetcampagne, wordt vastgesteld of het doelhabitat (habitattype 3260) aanwezig is in het waterloopsegment (habitatdefinitie: zie Leyssen et al. 2020 en SVP-403).
+
+## Lokaliseren en documenteren van staalnamepunt
+
+Navigeer met behulp van een standaard GPS (nauwkeurigheid ca. 3-5 m) naar de oever van de staalnamelocatie.
+
+Zoek binnen een afstand van 100 m stroomopwaarts naar een geschikte staalnamepunt en documenteer deze bij een eerste staalnamebezoek (coördinaten met standaard GPS, beschrijving en foto).
+Meanders worden hierbij best vermeden door slibophoping in de binnenbocht die kan opwarrelen, grote diepte in buitenbocht (veiligheid) en bijzondere stromings- en turbulentiepatronen in de meanders die kunnen leiden tot kwaliteitsverschillen in de genomen stalen.
+De voorkeur gaat dan uit naar een staalnamepunt, gelegen tussen 2 meanders op maximaal 100 meter van het oorspronkelijke coördinaten van de staalnamelocatie (figuur \@ref(fig:Figuur1)).
+De voorkeur wordt gegeven aan vegetatieloze of vegetatiearme zones in de waterloop.
+Verstoring van de planten leidt tot resuspensie van hierop aanwezig sediment, neerslag en aangroei en kan het staal contamineren.
+
+```{r Figuur1, fig.cap="Schematische voorstelling van de staalnamelocatie (grijze bol), de zoekzone voor een geschikt staalnamepunt (grijze arcering) en het gekozen staalnamepunt (rode lijn), gelegen tussen de meanders op niet meer dan 100 m van het staalnamelocatie."}
+include_graphics("./media/Figure1.JPG")
+
+```
+
+<!--chapter:end:04_werkwijze.Rmd-->
+
+# Extra aspecten van kwaliteitszorg t.o.v. de subprotocols
+
+```{=html}
+<!--
+Geen herhaling van wat al in subprotocols staat
+-->
+```
+
+<!--chapter:end:05_kwaliteitszorg.Rmd-->
+
+# Extra aspecten van veiligheid t.o.v. de subprotocols
+
+```{=html}
+<!--
+Geen herhaling van wat al in subprotocols staat
+-->
+```
+
+<!--chapter:end:06_veiligheid.Rmd-->
+
+# Referenties {.unnumbered}
+
+::: {#refs}
+:::
+
+```{=html}
+<!--
+Eventueel opsplitsen in sleutelreferentie en overige referenties.
+-->
+```
+
+<!--chapter:end:07_referenties.Rmd-->
+
+```{r, results="asis"}
+if (exists("params")) {
+  if (!is.null(params$dependencies)) {
+    mdfiles <- paste0(map_chr(params$dependencies, "protocol_code"),
+                      "-",
+                      map_chr(params$dependencies, "version_number"),
+                      ".md")
+    child_docs <- file.path(map_chr(params$dependencies, "version_number"),
+                            mdfiles)
+
+    child_docs <- child_docs[map_lgl(params$dependencies, "appendix")]
+
+    if (length(child_docs) > 0) {
+      res <- map(child_docs, knit_child, quiet = TRUE)
+      cat(
+        c("# (PART) Subprotocols {.unnumbered}", "", unlist(res)), sep = "\n")
+    }
+  }
+}
+```
+
+<!--chapter:end:08_subprotocols.Rmd-->
+

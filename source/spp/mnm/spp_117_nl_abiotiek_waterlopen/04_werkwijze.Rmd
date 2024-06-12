@@ -1,15 +1,128 @@
 # Overkoepelende werkwijze met verwijzing naar subprotocols
 
-```{=html}
-<!--
-Geef hier een overzicht van de stappen van het project protocol.
-De verschillende stappen moeten verduidelijkt worden met criteria en richtlijnen wanneer wat moet uitgevoerd worden.
-Bijvoorbeeld:
-Ga naar de te monitoren locatie.
-Volg subprotocol A `<protocol-code>_YYYY.NN` om te bepalen of de locatie tot de doelpopulatie die men wil monitoren behoort (eerste bezoek) of nog steeds behoort (herhaald bezoek).
-Volg subprotocol B `<protocol-code>_YYYY.NN` waarin de staalnameprocedure wordt uitgelegd.
-Volg subprotocol C `<protocol-code>_YYYY.NN` waarin labo-analyse wordt uitgelegd.
+Hieronder een samenvattende opsomming van de te volgen stappen:
 
-De doelstelling is om de subprotocols te organiseren in een coherent hoofd protocol waarin ontbrekende elementen aangevuld worden die niet in de subprotocols staan, zoals wanneer een bepaald subprotocol wel of niet wordt uitgevoerd, of kleine extra stappen die geen eigen subprotocol vereisen.
--->
+1.  Controleer de lijst met benodigdheden en het niveau van de batterijen voor vertrek;
+
+2.  Navigeer met een GPS naar de staalnamelocatie, beoordeel de situatie ter plekke;
+
+3.  Kies een geschikt staalnamepunt en documenteer deze (foto’s);
+
+4.  Bepaal de secchi- en waterdiepte volgens het protocol [SFP-113 2023.04](https://protocols.inbo.be/2023.04/index.html);
+
+5.  Bepaal de stroomsnelheid volgens het protocol [SFP-118]();
+
+6.  Spoel het materiaal voor met water van het staalnamepunt en neem een mengstaal volgens protocol [SFP-114 2024.03](https://protocols.inbo.be/2024.03/index.html);
+
+7.  Neem met de maatbeker een substaal van het mengstaal en voer de veldmeting uit volgens het protocol [SFP-115 2024.04](https://protocols.inbo.be/2024.04/index.html);
+
+8.  Vul en bewaar de recipiënten voor het laboratorium volgens het protocol [SFP-114 2024.03](https://protocols.inbo.be%20/2024.03/index.html) met het overige mengstaal;
+
+9.  Reinig het gebruikte materiaal;
+
+10. Controleer of het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)) volledig is ingevuld, voeg eventuele uitzonderlijke veldwaarnemingen toe;
+
+11. Breng de stalen en een kopie van het staalnameformulier binnen bij het labo (binnen 24u na het nemen van het eerste staal);
+
+12. Digitaliseer het staalnameformulier en klasseer de foto’s.
+
+## Voorbereiding terreinwerk
+
+Vooraf worden de XY-coördinaten van de staalnamelocatie ingevoerd in een standaard GPS of in een smartphone-applicatie.
+Dit is het meest stroomafwaarts gelegen punt van het te bemonsteren 100 meter segment van de waterloop, de steekproefeenheid voor het project meetnetten natuurlijk milieu.
+
+In juni-september, tijdens een veldbezoek voorafgaand aan de meetcampagne, wordt vastgesteld of het doelhabitat (habitattype 3260) aanwezig is in het waterloopsegment (habitatdefinitie: zie Leyssen et al. 2020 en [SFP-403 2023.05](https://protocols.inbo.be/2023.05/index.html)).
+
+## Lokaliseren en documenteren van staalnamepunt
+
+Navigeer met behulp van een standaard GPS (nauwkeurigheid ca. 3-5 m) naar de oever van de staalnamelocatie.
+
+Zoek binnen een afstand van 100 m stroomopwaarts naar een geschikte staalnamepunt en documenteer deze bij een eerste staalnamebezoek (coördinaten met standaard GPS, beschrijving en foto).
+Meanders worden hierbij best vermeden door slibophoping in de binnenbocht die kan opwarrelen, grote diepte in buitenbocht (veiligheid) en bijzondere stromings- en turbulentiepatronen in de meanders die kunnen leiden tot kwaliteitsverschillen in de genomen stalen.
+De voorkeur gaat dan uit naar een staalnamepunt, gelegen tussen 2 meanders op maximaal 100 meter van het oorspronkelijke coördinaten van de staalnamelocatie (figuur \@ref(fig:Figuur1)).
+De voorkeur wordt gegeven aan vegetatieloze of vegetatiearme zones in de waterloop.
+Verstoring van de planten leidt tot resuspensie van hierop aanwezig sediment, neerslag en aangroei en kan het staal contamineren.
+
+```{r Figuur1, fig.cap="Schematische voorstelling van de staalnamelocatie (grijze bol), de zoekzone voor een geschikt staalnamepunt (grijze arcering) en het gekozen staalnamepunt (rode lijn), gelegen tussen de meanders op niet meer dan 100 m van het staalnamelocatie."}
+knitr::include_graphics("./media/Figure1.JPG")
 ```
+
+## Secchi-diepte bepalen
+
+Zie deelprotocol ([SFP-113 2023.04](https://protocols.inbo.be/2023.04/index.html))
+
+De secchi-diepte wordt bij voorkeur bepaald in een vegetatieloze of vegetatiearme zone en in het midden van de waterloop.
+Indien de secchi-schijf door te sterke stroming niet loodrecht naar beneden kan worden gelaten, kan ze verzwaard worden.
+
+Indien de waterdiepte te groot is om de secchi-diepte al wadend te bepalen; kan dit vanop een nabijgelegen brug, of vanop een verankerde boot, gebeuren en dient dit gedocumenteerd te worden op het staalnameformulier in het opmerkingenveld.
+De waterdiepte waar de secchi-diepte werd bepaald, wordt eveneens genoteerd.
+
+## Bepaling stroomsnelheid
+
+zie deelprotocol ([SFP-118]()): nog te ontwikkelen
+
+De stroomsnelheid wordt op één plaats gemeten voor een algemene kwantitatieve karakterisatie van de stroomsnelheid.
+Gedetailleerde stroomsnelheidsbepalingen in verschillende segmenten in de dwarsdoorsnede van de waterlopen en op verschillende diepten zijn hier niet vereist.
+
+De stroomsnelheid wordt gemeten op dezelfde plaats als de secchi-bepaling.
+Kies een nagenoeg recht stuk van de waterloop uit, met min of meer horizontale stroming (parallel met oeverlijn).
+Submerse vegetatie, grote stenen, vistrappen en andere obstakels moeten vermeden worden omdat dit turbulentie veroorzaakt.
+
+De keuze van waterdiepte voor de stroomsnelheidsbepaling dient bij het ontwikkelen van het deelprotocol ([SFP-118]()) verder uitgewerkt te worden, o.a.
+gebaseerd op Hartong & Termes (2009), Osté et al. (2013), Stone et al. (2012) en WVDEP (2018).
+
+Er zijn verschillende mogelijkheden:
+
+-   De meting gebeurt op de helft van de waterdiepte.
+    Bijv: bij een waterdiepte van 1 m, wordt de meting op 0,5 m diepte uitgevoerd.
+
+-   Bij zeer diepe waterlopen wordt de stroomsnelheidsmeting op ca.
+    1 m diepte uitgevoerd, omdat de sonde niet dieper geplaatst kan worden (en uit veiligheidsoverwegingen).
+
+-   De meting gebeurt steeds op 0,5 m diepte (vanaf het wateroppervlak gemeten), tenzij de waterloop minder dan 1 m diep is.
+    Dan wordt de meting uitgevoerd op de helft van de waterdiepte.
+
+## Bemonstering waterkolom en het vullen van de recipiënten
+
+Zie deelprotocols ([SOP-005](): nog te ontwikkelen en [SVP-114 2024.03](https://protocols.inbo.be/2024.03/index.html))
+
+Het mengstaal bestaat uit 3 deelstalen, die gesitueerd zijn langs het dwarsprofiel van de waterloop ter hoogte van het gekozen staalnamepunt (figuur \@ref(fig:Figuur1)) op ca.
+0,5 meter waterdiepte (figuur \@ref(fig:Figuur2)).
+Indien de waterloop minder dan 1 meter diep is, wordt het staal genomen op de helft van de waterdiepte.
+Indien de waterbodem werd omgewoeld bij de bepaling van secchi-diepte of stroomsnelheid, wordt bij geringe stroming een meter stroomopwaarts gewaad voor deze staalname.
+Bij de staalname moet vermeden worden om waterbodem mee te bemonsteren, of om te woelen.
+Het staal wordt indien mogelijk genomen in een vegetatieloze of vegetatiearme zone en niet tussen helofyten.
+Verstoring van de planten leidt tot resuspensie van hierop aanwezig sediment, neerslag en aangroei en kan het staal contamineren.
+Desgevallend dient dit bij de opmerkingen op het staalnameformulier vermeld te worden (zie verder).
+
+```{r Figuur2, fig.cap="Situering deelstalen (rode stippen in een dwarsprofiel van een waterloop."}
+knitr::include_graphics("./media/Figure2.JPG")
+```
+
+Om de deelstalen te kunnen nemen in stromend water op een diepte van 0,5 meter, zijn volgende methoden of materiaal aangewezen (in dalende voorkeur):
+
+-   Horizontale waterhapper (type Friedinger, Van Dorn, …; zie bijlage 10 van Osté et al. 2013): het staal wordt al wadend genomen in de waterloop; eventueel verzwaard indien de waterstroming te sterk is
+
+-   Maatbeker (inhoud 2 l): het staal wordt met een maatbeker genomen al wadend in de waterloop.
+    Hierbij keer je de maatbeker om, laat je deze in het water zakken tot ongeveer 50 cm diepte.
+    Vervolgens keer je de maatbeker om, zodat je op deze diepte een staal kan nemen.
+
+-   Horizontale waterhapper vanop een brug: het staal wordt vanop een brug genomen op de 3 deellocaties van de dwarssectie.
+    Dit wordt toegepast bij grote waterlopen, waar een brug aanwezig is en indien de waterdiepte te groot is om er door te waden en stalen te nemen.
+    Omwoelen van de waterbodem tijdens de staalname dient vermeden te worden.
+
+-   Stok-methode (naar VMM 2020 en bijlage 10 van Osté et al. 2013): Indien de waterdiepte niet toelaat om veilig een staal al wadend te nemen kunnen de deelstalen genomen worden met behulp van een maatbeker of fles, bevestigd aan een (telescopische) stok.
+    Indien mogelijk wordt geschept op de 3 plaatsen van de dwarssectie en wordt het staal voorzichtig verzameld in de emmer waarbij er gelet wordt op een minimale zuurstofinbreng.
+
+De staalnamemethode wordt genoteerd op het veldformulier.
+
+## Uitvoering veldmetingen
+
+Zie deelprotocol [SVP-115 2024.04](https://protocols.inbo.be/2024.04/index.html)
+
+## Aflevering stalen aan het labo
+
+De gekoeld getransporteerde stalen, inclusief een kopie van het staalnameformulier, worden zo snel mogelijk en zeker binnen de tijdspanne van 24 uur na het nemen van het eerste staal van de dag binnengebracht bij het labo.
+In het labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard.
+
+## Digitalisatie van de gegevens op het staalnameformulier
