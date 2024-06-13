@@ -25,7 +25,7 @@ Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en mater
 ## Locatieafhankelijke benodigdheden
 
 Afhankelijk van de diepte en aard van de staalnamelocatie en de ligging van het staalnamepunt kunnen laarzen, lieslaarzen, waadpak en in bepaalde gevallen zelfs een boot nodig zijn.
-Bij werk vanop een boot of bij steile oevers kan een zwemvest en/of reddingstouw aangeraden of verplicht zijn (zie protocol Veiligheid in en rond water [SFP-112]: nog op te stellen).
+Bij werk vanop een boot of bij steile oevers kan een zwemvest en/of reddingstouw aangeraden of verplicht zijn.
 
 ## Staalnameformulier
 
