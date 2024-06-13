@@ -1,9 +1,9 @@
 # Extra aspecten van veiligheid t.o.v. de subprotocols
 
-Tijdens het veldwerk gelden de algemene veiligheidsregels rond het werken in en bij water (zie protocol [SFP-112](): Veiligheid in en rond water).
+Tijdens het veldwerk gelden de algemene veiligheidsregels rond het werken in en bij water (zie protocol [SFP-112]: Veiligheid in en rond water (nog op te stellen)).
 Bij staalname in (mogelijk) verontreinigd water is het gebruik van poederloze latex handschoenen aangeraden om het risico op besmetting te beperken.
 
-Ook dienen de bioveiligheidsmaatregelen voor het voorkomen van verdere verspreiding van invasieve exoten in acht worden genomen (zie veldprotocol Bioveiligheidsmaatregelen; [SFP-015]()).
+Ook dienen de bioveiligheidsmaatregelen voor het voorkomen van verdere verspreiding van invasieve exoten in acht worden genomen (zie veldprotocol Bioveiligheidsmaatregelen; [SFP-015]: (nog op te stellen)).
 
 De staalnemer beschikt steeds over een GSM en een lijst van nuttige telefoonnummers.
 
