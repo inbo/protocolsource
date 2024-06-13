@@ -2,19 +2,19 @@
 
 ## Definities en afkortingen
 
-**staalnamelocatie** of **steekproefeenheid:** Voor het project meetnetten natuurlijk milieu (zie verder) komt de steekproefeenheid voor waterlopen overeen met een 100 meter segment van de waterloop.
+**Staalnamelocatie** of **steekproefeenheid:** Voor het project meetnetten natuurlijk milieu (zie verder) komt de steekproefeenheid voor waterlopen overeen met een 100 meter segment van de waterloop.
 Dit is het segment waarvan de abiotische karakterisatie wordt beoogd.
 Dit segment wordt aangeduid als het meest stroomafwaarts gelegen punt van het te bemonsteren 100 meter segment.
 
-**staalnamepunt**: exacte plaats waar het waterstaal wordt genomen; dit is de meest geschikte dwarsdoorsnede van de waterloop binnen de staalnamelocatie (100 meter segment van de waterloop).
+**Staalnamepunt**: exacte plaats waar het waterstaal wordt genomen; dit is de meest geschikte dwarsdoorsnede van de waterloop binnen de staalnamelocatie (100 meter segment van de waterloop).
 
-**oppervlaktewater**: al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003)
+**Oppervlaktewater**: al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003)
 
-**staalnameformulier**: formulier waarop de veldmetingen, veldwaarnemingen en opmerkingen in verband met de staalname worden genoteerd
+**Staalnameformulier**: formulier waarop de veldmetingen, veldwaarnemingen en opmerkingen in verband met de staalname worden genoteerd
 
-**waterdiepte**: verticale afstand tussen het wateroppervlak en het bodemoppervlak
+**Waterdiepte**: verticale afstand tussen het wateroppervlak en het bodemoppervlak
 
-zie definities en afkortingen van de deelprotocols ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html))
+Zie definities en afkortingen van de deelprotocols ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html))
 
 ## Doelstelling, toepassingsgebied en beperkingen
 

@@ -160,11 +160,11 @@ Het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)) kan ingedeel
     -   Zichtbare verontreiniging van wateroppervlak of waterkolom:
 
         -   [Maaisel]{.underline} / drijvende plantenresten: op het wateroppervlak drijft er maaisel of zijn er drijvende plantenresten aanwezig.
-        -   [Dode fauna]{.underline}: dode fauna aanwezig (vis, eend, ...)
+        -   [Dode fauna]{.underline}: dode fauna aanwezig (vis, eend, ...).
         -   [Olie]{.underline}:kleurige film (kleurschakering met rood, paars, blauw en geel) op het wateroppervlak. Opgelet: bacteriën kunnen eveneens een dunne film op het water vormen. Bij verstoring van deze film (bv door de inworp van een steen) zal deze laag echter breken in de vorm van barstjes, terwijl een oliefilm zich bijna onmiddellijk terug sluit.
         -   Vast [afval]{.underline}: zoals bv. flessen, banden, fietsen, plastic zakken, blikjes,...
-        -   [Schuim]{.underline}: schuimvormig ten gevolge van algenbloei of tensio-actief schuim (veroorzaakt door detergenten)
-        -   [Algenbloei]{.underline}: het water heeft meestal een groene kleur (, in de duidelijkste gevallen te omschrijven als ‘erwtensoep’; kan ook gepaard gaan met bv. een bruine, blauwe, paarse of rode kleur.
+        -   [Schuim]{.underline}: schuimvormig ten gevolge van algenbloei of tensio-actief schuim (veroorzaakt door detergenten).
+        -   [Algenbloei]{.underline}: het water heeft meestal een groene kleur, in de duidelijkste gevallen te omschrijven als ‘erwtensoep’; kan ook gepaard gaan met bv. een bruine, blauwe, paarse of rode kleur.
         -   [Bloei watervlooien]{.underline}: dit kan het water rood kleuren. Het waterstaal bevat veel zoöplankton als men ziet dat de rode massa kleine beweeglijke organismen zijn.
         -   [Gasontwikkeling]{.underline}: aan het wateroppervlak ziet men kleine blaasjes (gasbellen) die openbarsten.
         -   [Vlokken]{.underline}: samengekoekt materiaal (groot of klein) met onregelmatige structuur in of op de waterkolom (meestal wit, grijs of zwart).
