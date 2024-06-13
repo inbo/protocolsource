@@ -6,8 +6,11 @@ Making changes to `renv.lock`:
 
 -   create a new branch `docker-renv-update`
 -   adding a new package: add the package name to the `DESCRIPTION` file, install the package and snapshot it
--   after an upgrade of R x.y to x.z: [see tutorial website](https://inbo.github.io/tutorials/tutorials/r_renv_update/#updating-r-and-packages)
--   add, commit and push `renv.lock` (potentially also `DESCRIPTION` and other files altered by `renv`), make a Pull Request
+-   after an upgrade of R x.y to x.z:
+    -   [see tutorial website](https://inbo.github.io/tutorials/tutorials/r_renv_update/#updating-r-and-packages)
+    -   update pandoc version in the `Dockerfile` to the current version used locally (run `rmarkdown::pandoc_version()` in the console to see which version is used)
+-   add, commit and push modified files
+-   make a Pull Request
 -   ask for a review
 -   wait until docker succesfully built message appears before merging
 

@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Tag in case renv or docker files changed
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
 
       - name: Get changed files
         id: changed-files-specific
-        uses: tj-actions/changed-files@v41
+        uses: tj-actions/changed-files@v44
         with:
           files: |
             Dockerfile
