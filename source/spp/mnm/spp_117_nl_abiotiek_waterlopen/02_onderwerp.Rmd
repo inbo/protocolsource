@@ -14,9 +14,9 @@ Dit segment wordt aangeduid als het meest stroomafwaarts gelegen punt van het te
 
 **waterdiepte**: verticale afstand tussen het wateroppervlak en het bodemoppervlak
 
-zie definities en afkortingen van de deelprotocols ([SVP-113 2023.04](https://protocols.inbo.be/2023.04/index.html), [SVP-114 2024.03](https://protocols.inbo.be/2024.03/index.html), [SVP-115 2024.04](https://protocols.inbo.be/2024.04/index.html))
+zie definities en afkortingen van de deelprotocols ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html))
 
-## Doelstelling en toepassingsgebied
+## Doelstelling, toepassingsgebied en beperkingen
 
 ### Doelstelling
 
@@ -28,7 +28,7 @@ Dit protocol is specifiek ontworpen voor de monitoring in kader van de meetnette
 
 Deze gestandaardiseerde procedure kan toegepast worden in stromende wateren, gaande van bovenlopen tot zeer grote rivieren.
 Het protocol kan tevens worden toegepast in polderwaterlopen, grachten en kanalen.
-Voor stilstaande wateren verwijzen we naar het projectprotocol [SPP-116 2024.05](https://protocols.inbo.be/2024.05/index.html).
+Voor stilstaande wateren verwijzen we naar het projectprotocol [spp-116-nl 2024.05](../2024.05/index.html).
 
 ### Beperkingen tot de procedure
 

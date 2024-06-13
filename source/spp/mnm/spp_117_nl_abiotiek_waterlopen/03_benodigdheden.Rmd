@@ -24,7 +24,7 @@ Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en mater
 
 ## Materiaal
 
-Zie materiaal van de deelprotocollen ([SVP-113 2023.04](https://protocols.inbo.be/2023.04/index.html), [SVP-114 2024.03](https://protocols.inbo.be/2024.03/index.html), [SVP-115 2024.04](https://protocols.inbo.be/2024.04/index.html)), aangevuld met:
+Zie materiaal van de deelprotocollen ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html)), aangevuld met:
 
 -   Horizontale waterhapper (bijvoorbeeld Friedinger, Van Dorn, …) voorzien van nylonkoord of touw.
 

@@ -1,10 +1,53 @@
 # Referenties {.unnumbered}
 
-::: {#refs}
-:::
+Bijkerk R.
+(red) (2014) Handboek Hydrobiologie.
+Biologisch onderzoek voor de ecologische beoordeling van Nederlandse zoete en brakke oppervlaktewateren.
+Deels aangepaste versie (Rapport 2014 - 02).
+Stichting Toegepast Onderzoek Waterbeheer, Amersfoort.
+DIW (2003).
+Decreet Integraal Waterbeleid van 18 juli 2003 (B.S. 5/12/2003).
+<https://navigator.emis.vito.be/mijn-navigator?woId=75697> Hartong & Termes (2009).
+Handboek debietmeten in open waterlopen.
+STOWA, Utrecht.
 
-```{=html}
-<!--
-Eventueel opsplitsen in sleutelreferentie en overige referenties.
--->
-```
+Leyssen A., Smeekens V., Denys L.
+(2020).
+Indicatieve situering van het Natura 2000 habitattype 3260.
+Submontane en laaglandrivieren met vegetaties behorend tot het Ranunculion fluitantis en het Callitricho-Batrachion.
+Uitgave 2020 (versie 1.7).
+Rapporten van het Instituut voor Natuur- en Bosonderzoek 2020 (34).
+Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+Osté A.J., de Groot B.
+van Dam O (2013).
+Handboek hydromorfologie 2.0.
+Afleiding en beoordeling hydromorfologische parameters Kaderrichtlijn Water.
+Advies- en ingenieursbureau RPS in opdracht van Directoraat-Generaal Rijkswaterdienst, Delft.
+
+Stone, M.L., Rasmussen, T.J., Bennett, T.J., Poulton, B.C., and Ziegler, A.C.
+(2012).
+Protocols for collection of streamflow, water-quality, streambed-sediment, periphyton, macroinvertebrate, fish, and habitat data to describe stream quality for the Hydrobiological Monitoring Program.
+U.S. Geological Survey, Kansas.
+
+Vanderhaeghe F., Adriaens D., Denys L., Cools N., Jansen I., Herr C., Verstraeten A., Raman M., Wouters J.,Van Calster H. Westra T., Onkelinx T., Van Daele T., Oosterlynck P., Leyssen A., Wackenier M., De Becker P., Piesschaert F., Desmet P., Louette G., Quataert P., Vandenabeele, M.A., Van Elegem B.
+(2020).
+Ontwikkeling en implementatie meetnetten natuurlijk milieu.
+In: Programmatorische aanpak stikstof – platform passende beoordeling.
+Onderzoek, monitoring, methodologie-ontwikkeling en data-ontsluiting door het Instituut voor Natuur- en Bosonderzoek (PAS-PPB periode 2015-2019).
+Hoffmann M.
+& Gerald Louette G.
+(eds.).
+Rapporten van het Instituut voor Natuur- en Bosonderzoek (11), Brussel: blz.
+106-116.
+
+VMM (2020).
+Procedure voor de monsterneming en verdeling van oppervlaktewater t.b.v. fysisch-chemisch onderzoek d.m.v. een schepmonster.
+VMM/WAT/GP/3.105; uitgave 15.
+Vlaamse Milieumaatschappij, Aalst.
+
+West Virginia Department of Environmental Protection (2018).
+Watershed assessment branch.
+Field sampling.
+Standard Operating Procedures.
+West Virginia Department of Environmental Protection, Charleston.

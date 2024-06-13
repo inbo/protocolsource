@@ -6,17 +6,17 @@ Hieronder een samenvattende opsomming van de te volgen stappen:
 
 2.  Navigeer met een GPS naar de staalnamelocatie, beoordeel de situatie ter plekke;
 
-3.  Kies een geschikt staalnamepunt en documenteer deze (foto’s);
+3.  Kies een geschikt staalnamepunt en documenteer deze (met foto’s);
 
-4.  Bepaal de secchi- en waterdiepte volgens het protocol [SFP-113 2023.04](https://protocols.inbo.be/2023.04/index.html);
+4.  Bepaal de secchi- en waterdiepte volgens het protocol [sfp-113-nl 2023.04](../2023.04/index.html);
 
-5.  Bepaal de stroomsnelheid volgens het protocol [SFP-118]();
+5.  Bepaal de stroomsnelheid (protocol sfp-118 nog op te stellen);
 
-6.  Spoel het materiaal voor met water van het staalnamepunt en neem een mengstaal volgens protocol [SFP-114 2024.03](https://protocols.inbo.be/2024.03/index.html);
+6.  Spoel het materiaal voor met water van het staalnamepunt en neem een mengstaal volgens protocol [sfp-114-nl 2024.03](../2024.03/index.html);
 
-7.  Neem met de maatbeker een substaal van het mengstaal en voer de veldmeting uit volgens het protocol [SFP-115 2024.04](https://protocols.inbo.be/2024.04/index.html);
+7.  Neem met de maatbeker een substaal van het mengstaal en voer de veldmeting uit volgens het protocol [sfp-115-nl 2024.04](../2024.04/index.html);
 
-8.  Vul en bewaar de recipiënten voor het laboratorium volgens het protocol [SFP-114 2024.03](https://protocols.inbo.be%20/2024.03/index.html) met het overige mengstaal;
+8.  Vul en bewaar de recipiënten voor het laboratorium volgens het protocol [sfp-114-nl 2024.03](../2024.03/index.html) met het overige mengstaal;
 
 9.  Reinig het gebruikte materiaal;
 
@@ -31,7 +31,7 @@ Hieronder een samenvattende opsomming van de te volgen stappen:
 Vooraf worden de XY-coördinaten van de staalnamelocatie ingevoerd in een standaard GPS of in een smartphone-applicatie.
 Dit is het meest stroomafwaarts gelegen punt van het te bemonsteren 100 meter segment van de waterloop, de steekproefeenheid voor het project meetnetten natuurlijk milieu.
 
-In juni-september, tijdens een veldbezoek voorafgaand aan de meetcampagne, wordt vastgesteld of het doelhabitat (habitattype 3260) aanwezig is in het waterloopsegment (habitatdefinitie: zie Leyssen et al. 2020 en [SFP-403 2023.05](https://protocols.inbo.be/2023.05/index.html)).
+In juni-september, tijdens een veldbezoek voorafgaand aan de meetcampagne, wordt vastgesteld of het doelhabitat (habitattype 3260) aanwezig is in het waterloopsegment (habitatdefinitie: zie Leyssen et al. 2020 en [sfp-403-nl 2023.05](../2023.05/index.html)).
 
 ## Lokaliseren en documenteren van staalnamepunt
 
@@ -49,7 +49,7 @@ knitr::include_graphics("./media/Figure1.JPG")
 
 ## Secchi-diepte bepalen
 
-Zie deelprotocol ([SFP-113 2023.04](https://protocols.inbo.be/2023.04/index.html))
+Zie deelprotocol ([sfp-113-nl 2023.04](../2023.04/index.html))
 
 De secchi-diepte wordt bij voorkeur bepaald in een vegetatieloze of vegetatiearme zone en in het midden van de waterloop.
 Indien de secchi-schijf door te sterke stroming niet loodrecht naar beneden kan worden gelaten, kan ze verzwaard worden.
@@ -59,7 +59,7 @@ De waterdiepte waar de secchi-diepte werd bepaald, wordt eveneens genoteerd.
 
 ## Bepaling stroomsnelheid
 
-zie deelprotocol ([SFP-118]()): nog te ontwikkelen
+Deelprotocol (sfp-118) nog te ontwikkelen
 
 De stroomsnelheid wordt op één plaats gemeten voor een algemene kwantitatieve karakterisatie van de stroomsnelheid.
 Gedetailleerde stroomsnelheidsbepalingen in verschillende segmenten in de dwarsdoorsnede van de waterlopen en op verschillende diepten zijn hier niet vereist.
@@ -68,7 +68,7 @@ De stroomsnelheid wordt gemeten op dezelfde plaats als de secchi-bepaling.
 Kies een nagenoeg recht stuk van de waterloop uit, met min of meer horizontale stroming (parallel met oeverlijn).
 Submerse vegetatie, grote stenen, vistrappen en andere obstakels moeten vermeden worden omdat dit turbulentie veroorzaakt.
 
-De keuze van waterdiepte voor de stroomsnelheidsbepaling dient bij het ontwikkelen van het deelprotocol ([SFP-118]()) verder uitgewerkt te worden, o.a.
+De keuze van waterdiepte voor de stroomsnelheidsbepaling dient bij het ontwikkelen van het deelprotocol sfp-118 verder uitgewerkt te worden, o.a.
 gebaseerd op Hartong & Termes (2009), Osté et al. (2013), Stone et al. (2012) en WVDEP (2018).
 
 Er zijn verschillende mogelijkheden:
@@ -84,7 +84,7 @@ Er zijn verschillende mogelijkheden:
 
 ## Bemonstering waterkolom en het vullen van de recipiënten
 
-Zie deelprotocols ([SOP-005](): nog te ontwikkelen en [SVP-114 2024.03](https://protocols.inbo.be/2024.03/index.html))
+Zie deelprotocol [sfp-114-nl 2024.03](../2024.03/index.html)
 
 Het mengstaal bestaat uit 3 deelstalen, die gesitueerd zijn langs het dwarsprofiel van de waterloop ter hoogte van het gekozen staalnamepunt (figuur \@ref(fig:Figuur1)) op ca.
 0,5 meter waterdiepte (figuur \@ref(fig:Figuur2)).
@@ -118,7 +118,7 @@ De staalnamemethode wordt genoteerd op het veldformulier.
 
 ## Uitvoering veldmetingen
 
-Zie deelprotocol [SVP-115 2024.04](https://protocols.inbo.be/2024.04/index.html)
+Zie deelprotocol [sfp-115-nl 2024.04](../2024.04/index.html)
 
 ## Aflevering stalen aan het labo
 
@@ -126,3 +126,63 @@ De gekoeld getransporteerde stalen, inclusief een kopie van het staalnameformuli
 In het labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard.
 
 ## Digitalisatie van de gegevens op het staalnameformulier
+
+Na de staalname worden de gegevens ingevoerd in het digitale staalnameformulier gedeeld door het labo via Google Drive.
+
+## Registratie en bewaring van resultaten
+
+### Registratie van resultaten: staalnameformulier (naar VMM 2020)
+
+Het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)) kan ingedeeld worden in 3 onderdelen:
+
+1.  **Kopgegevens:** labocode (vooraf ingevuld), code staalnamepunt, staalnemer, datum, uur
+
+    -   Reden geen staalname: werken waterloop; staalnamepunt onbereikbaar; onvoldoende watervoerend/-houdend; ijsvorming (omschrijving: zie hoger)
+
+    -   Staalnamepunt: in waterloop (afgekort WL); vanop brug/duiker; vanop steiger
+
+    -   Staalnamemethode: horizontale waterhapper; maatbeker; telescopische stok
+
+    -   Weersomstandigheden: hevige neerslag, geen neerslag, …
+
+    De staalnamepunt en staalnamemethode wordt genoteerd zodat toekomstige staalnames zoveel mogelijk op dezelfde wijze gebeuren en de meetresultaten vergelijkbaar zijn.
+
+2.  **Veldmetingen:** temperatuur (°C), pH, EC (µS/cm), saliniteit (g/kg), O2 (mg/L), O2-saturatie (%), Secchi-diepte (SD in m), waterdiepte (WD in m), stroomsnelheid (ss in m/s)
+
+3.  **Uitzonderlijke omstandigheden:**
+
+    Deze veldwaarnemingen omvatten waarnemingen ter plaatse, of in de onmiddellijke omgeving van het staalnamepunt, van tijdelijke fenomenen waarvoor een verband met de abiotische toestand van de onderzochte waterloop vermoed kan worden.
+    Het gaat om vaststellingen die afwijkend zijn van de normale omstandigheden.
+    Omdat deze mede de analyseresultaten kunnen verklaren is het van belang dat ze zo uniform mogelijk en kwaliteitsvol worden ingevuld.
+    Op het staalnameformulier wordt bij veldwaarnemingen onderstaande onderlijnde uitspraak genoteerd bij ‘uitzonderlijke veldwaarnemingen’.
+    Onderstaande lijst kan op een klembord gekleefd worden als geheugensteun:
+
+    -   Zichtbare verontreiniging van wateroppervlak of waterkolom:
+
+        -   [Maaisel]{.underline} / drijvende plantenresten: op het wateroppervlak drijft er maaisel of zijn er drijvende plantenresten aanwezig.
+        -   [Dode fauna]{.underline}: dode fauna aanwezig (vis, eend, ...)
+        -   [Olie]{.underline}:kleurige film (kleurschakering met rood, paars, blauw en geel) op het wateroppervlak. Opgelet: bacteriën kunnen eveneens een dunne film op het water vormen. Bij verstoring van deze film (bv door de inworp van een steen) zal deze laag echter breken in de vorm van barstjes, terwijl een oliefilm zich bijna onmiddellijk terug sluit.
+        -   Vast [afval]{.underline}: zoals bv. flessen, banden, fietsen, plastic zakken, blikjes,...
+        -   [Schuim]{.underline}: schuimvormig ten gevolge van algenbloei of tensio-actief schuim (veroorzaakt door detergenten)
+        -   [Algenbloei]{.underline}: het water heeft meestal een groene kleur (, in de duidelijkste gevallen te omschrijven als ‘erwtensoep’; kan ook gepaard gaan met bv. een bruine, blauwe, paarse of rode kleur.
+        -   [Bloei watervlooien]{.underline}: dit kan het water rood kleuren. Het waterstaal bevat veel zoöplankton als men ziet dat de rode massa kleine beweeglijke organismen zijn.
+        -   [Gasontwikkeling]{.underline}: aan het wateroppervlak ziet men kleine blaasjes (gasbellen) die openbarsten.
+        -   [Vlokken]{.underline}: samengekoekt materiaal (groot of klein) met onregelmatige structuur in of op de waterkolom (meestal wit, grijs of zwart).
+        -   [Rioolschimmel]{.underline}: grijze tot bruine slierten (schimmels) op wortels, stenen of de bodem.
+
+    -   Abundante plantengroei, waardoor de staalname bemoeilijkt wordt.
+
+    -   Andere opmerkingen: wordt ingevuld indien geen van de overige codes van toepassing is.
+
+### Bewaring van resultaten
+
+-   Voor elk staalnamepunt wordt ter plaatse een analoog staalnameformulier ingevuld (zie hoger).
+    Afwijkingen van de beschreven werkwijze voor het nemen van een schepstaal worden eveneens genoteerd.
+
+-   De meetresultaten, vermeld op het staalnameformulier, worden zo snel mogelijk gedigitaliseerd en gedeeld met het labo.
+
+-   De laboresultaten worden geregistreerd in LIMS en worden ontsloten via het LIMS-datawarehouse.
+
+### Opslag van foto's
+
+Opslag van foto’s op google drive met aanduiding van opnamedatum, code staalnamepunt en naam waterloop (volgens de Vlaamse Hydrografische Atlas; <https://www.vmm.be/data/vlaamse-hydrografische-atlas>).
