@@ -81,7 +81,7 @@ Let er op dat de secchi-schijf tijdens de meting loodrecht onder het wateropperv
 ## Reinig het gebruikte materiaal
 
 Na de staalname dient het materiaal grondig gespoeld te worden met water van het staalnamepunt of met het resterende mengstaal.
-Dit zowel om contaminatie van volgende stalen te beperken als ter naleving van de bioveiligheidsmaatregelen.
+Dit zowel om contaminatie van volgende stalen te beperken als ter naleving van de bioveiligheidsmaatregelen ([SFP-015]: Nog in opmaak).
 Voor specifieke reinigingsmaatregelen bij het gebruik van de digitale veldmeter WTW Multi 3430 zie deelprotocol [sfp-115-nl 2024.04](../2024.04/index.html).
 
 ## Aflevering stalen bij het Labo
