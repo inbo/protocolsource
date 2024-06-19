@@ -59,7 +59,7 @@ De waterdiepte waar de secchi-diepte werd bepaald, wordt eveneens genoteerd.
 
 ## Bepaling stroomsnelheid
 
-Deelprotocol (sfp-118) nog te ontwikkelen
+Deelprotocol sfp-118 (nog te ontwikkelen)
 
 De stroomsnelheid wordt op één plaats gemeten voor een algemene kwantitatieve karakterisatie van de stroomsnelheid.
 Gedetailleerde stroomsnelheidsbepalingen in verschillende segmenten in de dwarsdoorsnede van de waterlopen en op verschillende diepten zijn hier niet vereist.
@@ -123,7 +123,7 @@ Zie deelprotocol [sfp-115-nl 2024.04](../2024.04/index.html)
 ## Aflevering stalen aan het labo
 
 De gekoeld getransporteerde stalen, inclusief een kopie van het staalnameformulier, worden zo snel mogelijk en zeker binnen de tijdspanne van 24 uur na het nemen van het eerste staal van de dag binnengebracht bij het labo.
-In het labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard.
+In het labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard (zie protocol [SOP-007](https://drive.google.com/file/d/1VBRnXKw6SDktn_OWC-ZOO8XXXnHmk5g-/view): Ontvangst en beheer van watermonsters door het laboratorium).
 
 ## Digitalisatie van de gegevens op het staalnameformulier
 

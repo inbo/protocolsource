@@ -2,9 +2,9 @@
 
 Tijdens het veldwerk gelden volgende veiligheidsregels:
 
--   Algemene veiligheidsregels rond het werken in en nabij water.
+-   Algemene veiligheidsregels rond het werken in en nabij water ([sfp-112] Nog te ontwikkelen).
 
--   Bioveiligheidsmaatregelen voor het voorkomen van de verspreiding van invasieve exoten.
+-   Bioveiligheidsmaatregelen voor het voorkomen van de verspreiding van invasieve exoten ([sfp-015] Nog te ontwikkelen).
 
 -   Veiligheidsvoorschriften van de deelprotocols ([sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html)).
 

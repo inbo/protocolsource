@@ -22,10 +22,10 @@ Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en mater
 
 : (#tab:Tabel1) Checklist benodigd veldmateriaal.
 
-Zie materiaal van de deelprotocollen ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html)), aangevuld met:
+Afhankelijk van de veldomstandigheden is volgend materiaal aangewezen om waterstalen te nemen in stromend water (Zie Werkwijze - Bemonstering waterkolom en het vullen van de recipiënten)
+
+-   Stroomsnelheidsmeter.
 
 -   Horizontale waterhapper (bijvoorbeeld Friedinger, Van Dorn, …) voorzien van nylonkoord of touw.
-
--   Polyethyleen of polypropyleen maatbeker van 2 liter (+ reserve) voorzien van gietmondje en handvat.
 
 -   Telescopische steel + maatbeker.
