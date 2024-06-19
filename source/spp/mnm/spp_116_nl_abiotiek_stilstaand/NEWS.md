@@ -1,0 +1,22 @@
+# Wijzigingen t.o.v. vorige versies
+
+## [2024.05](../2024.05/index.html)
+
+-   Omzetting van Word versie van het protocol (oud versienummer 1.0 uitgegeven op 17/02/2021). Er zijn geen inhoudelijke wijzigingen ten opzichte van deze versie.
+
+```{=html}
+<!--
+Omschrijf hier welke wijzigingen er gebeurd zijn ten opzichte van de vorige versie. 
+Vermeld bij elk versienummer, de reden van de wijziging en - wanneer relevant - een beknopte beschrijving van de wijziging.
+Gesorteerd van recent naar oud. 
+
+## [2020.02](../2020.02/index.html)
+
+- Toevoeging van ontbrekende stap in het stappenplan
+- Verbetering van schrijffouten
+
+## [2020.01](../2020.01/index.html)
+
+- Eerste versie van het protocol
+-->
+```
