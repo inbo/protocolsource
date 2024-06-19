@@ -1,3 +1,10 @@
+### First version of protocol: spp-116-nl
+
+- Title: Abiotische staalname stilstaande oppervlaktewateren
+- Published on: 2024-06-19
+- Version number: 2024.05
+- Link to this version: [spp-116-nl version 2024.05](2024.05/index.html)
+
 ### First version of protocol: sfp-115-nl
 
 - Title: Veldmeting abiotiek oppervlaktewater met behulp van WTW Multi 3430 veldmeter

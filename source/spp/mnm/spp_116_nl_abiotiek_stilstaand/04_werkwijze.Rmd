@@ -10,19 +10,19 @@ Hieronder een samenvattende opsomming van de te volgen stappen:
 
 4.  Spoel het materiaal voor met water van het staalnamepunt;
 
-5.  Neem een mengstaal volgens protocol [SFP-114](https://protocols.inbo.be/2024.03/index.html);
+5.  Neem een mengstaal volgens protocol [sfp-114-nl 2024.03](../2024.03/index.html);
 
-6.  Neem met de maatbeker een substaal van het mengstaal en voer de veldmeting uit met de digitale veldmeter type WTW Multi 3430 volgens het protocol [SFP-115](https://protocols.inbo.be/2024.04/index.html);
+6.  Neem met de maatbeker een substaal van het mengstaal en voer de veldmeting uit met de digitale veldmeter type WTW Multi 3430 volgens het protocol [sfp-115-nl 2024.04](../index.html);
 
-7.  Vul de recipiënten voor het laboratorium (protocol [SFP-114](https://protocols.inbo.be/2024.03/index.html)) met het overige mengstaal:
+7.  Vul de recipiënten voor het laboratorium (protocol [sfp-114-nl 2024.03](../2024.03/index.html)) met het overige mengstaal:
 
     1.  Vul het recipiënt voor IPC met spuit en filters;
 
     2.  Vul de overige recipiënten;
 
-8.  Steek de gevulde recipiënten per staalnamepunt samen in een zakje met gripsluiting en bewaar deze in de koelbox ([SFP-114](https://protocols.inbo.be/2024.03/index.html));
+8.  Steek de gevulde recipiënten per staalnamepunt samen in een zakje met gripsluiting en bewaar deze in de koelbox ([sfp-114-nl 2024.03](../2024.03/index.html));
 
-9.  Bepaal de secchi-diepte en waterdiepte volgens protocol [SFP-113](https://protocols.inbo.be/2023.04/index.html);
+9.  Bepaal de secchi-diepte en waterdiepte volgens protocol [sfp-113-nl 2023.04](../2023.04/index.html);
 
 10. Reinig het gebruikte materiaal;
 
@@ -33,7 +33,7 @@ Hieronder een samenvattende opsomming van de te volgen stappen:
 13. Digitaliseer het staalnameformulier en klasseer de foto’s (registratie)
 
 Alle stappen van het veldprotocol worden hieronder kort omschreven.
-Voor een gedetailleerde uitleg over specifieke handelingen wordt verwezen naar de deelprotocollen [SFP-113](https://inbo.github.io/protocols/2023.04/index.html), [SFP-114](https://inbo.github.io/protocols/2024.03/index.html) en [SFP-115](https://protocols.inbo.be/2024.04/index.html).
+Voor een gedetailleerde uitleg over specifieke handelingen wordt verwezen naar de deelprotocollen [sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html) en [sfp-115-nl 2024.04](../2024.04/index.html).
 
 ## Voorbereiding terreinwerk
 
@@ -60,19 +60,19 @@ Neem bij elke staalname en/of veldmeting steeds een overzichtsfoto en eventueel 
 
 ## Bemonstering van de waterkolom door middel van een mengstaal
 
-Zie deelprotocol [SFP-114](https://inbo.github.io/protocols/2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
+Zie deelprotocol [sfp-114-nl 2024.03](../2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
 
 ## Uitvoering veldmetingen
 
-Zie deelprotocol [SFP-115](https://protocols.inbo.be/2024.04/index.html): Veldmeting abiotiek oppervlaktewater met behulp van WTW Multi 3430 veldmeter.
+Zie deelprotocol [sfp-115-nl 2024.04](../2024.04/index.html): Veldmeting abiotiek oppervlaktewater met behulp van WTW Multi 3430 veldmeter.
 
 ## Vullen van recipiënten voor het laboratorium
 
-Zie deelprotocol [SFP-114](https://inbo.github.io/protocols/2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
+Zie deelprotocol [sfp-114-nl 2024.03](../2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
 
 ## Secchi-diepte bepalen
 
-Zie deelprotocol [SFP-113](https://inbo.github.io/protocols/2023.04/index.html): Bepaling doorzicht waterkolom oppervlaktewater op basis van de Secchi-diepte.
+Zie deelprotocol [sfp-113-nl 2023.04](../2023.04/index.html): Bepaling doorzicht waterkolom oppervlaktewater op basis van de Secchi-diepte.
 
 Voor zover mogelijk, wordt de secchi-diepte bepaald op het diepste punt.
 De secchi-diepte wordt bij voorkeur bepaald in een vegetatieloze of vegetatiearme zone.
@@ -81,13 +81,13 @@ Let er op dat de secchi-schijf tijdens de meting loodrecht onder het wateropperv
 ## Reinig het gebruikte materiaal
 
 Na de staalname dient het materiaal grondig gespoeld te worden met water van het staalnamepunt of met het resterende mengstaal.
-Dit zowel om contaminatie van volgende stalen te beperken als ter naleving van de bioveiligheidsmaatregelen ([SFP-015]()).
-Voor specifieke reinigingsmaatregelen bij het gebruik van de digitale veldmeter WTW Multi 3430 zie deelprotocol [SFP-115](https://protocols.inbo.be/2024.04/index.html).
+Dit zowel om contaminatie van volgende stalen te beperken als ter naleving van de bioveiligheidsmaatregelen ([SFP-015]: Nog in opmaak).
+Voor specifieke reinigingsmaatregelen bij het gebruik van de digitale veldmeter WTW Multi 3430 zie deelprotocol [sfp-115-nl 2024.04](../2024.04/index.html).
 
 ## Aflevering stalen bij het Labo
 
 De stalen, inclusief een kopie van het staalnameformulier, worden zo snel mogelijk (binnen de tijdspanne van 24 uur na het nemen van het eerste staal) binnengebracht bij het analytisch labo.
-In het analytisch labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard (zie protocol [SFP-007](): Ontvangst en beheer van watermonsters door het laboratorium).
+In het analytisch labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard (zie protocol [SOP-007](https://drive.google.com/file/d/1VBRnXKw6SDktn_OWC-ZOO8XXXnHmk5g-/view): Ontvangst en beheer van watermonsters door het laboratorium).
 
 ## Digitaliseer het staalnameformulier
 
