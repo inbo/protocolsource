@@ -37,9 +37,12 @@ Voor een gedetailleerde uitleg over specifieke handelingen wordt verwezen naar d
 
 ## Voorbereiding terreinwerk
 
-Voor de start van de veldcampagne worden de staalnamelocaties in de Aquamorf databank in ArcGIS ingevoerd alsook de staalnamepunten (indien deze vooraf gekend zijn, anders worden deze na de eerste meting ingevoerd).
+Voor de start van de veldcampagne worden de staalnamelocaties in de Aquamorf[^04_werkwijze-1] databank in ArcGIS ingevoerd alsook de staalnamepunten (indien deze vooraf gekend zijn, anders worden deze na de eerste meting ingevoerd).
 Van elke staalnamelocatie worden ten minste twee overzichtskaarten afgedrukt voor lokalisatie in het veld: één met orthofoto en één met een topografische kaart als achtergrond, steeds met de aanduiding van de staalnamelocatie en -code.
 De XY-coördinaten van de staalnamelocatie worden ingevoerd in een standaard GPS of in een smartphone-applicatie.
+
+[^04_werkwijze-1]: Aquamorf databank: Interne databank met plaatskenmerken van stilstaande wateren in Vlaanderen.
+    In deze databank zijn alle staalnamepunten terug te vinden in de shapefile "waterstaal".
 
 Indien er bij aanvang van de meetcampagne twijfel is over de geschiktheid van de staalnamelocatie wordt deze voor het uitvoeren van de eerste meting geprospecteerd.
 De geschiktheid van de staalnamelocatie is geheel afhankelijk van de habitatwaardigheid: enkel locaties die voldoen aan de criteria voor het habitattype waarvoor de staalnamelocatie geselecteerd is worden als geschikt bevonden en weerhouden.
