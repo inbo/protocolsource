@@ -1,0 +1,112 @@
+# Overkoepelende werkwijze met verwijzing naar subprotocols
+
+Hieronder een samenvattende opsomming van de te volgen stappen:
+
+1.  Controleer de lijst met benodigdheden voor vertrek;
+
+2.  Navigeer met behulp van kaartmateriaal en/of een GPS naar de staalnamelocatie en lokaliseer het staalnamepunt (of selecteer een geschikt staalnamepunt indien nog niet vastgelegd);
+
+3.  Vastleggen toestand staalnamelocatie (op staalnameformulier en documenteer met één of meerdere foto’s);
+
+4.  Spoel het materiaal voor met water van het staalnamepunt;
+
+5.  Neem een mengstaal volgens protocol [sfp-114-nl 2024.03](../2024.03/index.html);
+
+6.  Neem met de maatbeker een substaal van het mengstaal en voer de veldmeting uit met de digitale veldmeter type WTW Multi 3430 volgens het protocol [sfp-115-nl 2024.04](../index.html);
+
+7.  Vul de recipiënten voor het laboratorium (protocol [sfp-114-nl 2024.03](../2024.03/index.html)) met het overige mengstaal:
+
+    1.  Vul het recipiënt voor IPC met spuit en filters;
+
+    2.  Vul de overige recipiënten;
+
+8.  Steek de gevulde recipiënten per staalnamepunt samen in een zakje met gripsluiting en bewaar deze in de koelbox ([sfp-114-nl 2024.03](../2024.03/index.html));
+
+9.  Bepaal de secchi-diepte en waterdiepte volgens protocol [sfp-113-nl 2023.04](../2023.04/index.html);
+
+10. Reinig het gebruikte materiaal;
+
+11. Controleer of het staalnameformulier volledig is ingevuld, voeg eventuele uitzonderlijke veldwaarnemingen toe;
+
+12. Breng de stalen en een kopie van het staalnameformulier binnen bij het labo (binnen 24u na nemen van het eerste staal);
+
+13. Digitaliseer het staalnameformulier en klasseer de foto’s (registratie)
+
+Alle stappen van het veldprotocol worden hieronder kort omschreven.
+Voor een gedetailleerde uitleg over specifieke handelingen wordt verwezen naar de deelprotocollen [sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html) en [sfp-115-nl 2024.04](../2024.04/index.html).
+
+## Voorbereiding terreinwerk
+
+Voor de start van de veldcampagne worden de staalnamelocaties in de Aquamorf[^04_werkwijze-1] databank in ArcGIS ingevoerd alsook de staalnamepunten (indien deze vooraf gekend zijn, anders worden deze na de eerste meting ingevoerd).
+Van elke staalnamelocatie worden ten minste twee overzichtskaarten afgedrukt voor lokalisatie in het veld: één met orthofoto en één met een topografische kaart als achtergrond, steeds met de aanduiding van de staalnamelocatie en -code.
+De XY-coördinaten van de staalnamelocatie worden ingevoerd in een standaard GPS of in een smartphone-applicatie.
+
+[^04_werkwijze-1]: Aquamorf databank: Interne databank met plaatskenmerken van stilstaande wateren in Vlaanderen.
+    In deze databank zijn alle staalnamepunten terug te vinden in de shapefile "waterstaal".
+
+Indien er bij aanvang van de meetcampagne twijfel is over de geschiktheid van de staalnamelocatie wordt deze voor het uitvoeren van de eerste meting geprospecteerd.
+De geschiktheid van de staalnamelocatie is geheel afhankelijk van de habitatwaardigheid: enkel locaties die voldoen aan de criteria voor het habitattype waarvoor de staalnamelocatie geselecteerd is worden als geschikt bevonden en weerhouden.
+Tijdens de prospectie wordt de staalnamelocatie beoordeeld op de aanwezigheid van de criteria voor dat specifieke habitattype.
+De criteria, die op enkele uitzonderingen na gebaseerd zijn op de aanwezigheid van specifieke kensoorten, zijn terug te vinden in Scheers et al. (2016).
+Indien het meetpunt niet habitatwaardig is wordt deze locatie niet weerhouden en indien nodig vervangen.
+
+Controleer bij de aanvang van het veldwerk steeds de lijst van benodigdheden (zie Benodigdheden).
+
+## Lokaliseren en documenteren van staalnamelocatie
+
+Lokaliseer aan de hand van overzichtskaarten van de staalnamelocatie en/of een standaard GPS (nauwkeurigheid ca. 3-5 m) het staalnamepunt dat opgenomen is in de Aquamorf databank in ArcGIS.
+Indien er op de staalnamelocatie vooraf nog geen specifiek staalnamepunt werd vastgelegd, bijvoorbeeld bij de eerste staalname op die locatie, wordt een goed bereikbaar punt gekozen dat zo representatief mogelijk is voor het waterlichaam (niet in een gracht of in een uitloper van de plas, niet bij een in- of uitstroompunt en bij voorkeur zo dicht mogelijk bij het diepste punt).
+Het is belangrijk om voorafgaand aan een staalname de toestand van de staalnamelocatie te bekijken en documenteren.
+Op het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)) worden eventuele factoren en (potentiële) contaminanten die een invloed kunnen hebben op de kwaliteit van het staal (hoge PVI, hoge dichtheden van fytoplankton, waterbloei, etc.), kleur en/of troebelheid van het water, aanwezigheid en dikte van ijs, droogval, problemen met of meldingen van de digitale veldmeter, etc. in het opmerkingenveld ingevuld.
+Deze opmerkingen kunnen later geraadpleegd worden ter verklaring van afwijkende metingen.
+Neem bij elke staalname en/of veldmeting steeds een overzichtsfoto en eventueel detailfoto's zodat dit later kan worden geraadpleegd.
+
+## Bemonstering van de waterkolom door middel van een mengstaal
+
+Zie deelprotocol [sfp-114-nl 2024.03](../2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
+
+## Uitvoering veldmetingen
+
+Zie deelprotocol [sfp-115-nl 2024.04](../2024.04/index.html): Veldmeting abiotiek oppervlaktewater met behulp van WTW Multi 3430 veldmeter.
+
+## Vullen van recipiënten voor het laboratorium
+
+Zie deelprotocol [sfp-114-nl 2024.03](../2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
+
+## Secchi-diepte bepalen
+
+Zie deelprotocol [sfp-113-nl 2023.04](../2023.04/index.html): Bepaling doorzicht waterkolom oppervlaktewater op basis van de Secchi-diepte.
+
+Voor zover mogelijk, wordt de secchi-diepte bepaald op het diepste punt.
+De secchi-diepte wordt bij voorkeur bepaald in een vegetatieloze of vegetatiearme zone.
+Let er op dat de secchi-schijf tijdens de meting loodrecht onder het wateroppervlak hangt.
+
+## Reinig het gebruikte materiaal
+
+Na de staalname dient het materiaal grondig gespoeld te worden met water van het staalnamepunt of met het resterende mengstaal.
+Dit zowel om contaminatie van volgende stalen te beperken als ter naleving van de bioveiligheidsmaatregelen ([SFP-015]: Nog in opmaak).
+Voor specifieke reinigingsmaatregelen bij het gebruik van de digitale veldmeter WTW Multi 3430 zie deelprotocol [sfp-115-nl 2024.04](../2024.04/index.html).
+
+## Aflevering stalen bij het Labo
+
+De stalen, inclusief een kopie van het staalnameformulier, worden zo snel mogelijk (binnen de tijdspanne van 24 uur na het nemen van het eerste staal) binnengebracht bij het analytisch labo.
+In het analytisch labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard (zie protocol [SOP-007](https://drive.google.com/file/d/1VBRnXKw6SDktn_OWC-ZOO8XXXnHmk5g-/view): Ontvangst en beheer van watermonsters door het laboratorium).
+
+## Digitaliseer het staalnameformulier
+
+Na de staalname wordt het formulier gedigitaliseerd door de gegevens in te voeren in het digitale staalnameformulier gedeeld door het analytisch labo via Google Drive.
+
+## Registratie en bewaring van resultaten
+
+-   Voor elk staalnamepunt wordt ter plaatse een analoog staalnameformulier ingevuld (zie [PDF](./media/Veldformulier_water.pdf)).
+    Afwijkingen van de beschreven werkwijze voor het nemen van een mengstaal worden eveneens genoteerd.
+
+-   Bij de levering van de stalen aan het labo, wordt het staalnameformulier gekopieerd en toegevoegd.
+    Deze kopie wordt door het Labo bijgehouden.
+
+-   De algemene gegevens, meetresultaten en opmerkingen, zoals genoteerd op het staalnameformulier, worden zo snel mogelijk gedigitaliseerd door de staalnemer in het digitale staalnameformulier gedeeld door het Labo via Google Drive.
+    Het originele staalnameformulier wordt bijgehouden door de projectverantwoordelijke.
+
+-   De laboresultaten worden door het Labo geregistreerd in LIMS en worden ontsloten via het LIMS-datawarehouse en via AquaChem-datawarehouse.
+
+-   Opslag van foto's op google drive met aanduiding van opnamedatum, waterlichaamcode en code staalnamepunt.

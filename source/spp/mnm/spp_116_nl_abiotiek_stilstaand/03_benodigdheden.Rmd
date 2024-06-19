@@ -1,0 +1,58 @@
+# Extra benodigdheden t.o.v. de subprotocols
+
+Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en materiaal voor het uitvoeren van een abiotische staalname.
+
++:-----------------------------------------------------+
+| **Algemene benodigdheden**                           |
++------------------------------------------------------+
+| -   Staalnameformulier                               |
++------------------------------------------------------+
+| -   Klembord, potlood en slijper                     |
++------------------------------------------------------+
+| -   Laarzen, lieslaarzen, waadpak (site-afhankelijk) |
++------------------------------------------------------+
+| -   Latex handschoenen (poederloos)                  |
++------------------------------------------------------+
+| -   Plooimeter                                       |
++------------------------------------------------------+
+| -   Fototoestel                                      |
++------------------------------------------------------+
+| -   Documentatie lokalisatie staalnamepunt           |
++------------------------------------------------------+
+
+: (#tab:Tabel1) Checklist benodigd veldmateriaal.
+
+## Locatieafhankelijke benodigdheden
+
+Afhankelijk van de diepte en aard van de staalnamelocatie en de ligging van het staalnamepunt kunnen laarzen, lieslaarzen, waadpak en in bepaalde gevallen zelfs een boot nodig zijn.
+Bij werk vanop een boot of bij steile oevers kan een zwemvest en/of reddingstouw aangeraden of verplicht zijn (zie protocol Veiligheid in en rond water [SFP-112]: Nog in opmaak).
+
+## Staalnameformulier
+
+Het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)) kan zowel digitaal als analoog ingevuld worden in het veld.
+Bij voorkeur wordt tijdens de staalname steeds de analoge versie ingevuld, zodat typfouten of problemen bij het opslaan niet mogelijk zijn en tevens een originele versie wordt bewaard om controle op een later tijdstip mogelijk te maken.
+Het staalnameformulier wordt duidelijk leesbaar en volledig ingevuld met potlood.
+
+Op het staalnameformulier worden tijdens de abiotische staalname (volgens het voorgelegde protocol) de volgende gegevens ingevuld:
+
+-   Code van het staal (= Labo ID)
+
+-   Code van de locatie (= Veld ID)
+
+-   Staalnemer
+
+-   Datum staalname (jjjj/mm/dd)
+
+-   Temperatuur (°C)
+
+-   Zuurtegraad (pH) (eq/l)
+
+-   Conductiviteit (EC) (in µS/cm bij lage waarden of mS/cm bij hoge waarden)
+
+-   Saliniteit (g/kg)
+
+-   Opgeloste zuurstof (mg/l)
+
+-   Zuurstofverzadiging (%)
+
+-   Opmerkingenveld
