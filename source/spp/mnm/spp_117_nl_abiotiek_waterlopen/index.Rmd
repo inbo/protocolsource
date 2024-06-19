@@ -8,7 +8,7 @@ reviewers: Kevin Scheers, Jo Packet, Luc Denys, Geert De Knijf, Vincent Smeekens
   Toon Westra
 file_manager: Toon Westra
 protocol_code: spp-117-nl
-version_number: '2024.05'
+version_number: '2024.06'
 language: nl
 lang: nl
 template_name: spp
