@@ -22,8 +22,6 @@ Tabel \@ref(tab:Tabel1) geeft een overzicht van de benodigde apparatuur en mater
 
 : (#tab:Tabel1) Checklist benodigd veldmateriaal.
 
-## Materiaal
-
 Zie materiaal van de deelprotocollen ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html)), aangevuld met:
 
 -   Horizontale waterhapper (bijvoorbeeld Friedinger, Van Dorn, …) voorzien van nylonkoord of touw.
