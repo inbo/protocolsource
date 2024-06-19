@@ -87,7 +87,7 @@ Voor specifieke reinigingsmaatregelen bij het gebruik van de digitale veldmeter 
 ## Aflevering stalen bij het Labo
 
 De stalen, inclusief een kopie van het staalnameformulier, worden zo snel mogelijk (binnen de tijdspanne van 24 uur na het nemen van het eerste staal) binnengebracht bij het analytisch labo.
-In het analytisch labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard.
+In het analytisch labo worden de stalen, in afwachting van verdere analyse, in de koelkamer bewaard (zie protocol [SOP-007](https://drive.google.com/file/d/1VBRnXKw6SDktn_OWC-ZOO8XXXnHmk5g-/view): Ontvangst en beheer van watermonsters door het laboratorium).
 
 ## Digitaliseer het staalnameformulier
 
