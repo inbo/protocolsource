@@ -60,7 +60,7 @@ Neem bij elke staalname en/of veldmeting steeds een overzichtsfoto en eventueel 
 
 ## Bemonstering van de waterkolom door middel van een mengstaal
 
-Zie deelprotocol [sfp-114-nl 2024.03] (../2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
+Zie deelprotocol [sfp-114-nl 2024.03](../2024.03/index.html): Bemonstering waterkolom oppervlaktewater aan de hand van een waterstaal.
 
 ## Uitvoering veldmetingen
 
