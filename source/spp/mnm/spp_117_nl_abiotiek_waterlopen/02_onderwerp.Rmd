@@ -16,7 +16,7 @@ Dit segment wordt aangeduid als het meest stroomafwaarts gelegen punt van het te
 
 Zie definities en afkortingen van de deelprotocols ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html))
 
-## Doelstelling, toepassingsgebied en beperkingen
+## Doelstelling en toepassingsgebied
 
 ### Doelstelling
 
@@ -30,7 +30,7 @@ Deze gestandaardiseerde procedure kan toegepast worden in stromende wateren, gaa
 Het protocol kan tevens worden toegepast in polderwaterlopen, grachten en kanalen.
 Voor stilstaande wateren verwijzen we naar het projectprotocol [spp-116-nl 2024.05](../2024.05/index.html).
 
-### Beperkingen tot de procedure
+## Beperkingen tot de procedure
 
 In sommige omstandigheden kan er geen waterstaal genomen worden:
 
