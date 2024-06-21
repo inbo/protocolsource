@@ -1,4 +1,4 @@
-name: On merge of "Log RECENT_MERGED_BRANCH_NAME" to main, build the protocol and add it to the website
+name: On merge of protocol branch to main, build the protocol and add it to the website
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "add protocol to website"
     steps:
-      - name: lookup branch name
+      - name: checkout the repository
         uses: actions/checkout@v4
         with:
           fetch-dept: 2
