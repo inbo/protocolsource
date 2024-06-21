@@ -1,4 +1,4 @@
-name: On merge of "Log RECENT_MERGED_BRANCH_NAME" to main, build the protocol and add it to the website
+name: On merge of protocol branch to main, build the protocol and add it to the website
 
 on:
   push:
@@ -10,9 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     name: "add protocol to website"
     steps:
-      - name: lookup branch name
-        uses: actions/checkout@v2
-      - uses: tonynguyenit18/github-action-custom-vars@v1
+      - name: checkout the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Get branch name of latest merged PR targeting main
+        run: |
+          RECENT_MERGED_BRANCH_NAME=$(git log --merges origin/main --oneline --grep='^Merge' -1 | grep -oe 'inbo/.*$' | awk -F '/' '{print $2}')
+          echo "RECENT_MERGED_BRANCH_NAME=$RECENT_MERGED_BRANCH_NAME" >> $GITHUB_ENV
       - name: test
         run: echo 'branch name =' $RECENT_MERGED_BRANCH_NAME
       - name: Checkout repo and build website
