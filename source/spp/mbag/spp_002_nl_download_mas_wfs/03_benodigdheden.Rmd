@@ -1,1 +1,5 @@
 # Extra benodigdheden t.o.v. de subprotocols
+
+-   Installeren van de QGIS software (<https://qgis.org/>)
+-   Een account aanmaken via <https://www.vogelatlas.be/user/newuser>
+-   Rechten aanvragen via SOVON voor gebruik WFS
