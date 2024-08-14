@@ -12,15 +12,14 @@ Een CRS beschrijft hoe tweedimensionale of driedimensionale ruimtelijke gegevens
 Amersfoort/RD New (EPSG:28992) is een voorbeeld van een lokale CRS, specifiek voor Nederland, dat gebruikmaakt van een projectie die is geoptimaliseerd voor het Nederlandse grondgebied.
 
 **MAS:** Het MAS, of Meetnet Agrarische Soorten, monitort broedvogels (en zoogdieren) in agrarische gebieden om trends in aantallen en verspreiding vast te stellen, en de effectiviteit van beschermingsmaatregelen te evalueren [@MAS].
-Dit meetnet reeds toegepast in Nederland en met de opstart van het MBAG project ook in Vlaanderen.
+Dit meetnet wordt reeds toegepast in Nederland en sinds de opstart van het MBAG project ook in Vlaanderen.
 
 **MBAG:** Het MBAG project, of Meetnet Biodiversiteit in het Agrarisch Gebied, is een initiatief van het Instituut voor Natuur- en Bosonderzoek (INBO) in Vlaanderen dat gericht is op het monitoren en analyseren van de biodiversiteit in landbouwgebieden.
 Het project richt zich op het verkrijgen van inzicht in de biodiversiteit, met een focus op akkervogels, bestuivers, bodembiodiversiteit, en landschapselementen, om zo bij te dragen aan zowel natuurbehoud als duurzame landbouwpraktijken [@MBAG].
 
 **QGIS:** QGIS is een open-source geografisch informatiesysteem waarin je geografische gegevens importeren, bekijken, bewerken, analyseren en visualiseren [@QGISSoftware].
 
-**Query:** Een query is een verzoek om informatie uit een database of dataset te verkrijgen.
-Het is een gestructureerde manier om gegevens op te vragen, te filteren, te bewerken, of te manipuleren
+**Query:** Een query is een gestructureerd verzoek om informatie uit een database of dataset te verkrijgen, vaak gebruikmakend van de SQL-programmeertaal.
 
 **Sovon:** Sovon, voluit Sovon Vogelonderzoek Nederland, coördineert landelijke vogelmonitoring en -onderzoek, met als doel de aantallen en verspreiding van vogels in Nederland te bepalen, de trends te verklaren, en de resultaten beschikbaar te maken voor natuurbeleid, beheer, en maatschappelijke doeleinden.
 
@@ -50,4 +49,3 @@ Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd proj
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
 ```
-
