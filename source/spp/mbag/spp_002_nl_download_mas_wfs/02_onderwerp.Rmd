@@ -4,9 +4,12 @@
 
 **Avimap:** Avimap is een digitale tool ontwikkeld door SOVON voor het uitvoeren van territoriumkartering van broedvogels in het veld.
 
+**code repository**: Een code repository is een digitale opslagplaats waar de broncode van softwareprojecten wordt beheerd en opgeslagen, vaak met versiebeheer om wijzigingen bij te houden.
+Het stelt ontwikkelaars in staat om samen te werken, wijzigingen te volgen en terug te keren naar eerdere versies van de code.
+
 **CRS:** Een CRS, of Coordinate Reference System, is een systeem dat wordt gebruikt om geografische locaties op de aarde te definiëren.
 Een CRS beschrijft hoe tweedimensionale of driedimensionale ruimtelijke gegevens worden gepositioneerd, en hoe ze worden geprojecteerd op een plat vlak.
-RD New (EPSG:28992) is een voorbeeld van een lokale CRS, specifiek voor Nederland, dat gebruikmaakt van een projectie die is geoptimaliseerd voor het Nederlandse grondgebied.
+Amersfoort/RD New (EPSG:28992) is een voorbeeld van een lokale CRS, specifiek voor Nederland, dat gebruikmaakt van een projectie die is geoptimaliseerd voor het Nederlandse grondgebied.
 
 **MAS:** Het MAS, of Meetnet Agrarische Soorten, monitort broedvogels (en zoogdieren) in agrarische gebieden om trends in aantallen en verspreiding vast te stellen, en de effectiviteit van beschermingsmaatregelen te evalueren [@MAS].
 Dit meetnet reeds toegepast in Nederland en met de opstart van het MBAG project ook in Vlaanderen.
@@ -32,7 +35,7 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 
 **Doelstelling**
 
-Deze procedure beschrijft het stappenplan om MAS data te downloaden via de WFS van Sovon en deze data te exporteren voor verdere analyse.
+Deze procedure beschrijft het stappenplan om MAS data te downloaden via de WFS-server van Sovon en deze data te exporteren voor verdere analyse.
 Dit wordt uitgevoerd via een specifieke workflow in QGIS.
 
 **Toepassingsgebied**
@@ -47,3 +50,4 @@ Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd proj
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
 ```
+
