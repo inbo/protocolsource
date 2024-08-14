@@ -8,8 +8,8 @@
 Een CRS beschrijft hoe tweedimensionale of driedimensionale ruimtelijke gegevens worden gepositioneerd, en hoe ze worden geprojecteerd op een plat vlak.
 RD New (EPSG:28992) is een voorbeeld van een lokale CRS, specifiek voor Nederland, dat gebruikmaakt van een projectie die is geoptimaliseerd voor het Nederlandse grondgebied.
 
-**MAS:** Het MAS, of Meetnet Agrarische Soorten, monitort broedvogels (en zoogdieren) in agrarische gebieden om trends in aantallen en verspreiding vast te stellen, en de effectiviteit van beschermingsmaatregelen te evalueren.
-Het wordt reeds toegepast in Nederland en met de opstart van het MBAG project ook in Vlaanderen.
+**MAS:** Het MAS, of Meetnet Agrarische Soorten, monitort broedvogels (en zoogdieren) in agrarische gebieden om trends in aantallen en verspreiding vast te stellen, en de effectiviteit van beschermingsmaatregelen te evalueren [@MAS].
+Dit meetnet reeds toegepast in Nederland en met de opstart van het MBAG project ook in Vlaanderen.
 
 **MBAG:** Het MBAG project, of Meetnet Biodiversiteit in het Agrarisch Gebied, is een initiatief van het Instituut voor Natuur- en Bosonderzoek (INBO) in Vlaanderen dat gericht is op het monitoren en analyseren van de biodiversiteit in landbouwgebieden.
 Het project richt zich op het verkrijgen van inzicht in de biodiversiteit, met een focus op akkervogels, bestuivers, bodembiodiversiteit, en landschapselementen, om zo bij te dragen aan zowel natuurbehoud als duurzame landbouwpraktijken [@MBAG].
@@ -47,4 +47,3 @@ Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd proj
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
 ```
-
