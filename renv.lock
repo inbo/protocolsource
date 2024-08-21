@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.0",
+    "Version": "4.4.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -265,14 +265,14 @@
     },
     "checklist": {
       "Package": "checklist",
-      "Version": "0.3.6",
+      "Version": "0.4.0",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "inbo",
       "RemoteRepo": "checklist",
       "RemoteRef": "main",
-      "RemoteSha": "d7672062198a5bc545b8579ab6865abe61c6a06e",
+      "RemoteSha": "5649985b58693acb88337873ae14a7d5bc018d96",
       "Requirements": [
         "R",
         "R6",
@@ -297,7 +297,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "50dc0876fe3e286cc6a337556c983e6e"
+      "Hash": "75185c0d82c455ecacde889b6cc86d94"
     },
     "checkmate": {
       "Package": "checkmate",
@@ -1037,7 +1037,7 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.47",
+      "Version": "1.48",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1049,7 +1049,7 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "7c99b2d55584b982717fcc0950378612"
+      "Hash": "acf380f300c721da9fde7df115a5f86f"
     },
     "labeling": {
       "Package": "labeling",
@@ -1468,14 +1468,9 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.5.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "inbo",
-      "RemoteRepo": "protocolhelper",
-      "RemoteRef": "main",
-      "RemoteSha": "8daa0928a03141eb2021f66ffc514a94ca3b5319",
+      "Version": "0.6.0",
+      "Source": "Repository",
+      "Repository": "https://inbo.r-universe.dev",
       "Requirements": [
         "R",
         "R6",
@@ -1498,7 +1493,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "479a06afa98a9edd45236361a07e50c3"
+      "Hash": "46c959633ffaa43c7e7da6524ebc373d"
     },
     "ps": {
       "Package": "ps",
@@ -1719,7 +1714,7 @@
     },
     "roxygen2": {
       "Package": "roxygen2",
-      "Version": "7.3.1",
+      "Version": "7.3.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1741,7 +1736,7 @@
         "withr",
         "xml2"
       ],
-      "Hash": "c25fe7b2d8cba73d1b63c947bf7afdb9"
+      "Hash": "6ee25f9054a70f44d615300ed531ba8d"
     },
     "rpart": {
       "Package": "rpart",
@@ -2492,10 +2487,10 @@
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.3.8",
+      "Version": "2.3.10",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "29240487a071f535f5e5d5a323b7afbd"
+      "Hash": "51dab85c6c98e50a18d7551e9d49f76c"
     },
     "ymlthis": {
       "Package": "ymlthis",
