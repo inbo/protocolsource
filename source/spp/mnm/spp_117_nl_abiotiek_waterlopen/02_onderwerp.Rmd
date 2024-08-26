@@ -39,8 +39,7 @@ In sommige omstandigheden kan er geen waterstaal genomen worden:
 -   Staalnamepunt onbereikbaar: het staalnamepunt kan onmogelijk op een veilige wijze worden bereikt;
 
 -   Onvoldoende watervoerend/-houdend: Er kunnen geen waterstalen genomen worden bij een zeer laag waterpeil volgens dit protocol (bv. waterdiepte zo laag dat omwoeling van de waterbodem onvermijdbaar is), of een dermate lage waterstand dat het water niet longitudinaal afstroomt.
-    In dit geval dient een andere bemonsteringsmethode te worden toegepast.
-    Een minimale waterdiepte van 10 à 20 cm naargelang de omstandigheden is vereist om volgens dit protocol een staal te nemen.
+    Een minimale waterdiepte van 20 cm is vereist om volgens dit protocol een staal te nemen.
 
 -   Ijsvorming: de volledige waterkolom is bevroren of de dikte van de ijslaag verhindert de staalname;
 
