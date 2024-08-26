@@ -37,6 +37,8 @@ In juni-september, tijdens een veldbezoek voorafgaand aan de meetcampagne, wordt
 
 Navigeer met behulp van een standaard mobiele GPS-ontvanger (nauwkeurigheid ca. 3-5 m) naar de oever van de staalnamelocatie.
 
+Beoordeel of de locatie geschikt is voor het nemen van een staal (zie 3.3 "Beperkingen tot de procedure").
+
 Zoek binnen een afstand van 100m stroomopwaarts naar een geschikt staalnamepunt en documenteer deze bij een eerste staalnamebezoek (coördinaten met standaard GPS, beschrijving en foto).
 
 Meanders worden hierbij best vermeden.
@@ -143,7 +145,7 @@ Indien het staalnameformulier op papier werd ingevuld, worden na de staalname de
 
 Het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)) kan ingedeeld worden in 3 onderdelen:
 
-1.  **Kopgegevens:** labocode (vooraf ingevuld), code staalnamepunt, staalnemer, datum, uur
+1.  **Kopgegevens:** labocode (vooraf ingevuld), code staalnamepunt (+ code staalnamelocatie indien verschillend van code staalnamepunt), staalnemer, datum, uur
 
     -   Reden geen staalname: geen habitattype aanwezig; werken waterloop; staalnamepunt onbereikbaar; onvoldoende watervoerend/-houdend; ijsvorming (omschrijving: zie hoger)
 
