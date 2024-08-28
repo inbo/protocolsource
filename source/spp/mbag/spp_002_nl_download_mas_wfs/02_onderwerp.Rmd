@@ -19,7 +19,7 @@ Het project richt zich op het verkrijgen van inzicht in de biodiversiteit, met e
 
 **QGIS:** QGIS is een open-source geografisch informatiesysteem waarin je geografische gegevens importeren, bekijken, bewerken, analyseren en visualiseren [@QGISSoftware].
 
-**Query:** Een query is een gestructureerd verzoek om informatie uit een database of dataset te verkrijgen, vaak gebruikmakend van de SQL-programmeertaal.
+**query:** Een query is een gestructureerd verzoek om informatie uit een database of dataset te verkrijgen, vaak gebruikmakend van de SQL-programmeertaal.
 
 **Sovon:** Sovon, voluit Sovon Vogelonderzoek Nederland, coördineert landelijke vogelmonitoring en -onderzoek, met als doel de aantallen en verspreiding van vogels in Nederland te bepalen, de trends te verklaren, en de resultaten beschikbaar te maken voor natuurbeleid, beheer, en maatschappelijke doeleinden.
 

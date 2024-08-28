@@ -2,7 +2,7 @@
 
 ## [2024.06](../2024.06/index.html)
 
--   Eerste versie van het protocol. Dit protocol werd eerder in een R Markdown rapport bijgehouden in de code repositories van het MAS pilootproject [@github-repo-piloot] en het MBAG MAS project [@github-repo-mas]. Deze versie toont geen inhoudelijke verschillen, maar slechts enkele verschillen om de beschrijving zo duidelijk mogelijk te maken.
+-   Eerste versie van het protocol. Dit protocol werd eerder in een R Markdown rapport bijgehouden in de code repositories van het MAS pilootproject [@github-repo-piloot] en het MBAG MAS project [@github-repo-mas]. Deze versie toont geen inhoudelijke verschillen, maar slechts enkele verschillen om de beschrijving nog meer te verduidelijken.
 
 ```{=html}
 <!--
