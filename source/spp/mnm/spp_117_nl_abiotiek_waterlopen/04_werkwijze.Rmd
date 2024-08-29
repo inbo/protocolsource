@@ -98,7 +98,7 @@ Zie deelprotocol [sfp-114-nl 2024.03](../2024.03/index.html)
 
 Het mengstaal bestaat uit 3 deelstalen die genomen worden langs het dwarsprofiel van de waterloop ter hoogte van het gekozen staalnamepunt (figuur \@ref(fig:Figuur1)).
 
-Indien de waterloop 1m diep is of meer, worden de deelstalen genomen op 0,5m waterdiepte (figuur \@ref(fig:Figuur2)).
+Indien de waterloop 1 m diep is of meer, worden de deelstalen genomen op 0,5 m waterdiepte (figuur \@ref(fig:Figuur2)).
 Indien de waterbodem werd omgewoeld bij de bepaling van secchi-diepte of stroomsnelheid, wordt bij geringe stroming een meter stroomopwaarts gewaad voor deze staalname.
 Bij de staalname moet vermeden worden om waterbodem mee te bemonsteren, of om te woelen.
 Het staal wordt indien mogelijk genomen in een vegetatieloze of vegetatiearme zone en niet tussen helofyten.
