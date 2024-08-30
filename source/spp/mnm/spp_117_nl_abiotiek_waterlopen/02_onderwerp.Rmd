@@ -1,0 +1,49 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+**Oppervlaktewater**: al het permanent of op geregelde tijdstippen stilstaande of stromende water op het landoppervlak, aan de landzijde van de basislijn vanaf waar de breedte van de territoriale zee wordt gemeten (DIW 2003)
+
+**Staalnameformulier**: formulier waarop de veldmetingen, veldwaarnemingen en opmerkingen in verband met de staalname worden genoteerd
+
+**Staalnamelocatie** of **steekproefeenheid:** Voor het project Meetnetten Natuurlijk Milieu (zie verder) komt de steekproefeenheid voor waterlopen overeen met een 100m-segment van de waterloop.
+Dit is het segment waarvan de abiotische karakterisatie wordt beoogd.
+Dit segment wordt aangeduid met coördinaten van het meest stroomafwaarts gelegen punt van het te bemonsteren 100m-segment.
+
+**Staalnamepunt**: exacte plaats waar het waterstaal wordt genomen; dit is de meest geschikte dwarsdoorsnede van de waterloop binnen de staalnamelocatie (100m-segment van de waterloop).
+
+**Waterdiepte**: verticale afstand tussen het wateroppervlak en het bodemoppervlak
+
+Zie definities en afkortingen van de deelprotocols ([sfp-113-nl 2023.04](../2023.04/index.html), [sfp-114-nl 2024.03](../2024.03/index.html), [sfp-115-nl 2024.04](../2024.04/index.html))
+
+## Doelstelling en toepassingsgebied
+
+### Doelstelling
+
+Deze procedure beschrijft de staalname van oppervlaktewater en de bepaling van enkele veldkenmerken in stromende wateren, met het oog op de bepaling van de fysisch-chemische toestand van de waterkolom.
+Dit projectprotocol is een overkoepelend protocol waarin voor specifieke werkzaamheden wordt verwezen naar andere protocollen.
+Dit protocol is specifiek ontworpen voor de monitoring in het kader van de Meetnetten Natuurlijk Milieu (Vanderhaeghe et al. 2020).
+
+### Toepassingsgebied
+
+Deze gestandaardiseerde procedure kan toegepast worden in stromende wateren, gaande van bovenlopen tot zeer grote rivieren.
+Het protocol kan tevens worden toegepast in polderwaterlopen, grachten en kanalen.
+Voor stilstaande wateren verwijzen we naar het projectprotocol [spp-116-nl 2024.05](../2024.05/index.html).
+
+## Beperkingen tot de procedure
+
+In sommige omstandigheden kan er geen waterstaal genomen worden:
+
+-   Werken aan de waterloop: lopende of net uitgevoerde werken in of aan de waterloop die een dergelijke tijdelijke impact hebben dat de staalname niet representatief is voor de normale toestand (vb. zeer veel omgewoeld slib tijdens ruiming);
+
+-   Staalnamepunt onbereikbaar: het staalnamepunt kan onmogelijk op een veilige wijze worden bereikt;
+
+-   Onvoldoende watervoerend/-houdend: Er kunnen geen waterstalen genomen worden bij een zeer laag waterpeil volgens dit protocol (bv. waterdiepte zo laag dat omwoeling van de waterbodem onvermijdbaar is), of een dermate lage waterstand dat het water niet longitudinaal afstroomt.
+    Een minimale waterdiepte van 20 cm is vereist om volgens dit protocol een staal te nemen.
+
+-   Ijsvorming: de volledige waterkolom is bevroren of de dikte van de ijslaag verhindert de staalname;
+
+-   Extreem hoog waterpeil of extreem hoge stroomsnelheden: indien de omstandigheden een gevaar vormen voor de veiligheid van de staalnemer(s), kan de procedure niet worden uitgevoerd (zie "Extra aspecten van veiligheid t.o.v. de subprotocols").
+
+Indien er geen waterstaal genomen kan worden, wordt dit steeds gedocumenteerd op het staalnameformulier (zie [PDF](./media/Veldformulier_water.pdf)).
+De staalnamelocatie wordt verschoven of vervangen door een andere locatie volgens het vervangingsprotocol voor aquatische types (in voorbereiding).
