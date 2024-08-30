@@ -1,7 +1,7 @@
 ### First version of protocol: spp-117-nl
 
 - Title: Abiotische staalname stromende oppervlaktewateren
-- Published on: 2024-08-29
+- Published on: 2024-08-30
 - Version number: 2024.06
 - Link to this version: [spp-117-nl version 2024.06](2024.06/index.html)
 
