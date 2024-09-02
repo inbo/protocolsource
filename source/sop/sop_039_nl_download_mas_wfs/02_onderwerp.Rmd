@@ -1,5 +1,14 @@
 # Onderwerp
 
+## Doelstelling
+
+Deze procedure beschrijft het stappenplan om MAS-data te downloaden via de WFS-server van Sovon en deze data te exporteren voor verdere analyse.
+Dit wordt uitgevoerd via een specifieke workflow in QGIS.
+
+## Toepassingsgebied
+
+De procedure kan toegepast worden door mensen die een account aanmaken en rechten aanvragen bij Sovon.
+
 ```{=html}
 <!--
 Doelstelling en toepassingsgebied
