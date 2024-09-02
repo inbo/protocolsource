@@ -1,5 +1,11 @@
 # Proces
 
+Het proces bestaat uit twee stappen die in het volgende hoofdstuk worden beschreven.
+
+```{r}
+knitr::include_graphics("media/download_mas_wfs_proces.svg")
+```
+
 ```{=html}
 <!-- schematische voorstelling van het proces
 gebruik bijvoorbeeld `draw.io` en exporteer als png
