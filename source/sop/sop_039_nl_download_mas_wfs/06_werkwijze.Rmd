@@ -50,7 +50,7 @@ De volgende stappen beschrijven dan ook de lokalisatie van de data binnen deze r
 
 2.  Selecteer 'Kaartlagen' $\rightarrow$ 'Opslaan als ...'
 
-    -   Gebruik als 'Indeling' `GeoJSON`
+    -   Gebruik als 'Indeling' `GeoPackage`
     -   Gebruik als 'Bestandsnaam' `YYYYMMDD_qgis_export_sovon_wfs_JAAR`
         -   `YYYYMMDD` is de datum van export
         -   `JAAR` is het jaar wanneer de data verzameld is (zie SQL-query)
