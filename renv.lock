@@ -1468,9 +1468,14 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.6.0",
-      "Source": "Repository",
-      "Repository": "https://inbo.r-universe.dev",
+      "Version": "0.6.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "inbo",
+      "RemoteRepo": "protocolhelper",
+      "RemoteRef": "main",
+      "RemoteSha": "2772aa23f88dd5f89b91b1846a9560c3e5a936b4",
       "Requirements": [
         "R",
         "R6",
@@ -1493,7 +1498,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "46c959633ffaa43c7e7da6524ebc373d"
+      "Hash": "edbf97289986b0bbd9cccb8e8b754b96"
     },
     "ps": {
       "Package": "ps",
