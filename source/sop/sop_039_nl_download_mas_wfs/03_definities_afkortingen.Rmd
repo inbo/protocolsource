@@ -15,7 +15,7 @@ Dit meetnet wordt reeds toegepast in Nederland en sinds de opstart van het MBAG 
 **MBAG:** Het MBAG project, of Meetnet Biodiversiteit in het Agrarisch Gebied, is een initiatief van het Instituut voor Natuur- en Bosonderzoek (INBO) in Vlaanderen dat gericht is op het monitoren en analyseren van de biodiversiteit in landbouwgebieden.
 Het project richt zich op het verkrijgen van inzicht in de biodiversiteit, met een focus op akkervogels, bestuivers, bodembiodiversiteit, en landschapselementen, om zo bij te dragen aan zowel natuurbehoud als duurzame landbouwpraktijken [@MBAG].
 
-**QGIS:** QGIS is een open-source geografisch informatiesysteem waarin je geografische gegevens importeren, bekijken, bewerken, analyseren en visualiseren [@QGISSoftware].
+**QGIS:** QGIS is een open-source geografisch informatiesysteem waarin je geografische gegevens kan importeren, bekijken, bewerken, analyseren en visualiseren [@QGISSoftware].
 
 **query:** Een query is een gestructureerd verzoek om informatie uit een database of dataset te verkrijgen, vaak gebruikmakend van de SQL-programmeertaal.
 
