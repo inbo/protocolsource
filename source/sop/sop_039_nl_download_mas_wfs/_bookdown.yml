@@ -1,0 +1,30 @@
+book_filename: sop_039_nl_download_mas_wfs.Rmd
+delete_merged_file: true
+rmd_files:
+- index.Rmd
+- NEWS.md
+- 01_afhankelijkheden.Rmd
+- 02_onderwerp.Rmd
+- 03_definities_afkortingen.Rmd
+- 04_competenties.Rmd
+- 05_proces.Rmd
+- 06_werkwijze.Rmd
+- 07_veiligheid.Rmd
+- 08_referenties.Rmd
+- 09_appendices.Rmd
+- 10_subprotocols.Rmd
+output_dir: ../../../../protocoldocs/docs/sop/sop_039_nl_download_mas_wfs
+language:
+  label:
+    fig: 'Figuur '
+    tab: 'Tabel '
+    eq: 'Vergelijking '
+    thm: 'Theorema '
+    lem: 'Lemma '
+    def: 'Definitie '
+    cor: 'Bijgevolg '
+    prp: 'Propositie '
+    ex: 'Voorbeeld '
+    proof: 'Bewijs. '
+    remark: 'Opmerking. '
+

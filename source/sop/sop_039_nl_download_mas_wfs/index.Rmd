@@ -1,0 +1,73 @@
+---
+title: Procedure om MAS-data te downloaden via de Sovon WFS-server
+author:
+- name: Langeraert, Ward
+  orcid: 0000-0002-5900-8109
+- name: Van Calster, Hans
+  orcid: 0000-0001-8595-8426
+date: '2024-09-02'
+reviewers:
+- Eves Down, Maria-Rose
+- Cartuyvels, Emma
+file_manager: Langeraert, Ward
+protocol_code: sop-039-nl
+version_number: '2024.07'
+language: nl
+lang: nl
+template_name: sop
+site: bookdown::bookdown_site
+bibliography: [referenties.bib, referenties.yaml]
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+url: https://inbo.github.io/protocols/
+github_repo: inbo/protocolsource
+---
+
+```{=html}
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse `Rmd` bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
+-->
+```
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = "100%",
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(dplyr)
+library(purrr)
+library(protocolhelper)
+library(pander)
+panderOptions("table.alignment.default", "left")
+metadata <- rmarkdown::metadata
+path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
+type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
+```
+
+# Metadata {.unnumbered}
+
+```{r metadata-table}
+tibble(
+  reviewers = metadata[["reviewers"]] |> paste(collapse = ", "),
+  documentbeheerder = metadata[["file_manager"]],
+  protocolcode = metadata[["protocol_code"]],
+  versienummer = metadata[["version_number"]],
+  taal = metadata[["language"]]) %>%
+  pander::pander(split.tables = Inf)
+```
+
+```{r results="asis"}
+sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
+```
