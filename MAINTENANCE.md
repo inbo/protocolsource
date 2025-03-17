@@ -12,14 +12,14 @@ Making changes to `renv.lock`:
 -   add, commit and push modified files
 -   make a Pull Request
 -   ask for a review
--   wait until docker succesfully built message appears before merging
+-   wait until docker successfully built message appears before merging
 
 Making changes to `docker` or `dockerfile` (and possibly also `renv.lock`):
 
 -   create a new branch `docker-update`
 -   make changes and add, commit, push them
 -   ask for a review
--   wait until docker succesfully built message appears before merging
+-   wait until docker successfully built message appears before merging
 
 Whenever the above branches are merged to main, a git tag `docker-<sha-1>` will be automatically added via GHA.
 Here, <sha-1> refers to the SHA-1 identifier of the merge commit.
