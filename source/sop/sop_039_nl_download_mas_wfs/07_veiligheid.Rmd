@@ -1,0 +1,9 @@
+# Veiligheid
+
+Niet van toepassing.
+
+```{=html}
+<!--
+Alle aandachtspunten in verband met veilig werken.
+-->
+```

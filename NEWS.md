@@ -1,3 +1,10 @@
+### First version of protocol: sop-039-nl
+
+- Title: Procedure om MAS-data te downloaden via de Sovon WFS-server
+- Published on: 2024-10-24
+- Version number: 2024.07
+- Link to this version: [sop-039-nl version 2024.07](2024.07/index.html)
+
 ### First version of protocol: spp-117-nl
 
 - Title: Abiotische staalname stromende oppervlaktewateren
