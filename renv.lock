@@ -740,49 +740,6 @@
       "RemoteRef": "main",
       "RemoteSha": "5e659fdccb25fe35a8d1b85e8eae3b8c4911d5e2"
     },
-    "checkmate": {
-      "Package": "checkmate",
-      "Version": "2.3.2",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "Fast and Versatile Argument Checks",
-      "Description": "Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.",
-      "Authors@R": "c( person(\"Michel\", \"Lang\", NULL, \"michellang@gmail.com\", role = c(\"cre\", \"aut\"), comment = c(ORCID = \"0000-0001-9754-0393\")), person(\"Bernd\", \"Bischl\", NULL, \"bernd_bischl@gmx.net\", role = \"ctb\"), person(\"Dénes\", \"Tóth\", NULL, \"toth.denes@kogentum.hu\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4262-3217\")) )",
-      "URL": "https://mllg.github.io/checkmate/, https://github.com/mllg/checkmate",
-      "URLNote": "https://github.com/mllg/checkmate",
-      "BugReports": "https://github.com/mllg/checkmate/issues",
-      "NeedsCompilation": "yes",
-      "ByteCompile": "yes",
-      "Encoding": "UTF-8",
-      "Depends": [
-        "R (>= 3.0.0)"
-      ],
-      "Imports": [
-        "backports (>= 1.1.0)",
-        "utils"
-      ],
-      "Suggests": [
-        "R6",
-        "fastmatch",
-        "data.table (>= 1.9.8)",
-        "devtools",
-        "ggplot2",
-        "knitr",
-        "magrittr",
-        "microbenchmark",
-        "rmarkdown",
-        "testthat (>= 3.0.4)",
-        "tinytest (>= 1.1.0)",
-        "tibble"
-      ],
-      "License": "BSD_3_clause + file LICENSE",
-      "VignetteBuilder": "knitr",
-      "RoxygenNote": "7.3.2",
-      "Collate": "'AssertCollection.R' 'allMissing.R' 'anyInfinite.R' 'anyMissing.R' 'anyNaN.R' 'asInteger.R' 'assert.R' 'helper.R' 'makeExpectation.R' 'makeTest.R' 'makeAssertion.R' 'checkAccess.R' 'checkArray.R' 'checkAtomic.R' 'checkAtomicVector.R' 'checkCharacter.R' 'checkChoice.R' 'checkClass.R' 'checkComplex.R' 'checkCount.R' 'checkDataFrame.R' 'checkDataTable.R' 'checkDate.R' 'checkDirectoryExists.R' 'checkDisjunct.R' 'checkDouble.R' 'checkEnvironment.R' 'checkFALSE.R' 'checkFactor.R' 'checkFileExists.R' 'checkFlag.R' 'checkFormula.R' 'checkFunction.R' 'checkInt.R' 'checkInteger.R' 'checkIntegerish.R' 'checkList.R' 'checkLogical.R' 'checkMatrix.R' 'checkMultiClass.R' 'checkNamed.R' 'checkNames.R' 'checkNull.R' 'checkNumber.R' 'checkNumeric.R' 'checkOS.R' 'checkPOSIXct.R' 'checkPathForOutput.R' 'checkPermutation.R' 'checkR6.R' 'checkRaw.R' 'checkScalar.R' 'checkScalarNA.R' 'checkSetEqual.R' 'checkString.R' 'checkSubset.R' 'checkTRUE.R' 'checkTibble.R' 'checkVector.R' 'coalesce.R' 'isIntegerish.R' 'matchArg.R' 'qassert.R' 'qassertr.R' 'vname.R' 'wfwl.R' 'zzz.R'",
-      "Author": "Michel Lang [cre, aut] (<https://orcid.org/0000-0001-9754-0393>), Bernd Bischl [ctb], Dénes Tóth [ctb] (<https://orcid.org/0000-0003-4262-3217>)",
-      "Maintainer": "Michel Lang <michellang@gmail.com>",
-      "Repository": "CRAN"
-    },
     "cli": {
       "Package": "cli",
       "Version": "3.6.4",
@@ -3781,7 +3738,7 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.6.1",
+      "Version": "0.7.0",
       "Source": "GitHub",
       "Title": "Helper Functions to Manage Protocols",
       "Authors@R": "c( person(\"Hans\", \"Van Calster\", , \"hans.vancalster@inbo.be\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-8595-8426\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Thierry\", \"Onkelinx\", , \"thierry.onkelinx@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0001-8804-4216\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Floris\", \"Vanderhaeghe\", , \"floris.vanderhaeghe@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0002-6378-6229\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Els\", \"Lommelen\", , \"els.lommelen@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0002-3481-5684\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Research Institute for Nature and Forest (INBO)\", , , \"info@inbo.be\", role = c(\"cph\", \"fnd\")) )",
@@ -3795,7 +3752,8 @@
       "Imports": [
         "assertthat",
         "bookdown",
-        "checklist (>= 0.2.4)",
+        "checklist (>= 0.4.1)",
+        "cli",
         "commonmark",
         "fs",
         "gert",
@@ -3803,10 +3761,8 @@
         "knitr",
         "purrr",
         "R6",
-        "reactable",
         "rmarkdown",
         "rprojroot",
-        "slickR",
         "stringr",
         "xfun",
         "xml2",
@@ -3819,6 +3775,8 @@
         "magick",
         "pander",
         "png",
+        "reactable",
+        "slickR",
         "testthat (>= 2.1.0)",
         "tinytex"
       ],
@@ -3838,7 +3796,7 @@
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "main",
-      "RemoteSha": "2772aa23f88dd5f89b91b1846a9560c3e5a936b4"
+      "RemoteSha": "11ea6843ab1e09dcbf27ae5275fe3d664e63f7b7"
     },
     "ps": {
       "Package": "ps",
@@ -4032,82 +3990,6 @@
       "NeedsCompilation": "no",
       "Author": "Gábor Csárdi [cre, aut]",
       "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
-      "Repository": "CRAN"
-    },
-    "reactR": {
-      "Package": "reactR",
-      "Version": "0.6.1",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "React Helpers",
-      "Date": "2024-09-14",
-      "Authors@R": "c( person( \"Facebook\", \"Inc\" , role = c(\"aut\", \"cph\") , comment = \"React library in lib, https://reactjs.org/; see AUTHORS for full list of contributors\" ), person( \"Michel\",\"Weststrate\", , role = c(\"aut\", \"cph\") , comment = \"mobx library in lib, https://github.com/mobxjs\" ), person( \"Kent\", \"Russell\" , role = c(\"aut\", \"cre\") , comment = \"R interface\" , email = \"kent.russell@timelyportfolio.com\" ), person( \"Alan\", \"Dipert\" , role = c(\"aut\") , comment = \"R interface\" , email = \"alan@rstudio.com\" ), person( \"Greg\", \"Lin\" , role = c(\"aut\") , comment = \"R interface\" , email = \"glin@glin.io\" ) )",
-      "Maintainer": "Kent Russell <kent.russell@timelyportfolio.com>",
-      "Description": "Make it easy to use 'React' in R with 'htmlwidget' scaffolds, helper dependency functions, an embedded 'Babel' 'transpiler', and examples.",
-      "URL": "https://github.com/react-R/reactR",
-      "BugReports": "https://github.com/react-R/reactR/issues",
-      "License": "MIT + file LICENSE",
-      "Encoding": "UTF-8",
-      "Imports": [
-        "htmltools"
-      ],
-      "Suggests": [
-        "htmlwidgets (>= 1.5.3)",
-        "rmarkdown",
-        "shiny",
-        "V8",
-        "knitr",
-        "usethis",
-        "jsonlite"
-      ],
-      "RoxygenNote": "7.3.2",
-      "VignetteBuilder": "knitr",
-      "NeedsCompilation": "no",
-      "Author": "Facebook Inc [aut, cph] (React library in lib, https://reactjs.org/; see AUTHORS for full list of contributors), Michel Weststrate [aut, cph] (mobx library in lib, https://github.com/mobxjs), Kent Russell [aut, cre] (R interface), Alan Dipert [aut] (R interface), Greg Lin [aut] (R interface)",
-      "Repository": "CRAN"
-    },
-    "reactable": {
-      "Package": "reactable",
-      "Version": "0.4.4",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "Interactive Data Tables for R",
-      "Authors@R": "c( person(\"Greg\", \"Lin\", email = \"glin@glin.io\", role = c(\"aut\", \"cre\")), person(\"Tanner\", \"Linsley\", role = c(\"ctb\", \"cph\"), comment = \"React Table library\"), person(family = \"Emotion team and other contributors\", role = c(\"ctb\", \"cph\"), comment = \"Emotion library\"), person(\"Kent\", \"Russell\", role = c(\"ctb\", \"cph\"), comment = \"reactR package\"), person(\"Ramnath\", \"Vaidyanathan\", role = c(\"ctb\", \"cph\"), comment = \"htmlwidgets package\"), person(\"Joe\", \"Cheng\", role = c(\"ctb\", \"cph\"), comment = \"htmlwidgets package\"), person(\"JJ\", \"Allaire\", role = c(\"ctb\", \"cph\"), comment = \"htmlwidgets package\"), person(\"Yihui\", \"Xie\", role = c(\"ctb\", \"cph\"), comment = \"htmlwidgets package\"), person(\"Kenton\", \"Russell\", role = c(\"ctb\", \"cph\"), comment = \"htmlwidgets package\"), person(family = \"Facebook, Inc. and its affiliates\", role = c(\"ctb\", \"cph\"), comment = \"React library\"), person(family = \"FormatJS\", role = c(\"ctb\", \"cph\"), comment = \"FormatJS libraries\"), person(family = \"Feross Aboukhadijeh, and other contributors\", role = c(\"ctb\", \"cph\"), comment = \"buffer library\"), person(\"Roman\", \"Shtylman\", role = c(\"ctb\", \"cph\"), comment = \"process library\"), person(\"James\", \"Halliday\", role = c(\"ctb\", \"cph\"), comment = \"stream-browserify library\"), person(family = \"Posit Software, PBC\", role = c(\"fnd\", \"cph\")) )",
-      "Description": "Interactive data tables for R, based on the 'React Table' JavaScript library. Provides an HTML widget that can be used in 'R Markdown' or 'Quarto' documents, 'Shiny' applications, or viewed from an R console.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://glin.github.io/reactable/, https://github.com/glin/reactable",
-      "BugReports": "https://github.com/glin/reactable/issues",
-      "Depends": [
-        "R (>= 3.1)"
-      ],
-      "Imports": [
-        "digest",
-        "htmltools (>= 0.5.2)",
-        "htmlwidgets (>= 1.5.3)",
-        "jsonlite",
-        "reactR"
-      ],
-      "Suggests": [
-        "covr",
-        "crosstalk",
-        "dplyr",
-        "fontawesome",
-        "knitr",
-        "leaflet",
-        "MASS",
-        "rmarkdown",
-        "shiny",
-        "sparkline",
-        "testthat",
-        "tippy",
-        "V8"
-      ],
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.1",
-      "Config/testthat/edition": "3",
-      "NeedsCompilation": "no",
-      "Author": "Greg Lin [aut, cre], Tanner Linsley [ctb, cph] (React Table library), Emotion team and other contributors [ctb, cph] (Emotion library), Kent Russell [ctb, cph] (reactR package), Ramnath Vaidyanathan [ctb, cph] (htmlwidgets package), Joe Cheng [ctb, cph] (htmlwidgets package), JJ Allaire [ctb, cph] (htmlwidgets package), Yihui Xie [ctb, cph] (htmlwidgets package), Kenton Russell [ctb, cph] (htmlwidgets package), Facebook, Inc. and its affiliates [ctb, cph] (React library), FormatJS [ctb, cph] (FormatJS libraries), Feross Aboukhadijeh, and other contributors [ctb, cph] (buffer library), Roman Shtylman [ctb, cph] (process library), James Halliday [ctb, cph] (stream-browserify library), Posit Software, PBC [fnd, cph]",
-      "Maintainer": "Greg Lin <glin@glin.io>",
       "Repository": "CRAN"
     },
     "readr": {
@@ -4816,51 +4698,6 @@
       "NeedsCompilation": "no",
       "Author": "Winston Chang [aut, cre] (<https://orcid.org/0000-0002-1576-2126>), Joe Cheng [aut], JJ Allaire [aut], Carson Sievert [aut] (<https://orcid.org/0000-0002-4958-2844>), Barret Schloerke [aut] (<https://orcid.org/0000-0001-9986-114X>), Yihui Xie [aut], Jeff Allen [aut], Jonathan McPherson [aut], Alan Dipert [aut], Barbara Borges [aut], Posit Software, PBC [cph, fnd], jQuery Foundation [cph] (jQuery library and jQuery UI library), jQuery contributors [ctb, cph] (jQuery library; authors listed in inst/www/shared/jquery-AUTHORS.txt), jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in inst/www/shared/jqueryui/AUTHORS.txt), Mark Otto [ctb] (Bootstrap library), Jacob Thornton [ctb] (Bootstrap library), Bootstrap contributors [ctb] (Bootstrap library), Twitter, Inc [cph] (Bootstrap library), Prem Nawaz Khan [ctb] (Bootstrap accessibility plugin), Victor Tsaran [ctb] (Bootstrap accessibility plugin), Dennis Lembree [ctb] (Bootstrap accessibility plugin), Srinivasu Chakravarthula [ctb] (Bootstrap accessibility plugin), Cathy O'Connor [ctb] (Bootstrap accessibility plugin), PayPal, Inc [cph] (Bootstrap accessibility plugin), Stefan Petre [ctb, cph] (Bootstrap-datepicker library), Andrew Rowls [ctb, cph] (Bootstrap-datepicker library), Brian Reavis [ctb, cph] (selectize.js library), Salmen Bejaoui [ctb, cph] (selectize-plugin-a11y library), Denis Ineshin [ctb, cph] (ion.rangeSlider library), Sami Samhuri [ctb, cph] (Javascript strftime library), SpryMedia Limited [ctb, cph] (DataTables library), John Fraser [ctb, cph] (showdown.js library), John Gruber [ctb, cph] (showdown.js library), Ivan Sagalaev [ctb, cph] (highlight.js library), R Core Team [ctb, cph] (tar implementation from R)",
       "Maintainer": "Winston Chang <winston@posit.co>",
-      "Repository": "CRAN"
-    },
-    "slickR": {
-      "Package": "slickR",
-      "Version": "0.6.0",
-      "Source": "Repository",
-      "Title": "Create Interactive Carousels with the 'JavaScript' 'Slick' Library",
-      "Date": "2022-12-19",
-      "Authors@R": "person(given = \"Jonathan\", family = \"Sidi\", role = c(\"aut\", \"cre\"), email = \"yonicd@gmail.com\")",
-      "Description": "Create and customize interactive carousels using the 'Slick' 'JavaScript' library and the 'htmlwidgets' package. The carousels can contain plots produced in R, images, 'iframes', videos and other 'htmlwidgets'.  These carousels can be created directly from the R console, and viewed in the 'RStudio'  internal viewer, in 'Shiny' apps and R Markdown documents.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://github.com/yonicd/slickR",
-      "BugReports": "https://github.com/yonicd/slickR/issues",
-      "Depends": [
-        "R (>= 3.6.0)"
-      ],
-      "Imports": [
-        "htmltools",
-        "utils",
-        "tools",
-        "lifecycle",
-        "stats",
-        "xml2",
-        "base64enc",
-        "htmlwidgets",
-        "checkmate"
-      ],
-      "Suggests": [
-        "jsonlite",
-        "knitr",
-        "pdftools",
-        "rmarkdown",
-        "svglite",
-        "leaflet",
-        "testthat",
-        "covr"
-      ],
-      "VignetteBuilder": "knitr",
-      "RdMacros": "lifecycle",
-      "Encoding": "UTF-8",
-      "LazyData": "true",
-      "RoxygenNote": "7.2.1",
-      "NeedsCompilation": "no",
-      "Author": "Jonathan Sidi [aut, cre]",
-      "Maintainer": "Jonathan Sidi <yonicd@gmail.com>",
       "Repository": "CRAN"
     },
     "sourcetools": {
