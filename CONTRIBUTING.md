@@ -244,7 +244,7 @@ This website will host all approved and published versions of all protocols.
 10.  Reviewers can follow [these guidelines](REVIEWING.md)
 
 11. If the reviewers raise concerns, changes can be made to the protocol that address these concerns (stage, commit, push).
-    If the review requires substantial changes, it is wise to temporarilly mark the PR as draft
+    If the review requires substantial changes, it is wise to temporarily mark the PR as draft
 
     ![](source/management/pr-on-github-3.png)
 
@@ -265,7 +265,7 @@ This website will host all approved and published versions of all protocols.
 For adding a **pre-existing version of a protocol that was written in `docx` format**, follow the steps to [create a new protocol](#workflow-new), except in the second step:
 
 -   a subject-matter specialist uses `protocolhelper::create_protocol()` (or one of its shortcut functions `create_sfp()` or `create_spp()`) to convert the `docx` protocol to Rmarkdown files. See section [From an existing docx protocol](#from-an-existing-docx-protocol).
--   the old protocol-code from the pre-existing `docx` protocol will likely not correspond with the new protocol-code. Mention this in the protocol-specific `NEWS.md` file. Use the new protocol-code to create a new branch with `checklist::new_branch()`
+-   the old protocol-number from the pre-existing `docx` protocol can be re-used and specified in through the `protocol_number` argument. You can check the list of pre-existing protocol numbers using `protocolhelper:::reserved_codes`. Mention in the protocol-specific `NEWS.md` file that your new protocol was created starting from this pre-existing protocol. Use the new protocol-code to create a new branch with `checklist::new_branch()`
 -   If the section titles in the `docx` version of the protocol comply with section titles in the templates used by the `protocolhelper` package, then you will normally not see Rmarkdown file names starting with the same number. Otherwise, the function will have written both empty template Rmarkdown files as well as Rmarkdown files resulting from conversion of the `docx` file. (Note that `NEWS.md` and `index.Rmd` are always created from the `protocolhelper` templates.) In that case, you need to make changes (renaming files, deleting redundant files) so that Rmarkdown file names comply with the [template Rmarkdown files](https://github.com/inbo/protocolhelper/tree/main/inst/rmarkdown/templates).
     - if this is the case, it will also be detected by `protocolhelper::check_structure()`. So it is advised to use this function to detect these and other problems.
 -   continue the steps outlined for a new protocol.
@@ -273,6 +273,7 @@ For adding a **pre-existing version of a protocol that was written in `docx` for
 ## Starting a new protocol with the aid of protocolhelper functions
 
 The name and location of the protocol files and folder will be automatically determined by means of the input that you provide as arguments of the `create_`-family of functions (`create_protocol()`, `create_spp()`, `create_sfp()`, ...).
+These functions are partly interactive and ask questions that guide you to provide the title, subtitle, authors, reviewers, file manager and keywords.
 With `render = TRUE` the Rmarkdown files will be rendered to `html` and `pdf` output in a corresponding folder inside `docs`.
 This will allow you to check the resulting output locally.
 
@@ -283,13 +284,8 @@ Even if you are converting an older published protocol, we recommend leaving the
 
 ```r
 library(protocolhelper)
-create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van visuele inschattingen van bedekking van soorten in (semi-)terrestrische vegetatie",
-           short_title = "vegopname terrest",
-           authors = "De Bie, Els",
-           orcids = "0000-0000-1234-5678",
+create_sfp(short_title = "vegopname terrest",
            date = "`r Sys.Date()`", 
-           reviewers = "Hans Van Calster, Lieve Vriens, Jan Wouters, Wouter Van Gompel, Els Lommelen", 
-           file_manager = "Hans Van Calster", 
            theme = "vegetation",
            language = "nl",
            from_docx = 
@@ -299,20 +295,16 @@ create_sfp(title = "Klassieke vegetatieopname in een proefvlak aan de hand van v
            render = FALSE)
 ```
 
+Upon execution of the function, interactive questions will ask you to provide a title, (optional) subtitle, author details, reviewer details, file manager details and keywords.
+
 ### From a new template
 
 For a field protocol (sfp) (you need to specify a theme):
 
 ```r
 library(protocolhelper)
-create_sfp(title = "titel van het protocol",
-           subtitle = "optionele subtitel", 
-           short_title = "korte titel",
-           authors = c("Achternaam1, Voornaam1", "Achternaam2, voornaam2"),
-           orcids = c("0000-0000-1234-5678", "0000-0000-1234-8765"),
+create_sfp(short_title = "korte titel",
            date = "`r Sys.Date()`", 
-           reviewers = "Voornaam Naam, ...", 
-           file_manager = "Voornaam Naam", 
            theme = "vegetation",
            language = "nl",
            from_docx = NULL,
@@ -320,17 +312,15 @@ create_sfp(title = "titel van het protocol",
            render = FALSE)
 ```
 
+Upon execution of the function, interactive questions will ask you to provide a title, (optional) subtitle, author details, reviewer details, file manager details and keywords.
+
+
 Alternatively, for a project-specific protocol (you need to specify a project_name):
 
 ```r
 library(protocolhelper)
-create_spp(title = "Bodemstalen nemen", 
-           short_title = "bodemstalen", 
-           authors = c("Beton, Jon", "Plastiek, Jef"),
-           orcids = c("0000-0000-1234-5678", "0000-0000-8765-4321"),
+create_spp(short_title = "bodemstalen", 
            date = Sys.Date(), 
-           reviewers = "reviewer1, reviewer2", 
-           file_manager = "manager",
            project_name = "mne",
            language = "nl",
            render = FALSE)
@@ -340,14 +330,8 @@ Or for a standard operating procedure (similarly for sip or sap; no need to spec
 
 ```r
 library(protocolhelper)
-create_sop(title = "titel van het protocol",
-           subtitle = "optionele subtitel", 
-           short_title = "korte titel",
-           authors = c("Achternaam1, Voornaam1", "Achternaam2, voornaam2"),
-           orcids = c("0000-0000-1234-5678", "0000-0000-1234-8765"),
+create_sop(short_title = "korte titel",
            date = "`r Sys.Date()`", 
-           reviewers = "Voornaam Naam, ...", 
-           file_manager = "Voornaam Naam", 
            language = "nl",
            from_docx = NULL,
            protocol_number = NULL, 
