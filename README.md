@@ -10,38 +10,40 @@
 
 We are in the process of moving INBO protocols to this repository.
 This repository contains the source code of protocols (R Markdown files).
-To view the approved and published versions of these protocols, please visit the [INBO protocols website](https://inbo.github.io/protocols/).
+To view the approved and published versions of these protocols, please visit the [INBO protocols website](https://protocols.inbo.be/).
 Older published protocols which have not yet been moved to this new protocol management system can still be downloaded from [here](https://sites.google.com/inbo.be/veldprotocollen/).
 
 If you want to contribute a new protocol or update an existing protocol, check the [contributing guidelines](CONTRIBUTING.md).
-A small R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocolsource` repository.
+An R package called [protocolhelper](https://github.com/inbo/protocolhelper) has several utility functions that aid in setting up a new protocol from a template and functions to aid management of the `protocolsource` repository.
 Documentation for the package can be found [here](https://inbo.github.io/protocolhelper/).
 
 ## Repository structure {#repository-structure}
 
-      |- CONTRIBUTING.md <- Contributing guidelines
-      |- DESCRIPTION <- file used to document which R packages are used in the repo
-      |- LICENSE <- license file
-      |- NEWS.md <- repo-wide news file; contains one entry for each release
-      |- README.md <- up to date description of the repo content
-      |- RELEASES.md <- description of how protocols are released/published
-      |- .github <- folder containing a pull request template and github action
-         workflows
-      |- from_docx <- contains Microsoft Word docx protocols which were converted to 
-                      markdown
-      |- source
-      |    |- sap <- analytic protocols
-      |    |- sip <- instrument protocols
-      |    |- sop <- operating protocols
-      |    |- sfp <- field protocols
-      |    |   |- 0_generic
-      |    |   |- 1_water 
-      |    |   |- 2_soil 
-      |    |   |- 3_air 
-      |    |   |- 4_vegetation 
-      |    |   |- 5_species
-      |    |- spp <- project-specific protocols
-      |    |- management <- for repo admins only
+```         
+  |- CONTRIBUTING.md <- Contributing guidelines
+  |- DESCRIPTION <- file used to document which R packages are used in the repo
+  |- LICENSE <- license file
+  |- NEWS.md <- repo-wide news file; contains one entry for each release
+  |- README.md <- up to date description of the repo content
+  |- RELEASES.md <- description of how protocols are released/published
+  |- .github <- folder containing a pull request template and github action
+     workflows
+  |- from_docx <- contains Microsoft Word docx protocols which were converted to 
+                  markdown
+  |- source
+  |    |- sap <- analytic protocols
+  |    |- sip <- instrument protocols
+  |    |- sop <- operating protocols
+  |    |- sfp <- field protocols
+  |    |   |- 0_generic
+  |    |   |- 1_water 
+  |    |   |- 2_soil 
+  |    |   |- 3_air 
+  |    |   |- 4_vegetation 
+  |    |   |- 5_species
+  |    |- spp <- project-specific protocols
+  |    |- management <- for repo admins only
+```
 
 ## Release model
 
@@ -49,7 +51,9 @@ Whenever a new protocol is added or an existing protocol is updated and approved
 A GitHub Release is just a zip-file containing all files in the repository at that moment.
 The repository is setup in such a way that with each release a Zenodo archive will be created as well.
 The added benefit of this is (1) guaranteed long-term archiving, (2) creation of a DOI.
-A release will also trigger the [`protocols` repo](https://github.com/inbo/protocols) to update the [INBO protocols website](https://inbo.github.io/protocols/).
+A release will also trigger the [`protocols` repo](https://github.com/inbo/protocols) to update the [INBO protocols website](https://protocols.inbo.be/).
+
+Starting from `protocolhelper` version 0.8.0, a **protocol-specific Zenodo DOI** will be automatically added to each (new) version of a protocol and the corresponding Zenodo record, which will only contain the zipped html version and the pdf version of the protocol, will be uploaded automatically to Zenodo as part of the release cycle.
 
 Git tags are associated with each GitHub release.
 To identify protocols and differentiate between different versions of protocols, we use two types of tags: a general tag and a specific tag.
