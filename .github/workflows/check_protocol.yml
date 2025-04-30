@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     if: github.event.pull_request.draft == false
@@ -20,4 +23,4 @@ jobs:
       - name: Check protocol
         uses: inbo/actions/protocol_check@main
         with:
-          PAT: ${{ secrets.PAT }}
+          PAT: ${{ secrets.GITHUB_TOKEN }}
