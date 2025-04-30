@@ -4,10 +4,15 @@ echo '\nGetting the code...\n'
 git clone --quiet https://$INPUT_PAT@github.com/$GITHUB_REPOSITORY /render
 cd /render
 git checkout main
-git config --global user.email "info@inbo.be"
-git config --global user.name "INBO"
+git config --global user.name "github-actions[bot]"
+git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 rm .Rprofile
+
+echo '\ntest\n'
+
+TEST=$(Rscript -e 'tinytex::check_installed("booktabs")')
+echo 'booktabs test =' $TEST
 
 echo '\nSession info\n'
 Rscript -e 'sessioninfo::session_info()'
@@ -39,7 +44,7 @@ mkdir /render/publish/
 cp -R /destiny/. /render/publish/.
 
 echo 'Rendering the Rmarkdown files...\n'
-Rscript -e "protocolhelper:::render_release()"
+Rscript -e 'protocolhelper:::render_release(sandbox = FALSE, zenodo_token = "'$INPUT_ZENODO'")'
 if [ $? -ne 0 ]; then
   echo '\nRendering failed. Please check the error message above.\n';
   exit 1
@@ -56,7 +61,7 @@ git config user.name
 git config user.email
 git add --all
 git commit --message="Add new protocol"
-git push -f https://$PAT@github.com/$GITHUB_REPOSITORY_DEST
+git push -f https://$INPUT_PAT@github.com/$GITHUB_REPOSITORY_DEST
 
 git rev-parse --abbrev-ref origin/HEAD | sed 's/origin\///' | xargs git checkout
 git tag -a $TAGNAME_GENERAL -m "$TAGMESSAGE_GENERAL"
