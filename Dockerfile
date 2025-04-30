@@ -1,5 +1,4 @@
 FROM rocker/verse
-
 ARG BUILD_DATE
 ARG VCS_REF
 LABEL org.label-schema.build-date=$BUILD_DATE \
@@ -16,59 +15,70 @@ maintainer="Hans Van Calster <hans.vancalster@inbo.be>"
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
 
-## Install nano
+## Consolidated apt-get installations
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
-    nano
-
-COPY docker/Rprofile.site $R_HOME/etc/Rprofile.site
+    nano \
+    openssh-client \
+    libv8-dev \
+    ghostscript \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*
 
 ## Install pandoc
-RUN  wget https://github.com/jgm/pandoc/releases/download/3.2/pandoc-3.2-1-amd64.deb \
+RUN wget https://github.com/jgm/pandoc/releases/download/3.2/pandoc-3.2-1-amd64.deb \
   && dpkg -i pandoc-3.2-1-amd64.deb \
   && rm pandoc-3.2-1-amd64.deb
 
-## Install git depencencies
-RUN apt-get update \
-  && apt-get install -y --no-install-recommends \
-    openssh-client
+## Copy R profile
+COPY docker/Rprofile.site $R_HOME/etc/Rprofile.site
 
-## Install rgdal dependencies (needed if renv contains rgdal)
-#RUN apt-get update \
-#  && apt-get install -y --no-install-recommends \
-#    gdal-bin \
-#    libgdal-dev \
-#    libproj-dev \
-#    proj-bin
+## Extend the existing TeXLive installation with additional packages needed
+## see https://github.com/rocker-org/rocker-versioned2/blob/master/scripts/install_texlive.sh
+RUN tlmgr update --self && \
+     tlmgr install \
+     booktabs \
+     babel-dutch \
+     babel-english \
+     babel-french \
+     beamer \
+     biblatex \
+     caption \
+     csquotes \
+     footnotehyper \
+     hyphen-dutch \
+     hyphen-french \
+     listings \
+     mathspec \
+     microtype \
+     multirow \
+     natbib \
+     orcidlink \
+     parskip \
+     setspace \
+     soul \
+     svg \
+     times \
+     unicode-math \
+     upquote \
+     xcolor \
+     xurl
 
-## Install V8 dependencies
-RUN  apt-get update \
-  && apt-get install -y --no-install-recommends \
-     libv8-dev
-
-## Install tinytex
-RUN apt-get update \
-  && apt-get install -y --no-install-recommends \
-    r-cran-tinytex
-RUN  Rscript -e 'tinytex::install_tinytex(force = TRUE)'
-
-## Install LaTeX packages
-RUN apt-get update \
-  && apt-get install -y  --no-install-recommends \
-    ghostscript \
-  && Rscript -e 'tinytex::tlmgr_install(c("amsmath", "amssymb", "array", "babel-dutch", "babel-english", "babel-french", "beamer", "beamerarticle", "biblatex", "bookmark", "booktabs", "calc", "caption", "csquotes", "dvips", "etoolbox", "fancyvrb", "fontenc", "fontspec", "footnote", "footnotehyper", "geometry", "graphicx", "helvetic", "hyperref", "hyphen-dutch", "hyphen-french", "iftex", "inconsolata", "inputenc", "listings", "lmodern", "longtable", "luatexja-preset", "luatexja-fontspec", "mathspec", "microtype", "multirow", "natbib", "orcidlink", "parskip", "pgfpages", "scrreprt", "selnolig", "setspace", "soul", "svg", "tex", "textcomp", "times", "unicode-math", "upquote", "url", "xcolor", "xeCJK", "xurl"))'
-
-WORKDIR /github/workspace
-
+## Install R packages
 RUN R -e "install.packages('renv', repos = c(CRAN = 'https://cloud.r-project.org'))"
 RUN R -e "renv::consent(provided = TRUE)"
 COPY renv.lock renv.lock
 RUN R -e "renv::restore()"
+RUN R -e "renv::install(c('reactable', 'zen4R', 'keyring', 'slickR'))"
 RUN R -e "renv::isolate()"
 
+
+## Copy entrypoint scripts
 COPY docker/entrypoint_website.sh /entrypoint_website.sh
 COPY docker/entrypoint_update.sh /entrypoint_update.sh
 COPY docker/entrypoint_check.sh /entrypoint_check.sh
 COPY docker/test_docker.sh /test_docker.sh
 
+## Set default entrypoint
 ENTRYPOINT ["/entrypoint_check.sh"]
+
