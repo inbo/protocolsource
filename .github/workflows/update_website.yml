@@ -5,6 +5,9 @@ on:
     branches:
      - main
 
+permissions:
+  contents: write
+
 jobs:
   build-website:
     runs-on: ubuntu-latest
@@ -31,3 +34,4 @@ jobs:
           PAT: ${{ secrets.PAT }}
           GITHUB_REPOSITORY_DEST: "inbo/protocols"
           RECENT_MERGED_BRANCH_NAME: $RECENT_MERGED_BRANCH_NAME
+          ZENODO: ${{ secrets.ZENODO }}
