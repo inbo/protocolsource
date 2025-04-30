@@ -163,6 +163,8 @@ Note that the merge commit to which these tags are attached represents an entire
 Each time a merge commit is made to the main branch of the `protocolsource` repo, a 'mirror read-only' repository (`protocols` repo) will be automatically triggered to build the rendered html versions of the protocols using GitHub Actions.
 The resulting website is hosted at https://inbo.github.io/protocols/.
 This website will host all approved and published versions of all protocols.
+The entire website will be [archived on Zenodo](https://doi.org/10.5281/zenodo.7619958).
+The zipped html version together with the pdf version of each individual protocol will also be archived on Zenodo and the version-specific Zenodo DOI can therefore also be used to refer to a specific version of a protocol.
 
 ## Workflow
 
@@ -250,9 +252,9 @@ This website will host all approved and published versions of all protocols.
 
     When you have dealt with the reviewer comments, go to your draft pull request and press 'ready for review'
 
-12. When the reviewers have given approval, another GitHub Action will run automatically and update the repo `NEWS.md` file and the `.zenodo.json` files and commit the changes to your branch. 
+12. When the reviewers have given approval, another GitHub Action will run automatically and update the repo `NEWS.md` file and the repo `.zenodo.json` files and commit the changes to your branch. The action also gets or updates the version-specific Zenodo DOI and adds the DOI as metadata to the YAML front matter of the `index.Rmd` file of your protocol.
 
-13. When this is done, a **repo admin** will merge your Pull Request. This will trigger another set of GitHub Actions [see RELEASES.md](RELEASES.md) which will publish your protocol to the [protocols website](https://inbo.github.io/protocols/) and archive it on Zenodo. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
+13. When this is done, a **repo admin** will merge your Pull Request. This will trigger another set of GitHub Actions [see RELEASES.md](RELEASES.md) which will publish your protocol to the [protocols website](https://inbo.github.io/protocols/) and archive the entire protocols website and the individual protocol on Zenodo. The GitHub protocolsource repo is setup in such a way that branches that are merged in the main branch will be deleted automatically.
 
 ### Updating an existing protocol
 
@@ -273,7 +275,7 @@ For adding a **pre-existing version of a protocol that was written in `docx` for
 ## Starting a new protocol with the aid of protocolhelper functions
 
 The name and location of the protocol files and folder will be automatically determined by means of the input that you provide as arguments of the `create_`-family of functions (`create_protocol()`, `create_spp()`, `create_sfp()`, ...).
-These functions are partly interactive and ask questions that guide you to provide the title, subtitle, authors, reviewers, file manager and keywords.
+These functions are *partly* interactive and ask questions that guide you to provide the title, subtitle, authors, reviewers, file manager and keywords.
 With `render = TRUE` the Rmarkdown files will be rendered to `html` and `pdf` output in a corresponding folder inside `docs`.
 This will allow you to check the resulting output locally.
 
