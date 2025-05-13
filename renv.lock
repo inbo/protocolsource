@@ -3738,7 +3738,7 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.8.0",
+      "Version": "0.8.1",
       "Source": "GitHub",
       "Title": "Helper Functions to Manage Protocols",
       "Authors@R": "c( person(\"Hans\", \"Van Calster\", , \"hans.vancalster@inbo.be\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-8595-8426\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Thierry\", \"Onkelinx\", , \"thierry.onkelinx@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0001-8804-4216\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Floris\", \"Vanderhaeghe\", , \"floris.vanderhaeghe@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0002-6378-6229\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Els\", \"Lommelen\", , \"els.lommelen@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0002-3481-5684\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Research Institute for Nature and Forest (INBO)\", , , \"info@inbo.be\", role = c(\"cph\", \"fnd\")) )",
@@ -3799,7 +3799,7 @@
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "main",
-      "RemoteSha": "343eb488c9c775da4eb06cbbcde94cca1890afc9"
+      "RemoteSha": "1abef67527c4cd5a4ac6d36ffabb7865824771d5"
     },
     "ps": {
       "Package": "ps",
