@@ -2,6 +2,8 @@
 
 After and during review of a protocol-branch and before each release a couple of GitHub Actions will be run automatically and may require action.
 
+## GitHub Actions that run on a pull request or a push to a protocol branch
+
 A **first** GitHub Action ([check_protocol.yml](.github/workflows/check_protocol.yml)) will automatically run these checks:
 
 ```         
@@ -15,6 +17,8 @@ Repeat this step until all checks succeed.
 In principle, these errors should be addressed by the protocol contributor, but admins can help if needed.
 Apart from any problems detected by these checks, the protocol contributor must also address any issues raised by at least one reviewer that is familiar with the content matter of the protocol.
 If the checks succeed and all substantial issues raised by content matter reviewers are addressed, an admin or maintainer can in principle approve the pull request.
+This is a required action.
+A protocol cannot be merged to the main branch when this action fails.
 
 A **second** action ([update_news_zenodo.yml](.github/workflows/update_news_zenodo.yml)) will run two jobs when a protocol PR is approved.
 The first job checks that at least one content-matter reviewer and one admin or maintainer approval has been given.
@@ -27,13 +31,20 @@ It will run the following steps:
 2.  update the repo `.zenodo.json` file with `protocolhelper:::update_zenodo()` and commit / push the change to the branch
 
 3.  update the protocol-specific Zenodo DOI in the YAML front matter of the `index.Rmd` file with `protocolhelper:::update_doi()` and commit / push the change to the branch
-
-4.  auto-approve the introduced changes
 ```
 
 Pull these commits to get them in your local repo.
+This is not a required action, but the next action, which is required, has a validation step that makes sure this action ran.
 
-A **third** GitHub Action ([update_website.yml](.github/workflows/update_website.yml)) will be run upon a push to the main branch, i.e. when the pull request is merged into the main branch, to update the `protocols` website and deposit the website and the protocol on Zenodo.
+A **third** GitHub Action ([check_auto_commits.yml](.github/workflows/check_auto_commits.yml)) will run if a commit was pushed to a protocol branch that changed either the `index.Rmd`, the repo `NEWS.md` or the repo `.zenodo.json` file.
+It will succeed if this commit was authored by `github-actions[bot]` and fail otherwise.
+This is a required action that must succeed in order to merge the pull request.
+
+If all above *required* actions succeed, the protocol can be merged to the main branch.
+
+## GitHub Actions after merge of a protocol to the main branch
+
+A **fourth** GitHub Action ([update_website.yml](.github/workflows/update_website.yml)) will be run upon a push to the main branch, i.e. when the pull request is merged into the main branch, to update the `protocols` website and deposit the website and the protocol on Zenodo.
 This will automatically trigger the following:
 
 ```         
@@ -54,7 +65,7 @@ This will automatically trigger the following:
     2.  Check success of publication steps at https://protocols.inbo.be/
 ```
 
-A **fourth** GitHub Action ([release.yml](.github/workflows/release.yml)) will run when a tag `protocols-<version number>` is detected.
+A **fifth** GitHub Action ([release.yml](.github/workflows/release.yml)) will run when a tag `protocols-<version number>` is detected.
 This will trigger a GitHub release in the `protocolsource` repo and in the `protocols` repo.
 In turn, a GitHub release will trigger the `.zenodo.json` webhook to publish this new version of the repo contents on Zenodo for long-term archiving of the protocols website.
 An admin or maintainer should **Check success of GitHub releases and publication on [Zenodo](https://doi.org/10.5281/zenodo.7619958)**.
