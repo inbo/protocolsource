@@ -11,12 +11,12 @@ permissions:
 
 jobs:
   build:
-    if: github.event.pull_request.draft == false
+    if: ${{ !github.event.pull_request.draft
       && (startsWith(github.head_ref, 'sfp-')
       || startsWith(github.head_ref, 'sip-')
       || startsWith(github.head_ref, 'sop-')
       || startsWith(github.head_ref, 'sap-')
-      || startsWith(github.head_ref, 'spp-'))
+      || startsWith(github.head_ref, 'spp-')) }}
     runs-on: ubuntu-latest
     name: "check protocol"
     steps:
