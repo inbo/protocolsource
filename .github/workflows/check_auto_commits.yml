@@ -1,0 +1,26 @@
+name: final validation
+
+on:
+  push:
+    branches:
+      - 's[afiop]p-*'
+    paths:
+      - '**index.Rmd'
+      - 'NEWS.md'
+      - '.zenodo.json'
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: validate
+        run: |
+          echo "Head commit author name: ${{ github.event.head_commit.author.name }}"
+          if [ ${{ github.event.head_commit.author.name }} == "github-actions[bot]" ]; then
+            echo "✅"
+          else
+            exit 1
+          fi
