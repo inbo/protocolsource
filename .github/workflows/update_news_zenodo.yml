@@ -1,4 +1,4 @@
-name: Update repo NEWS, repo zenodo file and doi on approval of pull request
+name: After review jobs
 
 on:
   pull_request_review:
@@ -11,15 +11,16 @@ permissions:
 jobs:
   check-approval:
     runs-on: ubuntu-latest
-    if: github.event.review.state == 'approved'
+    if: ${{ github.event.review.state == 'approved'
+      && github.event.review.user.login != 'github-actions[bot]'
       && github.event.pull_request.base.ref == 'main'
       && (startsWith(github.event.pull_request.head.ref, 'sfp-')
       || startsWith(github.event.pull_request.head.ref, 'sip-')
       || startsWith(github.event.pull_request.head.ref, 'sop-')
       || startsWith(github.event.pull_request.head.ref, 'sap-')
-      || startsWith(github.event.pull_request.head.ref, 'spp-'))
+      || startsWith(github.event.pull_request.head.ref, 'spp-')) }}
     outputs:
-      is-admin: ${{ steps.check-admin.outputs.is_admin }}
+      approvals-ok: ${{ steps.check-admin.outputs.approvals_ok }}
       reviewer: ${{ github.event.review.user.login }}
     steps:
       - name: Print review information
@@ -44,12 +45,12 @@ jobs:
           echo "Permission level: $PERMISSION"
           
           # Check if reviewer has sufficient permissions
-          HAS_PERMISSION=false
           if [ "$PERMISSION" == "admin" ] || [ "$PERMISSION" == "maintain" ] || [ "$PERMISSION" == "owner" ]; then
             echo "✅ User has sufficient rights (${PERMISSION})"
-            HAS_PERMISSION=true
           else
             echo "❌ User does not have required permissions"
+            echo "approvals_ok=false" >> $GITHUB_OUTPUT
+            exit 1
           fi
           
           # Check for additional approvals
@@ -58,37 +59,21 @@ jobs:
                    "https://api.github.com/repos/$REPO/pulls/$PR_NUMBER/reviews")
           
           # Count approved reviews (distinct reviewers)
-          APPROVED_COUNT=$(echo "$REVIEWS" | jq '[.[] | select(.state == "APPROVED")] | group_by(.user.login) | length')
-          echo "Number of users who approved: $APPROVED_COUNT"
-          
           # Check if there's more than one approval
-          HAS_MULTIPLE_APPROVALS=false
+          APPROVED_COUNT=$(echo "$REVIEWS" | jq '[.[] | select(.state == "APPROVED")] | group_by(.user.login) | length')
           if [ "$APPROVED_COUNT" -gt 1 ]; then
             echo "✅ Multiple approvals detected ($APPROVED_COUNT)"
-            HAS_MULTIPLE_APPROVALS=true
+            echo "✅ Both conditions met - admin approval AND multiple reviews"
+            echo "approvals_ok=true" >> $GITHUB_OUTPUT
           else
             echo "❌ Only one approval detected"
+            echo "approvals_ok=false" >> $GITHUB_OUTPUT
+            exit 1
           fi
-          
-          # Both conditions must be met
-          if [ "$HAS_PERMISSION" = true ] && [ "$HAS_MULTIPLE_APPROVALS" = true ]; then
-            echo "✅ Both conditions met - admin approval AND multiple reviews"
-            echo "is_admin=true" >> $GITHUB_OUTPUT
-          else
-            echo "❌ Not all conditions met"
-            echo "is_admin=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Verification step
-        if: steps.check-admin.outputs.is_admin == 'true'
-        run: |
-          echo "✅ Verification successful - both conditions met:"
-          echo "   - Approved by user with sufficient permissions"
-          echo "   - Multiple approvals received"
 
   update-protocol:
     needs: check-approval
-    if: needs.check-approval.outputs.is-admin == 'true'
+    if: needs.check-approval.outputs.approvals-ok == 'true'
     runs-on: ubuntu-latest
     name: "update repo news, zenodo and protocol-specific doi"
     steps:
@@ -97,18 +82,3 @@ jobs:
         with:
           PAT: ${{ secrets.GITHUB_TOKEN }}
           ZENODO: ${{ secrets.ZENODO }}
-
-      - name: Auto-approve pull request
-        if: success()
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const pullRequestNumber = context.payload.pull_request.number;
-            await github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: pullRequestNumber,
-              event: 'APPROVE',
-              body: 'Automatically approved after successful protocol update'
-            });
