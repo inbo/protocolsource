@@ -79,5 +79,5 @@ jobs:
       - name: Update protocol
         uses: inbo/actions/protocol_update@main
         with:
-          PAT: ${{ secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.PAT }}
           ZENODO: ${{ secrets.ZENODO }}
