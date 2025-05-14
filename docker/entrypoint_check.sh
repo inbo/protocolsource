@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 echo '\nGetting the code...\n'
-git clone --quiet https://$INPUT_PAT@github.com/$GITHUB_REPOSITORY check
+git clone --quiet https://$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY check
 cd check
 git checkout $GITHUB_HEAD_REF
 rm .Rprofile

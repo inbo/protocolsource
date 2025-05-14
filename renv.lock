@@ -674,7 +674,7 @@
     },
     "checklist": {
       "Package": "checklist",
-      "Version": "0.4.1",
+      "Version": "0.4.2",
       "Source": "GitHub",
       "Type": "Package",
       "Title": "A Thorough and Strict Set of Checks for R Packages and Source Code",
@@ -699,7 +699,7 @@
         "hunspell",
         "jsonlite",
         "knitr",
-        "lintr (>= 3.0.2.9000)",
+        "lintr (>= 3.2.0)",
         "pkgdown (>= 2.0.7)",
         "R6",
         "rcmdcheck",
@@ -738,7 +738,7 @@
       "RemoteUsername": "inbo",
       "RemoteRepo": "checklist",
       "RemoteRef": "main",
-      "RemoteSha": "5e659fdccb25fe35a8d1b85e8eae3b8c4911d5e2"
+      "RemoteSha": "6af592f5617c6f4e0a695d65375170c833a5c017"
     },
     "cli": {
       "Package": "cli",
@@ -3738,7 +3738,7 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.7.0",
+      "Version": "0.8.1",
       "Source": "GitHub",
       "Title": "Helper Functions to Manage Protocols",
       "Authors@R": "c( person(\"Hans\", \"Van Calster\", , \"hans.vancalster@inbo.be\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-8595-8426\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Thierry\", \"Onkelinx\", , \"thierry.onkelinx@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0001-8804-4216\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Floris\", \"Vanderhaeghe\", , \"floris.vanderhaeghe@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0002-6378-6229\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Els\", \"Lommelen\", , \"els.lommelen@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0002-3481-5684\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Research Institute for Nature and Forest (INBO)\", , , \"info@inbo.be\", role = c(\"cph\", \"fnd\")) )",
@@ -3771,14 +3771,17 @@
       ],
       "Suggests": [
         "dplyr",
+        "keyring",
         "lubridate",
         "magick",
         "pander",
         "png",
         "reactable",
+        "rlang",
         "slickR",
         "testthat (>= 2.1.0)",
-        "tinytex"
+        "tinytex",
+        "zen4R"
       ],
       "Additional_repositories": "https://inbo.r-universe.dev",
       "Config/checklist/communities": "inbo",
@@ -3796,7 +3799,7 @@
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "main",
-      "RemoteSha": "11ea6843ab1e09dcbf27ae5275fe3d664e63f7b7"
+      "RemoteSha": "1abef67527c4cd5a4ac6d36ffabb7865824771d5"
     },
     "ps": {
       "Package": "ps",

@@ -1,22 +1,83 @@
-name: Update repo NEWS and zenodo files on approval of pull request
+name: After review jobs
 
 on:
   pull_request_review:
     types: [submitted]
 
+permissions:
+  contents: write  # This gives write permission to repository contents
+
 jobs:
-  build:
-    if: github.event.review.state == 'approved'
+  check-approval:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.review.state == 'approved'
+      && github.event.review.user.login != 'github-actions[bot]'
       && github.event.pull_request.base.ref == 'main'
       && (startsWith(github.event.pull_request.head.ref, 'sfp-')
       || startsWith(github.event.pull_request.head.ref, 'sip-')
       || startsWith(github.event.pull_request.head.ref, 'sop-')
       || startsWith(github.event.pull_request.head.ref, 'sap-')
-      || startsWith(github.event.pull_request.head.ref, 'spp-'))
+      || startsWith(github.event.pull_request.head.ref, 'spp-')) }}
+    outputs:
+      approvals-ok: ${{ steps.check-admin.outputs.approvals_ok }}
+      reviewer: ${{ github.event.review.user.login }}
+    steps:
+      - name: Print review information
+        run: |
+          echo "PR #${{ github.event.pull_request.number }} reviewed by ${{ github.event.review.user.login }}"
+          echo "Review state: ${{ github.event.review.state }}"
+
+      - name: Check admin approval AND additional reviews
+        id: check-admin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REVIEWER: ${{ github.event.review.user.login }}
+        run: |
+          # Check reviewer's permission level
+          echo "Checking permissions for reviewer: $REVIEWER"
+          RESPONSE=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                     "https://api.github.com/repos/$REPO/collaborators/$REVIEWER/permission")
+          
+          PERMISSION=$(echo "$RESPONSE" | jq -r '.permission')
+          echo "Permission level: $PERMISSION"
+          
+          # Check if reviewer has sufficient permissions
+          if [ "$PERMISSION" == "admin" ] || [ "$PERMISSION" == "maintain" ] || [ "$PERMISSION" == "owner" ]; then
+            echo "✅ User has sufficient rights (${PERMISSION})"
+          else
+            echo "❌ User does not have required permissions"
+            echo "approvals_ok=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          
+          # Check for additional approvals
+          echo "Checking for other approvals..."
+          REVIEWS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                   "https://api.github.com/repos/$REPO/pulls/$PR_NUMBER/reviews")
+          
+          # Count approved reviews (distinct reviewers)
+          # Check if there's more than one approval
+          APPROVED_COUNT=$(echo "$REVIEWS" | jq '[.[] | select(.state == "APPROVED")] | group_by(.user.login) | length')
+          if [ "$APPROVED_COUNT" -gt 1 ]; then
+            echo "✅ Multiple approvals detected ($APPROVED_COUNT)"
+            echo "✅ Both conditions met - admin approval AND multiple reviews"
+            echo "approvals_ok=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Only one approval detected"
+            echo "approvals_ok=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+  update-protocol:
+    needs: check-approval
+    if: needs.check-approval.outputs.approvals-ok == 'true'
     runs-on: ubuntu-latest
-    name: "update repo news and zenodo"
+    name: "update repo news, zenodo and protocol-specific doi"
     steps:
       - name: Update protocol
         uses: inbo/actions/protocol_update@main
         with:
           PAT: ${{ secrets.PAT }}
+          ZENODO: ${{ secrets.ZENODO }}

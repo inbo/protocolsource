@@ -1,49 +1,71 @@
-# Creating a new release (guidelines for repo-admins)
+# Release cycle (guidelines for repo-admins and repo-maintainers)
 
-After review of a protocol-branch and before each release the following steps will be run automatically and may require action:
+After and during review of a protocol-branch and before each release a couple of GitHub Actions will be run automatically and may require action.
 
-1.  A GitHub Action will run when a pull request to the main branch is made or updated.
+## GitHub Actions that run on a pull request or a push to a protocol branch
 
-    1.  This action will update the version number if needed and automatically run these checks:
+A **first** GitHub Action ([check_protocol.yml](.github/workflows/check_protocol.yml)) will automatically run these checks:
 
-        1.  `protocolhelper::check_frontmatter()`
+```         
+1.  `protocolhelper::check_frontmatter()`
 
-        2.  `protocolhelper::check_structure()`
+2.  `protocolhelper::check_structure()`
+```
 
-    2.  This action will also automatically update:
+Check any error messages resulting from these checks and address them.
+Repeat this step until all checks succeed.
+In principle, these errors should be addressed by the protocol contributor, but admins can help if needed.
+Apart from any problems detected by these checks, the protocol contributor must also address any issues raised by at least one reviewer that is familiar with the content matter of the protocol.
+If the checks succeed and all substantial issues raised by content matter reviewers are addressed, an admin or maintainer can in principle approve the pull request.
+This is a required action.
+A protocol cannot be merged to the main branch when this action fails.
 
-        1.  the repo-wide `NEWS.md` file with `protocolhelper:::update_news_release()`
+A **second** action ([update_news_zenodo.yml](.github/workflows/update_news_zenodo.yml)) will run two jobs when a protocol PR is approved.
+The first job checks that at least one content-matter reviewer and one admin or maintainer approval has been given.
+The second job only runs when the first job succeeds.
+It will run the following steps:
 
-        2.  the `.zenodo.json` file with `protocolhelper:::update_zenodo()`
+```         
+1.  update the repo-wide `NEWS.md` file with `protocolhelper:::update_news_release()` and commit / push the change to the branch
 
-    Check any error messages resulting from these checks and address them.
-    Repeat this step until all checks succeed.
-    In principle, these errors should be addressed by the protocol contributor, but admins can help if needed.
-    Note that during this automatic run, commits to update the version number, the repo-wide `NEWS.md` and the `.zenodo.json` will be automatically pushed to the remote.
-    So pull these commits to get them in your local repo.
+2.  update the repo `.zenodo.json` file with `protocolhelper:::update_zenodo()` and commit / push the change to the branch
 
-2.  A second GitHub Action will be run upon a push to the main branch to update the `protocols` website.
-    I.e. when the pull request is merged into the main branch.
+3.  update the protocol-specific Zenodo DOI in the YAML front matter of the `index.Rmd` file with `protocolhelper:::update_doi()` and commit / push the change to the branch
+```
 
-    1.  This will automatically trigger the following:
+Pull these commits to get them in your local repo.
+This is not a required action, but the next action, which is required, has a validation step that makes sure this action ran.
 
-        1.  the general and protocol-specific tags (see [release model](README.md#release-model)) will be created and added to that merge commit.
-            This will be done by `protocolhelper:::set_tags()`
+A **third** GitHub Action ([check_auto_commits.yml](.github/workflows/check_auto_commits.yml)) will run if a commit was pushed to a protocol branch that changed either the `index.Rmd`, the repo `NEWS.md` or the repo `.zenodo.json` file.
+It will succeed if this commit was authored by `github-actions[bot]` and fail otherwise.
+This is a required action that must succeed in order to merge the pull request.
 
-            1.  general tag: `protocols-<version number>`
+If all above *required* actions succeed, the protocol can be merged to the main branch.
 
-            2.  specific tag: `<protocol-code>-<version number>`
+## GitHub Actions after merge of a protocol to the main branch
 
-        2.  render the new or updated protocol and commit/push this to the `protocols` repo (which contains the rendered protocols that are needed to build the website).
-            The rendering is done by `protocolhelper:::render_release()`.
-            The same general and protocol-specific tags are added to this commit in `protocols`.
+A **fourth** GitHub Action ([update_website.yml](.github/workflows/update_website.yml)) will be run upon a push to the main branch, i.e. when the pull request is merged into the main branch, to update the `protocols` website and deposit the website and the protocol on Zenodo.
+This will automatically trigger the following:
 
-            1.  Check if this action ran without problems and if needed address them.
+```         
+1.  The general and protocol-specific tags (see [release model](README.md#release-model)) will be created and added to that merge commit.
+    This will be done by `protocolhelper:::set_tags()`
 
-            2.  Check success of publication steps at `protocols.inbo.be`
+    1.  general tag: `protocols-<version number>`
 
-3.  A third GitHub Action will run when a tag `protocols-<version number>` is detected.
-    This will trigger a GitHub release in the `protocolsource` repo and in the `protocols` repo.
-    In turn, a GitHub release will trigger the `.zenodo.json` webhook to publish this new version of the repo contents on Zenodo for long-term archiving of the protocols.
+    2.  specific tag: `<protocol-code>-<version number>`
 
-    1.  Check success of GitHub releases and publication on Zenodo
+2.  Render the new or updated protocol and commit/push this to the `protocols` repo (which contains the rendered protocols that are needed to build the website).
+    The rendering is done by `protocolhelper:::render_release()`.
+    That function will also upload the zipped html and pdf version of the protocol to a protocol-specific Zenodo deposit.
+    The same general and protocol-specific tags are added to this commit in `protocols`.
+
+    1.  Check if this action ran without problems and if needed address them.
+
+    2.  Check success of publication steps at https://protocols.inbo.be/
+```
+
+A **fifth** GitHub Action ([release.yml](.github/workflows/release.yml)) will run when a tag `protocols-<version number>` is detected.
+This will trigger a GitHub release in the `protocolsource` repo and in the `protocols` repo.
+In turn, a GitHub release will trigger the `.zenodo.json` webhook to publish this new version of the repo contents on Zenodo for long-term archiving of the protocols website.
+An admin or maintainer should **Check success of GitHub releases and publication on [Zenodo](https://doi.org/10.5281/zenodo.7619958)**.
