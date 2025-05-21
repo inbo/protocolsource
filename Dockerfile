@@ -26,9 +26,9 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 ## Install pandoc
-RUN wget https://github.com/jgm/pandoc/releases/download/3.2/pandoc-3.2-1-amd64.deb \
-  && dpkg -i pandoc-3.2-1-amd64.deb \
-  && rm pandoc-3.2-1-amd64.deb
+RUN wget https://github.com/jgm/pandoc/releases/download/3.4/pandoc-3.4-1-amd64.deb \
+  && dpkg -i pandoc-3.4-1-amd64.deb \
+  && rm pandoc-3.4-1-amd64.deb
 
 ## Copy R profile
 COPY docker/Rprofile.site $R_HOME/etc/Rprofile.site
