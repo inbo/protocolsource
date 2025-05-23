@@ -3,7 +3,7 @@ title: "Richtlijnen voor het plaatsen van peilbuizen"
 author:
   - name: 
     given: "Mathias"
-    family: "Wackenier
+    family: "Wackenier"
   email: "mathias.wackenier@inbo.be"
   orcid: "0000-0001-6934-9241"
   affiliation: "Research Institute for Nature and Forest (INBO)"
@@ -98,4 +98,3 @@ tibble(
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
-
