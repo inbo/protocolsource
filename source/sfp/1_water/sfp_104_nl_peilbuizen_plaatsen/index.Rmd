@@ -2,22 +2,22 @@
 title: "Richtlijnen voor het plaatsen van peilbuizen"
 author:
   - name: 
-    given: "Mathias"
-    family: "Wackenier"
-  email: "mathias.wackenier@inbo.be"
-  orcid: "0000-0001-6934-9241"
-  affiliation: "Research Institute for Nature and Forest (INBO)"
+      given: "Mathias"
+      family: "Wackenier"
+    email: "mathias.wackenier@inbo.be"
+    orcid: "0000-0001-6934-9241"
+    affiliation: "Research Institute for Nature and Forest (INBO)"
   corresponding: true
   - name:
-    given: "Piet"
-    family: "De Becker"
-  orcid: "0000-0002-9686-0472"
-  affiliation: "Research Institute for Nature and Forest (INBO)"
+      given: "Piet"
+      family: "De Becker"
+    orcid: "0000-0002-9686-0472"
+    affiliation: "Research Institute for Nature and Forest (INBO)"
   - name: 
-    given: "Toon"
-    family: "Van Daele"
-  orcid: "0000-0002-1362-853X"
-  affiliation: "Research Institute for Nature and Forest (INBO)"
+      given: "Toon"
+      family: "Van Daele"
+    orcid: "0000-0002-1362-853X"
+    affiliation: "Research Institute for Nature and Forest (INBO)"
 reviewer:
   - name:
       given: "Gerrit"
