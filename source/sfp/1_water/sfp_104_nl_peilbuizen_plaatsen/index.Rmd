@@ -7,7 +7,7 @@ author:
     email: "mathias.wackenier@inbo.be"
     orcid: "0000-0001-6934-9241"
     affiliation: "Research Institute for Nature and Forest (INBO)"
-  corresponding: true
+    corresponding: true
   - name:
       given: "Piet"
       family: "De Becker"
