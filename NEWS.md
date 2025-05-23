@@ -1,3 +1,10 @@
+### Update of protocol: sfp-104-nl
+
+- Title: Richtlijnen voor het plaatsen van peilbuizen
+- Published on: 2025-05-23
+- Version number: 2025.01
+- Link to this version: [sfp-104-nl version 2025.01](2025.01/index.html)
+
 ### First version of protocol: sop-039-nl
 
 - Title: Procedure om MAS-data te downloaden via de Sovon WFS-server
