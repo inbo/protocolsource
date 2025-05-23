@@ -1,0 +1,42 @@
+{
+  "description": "<p>Dit protocol beschrijft het manueel plaatsen van relatief ondiepe piëzometers. Ze zijn doorgaans niet meer dan 5 meter diep en hebben een beperkte diameter (de INBO afspraak is 5 cm). Dit type peilbuizen wordt in natuurgebieden vaak geplaatst om de ondiepe grondwaterstand op te volgen die direct van belang is voor de vegetatie. Het plaatsen van diepere (&gt; 5 m diepte) en/of machinaal geplaatste piëzometers komt in deze richtlijn niet aan bod. Gedetailleerde informatie over o.a. diepere meetpunten is o.a. terug te vinden in het Handboek meten van grondwaterstanden in peilbuizen <span class=\"citation\" data-cites=\"Bouma_2012\">[@Bouma_2012]<\/span>.<\/p> <p>Dit protocol beschrijft uitsluitend de plaatsing van het meetpunt. Het vereiste aantal meetpunten in een gebied en de keuze van de geschikte meetlocaties maken deel uit van het onderzoeksopzet en de meetdoelstelling.<\/p>",
+  "title": "Richtlijnen voor het plaatsen van peilbuizen.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "nld",
+  "keywords": [
+    "water"
+  ],
+  "publisher": "Research Institute for Nature and Forest (INBO)",
+  "contributors": [
+    {
+      "name": "Wackenier, Mathias",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-6934-9241",
+      "type": "contactperson"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Wackenier, Mathias",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-6934-9241"
+    },
+    {
+      "name": "De Becker, Piet",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-9686-0472"
+    },
+    {
+      "name": "Van Daele, Toon",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-1362-853X"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}
