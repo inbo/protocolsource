@@ -1,9 +1,10 @@
 ---
-title: Richtlijnen voor het plaatsen van peilbuizen
+title: "Richtlijnen voor het plaatsen van peilbuizen"
 author:
   - name: 
     given: "Mathias"
     family: "Wackenier
+  email: mathias.wackenier@inbo.be
   orcid: 0000-0001-6934-9241
   affiliation: "Research Institute for Nature and Forest (INBO)"
   corresponding: true
@@ -56,6 +57,7 @@ Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
 -->
 ```
+
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
@@ -96,3 +98,4 @@ tibble(
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
+
