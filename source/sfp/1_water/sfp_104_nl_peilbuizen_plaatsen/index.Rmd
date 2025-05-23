@@ -1,25 +1,47 @@
 ---
 title: Richtlijnen voor het plaatsen van peilbuizen
 author:
-- name: Mathias Wackenier
+- name: 
+    given: "Mathias"
+    family: "Wackenier
   orcid: 0000-0001-6934-9241
-- name: Piet De Becker
+  affiliation: "Research Institute for Nature and Forest (INBO)"
+  corresponding: true
+- name:
+    given: "Piet"
+    family: "De Becker"
   orcid: 0000-0002-9686-0472
-- name: Toon Van Daele
+  affiliation: "Research Institute for Nature and Forest (INBO)"
+- name: 
+    given: "Toon"
+    family: "Van Daele"
   orcid: 0000-0002-1362-853X
+  affiliation: "Research Institute for Nature and Forest (INBO)"
 date: '`r Sys.Date()`'
-reviewers: Gerrit Genouw
-file_manager: Toon Van Daele
+reviewer:
+- name:
+      given: "Gerrit"
+      family: "Genouw"
+    email: "gerrit.genouw@inbo.be"
+    orcid: "0009-0001-3333-0079"
+    affiliation: "Research Institute for Nature and Forest (INBO)"
+file_manager: 
+- name: 
+    given: "Toon"
+    family: "Van Daele"
+keywords: "water"
 protocol_code: sfp-104-nl
 version_number: '2025.01'
 language: nl
 lang: nl
 theme: water
+publisher: Research Institute for Nature and Forest (INBO)
 site: bookdown::bookdown_site
 bibliography:
 - referenties.bib
 - referenties.yaml
 template_name: sfp
+link-citations: TRUE
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 ---
 
