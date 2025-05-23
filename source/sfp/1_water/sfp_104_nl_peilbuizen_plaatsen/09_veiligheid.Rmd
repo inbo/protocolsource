@@ -1,5 +1,8 @@
 # Veiligheid
 
+-   In urbane gebieden dient de projectleider voorafgaand het plaatsen van de peibuizen een controle uit te voeren op het [klip portaal](https://klip.vlaanderen.be/).
+    Indien op de locatie aanduidingen zijn van leidingen van FLUXYS of FARYS (foto \@ref(fig:foto_fluxys)) mogen de werken niet uitgevoerd worden en moet er teruggekoppeld worden met de projectleider.
+
 -   Houd bij het boren de rug recht en knieën gebogen.
     Plaats tijdig een verlengstuk zodat je niet moet bukken bij het boren en het terug omhoog trekken van de boor.
 
@@ -14,3 +17,10 @@
 -   Verplaats de klem voor de verbuizing tijdig bij het omhoog trekken van de verbuizing zodat je niet moet bukken.
     Schroef ook tijdig een verlengstuk van de verbuizing af zodat je minder gewicht omhoog moet trekken.
 
+(ref:fluxys) Voorbeelden aanduiding fluxys leidingen
+
+```{r fluxys, fig.height=3, fig.width=5, fig.cap="(ref:fluxys)"}
+knitr::include_graphics(
+  path = "./media/fluxys.png"
+)
+```

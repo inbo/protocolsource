@@ -7,6 +7,7 @@
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
 -->
 ```
+
 -   **Peilbuis**: een peilbuis met in het ondergrondse deel een filterelement over de hele lengte voor het meten van de grondwaterstand nabij het maaiveld (Figuur \@ref(fig:Figuur1) rechts).
     Grondwater kan over de volledige ondergrondse lengte van het instrument door perforaties naar binnen en naar buiten stromen.
     De filter snijdt steeds met de grondwaterstand, behalve als het grondwaterpeil boven het maaiveld uitstijgt.
@@ -28,6 +29,8 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 
 ## Doelstelling en toepassingsgebied
 
+<!-- description: start -->
+
 Dit protocol beschrijft het manueel plaatsen van relatief ondiepe piëzometers.
 Ze zijn doorgaans niet meer dan 5 meter diep en hebben een beperkte diameter (de INBO afspraak is 5 cm).
 Dit type peilbuizen wordt in natuurgebieden vaak geplaatst om de ondiepe grondwaterstand op te volgen die direct van belang is voor de vegetatie.
@@ -39,6 +42,8 @@ terug te vinden in het Handboek meten van grondwaterstanden in peilbuizen [@Boum
 Dit protocol beschrijft uitsluitend de plaatsing van het meetpunt.
 Het vereiste aantal meetpunten in een gebied en de keuze van de geschikte meetlocaties maken deel uit van het onderzoeksopzet en de meetdoelstelling.
 
+<!-- description: end -->
+
 ```{=html}
 <!--
 Doelstelling: omschrijving in woorden waarvoor het protocol dient.
@@ -47,3 +52,4 @@ Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd proj
 Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
 -->
 ```
+
