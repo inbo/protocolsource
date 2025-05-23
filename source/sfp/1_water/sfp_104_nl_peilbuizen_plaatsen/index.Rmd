@@ -29,6 +29,7 @@ file_manager:
   - name: 
       given: "Toon"
       family: "Van Daele"
+    orcid: "0000-0002-1362-853X"
 keywords: "water"
 language: nl
 date: '`r Sys.Date()`'
