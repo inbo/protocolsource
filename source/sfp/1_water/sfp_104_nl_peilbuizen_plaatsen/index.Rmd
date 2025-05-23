@@ -37,6 +37,7 @@ protocol_code: sfp-104-nl
 version_number: '2025.01'
 lang: nl
 theme: water
+community: "inbo"
 publisher: Research Institute for Nature and Forest (INBO)
 site: bookdown::bookdown_site
 bibliography:
