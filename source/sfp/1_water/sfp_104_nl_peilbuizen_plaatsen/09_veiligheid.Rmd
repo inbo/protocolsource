@@ -17,4 +17,10 @@
 -   Verplaats de klem voor de verbuizing tijdig bij het omhoog trekken van de verbuizing zodat je niet moet bukken.
     Schroef ook tijdig een verlengstuk van de verbuizing af zodat je minder gewicht omhoog moet trekken.
 
-![(#fig:foto_fluxys) Voorbeelden aanduiding fluxys leidingen](./media/fluxys.png){width="5" height="3"}
+(ref:fluxys) Voorbeelden aanduiding fluxys leidingen
+
+```{r fluxys, fig.height=3, fig.width=5, fig.cap="(ref:fluxys)"}
+knitr::include_graphics(
+  path = "./media/fluxys.png"
+)
+```
