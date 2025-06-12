@@ -132,4 +132,3 @@ if (exists("params")) {
 }
 rm(empty_table)
 ```
-
