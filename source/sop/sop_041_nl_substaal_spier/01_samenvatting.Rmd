@@ -2,6 +2,8 @@
 
 ## Doelstelling
 
+<!-- description: start -->
+
 De **INBO-zoogdierweefselcollectie** bevat diverse type specimens afkomstig van zoogdieren: spierweefsel, vetweefsel, stalen van organen en tanden.
 Deze specimens zijn waardevol doordat ze zijn gelinkt aan ecologische autopsie- en/of projectdata.
 De specimens worden in collectie gebracht ter (her)gebruik voor verschillende doeleinden waaronder genetisch onderzoek, toxicologische analyses, analyses van ziekten en exacte leeftijdsbepalingen.
@@ -24,9 +26,10 @@ Deze SOP beschrijft niet: \* Hoe de verschillende spierweefsels werden ingezamel
 De handelingen zijn niet (met zekerheid) overdraagbaar op: \* Andere types ingezamelde weefsels dan spierweefsel.
 \* Ingezamelde (spier)weefsels in opslag op afwijkende temperaturen (bijvoorbeeld -80°C of -196°C).
 
+<!-- description: end -->
+
 ```{=html}
 <!--
 En waar vinden we deze informatie dan, indien ze beschikbaar is?
 -->
 ```
-
