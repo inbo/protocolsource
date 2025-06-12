@@ -1,0 +1,60 @@
+{
+  "description": "",
+  "title": "Substaal spierweefsel zoogdieren.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "collectiebeheer; INBO-collectie; INBO-zoogdierweefselcollectie; autopsie; zoogdier"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Veltjen, Emily",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-3170-3345",
+      "type": "contactperson"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Veltjen, Emily",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-3170-3345"
+    },
+    {
+      "name": "Bovijn, Robin",
+      "orcid": "0009-0007-8190-7470"
+    },
+    {
+      "name": "Berlengee, Filip",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0009-0008-7215-4494"
+    },
+    {
+      "name": "Schamp, Kurt",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0009-0001-4169-7057"
+    },
+    {
+      "name": "Neyrinck, Sabrina",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-7379-9269"
+    },
+    {
+      "name": "Cox, Karen",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-8621-3773"
+    },
+    {
+      "name": "Baert, Kristof",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-1910-1114"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}

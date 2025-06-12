@@ -1,0 +1,135 @@
+# Voorbereidingen
+
+## Veiligheid
+
+**PBM**: Bij de handelingen dienen de volgende persoonlijke beschermingsmiddelen (PBM) worden te gedragen: \* Handschoenen met PPE categorie III (Regulation (EU) 2016/425), met bescherming tegen chemische risico’s, micro-organismen en virussen (bv. SHIELDskin XTREMETM ORANGE NITRILETM 300 DI of gelijkwaardig).
+Wanneer een handschoen is beschadigd dient deze meteen in het desbetreffende afvalvat (zie verder) te worden gedeponeerd en vervangen door een nieuwe handschoen.
+\* Een labojas \* Gesloten schoenen \* Optioneel: een veiligheidsbril
+
+**Ongevallen**: De procedure omvat snijden met een scalpel.
+Dit houdt het risico in op snijwonden/steekwonden.
+Alvorens te starten met de procedure, controleert de uitvoerder de volgende kennis: \* Het is bekend wie de EHBO verantwoordelijke is (de EHBO lijst en waar deze te consulteren is).
+\* Het is bekend waar EHBO benodigdheden te vinden zijn.
+\* Het is bekend welke stappen te ondernemen bij een snijwond/steekwond.
+\* Het is bekend wat je rechten en plichten zijn inzake werkongevallen.
+\* De uitvoerder heeft het statuut om deze handeling uit te voeren; bijvoorbeeld de uitvoerder is verzekerd voor werkongevallen.
+Let op met studenten, stagiaires en vrijwilligers.
+
+**Hygiëne**: De procedure bevat dierlijke weefselstalen, ter algemene hygiëne en met de mogelijkheid van ziektes aanwezig in de weefselstalen.
+\* De handelingen gaan door in een ingericht snijlokaal.
+De ruimte is goed verlucht en heeft geen/weinig passage van andere werknemers.
+De ruimte is voorzien van een snijtafel en wasbak.
+\* Indien tijdens het uitvoeren van de procedure het nodig is om materiaal (gsm, lichtschakelaar, deurklinken, ..) te gebruiken, worden de handschoenen vervangen door schone handschoenen.
+\* Het is de uitvoerders bekend waar de vuile labojassen worden geplaatst op het einde van de werkdag zodat deze worden gewassen volgens de juiste procedure.
+\* Na het uitvoeren van de procedure worden de handen goed gewassen met zeep.
+Bij enig contact van dierlijk weefsel (bijvoorbeeld: bloed) met de huid, wordt de huid grondig gewassen met zeep.\
+**Afval**: \* Het is de uitvoerders bekend voor het starten van de procedure welke lekvrije, kleine afvalcontainer ze mogen gebruiken in de ruimte.
+Deze kleine afvalcontainer zal dienen voor tijdelijke opslag van het deel dierlijke weefsel dat wordt weggegooid na verkleinen van het opslagvolume.
+Deze kleine container is lekvrij.
+(Uiteindelijke afvalvat: Rendac container).
+\* Er is een tweede kleine afvalcontainer voor gecontamineerde handschoenen, zakjes, papieren doeken, … Deze kleine container is lekvrij.
+(Uiteindelijke afvalvat: restafval).
+\* Bij het uitvoeren van de handelingen met de dierlijke weefsels, worden zoveel mogelijk dierlijke resten in de kleine container gegooid en wordt bij het wassen van materiaal aan de kraan het aantal aanwezige dierlijke resten tot een absoluut minimum beperkt.
+\* Scalpelmesjes gaan in de daartoe bestemde “risicohoudend medisch afval (RMA)” container (bv. Sharpsafe® container).
+\* Het is de uitvoerders bekend voor het starten van de procedure waar de grote groene afvalcontainers staan (diepvrieskamer 3), die worden afgehaald door een gespecialiseerde afvalverwerkingsdienst (bijvoorbeeld: Rendac), om de kleine containers in te legen op het einde van de werksessie.
+
+**Ergonomie**: Het ingerichte snijlokaal is voorzien van een snijtafel op werkhoogte zodat de rug niet wordt belast.
+
+```{=html}
+<!--
+vaccinaties, beschermende kledij, waarschuwingen bij gebruikte chemicaliën, wat te doen in nood, ...
+-->
+```
+
+## Materiaal
+
+-   Papieren doeken
+-   Zwarte plastic bakjes
+-   Scalpelhouder nr 24
+-   Mesjes voor scalpel nr 24 (Norton)
+-   Pincet/forceps (dunne tips)
+-   Maatbeker voor absolute ethanol toe te voegen aan de cryovials (schoon)
+-   Maatbeker voor materiaal in te ontsmetten tussen twee specimens (vuil)
+-   Geprinte koude bestendige labels. 2 labels per doosje. 1 label per epje. (bijvoorbeeld: [Brady® Freezerbondz™ labels](https://shop.goossaert.be/freezerbondz-labels-voor-bbp33-i3300-printers-18.html))
+-   Stift
+-   2 mL koudebestendige cryovials met schoefdop (bijvoorbeeld: [cryobuisje 2ml met 1D barcode - externe schroefdraad, ronde bodem, steriel, gegradueerd met schrijfvlak, CLEARLINE](https://www.novolab.be/cryobuisje-met-1d-barcode-steriel-gegradueerd-met-schrijfvlak-clearline.html))
+-   Rekje voor cryovials (bv. [rack for Nalgene® cryogenic vials](https://www.sigmaaldrich.com/BE/en/product/sigma/r0638?utm_source=google%2Cgoogle&utm_medium=organicshopping%2Ccpc&utm_campaign=21791215847&utm_content=171640281794&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2qNPDxBpyfYi8jwBty10QYijqSWk5jU9gJWkaaRn8w9RK5r8MKGsbsaAi-aEALw_wcB))
+-   Pipet
+-   Bewaardozen (bijvoorbeeld: [Cryobox Alpha H50mm 136x136mm - wit - hydrofoob karton zonder raster](https://www.novolab.be/cryobox-alpha-h50mm-136x136mm-wit-hydrofoob-karton-zonder-raster.html)) + raster (bijvoorbeeld: [cryoboxraster Alpha voor 10x10 pl, H30mm, voor tubes tot ø12.5mm](https://www.novolab.be/cryoboxraster-alpha-voor-10x10-pl-h30mm-voor-tubes-tot-o125mm.html))
+
+```{=html}
+<!--
+(Materiaal, labels, data registratie (`GPS`, tablet, smartphone, ...))
+-->
+```
+
+## Reagentia
+
+-   [Pursept® AF (Schülke & Mayr GmbH)](https://www.hygi.de/schuelke-puresept-desinfektionskonzentrat-2-liter-flasche-pd-144245?utctx=92b47f55-9304-461a-ad44-b30f1dd2b0c3) ter eerste reiniging van de oppervlaktes
+-   [Norvanol](https://www.carlroth.com/be/en/a-to-z/ethanol/p/0911.4) ter tweede reiniging van de oppervlaktes
+-   Absolute ethanol (bijvoorbeeld: [Ethanol absolute AnalaR NORMAPUR® Reag. Ph. Eur., Reag. USP, ACS; VWR](https://www.avantorsciences.com/uk/en/product/733157/ethanol-absolute-99-8-analar-normapur-acs-reag-ph-eur-analytical-reagent))
+
+## Personeel
+
+Geen specifieke vereisten.
+
+```{=html}
+<!--
+Welke rollen en waarom? Minimaal aantal personen nodig? Welke kennis en vaardigheden zijn nodig?
+-->
+```
+
+## Afhankelijkheden van andere protocollen
+
+SIP203-B1: printen labels, labelmachine.
+
+```{=html}
+<!--
+Moet een ander protocol gekend zijn voor dit protocol kan uitgevoerd worden?
+The tabel hieronder zal automatisch ingevuld worden op basis van informatie
+in de yaml sectie van het `index.Rmd` bestand
+-->
+```
+
+```{r dependencies}
+empty_table <- tibble(
+  protocol_code = character(),
+  version_number = character(),
+  params = character(),
+  appendix = logical()
+) %>%
+  add_row() %>%
+  rename(
+    `Protocol code` = protocol_code,
+    `Version number` = version_number,
+    `Included as subprotocol` = appendix
+  ) %>%
+  pander(split.tables = Inf)
+
+if (exists("params")) {
+  if (!is.null(params$dependencies)) {
+    transpose(params$dependencies) %>%
+      as_tibble() %>%
+      mutate(protocol_code = as.character(protocol_code),
+             version_number = as.character(version_number),
+             params = as.character(params),
+             version_number = ifelse(params == "NA",
+                                     paste0("[", version_number, "](../",
+                                            version_number, "/", "index.html)"),
+                                     version_number),
+             appendix = as.logical(appendix)) %>%
+      rename(
+        `Protocol code` = protocol_code,
+        `Version number` = version_number,
+        `Included as subprotocol` = appendix
+      ) %>%
+      pander(split.tables = Inf)
+  } else {
+    empty_table
+  }
+} else {
+  empty_table
+}
+rm(empty_table)
+```
+

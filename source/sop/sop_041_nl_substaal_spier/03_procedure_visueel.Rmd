@@ -1,0 +1,9 @@
+# Visualisatie van de procedure
+
+Stappenplan is voldoende om de procedure uit te voeren.
+
+```{=html}
+<!--
+Stroomschema (kan optioneel zijn, maar aangeraden wanneer het kan helpen)
+-->
+```
