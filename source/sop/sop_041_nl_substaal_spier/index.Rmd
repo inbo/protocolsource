@@ -61,7 +61,7 @@ keywords: "collectiebeheer; INBO-collectie; INBO-zoogdierweefselcollectie; autop
 language: nl
 date: "`r Sys.Date()`"
 protocol_code: sop-041-nl
-version_number: "2025.03"
+version_number: '2025.02'
 template_name: generic
 community: "inbo"
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
