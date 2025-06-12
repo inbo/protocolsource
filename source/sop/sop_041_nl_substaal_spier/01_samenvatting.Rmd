@@ -33,3 +33,4 @@ De handelingen zijn niet (met zekerheid) overdraagbaar op: \* Andere types ingez
 En waar vinden we deze informatie dan, indien ze beschikbaar is?
 -->
 ```
+
