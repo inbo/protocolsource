@@ -2,7 +2,7 @@
 
 ## [2025.02](../2025.02/index.html)
 
--   ...
+-   Dit is de eerste versie. Geen wijzigingen.
 
 ```{=html}
 <!--
