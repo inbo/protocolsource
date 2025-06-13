@@ -1,16 +1,14 @@
 # Definities
 
-**INBO-Weefselcollectie-archivaris**: Deze persoon is verantwoordelijk voor het fysieke beheer van deze INBO-deelcollectie.
+**Collectie-archivaris**: Deze persoon is verantwoordelijk voor het fysieke beheer van deze collectie.
 Hij/zij heeft de taak dat de opslaglocatie van elk staal wordt bijgehouden in de inventarissen.
 
 **SOP**: Standard Operating Procedure: established or prescribed methods to be followed routinely for the performance of designated operations or in designated situations (bron: Merriam webster).
 Vrije Nederlands vertaling: vastgestelde of voorgeschreven methoden die routinematig moeten worden gevolgd voor de uitvoering van aangewezen activiteiten of in aangewezen situaties.
 
 **Marternetwerk**: Het Marternetwerk is een netwerk van ca.
-130 vrijwillige medewerkers, die daartoe over de nodige individuele vergunningen beschikken, en bereid zijn in Vlaanderen dood gevonden dieren op te halen.
+130 vrijwillige medewerkers, die daartoe over de nodige individuele vergunningen beschikken, en bereid zijn in Vlaanderen dood gevonden dieren op te halen, ter ecologische autopsie bij INBO.
 Zij hebben, verspreid over heel Vlaanderen, ca.
 40 diepvriezers ter beschikking om dode dieren in te bewaren.
-Qua onderhoud voor de INBO-medewerkers vergt dit jaarlijks een inspanning: communicatie via e-mail zoals instructies geven en vragen beantwoorden, vrijwilligersvergoedingen in orde brengen, inleiden nieuwe vrijwilligers, regelen van de inzamelvergunningen, rapportage aan de vrijwilligers via het Roofdiernieuws (voorheen ‘Marternieuws’), … Al deze activiteiten zijn reeds geoptimaliseerd overheen de jaren en dus nu minimaal qua tijdsinvenstering.
-We schatten dat dit in totaal niet meer dan 10 werkdagen per jaar in beslag neemt.
+Deze vrijwilligers worden aangestuurd en beheerd door INBO-medewerkers.
 Voor meer informatie, zie: <https://www.vlaanderen.be/inbo/marternetwerk/>
-

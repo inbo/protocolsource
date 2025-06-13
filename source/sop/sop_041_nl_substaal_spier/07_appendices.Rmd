@@ -1,1 +1,9 @@
-# (APPENDIX) Bijlagen {.unnumbered}
+# Bijlagen {.unnumbered}
+
+Bijlage 1: [Safety Data Sheet Pursept® AF (Schülke & Mayr GmbH)](https://drive.google.com/file/d/13sELxcFpMHyMNw9Xvb6P-vtBfYkU5POP/view?usp=drive_link)
+
+Bijlage 2: [Safety Data Sheet Norvanol](https://drive.google.com/file/d/1ENgGcTmCmpZZ2D-EzRkP5GJ-CzwMbWYJ/view?usp=drive_link)
+
+Bijlage 3: [Safety Data Sheet Ethanol absolute AnalaR NORMAPUR® Reag. Ph. Eur., Reag. USP, ACS; VWR)](https://drive.google.com/file/d/143AUkaCX-O8bn2v0QItTgiz3ak3IExKf/view?usp=drive_link)
+
+Bijlage 4: [Sjabloon bewaardoos (INBO)](https://docs.google.com/spreadsheets/d/1Q7MfsLxfjCPTudQKcP5ExBPz5_Oq4HXhG6J7DFoPHt4/edit?gid=0#gid=0)
