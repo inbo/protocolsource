@@ -1,6 +1,6 @@
 # (APPENDIX) Bijlagen {.unnumbered}
 
-# Bijlage A: Safety Data Sheet Pursept® AF (Schülke & Mayr GmbH {#bijlage-a}
+# Bijlage A: Safety Data Sheet Pursept® AF (Schülke & Mayr GmbH) {#bijlage-a}
 
 Zie [Safety Data Sheet Pursept® AF (Schülke & Mayr GmbH)](https://drive.google.com/file/d/13sELxcFpMHyMNw9Xvb6P-vtBfYkU5POP/view?usp=drive_link)
 

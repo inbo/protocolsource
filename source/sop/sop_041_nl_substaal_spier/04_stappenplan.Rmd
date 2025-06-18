@@ -73,7 +73,7 @@ Ter info: [Voorbereiden van de snijhandelingen](#snijhandelingen), [Monstervoorb
 16. Plaats de 10 gevulde cryovials terug in de bewaardoos in de collectiediepvries. Spoel de vijf zwarte bakken met water. Reinig de bakjes met Pursept® AF, gevolgd door Norvanol. Hiervoor wordt een papieren doek gebruikt. Na reinigen wordt de papieren doek in het kleine afvalvat gegooid.
 17. Herhaal de handeling “Monstervoorbehandeling” en “Nemen van de substaal” naargelang wens. Reinig telkens de werktafel grondig met Pursept® AF, gevolgd door Norvanol. Ten alle tijde wil je contaminatie van de stalen voorkomen. Ga naar “Concluderen van de werksessie” bij einde.
 
-## Concluderen van de werksessie {werksessie}
+## Concluderen van de werksessie {#werksessie}
 
 Ter info: [Voorbereiden van de snijhandelingen](#snijhandelingen), [Monstervoorbehandeling](#monstervoorbehandeling), [Nemen van de substaal](#substaal) en [Concluderen van de werksessie](#werksessie), dienen opeenvolgend (dezelfde werkdag) te worden uitgevoerd.
 
