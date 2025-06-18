@@ -66,9 +66,9 @@ vaccinaties, beschermende kledij, waarschuwingen bij gebruikte chemicaliën, wat
 
 ## Reagentia
 
--   [Pursept® AF (Schülke & Mayr GmbH)](https://www.hygi.de/schuelke-puresept-desinfektionskonzentrat-2-liter-flasche-pd-144245?utctx=92b47f55-9304-461a-ad44-b30f1dd2b0c3) ter eerste reiniging van de oppervlaktes (zie Bijlage 1 voor de Safety Data Sheet).
--   [Norvanol](https://www.carlroth.com/be/en/a-to-z/ethanol/p/0911.4) ter tweede reiniging van de oppervlaktes (zie Bijlage 2 voor de Safety Data Sheet).
--   Absolute ethanol (bv.: [Ethanol absolute AnalaR NORMAPUR® Reag. Ph. Eur., Reag. USP, ACS; VWR](https://www.avantorsciences.com/uk/en/product/733157/ethanol-absolute-99-8-analar-normapur-acs-reag-ph-eur-analytical-reagent)) (zie Bijlage 3 voor de Safety Data Sheet).
+-   [Pursept® AF (Schülke & Mayr GmbH)](https://www.hygi.de/schuelke-puresept-desinfektionskonzentrat-2-liter-flasche-pd-144245?utctx=92b47f55-9304-461a-ad44-b30f1dd2b0c3) ter eerste reiniging van de oppervlaktes (zie [Bijlage A](#bijlage-a) voor de Safety Data Sheet).
+-   [Norvanol](https://www.carlroth.com/be/en/a-to-z/ethanol/p/0911.4) ter tweede reiniging van de oppervlaktes (zie [Bijlage B](#bijlage-b) voor de Safety Data Sheet).
+-   Absolute ethanol (bv.: [Ethanol absolute AnalaR NORMAPUR® Reag. Ph. Eur., Reag. USP, ACS; VWR](https://www.avantorsciences.com/uk/en/product/733157/ethanol-absolute-99-8-analar-normapur-acs-reag-ph-eur-analytical-reagent)) (zie [Bijlage C](#bijlage-c) voor de Safety Data Sheet).
 
 ## Bestanden / Informatie
 
