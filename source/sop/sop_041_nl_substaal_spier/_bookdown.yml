@@ -1,4 +1,4 @@
-book_filename: sop_041_nl_substaal-spier.Rmd
+book_filename: sop_041_nl_substaal_spier.Rmd
 delete_merged_file: true
 rmd_files:
 - index.Rmd
@@ -11,7 +11,7 @@ rmd_files:
 - 06_referenties.Rmd
 - 07_appendices.Rmd
 - 08_subprotocols.Rmd
-output_dir: ../../../../protocoldocs/docs/sop/sop_041_nl_substaal-spier
+output_dir: ../../../../protocoldocs/docs/sop/sop_041_nl_substaal_spier
 language:
   label:
     fig: 'Figuur '
