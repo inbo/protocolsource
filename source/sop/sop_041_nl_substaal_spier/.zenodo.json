@@ -1,0 +1,60 @@
+{
+  "description": "<p>De <strong>INBO-zoogdierweefselcollectie<\/strong> bevat diverse type specimens afkomstig van zoogdieren: spierweefsel, vetweefsel, stalen van organen en tanden. Deze specimens zijn waardevol doordat ze zijn gelinkt aan ecologische autopsie- en/of projectdata. De specimens worden in collectie gebracht ter (her)gebruik voor verschillende doeleinden waaronder genetisch onderzoek, toxicologische analyses, analyses van ziekten en exacte leeftijdsbepalingen. Het betreft specimens van zoogdieren zoals carnivoren (oa. das, wolf, wasbeer), knaagdieren (oa. rat, bever) en hoefdieren (oa. ree, damhert, sikahert).<\/p> <p>Sommige van de weefsels werden tot op heden in hun geheel ingezameld (bv. complete tong), daar dit tijd uitspaart tijdens het uitvoeren van de autopsies, alsook verzekert dat er voldoende weefsel beschikbaar is voor toekomstige analyses. De beschikbare opslagcapaciteit zit echter aan zijn limiet. De algemene doelstelling is om het volume weefsel in langetermijnopslag te verkleinen.<\/p>",
+  "title": "Substaal spierweefsel zoogdieren.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "collectiebeheer; INBO-collectie; INBO-zoogdierweefselcollectie; autopsie; zoogdier"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Veltjen, Emily",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-3170-3345",
+      "type": "contactperson"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Veltjen, Emily",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-3170-3345"
+    },
+    {
+      "name": "Bovijn, Robin",
+      "orcid": "0009-0007-8190-7470"
+    },
+    {
+      "name": "Berlengee, Filip",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0009-0008-7215-4494"
+    },
+    {
+      "name": "Schamp, Kurt",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0009-0001-4169-7057"
+    },
+    {
+      "name": "Neyrinck, Sabrina",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-7379-9269"
+    },
+    {
+      "name": "Cox, Karen",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-8621-3773"
+    },
+    {
+      "name": "Baert, Kristof",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-1910-1114"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}

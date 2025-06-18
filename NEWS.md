@@ -1,3 +1,10 @@
+### First version of protocol: sop-041-nl
+
+- Title: Substaal spierweefsel zoogdieren
+- Published on: 2025-06-18
+- Version number: 2025.02
+- Link to this version: [sop-041-nl version 2025.02](2025.02/index.html)
+
 ### Update of protocol: sfp-104-nl
 
 - Title: Richtlijnen voor het plaatsen van peilbuizen

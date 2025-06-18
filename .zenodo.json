@@ -120,6 +120,76 @@
       "affiliation": "Research Institute for Nature and Forest",
       "type": "Researcher",
       "orcid": "0000-0002-5900-8109"
+    },
+    {
+      "name": {
+        "given": "Emily",
+        "family": "Veltjen"
+      },
+      "type": "Researcher",
+      "email": "emily.veltjen@inbo.be",
+      "orcid": "0000-0002-3170-3345",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "corresponding": true
+    },
+    {
+      "name": {
+        "given": "Robin",
+        "family": "Bovijn"
+      },
+      "type": "Researcher",
+      "email": "robin.bovijn@gmail.com",
+      "orcid": "0009-0007-8190-7470"
+    },
+    {
+      "name": {
+        "given": "Filip",
+        "family": "Berlengee"
+      },
+      "type": "Researcher",
+      "email": "filip.berlengee@inbo.be",
+      "orcid": "0009-0008-7215-4494",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Kurt",
+        "family": "Schamp"
+      },
+      "type": "Researcher",
+      "email": "kurt.schamp@inbo.be",
+      "orcid": "0009-0001-4169-7057",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Sabrina",
+        "family": "Neyrinck"
+      },
+      "type": "Researcher",
+      "email": "sabrina.neyrinck@inbo.be",
+      "orcid": "0000-0002-7379-9269",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Karen",
+        "family": "Cox"
+      },
+      "type": "Researcher",
+      "email": "karen.cox@inbo.be",
+      "orcid": "0000-0002-8621-3773",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Kristof",
+        "family": "Baert"
+      },
+      "type": "Researcher",
+      "email": "kristof.baert@inbo.be",
+      "orcid": "0000-0002-1910-1114",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
     }
   ]
 }

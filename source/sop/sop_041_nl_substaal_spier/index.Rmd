@@ -1,0 +1,133 @@
+---
+title: "Substaal spierweefsel zoogdieren"
+author:
+  - name:
+      given: "Emily"
+      family: "Veltjen"
+    email: "emily.veltjen@inbo.be"
+    orcid: "0000-0002-3170-3345"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    corresponding: true
+  - name:
+      given: "Robin"
+      family: "Bovijn"
+    email: "robin.bovijn@gmail.com"
+    orcid: "0009-0007-8190-7470"
+  - name:
+      given: "Filip"
+      family: "Berlengee"
+    email: "filip.berlengee@inbo.be"
+    orcid: "0009-0008-7215-4494"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+  - name:
+      given: "Kurt"
+      family: "Schamp"
+    email: "kurt.schamp@inbo.be"
+    orcid: "0009-0001-4169-7057"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+  - name:
+      given: "Sabrina"
+      family: "Neyrinck"
+    email: "sabrina.neyrinck@inbo.be"
+    orcid: "0000-0002-7379-9269"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+  - name:
+      given: "Karen"
+      family: "Cox"
+    email: "karen.cox@inbo.be"
+    orcid: "0000-0002-8621-3773"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+  - name:
+      given: "Kristof"
+      family: "Baert"
+    email: "kristof.baert@inbo.be"
+    orcid: "0000-0002-1910-1114"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+reviewer:
+  - name:
+      given: "Anneleen"
+      family: "Rutten"
+    email: "anneleen.rutten@inbo.be"
+    orcid: "0000-0002-4025-5265"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+file_manager:
+  - name:
+      given: "Hans"
+      family: "Van Calster"
+    email: "hans.vancalster@inbo.be"
+    orcid: "0000-0001-8595-8426"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+keywords: "collectiebeheer; INBO-collectie; INBO-zoogdierweefselcollectie; autopsie; zoogdier"
+language: nl
+date: "`r Sys.Date()`"
+protocol_code: sop-041-nl
+version_number: '2025.02'
+template_name: generic
+community: "inbo"
+publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
+site: bookdown::bookdown_site
+bibliography: referenties.yaml
+link-citations: TRUE
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+doi: 10.5281/zenodo.15688222
+---
+
+```{=html}
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse `Rmd` bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
+-->
+```
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = "100%",
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(dplyr)
+library(purrr)
+library(protocolhelper)
+library(pander)
+panderOptions("table.alignment.default", "left")
+metadata <- rmarkdown::metadata
+path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
+type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
+```
+
+# Metadata {.unnumbered}
+
+```{r metadata-table}
+revs <- map_chr(
+  metadata[["reviewer"]],
+  \(x) x$name |> paste(collapse = " ")
+)
+fms <-  map_chr(
+  metadata[["file_manager"]],
+  \(x) x$name |> paste(collapse = " ")
+)
+tibble(
+  reviewers = revs,
+  documentbeheerder = fms,
+  protocolcode = metadata[["protocol_code"]],
+  versienummer = metadata[["version_number"]],
+  taal = metadata[["language"]]
+) %>%
+  pander::pander(split.tables = Inf)
+rm(revs, fms)
+```
+
+```{r results="asis"}
+sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint  
+```
