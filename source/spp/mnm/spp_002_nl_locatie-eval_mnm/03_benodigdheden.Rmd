@@ -1,6 +1,6 @@
 # Extra benodigdheden t.o.v. de subprotocols
 
-Naast de benodigdheden vermeld in sfp-001-nl, namelijk:
+Naast de benodigdheden vermeld in [sfp-001-nl 2023.01](https://inbo.github.io/protocols/2023.01/index.html), namelijk:
 
 -   een RTK-GPS-ontvanger
 -   een laptop of veldtablet met de te evalueren steekproefeenheden, de vervangcellen en ondersteunende kaartlagen in een GIS-omgeving,
@@ -8,6 +8,8 @@ Naast de benodigdheden vermeld in sfp-001-nl, namelijk:
 dien je op terrein te beschikken over:
 
 -   de veldsleutels, [online](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/) beschikbaar
+-   veldgids planten
+-   loepe
 -   voor elke steekproefeenheid een metalen buisanker met hardstalen spits (30 of 50 cm)
 -   voor elk steekproefeenheid een plastic meetmerk met plug
 -   hamer om metalen buisanker in de grond te slaan en meetmerk erop te bevestigen

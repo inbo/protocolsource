@@ -53,6 +53,13 @@ site: bookdown::bookdown_site
 bibliography: referenties.yaml
 link-citations: TRUE
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+params:
+  dependencies:
+    value:
+    - protocol_code: sfp-001-nl
+      version_number: '2023.01'
+      params: .na
+      appendix: false
 ---
 
 ```{=html}
@@ -66,6 +73,7 @@ Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titel hoofdingen staan en vermeld expliciet "niet van toepassing".
 -->
 ```
+
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
