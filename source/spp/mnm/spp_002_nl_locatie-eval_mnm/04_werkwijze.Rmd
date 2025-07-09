@@ -13,3 +13,55 @@ Volg subprotocol C `<protocol-code>_YYYY.NN` waarin labo-analyse wordt uitgelegd
 De doelstelling is om de subprotocols te organiseren in een coherent hoofd protocol waarin ontbrekende elementen aangevuld worden die niet in de subprotocols staan, zoals wanneer een bepaald subprotocol wel of niet wordt uitgevoerd, of kleine extra stappen die geen eigen subprotocol vereisen.
 -->
 ```
+
+## Overzicht van de stappen
+
+De steekproef van terrestrische steekproefeenheden, aangeleverd door de meetnetontwerpketen, wordt beschikbaar gesteld via een beveiligde server of andere route.
+Via GIS-applicaties (vb. QGIS en QField) worden ze gevisualiseerd aangeboden voor desktopscreening en voor de communicatie van gegevens voor de organisatie op terrein (*outbound*) en de op terrein verzamelde gegegevens (*inbound*).
+
+De evaluatie van een terrestrische steekproefeenheden gebeurt eerst door een desktopscreening (zie \@ref(desktop)):
+
+-   Indien uit de desktopscreening blijkt dat het doelhabitat van een steekproefeenheid er niet aanwezig kan zijn, dient de steekproefeenheid te worden verwijderd van de steekproef.
+
+-   Indien een steekproefeenheid wordt behouden tijdens de desktopscreening, wordt het bezocht om ter plekke de beoordelen of het aanwezige type (habitat(sub)type of rbb) overeenkomt met het doeltype waarvoor de steekproefeenheid werd getrokken (zie \@ref(terplekke)).
+
+    -   Als het actuele habitat(sub)type of rbb ter plekke overeenkomt met het beoogde doeltype waarvoor de steekproefeenheid werd getrokken, wordt aansluitend een celkartering uitgevoerd (zie \@ref(celkartering)).
+
+    -   Als het niet overeenkomt met het doeltype, wordt aansluitend gezocht naar een vervanging door een geschikte rastercel in dezelfde polygoon (zie \@ref(lokalevervanging)).
+
+        -   Indien een geschikte rastercel gevonden wordt, zal deze de originele steekproefeenheid vervangen (maar beide grts-adressen worden behouden in de databank). Aansluitend wordt een celkartering uitgevoerd.
+        -   Indien geen geschikte rastercel gevonden wordt, is geen lokale vervanging mogelijk en wordt de steekproefeenheid verwijderd van de steekproef.
+
+## Desktop screening van steekproefeenheden {#desktop}
+
+Om grote, duidelijke fouten in de steekproef op te sporen, dient een steekproefeenheid onderworpen te worden aan een eerste visuele screening.
+Hiervoor dient de rastercel van de steekproefeenheid ruimtelijk gevisualiseerd te worden (vb. met QGIS) in combinatie met een aantal GIS-lagen in de meest recente versie, zoals orthofoto's (zomer- en winteropnames), de Habitatkaart, de Watervlakkenlaag en het Digitaal Hoogtemodel Vlaanderen.
+Toets visueel af of de rastercel van de steekproefeenheid het doeltype kan bevatten zoals vermeld in databank.
+Voorbeelden van fouten die hiermee kunnen worden opgespoord zijn: recent verdwenen habitat door ruimtebeslag, recent gewijzigd habitat door beheer, open doelhabitat gelegen in boshabitat of omgekeerd en rastercellen van celmiddengebaseerde types die slechts in een klein hoekpunt overlappen met een polygoon van het doelhabitat.
+Duid aan in de databank met steekproefeenheden of de steekproefeenheid volgens deze screening wel of niet tot het doeltype kan behoren.
+Het resultaat van de screening wordt gebruikt om de steekproef bij te werken: indien de steekproefeenheid niet tot het doeltype kan behoren, wordt het verwijderd uit de steekproef.
+Indien er geen duidelijke visuele aanwijzingen zijn dat het doeltype er niet kan aanwezig zijn, wordt de steekproefeenheid beoordeeld op de aanwezigheid van het doeltype ter plekke.
+
+## Beoordeling op aanwezigheid van het type ter plekke {#terplekke}
+
+Met de hulp van de GPS-ontvanger op je tablet of smartphone navigeer je naar de locatie van de te beoordelen steekproefeenheid.
+Eens je je in de nabijheid van de meetlocatie bevindt (vb. op 10 m), navigeer je met behulp van de RTK-GPS-ontvanger naar de exacte locatie van het centrum van de steekproefeenheid.
+Is het terrein waar de steekproefeenheid gelegen is ontoegankelijk, duidt dit aan in de GIS-applicatie en vermeld de reden en de vermoedelijke duur van ontoegankelijkheid.
+Mogelijke redenen zijn: overstroming, afsluiting, broedseizoen, beheerwerken, enz.
+
+Is het terrein wel toegankelijk, dan evalueer je de aanwezigheid van het doeltype in de rastercel.
+De GIS-applicatie geeft aan welk doeltype op een steekproefeenheid aanwezig zou moeten zijn en indien van toepassing de laatste keer dat het type werd bepaald in het veld.
+De wijze waarop het wordt geëvalueerd is afhankelijk van het doeltype:
+
+-   voor de evaluatie van de aanwezigheid van habitat(sub)types 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp) is het voldoende dat het doeltype ergens in de 32 m x 32 m rastercel aanwezig is.
+-   voor alle andere terrestrische types (behalve 7220) dient het doeltype aanwezig te zijn in het midden van de rastercel.
+
+De bepaling van het aanwezige habitat(sub)type of rbb gebeurt met behulp van de [veldsleutels](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/).
+
+Duid aan in de GIS-applicatie of het aanwezige habitat(sub)type of rbb overeen komt met het doeltype, in de cel of in het celcentrum.
+Komt het overeen, dan is de steekproeflocatie geschikt; start aansluitend met de celkartering (zie \@ref(celkartering)).
+Komt het niet overeen, dan is de steekproeflocatie niet geschikt; start aansluitend met de lokale vervangprocedure.
+
+## Celkartering van geschikte steekproefeenheden {#celkartering}
+
+## Lokale vervanging van niet-geschikte steekproefeenheden {#lokalevervanging}
