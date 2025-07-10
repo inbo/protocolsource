@@ -56,24 +56,33 @@ De koppeling van GRTS‐rastercellen aan habitatpolygonen gebeurt evenwel celgeb
 Hierbij krijgt de GRTS‐rastercel een habitattype toegekend van een polygoon als het ermee overlapt.
 De celgebaseerde koppeling gebeurt voor habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp).
 
-De getrokken steekproefeenheden dienen het doeltype te bevatten waarvoor de eenheid is getrokken, voortgaand op de meest recente Habitatkaart, ofwel in het celmidden bij celmiddengebaseerde types of ergens in de cel bij celgebaseerde types.
-De aanwezigheid van het doeltype in de rastercel wordt geëvalueerd tijdens het terreinbezoek.
-Toch kan het zijn dat in de praktijk de aanwezige vegetatie in de rastercel ter plaatse afwijkt en niet behoort tot het doeltype waarvoor de meetlocatie is getrokken.
-Strikt gezien vervalt deze steekproefeenheid en dient de volgende steekproefeenheid te worden bezocht.
+De getrokken steekproefeenheden dienen het doeltype te bevatten waarvoor de eenheid is getrokken, welke is afgeleid van de meest recente Habitatkaart.
+Het doeltype dient voor te komen ofwel in het celmidden bij celmiddengebaseerde types of ergens in de cel bij celgebaseerde types.
+Toch kan het zijn dat in de praktijk de actueel aanwezige vegetatie in (het celmidden van) de rastercel ter plaatse afwijkt en niet behoort tot het doeltype waarvoor de meetlocatie is getrokken.
+De aanwezigheid van het doeltype in de rastercel dient dus ter plaatse te worden gecontroleerd.
+
+Indien het doeltype er niet voorkomt, vervalt deze steekproefeenheid strikt gezien en dient de volgende steekproefeenheid te worden bezocht.
 Om de kans te vergroten dat de terreinmedewerker een bemonstering kan uitvoeren tijdens het bezoek aan een gebied en de efficiëntie van het terreinwerk niet in het gedrang te brengen:
 
--   wordt de locatie van de steekproefeenheid voor het terreinbezoek geëvalueerd op basis van een desktop-screening en
+-   wordt de locatie van de steekproefeenheid voor het terreinbezoek geëvalueerd op basis van een desktopscreening en
 -   kan de terreinmedewerker via de procedure in het vervangprotocol binnen een vooraf bepaald gebied een andere steekproefeenheid selecteren die wel geschikt is.
 
 Ten slotte dient in de rastercel van elk geschikte steekproefeenheid een kartering te worden uitgevoerd van het doeltype, verderop de celkartering genoemd.
 Met deze informatie zijn veldmedewerkers zonder of met minder vegegtatiekundige expertise in staat de bemonstering of installatie van meettoestellen op een vegetatiekundig geschikte locatie uit te voeren.
 Dit kan met tussenkomst zijn van een extra randomisatie in de geschikte zone.
 
-Dit protocol omschrijft de werkwijze van de desktopscreening, de evaluatie van de aanwezigheid van het doeltype, het lokaal vervangen en de celkartering voor terrestrische steekproefeenheden van de MNM.
+Dit protocol omschrijft de werkwijze van de desktopscreening en de evaluatie van de aanwezigheid van het doeltype in terrestrische steekproefeenheden van de MNM, en daarmee verbonden het lokaal vervangen van niet-geschikte steekproefeenheden en de celkartering van geschikte terrestrische steekproefeenheden.
 
 ### Toepassingsgebied
 
 Dit protocol is van toepassing voor de evaluatie, vervanging en celkartering van terrestrische eenheden van GRTS-steekproeven getrokken voor abiotische monitoring in een meetnet van de MNM, met uitzondering van het habitattype 7220.
+
+### Beperkingen van de procedure
+
+Het veldwerk in dit protocol kan enkel uitgevoerd worden:
+
+-   binnen de (sub)optimale periode voor kartering en is afhankelijk van het doeltype (zie)
+-   in de gebieden met gelimiteerde toegang: na toelating.
 
 <!-- description: start -->
 
