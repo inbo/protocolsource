@@ -100,14 +100,22 @@ De wijze waarop het wordt geëvalueerd is afhankelijk van het doeltype:
 
 De bepaling van het aanwezige habitat(sub)type of rbb gebeurt met behulp van de [veldsleutels](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/).
 
-Duid aan in de GIS-applicatie of het aanwezige habitat(sub)type of rbb overeen komt met het doeltype, in de cel of in het celcentrum.
-Komt het overeen, dan is de steekproeflocatie geschikt; bevestig het doeltype in de GIS-applicatie en voer aansluitend een celkartering en markering uit (zie \@ref(celkartering)).
-Komt het niet overeen, dan is de steekproeflocatie niet geschikt: geef in de GIS-applicatie aan dat de steekproefeenheid het doeltype niet bevat en
+Geef in de GIS-applicatie de volgende gegevens in:
 
--   bevat het een ander type: geef aan welk type het bevat
--   is het geen habitat of rbb meer: geef de reden op, indien je dit kan inschatten.
+-   je naam,
+-   de datum waarop je deze evaluatie uitvoert,
+-   het actueel aanwezige habitat(sub)type of rbb in de cel of in het celcentrum, en
+-   eventuele opmerkingen
+-   eventueel een foto.
 
-Start aansluitend met de lokale vervangprocedure (zie \@ref(lokalevervanging).
+Komt het doeltype overeen, dan is de steekproeflocatie geschikt; voer aansluitend een celkartering en markering uit (zie \@ref(celkartering)).
+Komt het niet overeen, dan is de steekproeflocatie niet geschikt.
+Geef in dat geval in de GIS-applicatie aan dat een lokale vervanging nodig is en geef de volgende gegevens in:
+
+-   de reden van de nodige vervanging, indien je dit kan inschatten: is het een ander habitattype of rbb (habitatwijziging) of is het geen habitat of rbb meer (habitatverlies)
+-   een inschatting of het permanent is of niet.
+
+Sla de gegevens op en start aansluitend met de vervangprocedure (zie \@ref(lokalevervanging).
 
 ## Celkartering en markering van geschikte steekproefeenheden {#celkartering}
 
@@ -142,9 +150,13 @@ Blijkt, na het doorlopen van bovenstaande stappen, dat de steekproefeenheid **he
 Je gaat hierbij in (een deel van) de polygoon waarin de niet-geschikte rastercel gelegen is, op zoek naar een rastercel dat wel het doeltype bevat.
 Volg hiervoor het protocol [sfp-001-nl 2023.01](https://inbo.github.io/protocols/2023.01/index.html).
 In de GIS-applicatie vind je voor elke te evalueren steekproefeenheid een lijst van mogelijke vervangrastercellen die je volgens een vooraf vastgelegde volgorde evalueert zoals beschreven in protocol [sfp-001-nl 2023.01](https://inbo.github.io/protocols/2023.01/index.html).
-De mogelijke vervangrastercellen worden gevisualiseerd in de GIS-applicatie wanneer je hebt aangeduid dat de oorspronkelijke rastercel het doeltype niet bevat.
 
-<!-- Nog te specifiëren: In het geval van grote polygonen kan het aflopen en evalueren van de mogelijke vervangrastercellen zeer veel moeite en tijd in beslag nemen. Om dit te beperken, worden grote polygonen (gelijk aan of meer dan...?) opgedeeld volgens de met de polygoon overlappende GRTS-level03-cellen van 128 m op 128 m. Enkel die GRTS-level03-cel waarin de originele steekproefeenheid gelegen is, wordt verder beschouwd. Dit ruimtelijke beperking van mogelijke vervangcellen bij grote polygonen is reeds doorgevoerd in de lijst van mogelijke vervangcellen in de GIS-applicatie. -->
+<!-- Nog te specifiëren: In het geval van grote polygonen kan het aflopen en evalueren van de mogelijke vervangrastercellen zeer veel moeite en tijd in beslag nemen. Om dit te beperken, worden grote polygonen (gelijk aan of meer dan...?) opgedeeld volgens de met de polygoon overlappende GRTS-level03-cellen van 128 m op 128 m. Enkel die GRTS-level03-cel waarin de originele steekproefeenheid gelegen is én meer dan ... rastercellen bevat, wordt verder beschouwd. Deze ruimtelijke beperking van mogelijke vervangcellen bij grote polygonen is reeds doorgevoerd in de lijst van mogelijke vervangcellen in de GIS-applicatie. -->
 
-Noteer na het doorlopen van het vervangprotocol of een lokale vervanging mogelijk is, en indien dit zo is, welke rastercel uiteindelijk deze vervanging doet.
+De mogelijke vervangrastercellen worden pas gevisualiseerd in de GIS-applicatie wanneer je hebt aangeduid dat een lokale vervanging nodig is en die gegevens hebt opgeslagen (zoals vermeld in \@ref(terplekke)).
+De mogelijke vervanglocaties zijn genummerd en dienen in die volgorde zoals beschreven in het protocol geëvalueerd te worden tot er een vervanging mogelijk is.
+In de GIS-applicatie duid je bij het in volgorde evalueren van de vervanglocaties telkens aan of een vervanglocatie bruikbaar is.
+Voldoet een eerstvolgende vervanglocatie, vink dit aan in de GIS-applicatie.
+Op dat moment stopt de vervangprocedure; sla de gegevens op in de GIS-applicatie.
+
 Werd een lokale vervanging gevonden, voer dan de celkartering en markering uit zoals hiervoor beschreven in \@ref(celkartering).
