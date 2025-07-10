@@ -51,7 +51,7 @@ Het basissteekproefkader is aangemaakt op basis van originele datalagen en datal
 De steekproefeenheid van terrestrische habitats is een GRTS-rastercel van 32 m op 32 m waar het doeltype volgens de Habitatkaart voortkomt.
 Een polygoon behorend tot een habitat of rbb kan dus meerdere GRTS-rastercellen omvatten.
 Een onderscheid wordt gemaakt tussen celmidden- en celgebaseerde types.
-Voor de meeste terrestrische types gebeurt de koppeling van GRTS‐rastercellen aan polygonen celcentrumgebaseerd: de GRTS‐rastercel krijgt een habitat- of rbb-type toegekend van een polygoon als het centrum van de rastercel ermee overlapt.
+Voor de meeste terrestrische types gebeurt de koppeling van GRTS‐rastercellen aan polygonen celmiddengebaseerd: de GRTS‐rastercel krijgt een habitat- of rbb-type toegekend van een polygoon als het centrum van de rastercel ermee overlapt.
 De koppeling van GRTS‐rastercellen aan habitatpolygonen gebeurt evenwel celgebaseerd voor types die vooral voorkomen als kleine of smalle patches of in consequent lage aandelen in het polygoon (nl. de zogenaamde phab‐waarden in de Habitatkaart).
 Hierbij krijgt de GRTS‐rastercel een habitattype toegekend van een polygoon als het ermee overlapt.
 De celgebaseerde koppeling gebeurt voor habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp).

@@ -104,7 +104,7 @@ Geef in de GIS-applicatie de volgende gegevens in:
 
 -   je naam,
 -   de datum waarop je deze evaluatie uitvoert,
--   het actueel aanwezige habitat(sub)type of rbb in de cel of in het celcentrum, en
+-   het actueel aanwezige habitat(sub)type of rbb in de cel of in het celmidden, en
 -   eventuele opmerkingen
 -   eventueel een foto.
 
