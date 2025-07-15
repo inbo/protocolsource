@@ -1,52 +1,60 @@
 ---
-title: "Plaatsen van een peilbuis-piëzometer in steekproefeenheden van het meetnet eutrofiëring via het grondwater (GW_03.3) van de Meetnetten Natuurlijk Milieu"
+title: Plaatsen van een peilbuis-piëzometer in steekproefeenheden van het meetnet
+  eutrofiëring via het grondwater (GW_03.3) van de Meetnetten Natuurlijk Milieu
 author:
-  - name:
-      given: "Karen"
-      family: "Wuyts"
-    email: "karen.wuyts@inbo.be"
-    orcid: "0000-0002-3371-6828"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-    corresponding: true
-  - name:
-      given: "De Dobbelaer"
-      family: "De Dobbelaer"
-    email: "tom.dedobbelaer@inbo.be"
-    orcid: "0000-0001-7636-997X"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-  - name:
-      given: "Falk"
-      family: "Mielke"
-    email: "falk.mielke@inbo.be"
-    orcid: "0000-0003-3229-0981"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+- name:
+    given: Karen
+    family: Wuyts
+  email: karen.wuyts@inbo.be
+  orcid: 0000-0002-3371-6828
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+  corresponding: true
+- name:
+    given: De Dobbelaer
+    family: De Dobbelaer
+  email: tom.dedobbelaer@inbo.be
+  orcid: 0000-0001-7636-997X
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+- name:
+    given: Falk
+    family: Mielke
+  email: falk.mielke@inbo.be
+  orcid: 0000-0003-3229-0981
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 reviewer:
-  - name:
-      given: "Mathias"
-      family: "Wackenier"
-    email: "mathias.wackenier@inbo.be"
-    orcid: "0000-0001-6934-9241"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+- name:
+    given: Mathias
+    family: Wackenier
+  email: mathias.wackenier@inbo.be
+  orcid: 0000-0001-6934-9241
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 file_manager:
-  - name:
-      given: "Karen"
-      family: "Wuyts"
-    email: "karen.wuyts@inbo.be"
-    orcid: "0000-0002-3371-6828"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-keywords: "mnm; grondwater; eutrofiëring; peilbuis; piëzometer"
+- name:
+    given: Karen
+    family: Wuyts
+  email: karen.wuyts@inbo.be
+  orcid: 0000-0002-3371-6828
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+keywords: mnm; grondwater; eutrofiëring; peilbuis; piëzometer
 language: nl
-date: "`r Sys.Date()`"
+date: '`r Sys.Date()`'
 protocol_code: spp-003-nl
-version_number: "2025.03"
+version_number: '2025.03'
 template_name: spp
 project_name: mnm
-community: "inbo"
+community: inbo
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
-link-citations: TRUE
+link-citations: true
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+params:
+  dependencies:
+    value:
+    - protocol_code: sfp-104-nl
+      version_number: '2025.01'
+      params: .na
+      appendix: false
 ---
 
 ```{=html}
