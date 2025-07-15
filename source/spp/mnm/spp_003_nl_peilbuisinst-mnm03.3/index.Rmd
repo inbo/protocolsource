@@ -10,7 +10,7 @@ author:
   affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
   corresponding: true
 - name:
-    given: De Dobbelaer
+    given: Tom
     family: De Dobbelaer
   email: tom.dedobbelaer@inbo.be
   orcid: 0000-0001-7636-997X
@@ -68,6 +68,7 @@ Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titel hoofdingen staan en vermeld expliciet "niet van toepassing".
 -->
 ```
+
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
@@ -117,3 +118,4 @@ rm(revs, fms)
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
+
