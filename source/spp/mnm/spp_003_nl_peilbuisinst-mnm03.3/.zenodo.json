@@ -1,0 +1,41 @@
+{
+  "description": "",
+  "title": "Plaatsen van een peilbuis-piëzometer in steekproefeenheden van het meetnet eutrofiëring via het grondwater (GW_03.3) van de Meetnetten Natuurlijk Milieu.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "mnm; grondwater; eutrofiëring; peilbuis; piëzometer"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Wuyts, Karen",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-3371-6828",
+      "type": "contactperson"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Wuyts, Karen",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-3371-6828"
+    },
+    {
+      "name": "De Dobbelaer, De Dobbelaer",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0001-7636-997X"
+    },
+    {
+      "name": "Mielke, Falk",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0003-3229-0981"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}

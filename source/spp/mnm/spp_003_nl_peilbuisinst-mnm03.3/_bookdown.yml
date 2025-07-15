@@ -1,0 +1,29 @@
+book_filename: spp_003_nl_peilbuisinst-mnm03.3.Rmd
+delete_merged_file: true
+rmd_files:
+- index.Rmd
+- NEWS.md
+- 01_afhankelijkheden.Rmd
+- 02_onderwerp.Rmd
+- 03_benodigdheden.Rmd
+- 04_werkwijze.Rmd
+- 05_kwaliteitszorg.Rmd
+- 06_veiligheid.Rmd
+- 07_referenties.Rmd
+- 08_appendices.Rmd
+- 09_subprotocols.Rmd
+output_dir: ../../../../../../protocoldocs/protocoldocs/docs/spp/mnm/spp_003_nl_peilbuisinst-mnm03.3
+language:
+  label:
+    fig: 'Figuur '
+    tab: 'Tabel '
+    eq: 'Vergelijking '
+    thm: 'Theorema '
+    lem: 'Lemma '
+    def: 'Definitie '
+    cor: 'Bijgevolg '
+    prp: 'Propositie '
+    ex: 'Voorbeeld '
+    proof: 'Bewijs. '
+    remark: 'Opmerking. '
+
