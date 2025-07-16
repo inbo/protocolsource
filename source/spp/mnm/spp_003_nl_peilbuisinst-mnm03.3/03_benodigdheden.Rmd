@@ -1,1 +1,19 @@
 # Extra benodigdheden t.o.v. de subprotocols
+
+Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal en RTK-GPS zoals vermeld in subprotocol [sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html), heb je volgend materiaal nodig:
+
+-   een laptop of veldtablet met in een GIS-applicatie:
+
+    -   een kaartlaag met de locatie en informatie van de steekproefeenheid, incl. vermelding terrestrisch of aquatisch habitattype
+    -   per steekproefeenheid: een set random getrokken punten waar de installatie kan plaatsvinden, afhankelijk van het habitattype
+    -   ondersteunende kaartlagen (vb. orthofoto's, digitaal hoogtemodel, bodemkaart)
+
+-   een rolmeter van minstens 10 m lengte
+
+-   aangepaste kledij (vb. (lies)laarzen) en persoonlijke beschermingsmiddelen (vb.tekenwerende broek en hemd, zonnecrème, pet)
+
+-   je legitimatiekaart
+
+-   telefoonnummer van de meetnetverantwoordelijke of projectcoördinator
+
+-   telefoonnummer van de boswachter.
