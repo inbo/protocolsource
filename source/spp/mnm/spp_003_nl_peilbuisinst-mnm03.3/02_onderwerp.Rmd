@@ -13,26 +13,28 @@ Deze meetnetten hebben als doel de toestand en trend van milieudrukken in het na
 Hiervoor dient de abiotiek in Natura 2000-habitats en regionaal belangrijke biotopen te worden gemonitord.
 Eén meetnet volgt één milieudruk op in een specifiek compartiment (grondwater, oppervlaktewater, bodem, inundatiewater of atmosfeer).
 
-**peilbuis**: een peilbuis met in het ondergrondse deel een filterelement over de hele lengte voor het meten van de grondwaterstand nabij het maaiveld (Figuur 3.1 rechts).
+**peilbuis**: een peilbuis met in het ondergrondse deel een filterelement over de hele lengte voor het meten van de grondwaterstand nabij het maaiveld.
 Grondwater kan over de volledige ondergrondse lengte van het instrument door perforaties naar binnen en naar buiten stromen.
 De filter snijdt steeds met de grondwaterstand, behalve als het grondwaterpeil boven het maaiveld uitstijgt.
 Het waterpeil in de buis wijkt weinig of niet af van de grondwaterstand.
 Strikt gezien moet dit een grondwaterstandsbuis noemen, maar de term peilbuis is zodanig algemeen in gebruik dat het gebruiken van een nieuwe term tot nog veel meer verwarring zou leiden.
 
-**piëzometer**: een buis met een filterelement van enkele tientallen centimeter (de INBO afspraak is 50 cm) voor het meten van de stijghoogte (of ook drukhoogte) op een bepaalde diepte (Figuur 3.1 links).
+**piëzometer**: een buis met een filterelement van enkele tientallen centimeter (de INBO afspraak is 50 cm) voor het meten van de stijghoogte (of ook drukhoogte) op een bepaalde diepte.
 Het peil in de buis komt overeen met de druk ter hoogte van de filter en die kan verschillen van het grondwaterpeil.
 De stijghoogte is de resultante van de hydraulische druk die ter hoogte van de filter in de ondergrond heerst.
 De stijghoogte kan hoger, gelijk of lager zijn dan de grondwaterstand.
-Op het INBO worden vrijwel uitsluitend piëzometers geplaatst.
 Bij de analyse van de chemische samenstelling heeft een piëzometer minder risico op invloed van insijpelend regenwater.
 Bovendien wijkt de hydrostatische druk in de meeste gevallen niet of nauwelijks af van het grondwaterpeil als de piëzometer “kort” is (doorgaans \< 2-3 meter).
+
+**steekproefeenheid** of meetlocatie: een individueel element van de steekproef.
+Een steekproefeenheid is een rastercel van 32 m op 32 m in geval van terrestrische types, een 100 m-segment in geval van stromende wateren, de hele plas in geval van stilstaande wateren, de ganse habitatvlek in geval van habitattype 7220 en de volledige mergelgroeve (of een zo groot mogelijk deel daarvan) in geval van de niet voor het publiek opengestelde grotten (type 8310).
 
 ## Doelstelling en toepassingsgebied
 
 Dit protocol beschrijft het manueel plaatsen van een koppel ondiepe peilbuis en ondiepe piëzometer met druksonde in een geschikte terrestrische en aquatische steekproefeenheid van het meetnet eutrofiëring via het grondwater (meetnet GW_03.3).
 De installatie dient om de stikstoftoestand van het grondwater op te volgen (met behulp va nitraat- en ammoniumconcentratie in het grondwater), maar ook om de verklarende variabelen (vb. stijghoogte, pH, geleidend vermogen) en variabelen voor kwaliteitscontrole (vb. ionenbalans) te bepalen.
-Dit protocol wordt pas doorlopen als de steekproeflocatie recent (minder dan 1,5 jaar voor de installatie) als geschikt werd beoordeeld volgens de locatie-evaluatie (zie [protocol spp-002-nl](https://inbo.github.io/protocols/2025.03/index.html) voor terrestrische types).
-Een steekproefeenheid is geschikt als in het celmidden van de rastercel, ergens in de rastercel, in het segment, in de plas of in de grot het beoogde habitattype voorkomt waarvoor de steekproefeenheid werd getrokken.
+Dit protocol wordt pas doorlopen als de steekproefeenheid recent (minder dan 1,5 jaar voor de installatie) als geschikt werd beoordeeld volgens de locatie-evaluatie (zie protocol [spp-002-nl 2025.03](https://inbo.github.io/protocols/2025.03/index.html) voor terrestrische types).
+Een steekproefeenheid is geschikt als in het celmidden van de rastercel, ergens in de rastercel, in het segment, in de plas of in de grot het doeltype voorkomt waarvoor de steekproefeenheid werd getrokken.
 
 ```{=html}
 <!--
@@ -46,4 +48,3 @@ Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt
 <!-- description: start -->
 
 <!-- description: end -->
-
