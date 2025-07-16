@@ -14,13 +14,19 @@ De doelstelling is om de subprotocols te organiseren in een coherent hoofd proto
 -->
 ```
 
-## Positionering en evaluatie geschiktheid boorlocatie
+## Navigeer naar steekproefeenheid
 
-Navigeer naar steekproefeenheid met behulp van RTK-GPS-ontvanger of de GPS_ontvanger van je tablet of smartphone lokaliseer in terrestrische en 7220 steekproefeenheden het celmidden aangeduid met markeeranker en meetmerk.
+Navigeer naar steekproefeenheid met behulp van RTK-GPS-ontvanger of de GPS_ontvanger van je tablet of smartphone lokaliseer in terrestrische steekproefeenheden het celmidden aangeduid met markeeranker en meetmerk.
 Als niet terug te vinden - kom later terug met RTK-GPS-ontvanger.
-Afhankelijk van type beschik je over een set van punten waar peilbuis en piëzometer kunnen geïnstalleeerd worden, deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 
--   terrestrische types: in de zone met straal van 10 m rond celmidden in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp));
+##Gebruik bestaande peilbuis
+
+## Positionering en evaluatie geschiktheid installatiepunten
+
+Afhankelijk van type beschik je over een set van punten waar het doelhabitat aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleeerd worden.
+Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
+
+-   terrestrische types: in de zone met straal van 10 m rond celmidden in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), met uitsparing van het permanente kwadrant (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en buffer van 1 m errond;
 
 -   aquatische types:
 
@@ -29,16 +35,50 @@ Afhankelijk van type beschik je over een set van punten waar peilbuis en piëzom
 
 -   type 7220: in de zone van de grootste helling, net buiten het habitat, om betreding van de gevoelige vegetatie te voorkomen.
 
-Systematisch aflopen van lijst en punten evalueren.
-Criteria:
+De lijst met punten per steekproefeenheid is beschikbaar in de GIS-applicatie.
+Open de lijst en loop ze systematisch in volgorde af.
+Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria:
 
--   voldoende oppervlakte
+-   voldoende oppervlakte: de habitatvlek moet groter zijn dan 3 m op 3 m zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verdwijnt;
+-   ...
+
+Wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of baggeren, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.
+Een recente analyse van de in Watina beschikbare stijghoogtes in terrestrische types toont aan dat op een afstand van meer dan 10 m van het beoogde punt een onaanvaardbare afwijking optreedt in de stijghoogte.
+Bovendien zou het systematisch verplaatsen van meetpunten, vb.
+naar de rand van een perceel waar minder hinder optreedt, leiden tot een systematische fout in de meting van de milieuvariabelen op de standplaats.
+Recente analyse toonde aan dat stijghoogtes gemeten op meer dan 10 m van elkaar een afwijking Het wordt daarom afgeraden om het beoogde punt voor installatie van een peilbuis of piëzometer te verplaatsen en zeker niet verder dan 10 m van het beoogde punt.
 
 ## Plaatsen piëzometer en peilbuis
 
-zie sfp-104-nl
+Voor het plaatsen van de peilbuis en de piëzometer volg je het protocol 'Richtlijnen voor het plaatsen van peilbuizen' [sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html).
 
--   afwijkingen van protocol: voorkeur digitaal ingeven gegevens, via GIS-applicatie en Watina, anders in veldnotities
+Volg hierbij de volgende projectspecifieke richtlijnen die afwijken van het protocol:
+
+-   we plaatsen in het kader van het meetnet eutrofiëring via het grondwater van de MNM enkel peilbuizen en piëzometers in PVC
+-   plaats telkens een piëzometer en een peilbuis, tot dezelfde diepte; geef de peilbuis een even Watina-code en de piëzometer een oneven Watina-code
+-   geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via GIS-applicatie (vb. boorverslag); gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud)
+-   plaats steeds een metalen beschermbuis over de piëzometer
+-   plaats een paal in hoge, dichte vegetatie
+
+## Plaatsen van automatische druksensor
+
+In elke piëzometer plaats je een druksensor.
+Een druksensor meet een druk die het resultaat is van de hoogte van de waterkolom boven de sensor en de atmosferische druk.
+Een druk van 1 millibar luchtdruk komt overeen met de druk van 1 cm waterkolom.
+De atmosferische druk wordt gecompenseerd met barometermetingen.
+Wanneer het peil onder de sensor zakt meet de sensor enkel nog de atmosferische druk.
+
+Neem een druksensor (vb. Troll 100) en noteer de code van de sensor voor die steekproefeenheid in GIS-applicatie.
+Programmeer de druksensor via de software op de veldtablet, met behulp van een Bluetooth-verbinding of rechtstreekse connectie.
+Stel de meetfrequentie in (uurlijks) en controleer de vrije opslagruimte en batterij van de druksensor of die kan functioneren bij de gekozen instellingen gedurende de volgende zes maaanden.
+
+Maak de druksensor vast aan het uiteinde van de rol kabel met behulp van de kabelklemmen.
+Laat de sensor met de kabel in de piëzometer zakken, tot onder de laagst mogelijke grondwaterstand maar 10 cm boven de bodem van de peilbuis waar water met slib kan blijven staan zelfs wanneer het grondwaterpeil onder de piëzometer zakt.
+Markeer de hoogte van de bovenkant van de piëzometer op de kabel en haal de sensor weer uit de piëzometer.
+Een vijftal cm voorbij de markering knip je de kabel door met de kniptang.
+Bevestig het uiteinde van de afgeknipte kabel aan de onderzijde van het peilbuisslot en controleer of de druksensor goed bevestigd is.
+Plaats de druksensor aan de draad in de piëzometer.
+Plaats het peilbuisslot in de opening van de buis en draai de vijs op het slot vast.
 
 ## Geografisch inmeten van peilbuis en piëzometer
 
@@ -52,4 +92,3 @@ in geval van terrestrische types en 7220: als RTK-GPS-ontvanger beschikbaar: lee
 
 In geval van aquatische types (lentisch en lotisch), plaats ook peilschaal -\> zie protocol??
 Als RTK-GPS-ontvanger beschikbaar: lees geografische locatie (x,y,z) van peilschaal in Als niet, kom later terug.
-

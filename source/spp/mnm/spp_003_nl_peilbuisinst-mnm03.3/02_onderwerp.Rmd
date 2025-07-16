@@ -29,9 +29,13 @@ Bovendien wijkt de hydrostatische druk in de meeste gevallen niet of nauwelijks 
 **steekproefeenheid** of meetlocatie: een individueel element van de steekproef.
 Een steekproefeenheid is een rastercel van 32 m op 32 m in geval van terrestrische types, een 100 m-segment in geval van stromende wateren, de hele plas in geval van stilstaande wateren en de ganse habitatvlek in geval van habitattype 7220.
 
+**TAW**: Tweede Algemene Waterpassing.
+Lokale referentiehoogte vanwaar hoogtemetingen kunnen worden bepaald.
+Het gemiddeld zeeniveau bij laagwater te Oostende wordt gebruikt als nulpeil.
+
 ## Doelstelling en toepassingsgebied
 
-Dit protocol beschrijft het manueel plaatsen van een koppel ondiepe peilbuis en ondiepe piëzometer met druksonde in een geschikte terrestrische en aquatische steekproefeenheid van het meetnet eutrofiëring via het grondwater (meetnet GW_03.3).
+Dit protocol beschrijft het manueel plaatsen van een koppel ondiepe peilbuis en ondiepe piëzometer met automatische druksensor in een geschikte terrestrische en aquatische steekproefeenheid van het meetnet eutrofiëring via het grondwater (meetnet GW_03.3).
 De installatie dient om de stikstoftoestand van het grondwater op te volgen (met behulp va nitraat- en ammoniumconcentratie in het grondwater), maar ook om de verklarende variabelen (vb. stijghoogte, pH, geleidend vermogen) en variabelen voor kwaliteitscontrole (vb. ionenbalans) te bepalen.
 
 Dit protocol wordt pas doorlopen als de steekproefeenheid recent (minder dan 1,5 jaar voor de installatie) als geschikt werd beoordeeld volgens de locatie-evaluatie (zie protocol [spp-002-nl 2025.03](https://inbo.github.io/protocols/2025.03/index.html) voor terrestrische types).
