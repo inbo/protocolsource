@@ -13,3 +13,43 @@ Volg subprotocol C `<protocol-code>_YYYY.NN` waarin labo-analyse wordt uitgelegd
 De doelstelling is om de subprotocols te organiseren in een coherent hoofd protocol waarin ontbrekende elementen aangevuld worden die niet in de subprotocols staan, zoals wanneer een bepaald subprotocol wel of niet wordt uitgevoerd, of kleine extra stappen die geen eigen subprotocol vereisen.
 -->
 ```
+
+## Positionering en evaluatie geschiktheid boorlocatie
+
+Navigeer naar steekproefeenheid met behulp van RTK-GPS-ontvanger of de GPS_ontvanger van je tablet of smartphone lokaliseer in terrestrische en 7220 steekproefeenheden het celmidden aangeduid met markeeranker en meetmerk.
+Als niet terug te vinden - kom later terug met RTK-GPS-ontvanger.
+Afhankelijk van type beschik je over een set van punten waar peilbuis en piëzometer kunnen geïnstalleeerd worden, deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
+
+-   terrestrische types: in de zone met straal van 10 m rond celmidden in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp));
+
+-   aquatische types:
+
+    -   stilstaande wateren: in 50 m brede zone rond de plas, beperkt tot een gebied van 30 graden rond de richting van de sterkste helling;
+    -   stromende wateren (3260): in een zone van ... graden breed rond de lijn startend vanaf het midden van het segment en loodrecht op de loop
+
+-   type 7220: in de zone van de grootste helling, net buiten het habitat, om betreding van de gevoelige vegetatie te voorkomen.
+
+Systematisch aflopen van lijst en punten evalueren.
+Criteria:
+
+-   voldoende oppervlakte
+
+## Plaatsen piëzometer en peilbuis
+
+zie sfp-104-nl
+
+-   afwijkingen van protocol: voorkeur digitaal ingeven gegevens, via GIS-applicatie en Watina, anders in veldnotities
+
+## Geografisch inmeten van peilbuis en piëzometer
+
+Als RTK-GPS-ontvanger beschikbaar: lees geografische locatie (x,y,z) van peilbuis en piëzometer in, zie SVP-014 Als niet, kom later terug.
+
+## Terrestrische types en 7220: inmeten van maaiveldhoogte
+
+in geval van terrestrische types en 7220: als RTK-GPS-ontvanger beschikbaar: lees maaiveldhoogte in obv 10 random getrokken punten in rastercel
+
+## Aquatische types: plaatsen van peilschaal
+
+In geval van aquatische types (lentisch en lotisch), plaats ook peilschaal -\> zie protocol??
+Als RTK-GPS-ontvanger beschikbaar: lees geografische locatie (x,y,z) van peilschaal in Als niet, kom later terug.
+
