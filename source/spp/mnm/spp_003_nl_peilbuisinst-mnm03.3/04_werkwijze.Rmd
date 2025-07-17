@@ -41,7 +41,7 @@ Geef dit aan in de GIS-applicatie.
 Het terugvinden van aquatische steekproefeenheden vereist sowieso geen nauwkeurige locatiebepaling; een GPS-ontvanger zal daar volstaan.
 Het vinden van een reeds geselecteerd staalnamepunt van een aquatisch type (zie [protocol spp-116-nl 2024.05](https://inbo.github.io/protocols/2024.05/index.html) en [protocol spp-117-nl 2024.06](https://inbo.github.io/protocols/2024.06/index.html) vereist wel het gebruik van een RTK-GPS-ontvanger.
 
-##Gebruik bestaande peilbuis
+## Optioneel: gebruik van bestaande peilbuis
 
 Vele duizenden peilbuizen werden reeds geplaatst in Vlaanderen de voorbije decennia, zoals te zien in Watina.
 De kans bestaat dat er reeds een peilbuis of piëzometer aanwezig is in de buurt van de opgegeven steekproefeenheid.
@@ -49,19 +49,19 @@ De keuze om een nabijgelegen bestaande peilbuis of piëzometer op te nemen in he
 De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie.
 Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.
 
-## Positionering en evaluatie geschiktheid installatiepunten
+## Positionering en evaluatie van installatiepunt(en)
 
-Afhankelijk van type beschik je over een set van punten waar het doeltype aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleeerd worden.
+Afhankelijk van het doeltype beschik je over een set van punten waar het doeltype aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleeerd worden.
 Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 
 -   terrestrische types: in de zone met straal van 10 m rond celmidden in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), met uitsparing van het permanente kwadrant (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en buffer van 1 m errond;
 
 -   aquatische types:
 
-    -   stilstaande wateren: in 50 m brede zone rond de plas, beperkt tot een gebied van 30 graden rond de richting van de sterkste helling;
-    -   stromende wateren (3260): in een zone van ... graden breed rond de lijn startend vanaf het midden van het segment en loodrecht op de loop
+    -   stilstaande wateren: in 50 m brede zone rond de plas, beperkt tot een gebied van 30 graden rond de richting van de sterkste helling (bepaald over een range van 500 m);
+    -   stromende wateren (3260): in een zone tussen de 20 en 50 m van de middellijn van de stroom, beperkt door de loodlijnen op de segmenteindes, en aan de kant met de grootste helling
 
--   type 7220: in de zone van de grootste helling, net buiten het habitat, om betreding van de gevoelige vegetatie te voorkomen.
+-   type 7220: in een 20-m-brede zone van de grootste helling, net buiten het habitat (tot 100 m van de habitatvlek hellingopwaarts en tot 10 m van de habitatvlek hellingafwaarts), om betreding van de gevoelige vegetatie te voorkomen.
 
 De lijst met punten per steekproefeenheid is beschikbaar in de GIS-applicatie.
 Open de lijst en loop de punten in de lijst systematisch in volgorde af.
@@ -77,8 +77,8 @@ Bovendien zou het systematisch verplaatsen van meetpunten, bijvoorbeeld naar de 
 Het wordt daarom aangeraden om:
 
 -   het beoogde punt voor de plaatsing van een peilbuis en/of piëzometer niet te verplaatsen tenzij het op het beoogde punt zeker beschadigd zou geraken of het door de eigenaar of beheerder absoluut niet wordt toegestaan;
--   als je afwijkt van het beoogde punt, dit beperkt tot 10 m van het beoogde punt;
--   als dit niet mogelijk is, dan is de locatie niet geschikt als steekproefeenheid en worden de peilbuis en piëzometer niet geplaatst.
+-   als je afwijkt van het beoogde punt, dit te beperken tot 10 m van het beoogde punt;
+-   als dit niet mogelijk is, de locatie te beoordelen als niet geschikte steekproefeenheid en dan worden de peilbuis en piëzometer niet geplaatst.
 
 ## Plaatsen en geografisch inmeten van piëzometer en peilbuis
 
