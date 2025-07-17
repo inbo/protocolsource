@@ -14,10 +14,31 @@ De doelstelling is om de subprotocols te organiseren in een coherent hoofd proto
 -->
 ```
 
-## Navigeer naar steekproefeenheid
+De steekproefeenheden waar een peilbuis-piëzometerkoppel dient te worden geïnstalleerd, worden aangeleverd na de locatie-evaluatie en worden beschikbaar gesteld via een beveiligde server of andere route.
+Via een GIS-applicatie (vb. QGIS en QField) worden ze gevisualiseerd aangeboden voor de communicatie van gegevens voor de organisatie op terrein (*outbound*) en de op terrein verzamelde gegegevens (*inbound*).
 
-Navigeer naar steekproefeenheid met behulp van RTK-GPS-ontvanger of de GPS_ontvanger van je tablet of smartphone lokaliseer in terrestrische steekproefeenheden het celmidden aangeduid met markeeranker en meetmerk.
-Als niet terug te vinden - kom later terug met RTK-GPS-ontvanger.
+## Voorbereiding van het bezoek aan de steekproefeenheid
+
+Controleer in de GIS-applicatie wie de eigenaar en/of beheerder is van het gebied waarin de steekproefeenheid gelegen is.
+Toets af bij de meetnetverantwoordelijke of projectcoördinator of:
+
+-   vergunningen of toelatingen voorzien zijn;
+-   je bezoek en de plaatsing van de peilbuis en piëzometer is gemeld bij de eigenaar en/of beheerder (vb. privé-eigenaars en openbare besturen, boswachters en regiobeheerders van ANB, consulenten en conservators van Natuurpunt, Limburgs Landschap, vzw Durme, ...);
+-   een controle in het [klip portaal](https://klip.vlaanderen.be/public) noodzakelijk en uitgevoerd is, om graafschade te voorkomen aan kabels en leidingen.
+
+Toegankelijkheid van militaire gebieden dient een week voor het terreinbezoek aangevraagd te worden via mail aan het betreffende kwartier, met de boswachter in cc.
+Zij laten weten op welke dagen en tussen welke uren je het terrein mag betreden.
+Bij het betreden en het verlaten van het terrein op de dag zelf dien je telkens telefonisch contact op te nemen met de kwartiercommandant.
+
+## Bezoek de steekproefeenheid
+
+Navigeer naar de steekproefeenheid met behulp van een RTK-GPS-ontvanger of de GPS-ontvanger van je tablet of smartphone.
+In terrestrische steekproefeenheden is het celmidden aangeduid met markeeranker en meetmerk (en eventueel met bamboestok), waardoor een GPS-ontvanger in je tablet of smartphone voldoende zal zijn om het celmidden terug te vinden.
+Als je het markeeranker met meetmerk toch niet terugvindt, dien je een RTK-GPS-ontvanger te gebruiken en moet je misschien later terugkomen.
+Geef dit aan in de GIS-applicatie.
+
+Het terugvinden van aquatische steekproefeenheden vereist sowieso geen nauwkeurige locatiebepaling; een GPS-ontvanger zal daar volstaan.
+Het vinden van een reeds geselecteerd staalnamepunt van een aquatisch type (zie [protocols spp-116-nl 2024.05](https://inbo.github.io/protocols/2024.05/index.html) en [spp-117-nl 2024.06](https://inbo.github.io/protocols/2024.06/index.html) vereist wel het gebruik van een RTK-GPS-ontvanger.
 
 ##Gebruik bestaande peilbuis
 
@@ -39,8 +60,8 @@ De lijst met punten per steekproefeenheid is beschikbaar in de GIS-applicatie.
 Open de lijst en loop ze systematisch in volgorde af.
 Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria:
 
--   voldoende oppervlakte: de habitatvlek moet groter zijn dan 3 m op 3 m zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verdwijnt;
--   ...
+-   voldoende oppervlakte: de habitatvlek moet minstens 9 m² groot zijn zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verdwijnt;
+-   ... <!-- lijst nog verder aan te vullen -->
 
 Wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of baggeren, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.
 Een recente analyse van de in Watina beschikbare stijghoogtes in terrestrische types toont aan dat op een afstand van meer dan 10 m van het beoogde punt een onaanvaardbare afwijking optreedt in de stijghoogte.
@@ -48,17 +69,18 @@ Bovendien zou het systematisch verplaatsen van meetpunten, vb.
 naar de rand van een perceel waar minder hinder optreedt, leiden tot een systematische fout in de meting van de milieuvariabelen op de standplaats.
 Recente analyse toonde aan dat stijghoogtes gemeten op meer dan 10 m van elkaar een afwijking Het wordt daarom afgeraden om het beoogde punt voor installatie van een peilbuis of piëzometer te verplaatsen en zeker niet verder dan 10 m van het beoogde punt.
 
-## Plaatsen piëzometer en peilbuis
+## Plaatsen en geografisch inmeten van piëzometer en peilbuis
 
 Voor het plaatsen van de peilbuis en de piëzometer volg je het protocol 'Richtlijnen voor het plaatsen van peilbuizen' [sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html).
 
-Volg hierbij de volgende projectspecifieke richtlijnen die afwijken van het protocol:
+Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van de MNM, de volgende projectspecifieke richtlijnen die (licht) afwijken van het bovenstaand protocol:
 
--   we plaatsen in het kader van het meetnet eutrofiëring via het grondwater van de MNM enkel peilbuizen en piëzometers in PVC
--   plaats telkens een piëzometer en een peilbuis, tot dezelfde diepte; geef de peilbuis een even Watina-code en de piëzometer een oneven Watina-code
--   geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via GIS-applicatie (vb. boorverslag); gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud)
--   plaats steeds een metalen beschermbuis over de piëzometer
--   plaats een paal in hoge, dichte vegetatie
+-   plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
+-   voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
+-   plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte (1 m diep in de reductiehorizont), en geef de peilbuis een even Watina-code en de piëzometer een oneven Watina-code;
+-   plaats steeds een metalen beschermbuis over de piëzometer;
+-   plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
+-   geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
 
 ## Plaatsen van automatische druksensor
 
@@ -68,7 +90,7 @@ Een druk van 1 millibar luchtdruk komt overeen met de druk van 1 cm waterkolom.
 De atmosferische druk wordt gecompenseerd met barometermetingen.
 Wanneer het peil onder de sensor zakt meet de sensor enkel nog de atmosferische druk.
 
-Neem een druksensor (vb. Troll 100) en noteer de code van de sensor voor die steekproefeenheid in GIS-applicatie.
+Neem een druksensor (vb. Troll 100) en selecteer uit de lijst de code van de sensor voor die steekproefeenheid in de GIS-applicatie.
 Programmeer de druksensor via de software op de veldtablet, met behulp van een Bluetooth-verbinding of rechtstreekse connectie.
 Stel de meetfrequentie in (uurlijks) en controleer de vrije opslagruimte en batterij van de druksensor of die kan functioneren bij de gekozen instellingen gedurende de volgende zes maaanden.
 
@@ -82,13 +104,21 @@ Plaats het peilbuisslot in de opening van de buis en draai de vijs op het slot v
 
 ## Geografisch inmeten van peilbuis en piëzometer
 
-Als RTK-GPS-ontvanger beschikbaar: lees geografische locatie (x,y,z) van peilbuis en piëzometer in, zie SVP-014 Als niet, kom later terug.
+Als geen RTK-GPS-ontvanger beschikbaar was bij het plaatsen van de peilbuis en piëzometer, dien je later (bij voorkeur binnen de 3 maanden) met de RTK-GPS-ontvanger terug te komen om de geografische locatie (x,y,z) ervan nauwkeurig in te meten.
+Volg hiervoor [protocol SVP-014](https://docs.google.com/document/d/1T68iO3-gZ9WrUTxEd551n5EXPrp0vNp9bPs-Y_xSP-U/edit?tab=t.0).
 
 ## Terrestrische types en 7220: inmeten van maaiveldhoogte
 
-in geval van terrestrische types en 7220: als RTK-GPS-ontvanger beschikbaar: lees maaiveldhoogte in obv 10 random getrokken punten in rastercel
+In het geval van steekproefeenheden van terrestrische types en 7220 dient de maaiveldhoogte bepaald te worden.
+Dit kan onmiddellijk na de plaatsing van de peilbuis en piëzometer maar kan ook op een later tijdstip.
+Om de lokale ruimtelijke variatie in maaiveldhoogte in de rastercel mee in rekening te brengen, wordt de maaiveldhoogte bepaald op tien random getrokken punten rond de geïnstalleerde peilbuis en piëzometer.
+Met de RTK-GPS-ontvanger bepaal je de maaiveldhoogte door op tien op voorhand getrokken punten in de rastercel.
+Geef de gemeten maaiveldhoogtes in in de GIS-applicatie.
 
-## Aquatische types: plaatsen van peilschaal
+## Aquatische types: plaatsen en geografisch inmeten van peilschaal
 
-In geval van aquatische types (lentisch en lotisch), plaats ook peilschaal -\> zie protocol??
-Als RTK-GPS-ontvanger beschikbaar: lees geografische locatie (x,y,z) van peilschaal in Als niet, kom later terug.
+In het geval van aquatische types (lentisch en lotisch), plaats je ook een peilschaal.
+De verklarende variabele voor stikstoftoestand in het grondwater is hier namelijk het verschil tussen grondwaterpeil en oppervlaktewaterpeil.
+Volg hiervoor [protocol SVP-119](https://drive.google.com/file/d/129ch-zbjzQi3BkX0wRm0KSrM6fvwlwH8/view).
+Als een RTK-GPS-ontvanger mee op het terreinbezoek is gebracht, kan onmiddellijk na plaatsing van de peilschaal de geografische locatie (x,y,z) ervan nauwkeurig worden bepaald.
+Als geen RTK-GPS-ontvanger beschikbaar was bij het plaatsen van de peilschaal, dien je later (bij voorkeur binnen de 3 maanden) met de RTK-GPS-ontvanger terug te komen om de geografische locatie (x,y,z) ervan nauwkeurig in te meten.
