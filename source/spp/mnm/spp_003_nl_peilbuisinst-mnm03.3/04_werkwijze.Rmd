@@ -86,14 +86,82 @@ Voor het plaatsen van de peilbuis en de piëzometer volg je het protocol 'Richtl
 
 Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van de MNM, de volgende projectspecifieke richtlijnen die een (lichte) afwijking of een verfijning zijn van het bovenstaand protocol:
 
+### uitvoeren van de boring
+
+In meetnet GW_03.3 plaatsen we enkel buizen op locaties waar er potentieel eutrofiëring vanuit het grondwater kan plaatsvinden.
+We houden hier rekening met volgende typespecifieke grondwaterafhankelijkheden:
+
+-GD0: niet grondwaterafhankelijk, maar mogelijk effect van eutrofiëring vanuit het grondwater te verwachten -GD1: plaatselijk grondwaterafhankelijk -GD2: strikt grondwaterafhankelijk
+
+| type        | groundw_dep |
+|-------------|-------------|
+| 1310_pol    | GD2         |
+| 1330_hpr    | GD2         |
+| 2190_a      | GD2         |
+| 2190_mp     | GD2         |
+| 2190_overig | GD2         |
+| 3110        | GD2         |
+| 3130_aom    | GD2         |
+| 3130_na     | GD2         |
+| 3140        | GD2         |
+| 3150        | GD2         |
+| 3160        | GD2         |
+| 3260        | GD1         |
+| 4010        | GD2         |
+| 6230_hmo    | GD2         |
+| 6410_mo     | GD2         |
+| 6410_ve     | GD2         |
+| 6430_hf     | GD2         |
+| 6430_hw     | GD2         |
+| 6430_mr     | GD2         |
+| 6510_hu     | GD0         |
+| 6510_hua    | GD2         |
+| 6510_hus    | GD2         |
+| 7140_base   | GD2         |
+| 7140_meso   | GD2         |
+| 7140_mrd    | GD2         |
+| 7140_oli    | GD2         |
+| 7150        | GD2         |
+| 7210        | GD2         |
+| 7220        | GD2         |
+| 7230        | GD2         |
+| 9120        | GD0         |
+| 9130_end    | GD1         |
+| 9130_fm     | GD1         |
+| 9160        | GD1         |
+| 9190        | GD1         |
+| 91E0_sf     | GD2         |
+| 91E0_va     | GD2         |
+| 91E0_vc     | GD2         |
+| 91E0_vm     | GD2         |
+| 91E0_vn     | GD2         |
+| 91E0_vo     | GD2         |
+
+Voor het uitvoeren van de boring onderscheiden we drie groepen:
+
+-Groep 1 is het strengste en betreft terrestrische types \* die niet overal grondwaterafhankelijk zijn (GD0 + GD1).
+Als ondergrens voor de bovenkant van de reductiehorizont (of grondwatertafel indien geen reductiehorizont) wordt 2,5 m genomen.
+Indien geen reductiehorizont of grondwater wordt bereikt dan wordt de installatie volledig gestaakt.
+De bevindingen worden gerapporteerd via de GIS-app.
+
+-Groep 2 zijn de terrestrische types \* die '(bijna) overal grondwaterafhankelijk' zijn (GD2).
+Hier wordt geboord tot je de reductiehorizont of het grondwater tegenkomt in de bovenste 3,5 m van de bodem: - kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - als je reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke
+
+-Groep 3 bevat de overige types (aquatisch / 7220).
+Hier refereren we aan het (oppervlakte)waterpeil van het nabijgelegen doelhabitat, terwijl we de buis meer stroomopwaarts / veelal buiten habitat plaatsen.
+De diepte van de filter moet hier dus diep genoeg zitten om het grondwater te treffen dat het oppervlaktewater beïnvloedt.
+Dat is potentieel dieper in steilere situaties.
+We beschouwen de limiet hier het niveau van het oppervlaktewater + 0,5(?)m.
+Indien er geen grondwater voorkomt binnen deze zone wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
+In dit geval wordt de installatie gestaakt en de bevinding genoteerd in de GIS-app.
+
+### plaatsing en naamgeving van de buizen
+
 -   plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
 -   voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
--   plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte, en geef de peilbuis een oneven Watina-code en de piëzometer een even Watina-code;
--   diepte van de boring en maximale diepte van de boring: grondwaterafhankelijke habitattypes vormden de doelpopulatie van het meetnet GW_03.3 en dit betekent dat we geen peilbuizen plaatsen waar de vegetatie niet (meer) bestendig grondwaterafhankelijk is. We leggen de ondergrens op het voorkomen van grondwater (cfr; gemiddeld laagste grondwaterstand in de laag *shallow groundwater*) op 2 à 2,5 m en houden rekening met een marge van 1 m voor (tijdelijke) droogte. Daarom ga je als volgt te werk: boor tot je de reductiehorizont of het grondwater tegenkomt in de bovenste 3,5 m van de bodem:
-    -   kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
-    -   als je reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
-    -   kom je geen van beide tegen tot op 3,5 m diepte, plaats dan geen peilbuis of piëzometer;
-    -   noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+-   plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte
+-   noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+-   de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001).
 -   plaats steeds een metalen beschermbuis over de piëzometer;
 -   plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
 -   geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
@@ -145,3 +213,4 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf één maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
+
