@@ -10,6 +10,12 @@ author:
   affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
   corresponding: true
 - name:
+    given: Floris
+    family: Vanderhaeghe
+  email: floris.vanderhaeghe@inbo.be
+  orcid: 0000-0002-6378-6229
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+  - name:
     given: Ward
     family: Tamsyn
   email: ward.tamsyn@inbo.be

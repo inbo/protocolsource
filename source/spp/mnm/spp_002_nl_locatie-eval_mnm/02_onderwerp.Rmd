@@ -8,7 +8,11 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 -->
 ```
 
-**Celkartering**: het ruimtelijk in kaart brengen van het voorkomen van het doeltype binnen een rastercel van 32 m op 32 m
+**Celgekoppelde type**: celgebaseerde habitat(sub)type of regionaal belangrijk biotoop waarbij een GRTS-rastercel het type bevat
+
+**Celkartering**: het ruimtelijk in kaart brengen van het voorkomen van het doeltype binnen een rastercel van 32 m op 32 m, welke resulteert in de celkarteringpolygoon
+
+**Celmiddengekoppelde type**: celgebaseerde habitat(sub)type of regionaal belangrijk biotoop waarbij het midden van een GRTS-rastercel het type treft
 
 **Doeltype**: het habitat(sub)type of regionaal belangrijke biotoop (rbb) waarvoor de steekproeflocatie is getrokken voor een specifiek meetnet.
 Er komt geen overlap voor tussen sub- en hoofdtypes.
@@ -16,7 +20,7 @@ De habitat(sub)types en regionaal belangrijke biotopen komen voor terrestrische 
 
 **GRTS-steekproef**: ruimtelijk gebalanceerde willekeurige steekproef gebaseerd op het GRTS algoritme (Stevens & Olsen, 2004).
 Een GRTS-steekproef is gebaseerd op een grid van GRTS-rastercellen met een bepaalde dimensie.
-Elke GRTS-rastercel krijgt een uniek GRTS-rangnummer.
+Elke GRTS-rastercel krijgt een uniek GRTS-rangnummer op basis van het omgedraaide base4-adres.
 Een steekproef met grootte n wordt bekomen door de GRTS-rastercellen met de n laagste rangnummers te selecteren binnen de doelpopulatie.
 In de MNM wordt een GRTS-steekproef getrokken voor elk meetnet afzonderlijk.
 
@@ -27,7 +31,10 @@ Eén meetnet volgt één milieudruk op in een specifiek compartiment (grondwater
 
 **rbb**: regionaal belangrijk biotoop
 
-**steekproefeenheid** of **meetlocatie**: een individueel element van de steekproef en is in toepassing van dit protocol (nl. voor terrestrische types) een rastercel van 32 m op 32 m
+**steekproefeenheid**: een individueel element van de steekproef van een specifiek meetnet met design-attributen.
+Het ruimtelijke aspect is de **meetlocatie** en is in toepassing van dit protocol, namelijk voor terrestrische types met een cel als sample support (celgebaseerd), een rastercel van 32 m op 32 m.
+
+**vervangeenheid**: een lokale vervanging van een steekproefeenheid, en in dit protocol voor celgebaseerde types ook wel **vervangcel** genoemd.
 
 ## Doelstelling en toepassingsgebied
 
@@ -46,32 +53,35 @@ Dit protocol beschrijft hoe terrestrische steekproefeenheden ("meetlocaties") wo
 De steekproefeenheden zijn het resultaat van een GRTS-trekking voor een specifiek meetnet van de MNM.
 Ze worden getrokken uit het meetnetspecifieke steekproefkader, welke de best beschikbare oplijsting vormt van de eenheden die tot de doelpopulatie van het meetnet behoren.
 Het steekproefkader van een meetnet is een beperking van het basissteekproefkader van alle meetnetten van de MNM op basis van de lijst types die de doelpopulatie van elk meetnet definiëren.
-Het basissteekproefkader is aangemaakt op basis van originele datalagen en datalagen die zijn afgeleid van de Habitatkaart of de Watervlakkenlaag.
+Per meetnet kunnen er extra ruimtelijke restricties gelden binnen types van het basissteekproefkader.
+Het basissteekproefkader is aangemaakt op basis van originele datalagen en datalagen die zijn afgeleid van de Habitatkaart of de Watervlakkenlaag, en bevatten bestaande locatie-evaluaties.
 
 De steekproefeenheid van terrestrische habitats is een GRTS-rastercel van 32 m op 32 m waar het doeltype volgens de Habitatkaart voortkomt.
 Een polygoon behorend tot een habitat of rbb kan dus meerdere GRTS-rastercellen omvatten.
-Een onderscheid wordt gemaakt tussen celmidden- en celgebaseerde types.
-Voor de meeste terrestrische types gebeurt de koppeling van GRTS‐rastercellen aan polygonen celmiddengebaseerd: de GRTS‐rastercel krijgt een habitat- of rbb-type toegekend van een polygoon als het centrum van de rastercel ermee overlapt.
+Een onderscheid wordt gemaakt tussen celmidden- en celgekoppelde types.
+Voor de meeste terrestrische types gebeurt de koppeling van GRTS‐rastercellen aan polygonen via het celmidden: de GRTS‐rastercel krijgt een habitat- of rbb-type toegekend van een polygoon als het centrum van de rastercel ermee overlapt.
 De koppeling van GRTS‐rastercellen aan habitatpolygonen gebeurt evenwel celgebaseerd voor types die vooral voorkomen als kleine of smalle patches of in consequent lage aandelen in het polygoon (nl. de zogenaamde phab‐waarden in de Habitatkaart).
 Hierbij krijgt de GRTS‐rastercel een habitattype toegekend van een polygoon als het ermee overlapt.
-De celgebaseerde koppeling gebeurt voor habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp).
+De celgekoppelde types zijn habitat(sub)types 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp).
 
 De getrokken steekproefeenheden dienen het doeltype te bevatten waarvoor de eenheid is getrokken, welke is afgeleid van de meest recente Habitatkaart.
-Het doeltype dient voor te komen ofwel in het celmidden bij celmiddengebaseerde types of ergens in de cel bij celgebaseerde types.
+Het doeltype dient voor te komen ofwel in het celmidden bij celmiddengekoppelde types of ergens in de cel bij celgekoppelde types.
 Toch kan het zijn dat in de praktijk de actueel aanwezige vegetatie in (het celmidden van) de rastercel ter plaatse afwijkt en niet behoort tot het doeltype waarvoor de meetlocatie is getrokken.
+In het steekproefkader van celmiddengekoppelde types wordt een correctie toegepast op basis van het aandeel habitat in de polygoon (de phab-waarde).
+Die correctie houdt in dat polygonen (of stukken daarvan volgens level3-cellen) met een lagere phab proportioneel minder worden opgenomen in het steekproefkader.
+Hierdoor vergroot de kans dat de terreinmedewerker een bemonstering kan uitvoeren tijdens het bezoek aan een gebied.
+Echter, waar zulke polygoonen dan resteren en getrokken worden, moeten ze wel een geldige eenheid opleveren (als ze die bevatten), anders genereer je bias.
+Voor celmiddengekoppelde types is bijgevolg een lokale vervanging vereist.
+
 De aanwezigheid van het doeltype in de rastercel dient dus ter plaatse te worden gecontroleerd.
+Indien het doeltype er niet voorkomt, dient de terreinmedewerker via de procedure in het vervangprotocol binnen een vooraf bepaald gebied een andere steekproefeenheid te selecteren die wel geschikt is: de vervangeenheid.
+Om de voor de hand liggende fouten efficiënt op te sporen, wordt de steekproefeenheid en het geheel van de vervangeenheden voor het terreinbezoek geëvalueerd op basis van een desktopscreening.
 
-Indien het doeltype er niet voorkomt, vervalt deze steekproefeenheid strikt gezien en dient de volgende steekproefeenheid te worden bezocht.
-Om de kans te vergroten dat de terreinmedewerker een bemonstering kan uitvoeren tijdens het bezoek aan een gebied en de efficiëntie van het terreinwerk niet in het gedrang te brengen:
-
--   wordt de locatie van de steekproefeenheid voor het terreinbezoek geëvalueerd op basis van een desktopscreening en
--   kan de terreinmedewerker via de procedure in het vervangprotocol binnen een vooraf bepaald gebied een andere steekproefeenheid selecteren die wel geschikt is.
-
-Ten slotte dient in de rastercel van elk geschikte steekproefeenheid een kartering te worden uitgevoerd van het doeltype, verderop de celkartering genoemd.
-Met deze informatie zijn veldmedewerkers zonder of met minder vegegtatiekundige expertise in staat de bemonstering of installatie van meettoestellen op een vegetatiekundig geschikte locatie uit te voeren.
+Als de steekproefeenheid of vervangeenheid geschikt is, dient in de geschikte rastercel een kartering te worden uitgevoerd van het doeltype, verderop de celkartering genoemd.
+Met deze informatie zijn veldmedewerkers zonder of met minder vegetatiekundige expertise in staat de bemonstering of installatie van meettoestellen op een vegetatiekundig geschikte locatie uit te voeren.
 Dit kan met tussenkomst zijn van een extra randomisatie in de geschikte zone.
 
-Dit protocol omschrijft de werkwijze van de desktopscreening en de evaluatie van de aanwezigheid van het doeltype in terrestrische steekproefeenheden van de MNM, en daarmee verbonden het lokaal vervangen van niet-geschikte steekproefeenheden en de celkartering van geschikte terrestrische steekproefeenheden.
+Dit protocol omschrijft de werkwijze van de desktopscreening en de evaluatie van de aanwezigheid van het doeltype in terrestrische celgebaseerde steekproefeenheden van de MNM, en daarmee verbonden het lokaal vervangen van niet-geschikte steekproefeenheden en de celkartering van geschikte terrestrische steekproefeenheden.
 
 ### Toepassingsgebied
 
