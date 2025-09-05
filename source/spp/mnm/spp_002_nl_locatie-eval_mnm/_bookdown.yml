@@ -12,7 +12,7 @@ rmd_files:
 - 07_referenties.Rmd
 - 08_appendices.Rmd
 - 09_subprotocols.Rmd
-output_dir: ../../../../../../protocoldocs/protocoldocs/docs/spp/mnm/spp_002_nl_locatie-eval_mnm
+output_dir: ../../../../../protocoldocs/docs/spp/mnm/spp_002_nl_locatie-eval_mnm
 language:
   label:
     fig: 'Figuur '
