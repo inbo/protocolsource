@@ -124,11 +124,12 @@ Kolom 1-3 betreffen terrestrische types, kolom 4 aquatische types.
 | 91E0_vo     | GD2  |             |      |             |      |           |      |
 
 Is het type terrestrisch en behoort het tot GD2?
-Dan is het een strikt grondwaterafhankelijk type.Hier wordt geboord tot je de reductiehorizont of het grondwater tegenkomt in de bovenste 3,5 m van de bodem: - kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - als je reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
+
+Dit is een strikt grondwaterafhankelijk type.Hier wordt geboord tot je de reductiehorizont of het grondwater tegenkomt in de bovenste 3,5 m van de bodem: - kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - als je reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
 
 Is het type terrestrisch en behoort het tot GD1 of GD0?
 
-Dit betreft een terrestrisch type dat niet overal grondwaterafhankelijk is (GD0 + GD1).
+Dit betreft een terrestrisch type dat niet overal grondwaterafhankelijk is (GD1) of niet grondwaterafhankelijk is (GD0).
 Wanneer de bovenzijde van de reductiehorizont of de grondwatertafel niet aangetroffen wordt binnen een diepte van 2.5m dan maakt de locatie geen onderdeel uit van de doelpopulatie van GW_03.3.De installatie wordt dan volledig gestaakt.
 Kom je de grondwatertafel of reductiehorizont wel tegen, dan boor je 1m onder de bovenkant van de reductiehorizont.
 De bevindingen worden gerapporteerd via de GIS-app.
@@ -199,4 +200,3 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf één maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
-
