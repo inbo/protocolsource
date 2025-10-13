@@ -27,7 +27,7 @@ df <- data.frame(
     "Waterdichte handschoenen",
     "Ontsmettende zeep of handgel",
     "Vegetatiehark met schaalverdeling",
-    "Flora van België (Verloove & Van Rossum, 2023) en/of andere determinatiewerken (zie Bijlage 1 @ref(sec: bijlage1))"
+    "Flora van België (Verloove & Van Rossum, 2023) en/of andere determinatiewerken (zie [Bijlage 1](#bijlage1))"
   ),
   stringsAsFactors = FALSE
 )
@@ -92,23 +92,24 @@ Een hark met telescopische steel maakt het mogelijk om waterplanten op te halen 
 Hiervoor wordt een hark van ca.
 50 cm breed op een tot 3,9 m uitschuifbare steel, bijv.
 van het merk Gardena, gemonteerd (Figuur \@ref(fig:Figuur1)).
-Op de hark wordt volièredraad (1 cm brede mazen) bevestigd met ijzerdraad om kleine en fijne waterplanten te kunnen bemonsteren (Figuur \@ref(fig: Figuur2)).
+Op de hark wordt volièredraad (1 cm brede mazen) bevestigd met ijzerdraad om kleine en fijne waterplanten te kunnen bemonsteren (Figuur \@ref(fig:Figuur2)).
 Op het vaste deel van de steel kan om de 20 cm een merkteken aangebracht worden om de waterdiepte te bepalen.
 
 ```{r Figuur1, fig.cap = "Hark met uitschuifbare steel van het merk Gardena (foto Jo Packet)"}
-knitr::include_graphics("./media/Fig1Hark.png")
-
+knitr::include_graphics(
+  file.path(path_to_protocol, "media/Fig1Hark.png")
+)
 ```
 
 ```{r Figuur2, fig.cap = "Hark met volièredraad (foto Jo Packet)"}
-
-knitr::include_graphics("media/Fig2Hark2.jpeg")
-
+knitr::include_graphics(
+  file.path(path_to_protocol, "media/Fig2Hark2.png")
+)
 ```
 
 ### Dubbelzijdige dreghark
 
-Bij inventarisatie van de vegetatie in diepere zones met een boot, wordt een dreghark gebruikt (Figuur \@ref(fig: Figuur3)).
+Bij inventarisatie van de vegetatie in diepere zones met een boot, wordt een dreghark gebruikt (Figuur \@ref(fig:Figuur3)).
 Deze bestaat uit een dubbelzijdige, metalen hark met gekromde tanden, die bedekt is met volièredraad.
 Deze worden met de rugzijden aan elkaar bevestigd.
 De dreghark is voorzien van korte steel, bevestigd aan een lange, stevige nylonkoord van een 25-tal meter lang.
@@ -116,8 +117,9 @@ Om de dreghark te gebruiken wordt deze vanuit de boot in het water geworpen zoal
 Het is belangrijk om de hark direct en in één vloeiende beweging omhoog te halen, zonder pauzes, zodat de verzamelde vegetatie erop blijft liggen.
 
 ```{r Figuur3, fig.cap = "Dubbelzijdige dreghark (Schneiders et al., 2004; foto Jo Packet)"}
-
-knitr::include_graphics("media/Fig3Hark3.jpeg")
+knitr::include_graphics(
+  file.path(path_to_protocol, "media/Fig3Hark3.png")
+)
 
 ```
 
@@ -129,14 +131,14 @@ Deze worden gelabeld met een (alcohol)stift (veldcode en datum) en/of voorzien v
 
 ### Secchi-schijf
 
-Een secchi-schijf met een diameter van 20 cm (Figuur \@ref(fig: Figuur4)) wordt gebruikt om de secchi-diepte te bepalen.
+Een secchi-schijf met een diameter van 20 cm (Figuur \@ref(fig:Figuur4)) wordt gebruikt om de secchi-diepte te bepalen.
 Het koord waaraan de secchi-schijf is bevestigd, is voorzien van een maatverdeling om de diepte te kunnen bepalen.
 Indien een secchi-schijf met andere diameter wordt gebruikt, dient dit vermeld te worden.
 
 ```{r Figuur4, fig.cap = "Secchi-schijf met maatverdeling op het touw"}
-
-knitr::include_graphics("media/Fig4Secchi.jpeg")
-
+knitr::include_graphics(
+  file.path(path_to_protocol, "media/Fig4Secchi.png")
+)
 ```
 
 ### Plooimeter
@@ -145,7 +147,7 @@ Een vouwmeter van minimaal 2 meter voor de dieptebepaling.
 
 ### Determinatiewerken
 
-Relevante determinatiewerken worden in Bijlage 1 \@ref(sec:bijlage1) opgesomd.
+Relevante determinatiewerken worden in [Bijlage 1](#bijlage1) opgesomd.
 
 ### Boot
 

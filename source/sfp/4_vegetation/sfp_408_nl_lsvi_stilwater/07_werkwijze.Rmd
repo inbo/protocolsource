@@ -29,7 +29,7 @@ Volgende taken dienen voorafgaand aan het veldbezoek uitgevoerd te worden:
 
 Navigeer met een gps naar de oever van de veldlocatie.
 
-Indien het steekproefpunt tijdelijk of permanent ongeschikt is (zie \@ref(sec: beperkingen)), wordt dit samen met de reden genoteerd op het veldformulier.
+Indien het steekproefpunt tijdelijk of permanent ongeschikt is (zie [beperkingen](#beperkingen-van-het-protocol)), wordt dit samen met de reden genoteerd op het veldformulier.
 Bij een permanent ongeschikt meetpunt wordt dit vervangen door het eerstvolgende reservepunt.
 Bij tijdelijke ongeschiktheid wordt de locatie later in het jaar of het daaropvolgende jaar opnieuw bezocht.
 Ook opmerkingen in verband met betreding en toegang worden genoteerd.
@@ -61,7 +61,7 @@ waarom voldoet de locatie niet aan de definitie van het habitattype:
 
 -   ...
 
-### Vegetatieopname {#sec: vegetatieopname}
+### Vegetatieopname {#vegetatieopname}
 
 De waterdiepte bepaald de wijze van opname:
 
@@ -87,19 +87,29 @@ Bij plassen met een zeer geleidelijk talud, bijvoorbeeld bij habitattype 3160, k
 Bij twijfel wordt de screening beperkt tot de contour van watervlakken; deze toont de begrenzing door de winterwaterstand.
 De meer afgelegen oeverzone kan in dit geval deel uitmaken van een ander habitattype (hoogveen/natte heide) en aldus volgens een ander protocol worden beoordeeld.
 
-**Bedekking individuele soorten** Eerst wordt een lijst van de aanwezige sleutel- en indicatorsoorten opgesteld (Zie veldformulieren \@ref(sec: bijlage); Bijlage 2 t.e.m. 8 en Oosterlynck et al. 2020).
-Na de volledige plas te hebben gescreend, worden de bedekkingen genoteerd met de bedekkingsschaal van Tabel \@ref(tab: bedekkingsschaal).
+**Bedekking individuele soorten** Eerst wordt een lijst van de aanwezige sleutel- en indicatorsoorten opgesteld (Zie veldformulieren [Bijlage 2 t.e.m. 8](#bijlage2) en Oosterlynck et al. 2020).
+Na de volledige plas te hebben gescreend, worden de bedekkingen genoteerd met de bedekkingsschaal van Tabel \@ref(tab:bedekkingsschaal).
 
-| Code | Tansley | Beschrijving |
-|----|----|----|
-| **r** | zeldzaam | \< 3 exemplaren |
-| **o** | occasioneel | \> of = 3 exemplaren, \< 5% bedekkend |
-| **f** | frequent | bedekkend (ca. 5 %), oplopend tot 15-20% of \> 100 exemplaren |
-| **a** | abundant | bedekking 15 (20) \< x \< 40% |
-| **cd** | co-dominant | bedekking \> 40% van meerdere soorten |
-| **d** | dominant | bedekking \> 40% van 1 soort |
+```{r bedekkingsschaal}
+df <- data.frame(
+  Code = c("r", "o", "f", "a", "cd", "d"),
+  Tansley = c("zeldzaam", "occasioneel", "frequent", "abundant", "co-dominant", "dominant"),
+  Beschrijving = c(
+    "< 3 exemplaren",
+    "> of = 3 exemplaren, < 5% bedekkend",
+    "bedekkend (ca. 5 %), oplopend tot 15-20% of > 100 exemplaren",
+    "bedekking 15 (20) < x < 40%",
+    "bedekking > 40% van meerdere soorten",
+    "bedekking > 40% van 1 soort"
+  ),
+  stringsAsFactors = FALSE
+)
 
-: Bedekkingsschaal Tansley-Meren (Schneiders et al., 20040 {#tab:bedekkingsschaal}
+pander(
+  df,
+  add_label("Bedekkingsschaal Tansley-Meren (Schneiders et al., 2004).")
+)
+```
 
 Indien identificatie op het terrein niet mogelijk is, verificatie door een specialist nodig is, of het een zeer zeldzame vondst betreft, worden (delen van) planten meegenomen in een hersluitbaar plastic zakje, licht bevochtigd en voorzien van de locatiecode om deze later in het labo te kunnen determineren.
 Het volgnummer van het herbariumspecimen wordt genoteerd op het veldformulier.
@@ -108,7 +118,7 @@ Achteraf kan dit nog enkele dagen in de koelkast worden bewaard alvorens gedeter
 
 ### Bedekking van groepen van soorten
 
-**Sleutelsoorten**: de bedekking van sleutelsoorten per habitattype wordt individueel ingeschat volgens de Tansley-schaal (Tabel \@ref(tab: bedekkingsschaal)).
+**Sleutelsoorten**: de bedekking van sleutelsoorten per habitattype wordt individueel ingeschat volgens de Tansley-schaal (Tabel \@ref(tab:bedekkingsschaal)).
 De totale bedekking (%) van alle sleutelsoorten samen wordt eveneens genoteerd.
 Voor habitattype 2190_a worden sleutelsoorten onderverdeeld in hydrofyten en niet-hydrofyten.
 Voor habitattype 3140 wordt aangegeven of de kranswiervelden bestaan uit meer of minder dan de helft uit sleutelsoorten (op basis van bedekking).
@@ -212,12 +222,12 @@ Indien meerdere typen substraat voorkomen, wordt dit ingeschat d.m.v. percentage
 
 ### Invoer veldgegevens
 
-De invoer van veldgegevens gebeurt digitaal op het terrein met een (rugged) tablet in INBOVEG (Survey = HT31xx_LSVI_StilstaandeWateren) of analoog op een veldformulier (\@ref(sec: bijlage); Bijlage 2 t.e.m. 8).
+De invoer van veldgegevens gebeurt digitaal op het terrein met een (rugged) tablet in INBOVEG (Survey = HT31xx_LSVI_StilstaandeWateren) of analoog op een veldformulier (zie [bijlage 2 t.e.m. 8](#bijlage2)).
 
 ### Determinaties
 
 Soorten die in het veld niet op naam gebracht kunnen worden, kunnen tot hooguit één week gekoeld bewaard worden.
-Ze kunnen in het labo op naam gebracht worden met een loep, stereomicroscoop of lichtmicroscoop en relevante determinatiewerken (Bijlage \@ref(sec: bijlage1)).
+Ze kunnen in het labo op naam gebracht worden met een loep, stereomicroscoop of lichtmicroscoop en relevante determinatiewerken ([Bijlage 1](#bijlage1)).
 Indien relevant, kunnen foto’s genomen worden.
 De geïdentificeerde specimen worden bewaard in een herbarium.
 

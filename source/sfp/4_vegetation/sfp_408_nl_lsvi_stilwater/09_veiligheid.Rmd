@@ -17,7 +17,7 @@ Alle aandachtspunten in verband met veilig werken.
 -   Tijdens een opname in verontreinigd water draagt men waterdichte handschoenen; na de opname wast men de handen met ontsmettende zeep om het risico op besmetting te beperken.
 
 -   Voorzichtigheid is ten zeerste geboden bij diepe wateren, bij weke waterbodem en bij gladde of zeer steile taluds.
-    In deze omstandigheden kan een alternatieve opnametechniek toegepast (zie \@ref(sec: vegetatieopname) vegetatieopname – waterdiepte bepaalt de wijze van opname).
+    In deze omstandigheden kan een alternatieve opnametechniek toegepast (zie [vegetatieopname](#vegetatieopname)) vegetatieopname – waterdiepte bepaalt de wijze van opname).
     Gebruik een reddingstouw of reddingsvest wanneer de situatie dit vereist.
 
 -   Bij bootwerk wordt er minstens met twee personen geïnventariseerd die voldoende ervaring hebben om de boot en uitrusting te bedienen.
