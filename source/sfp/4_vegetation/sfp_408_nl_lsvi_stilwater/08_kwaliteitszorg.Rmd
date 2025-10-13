@@ -9,7 +9,7 @@ In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, 
 -->
 ```
 
--   De checklist van het veldmateriaal staat in Tabel \@ref(tab:Checklist).
+-   De checklist van het veldmateriaal staat in Tabel \@ref(tab:checklist).
     Dit materiaal is in goede staat en wordt meegenomen bij de uitvoering van het veldwerk.
 
 -   Het veldformulier wordt volledig ingevuld.
@@ -22,4 +22,3 @@ In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, 
 
 -   Voor elke in INBOVEG ingevoerde opname wordt gecontroleerd of het aantal en de bedekking van de ingevoerde soorten overeenkomt met deze van het veldformulier.
     Nadat alle opnames van een veldseizoen zijn ingevoerd in INBOVEG, wordt via query’s of kruistabellen gecontroleerd of alle kenmerken voor alle opnames werden ingevoerd in INBOVEG.
-

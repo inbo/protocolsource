@@ -1,6 +1,6 @@
-# (APPENDIX) Bijlagen {.unnumbered} {#sec: bijlage}
+# (APPENDIX) Bijlagen {.unnumbered}
 
-## Bijlage 1: Determinatiewerken {#sec: bijlage1}
+## Bijlage 1: Determinatiewerken {#bijlage1}
 
 ### Algemene flora's
 
@@ -145,30 +145,30 @@
 -   Van Landuyt W.
     (2007) Herkenning van de vier in België voorkomende drijvende Lemna-soorten. Dumortiera.
 
-## Bijlage 2: Veldformulier habitattype 2190_a {#sec: bijlage2}
+## Bijlage 2: Veldformulier habitattype 2190_a {#bijlage2}
 
 [PDF Veldformulier habitattype 2190_a](./media/N2000-VeldprotocolLSVI_2190a.pdf)
 
-## Bijlage 3: Veldformulier habitattype 3110 {#sec: bijlage3}
+## Bijlage 3: Veldformulier habitattype 3110 {#bijlage3}
 
 [PDF Veldformulier habitattype 3110](./media/N2000-VeldprotocolLSVI_3110.pdf)
 
-## Bijlage 4: Veldformulier habitattype 3130_aom {#sec: bijlage4}
+## Bijlage 4: Veldformulier habitattype 3130_aom {#bijlage4}
 
 [PDF Veldformulier habitattype 3130_aom](./media/N2000-VeldprotocolLSVI_3130aom.pdf)
 
-## Bijlage 5: Veldformulier habitattype 3130_na {#sec: bijlage5}
+## Bijlage 5: Veldformulier habitattype 3130_na {#bijlage5}
 
 [PDF Veldformulier habitattype 3130_na](./media/N2000-VeldprotocolLSVI_3130na.pdf)
 
-## Bijlage 6: Veldformulier habitattype 3140 {#sec: bijlage6}
+## Bijlage 6: Veldformulier habitattype 3140 {#bijlage6}
 
 [PDF Veldformulier habitattype 3140](./media/N2000-VeldprotocolLSVI_3140.pdf)
 
-## Bijlage 7: Veldformulier habitattype 3150 {#sec: bijlage7}
+## Bijlage 7: Veldformulier habitattype 3150 {#bijlage7}
 
 [PDF Veldformulier habitattype 3150](./media/N2000-VeldprotocolLSVI_3150.pdf)
 
-## Bijlage 8: Veldformulier habitattype 3160 {#sec: bijlage8}
+## Bijlage 8: Veldformulier habitattype 3160 {#bijlage8}
 
 [PDF Veldformulier habitattype 3160](./media/N2000-VeldprotocolLSVI_3160.pdf)
