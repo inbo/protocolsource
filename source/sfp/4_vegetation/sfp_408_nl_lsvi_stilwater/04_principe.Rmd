@@ -6,3 +6,11 @@ Korte omschrijving van de principes waarop het protocol gebaseerd is.
 Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
 -->
 ```
+
+De LSVI geeft inzichten in de kwaliteit van een habitat voor een bepaalde locatie op basis van de vegetatiesamenstelling en structuurkenmerken (Oosterlynck et al. 2020).
+De LSVI-indicatoren kunnen ingedeeld worden in drie categorieën: vegetatie, verstoring en habitatstructuur.
+Voor elke indicator wordt een grenswaarde gegeven om een gunstige toestand te onderscheiden van een ongunstige toestand.
+Via dit veldprotocol worden de nodige gegevens verzameld om alle LSVI-indicatoren van de habitattypen 2190_a en 31xx te kunnen beoordelen.
+De bepaling of berekening van deze status per LSVI-indicator en het globaal eindoordeel per locatie vormt geen onderdeel van dit protocol.
+Hierbij kan de LSVI-rekenmodule gebruikt worden (Lommelen et al. 2024).
+
