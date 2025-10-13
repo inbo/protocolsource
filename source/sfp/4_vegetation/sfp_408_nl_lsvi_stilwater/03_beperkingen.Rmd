@@ -15,7 +15,7 @@ De reden hiervoor wordt genoteerd:
 -   Permanent ongeschikt (permanent niet toegankelijk, niet bereikbaar op een veilige manier, geen toestemming voor betreding, ...).
 
 De vegetatieopnames worden uitgevoerd in het groeiseizoen van de water- en oeverplanten (mei-september).
-Afhankelijk van het habitattype en de verwachte soorten worden bepaalde opnames bij voorkeur vroeger of later in het groeiseizoen uitgevoerd (Zie Tabel \@ref(tab:geschikte_maanden)) .
+Afhankelijk van het habitattype en de verwachte soorten worden bepaalde opnames bij voorkeur vroeger of later in het groeiseizoen uitgevoerd (Zie Tabel \@ref(tab:geschikte-maanden)) .
 Voor sommige habitattypen is een aanvullend veldbezoek tijdens het voorjaar noodzakelijk om sleutelsoorten te identificeren.
 Zo bereikt bijvoorbeeld Tolypella intricata, een kenmerkende soort voor habitattype 3140, een optimale groei in april-mei.
 Ook zijn voor de identificatie van waterranonkels bloeiende exemplaren nodig (mei-juni; habitattype 3130_aom).
@@ -26,15 +26,24 @@ Daarnaast kunnen sommige wateren in de zomer sterk vertroebelen door intensieve 
 
 Klimatologische factoren, zoals langdurige temperatuurextremen, kunnen de tijdelijke aan- of afwezigheid van vegetaties en specifieke indicatorsoorten beïnvloeden.
 
-|          | April | Mei | Juni | Juli | Augustus | September | Oktober |
-|----------|-------|-----|------|------|----------|-----------|---------|
-| 2190_a   | \-    | x   | x    | x    | x        | (x)       | \-      |
-| 3110     | \-    | (x) | x    | x    | x        | x         | (x)     |
-| 3130_aom | \-    | x   | x    | x    | x        | (x)       | \-      |
-| 3130_na  | \-    | x   | x    | x    | x        | x         | \-      |
-| 3140     | (x)   | x   | x    | x    | x        | (x)       | \-      |
-| 3150     | \-    | x   | x    | x    | x        | x         | \-      |
-| 3160     | (x)   | x   | x    | x    | x        | x         | x       |
+```{r geschikte-maanden}
+maanden <- data.frame(
+  Code = c("2190_a", "3110", "3130_aom", "3130_na", "3140", "3150", "3160"),
+  April = c("-", "-", "-", "-", "(x)", "-", "(x)"),
+  Mei = c("x", "(x)", "x", "x", "x", "x", "x"),
+  Juni = c("x", "x", "x", "x", "x", "x", "x"),
+  Juli = c("x", "x", "x", "x", "x", "x", "x"),
+  Augustus = c("x", "x", "x", "x", "x", "x", "x"),
+  September = c("(x)", "x", "(x)", "x", "(x)", "x", "x"),
+  Oktober = c("-", "(x)", "-", "-", "-", "-", "x"),
+  stringsAsFactors = FALSE
+)
 
-: Meest geschikte maanden voor vegetatieopname per habitattype. "x" = geschikt, "(x)" = minder geschikt, "-" = niet aangewezen. {#tab:geschikte_maanden}
 
+pander(
+  x = maanden,
+  caption = add_label(
+    'Meest geschikte maanden voor vegetatieopname per habitattype. "x" = geschikt, "(x)" = minder geschikt, "-" = niet aangewezen.'
+  )
+)
+```
