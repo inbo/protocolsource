@@ -7,3 +7,34 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
+
+In sommige omstandigheden kan er geen opname gemaakt worden.
+De reden hiervoor wordt genoteerd:
+
+-   Tijdelijk ongeschikt (tijdelijk niet toegankelijk door wegenwerken of inrichtingswerken, gevaarlijke hond, drooggevallen, te hoge waterstand, ...): het loont in dit geval de moeite om de locatie later in het jaar of tijdens het volgende jaar opnieuw te bezoeken;
+-   Permanent ongeschikt (permanent niet toegankelijk, niet bereikbaar op een veilige manier, geen toestemming voor betreding, ...).
+
+De vegetatieopnames worden uitgevoerd in het groeiseizoen van de water- en oeverplanten (mei-september).
+Afhankelijk van het habitattype en de verwachte soorten worden bepaalde opnames bij voorkeur vroeger of later in het groeiseizoen uitgevoerd (Zie Tabel \@ref(tab:geschikte_maanden)) .
+Voor sommige habitattypen is een aanvullend veldbezoek tijdens het voorjaar noodzakelijk om sleutelsoorten te identificeren.
+Zo bereikt bijvoorbeeld Tolypella intricata, een kenmerkende soort voor habitattype 3140, een optimale groei in april-mei.
+Ook zijn voor de identificatie van waterranonkels bloeiende exemplaren nodig (mei-juni; habitattype 3130_aom).
+Indien nodig, kan de soortenlijst tijdens een later veldbezoek (augustus) aangevuld worden met soorten die hun optimum later in het groeiseizoen bereiken.
+Om de kans op afsterven van watervegetatie te minimaliseren, wordt aanbevolen de vegetatieopnames best voor eind september af te ronden.
+In eutrofe plassen kan lichtdeprivatie door algenbloei leiden tot vroegtijdig afsterven van watervegetatie, soms al vanaf juni.
+Daarnaast kunnen sommige wateren in de zomer sterk vertroebelen door intensieve recreatie of vroegtijdig gemaaid worden, waardoor opnames tijdig moeten plaatsvinden.
+
+Klimatologische factoren, zoals langdurige temperatuurextremen, kunnen de tijdelijke aan- of afwezigheid van vegetaties en specifieke indicatorsoorten beïnvloeden.
+
+|          | April | Mei | Juni | Juli | Augustus | September | Oktober |
+|----------|-------|-----|------|------|----------|-----------|---------|
+| 2190_a   | \-    | x   | x    | x    | x        | (x)       | \-      |
+| 3110     | \-    | (x) | x    | x    | x        | x         | (x)     |
+| 3130_aom | \-    | x   | x    | x    | x        | (x)       | \-      |
+| 3130_na  | \-    | x   | x    | x    | x        | x         | \-      |
+| 3140     | (x)   | x   | x    | x    | x        | (x)       | \-      |
+| 3150     | \-    | x   | x    | x    | x        | x         | \-      |
+| 3160     | (x)   | x   | x    | x    | x        | x         | x       |
+
+: Meest geschikte maanden voor vegetatieopname per habitattype. "x" = geschikt, "(x)" = minder geschikt, "-" = niet aangewezen. {#tab:geschikte_maanden}
+

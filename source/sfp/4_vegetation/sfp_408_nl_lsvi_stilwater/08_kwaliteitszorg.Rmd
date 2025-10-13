@@ -8,3 +8,18 @@ Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel v
 In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
 -->
 ```
+
+-   De checklist van het veldmateriaal staat in Tabel \@ref(tab:Checklist).
+    Dit materiaal is in goede staat en wordt meegenomen bij de uitvoering van het veldwerk.
+
+-   Het veldformulier wordt volledig ingevuld.
+    Net na de inventarisatie wordt gecontroleerd of alle velden van het veldformulier zijn ingevuld.
+
+-   In INBOVEG zijn een aantal automatische controles ingebouwd of verplicht in te vullen velden aangeduid, waardoor de kans op foutief ingevoerde waarden wordt verminderd.
+
+-   Specimen die op het terrein niet op naam kunnen worden gebracht, worden meegenomen naar het labo ter identificatie.
+    Bij twijfel wordt dit specimen voorgelegd aan derden ter controle.
+
+-   Voor elke in INBOVEG ingevoerde opname wordt gecontroleerd of het aantal en de bedekking van de ingevoerde soorten overeenkomt met deze van het veldformulier.
+    Nadat alle opnames van een veldseizoen zijn ingevoerd in INBOVEG, wordt via query’s of kruistabellen gecontroleerd of alle kenmerken voor alle opnames werden ingevoerd in INBOVEG.
+

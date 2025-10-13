@@ -4,3 +4,65 @@
 \item
 :::
 
+-   Bijkerk R.
+    (2014).
+    Handboek hydrobiologie.
+    Deel 1.
+    Biologisch onderzoek voor de ecologische beoordeling van Nederlandse zoete en brakke oppervlaktewateren.
+    Stichting Toegepast Onderzoek Waterbeheer, Amersfoort.
+
+-   Decleer K.
+    (2007).
+    Europees beschermde natuur in Vlaanderen en het Belgisch deel van de Noordzee : habitattypen : dier- en plantensoorten.
+    *Mededelingen van het Instituut voor Natuur- en Bosonderzoek* 2007(1).
+    Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+-   Denys L., Packet J., Provoost S.
+    (2021).
+    De vegetatie van duinwateren aan de Vlaamse kust.
+    Kenmerken, beheer en lokale staat van instandhouding.
+    *Rapporten van het Instituut voor Natuur- en Bosonderzoek* 2021 (39).
+    Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+-   Denys L.
+    (2011).
+    Advies over de bepaling van de vegetatieontwikkeling van submerse vegetatie en enkele aanpassingen m.b.t. de beoordeling van macrofyten in Vlaamse meren voor de Europese Kaderrichtlijn Water.
+    *Adviezen van het Instituut voor Natuur- en Bosonderzoek* 2011 *(*109).
+    Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+-   Lommelen E., Oosterlynck P., Van Spaendonk G., Van Calster H., Van Hove M., Westra T.
+    (2024).
+    LSVI: Rekenmodule Lokale Staat Van Instandhouding van habitattypen.
+    R package version 0.1.3, <https://github.com/inbo/LSVI>.
+
+-   Scheers K., Packet J., Denys L., Smekens V., De Saeger S.
+    (2016).
+    BWK en Habitatkartering, een praktische handleiding.
+    Deel 3 : veldsleutel voor het typeren van stilstaande wateren in Vlaanderen.
+    *Rapporten van het Instituut voor Natuur- en Bosonderzoek* 2016 (11613720)*.* Instituut voor Natuur- en Bosonderzoek, Brussel.
+
+-   Schneiders A., Denys L., Jochems H., Vanhecke L., Triest L., Es K., Packet J., Knuysen K., Meire P. (2004).
+    Ontwikkelen van een monitoringsysteem en een beoordelingssysteem voor macrofyten in oppervlaktewateren in Vlaanderen overeenkomstig de Europese Kaderrichtlijn Water.
+    *Rapporten van het Instituut voor Natuurbehoud* 2004 (1).
+    Instituut voor Natuurbehoud, Brussel.
+
+-   Oosterlynck P., De Saeger S., Leyssen A., Provoost S., Thomaes A., Vandevoorde B., Wouters J., & Paelinckx D.
+    (2020).
+    Criteria voor de beoordeling van de lokale staat van instandhouding van de Natura2000 habitattypen in Vlaanderen.
+    *Rapporten van het Instituut voor Natuur- en Bosonderzoek* 2020 (27).
+    Instituut voor Natuur- en Bosonderzoek, Brussel.
+    DOI: [doi.org/10.21436/inbor.14061248](doi.org/10.21436/inbor.14061248)
+
+-   Westra T., Oosterlynck P., Govaere L., Leyssen A., Denys L., Packet J., Scheers K., Vanderhaeghe F.
+    and Vanden Borre J.
+    (2022).
+    Monitoring scheme for biotic habitat quality of Natura 2000 habitat types in Flanders, Belgium.
+    Revision of the monitoring design.
+    *Reports of the Research Institute for Nature and Forest* 2022 (25).
+    Research Institute for Nature and Forest, Brussels.
+    DOI: [doi.org/10.21436/inbor.85829488](doi.org/10.21436/inbor.85829488)
+
+-   Westra T., Oosterlynck P., Van Calster H., Paelinckx D., Denys L., Leyssen A., Packet J., Onkelinx T., Louette G, Waterinckx M en Quataert P (2014).
+    Monitoring Natura 2000 - habitats: meetnet habitatkwaliteit.
+    *Rapporten van het Instituut voor Natuur- en Bosonderzoek* 2014 (1414229).
+    Instituut voor Natuur- en Bosonderzoek, Brussel.
