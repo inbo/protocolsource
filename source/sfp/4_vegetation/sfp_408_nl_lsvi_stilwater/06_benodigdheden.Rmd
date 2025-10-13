@@ -6,29 +6,37 @@ Opsomming van benodigd materiaal, apparatuur, reagentia,...
 -->
 ```
 
-Tabel \@ref(tab:Checklist) geeft een overzicht van de benodigde apparatuur en materiaal dat tijdens het veldwerk wordt gebruikt; enkele daarvan specifiëren we hieronder.
+Tabel \@ref(tab:checklist) geeft een overzicht van de benodigde apparatuur en materiaal dat tijdens het veldwerk wordt gebruikt; enkele daarvan specifiëren we hieronder.
 
-|  |
-|----|
-| Veldformulier en handleiding |
-| Afgeprinte veldkaarten |
-| Schrijfgerief: papier en potlood, (alcohol)stift |
-| Klembord |
-| GSM/Smartphone (en/of handcomputer/tablet of gps; zie verder) |
-| Waterbestendig fototoestel of fototoestel met waterdichte behuizing |
-| Lieslaarzen |
-| Waadpak (zomer-/winterwaadpak) |
-| Loep |
-| Verrekijker |
-| Secchi-schijf |
-| Plooimeter |
-| Hersluitbare zakjes |
-| Waterdichte handschoenen |
-| Ontsmettende zeep of handgel |
-| Vegetatiehark met schaalverdeling |
-| Flora van België (Verloove & Van Rossum, 2023) en/of andere determinatiewerken (zie Bijlage 1 \@ref(sec: bijlage1)) |
+```{r checklist}
+df <- data.frame(
+  Item = c(
+    "Veldformulier en handleiding",
+    "Afgeprinte veldkaarten",
+    "Schrijfgerief: papier en potlood, (alcohol)stift",
+    "Klembord",
+    "GSM/Smartphone (en/of handcomputer/tablet of gps; zie verder)",
+    "Waterbestendig fototoestel of fototoestel met waterdichte behuizing",
+    "Lieslaarzen",
+    "Waadpak (zomer-/winterwaadpak)",
+    "Loep",
+    "Verrekijker",
+    "Secchi-schijf",
+    "Plooimeter",
+    "Hersluitbare zakjes",
+    "Waterdichte handschoenen",
+    "Ontsmettende zeep of handgel",
+    "Vegetatiehark met schaalverdeling",
+    "Flora van België (Verloove & Van Rossum, 2023) en/of andere determinatiewerken (zie Bijlage 1 @ref(sec: bijlage1))"
+  ),
+  stringsAsFactors = FALSE
+)
 
-: Checklist van benodigde aparatuur en materiaal. {#tab:Checklist}
+pander(
+  df,
+  caption = add_label("Checklist van benodigde aparatuur en materiaal.")
+)
+```
 
 ## Apparatuur
 
@@ -163,4 +171,3 @@ bijvoorbeeld: Zwavelzuur `1M`: verdun zwavelzuur geconcentreerd 18 maal met `ult
 Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -->
 ```
-
