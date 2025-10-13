@@ -1,65 +1,73 @@
 ---
-title: "Veldprotocol LSVI stilstaande wateren"
-subtitle: "LSVI stilwater"
+title: Veldprotocol LSVI stilstaande wateren
+subtitle: LSVI stilwater
 author:
-  - name:
-      given: "An"
-      family: "Leyssen"
-    email: "an.leyssen@inbo.be"
-    orcid: "0000-0003-3537-286X"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-    corresponding: true
-  - name:
-      given: "Jo"
-      family: "Packet"
-    email: "jo.packet@inbo.be"
-    orcid: "0000-0001-5590-323X"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-  - name:
-      given: "Kevin"
-      family: "Scheers"
-    email: "kevin.scheers@inbo.be"
-    orcid: "0000-0002-4756-4247"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-  - name:
-      given: "Vincent"
-      family: "Smeekens"
-    email: "vincent.smeekens@inbo.be"
-    orcid: "0000-0003-2996-2716"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-  - name:
-      given: "Florian"
-      family: "Van Hecke"
-    email: "florian.vanhecke@inbo.be"
-    orcid: "0009-0004-3499-2279"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+- name:
+    given: An
+    family: Leyssen
+  email: an.leyssen@inbo.be
+  orcid: 0000-0003-3537-286X
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+  corresponding: true
+- name:
+    given: Jo
+    family: Packet
+  email: jo.packet@inbo.be
+  orcid: 0000-0001-5590-323X
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+- name:
+    given: Kevin
+    family: Scheers
+  email: kevin.scheers@inbo.be
+  orcid: 0000-0002-4756-4247
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+- name:
+    given: Vincent
+    family: Smeekens
+  email: vincent.smeekens@inbo.be
+  orcid: 0000-0003-2996-2716
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+- name:
+    given: Florian
+    family: Van Hecke
+  email: florian.vanhecke@inbo.be
+  orcid: 0009-0004-3499-2279
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 reviewer:
-  - name:
-      given: "Toon"
-      family: "Westra"
-    email: "toon.westra@inbo.be"
-    orcid: "0000-0003-2478-9459"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+- name:
+    given: Toon
+    family: Westra
+  email: toon.westra@inbo.be
+  orcid: 0000-0003-2478-9459
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 file_manager:
-  - name:
-      given: "Toon"
-      family: "Westra"
-    email: "toon.westra@inbo.be"
-    orcid: "0000-0003-2478-9459"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-keywords: "LSVI; vegetatieopname; stilstaande wateren; 31xx; 2190; veldprotocol; 3110; 3130; 3130aom; 3130na; 3140; 3150; 3160"
+- name:
+    given: Toon
+    family: Westra
+  email: toon.westra@inbo.be
+  orcid: 0000-0003-2478-9459
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+keywords: LSVI; vegetatieopname; stilstaande wateren; 31xx; 2190; veldprotocol; 3110;
+  3130; 3130aom; 3130na; 3140; 3150; 3160
 language: nl
-date: "`r Sys.Date()`"
+date: '`r Sys.Date()`'
 protocol_code: sfp-408-nl
-version_number: "2025.03"
+version_number: '2025.03'
 template_name: sfp
 theme: vegetation
-community: "inbo"
+community: inbo
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
-link-citations: TRUE
+link-citations: true
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+params:
+  dependencies:
+    value:
+    - protocol_code: sfp-113-nl
+      version_number: '2023.04'
+      params: .na
+      appendix: false
 ---
 
 ```{=html}
