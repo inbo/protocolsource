@@ -1,6 +1,6 @@
 ---
 title: Veldprotocol LSVI stilstaande wateren
-subtitle: LSVI stilwater
+subtitle: 
 author:
 - name:
     given: An
