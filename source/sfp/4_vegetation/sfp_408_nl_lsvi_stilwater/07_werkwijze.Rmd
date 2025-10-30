@@ -154,9 +154,7 @@ Een overmatige aanwezigheid van hoger groeiende, meer concurrentiekrachtige plan
 -   **Isoëtiden**: Voor habitattype 3110 wordt de bedekking van isoëtiden versus andere groeivormen genoteerd, oftewel door een Tansley-inschatting per groep te noteren of door aan te kruisen of het aandeel isoëtiden groter of kleiner is dan de andere groeivormen.
 
 -   **‘Opgaande’ soorten**: voor habitattype 3130_na wordt de overgroeiing van de vegetatievlekken (definitie: zie verder) door hoger groeiende niet-sleutelsoorten ingeschat.
-    Dit is de vegetatie hoger dan 15 cm en kan naast helofyten ook bestaan uit submerse vegetatie die zorgt voor concurrentie.
-
-Een overdadige ontwikkeling van **helofyten** zorgt voor concurrentie voor licht en ruimte, waardoor de groei van ondergedoken en drijvende vegetatie wordt bemoeilijkt. De bedekking van helofyten (exclusief sleutelsoorten) wordt als percentage ingeschat bij habitattype 3130_aom, 3140 en 3150; hierbij wordt dit percentage ingeschat op plasniveau; m.n.
+    Dit is de vegetatie hoger dan 15 cm en kan naast helofyten ook bestaan uit submerse vegetatie die zorgt voor concurrentie. Een overdadige ontwikkeling van **helofyten** zorgt voor concurrentie voor licht en ruimte, waardoor de groei van ondergedoken en drijvende vegetatie wordt bemoeilijkt. De bedekking van helofyten (exclusief sleutelsoorten) wordt als percentage ingeschat bij habitattype 3130_aom, 3140 en 3150; hierbij wordt dit percentage ingeschat op plasniveau; m.n.
 % bedekking ten opzichte van het wateroppervlak. Ook bij habitattype 2190_a komt dit aan bod als de bedekking van **robuuste monocotylen**.
 
 **Horizontale structuur**
