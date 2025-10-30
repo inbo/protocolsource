@@ -63,7 +63,7 @@ waarom voldoet de locatie niet aan de definitie van het habitattype:
 
 ### Vegetatieopname {#vegetatieopname}
 
-De waterdiepte bepaald de wijze van opname:
+De waterdiepte bepaalt de wijze van opname:
 
 -   Indien de waterdiepte dit toelaat, wordt de opname al wadend uitgevoerd
 
@@ -87,7 +87,8 @@ Bij plassen met een zeer geleidelijk talud, bijvoorbeeld bij habitattype 3160, k
 Bij twijfel wordt de screening beperkt tot de contour van watervlakken; deze toont de begrenzing door de winterwaterstand.
 De meer afgelegen oeverzone kan in dit geval deel uitmaken van een ander habitattype (hoogveen/natte heide) en aldus volgens een ander protocol worden beoordeeld.
 
-**Bedekking individuele soorten** Eerst wordt een lijst van de aanwezige sleutel- en indicatorsoorten opgesteld (Zie veldformulieren [Bijlage 2 t.e.m. 8](#bijlage2) en Oosterlynck et al. 2020).
+####Bedekking individuele soorten
+Eerst wordt een lijst van de aanwezige sleutel- en indicatorsoorten opgesteld (Zie veldformulieren [Bijlage 2 t.e.m. 8](#bijlage2) en Oosterlynck et al. 2020).
 Na de volledige plas te hebben gescreend, worden de bedekkingen genoteerd met de bedekkingsschaal van Tabel \@ref(tab:bedekkingsschaal).
 
 ```{r bedekkingsschaal}
@@ -116,7 +117,7 @@ Het volgnummer van het herbariumspecimen wordt genoteerd op het veldformulier.
 Het specimen wordt best uit de zon, en zo koel mogelijk gehouden na verzamelen en tijdens transport.
 Achteraf kan dit nog enkele dagen in de koelkast worden bewaard alvorens gedetermineerd of gefixeerd te worden.
 
-### Bedekking van groepen van soorten
+#### Bedekking van groepen van soorten
 
 **Sleutelsoorten**: de bedekking van sleutelsoorten per habitattype wordt individueel ingeschat volgens de Tansley-schaal (Tabel \@ref(tab:bedekkingsschaal)).
 De totale bedekking (%) van alle sleutelsoorten samen wordt eveneens genoteerd.
@@ -127,7 +128,7 @@ Bedekking **verstoringsindicatoren**: Het percentage verstoringsindicatoren (eut
 Voor habitattype 2190_a wordt de kroosbedekking (%) genoteerd als eutrofiëringsindicator.
 
 Indien verschillende habitattypen en/of subtypen voorkomen, wordt voor elk van de typen de verstoringspercentages op plasniveau ingeschat.
-Voor bijvoorbeeld de gezamenlijke aanwezigheid van 3130_na als 3130_aom in een plas, worden eutrofiëringspercentages voor beide subtypes op de volledige plas ingeschat.
+Voor bijvoorbeeld de gezamenlijke aanwezigheid van habitattypen 3130_na als 3130_aom in een plas, worden eutrofiëringspercentages voor beide subtypes op de volledige plas ingeschat.
 
 Voor habitattype 2190_a wordt het percentage van verschillende **vegetatielagen** ingeschat:
 
@@ -143,25 +144,22 @@ Voor habitattype 2190_a wordt het percentage van verschillende **vegetatielagen*
 -   **Bomen en struiken**: percentage bedekking van het wateroppervlak en de langdurig geïnundeerde oever met bomen of struiken; enkel deze die zich in de plas bevinden of die in de geïnundeerde oever wortelen.
     Dit is een indicatie van successie.
 
-### Structuurkenmerken
+#### Structuurkenmerken
 
-#### Vertical structuur
+**Verticale structuur**
 
 De verticale structuur brengt de successie in rekening.
 Een overmatige aanwezigheid van hoger groeiende, meer concurrentiekrachtige planten bemoeilijkt de groei van de kenmerkende isoëtiden en dwergbiezen:
 
--   **Isoëtiden**: Voor HT3110 wordt de bedekking van isoëtiden versus andere groeivormen genoteerd, oftewel door een Tansley-inschatting per groep te noteren of door aan te kruisen of het aandeel isoëtiden groter of kleiner is dan de andere groeivormen.
+-   **Isoëtiden**: Voor habitattype 3110 wordt de bedekking van isoëtiden versus andere groeivormen genoteerd, oftewel door een Tansley-inschatting per groep te noteren of door aan te kruisen of het aandeel isoëtiden groter of kleiner is dan de andere groeivormen.
 
 -   **‘Opgaande’ soorten**: voor habitattype 3130_na wordt de overgroeiing van de vegetatievlekken (definitie: zie verder) door hoger groeiende niet-sleutelsoorten ingeschat.
     Dit is de vegetatie hoger dan 15 cm en kan naast helofyten ook bestaan uit submerse vegetatie die zorgt voor concurrentie.
 
-Een overdadige ontwikkeling van **helofyten** zorgt voor concurrentie voor licht en ruimte, waardoor de groei van ondergedoken en drijvende vegetatie wordt bemoeilijkt.
+Een overdadige ontwikkeling van **helofyten** zorgt voor concurrentie voor licht en ruimte, waardoor de groei van ondergedoken en drijvende vegetatie wordt bemoeilijkt. De bedekking van helofyten (exclusief sleutelsoorten) wordt als percentage ingeschat bij habitattype 3130_aom, 3140 en 3150; hierbij wordt dit percentage ingeschat op plasniveau; m.n.
+% bedekking ten opzichte van het wateroppervlak. Ook bij habitattype 2190_a komt dit aan bod als de bedekking van **robuuste monocotylen**.
 
-De bedekking van helofyten (exclusief sleutelsoorten) wordt als percentage ingeschat bij habitattype 3130_aom, 3140 en 3150; hierbij wordt dit percentage ingeschat op plasniveau; m.n.
-% bedekking ten opzichte van het wateroppervlak.
-Ook bij habitattype 2190_a komt dit aan bod als de bedekking van **robuuste monocotylen**.
-
-#### Horizontale structuur
+**Horizontale structuur**
 
 Bij de horizontale structuur wordt beoordeeld of de typische vegetaties voldoende groot zijn, de zogenaamde **vegetatievlekken** die voornamelijk bestaan uit sleutelsoorten.
 De omschrijving van de term vegetatievlek verschilt per habitattype:
@@ -179,11 +177,7 @@ Er wordt van twee vegetatievlekken gesproken indien de afstand tussen beide mins
 Er is geen minimum-oppervlakte om van een vegetatievlek te kunnen spreken.
 Wanneer de sleutelsoorten zeer schaars aanwezig zijn en er slechts enkele exemplaren worden aangetroffen, wordt dit als een vegetatievlek van de laagste grootteklasse gerekend.
 
-De oppervlakteklasse van de grootste aaneengesloten vegetatievlek wordt aangekruist op het veldformulier.
-
-Bij de doorgaans schaarse vegetaties van habitattype 3160 wordt dit criterium beoordeeld door de ruimtelijke samenhang met het hydrologisch samenhangende successiestadium ‘oligotroof en zuur overgangsveen’ (**habitattype 7140\_ oli**) te beoordelen.
-De aan- of afwezigheid van de aanpalende habitatvlekken van het habitattype 7140_oli wordt aangekruist op het veldformulier.
-Voor een beschrijving van dit habitattype wordt verwezen naar Decleer (2007).
+De oppervlakteklasse van de grootste aaneengesloten vegetatievlek wordt aangekruist op het veldformulier. Bij de doorgaans schaarse vegetaties van habitattype 3160 wordt dit criterium beoordeeld door de ruimtelijke samenhang met het hydrologisch samenhangende successiestadium ‘oligotroof en zuur overgangsveen’ (**habitattype 7140\_ oli**) te beoordelen. De aan- of afwezigheid van de aanpalende habitatvlekken van het habitattype 7140_oli wordt aangekruist op het veldformulier. Voor een beschrijving van dit habitattype wordt verwezen naar Decleer (2007).
 
 ### Algemene standplaatskenmerken
 
@@ -199,10 +193,10 @@ Aan de oeverzijde kan ingeschat worden hoeveel hoger het winterpeil is.
 **Permanentie**: Voor habitattype 2190_a wordt aangekruist of de plas permanent water bevat of niet.
 Er wordt een onderscheid gemaakt tussen: permanent waterhoudend (nooit droogvallend), semi-permanent (soms droogvallend) of periodiek droogvallend (jaarlijks droogvallend).
 
-#### Maximale diepte
+#### Maximale waterdiepte
 
-De maximale diepte wordt bepaald door middel van een plooimeter, de sonar of de lengteaanduiding op het koord van de dreghark.
-De diepteklasse van deze maximale diepte wordt vervolgens aangekruist op het veldformulier.
+De maximale waterdiepte wordt bepaald door middel van een plooimeter, de sonar of de lengteaanduiding op het koord van de dreghark.
+De diepteklasse van deze maximale waterdiepte wordt vervolgens aangekruist op het veldformulier.
 
 #### Helderheid van de waterkolom
 
@@ -215,14 +209,14 @@ Zie ook protocol [sfp-113-nl 2023.04](../2023.04/index.html).
 
 #### Bodemsubstraat
 
-Voor 2190_a wordt het bodemsubstraat genoteerd: zand, klei, veraard veen, puin of overig substraat.
+Voor habitattype 2190_a wordt het bodemsubstraat genoteerd: zand, klei, veraard veen, puin of overig substraat.
 Indien meerdere typen substraat voorkomen, wordt dit ingeschat d.m.v. percentages.
 
 ## Registratie en bewaring van resultaten
 
 ### Invoer veldgegevens
 
-De invoer van veldgegevens gebeurt digitaal op het terrein met een (rugged) tablet in INBOVEG (Survey = HT31xx_LSVI_StilstaandeWateren) of analoog op een veldformulier (zie [bijlage 2 t.e.m. 8](#bijlage2)).
+De invoer van veldgegevens gebeurt digitaal op het terrein met een (rugged) tablet in INBOVEG (Survey = HT31xx_LSVI_StilstaandeWateren en HT2190_a_LSVI_StilstaandeWateren) of analoog op een veldformulier (zie [bijlage 2 t.e.m. 8](#bijlage2)).
 
 ### Determinaties
 
