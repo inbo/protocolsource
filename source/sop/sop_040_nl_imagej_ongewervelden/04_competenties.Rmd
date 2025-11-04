@@ -6,3 +6,6 @@ Omschrijving van de basiskennis en vaardigheden, die de gebruiker van het protoc
 Eventueel kan er verwezen worden naar bepaalde opleidingen.
 -->
 ```
+
+N.v.t.
+

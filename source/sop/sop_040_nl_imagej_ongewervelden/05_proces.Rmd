@@ -6,3 +6,6 @@ gebruik bijvoorbeeld `draw.io` en exporteer als png
 of maak het schema met een R package zoals `visNetwork`
 -->
 ```
+
+N.v.t.
+
