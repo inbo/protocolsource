@@ -84,7 +84,7 @@ df <- data.frame(
 )
 
 pander(df, caption = add_label("Overzicht naamgeving"), split.tables = Inf)
-
+ 
 ```
 
 ## Herhalen
