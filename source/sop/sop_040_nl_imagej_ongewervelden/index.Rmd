@@ -15,18 +15,24 @@ reviewer:
     email: "jan.vanuytvanck@inbo.be"
     orcid: "0000-0002-1946-7917"
     affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+  - name:
+      given: "Timon"
+      family: "Boumon"
+    email: "timon.boumon@inbo.be"
+    orcid: "0009-0000-5136-9447"
+    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
 file_manager:
   - name:
-      given: "Jan"
-      family: "Van Uytvanck"
-    email: "jan.vanuytvanck@inbo.be"
-    orcid: "0000-0002-1946-7917"
+      given: "Anouk"
+      family: "Ollevier"
+    email: "anouk.ollevier@inbo.be"
+    orcid: "0000-0003-2758-4723"
     affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
 keywords: "imagej; beeldverwerking"
 language: nl
 date: "`r Sys.Date()`"
 protocol_code: sop-040-nl
-version_number: "2025.03"
+version_number: "2025.01"
 template_name: sop
 community: "inbo"
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
@@ -47,6 +53,7 @@ Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
 -->
 ```
+
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(

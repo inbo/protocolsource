@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
 # Werkwijze
 
 ```{=html}
@@ -7,3 +13,85 @@ Deze stappen staan schematisch weergegeven in het processchema.
 Subtitels gebruiken om elke stap te omschrijven.
 -->
 ```
+
+## 1. Openen van de foto
+
+Open ImageJ [2]
+
+Laad de groepsfoto in via File \> Open
+
+De groepsfoto’s vbevinden zich in de map: G:\Gedeelde
+drives\Procesbeheer\PB11_Plotbemonstering\PB\_Plot_Invertebraten\FOTO\_SubPlot_Invertebraten\Groepsfoto
+
+## 2. Schaal instellen
+
+Gebruik de Straight line tool en trek een lijn tussen de twee aangeduide
+referentiepunten. In het labo werden de punten werden zo geplaatst dat
+ze op een afstand van 50 of 150 mm van elkaar liggen. Als de punten in
+een vierkant liggen, zijn beide zijden 150 mm lang. Als ze een balk
+vormen, dan is de korte zijde 50 mm en de lange zijde 150 mm.
+
+Klik vervolgens op Analyze \> Set Scale. De waarde in pixels verschijnt
+automatisch. Vul bij Known distance 5 of 15 in, afhankelijk van de
+werkelijke afstand, en noteer bij Unit of length “cm”.
+
+Klik op OK.
+
+## 3. Threshold instellen
+
+Klik op Image \> Adjust \> Color Threshold.
+
+Pas alleen de twee waarden onder Brightness aan: zet de eerste waarde op
+0 en kies voor de tweede een waarde tussen 160 en 220. De bedoeling is
+dat de organismen duidelijk rood gemarkeerd zijn, zonder dat de
+achtergrond te sterk meekleurt. Een paar rode puntjes in de achtergrond
+zijn geen probleem, want die kunnen later worden uitgefilterd.
+
+## 4. Analyse per taxonomische groep Groepeer en selecteer
+
+de organismen van één bepaalde taxonomische groep via de polygon tool.
+Trek een polygon rondom de groep.
+
+Klik op Analyze \> Analyze particles
+
+Om ervoor te zorgen dat de kleine rode spikkels op de achtergrond niet
+worden mee geanalyseerd stel je Size (cm\^2) in op ‘0.015-Infinity’. Dit
+zorgt ervoor dat objecten kleiner dan 0.015 cm² er worden uit gefilterd.
+
+Kies bij Show voor Overlay Masks, zodat de geselecteerde organismen na
+de analyse zichtbaar en genummerd zijn.
+
+Klik op OK.\
+
+```{r}
+knitr::include_graphics("media/Afbeelding1.png")
+```
+
+Via Analyze Particles worden de objecten – hier dus de organismen –
+automatisch geteld en gemeten (o.a. oppervlakte). De resultaten
+verschijnen in twee vensters: Results, waarin de metingen per
+individueel object binnen de polygon worden weergegeven, en Summary, dat
+een samenvatting toont van alle metingen voor de geselecteerde groep.
+
+## 5. Opslaan van resultaten
+
+Sla zowel het bestand Summary als Results op. Gebruik daarbij een vaste
+naamgeving:
+
+*foto-analyse-typeoutput-subplotcode-diergroep-datum(YYYY-MM-DD)*
+
+*Bijvoorbeeld: foto-analyse-summary-dwhp-03c-kevers-2022-06-01*
+
+| Onderdeel | Omschrijving | Omschrijving |
+|:---------------------|:-------------------------|:-----------------------|
+| foto-analyse | Vast voorvoegsel, zodat alle bestanden van dezelfde analyse makkelijk terug te vinden zijn. | foto-analyse |
+| typeoutput | Geeft aan welk type bestand het is: summary of results. | summary |
+| subplotcode | De code die verwijst naar de subplot. | dwhp-03c |
+| diergroep | De onderzochte diergroep. | kevers, wantsen, spinnen, ... |
+| datum (YYYY-MM-DD) | De datum van staalname (dus niet de datum van de analyse in ImageJ). | 2022-06-01 |
+
+## 6. Herhalen
+
+Voer stap 4 en 5 opnieuw uit voor elke taxonomische groep die aanwezig
+is op de groepsfoto. Zorg ervoor dat alle resultaten op dezelfde manier
+benoemd en opgeslagen worden.
