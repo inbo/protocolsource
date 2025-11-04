@@ -1,6 +1,5 @@
 # Referenties {.unnumbered}
 
-::: {#refs}
 [1] Instituut voor Natuur- en Bosonderzoek.
 (z.d.).
 Doel.
@@ -12,4 +11,3 @@ Procesbeheer INBO.
 NIH Image to ImageJ: 25 years of image analysis.
 Nature Methods, 9(7), 671–675.
 <doi:10.1038/nmeth.2089>
-:::
