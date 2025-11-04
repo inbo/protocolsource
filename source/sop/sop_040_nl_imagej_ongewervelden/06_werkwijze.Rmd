@@ -1,0 +1,9 @@
+# Werkwijze
+
+```{=html}
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het protocol uit te voeren.
+Deze stappen staan schematisch weergegeven in het processchema.
+Subtitels gebruiken om elke stap te omschrijven.
+-->
+```
