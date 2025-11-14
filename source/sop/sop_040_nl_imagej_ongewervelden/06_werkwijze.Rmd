@@ -19,7 +19,7 @@ De groepsfoto’s bevinden zich in de map: `G:\Gedeelde drives\Procesbeheer\PB11
 ## Schaal instellen
 
 Gebruik de Straight line tool en trek een lijn tussen de twee aangeduide referentiepunten.
-In het labo werden de punten werden zo geplaatst dat ze op een afstand van 50 of 150 mm van elkaar liggen.
+In het labo werden de punten zo geplaatst dat ze op een afstand van 50 of 150 mm van elkaar liggen.
 Als de punten in een vierkant liggen, zijn beide zijden 150 mm lang.
 Als ze een balk vormen, dan is de korte zijde 50 mm en de lange zijde 150 mm.
 
