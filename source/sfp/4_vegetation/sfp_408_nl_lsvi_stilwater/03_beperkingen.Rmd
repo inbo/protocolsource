@@ -20,9 +20,9 @@ Voor sommige habitattypen is een aanvullend veldbezoek tijdens het voorjaar nood
 Zo bereikt bijvoorbeeld *Tolypella intricata*, een kenmerkende soort voor habitattype 3140, een optimale groei in april-mei.
 Ook zijn voor de identificatie van waterranonkels bloeiende exemplaren nodig (mei-juni; habitattype 3130_aom).
 Indien nodig, kan de soortenlijst tijdens een later veldbezoek (augustus) aangevuld worden met soorten die hun optimum later in het groeiseizoen bereiken.
-Om de kans op afsterven van watervegetatie te minimaliseren, wordt aanbevolen de vegetatieopnames best voor eind september af te ronden.
+Om de kans op afsterven van watervegetatie te minimaliseren, wordt aanbevolen de screening van de vegetatiesamenstelling best voor eind september uit te voeren.
 In eutrofe plassen kan lichtdeprivatie door algenbloei leiden tot vroegtijdig afsterven van watervegetatie, soms al vanaf juni.
-Daarnaast kunnen sommige wateren in de zomer sterk vertroebelen door intensieve recreatie of vroegtijdig gemaaid worden, waardoor opnames tijdig moeten plaatsvinden.
+Daarnaast kunnen sommige wateren in de zomer sterk vertroebelen door intensieve recreatie of vroegtijdig gemaaid worden, waardoor veldbezoeken tijdig moeten plaatsvinden.
 
 Klimatologische factoren, zoals langdurige temperatuurextremen, kunnen de tijdelijke aan- of afwezigheid van vegetaties en specifieke indicatorsoorten beïnvloeden.
 
@@ -43,7 +43,7 @@ maanden <- data.frame(
 pander(
   x = maanden,
   caption = add_label(
-    'Meest geschikte maanden voor vegetatieopname per habitattype. "x" = geschikt, "(x)" = minder geschikt, "-" = niet aangewezen.'
+    'Meest geschikte maanden voor screening van de vegetatiesamenstelling per habitattype. "x" = geschikt, "(x)" = minder geschikt, "-" = niet aangewezen.'
   )
 )
 ```
