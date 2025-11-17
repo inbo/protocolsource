@@ -14,10 +14,10 @@ De reden hiervoor wordt genoteerd:
 -   Tijdelijk ongeschikt (tijdelijk niet toegankelijk door wegenwerken of inrichtingswerken, gevaarlijke hond, drooggevallen, te hoge waterstand, ...): het loont in dit geval de moeite om de locatie later in het jaar of tijdens het volgende jaar opnieuw te bezoeken;
 -   Permanent ongeschikt (permanent niet toegankelijk, niet bereikbaar op een veilige manier, geen toestemming voor betreding, ...).
 
-De vegetatieopnames worden uitgevoerd in het groeiseizoen van de water- en oeverplanten (mei-september).
-Afhankelijk van het habitattype en de verwachte soorten worden bepaalde opnames bij voorkeur vroeger of later in het groeiseizoen uitgevoerd (Zie Tabel \@ref(tab:geschikte-maanden)).
+Het veldbezoek wordt uitgevoerd in het groeiseizoen van de water- en oeverplanten (mei-september).
+Afhankelijk van het habitattype en de verwachte soorten worden bepaalde veldbezoeken bij voorkeur vroeger of later in het groeiseizoen uitgevoerd (Zie Tabel \@ref(tab:geschikte-maanden)).
 Voor sommige habitattypen is een aanvullend veldbezoek tijdens het voorjaar noodzakelijk om sleutelsoorten te identificeren.
-Zo bereikt bijvoorbeeld Tolypella intricata, een kenmerkende soort voor habitattype 3140, een optimale groei in april-mei.
+Zo bereikt bijvoorbeeld *Tolypella intricata*, een kenmerkende soort voor habitattype 3140, een optimale groei in april-mei.
 Ook zijn voor de identificatie van waterranonkels bloeiende exemplaren nodig (mei-juni; habitattype 3130_aom).
 Indien nodig, kan de soortenlijst tijdens een later veldbezoek (augustus) aangevuld worden met soorten die hun optimum later in het groeiseizoen bereiken.
 Om de kans op afsterven van watervegetatie te minimaliseren, wordt aanbevolen de vegetatieopnames best voor eind september af te ronden.
