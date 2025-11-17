@@ -15,7 +15,7 @@ Volgende taken dienen voorafgaand aan het veldbezoek uitgevoerd te worden:
 
 -   Afdruk van veldkaarten met gepast schaalniveau en de recentst beschikbare orthofoto, bij voorkeur op A3 formaat.
 
--   Afdruk van veldformulieren van de verschillende habiattypen (dubbelzijdig)
+-   Afdruk van veldformulieren van de verschillende habitattypen (dubbelzijdig)
 
 -   Offline zetten van eventuele kaarten/applicaties op handcomputer/tablet voor het geval mobiele data niet beschikbaar is in het veld
 
@@ -23,7 +23,7 @@ Volgende taken dienen voorafgaand aan het veldbezoek uitgevoerd te worden:
 
 -   Adres of routebeschrijving van locatie opzoeken
 
--   Inschatten of een (belly)boot nodig is voor het uitvoeren van de vegetatieopname
+-   Inschatten of een (belly)boot nodig is voor het uitvoeren van de screening van de vegetatiesamenstelling
 
 ### Lokaliseren en documenteren van veldlocatie
 
@@ -34,10 +34,10 @@ Bij een permanent ongeschikt meetpunt wordt dit vervangen door het eerstvolgende
 Bij tijdelijke ongeschiktheid wordt de locatie later in het jaar of het daaropvolgende jaar opnieuw bezocht.
 Ook opmerkingen in verband met betreding en toegang worden genoteerd.
 
-Alvorens het water betreden wordt, wordt ingeschat wat de geschikte kledij is voor de opname.
+Alvorens het water betreden wordt, wordt ingeschat wat de geschikte kledij is voor de screening.
 Bij ondiepe plassen kan er gekozen worden voor lieslaarzen of een waadpak.
 Bij diepe plassen zal het gebruik van een boot noodzakelijk zijn.
-Wanneer er met een boot gewerkt wordt, dienen minstens 3 personen aanwezig te zijn: 2 in de boot voor de opname en iemand op de oever.
+Wanneer er met een boot gewerkt wordt, dienen minstens 3 personen aanwezig te zijn: 2 in de boot voor de screening en iemand op de oever.
 Men dient zich aan de veiligheidsvoorschriften te houden.
 
 ### Bepaling aanwezige habitattypen
@@ -61,17 +61,17 @@ waarom voldoet de locatie niet aan de definitie van het habitattype:
 
 -   ...
 
-### Vegetatieopname {#vegetatieopname}
+### Screening van de vegetatiesamenstelling {#vegetatieopname}
 
-De waterdiepte bepaalt de wijze van opname:
+De waterdiepte bepaalt de wijze van screening:
 
--   Indien de waterdiepte dit toelaat, wordt de opname al wadend uitgevoerd
+-   Indien de waterdiepte dit toelaat, wordt de screening al wadend uitgevoerd.
 
 -   Indien het centrale deel van de plas ondoorwaadbaar is, maar de zone nabij de oever wel doorwaadbaar is, wordt het diepere deel harkend vanuit de doorwaadbare zone bemonsterd.
 
 -   In diepe, grotere wateren wordt met behulp van een kleine boot geïnventariseerd.
 
-Vertrek vanop de oever van de locatie, waad langsheen de oever om de vegetatieopname te maken.
+Vertrek vanop de oever van de locatie, waad langsheen de oever om de screening van de vegetatiesamenstelling te maken.
 Dit kan in wijzerszin of tegenwijzerzin gebeuren, afhankelijk van de stand van de zon.
 Waden met de zon in de rug is optimaal, omdat dit de zichtbaarheid van de submerse vegetatie vergroot en de reflectie beperkt.
 Bij ondiepe plassen wordt zig-zag-gewijs van de oever naar het centrale deel van de plas gewaad om een beeld te krijgen van de volledige plas.
@@ -82,8 +82,8 @@ Eerst wordt de kolonisatiediepte bepaald, dit is de maximale diepte waar er vege
 Daarna wordt de vegetatiezone in transecten gevaren, waarbij op verschillende dieptes de vegetatie met een dreghark wordt bemonsterd.
 Het diepe onbegroeide deel wordt tenslotte sporadisch bemonsterd om te checken op vegetatie.
 
-De vegetatieopname wordt beperkt tot het waterdeel en de oeverzone die frequent onder water komt te staan.
-Bij plassen met een zeer geleidelijk talud, bijvoorbeeld bij habitattype 3160, kan de overgang van de oeverzone soms breed zijn; hier wordt echter de directe oeverzone inbegrepen in de opname.
+De screening van de vegetatiesamenstelling wordt beperkt tot het waterdeel en de oeverzone die frequent onder water komt te staan.
+Bij plassen met een zeer geleidelijk talud, bijvoorbeeld bij habitattype 3160, kan de overgang van de oeverzone soms breed zijn; hier wordt echter de directe oeverzone inbegrepen in de screening.
 Bij twijfel wordt de screening beperkt tot de contour van watervlakken; deze toont de begrenzing door de winterwaterstand.
 De meer afgelegen oeverzone kan in dit geval deel uitmaken van een ander habitattype (hoogveen/natte heide) en aldus volgens een ander protocol worden beoordeeld.
 
@@ -182,10 +182,10 @@ De oppervlakteklasse van de grootste aaneengesloten vegetatievlek wordt aangekru
 #### Waterpeil
 
 **Waterpeil**: Een afwijkend waterpeil wordt genoteerd.
-Bij een uitzonderlijk hoog waterpeil wordt afgeraden om een vegetatieopname te maken, enerzijds omwille van veiligheid en anderzijds vanwege het beperkt doorzicht dat meestal gepaard gaat met een uitzonderlijk hoog waterpeil.
+Bij een uitzonderlijk hoog waterpeil wordt afgeraden om de screening uit te voeren, enerzijds omwille van veiligheid en anderzijds vanwege het beperkt doorzicht dat meestal gepaard gaat met een uitzonderlijk hoog waterpeil.
 
 **Schommeling winter/zomer**: de schommeling tussen winter- en zomerwaterpeil wordt ingeschat door de vegetatie en structuurkenmerken van de oeverzone net boven het waterpeil te beoordelen.
-De vegetatieopname vindt plaats tijdens het seizoen wanneer het waterpeil doorgaans het laagst staat.
+De screening vindt plaats tijdens het seizoen wanneer het waterpeil doorgaans het laagst staat.
 Aan de oeverzijde kan ingeschat worden hoeveel hoger het winterpeil is.
 
 **Permanentie**: Voor habitattype 2190_a wordt aangekruist of de plas permanent water bevat of niet.
