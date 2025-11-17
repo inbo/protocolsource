@@ -12,13 +12,13 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
 
 -   STAP 2.
     **Navigeer met GPS naar de locatie**.
-    Bepaal of de locatie geschikt is voor een vegetatie-opname.
+    Bepaal of de locatie geschikt is voor een screening van de vegetatiesamenstelling.
     Is de locatie toegankelijk?
     Is het habitattype aanwezig (niet steeds op het eerste zicht te bepalen).
-    Indien de plas ontoegankelijk is of geen habitat blijkt te bevatten wordt dit gedocumenteerd en wordt er geen opname gemaakt.
+    Indien de plas ontoegankelijk is of geen habitat blijkt te bevatten wordt dit gedocumenteerd en wordt er geen screening gemaakt.
 
 -   STAP 3.
-    **Voer de vegetatieopname uit**.
+    **Voer de screening van de vegetatiesamenstelling uit**.
     Afhankelijk van de waterdiepte gebeurt dit op één van volgende manieren: door het water wadend, harkend vanuit het doorwaadbare deel, harkend vanaf de oever of met boot.
     Ook de **standplaatskenmerken worden genoteerd** op het veldformulier.
 
