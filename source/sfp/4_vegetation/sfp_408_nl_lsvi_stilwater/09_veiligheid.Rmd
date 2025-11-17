@@ -6,7 +6,7 @@ Alle aandachtspunten in verband met veilig werken.
 -->
 ```
 
--   Voor opnames in ondiepe wateren (waterdiepte \< 1 m) kan alleen op terrein worden gegaan; bij diepere wateren (\> 2 m) wordt steeds met 2 personen op het terrein gegaan.
+-   Voor screeningen van de vegetatiesamenstellingen in ondiepe wateren (waterdiepte \< 1 m) kan alleen op terrein worden gegaan; bij diepere wateren (\> 2 m) wordt steeds met 2 personen op het terrein gegaan.
     Voor wateren met een diepte tussen 1 en 2 m hangt het van de veldomstandigheden af of het veldwerk alleen kan uitgevoerd worden of niet.
 
 -   Neem steeds een hark of stevige stok mee bij het waden.
@@ -17,7 +17,7 @@ Alle aandachtspunten in verband met veilig werken.
 -   Tijdens een opname in verontreinigd water draagt men waterdichte handschoenen; na de opname wast men de handen met ontsmettende zeep om het risico op besmetting te beperken.
 
 -   Voorzichtigheid is ten zeerste geboden bij diepe wateren, bij weke waterbodem en bij gladde of zeer steile taluds.
-    In deze omstandigheden kan een alternatieve opnametechniek toegepast (zie [vegetatieopname](#vegetatieopname)) vegetatieopname – waterdiepte bepaalt de wijze van opname).
+    In deze omstandigheden kan een alternatieve opnametechniek toegepast (zie [screening van de vegetatiesamenstelling](#vegetatieopname)) screening – waterdiepte bepaalt de wijze van opname).
     Gebruik een reddingstouw of reddingsvest wanneer de situatie dit vereist.
 
 -   Bij bootwerk wordt er minstens met twee personen geïnventariseerd die voldoende ervaring hebben om de boot en uitrusting te bedienen.
