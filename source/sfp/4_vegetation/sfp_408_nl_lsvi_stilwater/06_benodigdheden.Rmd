@@ -39,7 +39,7 @@ pander(
 )
 ```
 ```{r checklist_boot}
-df <- data.frame(
+df2 <- data.frame(
   Item = c(
     "Reddingsvesten (1 per persoon)",
     "Reddingstouw",
@@ -51,7 +51,7 @@ df <- data.frame(
 )
 
 pander(
-  df,
+  df2,
   caption = add_label("Checklist van benodigde apparatuur en materiaal voor bootwerk in diepe wateren.")
 )
 ```
