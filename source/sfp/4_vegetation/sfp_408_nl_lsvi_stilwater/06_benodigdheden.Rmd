@@ -7,7 +7,7 @@ Opsomming van benodigd materiaal, apparatuur, reagentia,...
 ```
 
 Tabel \@ref(tab:checklist) geeft een overzicht van de benodigde apparatuur en materiaal dat tijdens het veldwerk wordt gebruikt; enkele daarvan specifiëren we hieronder.
-Tabel \@ref(tab:checklist_boot) geeft de benodigde apparatuur en materiaal voor bootwerk in diepe wateren.
+Tabel \@ref(tab:checklistboot) geeft de benodigde apparatuur en materiaal voor bootwerk in diepe wateren.
 
 ```{r checklist}
 df <- data.frame(
@@ -38,7 +38,7 @@ pander(
   caption = add_label("Checklist van benodigde apparatuur en materiaal.")
 )
 ```
-```{r checklist_boot}
+```{r checklistboot}
 df2 <- data.frame(
   Item = c(
     "Reddingsvesten (1 per persoon)",
