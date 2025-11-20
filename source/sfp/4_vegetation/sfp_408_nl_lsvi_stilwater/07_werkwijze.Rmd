@@ -87,7 +87,7 @@ Bij plassen met een zeer geleidelijk talud, bijvoorbeeld bij habitattype 3160, k
 Bij twijfel wordt de screening beperkt tot de contour van watervlakken; deze toont de begrenzing door de winterwaterstand.
 De meer afgelegen oeverzone kan in dit geval deel uitmaken van een ander habitattype (hoogveen/natte heide) en aldus volgens een ander protocol worden beoordeeld.
 
-####Bedekking individuele soorten
+#### Bedekking individuele soorten
 Eerst wordt een lijst van de aanwezige sleutel- en indicatorsoorten opgesteld (Zie veldformulieren [Bijlage 2 t.e.m. 8](#bijlage2) en Oosterlynck et al. 2020).
 Na de volledige plas te hebben gescreend, worden de bedekkingen genoteerd met de bedekkingsschaal van Tabel \@ref(tab:bedekkingsschaal).
 
