@@ -67,6 +67,7 @@ params:
       version_number: '2023.04'
       params: .na
       appendix: false
+doi: 10.5281/zenodo.17668730
 ---
 
 ```{=html}
