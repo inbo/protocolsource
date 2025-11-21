@@ -190,6 +190,36 @@
       "email": "kristof.baert@inbo.be",
       "orcid": "0000-0002-1910-1114",
       "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Jo",
+        "family": "Packet"
+      },
+      "type": "Researcher",
+      "email": "jo.packet@inbo.be",
+      "orcid": "0000-0001-5590-323X",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Vincent",
+        "family": "Smeekens"
+      },
+      "type": "Researcher",
+      "email": "vincent.smeekens@inbo.be",
+      "orcid": "0000-0003-2996-2716",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Florian",
+        "family": "Van Hecke"
+      },
+      "type": "Researcher",
+      "email": "florian.vanhecke@inbo.be",
+      "orcid": "0009-0004-3499-2279",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
     }
   ]
 }

@@ -1,0 +1,20 @@
+# Vereiste competenties
+
+```{=html}
+<!--
+Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het protocol op een gepaste manier te kunnen uitvoeren.
+Eventueel kan er verwezen worden naar bepaalde opleidingen.
+-->
+```
+
+Er is voldoende kennis van de veldkenmerken van macrofyten die in stilstaande wateren worden aangetroffen vereist.
+Daarnaast dient men vertrouwd te zijn met technieken om ze te kunnen identificeren.
+Het gebruik van de Secchi-schijf (protocol [sfp-113-nl 2023.04](../2023.04/index.html)) moet bekend zijn.
+
+Daarnaast zijn volgende algemene competenties vereist (naar Bijkerk, 2014):
+
+-   Nauwkeurigheid:de uitvoering van veldmetingen en het vastleggen van veldwaarnemingen vereisen een grote mate van accuraatheid;
+-   Vermogen te plannen en te organiseren: bij de uitvoering van meetprogramma’s moeten tal van werkzaamheden gepland, georganiseerd en op elkaar afgestemd worden. De veldmedewerker moet in staat zijn om hier zelfstandig of in overleg met de projectleider uitvoering aan te geven;
+-   Zelfstandigheid: de veldmedewerker moet in staat zijn om het merendeel van de werkzaamheden zelfstandig (op locatie) uit te voeren;
+-   Vermogen tot samenwerken en communiceren;
+-   De veldmedewerker moet op de hoogte zijn van de na te leven veiligheidsprotocollen die gebonden zijn aan het uitvoeren van taken in, op en rond water. De veldmedewerker moet dan ook fysiek in staat kunnen zijn om dit protocol in veilige omstandigheden te kunnen uitvoeren (kunnen zwemmen, ...).
