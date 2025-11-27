@@ -41,13 +41,30 @@ Geef dit aan in de GIS-applicatie.
 Het terugvinden van aquatische steekproefeenheden vereist sowieso geen nauwkeurige locatiebepaling; een GPS-ontvanger zal daar volstaan.
 Het vinden van een reeds geselecteerd staalnamepunt van een aquatisch type (zie [protocol spp-116-nl 2024.05](https://inbo.github.io/protocols/2024.05/index.html) en [protocol spp-117-nl 2024.06](https://inbo.github.io/protocols/2024.06/index.html) vereist wel het gebruik van een RTK-GPS-ontvanger.
 
-## Optioneel: gebruik van bestaande peilbuis
+## Optioneel: gebruik van bestaande meetlocaties
 
-Vele duizenden peilbuizen werden reeds geplaatst in Vlaanderen de voorbije decennia, zoals te zien in Watina.
+Vele duizenden buizen werden reeds geplaatst in Vlaanderen de voorbije decennia, zoals te zien in Watina.
 De kans bestaat dat er reeds een peilbuis of piëzometer aanwezig is in de buurt van de opgegeven steekproefeenheid.
 De keuze om een nabijgelegen bestaande peilbuis of piëzometer op te nemen in het grondwatermeetnet van de MNM in plaats van een nieuwe te plaatsen, is afhankelijk van de afstand tussen de bestaande en de nieuw te plaatsen buis, de kwaliteit van de plaatsing van de bestaande buis, de status van de bestaande buis en de kwaliteit en lengte van de lopende tijdsreeks van de bestaande buis.
-De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie.
-Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.
+Hieronder worden de criteria in detail beschreven.
+
+### nabijgelegenheid van bestaand meetpunt
+
+meetpunten die binnen de celkarteringseenheid of een straal van 10m van deze eenheid liggen komen in aanmerking.
+Er mogen geen geografische barrières of verschillen aanwezig zijn zoals grachten of hellingen.
+
+### kwaliteit van de plaatsing van de bestaande buis
+
+Volgende zaken zijn gedefinieerd in de Watina-databank: - lengte van de buis, lengte van de filter en diameter zijn gedefinieerd - de diameter bedraagt 5cm - de lengte van de filter bedraagt 40-60 cm - de boorstaat is beschreven
+
+### status van de buis, lengte en kwaliteit van de tijdsreeksen
+
+-   het overnemen van een bestaand meetpunt mag niet ten koste gaan van lopend onderzoek. Controleer steeds de toestand van de buis in de Watina-databank. Neem bij actief bemeten buizen steeds De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie. Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.Volgende criteria moeten in acht genomen worden: De peilbuis wordt manueel/handmatig opgemeten
+
+### koppeling met bestaande MNM-meetpunten
+
+Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderstaande voorwaarden wordt voldaan: - de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten.
+De celkateringspolygonen hoeven elkaar niet te raken -
 
 ## Positionering en evaluatie van installatiepunt(en)
 
