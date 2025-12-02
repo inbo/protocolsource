@@ -220,6 +220,17 @@
       "email": "florian.vanhecke@inbo.be",
       "orcid": "0009-0004-3499-2279",
       "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Anouk",
+        "family": "Ollevier"
+      },
+      "type": "Researcher",
+      "email": "anouk.ollevier@inbo.be",
+      "orcid": "0000-0003-2758-4723",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "corresponding": true
     }
   ]
 }
