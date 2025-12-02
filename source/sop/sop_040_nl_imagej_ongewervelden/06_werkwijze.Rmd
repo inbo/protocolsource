@@ -14,18 +14,7 @@ Open ImageJ [2]
 
 Laad de groepsfoto in via File \> Open
 
-De groepsfoto’s bevinden zich in de map:
-
-```         
-G:\Gedeelde drives\Procesbeheer
-    |-- PB11
-        |-- _Plotbemonstering
-            |-- PB
-                |--__Plot_Invertebraten
-                    |-- FOTO
-                         |-- _SubPlot_Invertebraten
-                             |-- Groepsfoto
-```
+De groepsfoto’s bevinden zich in de map: G:\\ Gedeelde drives\\ Procesbeheer\\ PB11_Plotbemonstering\\ PB_Plot_Invertebraten\\ FOTO_SubPlot_Invertebraten\\ Groepsfoto
 
 ## Schaal instellen
 
