@@ -1,3 +1,10 @@
+### First version of protocol: sop-040-nl
+
+- Title: Abundantie- en oppervlaktebepaling van groepsfoto’s met ongewervelden in ImageJ
+- Published on: 2025-12-02
+- Version number: 2025.04
+- Link to this version: [sop-040-nl version 2025.04](2025.04/index.html)
+
 ### First version of protocol: sfp-408-nl
 
 - Title: Veldprotocol LSVI stilstaande wateren

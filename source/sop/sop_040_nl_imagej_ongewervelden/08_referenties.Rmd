@@ -1,0 +1,13 @@
+# Referenties {.unnumbered}
+
+[1] Instituut voor Natuur- en Bosonderzoek.
+(z.d.).
+Doel.
+Procesbeheer INBO.
+<https://sites.google.com/inbo.be/procesbeheer/doel>
+
+[2] Schneider, C. A., Rasband, W. S., & Eliceiri, K. W.
+(2012).
+NIH Image to ImageJ: 25 years of image analysis.
+Nature Methods, 9(7), 671–675.
+<doi:10.1038/nmeth.2089>
