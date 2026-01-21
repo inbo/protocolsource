@@ -35,6 +35,9 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 *.log
+*.tex
+# ignore combined Rmd files (auto-deleted, but persist in case render fails)
+source/**/s[fpiao]f_*.Rmd
 
 # R Environment Variables
 .Renviron
