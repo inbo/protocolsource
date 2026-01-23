@@ -3,23 +3,41 @@
   "title": "Abundantie- en oppervlaktebepaling van groepsfoto’s met ongewervelden in ImageJ.",
   "upload_type": "publication",
   "access_right": "open",
-  "license": "CC-BY-4.0",
+  "license": "CC-BY 4.0",
+  "language": "nld",
   "keywords": [
-    "imagej; beeldverwerking"
+    "imagej",
+    "beeldverwerking"
   ],
   "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
   "contributors": [
     {
       "name": "Ollevier, Anouk",
-      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0003-2758-4723",
       "type": "contactperson"
+    },
+    {
+      "name": "Van Uytvanck, Jan",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-1946-7917",
+      "type": "other"
+    },
+    {
+      "name": "Boumon, Timon",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0000-5136-9447",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
     }
   ],
   "creators": [
     {
       "name": "Ollevier, Anouk",
-      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0003-2758-4723"
     }
   ],
