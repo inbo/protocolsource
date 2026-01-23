@@ -70,7 +70,6 @@ RUN R -e "renv::consent(provided = TRUE)"
 COPY renv.lock renv.lock
 RUN R -e "renv::restore()"
 RUN R -e "renv::install(c('reactable', 'zen4R', 'keyring'))"
-RUN R -e "renv::install('yonicd/slickR@1a469961b203f9260a49b24e3ec78aef3ef54798')"
 RUN R -e "renv::isolate()"
 
 
