@@ -28,17 +28,29 @@ file_manager:
     email: "anouk.ollevier@inbo.be"
     orcid: "0000-0003-2758-4723"
     affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-keywords: "imagej; beeldverwerking"
+keywords: ['imagej', 'beeldverwerking']
 language: nl
+lang: nl-BE
 date: "`r Sys.Date()`"
 protocol_code: sop-040-nl
 version_number: '2026.01'
 template_name: sop
 community: "inbo"
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
+rightsholder:
+  - name:
+      given: Instituut voor Natuur- en Bosonderzoek (INBO)
+    email: info@inbo.be
+    ror: https://ror.org/00j54wy13
+funder:
+  - name:
+      given: Instituut voor Natuur- en Bosonderzoek (INBO)
+    email: info@inbo.be
+    ror: https://ror.org/00j54wy13
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
 link-citations: TRUE
+license: CC-BY 4.0
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 ---
 
