@@ -1,6 +1,6 @@
 # Wijzigingen t.o.v. vorige versies
 
-## [2025.04](../2025.04/index.html)
+## [2026.01](../2026.01/index.html)
 
 -   Eerste versie van het protocol.
 
