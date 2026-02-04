@@ -85,12 +85,12 @@ Kies dan bij voorkeur het celmidden (puntje 0), indien onbeschikbaar puntje 1, e
 
 
 De alternatieve plaatsingspuntjes zijn naar een bepaald schema toevallig gekozen, maar met een hogere wichting van punten dichter bij ons doelpunt, het celmidden.
-Per uitzondering, bv. als onmiddelijk na een ad-hoc-loceval nog geen toevalspuntjes beschikbaar zijn, kan deze verdelingsfunctie experimenteel nagebotst worden. 
+Per uitzondering, bv. als onmiddelijk na een ad-hoc-loceval nog geen toevalspuntjes beschikbaar zijn of bij gebrek aan ontvangst, kan deze verdelingsfunctie experimenteel nagebotst worden. 
 Hiervoor dient een redelijk convex voorwerp met een lage elasticiteitsmodulus verticaal naar boven gegooit te worden.
 De windrichting en -sterkte is te compenseren; met de celstructuur is rekening te houden (bv. celkartering, MHQ-proefvlak).
 Om blessures bij deze procedure te voorkomen mag dit voorwerp niet te zwaar zijn; best geschikt is een WC-rol in een plastieken zakje.
 De punt waar het voorwerp neervalt is de plaatsingspunt en mag niet verder verschuiven.
-Vraag voor deze uitzonderlijke en ingewikkelde procedure vooraf toestemming van en biotieker, een datawetenschapper, en een statisticus.
+Vraag voor deze uitzonderlijke en ingewikkelde procedure vooraf toestemming van en biotieker, een datawetenschapper, een statisticus, en de meetnetverantwoordelijke.
 
 
 ## Plaatsen en geografisch inmeten van piëzometer en peilbuis
