@@ -105,7 +105,7 @@ Indien er een kaartlaag beschikbaar is met toevallige ("random") alternatieve pl
 Kies dan bij voorkeur het celmidden (puntje 0), indien onbeschikbaar puntje 1, enz.
 
 
-De alternatieve plaatsingspuntjes zijn naar een bepaald schema toevallig gekozen, maar met een hogere wichting van punten dichter bij ons doelpunt, het celmidden.
+De alternatieve plaatsingspuntjes zijn toevallig gekozen, maar met een grotere kans voor punten dichter bij het celmidden.
 Per uitzondering, bv. als onmiddelijk na een ad-hoc-loceval nog geen toevalspuntjes beschikbaar zijn of bij gebrek aan ontvangst, kan deze verdelingsfunctie experimenteel nagebotst worden. 
 Hiervoor dient een redelijk convex voorwerp met een lage elasticiteitsmodulus verticaal naar boven gegooit te worden.
 De windrichting en -sterkte is te compenseren; met de celstructuur is rekening te houden (bv. celkartering, MHQ-proefvlak).
