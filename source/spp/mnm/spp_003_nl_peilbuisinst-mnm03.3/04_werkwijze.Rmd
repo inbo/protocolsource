@@ -111,7 +111,7 @@ Tracht steeds de random gegenereerde toevalspuntjes te verkrijgen, eventueel doo
 Gebruik deze aanpak enkel in nood.
 Hiervoor kunnen randomgetallen gegenereerd worden met een app op je telefoon, tussen de minimale en maximale coördinaten van de easting en de northing.
 Als allerlaatste toevluchtsoord kan een bij voorkeur convex voorwerp met een lage elasticiteitsmodulus verticaal naar boven gegooid worden vanuit het celmidden.
-De windrichting en -sterkte is te compenseren; met de celstructuur is rekening te houden (bv. celkartering, MHQ-proefvlak).
+Tracht hierbij rekening te houden met de windrichting en -sterkte.
 Om blessures bij deze procedure te voorkomen mag dit voorwerp niet te zwaar zijn; best geschikt is een WC-rol in een plastieken zakje.
 De punt waar het voorwerp neervalt is de plaatsingspunt en mag niet verder verschuiven.
 Vraag voor deze uitzonderlijke en ingewikkelde procedure vooraf toestemming van en biotieker, een datawetenschapper, een statisticus, en de meetnetverantwoordelijke.
