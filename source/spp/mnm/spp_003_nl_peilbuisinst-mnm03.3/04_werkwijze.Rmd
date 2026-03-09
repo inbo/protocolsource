@@ -92,7 +92,8 @@ Hiervoor kunnen randomgetallen gegenereerd worden met een app op je telefoon, tu
 Als allerlaatste toevluchtsoord kan een bij voorkeur convex voorwerp met een lage elasticiteitsmodulus verticaal naar boven gegooid worden vanuit het celmidden.
 Tracht hierbij rekening te houden met de windrichting en -sterkte.
 Om blessures bij deze procedure te voorkomen mag dit voorwerp niet te zwaar zijn; best geschikt is een WC-rol in een plastieken zakje.
-De punt waar het voorwerp neervalt is de plaatsingspunt en mag niet verder verschuiven.
+De plek waar het voorwerp neervalt of waar je terechtkomt na toepassen van het random gegenereerde nummer is de plaats van installatie en mag niet verder verschuiven.
+De procedure wordt herhaald als de zo verkregen installatieplaats buiten de celkarteringspolygoon valt of binnen het MHQ-proefvlak.
 Vraag voor deze uitzonderlijke en ingewikkelde procedure vooraf toestemming van en biotieker, een datawetenschapper, een statisticus, en de meetnetverantwoordelijke.
 
 
