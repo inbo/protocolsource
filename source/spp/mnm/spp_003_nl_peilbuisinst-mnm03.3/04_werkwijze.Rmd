@@ -88,7 +88,8 @@ De alternatieve plaatsingspuntjes zijn toevallig gekozen, maar met een grotere k
 Per uitzondering, bv. als onmiddellijk na een ad-hoc-loceval nog geen toevalspuntjes beschikbaar zijn of bij gebrek aan ontvangst van de precisie-GPS-ontvanger, én na overleg met de meetnetverantwoordelijke kan deze verdelingsfunctie experimenteel nagebootst worden.
 Tracht steeds de random gegenereerde toevalspuntjes te verkrijgen, eventueel door contact op te nemen met de data scientist die deze op vraag kan genereren.
 Gebruik deze aanpak enkel in nood.
-Hiervoor dient een redelijk convex voorwerp met een lage elasticiteitsmodulus verticaal naar boven gegooit te worden.
+Hiervoor kunnen randomgetallen gegenereerd worden met een app op je telefoon, tussen de minimale en maximale coördinaten van de easting en de northing.
+Als allerlaatste toevluchtsoord kan een bij voorkeur convex voorwerp met een lage elasticiteitsmodulus verticaal naar boven gegooid worden vanuit het celmidden.
 De windrichting en -sterkte is te compenseren; met de celstructuur is rekening te houden (bv. celkartering, MHQ-proefvlak).
 Om blessures bij deze procedure te voorkomen mag dit voorwerp niet te zwaar zijn; best geschikt is een WC-rol in een plastieken zakje.
 De punt waar het voorwerp neervalt is de plaatsingspunt en mag niet verder verschuiven.
