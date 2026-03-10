@@ -95,12 +95,12 @@ Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria:
 -   ...<!-- lijst nog verder aan te vullen -->
 
 **Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.
-Een recente analyse van de in Watina beschikbare stijghoogtes in terrestrische types toont aan dat op een afstand van meer dan 10 m van het beoogde punt een onaanvaardbare afwijking optreedt in de stijghoogte.
+--\> regel plaatsing toevoegen bij aanwezigheid van rabatten (cf. case Hellebos) Een recente analyse van de in Watina beschikbare stijghoogtes in terrestrische types toont aan dat op een afstand van meer dan 10 m van het beoogde punt een onaanvaardbare afwijking optreedt in de stijghoogte.
 Bovendien zou het systematisch verplaatsen van meetpunten, bijvoorbeeld naar de rand van een perceel waar minder hinder optreedt, leiden tot een systematische fout in de meting van de milieuvariabelen op de standplaats.
 Het wordt daarom aangeraden om:
 
 -   het beoogde punt voor de plaatsing van een peilbuis en/of piëzometer niet te verplaatsen tenzij het op het beoogde punt zeker beschadigd zou geraken of het door de eigenaar of beheerder absoluut niet wordt toegestaan;
--   als je afwijkt van het beoogde punt, dit te beperken tot 10 m van het beoogde punt;
+-   als je afwijkt van het beoogde punt, dit te beperken tot 10 m van het beoogde punt; --\> dit is verouderd en moet aangepast worden
 -   als dit niet mogelijk is, de locatie te beoordelen als niet geschikte steekproefeenheid en dan worden de peilbuis en piëzometer niet geplaatst.
 
 ## Plaatsen en geografisch inmeten van piëzometer en peilbuis
@@ -168,11 +168,16 @@ In dit geval wordt de installatie gestaakt en de bevinding genoteerd in de GIS-a
 
 Aanwezigheid van ondiepe kleilenzen
 
---\> tekst aanvullen: wat te doen bij aanwezigheid van kleilenzen
+Deze situatie kan zich voordoen in infiltratiegebieden, vaak met aanwezigheid van vennen, in zandige regio's.
+Bij aanwezigheid van ondiepe kleilenzen in de gereduceerde of waterverzadigde zone mag afgeweken worden van de 1m-regel onder de reductiehorizont.
+We willen immers voorkomen dat de kleilens doorboord wordt en er verticale drainage optreedt.
+Het geperforeerde deel van zowel peilbuis als piëzometer mag de watervoerende lagen onder en boven de kleilens niet met elkaar verbinden.
+Hier worden de buizen op de kleilens geplaatst.
+Bij eventuele doorboring wordt de ondoorlaatbaarheid van de laag hersteld aan de hand van een bentonietstop.
 
 Drooggevallen reductiehorizont
 
---\> aanvullen regel
+Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m onder de reductiehorizont) dan wordt de plaatsing gestaakt.
 
 ### plaatsing en naamgeving van de buizen
 
@@ -236,3 +241,4 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf één maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
+
