@@ -217,7 +217,10 @@ Volg hiervoor [protocol SVP-014](https://docs.google.com/document/d/1T68iO3-gZ9W
 
 ## Bepaling van gemiddelde maaiveldhoogte celkarteringspolygoon
 
---\> tekst verder aanvullen
+Binnen elk celkarteringspolygoon wordt een gemiddelde maaiveldhoogte bepaald met RTK-GPS.
+Je voert deze hoogtebepaling uit op 20 random punten.
+Hiervoor hanteer je de toegekende rangorde van de punten.
+De deze punten worden ter beschikking gesteld in de GIS-app.
 
 ## Terrestrische types en 7220: inmeten van maaiveldhoogte
 
