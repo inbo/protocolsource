@@ -168,6 +168,12 @@ In dit geval wordt de installatie gestaakt en de bevinding genoteerd in de GIS-a
 
 Aanwezigheid van ondiepe kleilenzen
 
+--\> tekst aanvullen: wat te doen bij aanwezigheid van kleilenzen
+
+Drooggevallen reductiehorizont
+
+--\> aanvullen regel
+
 ### plaatsing en naamgeving van de buizen
 
 -   plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
@@ -203,6 +209,10 @@ Plaats het peilbuisslot in de opening van de buis en draai de vijs op het slot v
 
 Als geen RTK-GPS-ontvanger beschikbaar was bij het plaatsen van de peilbuis en piëzometer, dien je later (bij voorkeur binnen de 3 maanden) met de RTK-GPS-ontvanger terug te komen om de geografische locatie (x,y,z) ervan nauwkeurig in te meten.
 Volg hiervoor [protocol SVP-014](https://docs.google.com/document/d/1T68iO3-gZ9WrUTxEd551n5EXPrp0vNp9bPs-Y_xSP-U/edit?tab=t.0).
+
+## Bepaling van gemiddelde maaiveldhoogte celkarteringspolygoon
+
+--\> tekst verder aanvullen
 
 ## Terrestrische types en 7220: inmeten van maaiveldhoogte
 
