@@ -29,6 +29,8 @@ Bovendien wijkt de hydrostatische druk in de meeste gevallen niet of nauwelijks 
 **steekproefeenheid** of meetlocatie: een individueel element van de steekproef.
 Een steekproefeenheid is een rastercel van 32 m op 32 m in geval van terrestrische types, een 100 m-segment in geval van stromende wateren, de hele plas in geval van stilstaande wateren en de ganse habitatvlek in geval van habitattype 7220.
 
+**celkarteringspolygoon** afgebakend polygoon binnen de steekproefeenheid met voorkomen van het beoogde habitattype.
+
 **TAW**: Tweede Algemene Waterpassing.
 Lokale referentiehoogte vanwaar hoogtemetingen kunnen worden bepaald.
 Het gemiddeld zeeniveau bij laagwater te Oostende wordt gebruikt als nulpeil.
