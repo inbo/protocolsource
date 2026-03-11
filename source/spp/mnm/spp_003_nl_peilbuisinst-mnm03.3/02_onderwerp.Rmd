@@ -8,6 +8,8 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 -->
 ```
 
+**celkarteringspolygoon**: afgebakend polygoon binnen de steekproefeenheid met voorkomen van het beoogde habitattype.
+
 **MNM**: Meetnetten Natuurlijk Milieu.
 Deze meetnetten hebben als doel de toestand en trend van milieudrukken in het natuurlijk milieu op het niveau van Vlaanderen op te volgen ter ondersteuning van het natuurbeleid.
 Hiervoor dient de abiotiek in Natura 2000-habitats en regionaal belangrijke biotopen te worden gemonitord.
@@ -29,11 +31,12 @@ Bovendien wijkt de hydrostatische druk in de meeste gevallen niet of nauwelijks 
 **steekproefeenheid** of meetlocatie: een individueel element van de steekproef.
 Een steekproefeenheid is een rastercel van 32 m op 32 m in geval van terrestrische types, een 100 m-segment in geval van stromende wateren, de hele plas in geval van stilstaande wateren en de ganse habitatvlek in geval van habitattype 7220.
 
-**celkarteringspolygoon**: afgebakend polygoon binnen de steekproefeenheid met voorkomen van het beoogde habitattype.
-
 **TAW**: Tweede Algemene Waterpassing.
 Lokale referentiehoogte vanwaar hoogtemetingen kunnen worden bepaald.
 Het gemiddeld zeeniveau bij laagwater te Oostende wordt gebruikt als nulpeil.
+
+**Watina** staat voor “WATer In NAtuur” en is een databank voor hydrologische monitoring in natuurgebieden.
+In deze online databank kunnen gegevens over waterstanden en de chemische samenstelling van water in natuurgebieden ingevoerd en opgevraagd worden.
 
 ## Doelstelling en toepassingsgebied
 
