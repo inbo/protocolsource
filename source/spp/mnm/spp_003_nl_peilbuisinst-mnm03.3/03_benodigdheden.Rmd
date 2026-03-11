@@ -8,7 +8,7 @@ Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal 
     -   per steekproefeenheid: een set random getrokken punten waar de installatie kan plaatsvinden, afhankelijk van het habitattype
     -   ondersteunende kaartlagen (vb. orthofoto's, digitaal hoogtemodel, bodemkaart)
 
--   een rolmeter van minstens 10 m lengte
+-   een rolmeter van minstens 20m lengte
 
 -   kompas
 
@@ -32,4 +32,4 @@ Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal 
 
 -   telefoonnummer van de boswachter of terreinbeheerder
 
--   (digitale) versie van de ontheffing op verbodsbepaling artikel 35, §2
+-   (digitaal) exemplaar van de ontheffing op verbodsbepaling artikel 35, §2
