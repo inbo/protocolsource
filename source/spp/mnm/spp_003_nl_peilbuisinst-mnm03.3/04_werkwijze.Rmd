@@ -56,7 +56,7 @@ Hieronder worden de criteria in detail beschreven.
 
 ### nabijgelegenheid van bestaand meetpunt
 
-meetpunten die binnen de celkarteringseenheid of een straal van 10m van deze eenheid liggen komen in aanmerking.
+meetpunten die binnen de steekproefeenheid of een straal van 20m van deze eenheid liggen komen in aanmerking.
 Er mogen geen geografische barrières of verschillen aanwezig zijn zoals grachten of hellingen.
 
 ### kwaliteit van de plaatsing van de bestaande buis
@@ -70,7 +70,7 @@ Volgende zaken zijn gedefinieerd in de Watina-databank: - lengte van de buis, le
 ### koppeling met bestaande MNM-meetpunten
 
 Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderstaande voorwaarden wordt voldaan: - de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten.
-De celkateringspolygonen hoeven elkaar niet te raken -
+De celkateringspolygonen hoeven elkaar niet te raken.
 
 ## Positionering en evaluatie van installatiepunt(en)
 
@@ -185,9 +185,11 @@ Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m 
 -   voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
 -   plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte
 -   noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
--   de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001).
+-   de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001);
 -   plaats steeds een metalen beschermbuis over de piëzometer;
+-   noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, bvb ZWAP101X);
 -   plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
+-   breng bijkomende bescherming aan bij begrazingbeheer. Dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder.
 -   geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
 
 ## Plaatsen van automatische druksensor
@@ -215,12 +217,12 @@ Plaats het peilbuisslot in de opening van de buis en draai de vijs op het slot v
 Als geen RTK-GPS-ontvanger beschikbaar was bij het plaatsen van de peilbuis en piëzometer, dien je later (bij voorkeur binnen de 3 maanden) met de RTK-GPS-ontvanger terug te komen om de geografische locatie (x,y,z) ervan nauwkeurig in te meten.
 Volg hiervoor [protocol SVP-014](https://docs.google.com/document/d/1T68iO3-gZ9WrUTxEd551n5EXPrp0vNp9bPs-Y_xSP-U/edit?tab=t.0).
 
-## Bepaling van gemiddelde maaiveldhoogte celkarteringspolygoon
+## Bepaling van de gemiddelde maaiveldhoogte van het celkarteringspolygoon
 
 Binnen elk celkarteringspolygoon wordt een gemiddelde maaiveldhoogte bepaald met RTK-GPS.
 Je voert deze hoogtebepaling uit op 20 random punten.
-Hiervoor hanteer je de toegekende rangorde van de punten.
-De deze punten worden ter beschikking gesteld in de GIS-app.
+Deze punten worden ter beschikking gesteld in de GIS-applicatie.Je volgt hierbij de toegekende rangorde van de punten.
+Bij de overname van een bestaande buis buiten het celkarteringspolygoon wordt nog steeds het oorspronkelijke celkarteringspolygoon opgemeten.
 
 ## Terrestrische types en 7220: inmeten van maaiveldhoogte
 
