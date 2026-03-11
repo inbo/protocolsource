@@ -31,8 +31,9 @@ Toets af bij de meetnetverantwoordelijke of projectcoördinator of:
 -   vergunningen of toelatingen voorzien zijn;
 -   je bezoek en de plaatsing van de peilbuis en piëzometer is gemeld bij de eigenaar en/of beheerder (vb. privé-eigenaars en openbare besturen, boswachters en regiobeheerders van ANB, consulenten en conservators van Natuurpunt, Limburgs Landschap, vzw Durme, ...);
 -   er tijdelijke beperking is van toegang (vb. tijdens het broedseizoen)
--   een controle in het [klip portaal](https://klip.vlaanderen.be/public) noodzakelijk en uitgevoerd is, om graafschade te voorkomen aan kabels en leidingen.
+-   een controle in het [KLIP-portaal](https://klip.vlaanderen.be/public) noodzakelijk en uitgevoerd is, om graafschade te voorkomen aan kabels en leidingen.
 
+Kondig je terreinbezoek minstens twee dagen op voorhand aan bij de terreinbeheerder.
 Toegankelijkheid van militaire gebieden dient een week voor het terreinbezoek aangevraagd te worden via mail aan het betreffende kwartier, met de boswachter in cc.
 Zij laten weten op welke dagen en tussen welke uren je het terrein mag betreden.
 Bij het betreden en het verlaten van het terrein op de dag zelf dien je telkens telefonisch contact op te nemen met de kwartiercommandant.
@@ -49,35 +50,35 @@ Het vinden van een reeds geselecteerd staalnamepunt van een aquatisch type (zie 
 
 ## Optioneel: gebruik van bestaande meetlocaties
 
-Vele duizenden buizen werden reeds geplaatst in Vlaanderen de voorbije decennia, zoals te zien in Watina.
+Vele duizenden buizen werden reeds geplaatst in Vlaanderen de voorbije decennia, zoals te zien is in de Watina-databank.
 De kans bestaat dat er reeds een peilbuis of piëzometer aanwezig is in de buurt van de opgegeven steekproefeenheid.
 De keuze om een nabijgelegen bestaande peilbuis of piëzometer op te nemen in het grondwatermeetnet van de MNM in plaats van een nieuwe te plaatsen, is afhankelijk van de afstand tussen de bestaande en de nieuw te plaatsen buis, de kwaliteit van de plaatsing van de bestaande buis, de status van de bestaande buis en de kwaliteit en lengte van de lopende tijdsreeks van de bestaande buis.
 Hieronder worden de criteria in detail beschreven.
 
 ### nabijgelegenheid van bestaand meetpunt
 
-meetpunten die binnen de steekproefeenheid of een straal van 20m van deze eenheid liggen komen in aanmerking.
+meetpunten die binnen de steekproefeenheid of een straal van 10m van deze eenheid liggen komen in aanmerking.
 Er mogen geen geografische barrières of verschillen aanwezig zijn zoals grachten of hellingen.
+Het meetpunt ligt binnen hetzelfde habitattype als dat van het celkarteringspolygoon.
 
 ### kwaliteit van de plaatsing van de bestaande buis
 
-Volgende zaken zijn gedefinieerd in de Watina-databank: - lengte van de buis, lengte van de filter en diameter zijn gedefinieerd - de diameter bedraagt 5cm - de lengte van de filter bedraagt 40-60 cm - de boorstaat is beschreven
+Volgende zaken zijn gedefinieerd in de Watina-databank: - lengte van de buis, lengte van de filter en diameter zijn gedefinieerd - de diameter bedraagt 5cm - de lengte van de filter bedraagt 40-60 cm - de boorstaat is beschreven.
 
 ### status van de buis, lengte en kwaliteit van de tijdsreeksen
 
--   het overnemen van een bestaand meetpunt mag niet ten koste gaan van lopend onderzoek. Controleer steeds de toestand van de buis in de Watina-databank. Neem bij actief bemeten buizen steeds De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie. Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.Volgende criteria moeten in acht genomen worden: De peilbuis wordt manueel/handmatig opgemeten
+-   het overnemen van een bestaand meetpunt mag niet ten koste gaan van lopend onderzoek. Controleer steeds de toestand en eigenaar van de buis in de Watina-databank. Neem bij actief bemeten buizen steeds De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie. Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.Volgende criteria moeten in acht genomen worden: De peilbuis wordt manueel/handmatig opgemeten.
 
 ### koppeling met bestaande MNM-meetpunten
 
-Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderstaande voorwaarden wordt voldaan: - de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten.
-De celkateringspolygonen hoeven elkaar niet te raken.
+Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderstaande voorwaarden wordt voldaan: - de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten.De celkateringspolygonen hoeven elkaar niet te raken.De cellen vertegenwoordigen hetzelde habitattype.
 
 ## Positionering en evaluatie van installatiepunt(en)
 
-Afhankelijk van het doeltype beschik je over een set van punten waar het doeltype aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleeerd worden.
+Afhankelijk van het doeltype beschik je over een set van random punten waar het doeltype aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleeerd worden.
 Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 
--   terrestrische types: in de zone met straal van 10 m rond celmidden in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), met uitsparing van het permanente kwadrant (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en buffer van 1 m errond;
+-   terrestrische types: binnen het celkarteringspolygoon in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), met uitsparing van het permanente kwadrant (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en buffer van 1 m errond;
 
 -   aquatische types:
 
@@ -86,21 +87,18 @@ Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 
 -   type 7220: in een 20-m-brede zone van de grootste helling, net buiten het habitat (tot 100 m van de habitatvlek hellingopwaarts en tot 10 m van de habitatvlek hellingafwaarts), om betreding van de gevoelige vegetatie te voorkomen.
 
-De lijst met punten per steekproefeenheid is beschikbaar in de GIS-applicatie.
+De lijst met random punten per steekproefeenheid is beschikbaar in de GIS-applicatie.
 Open de lijst en loop de punten in de lijst systematisch in volgorde af.
 Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria:
 
--   voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verdwijnt;
--   ondiep grondwater aanwezig: de reductiehorizont is in het boorgat bereikt binnen de 2,5 m boordiepte, want de doelpopulatie van het meetnet bestaat uit grondwaterafhankelijke types begrensd door zones met ondiep grondwater (*shallow groundwater*, de gemiddeld laagste grondwaterstand is ongeveer kleiner dan 2 m onder het maaiveld).
--   ...<!-- lijst nog verder aan te vullen -->
+-   voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verstoort;
+-   er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
 
-**Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.
---\> regel plaatsing toevoegen bij aanwezigheid van rabatten (cf. case Hellebos) Een recente analyse van de in Watina beschikbare stijghoogtes in terrestrische types toont aan dat op een afstand van meer dan 10 m van het beoogde punt een onaanvaardbare afwijking optreedt in de stijghoogte.
-Bovendien zou het systematisch verplaatsen van meetpunten, bijvoorbeeld naar de rand van een perceel waar minder hinder optreedt, leiden tot een systematische fout in de meting van de milieuvariabelen op de standplaats.
+**Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.Het systematisch verplaatsen van meetpunten, bijvoorbeeld naar de rand van een perceel waar minder hinder optreedt, leiden tot een systematische fout in de meting van de milieuvariabelen op de standplaats.
 Het wordt daarom aangeraden om:
 
 -   het beoogde punt voor de plaatsing van een peilbuis en/of piëzometer niet te verplaatsen tenzij het op het beoogde punt zeker beschadigd zou geraken of het door de eigenaar of beheerder absoluut niet wordt toegestaan;
--   als je afwijkt van het beoogde punt, dit te beperken tot 10 m van het beoogde punt; --\> dit is verouderd en moet aangepast worden
+-   als je afwijkt van het beoogde punt, dit te beperken tot 10 m van het beoogde punt;
 -   als dit niet mogelijk is, de locatie te beoordelen als niet geschikte steekproefeenheid en dan worden de peilbuis en piëzometer niet geplaatst.
 
 ## Plaatsen en geografisch inmeten van piëzometer en peilbuis
@@ -246,4 +244,3 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf één maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
-
