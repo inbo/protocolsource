@@ -1,0 +1,48 @@
+{
+  "description": "",
+  "title": "Bepalen van een positie met GPS. Van peilbuizen en peilschalen.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY 4.0",
+  "language": "nld",
+  "keywords": [
+    "RTK",
+    "positiebepaling"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Provez, Lise",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0001-4735-3271",
+      "type": "contactperson"
+    },
+    {
+      "name": "Wuyts, Karen",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-3371-6828",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Provez, Lise",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0001-4735-3271"
+    },
+    {
+      "name": "Wackenier, Mathias",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-6934-9241"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}
