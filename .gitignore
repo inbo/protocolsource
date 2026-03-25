@@ -44,7 +44,8 @@ source/**/s[fpiao]f_*.Rmd
 .Rproj.user
 
 # Other
+_bookdown_files/
+css/
 docs/
 from_docx/
-css/
-_bookdown_files/
+libs/
