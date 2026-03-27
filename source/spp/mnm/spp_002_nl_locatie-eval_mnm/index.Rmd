@@ -59,6 +59,7 @@ publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
 link-citations: true
+license: CC-BY 4.0
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 params:
   dependencies:
@@ -116,7 +117,7 @@ fms <-  map_chr(
   \(x) x$name |> paste(collapse = " ")
 )
 tibble(
-  reviewers = revs,
+  reviewers = paste(revs, collapse = ", "),
   documentbeheerder = fms,
   protocolcode = metadata[["protocol_code"]],
   versienummer = metadata[["version_number"]],
@@ -130,3 +131,4 @@ rm(revs, fms)
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
+
