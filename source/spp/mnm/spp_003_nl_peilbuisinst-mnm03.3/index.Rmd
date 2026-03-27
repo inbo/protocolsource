@@ -45,6 +45,16 @@ template_name: spp
 project_name: mnm
 community: inbo
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
+rightsholder:
+  - name:
+      given:  Instituut voor Natuur- en Bosonderzoek (INBO)
+    email: info@inbo.be
+    ror: 00j54wy13
+funder:
+  - name:
+      given:  Instituut voor Natuur- en Bosonderzoek (INBO)
+    email: info@inbo.be
+    ror: 00j54wy13
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
 link-citations: true
