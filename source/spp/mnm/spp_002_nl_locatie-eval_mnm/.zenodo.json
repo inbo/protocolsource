@@ -3,7 +3,8 @@
   "title": "Locatie-evaluatie en celkartering van terrestrische steekproefeenheden in de Meetnetten Natuurlijk Milieu.",
   "upload_type": "publication",
   "access_right": "open",
-  "license": "CC-BY-4.0",
+  "license": "CC-BY 4.0",
+  "language": "nld",
   "keywords": [
     "mnm; locatie-evaluatie; habitattype"
   ],
@@ -11,25 +12,46 @@
   "contributors": [
     {
       "name": "Wuyts, Karen",
-      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0002-3371-6828",
       "type": "contactperson"
+    },
+    {
+      "name": "Oosterlynck, Patrik",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-5712-0770",
+      "type": "other"
+    },
+    {
+      "name": "De Saeger, Steven",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-5477-3063",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
     }
   ],
   "creators": [
     {
       "name": "Wuyts, Karen",
-      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0002-3371-6828"
     },
     {
+      "name": "Vanderhaeghe, Floris",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-6378-6229"
+    },
+    {
       "name": "Tamsyn, Ward",
-      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0001-6289-6250"
     },
     {
       "name": "Mielke, Falk",
-      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0003-3229-0981"
     }
   ],
