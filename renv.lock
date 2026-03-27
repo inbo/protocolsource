@@ -675,11 +675,11 @@
     },
     "checklist": {
       "Package": "checklist",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "GitHub",
       "Type": "Package",
       "Title": "A Thorough and Strict Set of Checks for R Packages and Source Code",
-      "Authors@R": "c( person(\"Thierry\", \"Onkelinx\", , \"thierry.onkelinx@inbo.be\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-8804-4216\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Els\", \"Lommelen\", , \"els.lommelen@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0002-3481-5684\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Hans\", \"Van Calster\", , \"hans.vancalster@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0001-8595-8426\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Research Institute for Nature and Forest (INBO)\", , , \"info@inbo.be\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"https://ror.org/00j54wy13\")) )",
+      "Authors@R": "c( person(\"Thierry\", \"Onkelinx\", , \"thierry.onkelinx@inbo.be\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-8804-4216\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Els\", \"Lommelen\", , \"els.lommelen@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0002-3481-5684\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Hans\", \"Van Calster\", , \"hans.vancalster@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0001-8595-8426\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Research Institute for Nature and Forest (INBO)\", , , \"info@inbo.be\", role = c(\"cph\", \"fnd\", \"pbl\"), comment = c(ROR = \"00j54wy13\")) )",
       "Description": "An opinionated set of rules for R packages and R source code projects.",
       "License": "GPL-3",
       "URL": "https://inbo.github.io/checklist/, https://github.com/inbo/checklist, https://doi.org/10.5281/zenodo.4028303",
@@ -733,14 +733,14 @@
       "Roxygen": "list(markdown = TRUE)",
       "RoxygenNote": "7.3.3",
       "SystemRequirements": "Pandoc (>= 1.17.2)",
-      "Author": "Thierry Onkelinx [aut, cre] (ORCID: <https://orcid.org/0000-0001-8804-4216>, affiliation: Research Institute for Nature and Forest (INBO)), Els Lommelen [ctb] (ORCID: <https://orcid.org/0000-0002-3481-5684>, affiliation: Research Institute for Nature and Forest (INBO)), Hans Van Calster [ctb] (ORCID: <https://orcid.org/0000-0001-8595-8426>, affiliation: Research Institute for Nature and Forest (INBO)), Research Institute for Nature and Forest (INBO) [cph, fnd] (ROR: <https://ror.org/00j54wy13>)",
+      "Author": "Thierry Onkelinx [aut, cre] (ORCID: <https://orcid.org/0000-0001-8804-4216>, affiliation: Research Institute for Nature and Forest (INBO)), Els Lommelen [ctb] (ORCID: <https://orcid.org/0000-0002-3481-5684>, affiliation: Research Institute for Nature and Forest (INBO)), Hans Van Calster [ctb] (ORCID: <https://orcid.org/0000-0001-8595-8426>, affiliation: Research Institute for Nature and Forest (INBO)), Research Institute for Nature and Forest (INBO) [cph, fnd, pbl] (ROR: <https://ror.org/00j54wy13>)",
       "Maintainer": "Thierry Onkelinx <thierry.onkelinx@inbo.be>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "inbo",
       "RemoteRepo": "checklist",
       "RemoteRef": "main",
-      "RemoteSha": "3cb091bae8fba959b28c7ddd0eab08bee3813c3c"
+      "RemoteSha": "e61eb5df8253db3a84f56bda2f9147b66c6faf21"
     },
     "cli": {
       "Package": "cli",
@@ -3666,10 +3666,10 @@
     },
     "protocolhelper": {
       "Package": "protocolhelper",
-      "Version": "0.8.3",
+      "Version": "0.8.4",
       "Source": "GitHub",
       "Title": "Helper Functions to Manage Protocols",
-      "Authors@R": "c( person(\"Hans\", \"Van Calster\", , \"hans.vancalster@inbo.be\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-8595-8426\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Thierry\", \"Onkelinx\", , \"thierry.onkelinx@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0001-8804-4216\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Floris\", \"Vanderhaeghe\", , \"floris.vanderhaeghe@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0002-6378-6229\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Els\", \"Lommelen\", , \"els.lommelen@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0002-3481-5684\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Research Institute for Nature and Forest (INBO)\", , , \"info@inbo.be\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"https://ror.org/00j54wy13\")) )",
+      "Authors@R": "c( person(\"Hans\", \"Van Calster\", , \"hans.vancalster@inbo.be\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-8595-8426\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Thierry\", \"Onkelinx\", , \"thierry.onkelinx@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0001-8804-4216\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Floris\", \"Vanderhaeghe\", , \"floris.vanderhaeghe@inbo.be\", role = \"aut\", comment = c(ORCID = \"0000-0002-6378-6229\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Els\", \"Lommelen\", , \"els.lommelen@inbo.be\", role = \"ctb\", comment = c(ORCID = \"0000-0002-3481-5684\", affiliation = \"Research Institute for Nature and Forest (INBO)\")), person(\"Research Institute for Nature and Forest (INBO)\", , , \"info@inbo.be\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"00j54wy13\")) )",
       "Description": "Helper functions to manage INBO protocols.",
       "License": "GPL-3",
       "URL": "https://inbo.github.io/protocolhelper/, https://github.com/inbo/protocolhelper",
@@ -3728,7 +3728,7 @@
       "RemoteUsername": "inbo",
       "RemoteRepo": "protocolhelper",
       "RemoteRef": "main",
-      "RemoteSha": "70c81c3e8053d74e486d9989cc7eb53aa99b2165"
+      "RemoteSha": "80db9b87b1fb0de018dda253819f8a80fdee5525"
     },
     "ps": {
       "Package": "ps",
