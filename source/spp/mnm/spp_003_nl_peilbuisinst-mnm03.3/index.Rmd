@@ -37,6 +37,7 @@ file_manager:
   affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 keywords: mnm; grondwater; eutrofiëring; peilbuis; piëzometer
 language: nl
+lang: nl-BE
 date: '`r Sys.Date()`'
 protocol_code: spp-003-nl
 version_number: '2026.02'
