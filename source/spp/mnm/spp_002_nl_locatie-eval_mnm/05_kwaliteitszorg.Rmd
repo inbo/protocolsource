@@ -8,10 +8,10 @@ Geen herhaling van wat al in subprotocols staat
 
 ## Richtlijnen
 
+Controleer voor je op terrein vertrekt steeds of je alle relevante protocollen, veldsleutels en benodigdheden mee hebt.
 Volg de stappen in de GIS-applicatie om er zeker van te zijn dat alle nodige informatie digitaal genoteerd wordt.
 Wanneer je tablet of laptop verbonden is met het internet, worden de in de applicatie ingegeven waarden onmiddellijk doorgestuurd naar de server.
-Heeft je tijdelijk geen connectie, controleer dan zeker bij het afronden van je veldwerk (vb. wanneer je in de wagen stapt voor je wegrijdt) dat de informatie is doorgestuurd naar de server.
-Controleer voor je op terrein vertrekt steeds of je alle relevante protocollen, veldsleutels en benodigdheden mee hebt.
+Heb je tijdelijk geen connectie, controleer dan zeker bij het afronden van je veldwerk (vb. wanneer je in de wagen stapt voor je wegrijdt) dat de informatie is doorgestuurd naar de server.
 
 ## Vereiste competenties
 
@@ -24,7 +24,7 @@ Controleer voor je op terrein vertrekt steeds of je alle relevante protocollen, 
 -   Goed vermogen om te plannen en te organiseren: bij de implementatie van meetnetten moeten tal van veld- en desktopactiviteiten gepland, georganiseerd en op elkaar afgestemd worden, en dit zowel ruimtelijk als in tijd.
     De veldmedewerker moet in staat zijn om hier zelfstandig of in overleg met de meetnetverantwoordelijke of projectcoördinator uitvoering aan te geven.
 
--   Zelfstandigheid: de staalnemer moet in staat zijn om het veldwerk zelfstandig uit te voeren.
+-   Zelfstandigheid: de veldmedewerker moet in staat zijn om het veldwerk zelfstandig uit te voeren.
     Uiteraard is het steeds mogelijk om inhoudelijke of praktische bijstand te vragen aan collega's binnen en buiten het projectteam.
 
 -   Goed vermogen tot samenwerken en communiceren
