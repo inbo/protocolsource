@@ -52,7 +52,7 @@ language: nl
 lang: nl-BE
 date: '`r Sys.Date()`'
 protocol_code: spp-002-nl
-version_number: '2025.03'
+version_number: '2026.02'
 template_name: spp
 project_name: mnm
 community: inbo
