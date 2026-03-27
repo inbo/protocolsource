@@ -48,7 +48,7 @@ file_manager:
   orcid: 0000-0002-3371-6828
   affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 keywords: mnm; locatie-evaluatie; habitattype
-language: nl
+lang: nl-BE
 date: '`r Sys.Date()`'
 protocol_code: spp-002-nl
 version_number: '2025.03'
@@ -56,6 +56,16 @@ template_name: spp
 project_name: mnm
 community: inbo
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
+rightsholder:
+  - name:
+      given:  Instituut voor Natuur- en Bosonderzoek (INBO)
+    email: info@inbo.be
+    ror: 00j54wy13
+funder:
+  - name:
+      given:  Instituut voor Natuur- en Bosonderzoek (INBO)
+    email: info@inbo.be
+    ror: 00j54wy13
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
 link-citations: true
@@ -131,4 +141,3 @@ rm(revs, fms)
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
-
