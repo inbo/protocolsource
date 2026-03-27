@@ -48,6 +48,7 @@ file_manager:
   orcid: 0000-0002-3371-6828
   affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 keywords: mnm; locatie-evaluatie; habitattype
+language: nl
 lang: nl-BE
 date: '`r Sys.Date()`'
 protocol_code: spp-002-nl
