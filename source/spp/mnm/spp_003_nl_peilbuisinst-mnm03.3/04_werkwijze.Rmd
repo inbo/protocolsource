@@ -55,23 +55,36 @@ De kans bestaat dat er reeds een peilbuis of piëzometer aanwezig is in de buurt
 De keuze om een nabijgelegen bestaande peilbuis of piëzometer op te nemen in het grondwatermeetnet van de MNM in plaats van een nieuwe te plaatsen, is afhankelijk van de afstand tussen de bestaande en de nieuw te plaatsen buis, de kwaliteit van de plaatsing van de bestaande buis, de status van de bestaande buis en de kwaliteit en lengte van de lopende tijdsreeks van de bestaande buis.
 Hieronder worden de criteria in detail beschreven.
 
-### nabijgelegenheid van bestaand meetpunt
+### Nabijheid van een bestaand meetpunt
 
-meetpunten die binnen de steekproefeenheid of een straal van 10m van deze eenheid liggen komen in aanmerking.
+Meetpunten die binnen de steekproefeenheid of een zone van 10 m rond deze eenheid liggen, komen in aanmerking om opgenomen te worden als representatief meetpunt voor de steekproefeenheid.
 Er mogen geen geografische barrières of verschillen aanwezig zijn zoals grachten of hellingen.
 Het meetpunt ligt binnen hetzelfde habitattype als dat van het celkarteringspolygoon.
 
-### kwaliteit van de plaatsing van de bestaande buis
+### Kwaliteit van de plaatsing van de bestaande buis
 
-Volgende zaken zijn gedefinieerd in de Watina-databank: - lengte van de buis, lengte van de filter en diameter zijn gedefinieerd - de diameter bedraagt 5cm - de lengte van de filter bedraagt 40-60 cm - de boorstaat is beschreven.
+Volgende gegevens moeten beschikbaar of af te leiden zijn in de Watina-databank en worden gebruikt om de kwaliteit en bruikbaarheid van de instalatie af te toetsen:
 
-### status van de buis, lengte en kwaliteit van de tijdsreeksen
+-   uit de peilbuislengte, de hoogte boven maaiveld en de boorstaat blijkt de filter zich onder de bovenste grens van reductiehorizont te bevinden;
+-   volgens de bestaande tijdsreeks is de peilbuis nog nooit drooggevallen;
+-   de diameter van de buis bedraagt 5cm;
+-   de lengte van de filter bedraagt 40-60 cm;
+-   bij voorkeur: de boorstaat is beschreven; als niet, dan kan dit nog worden uitgevoerd.
 
--   het overnemen van een bestaand meetpunt mag niet ten koste gaan van lopend onderzoek. Controleer steeds de toestand en eigenaar van de buis in de Watina-databank. Neem bij actief bemeten buizen steeds De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie. Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.Volgende criteria moeten in acht genomen worden: De peilbuis wordt manueel/handmatig opgemeten.
+### Status van de buis, lengte en kwaliteit van de tijdsreeksen
 
-### koppeling met bestaande MNM-meetpunten
+Het overnemen van een bestaand meetpunt mag niet ten koste gaan van lopend onderzoek.
+Controleer steeds de toestand en eigenaar van de buis in de Watina-databank.
+Neem bij actief bemeten buizen steeds contact op met de eigenaar van de buis en vraag toestemming.
+De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie.
+Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.
 
-Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderstaande voorwaarden wordt voldaan: - de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten.De celkateringspolygonen hoeven elkaar niet te raken.De cellen vertegenwoordigen hetzelde habitattype.
+### Koppeling met bestaande MNM-meetpunten
+
+Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderstaande voorwaarden wordt voldaan:
+
+-   de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten. De celkateringspolygonen hoeven elkaar niet te raken.
+-   de cellen vertegenwoordigen hetzelfde habitattype.
 
 ## Positionering en evaluatie van installatiepunt(en)
 
@@ -104,9 +117,8 @@ Het wordt daarom aangeraden om:
 Indien er een kaartlaag beschikbaar is met toevallige ("random") alternatieve plaatsingspuntjes binnen de cel en binnen het doelpolygoon (celkartering), dan is de volgorde van de benummering (stijgend) bepalend voor de keuze van een alternatieve plaatsingspunt.
 Kies dan bij voorkeur het celmidden (puntje 0), indien onbeschikbaar puntje 1, enz.
 
-
 De alternatieve plaatsingspuntjes zijn toevallig gekozen, maar met een grotere kans voor punten dichter bij het celmidden.
-Per uitzondering, bv. als onmiddellijk na een ad-hoc-loceval nog geen toevalspuntjes beschikbaar zijn of bij gebrek aan ontvangst van de precisie-GPS-ontvanger, én na overleg met de meetnetverantwoordelijke kan deze verdelingsfunctie experimenteel nagebootst worden.
+Per uitzondering, bijvoorbeeld als onmiddellijk na een ad-hoc-loceval nog geen toevalspuntjes beschikbaar zijn of bij gebrek aan ontvangst van de precisie-GPS-ontvanger, én na overleg met de meetnetverantwoordelijke kan deze verdelingsfunctie experimenteel nagebootst worden.
 Tracht steeds de random gegenereerde toevalspuntjes te verkrijgen, eventueel door contact op te nemen met de data scientist die deze op vraag kan genereren.
 Gebruik deze aanpak enkel in nood.
 Hiervoor kunnen randomgetallen gegenereerd worden met een app op je telefoon, tussen de minimale en maximale coördinaten van de easting en de northing.
@@ -117,14 +129,13 @@ De plek waar het voorwerp neervalt of waar je terechtkomt na toepassen van het r
 De procedure wordt herhaald als de zo verkregen installatieplaats buiten de celkarteringspolygoon valt of binnen het MHQ-proefvlak.
 Vraag voor deze uitzonderlijke en ingewikkelde procedure vooraf toestemming van en biotieker, een datawetenschapper, een statisticus, en de meetnetverantwoordelijke.
 
-
 ## Plaatsen en geografisch inmeten van piëzometer en peilbuis
 
 Voor het plaatsen van de peilbuis en de piëzometer volg je het protocol 'Richtlijnen voor het plaatsen van peilbuizen' [sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html).
 
 Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van de MNM, de volgende projectspecifieke richtlijnen die een (lichte) afwijking of een verfijning zijn van het bovenstaand protocol:
 
-### uitvoeren van de boring
+### Diepte van de boring
 
 Controleer de grondwaterafhankelijkheid van het type in de rastercel in onderstaande tabel.
 Kolom 1-3 betreffen terrestrische types, kolom 4 aquatische types.
@@ -161,40 +172,45 @@ Kolom 1-3 betreffen terrestrische types, kolom 4 aquatische types.
 | 91E0_vn     | GD2  |             |      |             |      |           |      |
 | 91E0_vo     | GD2  |             |      |             |      |           |      |
 
-Is het type terrestrisch en behoort het tot GD2?
+**Is het type terrestrisch en behoort het tot GD2?**
 
-Dit type grondwaterafhankelijk op (bijna) alle locaties.
-Hier wordt geboord tot je de reductiehorizont of het grondwater tegenkomt in de bovenste 3,5 m van de bodem: - kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - als je reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m); - kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
+Dit type is grondwaterafhankelijk op (bijna) alle locaties.
+Hier wordt geboord tot je de reductiehorizont of het grondwater tegenkomt in de bovenste 3,5 m van de bodem:
 
-Is het type terrestrisch en behoort het tot GD1 of GD0?
+-   kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
+-   als je de reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
+-   kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
+
+**Is het type terrestrisch en behoort het tot GD1 of GD0?**
 
 Dit betreft een terrestrisch type dat grondwaterafhankelijk op een deel van de locaties is (GD1) of niet grondwaterafhankelijk is (GD0).
 Wanneer de bovenzijde van de reductiehorizont of de grondwatertafel niet aangetroffen wordt binnen een diepte van 2.5m dan maakt de locatie geen onderdeel uit van de doelpopulatie van GW_03.3.De installatie wordt dan volledig gestaakt.
 Kom je de grondwatertafel of reductiehorizont wel tegen, dan boor je 1m onder de bovenkant van de reductiehorizont.
 De bevindingen worden gerapporteerd via de GIS-app.
 
-Is het type aquatisch en GD2?
+**Is het type aquatisch en GD2?**
 
 Hier refereren we aan het (oppervlakte)waterpeil van het nabijgelegen doelhabitat, terwijl we de buis meer stroomopwaarts / veelal buiten habitat plaatsen.
-De diepte van de filter moet hier dus diep genoeg zitten om het grondwater te treffen dat het oppervlaktewater beïnvloedt.Dat is potentieel dieper in steilere situaties.
-We beschouwen de limiet hier het niveau van het oppervlaktewater + 0,5(?)m.
+De filter moet hier dus diep genoeg zitten om het grondwater te treffen dat het oppervlaktewater beïnvloedt.
+Dat is potentieel dieper in steilere situaties.
+We beschouwen de limiet hier het niveau van het oppervlaktewater + 0,5 m.
 Indien er geen grondwater voorkomt binnen deze zone wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
 In dit geval wordt de installatie gestaakt en de bevinding genoteerd in de GIS-app.
 
-Aanwezigheid van ondiepe kleilenzen
+**Aanwezigheid van ondiepe kleilenzen**
 
 Deze situatie kan zich voordoen in infiltratiegebieden, vaak met aanwezigheid van vennen, in zandige regio's.
-Bij aanwezigheid van ondiepe kleilenzen in de gereduceerde of waterverzadigde zone mag afgeweken worden van de 1m-regel onder de reductiehorizont.
+Bij aanwezigheid van ondiepe kleilenzen in de gereduceerde of waterverzadigde zone mag afgeweken worden van de 1 m-regel onder de reductiehorizont.
 We willen immers voorkomen dat de kleilens doorboord wordt en er verticale drainage optreedt.
 Het geperforeerde deel van zowel peilbuis als piëzometer mag de watervoerende lagen onder en boven de kleilens niet met elkaar verbinden.
 Hier worden de buizen op de kleilens geplaatst.
 Bij eventuele doorboring wordt de ondoorlaatbaarheid van de laag hersteld aan de hand van een bentonietstop.
 
-Drooggevallen reductiehorizont
+**Drooggevallen reductiehorizont**
 
 Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m onder de reductiehorizont) dan wordt de plaatsing gestaakt.
 
-### plaatsing en naamgeving van de buizen
+### Plaatsing en naamgeving van de buizen
 
 -   plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
 -   voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
@@ -232,20 +248,15 @@ Plaats het peilbuisslot in de opening van de buis en draai de vijs op het slot v
 Als geen RTK-GPS-ontvanger beschikbaar was bij het plaatsen van de peilbuis en piëzometer, dien je later (bij voorkeur binnen de 3 maanden) met de RTK-GPS-ontvanger terug te komen om de geografische locatie (x,y,z) ervan nauwkeurig in te meten.
 Volg hiervoor [protocol SVP-014](https://docs.google.com/document/d/1T68iO3-gZ9WrUTxEd551n5EXPrp0vNp9bPs-Y_xSP-U/edit?tab=t.0).
 
-## Bepaling van de gemiddelde maaiveldhoogte van het celkarteringspolygoon
+## Terrestrische types en 7220: inmeten van gemiddelde maaiveldhoogte
 
-Binnen elk celkarteringspolygoon wordt een gemiddelde maaiveldhoogte bepaald met RTK-GPS.
-Je voert deze hoogtebepaling uit op 20 random punten.
-Deze punten worden ter beschikking gesteld in de GIS-applicatie.Je volgt hierbij de toegekende rangorde van de punten.
-Bij de overname van een bestaande buis buiten het celkarteringspolygoon wordt nog steeds het oorspronkelijke celkarteringspolygoon opgemeten.
-
-## Terrestrische types en 7220: inmeten van maaiveldhoogte
-
-In het geval van steekproefeenheden van terrestrische types en type 7220 dient de maaiveldhoogte bepaald te worden.
+In het geval van steekproefeenheden van terrestrische types en type 7220 dient de gemiddelde maaiveldhoogte bepaald te worden.
 Dit kan onmiddellijk na de plaatsing van de peilbuis en piëzometer maar kan ook op een later tijdstip.
-Om de lokale ruimtelijke variatie in maaiveldhoogte in de rastercel mee in rekening te brengen, wordt de maaiveldhoogte bepaald op tien random getrokken punten rond de geïnstalleerde peilbuis en piëzometer.
-Met de RTK-GPS-ontvanger bepaal je de maaiveldhoogte door op tien op voorhand getrokken punten in de rastercel.
-Geef de gemeten maaiveldhoogtes in in de GIS-applicatie.
+Om de lokale ruimtelijke variatie in maaiveldhoogte mee in rekening te brengen, wordt de maaiveldhoogte bepaald op meerdere locaties binnen de celkarteringspolygoon.
+Met de RTK-GPS-ontvanger bepaal je de maaiveldhoogte op twintig random punten in de celkarteringspolygoon.
+Deze punten worden ter beschikking gesteld in de GIS-applicatie.
+Je volgt hierbij de toegekende rangorde van de punten.
+Bij de overname van een bestaande buis buiten het celkarteringspolygoon wordt nog steeds het oorspronkelijke celkarteringspolygoon opgemeten.
 
 ## Aquatische types: plaatsen en geografisch inmeten van peilschaal
 
@@ -259,5 +270,5 @@ Als geen RTK-GPS-ontvanger beschikbaar was bij het plaatsen van de peilschaal, d
 
 Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
-Vanaf één maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
+Vanaf anderhalve maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
