@@ -1,0 +1,28 @@
+# Samenvatting
+
+```{=html}
+<!--
+Een samenvattende opsomming van de te volgen stappen.
+Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
+-->
+```
+
+-   STAP 1.
+    Voer de taken voorafgaand aan het veldbezoek uit en **controleer de lijst met benodigdheden** voor vertrek.
+
+-   STAP 2.
+    **Navigeer met GPS naar de locatie**.
+    Bepaal of de locatie geschikt is voor een screening van de vegetatiesamenstelling.
+    Is de locatie toegankelijk?
+    Is het habitattype aanwezig (niet steeds op het eerste zicht te bepalen).
+    Indien de plas ontoegankelijk is of geen habitat blijkt te bevatten wordt dit gedocumenteerd en wordt er geen screening gemaakt.
+
+-   STAP 3.
+    **Voer de screening van de vegetatiesamenstelling uit**.
+    Afhankelijk van de waterdiepte gebeurt dit op één van volgende manieren: door het water wadend, harkend vanuit het doorwaadbare deel, harkend vanaf de oever of met boot.
+    Ook de **standplaatskenmerken worden genoteerd** op het veldformulier.
+
+-   STAP 4.
+    Soorten die niet konden worden geïdentificeerd op terrein, worden binnen de week na bemonstering gedetermineerd.
+    Gegevens worden ingegeven in INBOVEG indien dit nog niet is gebeurd op terrein.
+

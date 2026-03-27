@@ -1,0 +1,228 @@
+# Werkwijze
+
+## Uitvoering
+
+```{=html}
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het protocol uit te voeren.
+Subtitels gebruiken om elke stap te omschrijven.
+-->
+```
+
+### Voorafgaand aan het terreinwerk
+
+Volgende taken dienen voorafgaand aan het veldbezoek uitgevoerd te worden:
+
+-   Afdruk van veldkaarten met gepast schaalniveau en de recentst beschikbare orthofoto, bij voorkeur op A3 formaat.
+
+-   Afdruk van veldformulieren van de verschillende habitattypen (dubbelzijdig)
+
+-   Offline zetten van eventuele kaarten/applicaties op handcomputer/tablet voor het geval mobiele data niet beschikbaar is in het veld
+
+-   Eigenaar/beheerder contacteren
+
+-   Adres of routebeschrijving van locatie opzoeken
+
+-   Inschatten of een (belly)boot nodig is voor het uitvoeren van de screening van de vegetatiesamenstelling
+
+### Lokaliseren en documenteren van veldlocatie
+
+Navigeer met een gps naar de oever van de veldlocatie.
+
+Indien het steekproefpunt tijdelijk of permanent ongeschikt is (zie [beperkingen](#beperkingen-van-het-protocol)), wordt dit samen met de reden genoteerd op het veldformulier.
+Bij een permanent ongeschikt meetpunt wordt dit vervangen door het eerstvolgende reservepunt.
+Bij tijdelijke ongeschiktheid wordt de locatie later in het jaar of het daaropvolgende jaar opnieuw bezocht.
+Ook opmerkingen in verband met betreding en toegang worden genoteerd.
+
+Alvorens het water betreden wordt, wordt ingeschat wat de geschikte kledij is voor de screening.
+Bij ondiepe plassen kan er gekozen worden voor lieslaarzen of een waadpak.
+Bij diepe plassen zal het gebruik van een boot noodzakelijk zijn.
+Wanneer er met een boot gewerkt wordt, dienen minstens 3 personen aanwezig te zijn: 2 in de boot voor de screening en iemand op de oever.
+Men dient zich aan de veiligheidsvoorschriften te houden.
+
+### Bepaling aanwezige habitattypen
+
+Bepaal eerst of het geselecteerde habitattype aanwezig is volgens de praktische handleiding voor het typeren van de stilstaande wateren in Vlaanderen (Scheers et al. 2016) en de beschrijving van habitattype 2190_a (Denys et al. 2021).
+Voor alle habitat(sub)typen die aanwezig zijn in de plas wordt een afzonderlijk veldformulier ingevuld.
+
+**Oppervlakteaandeel van habitat in plas**: Mits er meerdere typen aanwezig zijn in een waterlichaam, dan wordt er getracht een representatieve verdeling aan de types binnen de plas te geven.
+De som van de verdeling moet steeds 100% zijn.
+
+Ook de reden van afwezigheid van het habitattype wordt opgegeven, m.n.
+waarom voldoet de locatie niet aan de definitie van het habitattype:
+
+-   Te weinig open water aanwezig (gedomineerd door helofytenvegetaties, dus behorend tot een moerastype),
+
+-   Gracht
+
+-   De plas is gedempt
+
+-   Er zijn geen soorten aanwezig die typisch zijn voor het habitattype
+
+-   ...
+
+### Screening van de vegetatiesamenstelling {#vegetatieopname}
+
+De waterdiepte bepaalt de wijze van screening:
+
+-   Indien de waterdiepte dit toelaat, wordt de screening al wadend uitgevoerd.
+
+-   Indien het centrale deel van de plas ondoorwaadbaar is, maar de zone nabij de oever wel doorwaadbaar is, wordt het diepere deel harkend vanuit de doorwaadbare zone bemonsterd.
+
+-   In diepe, grotere wateren wordt met behulp van een kleine boot geïnventariseerd.
+
+Vertrek vanop de oever van de locatie, waad langsheen de oever om de screening van de vegetatiesamenstelling te maken.
+Dit kan in wijzerszin of tegenwijzerzin gebeuren, afhankelijk van de stand van de zon.
+Waden met de zon in de rug is optimaal, omdat dit de zichtbaarheid van de submerse vegetatie vergroot en de reflectie beperkt.
+Bij ondiepe plassen wordt zig-zag-gewijs van de oever naar het centrale deel van de plas gewaad om een beeld te krijgen van de volledige plas.
+Afhankelijk van de grootte van de plas, de diversiteit aan soorten en de vegetatiedichtheid zal het zigzag-patroon meer of minder dens zijn.
+
+Bij diepe, vegetatierijke plassen wordt het centrale deel met een boot geïnventariseerd, waarbij de vegetatie door middel van een dreghark wordt opgehaald.
+Eerst wordt de kolonisatiediepte bepaald, dit is de maximale diepte waar er vegetatiegroei wordt waargenomen.
+Daarna wordt de vegetatiezone in transecten gevaren, waarbij op verschillende dieptes de vegetatie met een dreghark wordt bemonsterd.
+Het diepe onbegroeide deel wordt tenslotte sporadisch bemonsterd om te checken op vegetatie.
+
+De screening van de vegetatiesamenstelling wordt beperkt tot het waterdeel en de oeverzone die frequent onder water komt te staan.
+Bij plassen met een zeer geleidelijk talud, bijvoorbeeld bij habitattype 3160, kan de overgang van de oeverzone soms breed zijn; hier wordt echter de directe oeverzone inbegrepen in de screening.
+Bij twijfel wordt de screening beperkt tot de contour van watervlakken; deze toont de begrenzing door de winterwaterstand.
+De meer afgelegen oeverzone kan in dit geval deel uitmaken van een ander habitattype (hoogveen/natte heide) en aldus volgens een ander protocol worden beoordeeld.
+
+#### Bedekking individuele soorten
+Eerst wordt een lijst van de aanwezige sleutel- en indicatorsoorten opgesteld (Zie veldformulieren [Bijlage 2 t.e.m. 8](#bijlage2) en Oosterlynck et al. 2020).
+Na de volledige plas te hebben gescreend, worden de bedekkingen genoteerd met de bedekkingsschaal van Tabel \@ref(tab:bedekkingsschaal).
+
+```{r bedekkingsschaal}
+df <- data.frame(
+  Code = c("r", "o", "f", "a", "cd", "d"),
+  Tansley = c("zeldzaam", "occasioneel", "frequent", "abundant", "co-dominant", "dominant"),
+  Beschrijving = c(
+    "< 3 exemplaren",
+    "> of = 3 exemplaren, < 5% bedekkend",
+    "bedekkend (ca. 5 %), oplopend tot 15-20% of > 100 exemplaren",
+    "bedekking 15 (20) < x < 40%",
+    "bedekking > 40% van meerdere soorten",
+    "bedekking > 40% van 1 soort"
+  ),
+  stringsAsFactors = FALSE
+)
+
+pander(
+  df,
+  add_label("Bedekkingsschaal Tansley-Meren (Schneiders et al., 2004).")
+)
+```
+
+Indien identificatie op het terrein niet mogelijk is, verificatie door een specialist nodig is, of het een zeer zeldzame vondst betreft, worden (delen van) planten meegenomen in een hersluitbaar plastic zakje, licht bevochtigd en voorzien van de locatiecode om deze later in het labo te kunnen determineren.
+Het volgnummer van het herbariumspecimen wordt genoteerd op het veldformulier.
+Het specimen wordt best uit de zon, en zo koel mogelijk gehouden na verzamelen en tijdens transport.
+Achteraf kan dit nog enkele dagen in de koelkast worden bewaard alvorens gedetermineerd of gefixeerd te worden.
+
+#### Bedekking van groepen van soorten
+
+**Sleutelsoorten**: de bedekking van sleutelsoorten per habitattype wordt individueel ingeschat volgens de Tansley-schaal (Tabel \@ref(tab:bedekkingsschaal)).
+De totale bedekking (%) van alle sleutelsoorten samen wordt eveneens genoteerd.
+Voor habitattype 2190_a worden sleutelsoorten onderverdeeld in hydrofyten en niet-hydrofyten.
+Voor habitattype 3140 wordt aangegeven of de kranswiervelden bestaan uit meer of minder dan de helft uit sleutelsoorten (op basis van bedekking).
+
+Bedekking **verstoringsindicatoren**: Het percentage verstoringsindicatoren (eutrofiëringsindicatoren, verzuring en invasieve exoten) wordt ingeschat als oppervlakte-percentage, oftewel de projectie t.o.v. het volledige wateroppervlak.
+Voor habitattype 2190_a wordt de kroosbedekking (%) genoteerd als eutrofiëringsindicator.
+
+Indien verschillende habitattypen en/of subtypen voorkomen, wordt voor elk van de typen de verstoringspercentages op plasniveau ingeschat.
+Voor bijvoorbeeld de gezamenlijke aanwezigheid van habitattypen 3130_na als 3130_aom in een plas, worden eutrofiëringspercentages voor beide subtypes op de volledige plas ingeschat.
+
+Voor habitattype 2190_a wordt het percentage van verschillende **vegetatielagen** ingeschat:
+
+-   (bodemwortelende) **Submerse vegetatie**: procentuele oppervlakte van de plas bedekt met ondergedoken en wortelende vegetatie; dit is inclusief *Ceratophyllum* en exclusief *Utricularia*.
+
+-   **Kranswieren**: oppervlakte van de plas bedekt met Characeae.
+    Opgelet, deze zijn ook vervat in het percentage submerse vegetatie, dus het percentage submerse vegetatie is steeds groter dan of gelijk aan het percentage kranswieren.
+
+-   **Overhangende bomen en struiken**: dit is de som van de oppervlakten van het wateroppervlak en de langdurig geïnundeerde oever dat beschaduwd wordt door overhangende bomen/struiken, dus deze die zich niet in de plas bevinden.
+    Bij het bepalen van de beschaduwing wordt een verticale projectie van de overhangende boom/struiken gebruikt.
+    Dit geeft een indicatie van slechte lichtomstandigheden in het water, en daardoor vegetatiegroei belemmert.
+
+-   **Bomen en struiken**: percentage bedekking van het wateroppervlak en de langdurig geïnundeerde oever met bomen of struiken; enkel deze die zich in de plas bevinden of die in de geïnundeerde oever wortelen.
+    Dit is een indicatie van successie.
+
+#### Structuurkenmerken
+
+**Verticale structuur**
+
+De verticale structuur brengt de successie in rekening.
+Een overmatige aanwezigheid van hoger groeiende, meer concurrentiekrachtige planten bemoeilijkt de groei van de kenmerkende isoëtiden en dwergbiezen:
+
+-   **Isoëtiden**: Voor habitattype 3110 wordt de bedekking van isoëtiden versus andere groeivormen genoteerd, oftewel door een Tansley-inschatting per groep te noteren of door aan te kruisen of het aandeel isoëtiden groter of kleiner is dan de andere groeivormen.
+
+-   **‘Opgaande’ soorten**: voor habitattype 3130_na wordt de overgroeiing van de vegetatievlekken (definitie: zie verder) door hoger groeiende niet-sleutelsoorten ingeschat.
+    Dit is de vegetatie hoger dan 15 cm en kan naast helofyten ook bestaan uit submerse vegetatie die zorgt voor concurrentie. Een overdadige ontwikkeling van **helofyten** zorgt voor concurrentie voor licht en ruimte, waardoor de groei van ondergedoken en drijvende vegetatie wordt bemoeilijkt. De bedekking van helofyten (exclusief sleutelsoorten) wordt als percentage ingeschat bij habitattype 3130_aom, 3140 en 3150; hierbij wordt dit percentage ingeschat op plasniveau; m.n.
+% bedekking ten opzichte van het wateroppervlak. Ook bij habitattype 2190_a komt dit aan bod als de bedekking van **robuuste monocotylen**.
+
+**Horizontale structuur**
+
+Bij de horizontale structuur wordt beoordeeld of de typische vegetaties voldoende groot zijn, de zogenaamde **vegetatievlekken** die voornamelijk bestaan uit sleutelsoorten.
+De omschrijving van de term vegetatievlek verschilt per habitattype:
+
+-   3110: \> of = 4 exemplaren van sleutelsoorten per m² of 4 exemplaren staan op maximum 0,5 m van elkaar;
+
+-   3130_aom en 3130_na: ijle tot dichte vegetaties waarin sleutelsoorten meer bedekken dan andere soorten;
+
+-   3140: kranswiervelden of dichte vegetaties, voor meer dan ¾ bestaande uit kranswieren (zowel sleutelssoorten als overige kranswieren);
+
+-   3150: vegetaties waarin sleutelsoorten meer bedekken dan andere soorten.
+
+Tijdens het waden wordt de grootte van deze vegetatievlekken ingeschat.
+Er wordt van twee vegetatievlekken gesproken indien de afstand tussen beide minstens 2 meter bedraagt.
+Er is geen minimum-oppervlakte om van een vegetatievlek te kunnen spreken.
+Wanneer de sleutelsoorten zeer schaars aanwezig zijn en er slechts enkele exemplaren worden aangetroffen, wordt dit als een vegetatievlek van de laagste grootteklasse gerekend.
+
+De oppervlakteklasse van de grootste aaneengesloten vegetatievlek wordt aangekruist op het veldformulier. Bij de doorgaans schaarse vegetaties van habitattype 3160 wordt dit criterium beoordeeld door de ruimtelijke samenhang met het hydrologisch samenhangende successiestadium ‘oligotroof en zuur overgangsveen’ (**habitattype 7140\_ oli**) te beoordelen. De aan- of afwezigheid van de aanpalende habitatvlekken van het habitattype 7140_oli wordt aangekruist op het veldformulier. Voor een beschrijving van dit habitattype wordt verwezen naar Decleer (2007).
+
+### Algemene standplaatskenmerken
+
+#### Waterpeil
+
+**Waterpeil**: Een afwijkend waterpeil wordt genoteerd.
+Bij een uitzonderlijk hoog waterpeil wordt afgeraden om de screening uit te voeren, enerzijds omwille van veiligheid en anderzijds vanwege het beperkt doorzicht dat meestal gepaard gaat met een uitzonderlijk hoog waterpeil.
+
+**Schommeling winter/zomer**: de schommeling tussen winter- en zomerwaterpeil wordt ingeschat door de vegetatie en structuurkenmerken van de oeverzone net boven het waterpeil te beoordelen.
+De screening vindt plaats tijdens het seizoen wanneer het waterpeil doorgaans het laagst staat.
+Aan de oeverzijde kan ingeschat worden hoeveel hoger het winterpeil is.
+
+**Permanentie**: Voor habitattype 2190_a wordt aangekruist of de plas permanent water bevat of niet.
+Er wordt een onderscheid gemaakt tussen: permanent waterhoudend (nooit droogvallend), semi-permanent (soms droogvallend) of periodiek droogvallend (jaarlijks droogvallend).
+
+#### Maximale waterdiepte
+
+De maximale waterdiepte wordt bepaald door middel van een plooimeter, de sonar of de lengteaanduiding op het koord van de dreghark.
+De diepteklasse van deze maximale waterdiepte wordt vervolgens aangekruist op het veldformulier.
+
+#### Helderheid van de waterkolom
+
+Indien er geen bodemzicht is, wordt de secchi-diepte bepaald.
+De schijf wordt langzaam in het water gelaten en de diepte waarop het onderscheid tussen de witte en de zwarte vlakken niet meer zichtbaar is, wordt afgelezen van de maatverdeling op het touw.
+Dit wordt enkele malen herhaald.
+Indien de schijf tot op de bodem zichtbaar is, wordt de waterdiepte van de meetplaats genoteerd als secchi-diepte.
+De meting van de secchi-diepte dient - indien mogelijk - op het diepste punt van de plas uitgevoerd te worden.
+Zie ook protocol [sfp-113-nl 2023.04](../2023.04/index.html).
+
+#### Bodemsubstraat
+
+Voor habitattype 2190_a wordt het bodemsubstraat genoteerd: zand, klei, veraard veen, puin of overig substraat.
+Indien meerdere typen substraat voorkomen, wordt dit ingeschat d.m.v. percentages.
+
+## Registratie en bewaring van resultaten
+
+### Invoer veldgegevens
+
+De invoer van veldgegevens gebeurt digitaal op het terrein met een (rugged) tablet in INBOVEG (Survey = HT31xx_LSVI_StilstaandeWateren en HT2190_a_LSVI_StilstaandeWateren) of analoog op een veldformulier (zie [bijlage 2 t.e.m. 8](#bijlage2)).
+
+### Determinaties
+
+Soorten die in het veld niet op naam gebracht kunnen worden, kunnen tot hooguit één week gekoeld bewaard worden.
+Ze kunnen in het labo op naam gebracht worden met een loep, stereomicroscoop of lichtmicroscoop en relevante determinatiewerken ([Bijlage 1](#bijlage1)).
+Indien relevant, kunnen foto’s genomen worden.
+De geïdentificeerde specimen worden bewaard in een herbarium.
+
+### Opslag van foto's
+
+De foto’s worden chronologisch per datum in mappen bewaard, waarbij de locatiecode en de datum in de map- of bestandsnaam worden vermeld.

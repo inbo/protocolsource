@@ -1,12 +1,14 @@
-# History files
+# dot files
 .Rhistory
 .Rapp.history
+.DS_Store
+.Renviron
+.Rproj.user
+.Ruserdata
+.quarto
 
 # Session Data files
-.RData
-
-# User-specific files
-.Ruserdata
+*.[rR][dD]ata
 
 # Example code in package build process
 *-Ex.R
@@ -35,13 +37,35 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 *.log
+*.tex
+# ignore combined Rmd files (auto-deleted, but persist in case render fails)
+source/**/s[fpiao]f_*.Rmd
 
-# R Environment Variables
-.Renviron
-.Rproj.user
+# some binary files
+*.dbf
+*.doc*
+*.gddoc
+*.gdsheet
+*.gpkg
+*.eps
+*.html
+*.mdb
+*.pdf
+*.[rR]ds
+*.shp*
+*.shx
+*.sty
+*.xls*
 
-# Other
+# Other folders
+_bookdown_files/
+css/
 docs/
 from_docx/
-css/
-_bookdown_files/
+libs/
+*_cache
+*_files
+*_freeze
+*_libs
+output/
+renv/library

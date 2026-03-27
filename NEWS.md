@@ -1,3 +1,17 @@
+### First version of protocol: sop-040-nl
+
+- Title: Abundantie- en oppervlaktebepaling van groepsfoto’s met ongewervelden in ImageJ
+- Published on: 2026-01-23
+- Version number: 2026.01
+- Link to this version: [sop-040-nl version 2026.01](2026.01/index.html)
+
+### First version of protocol: sfp-408-nl
+
+- Title: Veldprotocol LSVI stilstaande wateren
+- Published on: 2025-11-21
+- Version number: 2025.03
+- Link to this version: [sfp-408-nl version 2025.03](2025.03/index.html)
+
 ### First version of protocol: sop-041-nl
 
 - Title: Substaal spierweefsel zoogdieren

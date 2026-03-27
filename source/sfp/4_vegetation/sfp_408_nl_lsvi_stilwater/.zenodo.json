@@ -1,0 +1,51 @@
+{
+  "description": "<p>Het doel van het veldprotocol is om gegevens te verzamelen van bepaalde indicatoren (vegetatiesamenstelling en structuurkenmerken) die een beoordeling van de LSVI toelaten voor habitattype 2190_a, 3110, 3130_aom, 3130_na, 3140, 3150 en 3160. Deze LSVI-indicatoren zijn beschreven door Oosterlynck et al. (2020).<\/p> <p>Het veldprotocol wordt gebruikt voor het bemonsteren van de steekproefpunten van het habitatkwaliteitsmeetnet voor bovengenoemde habitattypen. De selectiemethode van steekproefpunten is beschreven in het rapport over de habitatkwaliteitsmonitoring (Westra et al., 2014; Westra et al., 2022). Dit meetnet is geconcipieerd om de habitatkwaliteit van habitattypen van stilstaande wateren op Vlaams schaalniveau te kunnen inschatten. De resultaten van dit meetnet worden o.a. gebruikt voor de 6-jaarlijkse rapportage over de staat van instandhouding van de habitattypes 31xx en 2190_a aan de Europese Commissie.<\/p>",
+  "title": "Veldprotocol LSVI stilstaande wateren.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "LSVI; vegetatieopname; stilstaande wateren; 31xx; 2190; veldprotocol; 3110; 3130; 3130aom; 3130na; 3140; 3150; 3160"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Leyssen, An",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0003-3537-286X",
+      "type": "contactperson"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Leyssen, An",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0003-3537-286X"
+    },
+    {
+      "name": "Packet, Jo",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0001-5590-323X"
+    },
+    {
+      "name": "Scheers, Kevin",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0002-4756-4247"
+    },
+    {
+      "name": "Smeekens, Vincent",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0000-0003-2996-2716"
+    },
+    {
+      "name": "Van Hecke, Florian",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "orcid": "0009-0004-3499-2279"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}

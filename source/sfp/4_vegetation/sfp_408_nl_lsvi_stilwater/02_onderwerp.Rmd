@@ -1,0 +1,52 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+
+**31xx**: afkorting voor Natura2000-habitattypen 3110, 3130, 3140, 3150 en 3160
+
+**Habitattypen** van stilstaand water die beschermd zijn door de habitatrichtlijn:
+
+-   **2190_a** - Waterhoudende depressies in vochtige duinvalleien (Denys et al. 2021)
+-   **3110** - Mineraalarme oligotrofe wateren van de Atlantische zandvlakten (*Littorelletalia uniflora*) (Decleer 2007, Scheers et al. 2020).
+-   **3130** - Oligotrofe tot mesotrofe stilstaande wateren met vegetatie behorend tot de *Littorelletalia uniflora* en/of de *Isoeto-Nanojuncetea* (Decleer 2007, Scheers et al. 2020)
+    -   **3130_aom**: subtype aom, subtype oeverkruid (*Littorelletea*)
+    -   **3130_na**: subtype na, subtype dwergbiezen (*Isoeto-Nanojuncetea*)
+-   **3150** - Van nature eutrofe meren met vegetaties van het type *Magnopotamion* of *Hydrocharition* (Decleer 2007, Scheers et al. 2020)
+-   **3160** - Dystrofe natuurlijke poelen en meren (Decleer 2007, Scheers et al. 2020)
+
+**Isoëtiden**: laagblijvende rozetbladige planten met stevige, holle, lijn- of priemvormige bladeren bv.
+knolrus (*Juncus bulbosus*), oeverkruid (*Littorella uniflora*), waterlobelia (*Lobelia dortmanna*), pilvaren (*Pilularia globulifera*), …
+
+**LSVI**: Lokale staat van instandhouding; instrument om lokaal de toestand van een habitattype te evalueren aan de hand van structuur- en vegetatiekenmerken (Oosterlynck et al. 2020).
+
+**Steekproefpunt** of **(veld)locatie**: Voor het habitatkwaliteitsmeetnet (zie verder) komt de steekproefeenheid voor stilstaande wateren overeen met de watervlakkencode (Westra et al., 2022).
+Dit is het niveau waarop de biotische karakterisatie wordt beoogd.
+
+## Doelstelling en toepassingsgebied
+
+<!-- description: start -->
+Het doel van het veldprotocol is om gegevens te verzamelen van bepaalde indicatoren (vegetatiesamenstelling en structuurkenmerken) die een beoordeling van de LSVI toelaten voor habitattype 2190_a, 3110, 3130_aom, 3130_na, 3140, 3150 en 3160.
+Deze LSVI-indicatoren zijn beschreven door Oosterlynck et al. (2020).
+
+Het veldprotocol wordt gebruikt voor het bemonsteren van de steekproefpunten van het habitatkwaliteitsmeetnet voor bovengenoemde habitattypen.
+De selectiemethode van steekproefpunten is beschreven in het rapport over de habitatkwaliteitsmonitoring (Westra et al., 2014; Westra et al., 2022).
+Dit meetnet is geconcipieerd om de habitatkwaliteit van habitattypen van stilstaande wateren op Vlaams schaalniveau te kunnen inschatten.
+De resultaten van dit meetnet worden o.a. gebruikt voor de 6-jaarlijkse rapportage over de staat van instandhouding van de habitattypes 31xx en 2190_a aan de Europese Commissie.
+
+<!-- description: end -->
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+
