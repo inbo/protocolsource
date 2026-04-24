@@ -101,6 +101,21 @@ De wijze waarop het wordt geëvalueerd is afhankelijk van het doeltype:
 -   specifiek voor type
 
 De bepaling van het aanwezige habitat(sub)type of rbb gebeurt met behulp van de [veldsleutels](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/).
+Het doeltype moet op minstens 9 m^2^ aanwezig zijn binnen de rastercel, uitgezonderd bij habitattype 7150, daar wordt de ondergrens van 4 m^2^ gehanteerd.
+
+Door veranderingen op het terrein, onnauwkeurigheden in de afbakening van de types of het voorkomen van complexen in de karteringen kan het type afwijken van het type op de Habitatkaart.
+Bijgevolg dienen we steeds het type te bepalen met behulp van de veldsleutels.
+Het schaalniveau waarop de sleutel dient toegepast te worden, is niet dat van het celmidden, maar deze van de min of meer homogene vegetatievlek waarin het celmidden zich bevindt.
+Om de finale beslissing te maken of het punt wordt meegenomen in de steekproef, wordt een denkbeeldig 3 m x 3 m-proefvlak beoordeeld ten noordwesten van het celmidden.
+
+**Onderstaande beslisregels worden gehanteerd voor het bepalen of de steekproefeenheid al dan niet geschikt is.**
+
+-   De rastercel maakt deel uit van een homogene, grotere vegetatievlek van het doeltype (minimum 9 m^2^) -\> de steekproefeenheid is geschikt.
+-   De rastercel bevat naast het doeltype ook (een) ander habitattype en zijn ruimtelijk duidelijk van elkaar gescheiden (bv. bos naast een heideterrein, ven)
+    -   Het doeltype neemt minder dan 50% van de rastercel in -\> de steekproefeenheid is ongeschikt.
+    -   Het doeltype neemt 50% of meer in van de rastercel -\> de steekproefeenheid is geschikt.
+
+Voor de celgebaseerde types geldt enkel dat ze het minimumoppervlakte moeten halen binnen de rastercel.
 
 Geef in de GIS-applicatie de volgende gegevens in:
 
@@ -110,15 +125,13 @@ Geef in de GIS-applicatie de volgende gegevens in:
 -   eventuele opmerkingen
 -   eventueel een foto.
 
-Komt het type ter plaatse niet overeen met het doeltype, dan is de steekproefeenheid niet geschikt.
-Geef in dat geval in de GIS-applicatie aan dat een lokale vervanging nodig is en geef de volgende gegevens in:
+Is de steekproefeenheid niet geschikt, geef dan ook aan dat een lokale vervanging nodig is en geef de volgende gegevens in:
 
 -   de reden van de nodige vervanging, indien je dit kan inschatten: is het een ander habitattype of rbb (habitatwijziging) of is het geen habitat of rbb meer (habitatverlies);
 -   een inschatting of het permanent is of niet.
 
-Sla de gegevens op en start aansluitend met de vervangprocedure (zie \@ref(lokalevervanging)).
-
-Komt het doeltype overeen, dan is de steekproefeenheid geschikt; voer aansluitend een markering en celkartering uit (zie \@ref(celkartering)).
+Is de steekproefeenheid **geschikt**, voer aansluitend een markering en celkartering uit (zie \@ref(celkartering)).
+Is de steekproefeenheid **niet geschikt**, start aansluitend met de vervangprocedure (zie \@ref(lokalevervanging)).
 
 ## Lokale vervanging van niet-geschikte steekproefeenheden {#lokalevervanging}
 
@@ -170,4 +183,3 @@ Dit kan door de rastercel systematisch te doorlopen (vermijd de zone van het per
 Vermijd onnodige verplaatsingen om vertrappeling van de vegetatie te minimaliseren.
 Noteer in de GIS-app de nauwkeurigheid van de RTK-GPS-ontvanger tijdens de celkartering.\
 Als de rastercel wordt doorsneden door een beek of gracht, duid deze hindernissen dan aan in de GIS-app.
-
