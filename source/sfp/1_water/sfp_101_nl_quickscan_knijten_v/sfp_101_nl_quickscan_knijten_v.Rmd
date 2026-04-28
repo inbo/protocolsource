@@ -1,0 +1,532 @@
+---
+title: Veldstaalnameprotocol quickscan knijtenlarven
+subtitle:
+author:
+  - name: Organe, Anouk
+    orcid: 0009-0006-1202-1863
+  - name: Van De Meutter, Frank
+    orcid: 0000-0002-9850-1860
+  - name: Jocqué, Merlijn
+    orcid: 0000-0002-7196-7476
+date: 2025-12-01
+reviewer: Florian Van Hecke
+file_manager: Toon Westra
+protocol_code: sfp-101-nl
+version_number: '2026.01'
+language: nl
+template_name: sfp
+theme: water
+site: bookdown::bookdown_site
+bibliography: referenties.yaml
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+---
+
+```{=html}
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse `Rmd` bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
+-->
+```
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  eval = TRUE,
+  dpi = 300,
+  fig.width = 150 / 25.4,
+  fig.height = 100 / 25.4,
+  out.width = "100%",
+  warning = FALSE,
+  error = TRUE,
+  message = FALSE
+)
+library(dplyr)
+library(purrr)
+library(protocolhelper)
+library(pander)
+panderOptions("table.alignment.default", "left")
+metadata <- rmarkdown::metadata
+path_to_protocol <- get_path_to_protocol(metadata$protocol_code)
+type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
+```
+
+# Metadata {.unnumbered}
+
+```{r metadata-table}
+revs <- map_chr(
+  metadata[["reviewer"]],
+  \(x) x$name |> paste(collapse = " ")
+)
+fms <-  map_chr(
+  metadata[["file_manager"]],
+  \(x) x$name |> paste(collapse = " ")
+)
+tibble(
+  reviewers = revs,
+  documentbeheerder = fms,
+  protocolcode = metadata[["protocol_code"]],
+  versienummer = metadata[["version_number"]],
+  taal = metadata[["language"]],
+  thema = metadata[["theme"]]
+) %>%
+  pander::pander(split.tables = Inf)
+rm(revs, fms)
+```
+
+```{r results="asis"}
+sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
+```
+
+<!--chapter:end:index.Rmd-->
+
+# Wijzigingen t.o.v. vorige versies
+
+```{=html}
+<!--
+Omschrijf hier welke wijzigingen er gebeurd zijn ten opzichte van de vorige versie. 
+Vermeld bij elk versienummer, de reden van de wijziging en - wanneer relevant - een beknopte beschrijving van de wijziging.
+Gesorteerd van recent naar oud. 
+
+## [2020.02](../2020.02/index.html)
+
+- Toevoeging van ontbrekende stap in het stappenplan
+- Verbetering van schrijffouten
+
+## [2020.01](../2020.01/index.html)
+
+- Eerste versie van het protocol
+-->
+```
+
+<!--chapter:end:NEWS.md-->
+
+# Afhankelijkheden
+
+```{=html}
+<!--
+Hier niets invullen.
+Indien er afhankelijkheden zijn deze invullen in de yaml sectie van `index.Rmd`
+-->
+```
+```{r dependencies}
+empty_table <- tibble(
+  protocol_code = character(),
+  version_number = character(),
+  params = character(),
+  appendix = logical()
+) %>%
+  add_row() %>%
+  rename(
+    `Protocolcode` = protocol_code,
+    `Versienummer` = version_number,
+    `Opgenomen als subprotocol` = appendix
+  ) %>%
+  pander(split.tables = Inf)
+
+if (exists("params")) {
+  if (!is.null(params$dependencies)) {
+    transpose(params$dependencies) %>%
+      as_tibble() %>%
+      mutate(protocol_code = as.character(protocol_code),
+             version_number = as.character(version_number),
+             params = as.character(params),
+             version_number = ifelse(params == "NA",
+                                     paste0("[", version_number, "](../",
+                                            version_number, "/", "index.html)"),
+                                     version_number),
+             appendix = as.logical(appendix)) %>%
+      rename(
+        `Protocolcode` = protocol_code,
+        `Versienummer` = version_number,
+        `Opgenomen als subprotocol` = appendix
+      ) %>%
+      pander(split.tables = Inf)
+  } else {
+    empty_table
+  }
+} else {
+  empty_table
+}
+rm(empty_table)
+```
+
+<!--chapter:end:01_afhankelijkheden.Rmd-->
+
+### Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+
+-   **Chlo** = Chlorofyl-a
+
+-   **mTAW** = meter Tweede Algemene Waterpassing
+
+## Doelstelling en toepassingsgebied
+
+<!-- description: start -->
+
+<!-- description: end -->
+
+### Kadering
+
+Sinds de waterkwaliteit van de Zeeschelde na 2008 is verbeterd, worden op steeds meer plaatsen langs de Zeeschelde overlast door knijten (*Culicoides*, Ceratopogonidae) gemeld. Vermoedelijk gaat het in de meeste gevallen om *Culicoides riethi* Kieffer, 1914. De larven van deze soort komen voornamelijk voor in de hogere delen van intertidale zoetwaterslikken. De knijten komen soms in grote aantallen voor en kunnen heel wat hinder veroorzaken. Het toenemende aantal adviesvragen omtrent knijten, hun habitat, ecologie en bestrijding leidde tot een sterke toename van staalnames, waardoor de nood ontstond voor een gestandaardiseerde snelle en betrouwbare methode om de aanwezigheid van knijtenlarven vast te stellen.
+
+### Doelstelling
+
+Dit document beschrijft het INBO “QuickScan” protocol voor het bepalen van de densiteiten aan knijtenlarven (*Culidoides riethi*) in slikgebieden langs de Zeeschelde. Het protocol omvat de staalname in het veld en de procedure voor verwerking in het labo van biota.
+
+De QuickScan omvat enkel de bemonstering van biota in het veld en de snelle verwerking van de niet gepreserveerde stalen in het labo. Afhankelijk van de vraagstelling wordt dit best gecombineerd met sediment bemonsteringen die kijken naar granulometrie, gehalte organisch materiaal, watergehalte, bodemdichtheid, en concentratie chlorofyl-a.
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+
+<!--chapter:end:02_onderwerp.Rmd-->
+
+# Beperkingen van het protocol
+
+```{=html}
+<!--
+Alleen in te vullen indien van toepassing.
+Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer afwijkingen nodig zijn ten opzichte van het standaard protocol.
+Vermeld hier ook mogelijke interferenties, knelpunten, ...
+-->
+```
+
+<!--chapter:end:03_beperkingen.Rmd-->
+
+# Principe
+
+```{=html}
+<!--
+Korte omschrijving van de principes waarop het protocol gebaseerd is.
+Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
+-->
+```
+
+<!--chapter:end:04_principe.Rmd-->
+
+# Vereiste competenties
+
+```{=html}
+<!--
+Omschrijving van de basiskennis (bv. kennis van bepaalde soorten) en vaardigheden (bv. bepaalde apparatuur kunnen bedienen), die de gebruiker van het protocol moet hebben om het protocol op een gepaste manier te kunnen uitvoeren.
+Eventueel kan er verwezen worden naar bepaalde opleidingen.
+-->
+```
+
+<!--chapter:end:05_competenties.Rmd-->
+
+# Benodigdheden
+
+## Apparatuur
+
+-   **Trimble gps** (eventueel punten vooraf inladen)
+
+```{=html}
+<!--
+Opsomming van de apparatuur die nodig is en verwijzingen naar de `sip`'s (Standaard Instrument Procedure; `<protocol-code>-YYYY.NN`) indien die er zijn.
+Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
+-->
+```
+
+## Materiaal
+
+### Veldstaalname
+
+-   **Benthossteekbuis** van minimum 15 cm lang met een diameter van 4,5 cm + bijkomende stamper om het staal uit te duwen
+
+-   Gelabelde **potten** (0,5 L) of **zakjes**. De labels worden bij voorkeur vooraf aangebracht met een watervaste stift. Controleer steeds dat de stift water- en wrijfvast is.
+
+### **Optioneel bij het bemonsteren van sediment:**
+
+-   kleine **steekbuis** van minimum 20 cm lang met een diameter van 2 cm
+
+-   kleine **potjes** voor sediment en chlorofyl-a-stalen
+
+-   **Kopecky-ring**
+
+-   **zakjes** of **potjes** voor Bulk density stalen
+
+### Verwerking labo
+
+-   **Zeef** met maaswijdte **125 µm**
+
+-   **Zeef** met maaswijdte **212 µm**
+
+-   **Trieerbak**
+
+```{=html}
+<!--
+Opsomming van gebruikte materialen.
+Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen, materiaal, ... 
+Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit `PE`, met afsluitbare deksel uit `PP`.
+-->
+```
+
+## Reagentia en oplossingen (indien van toepassing)
+
+```{=html}
+<!--
+Een opsomming van reagentia, welke zuiverheid, volume, veiligheidsvoorschriften.
+Bijvoorbeeld. Zwavelzuur (`H2SO4`), geconcentreerd (96%), pro analyse en veiligheidsinfo (sterk zuur, bijtend, gebruik handschoenen, bril en masker bij gebruik)
+Een opsomming van oplossingen, welke zuiverheid, volume, veiligheidsvoorschriften.
+Indien deze oplossingen zelf worden bereid, vermeld dan ook de bereidingswijze.
+bijvoorbeeld: Zwavelzuur `1M`: verdun zwavelzuur geconcentreerd 18 maal met `ultrapuur` water.
+Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
+-->
+```
+
+Nvt
+
+<!--chapter:end:06_benodigdheden.Rmd-->
+
+# Werkwijze
+
+## Voorbereidingen
+
+Inspelend op een gedefinieerde onderzoeksvraag wordt een relevant staalname design bepaald met de juiste replicatie en genoeg bemonsteringen om de vraagstelling statistisch te analyseren. \
+
+Zodra het ontwerp en het aantal staalnamepunten vastligt, wordt nagegaan waar deze punten in het veld geplaatst kunnen worden. Hiervoor wordt vooraf meestal een recente luchtfoto geraadpleegd waarop het slikoppervlak van het studiegebied duidelijk zichtbaar is. Op basis van de luchtfoto’s worden punten of zones geselecteerd die potentieel hebben om geschikt habitat te zijn voor knijten. Eerder onderzoek (Van Ryckegem et al., 2021) toont dat vooral hooggelegen, slappe en laagdynamische slikken hoge densiteiten aan knijtenlarven bevatten. Er wordt voorlopig aangenomen dat Culicoides riethi als filtervoedende larve vooral te vinden is in laagdynamische stukken op het slik, stukken die vaak gekenmerkt worden door slikdelen met duidelijk groene algenbedekking. Geselecteerde punten worden ingeladen in de Trimble-GPS. Controleer het getij met het getijdenboekje of via waterinfo.
+
+## Uitvoering
+
+```{=html}
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het protocol uit te voeren.
+Subtitels gebruiken om elke stap te omschrijven.
+-->
+```
+
+### In het veld
+
+#### Locatiebepaling
+
+Bij vooraf geselecteerde en ingegeven punten worden deze gezocht aan de hand van de Trimble-GPS. Omdat situaties in het veld kunnen verschillen van de geambieerde condities op basis van luchtfoto's, kunnen bij evaluatie in het veld vooraf geselecteerd punten licht verschoven worden zodat effectief geschikte condities voor de oorspronkelijke vraagstelling (bvb TAW binnen bepaalde range) bemonsterd wordt. 
+
+Bij het nemen van bijkomende punten wordt elk punt ingemeten met Trimble-GPS (xyz) en bewaart onder de vooraf gedefinieerde staalnaamcode.
+
+#### Staalname biota
+
+Per staalnamepunt worden twee stalen genomen, op maximum 15 cm van het punt ingemeten met de Trimble-GPS. De replica’s worden ongeveer 15 cm van elkaar genomen. De benthossteekbuis wordt minstens 7 cm diep verticaal in het slik geduwd. Verwijder de buis uit het slik en duw 7 cm uit (met de stamper) in het daarvoor bestemde potje/zakje. De twee replica’s worden in afzonderlijke potten/zakjes bewaard. Elke knijtenstaal heeft als label de naam van het staalnamepunt gevolgd door “\_a” of” “\_b” (toewijzing mag random). Zo is duidelijk dat de stalen bij elkaar horen. Er wordt geen bewaarmiddel toegevoegd. Tijdens transport worden de stalen bewaard in een koelbox (4-10° C) en nadien bewaard in een koelkast (4°C) tot verwerking. Dit moet gebeuren met de levende knijtenlarven omdat deze het gemakkelijkst te vinden en herkennen zijn op basis van hun karakteristieke beweging. 
+
+#### Optioneel: staalname sediment
+
+-   Granulometrie en Bulk density
+
+    -   Het sedimentstaal wordt met een kleine steekbuis (diameter 1 cm) 10 cmdiep genomen tussen de 2 replica’s van een staalnamepunt. Dit is een standaard sediment staal cf. MONEOS protocol (Van Ryckegem et al., 2025). Dit sedimentstaal wordt in een potje bewaard en krijgt het label van het staalnamepunt. Het staal wordt ingevroren bewaard (-20°C) tot analyse.
+
+    -   Het bulk density staal wordt genomen met een Kopecky ring (diameter = 5 cm, diepte = 5 cm). Het staal wordt in een zakje/potje overgebracht met het label van het staalnamepunt. Het staal wordt ingevroren bewaard (-20°C) tot analyse.
+
+-   Chlorofyl-a
+
+    -   Met een kleine steekbuis (diameter 1 cm) wordt tussen de 2 replica’s van een staalnamepunt tot 4 cm diep gestoken. Dit chlorofyl-a staal wordt in een potje bewaard en krijgt het label van het staalnamepunt. Het staal wordt ingevroren bewaard (-20°C) tot analyse.
+
+| Doel          | Aantal | Diameter steekbuis | Diepte | Bewaring | Verwerking       |
+|---------------|--------|--------------------|--------|----------|------------------|
+| Knijten       | 2      | 4,5 cm             | 7 cm   | 4 °C     | zo snel mogelijk |
+| Optioneel     |        |                    |        |          |                  |
+| Granulometrie | 1      | 2 cm               | 10 cm  | -20 °C   | later            |
+| Chlorofyl-a   | 1      | 2 cm               | 4 cm   | -20 °C   | later            |
+| Bulk density  | 1      | Kopecky            | 4 cm   | -20 °C   | later            |
+
+: Tabel 1: Overzicht karakteristieken bemonstering voor verschillende doelvariabelen
+
+### Verwerking in het labo
+
+#### Voorbereiding
+
+Knijtenstalen worden zo snel mogelijk  na staalname verwerkt, bij voorkeur binnen de 3 werkdagen, zodat de knijtenlarven nog leven. De stalen worden gezeefd in twee fases over zeven met maaswijdtes van respectievelijk 212 µm en 125 µm.
+
+Het sediment weerhouden in de zeeffractie van 212 µm wordt overgebracht in een witte trieërbak met water. Het sediment weerhouden op de zeeffractie van 125 µm wordt overgebracht in een pot met een kleine hoeveelheid water om het sediment vochtig te houden.
+
+#### Verwerking stalen
+
+De zeeffractie van 212 µm wordt eerst bekeken in een grote witte trieerbak onder een sterk licht. Hierna wordt de zeeffractie van 125 µm bekeken in detail onder de binoculaire microscoop. Alle knijtenlarven en -poppen worden handmatig uitgetrieërd en geteld. Larven worden in instar klassen opgedeeld (Zie studie INBO, ongepubliceerd), geteld en uitgesorteerd. Knijtenlarven worden onderscheiden van ander benthos op basis van hun kenmerkende zwembeweging. Indien morfometrische metingen van de larven gepland zijn, worden de larven per staal in epjes met ethanol verzameld.
+
+Voor de bepaling van de benthosbiomassa worden de monsters eerst in kroesjes geplaatst en gedurende één nacht gedroogd bij 105 °C in een droogstoof. De droogstoof wordt bij het opzetten gecontroleerd via de knop set temperature om na te gaan of de temperatuur correct op 105 °C staat. Na het drogen worden de kroesjes warm gewogen op een analytische balans tot op een duizendste van een gram; dit gewicht wordt genoteerd als het drooggewicht. Vervolgens worden de kroesjes gedurende twee uur verast in een moffeloven bij 550 °C. Hierbij wordt rekening gehouden met een aanlooptijd van ongeveer twee uur om de oven op 550 °C te brengen, waarna de monsters nog twee uur op deze temperatuur blijven. Na het verassen worden de kroesjes opnieuw warm gewogen tot op een duizendste van een gram; dit wordt genoteerd als het asgewicht. Het verschil tussen het drooggewicht en het asgewicht geeft het asvrije drooggewicht (AFDW = drooggewicht − asgewicht), wat in deze procedure overeenkomt met de biomassa van het benthos.
+
+Andere benthos organismen (e.g. Oligochaeta) worden in de Quick scan methode standaard niet mee bekeken om snel en efficiënt een groot aantal stalen te kunnen verwerken. 
+
+## Registratie en bewaring van resultaten
+
+```{=html}
+<!--
+Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
+Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar `sip` (standaard instrument protocol, `<protocol-code>-YYYY.NN`) indien beschikbaar; indien geen sip beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
+Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden.
+Geef aan of de stalen voorbehandeld moeten worden.
+Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen.
+Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
+-->
+```
+
+Nvt
+
+<!--chapter:end:07_werkwijze.Rmd-->
+
+# Kwaliteitszorg
+
+```{=html}
+<!--
+Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen.
+Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld, ...).
+Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen.
+In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
+-->
+```
+
+<!--chapter:end:08_kwaliteitszorg.Rmd-->
+
+# Veiligheid
+
+```{=html}
+<!--
+Alle aandachtspunten in verband met veilig werken.
+-->
+```
+
+De staalname in intertidaal gebied gebeurt steeds met minstens twee personen. Draag gepaste kleding om in een intergetijdengebied te werken. Controleer vooraf de getijden en kies bij voorkeur een afgaand getij om voldoende tijd en veiligheid te garanderen. Let extra op in nieuw ontwikkelende gebieden, en consulteer mensen die het gebied kennen.
+
+<!--chapter:end:09_veiligheid.Rmd-->
+
+# Samenvatting
+
+```{=html}
+<!--
+Een samenvattende opsomming van de te volgen stappen.
+Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
+-->
+```
+
+
+<!--chapter:end:10_samenvatting.Rmd-->
+
+# Referenties {.unnumbered}
+
+::: {#refs}
+\item
+:::
+
+Van Ryckegem, G., Van de Meutter, F., Vandevoorde, B., Vanoverbeke, J., Jocque, M., Mertens, W., & Van den Bergh, E. (2021). Knijtenoverlast in Gentbrugge: ecologische kennisopbouw en doeltreffendheid van maatregelen. (Rapporten van het Instituut voor Natuur- en Bosonderzoek; Nr. 25). Instituut voor Natuur- en Bosonderzoek. <https://doi.org/10.21436/inbor.36325020>
+
+Van Ryckegem, G., Vanoverbeke, J., Van de Meutter, F., Vandevoorde, B., Mertens, A., Mertens, W., Van Braeckel, A., Van Thuyne, G., Maesele, R., Smeekens, V., Thibau, K., Bezdenjesnji, O., Buerms, D., Coudenys, A., De Regge, N., Hessel, K., Lefranc, C., Soors, J., & Van Lierop, F. (2025). MONEOS ‐ geïntegreerd datarapport INBO: toestand Zeeschelde 2024: Monitoringsoverzicht en 1ste lijnsrapportage Geomorfologie, diversiteit Habitats en diversiteit Soorten. (Rapporten van het Instituut voor Natuur- en Bosonderzoek; Nr. 73). Instituut voor Natuur- en Bosonderzoek. <https://doi.org/10.21436/inbor.135546610>
+
+<!--chapter:end:11_referenties.Rmd-->
+
+# (APPENDIX) Bijlagen {.unnumbered}
+
+## **Overzicht van staalnames met QuickScan methode**
+
+De voornaamste gebieden die door het INBO bemonsterd werden met de quick scan methodiek zijn Groot Schoor Hamme, Wijmeers, en Klein Broek.
+Zowel de ligging van de staalnamepunten als het aantal punten zijn doorheen de jaren aangepast naargelang de evolutie van de gebieden en nieuwe onderzoeksvragen.
+
+### Klein Broek (staalname 2025)
+
+De selectie van de vaste staalnamepunten gebeurde op basis van drie criteria:
+
+1.  zones die na realisatie van de ontpoldering als hoog slik of potentieel pionierschor gekarakteriseerd zijn,
+
+2.  zones waar meer dan 5 cm sedimentatie is opgetreden tussen oktober 2023 en januari 2024, en
+
+3.  locaties waar op dronebeelden een microfytobenthosfilm zichtbaar was.
+
+Binnen deze potentiële zones werden tien staalnamepunten geselecteerd, en tien bijkomende punten buiten deze zones, maar in delen die wel voldeden aan de criteria hoog slik en sedimentatie (Figuur \@ref(fig:Figuur1)).
+Deze staalnamepunten werden aangevuld met een hoogteraai (6 punten op een hoogtegradiënt variërend van 6.00 tot 4.00 mTAW).
+
+Sinds 2025 richt de monitoring in Klein Broek zich op de effecten van mitigatiemaatregelen.
+Specifiek worden de effecten van droogzetting/ inundatie /alle toekomstige geplande veranderingen op de populatie knijten gevolgd.
+
+```{r Figuur1, fig.cap="Staalnamepunten in Klein Broek (rood). De hoogteraai is aangeduid met een rode streep. Locaties van peilbuizen zijn in het groen aangeduid."}
+include_graphics("./media/Klein_Broek.png")
+```
+
+### Groot Schoor Hamme (2022-2025)
+
+INBO monitorde in 2022 de knijtenlarven op de uitgelegde hoogteraaien ‘c’ en ‘e’, en in 2023 ook op een extra tussenliggende raai ‘d’.
+Bijkomend werden er 8 extra punten geselecteerd vanaf 2024, waarbij telkens een punt aan de schorrand en één in het schor is gelegd (Figuur \@ref(fig:Figuur2).
+Het huidige aantal staalnamepunten ligt hierbij op 24.
+
+```{r Figuur2, fig.cap="Staalnamepunten in Groot Schoor Hamme."}
+include_graphics("./media/Groot_Schoor.png")
+```
+
+### Wijmeers (2023-2024)
+
+De vaste staalnamepunten in Wijmeers werden initieel geselecteerd op basis van luchtfoto’s en nadien bijgesteld tijdens een terreinbezoek in 2023.
+Tijdens dit terreinbezoek werd voornamelijk in het westelijke deel van het gebied geschikt habitat voor knijten vastgesteld.
+Vanaf 2024 werden bijkomende punten toegevoegd naar aanleiding van meldingen van knijten in de omgeving, ondanks de afwezigheid van larven in de oorspronkelijke stalen.
+In totaal zijn er twintig staalnamepunten, waarvan er tien in de westelijke zone liggen en tien verspreid over andere zones met potentieel geschikt habitat (Figuur \@ref(fig:Figuur3)).
+
+```{r Figuur3, fig.cap="Staalnamepunten in Wijmeers."}
+include_graphics("./media/Wijmeers.png")
+```
+
+### Slikgebieden Zeeschelde
+
+In de slikgebieden van de Zeeschelde heeft de QuickScan als doel het aantonen dat ook in de Zeeschelde grote bronpopulaties van knijten kunnen voorkomen.
+
+Binnen elk ‘hotspot’ gebied worden drie geschikte locaties geselecteerd, gebaseerd op luchtfoto’s en kenmerken zoals hoog, laagdynamische slik met een korte overstromingsduur en een zichtbare laag groenalgen.
+Staalnames gebeuren verder volgens de QuickScan methode hierboven uitgelegd.
+
+Op basis van deze criteria werden 14 potentiële hotspots geselecteerd langs de Schelde (stroomopwaarts van Antwerpen) en de Durmemonding: Rupelmondse Kreek, Notelaer 1 - 2, kijkverdriet, temsebrug, Weert, Branst, Haven Moerzeke (Vlassenbroek), Dendermonde, Zele, Appels, en Durme 1-2.
+Door tijdslimieten zijn 10 van de 13 locaties effectief bemonsterd (Figuur \@ref(fig:Figuur4)).
+Rupelmondse Kreek, Moerzeke, en Branst zijn niet genomen.
+
+```{r Figuur4, fig.cap="Geselecteerde ‘hotspot’ locaties langs de Zeeschelde."}
+include_graphics("./media/Zeeschelde.png")
+```
+
+### Burchtse Weel
+
+Deze staalnamecampagne had als doel te evalueren of knijtenlarven aanwezig zijn in de slikken binnen de recent herstelde slik- en schorhabitats langs de Schelde, gelegen vóór de Burchtse Weel.
+
+Er werden 4 staalnamepunten bemonsterd in de slikken aan de Scheldekant.
+Daarnaast werden tien staalnamepunten in de Burchtse Weel zelf bemonsterd, waarbij telkens één punt op de schorrand en één punt in het aangrenzende open slik werd genomen (Figuur \@ref(fig:Figuur5)).
+
+```{r Figuur5, fig.cap="Staalnamepunten in Burchtse Weel."}
+include_graphics("./media/Burchtse_Weel.png")
+```
+
+
+<!--chapter:end:12_appendices.Rmd-->
+
+```{r, results="asis"}
+if (exists("params")) {
+  if (!is.null(params$dependencies)) {
+    mdfiles <- paste0(map_chr(params$dependencies, "protocol_code"),
+                      "-",
+                      map_chr(params$dependencies, "version_number"),
+                      ".md")
+    child_docs <- file.path(map_chr(params$dependencies, "version_number"),
+                            mdfiles)
+
+    child_docs <- child_docs[map_lgl(params$dependencies, "appendix")]
+
+    if (length(child_docs) > 0) {
+      res <- map(child_docs, knit_child, quiet = TRUE)
+      cat(
+        c("# (PART) Subprotocols {.unnumbered}", "", unlist(res)), sep = "\n"
+      )
+    }
+  }
+}
+```
+
+<!--chapter:end:13_subprotocols.Rmd-->
+

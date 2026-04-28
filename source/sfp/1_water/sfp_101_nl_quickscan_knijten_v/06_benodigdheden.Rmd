@@ -1,0 +1,61 @@
+# Benodigdheden
+
+## Apparatuur
+
+-   **Trimble gps** (eventueel punten vooraf inladen)
+
+```{=html}
+<!--
+Opsomming van de apparatuur die nodig is en verwijzingen naar de `sip`'s (Standaard Instrument Procedure; `<protocol-code>-YYYY.NN`) indien die er zijn.
+Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
+-->
+```
+
+## Materiaal
+
+### Veldstaalname
+
+-   **Benthossteekbuis** van minimum 15 cm lang met een diameter van 4,5 cm + bijkomende stamper om het staal uit te duwen
+
+-   Gelabelde **potten** (0,5 L) of **zakjes**. De labels worden bij voorkeur vooraf aangebracht met een watervaste stift. Controleer steeds dat de stift water- en wrijfvast is.
+
+### **Optioneel bij het bemonsteren van sediment:**
+
+-   kleine **steekbuis** van minimum 20 cm lang met een diameter van 2 cm
+
+-   kleine **potjes** voor sediment en chlorofyl-a-stalen
+
+-   **Kopecky-ring**
+
+-   **zakjes** of **potjes** voor Bulk density stalen
+
+### Verwerking labo
+
+-   **Zeef** met maaswijdte **125 µm**
+
+-   **Zeef** met maaswijdte **212 µm**
+
+-   **Trieerbak**
+
+```{=html}
+<!--
+Opsomming van gebruikte materialen.
+Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen, materiaal, ... 
+Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit `PE`, met afsluitbare deksel uit `PP`.
+-->
+```
+
+## Reagentia en oplossingen (indien van toepassing)
+
+```{=html}
+<!--
+Een opsomming van reagentia, welke zuiverheid, volume, veiligheidsvoorschriften.
+Bijvoorbeeld. Zwavelzuur (`H2SO4`), geconcentreerd (96%), pro analyse en veiligheidsinfo (sterk zuur, bijtend, gebruik handschoenen, bril en masker bij gebruik)
+Een opsomming van oplossingen, welke zuiverheid, volume, veiligheidsvoorschriften.
+Indien deze oplossingen zelf worden bereid, vermeld dan ook de bereidingswijze.
+bijvoorbeeld: Zwavelzuur `1M`: verdun zwavelzuur geconcentreerd 18 maal met `ultrapuur` water.
+Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
+-->
+```
+
+Nvt
