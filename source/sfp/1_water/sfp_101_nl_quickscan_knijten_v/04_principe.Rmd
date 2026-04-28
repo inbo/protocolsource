@@ -6,3 +6,7 @@ Korte omschrijving van de principes waarop het protocol gebaseerd is.
 Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
 -->
 ```
+
+Dit protocol beschrijft de procedure voor het bepalen van de densiteiten aan knijtenlarven (*Culidoides riethi*) in slikgebieden langs de Zeeschelde.
+De voorgeschreven methode moet garanderen dat het geanalyseerde staal representatief is voor de actuele situatie op moment van de staalname in de slikken.
+Via dit veldprotocol zou elke medewerker in staat moeten zijn om de veldstaalname en laboverwerking van slibstalen voor knijtenonderzoek uit te voeren.

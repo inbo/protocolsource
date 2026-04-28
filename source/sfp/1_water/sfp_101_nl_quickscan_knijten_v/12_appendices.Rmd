@@ -1,11 +1,11 @@
 # (APPENDIX) Bijlagen {.unnumbered}
 
-## **Overzicht van staalnames met QuickScan methode**
+## **Overzicht van staalnames met QuickScan methode** {.unnumbered}
 
 De voornaamste gebieden die door het INBO bemonsterd werden met de quick scan methodiek zijn Groot Schoor Hamme, Wijmeers, en Klein Broek.
 Zowel de ligging van de staalnamepunten als het aantal punten zijn doorheen de jaren aangepast naargelang de evolutie van de gebieden en nieuwe onderzoeksvragen.
 
-### Klein Broek (staalname 2025)
+### Klein Broek (staalname 2025) {.unnumbered}
 
 De selectie van de vaste staalnamepunten gebeurde op basis van drie criteria:
 
@@ -25,17 +25,17 @@ Specifiek worden de effecten van droogzetting/ inundatie /alle toekomstige gepla
 include_graphics("./media/Klein_Broek.png")
 ```
 
-### Groot Schoor Hamme (2022-2025)
+### Groot Schoor Hamme (2022-2025) {.unnumbered}
 
 INBO monitorde in 2022 de knijtenlarven op de uitgelegde hoogteraaien ‘c’ en ‘e’, en in 2023 ook op een extra tussenliggende raai ‘d’.
-Bijkomend werden er 8 extra punten geselecteerd vanaf 2024, waarbij telkens een punt aan de schorrand en één in het schor is gelegd (Figuur \@ref(fig:Figuur2).
+Bijkomend werden er 8 extra punten geselecteerd vanaf 2024, waarbij telkens een punt aan de schorrand en één in het schor is gelegd (Figuur \@ref(fig:Figuur2)).
 Het huidige aantal staalnamepunten ligt hierbij op 24.
 
 ```{r Figuur2, fig.cap="Staalnamepunten in Groot Schoor Hamme."}
 include_graphics("./media/Groot_Schoor.png")
 ```
 
-### Wijmeers (2023-2024)
+### Wijmeers (2023-2024) {.unnumbered}
 
 De vaste staalnamepunten in Wijmeers werden initieel geselecteerd op basis van luchtfoto’s en nadien bijgesteld tijdens een terreinbezoek in 2023.
 Tijdens dit terreinbezoek werd voornamelijk in het westelijke deel van het gebied geschikt habitat voor knijten vastgesteld.
@@ -46,7 +46,7 @@ In totaal zijn er twintig staalnamepunten, waarvan er tien in de westelijke zone
 include_graphics("./media/Wijmeers.png")
 ```
 
-### Slikgebieden Zeeschelde
+### Slikgebieden Zeeschelde {.unnumbered}
 
 In de slikgebieden van de Zeeschelde heeft de QuickScan als doel het aantonen dat ook in de Zeeschelde grote bronpopulaties van knijten kunnen voorkomen.
 
@@ -61,7 +61,7 @@ Rupelmondse Kreek, Moerzeke, en Branst zijn niet genomen.
 include_graphics("./media/Zeeschelde.png")
 ```
 
-### Burchtse Weel
+### Burchtse Weel {.unnumbered}
 
 Deze staalnamecampagne had als doel te evalueren of knijtenlarven aanwezig zijn in de slikken binnen de recent herstelde slik- en schorhabitats langs de Schelde, gelegen vóór de Burchtse Weel.
 
@@ -71,4 +71,3 @@ Daarnaast werden tien staalnamepunten in de Burchtse Weel zelf bemonsterd, waarb
 ```{r Figuur5, fig.cap="Staalnamepunten in Burchtse Weel."}
 include_graphics("./media/Burchtse_Weel.png")
 ```
-

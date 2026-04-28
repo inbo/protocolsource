@@ -8,7 +8,7 @@ author:
     orcid: 0000-0002-9850-1860
   - name: Jocqué, Merlijn
     orcid: 0000-0002-7196-7476
-date: 2025-12-01
+date: '`r Sys.Date()`'
 reviewer: Florian Van Hecke
 file_manager: Toon Westra
 protocol_code: sfp-101-nl
@@ -32,6 +32,7 @@ Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
 -->
 ```
+
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
@@ -81,3 +82,4 @@ rm(revs, fms)
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
+

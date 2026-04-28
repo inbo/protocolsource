@@ -7,3 +7,65 @@ Gebruik eventueel een stroomschema indien dit het protocol kan verduidelijken.
 -->
 ```
 
+Een samenvatting van de te volgen stappen:
+
+**Voorbereiding**
+
+1.  Een relevant staalname design wordt bepaald (replicaten, aantal bemonsteringen).
+
+2.  De puntlocaties in het veld worden bepaald op basis van luchtfoto's van het slikoppervlak binnen het studiegebied.
+
+3.  Label de potjes/zakjes voor de veldstaalname met de code van het staalnamepunt, gevolgd door \_a en \_b voor de 2 replicaten per staalnamepunt.
+    De toewijzing mag random gebeuren.
+
+**Veldstaalname**
+
+1.  Via de trimble-gps worden puntlocaties gezocht (deze kunnen licht verschoven worden obv de actuele situatie in het veld).
+    Bijkomende punten worden ingemeten met de trimble-gps.
+
+2.  Per staalnamepunt worden 2 replicaten genomen (op max 15 cm van het vastgelegde punt).
+    Replicaten worden op ± 15 cm van elkaar genomen.
+
+3.  De benthossteekbuis minimum 7 cm diep verticaal in het slik gestoken.
+    Verwijder de buis uit het slik en duw de inhoud via de stamper in het daarvoor voorziene potje/zakje.
+    De 2 replicaten worden in aparte potjes/zakjes bewaard.
+
+4.  Bewaar de stalen tijdens transport in een koelbox (4-10 °C).
+
+5.  Bewaar de stalen in het labo in een koelkast (4 °C) tot het moment van verwerking.
+
+**Verwerking in het labo** (idealiter binnen 3 dagen na staalname)
+
+1.  Zeef het staal boven een spoelbak met de zeef met maaswijdte 212 µm.
+
+2.  Breng het sediment weerhouden door de zeef (212 µm) over in een witte trieerbak met water.
+
+3.  Zeef het staal boven een spoelbek met de zeef met maaswijdte 125 µm.
+
+4.  Breng het sediment weerhouden door de zeef (125 µm) over in een pot met een kleine hoeveelheid water om het sediment vochtig te houden.
+
+5.  Bekijk de inhoud van de witte trieerbak (212 µm zeef) onder een sterk licht.
+
+6.  Bekijk de inhoud van de 125 µm-zeef onder een binoculaire microscoop.
+
+7.  De knijtenlarven worden handmatig uitgetrieerd en geteld volgens instar-klassen.
+
+Bepaling benthosbiomassa
+
+1.  De monsters worden in kroesjes geplaatst.
+
+2.  Controleer bij het opzetten van de droogstof of de temperatuur op 105 °C staat.
+
+3.  De kroesjes worden warm gewogen op een analytische balans.
+
+4.  Noteer het drooggewicht.
+
+5.  Plaats de kroesjes in een moffeloven gedurende 2 uur op 550 °C.
+    De oven heeft een aanlooptijd van 2 uur om op temperatuur te komen.
+
+6.  De kroesjes worden warm gewogen op een analytische balans.
+
+7.  Noteer het asgewicht.
+
+8.  Noteer het asvrije drooggewicht (=drooggewicht - asgewicht).
+    Dit is de biomassa van het benthos.

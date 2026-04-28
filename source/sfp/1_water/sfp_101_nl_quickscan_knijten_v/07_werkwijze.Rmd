@@ -2,8 +2,7 @@
 
 ## Voorbereidingen
 
-Inspelend op een gedefinieerde onderzoeksvraag wordt een relevant staalname design bepaald met de juiste replicatie en genoeg bemonsteringen om de vraagstelling statistisch te analyseren. 
-\
+Inspelend op een gedefinieerde onderzoeksvraag wordt een relevant staalname design bepaald met de juiste replicatie en genoeg bemonsteringen om de vraagstelling statistisch te analyseren.\
 
 Zodra het ontwerp en het aantal staalnamepunten vastligt, wordt nagegaan waar deze punten in het veld geplaatst kunnen worden.
 Hiervoor wordt vooraf meestal een recente luchtfoto geraadpleegd waarop het slikoppervlak van het studiegebied duidelijk zichtbaar is.
@@ -29,7 +28,7 @@ Subtitels gebruiken om elke stap te omschrijven.
 Bij vooraf geselecteerde en ingegeven punten worden deze gezocht aan de hand van de Trimble-GPS.
 Omdat situaties in het veld kunnen verschillen van de geambieerde condities op basis van luchtfoto's, kunnen bij evaluatie in het veld vooraf geselecteerd punten licht verschoven worden zodat effectief geschikte condities voor de oorspronkelijke vraagstelling (bvb TAW binnen bepaalde range) bemonsterd wordt. 
 
-Bij het nemen van bijkomende punten wordt elk punt ingemeten met Trimble-GPS (xyz) en bewaart onder de vooraf gedefinieerde staalnaamcode.
+Bij het nemen van bijkomende punten wordt elk punt ingemeten met Trimble-GPS (xyz) en bewaard onder de vooraf gedefinieerde staalnaamcode.
 
 #### Staalname biota
 
@@ -99,7 +98,7 @@ Hierbij wordt rekening gehouden met een aanlooptijd van ongeveer twee uur om de 
 Na het verassen worden de kroesjes opnieuw warm gewogen tot op een duizendste van een gram; dit wordt genoteerd als het asgewicht.
 Het verschil tussen het drooggewicht en het asgewicht geeft het asvrije drooggewicht (AFDW = drooggewicht - asgewicht), wat in deze procedure overeenkomt met de biomassa van het benthos.
 
-Andere benthos organismen (e.g. Oligochaeta) worden in de Quick scan methode standaard niet mee bekeken om snel en efficiënt een groot aantal stalen te kunnen verwerken. 
+Andere benthos organismen (e.g. Oligochaeta) worden in de Quick scan methode standaard niet mee bekeken om snel en efficiënt een groot aantal stalen te kunnen verwerken.
 
 ## Registratie en bewaring van resultaten
 
@@ -114,5 +113,4 @@ Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 -->
 ```
 
-Nvt
-
+Sla de resultaten op in de relevant digitale spreadsheet.

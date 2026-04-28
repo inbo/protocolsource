@@ -17,7 +17,9 @@ Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur me
 
 -   **Benthossteekbuis** van minimum 15 cm lang met een diameter van 4,5 cm + bijkomende stamper om het staal uit te duwen
 
--   Gelabelde **potten** (0,5 L) of **zakjes**. De labels worden bij voorkeur vooraf aangebracht met een watervaste stift. Controleer steeds dat de stift water- en wrijfvast is.
+-   Gelabelde **potten** (0,5 L) of **zakjes**.
+    De labels worden bij voorkeur vooraf aangebracht met een watervaste stift.
+    Controleer steeds dat de stift water- en wrijfvast is.
 
 ### **Optioneel bij het bemonsteren van sediment:**
 
@@ -36,6 +38,14 @@ Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur me
 -   **Zeef** met maaswijdte **212 µm**
 
 -   **Trieerbak**
+
+-   **Sterke lamp** (met flexibele arm)
+
+-   **Binoculaire microscoop**
+
+-   **Pincet**
+
+-   **Notitieboekje** en **potlood**/**pen**
 
 ```{=html}
 <!--
