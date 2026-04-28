@@ -2,15 +2,15 @@
 title: Veldstaalnameprotocol quickscan knijtenlarven
 subtitle:
 author:
-  - name: Organe, Anouk
+  - name: "Anouk Organe"
     orcid: 0009-0006-1202-1863
-  - name: Van De Meutter, Frank
+  - name: "Frank Van De Meutter"
     orcid: 0000-0002-9850-1860
-  - name: Jocqué, Merlijn
+  - name: "Merlijn Jocqué"
     orcid: 0000-0002-7196-7476
 date: '`r Sys.Date()`'
-reviewer: Florian Van Hecke
-file_manager: Toon Westra
+reviewer: "Florian Van Hecke"
+file_manager: "Toon Westra"
 protocol_code: sfp-101-nl
 version_number: '2026.01'
 language: nl
@@ -59,14 +59,10 @@ type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
 # Metadata {.unnumbered}
 
 ```{r metadata-table}
-revs <- map_chr(
-  metadata[["reviewer"]],
-  \(x) x$name |> paste(collapse = " ")
-)
-fms <-  map_chr(
-  metadata[["file_manager"]],
-  \(x) x$name |> paste(collapse = " ")
-)
+revs <- metadata[["reviewer"]]
+
+fms <-  metadata[["file_manager"]]
+
 tibble(
   reviewers = revs,
   documentbeheerder = fms,
@@ -82,4 +78,3 @@ rm(revs, fms)
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
-
