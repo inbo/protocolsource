@@ -2,22 +2,53 @@
 title: Veldstaalnameprotocol quickscan knijtenlarven
 subtitle:
 author:
-  - name: "Anouk Organe"
+  - name:
+      given: Anouk 
+      family: Organe
+    email: anouk.organe@inbo.be
     orcid: 0009-0006-1202-1863
-  - name: "Frank Van De Meutter"
+    affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+    corresponding: true
+  - name:
+      given: Frank
+      family: Van De Meutter
+    email: frank.vandemeutter@inbo.be
     orcid: 0000-0002-9850-1860
-  - name: "Merlijn Jocqué"
+    affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+  - name:
+      given:  Merlijn
+      family: Jocqué
+    email: @inbo.be
     orcid: 0000-0002-7196-7476
-date: '`r Sys.Date()`'
-reviewer: "Florian Van Hecke"
-file_manager: "Toon Westra"
+    affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+reviewer:
+- name:
+      given: Florian 
+      family: Van Hecke
+    email: florian.vanhecke@inbo.be
+    orcid: 0009-0004-3499-2279
+    affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+file_manager:
+- name:
+      given: Toon 
+      family: Westra
+    email: toon.westra@inbo.be
+    orcid: 0000-0003-2478-9459
+    affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+keywords: knijten; Culicoides; veldstaalname; labo; estuaria
 protocol_code: sfp-101-nl
 version_number: '2026.01'
 language: nl
+lang: nl-BE
+date: '`r Sys.Date()`'
 template_name: sfp
+community: inbo
+publisher: Instituut voor Natuur en Bosonderzoek (INBO)
 theme: water
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
+link-citations: true
+license: CC-BY 4.0
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
 ---
 
@@ -59,12 +90,18 @@ type <- get_protocol_type(metadata$protocol_code, auto_identifier = TRUE)
 # Metadata {.unnumbered}
 
 ```{r metadata-table}
-revs <- metadata[["reviewer"]]
+revs <- map_chr(
+  metadata[["reviewer"]],
+  \(x) x$name |> paste(collapse =  " ")
+  )
 
-fms <-  metadata[["file_manager"]]
+fms <-  map_chr(
+  metadata[["file_manager"]],
+  \(x) x$name |> paste(collapse =  " ")
+  )
 
 tibble(
-  reviewers = revs,
+  reviewers = paste(revs, collapse = ", "),
   documentbeheerder = fms,
   protocolcode = metadata[["protocol_code"]],
   versienummer = metadata[["version_number"]],
