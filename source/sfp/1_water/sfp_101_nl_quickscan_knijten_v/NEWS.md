@@ -1,5 +1,9 @@
 # Wijzigingen t.o.v. vorige versies
 
+## [2026.01](../2026.01/index.html)
+
+-   Eerste versie van het protocol
+
 ```{=html}
 <!--
 Omschrijf hier welke wijzigingen er gebeurd zijn ten opzichte van de vorige versie. 
