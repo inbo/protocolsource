@@ -1,3 +1,7 @@
+---
+---
+---
+
 # Werkwijze
 
 ## Voorbereidingen
@@ -62,9 +66,9 @@ Dit moet gebeuren met de levende knijtenlarven omdat deze het gemakkelijkst te v
     -   Met een kleine steekbuis (diameter 1 cm) wordt tussen de 2 replica’s van een staalnamepunt tot 4 cm diep gestoken. Dit chlorofyl-a staal wordt in een potje bewaard en krijgt het label van het staalnamepunt. Het staal wordt ingevroren bewaard (-20°C) tot analyse.
 
 | Doel          | Aantal | Diameter steekbuis | Diepte | Bewaring | Verwerking       |
-|---------------|--------|--------------------|--------|----------|------------------|
+|------------|------------|------------|------------|------------|------------|
 | Knijten       | 2      | 4,5 cm             | 7 cm   | 4 °C     | zo snel mogelijk |
-| Optioneel     |        |                    |        |          |                  |
+| **Optioneel** |        |                    |        |          |                  |
 | Granulometrie | 1      | 2 cm               | 10 cm  | -20 °C   | later            |
 | Chlorofyl-a   | 1      | 2 cm               | 4 cm   | -20 °C   | later            |
 | Bulk density  | 1      | Kopecky            | 4 cm   | -20 °C   | later            |
@@ -114,3 +118,4 @@ Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
 ```
 
 Sla de resultaten op in de relevant digitale spreadsheet.
+
