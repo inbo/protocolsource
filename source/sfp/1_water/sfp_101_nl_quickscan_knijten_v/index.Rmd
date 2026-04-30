@@ -41,6 +41,7 @@ date: '`r Sys.Date()`'
 protocol_code: sfp-101-nl
 version_number: '2026.01'
 template_name: sfp
+theme: water
 community: inbo
 publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
 rightsholder:
@@ -121,4 +122,3 @@ rm(revs, fms)
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
-
