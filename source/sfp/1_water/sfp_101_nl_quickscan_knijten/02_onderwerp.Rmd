@@ -1,0 +1,45 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+
+-   **Chlo** = Chlorofyl-a
+
+-   **mTAW** = meter Tweede Algemene Waterpassing
+
+## Doelstelling en toepassingsgebied
+
+<!-- description: start -->
+
+<!-- description: end -->
+
+### Kadering
+
+Sinds de waterkwaliteit van de Zeeschelde na 2008 is verbeterd, worden op steeds meer plaatsen langs de Zeeschelde overlast door knijten (*Culicoides*, Ceratopogonidae) gemeld.
+Vermoedelijk gaat het in de meeste gevallen om *Culicoides riethi* Kieffer, 1914.
+De larven van deze soort komen voornamelijk voor in de hogere delen van intertidale zoetwaterslikken.
+De knijten komen soms in grote aantallen voor en kunnen heel wat hinder veroorzaken.
+Het toenemende aantal adviesvragen omtrent knijten, hun habitat, ecologie en bestrijding leidde tot een sterke toename van staalnames, waardoor de nood ontstond voor een gestandaardiseerde snelle en betrouwbare methode om de aanwezigheid van knijtenlarven vast te stellen.
+
+### Doelstelling
+
+Dit document beschrijft het INBO “QuickScan” protocol voor het bepalen van de densiteiten aan knijtenlarven (*Culidoides riethi*) in slikgebieden langs de Zeeschelde.
+Het protocol omvat de staalname in het veld en de procedure voor verwerking in het labo van biota.
+
+De QuickScan omvat enkel de bemonstering van biota in het veld en de snelle verwerking van de niet gepreserveerde stalen in het labo.
+Afhankelijk van de vraagstelling wordt dit best gecombineerd met sediment bemonsteringen die kijken naar granulometrie, gehalte organisch materiaal, watergehalte, bodemdichtheid, en concentratie chlorofyl-a.
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+
