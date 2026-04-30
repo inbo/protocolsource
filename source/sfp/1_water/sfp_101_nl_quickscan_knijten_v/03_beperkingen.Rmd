@@ -1,5 +1,7 @@
 # Beperkingen van het protocol
 
+Nvt
+
 ```{=html}
 <!--
 Alleen in te vullen indien van toepassing.
@@ -7,3 +9,4 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
+
