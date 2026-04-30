@@ -113,7 +113,7 @@ tibble(
   protocolcode = metadata[["protocol_code"]],
   versienummer = metadata[["version_number"]],
   taal = metadata[["language"]],
-  projectnaam = metadata[["project_name"]]
+  thema = metadata[["theme"]]
 ) %>%
   pander::pander(split.tables = Inf)
 rm(revs, fms)
