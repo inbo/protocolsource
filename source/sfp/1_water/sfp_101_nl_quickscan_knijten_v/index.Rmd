@@ -2,7 +2,7 @@
 title: Veldstaalnameprotocol quickscan knijtenlarven
 author:
 - name:
-    given: Anouk 
+    given: Anouk
     family: Organe
   email: anouk.organe@inbo.be
   orcid: 0009-0006-1202-1863
@@ -15,26 +15,26 @@ author:
   orcid: 0000-0002-9850-1860
   affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 - name:
-    given:  Merlijn
+    given: Merlijn
     family: Jocqué
-  email: @inbo.be
+  email: merlijn.jocque@inbo.be
   orcid: 0000-0002-7196-7476
   affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 reviewer:
 - name:
-      given: Florian 
-      family: Van Hecke
-    email: florian.vanhecke@inbo.be
-    orcid: 0009-0004-3499-2279
-    affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+    given: Florian
+    family: Van Hecke
+  email: florian.vanhecke@inbo.be
+  orcid: 0009-0004-3499-2279
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
 file_manager:
 - name:
-      given: Toon 
-      family: Westra
-    email: toon.westra@inbo.be
-    orcid: 0000-0003-2478-9459
-    affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
-keywords: knijten; Culicoides; veldstaalname; labo; estuaria
+    given: Toon
+    family: Westra
+  email: toon.westra@inbo.be
+  orcid: 0000-0003-2478-9459
+  affiliation: Instituut voor Natuur- en Bosonderzoek (INBO)
+keywords: knijten; Culicoides; veldstaalname; labo; estuaria; slikken
 language: nl
 lang: nl-BE
 date: '`r Sys.Date()`'
@@ -42,7 +42,7 @@ protocol_code: sfp-101-nl
 version_number: '2026.01'
 template_name: sfp
 community: inbo
-publisher: Instituut voor Natuur en Bosonderzoek (INBO)
+publisher: Instituut voor Natuur- en Bosonderzoek (INBO)
 rightsholder:
   - name:
       given:  Instituut voor Natuur- en Bosonderzoek (INBO)
@@ -53,7 +53,6 @@ funder:
       given:  Instituut voor Natuur- en Bosonderzoek (INBO)
     email: info@inbo.be
     ror: 00j54wy13
-theme: water
 site: bookdown::bookdown_site
 bibliography: referenties.yaml
 link-citations: true
@@ -69,7 +68,7 @@ Hieronder vind je de verschillende onderdelen van een protocol.
 In de bijhorende losse `Rmd` bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
 Het is in die bestanden dat je moet editeren.
 Niet alle onderdelen zijn altijd van toepassing.
-Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
+Laat in die gevallen de titel hoofdingen staan en vermeld expliciet "niet van toepassing".
 -->
 ```
 
@@ -121,5 +120,5 @@ rm(revs, fms)
 
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
-
 ```
+

@@ -15,4 +15,3 @@ bookdown::pdf_book:
   keep_tex: no
   pandoc_args: --top-level-division=chapter
   template: !expr protocolhelper:::protocol_tex()
-
