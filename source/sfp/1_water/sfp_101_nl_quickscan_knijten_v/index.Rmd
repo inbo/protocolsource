@@ -39,7 +39,7 @@ language: nl
 lang: nl-BE
 date: '`r Sys.Date()`'
 protocol_code: sfp-101-nl
-version_number: '2026.01'
+version_number: '2026.02'
 template_name: sfp
 theme: water
 community: inbo
