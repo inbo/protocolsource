@@ -69,3 +69,4 @@ libs/
 *_libs
 output/
 renv/library
+.positai
