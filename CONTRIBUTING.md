@@ -10,6 +10,31 @@ editor_options:
 
 Thank you for considering to contribute to this repository!
 
+## Returning to protocolsource?
+
+Skip this section if you haven't contributed to the protocolsource repository before.
+
+If it's been sometime since you contributed to the protocolsource repository, here are some helpful tips to get you started again.
+
+First, locate your local copy (a _clone_ in GitHub parlance) of the repository on your laptop and open the Rstudio project by opening the `protocolsource.Rproj` file.
+It's likely that you need to update to things: (i) `git`, and (ii)  the `renv` package management.
+
+To check if your local `git` _clone_ is aligned with [protocolsource repository](https://github.com/inbo/protocolsource/), run the following `git` commands in the `Terminal` pane:
+
+-   Situation 1: you continue working on a protocol branch, but it has been some time:
+    -   make sure you are in your local branch `git checkout <protocolcode>`
+    -   then run, `git pull origin main` (this will merge changes that were done in the remote `main` branch that you did not yet have locally into your `<protocolcode>` branch)
+
+-   Situation 2: you want to start working on a new protocol or update an existing protocol:
+    -   `git checkout main` (this will switch to the `main` branch)
+    -   `git pull` (this will fetch work done on the remote `main` branch that is not yet in your local `main` branch and include it in your local `main` branch)
+
+After this is done: restart R (CTRL+SHIFT+F10).
+Then, check `renv`, run `renv::status()` in the `Console` pane.
+If this tells you `No issues found -- the project is in a consistent state.`, you are good to go.
+If not, you will need to follow the instructions and update the packages: run `renv::restore()`.
+When this succeeded, you can proceed the [workflow](#workflow) section for further guidance.
+
 ## Setup your local repository
 
 Are you a first-time GitHub user?
