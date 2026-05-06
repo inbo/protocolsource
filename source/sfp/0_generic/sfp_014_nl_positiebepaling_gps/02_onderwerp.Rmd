@@ -7,6 +7,20 @@
 Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
 -->
 ```
+
+**GPS, GLONASS, Galileo & Beidou**: De 4 navigatiesatelliet systemen (VS, Rusland, EU, China) die, mits uitbreiding, gebruikt kunnen worden om een nauwkeurige positie te bepalen.
+
+**Flepos: Flemish Positioning Service**, een dienstverlening van Informatie Vlaanderen waarbij correctiesignalen afkomstig van navigatiesatellieten via mobiel internet worden verspreid.
+
+**GPS (toestel)**: Gangbare term voor een GNSS-receiver.
+
+**GNSS-receiver**: Toestel dat a.d.h.v. navigatiesatellieten de positie nauwkeurig kan bepalen.
+
+**Total Station**: De combinatie van een theodoliet en afstandsmeter die gebruikt wordt om op basis van hoekmetingen en trigonometrische hoogtemetingen de posities van peilbuizen en peilschalen op locaties met slecht bereik voor de GNSS-receiver te bepalen.
+
+**Hoogte-conversiemodel**: Model opgesteld door het Nationaal Geografisch Instituut (NGI) dat gebruikt wordt om de gemeten hoogte om te rekenen t.o.v. het waterpassingsoppervlak, in België dus TAW.
+Het huidige model is hBG18.
+
 ## Doelstelling en toepassingsgebied
 
 <!-- description: start -->
