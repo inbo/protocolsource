@@ -24,6 +24,7 @@ To check if your local `git` _clone_ is aligned with [protocolsource repository]
 -   Situation 1: you continue working on the same protocol branch, but it has been some time:
     -   make sure you are in your local branch `git checkout <protocolcode>` (replace `<protocolcode>` by your protocolcode, e.g. `sfp-456-nl`).
     -   then run, `git pull origin main` (this will merge changes that were done in the remote `main` branch that you did not yet have locally into your `<protocolcode>` branch)
+    - after updating `renv` (see below), you can continue working on your protocol
 
 -   Situation 2: you want to start working on a new protocol or update an existing protocol:
     -   `git checkout main` (this will switch to the `main` branch)
