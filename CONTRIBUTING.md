@@ -21,7 +21,7 @@ It's likely that you need to update two things: (i) `git`, and (ii)  the `renv` 
 
 To check if your local `git` _clone_ is aligned with [protocolsource repository](https://github.com/inbo/protocolsource/), run the following `git` commands in the `Terminal` pane:
 
--   Situation 1: you continue working on a protocol branch, but it has been some time:
+-   Situation 1: you continue working on the same protocol branch, but it has been some time:
     -   make sure you are in your local branch `git checkout <protocolcode>` (replace `<protocolcode>` by your protocolcode, e.g. `sfp-456-nl`).
     -   then run, `git pull origin main` (this will merge changes that were done in the remote `main` branch that you did not yet have locally into your `<protocolcode>` branch)
 
