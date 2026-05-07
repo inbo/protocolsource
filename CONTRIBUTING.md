@@ -29,6 +29,7 @@ To check if your local `git` _clone_ is aligned with [protocolsource repository]
 -   Situation 2: you want to start working on a new protocol or update an existing protocol:
     -   `git checkout main` (this will switch to the `main` branch)
     -   `git pull` (this will fetch work done on the remote `main` branch that is not yet in your local `main` branch and include it in your local `main` branch)
+    - after updating `renv` (see below), you can make or update a protocol following the instructions
 
 After this is done: restart R (CTRL+SHIFT+F10).
 Then, check the `renv` status by running `renv::status()` in the `Console` pane.
