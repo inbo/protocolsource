@@ -21,22 +21,22 @@ Via GIS-applicaties (vb. QGIS en QField) worden ze gevisualiseerd aangeboden voo
 
 De evaluatie van een terrestrische steekproefeenheid gebeurt eerst door een desktopscreening (zie \@ref(desktop)):
 
--   Indien uit de desktopscreening blijkt dat het doeltype van een steekproefeenheid en zijn vervangeenheden er niet aanwezig kan zijn, dient de steekproefeenheid te worden verwijderd uit de steekproef.
+- Indien uit de desktopscreening blijkt dat het doeltype van een steekproefeenheid en zijn vervangeenheden er niet aanwezig kan zijn, dient de steekproefeenheid te worden verwijderd uit de steekproef.
 
--   Indien een steekproefeenheid of zijn vervangeenheden het doeltype kan bevatten op basis van de visuele controle, wordt de steekproefeenheid bezocht om ter plekke te beoordelen of het aanwezige type (habitat(sub)type of rbb) overeenkomt met het doeltype waarvoor de steekproefeenheid werd getrokken (zie \@ref(terplekke)).
+- Indien een steekproefeenheid of zijn vervangeenheden het doeltype kan bevatten op basis van de visuele controle, wordt de steekproefeenheid bezocht om ter plekke te beoordelen of het aanwezige type (habitat(sub)type of rbb) overeenkomt met het doeltype waarvoor de steekproefeenheid werd getrokken (zie \@ref(terplekke)).
 
-    -   Als het actuele habitat(sub)type of rbb ter plekke overeenkomt met het beoogde doeltype waarvoor de steekproefeenheid werd getrokken, wordt aansluitend een celkartering uitgevoerd (zie \@ref(celkartering)).
+  - Als het actuele habitat(sub)type of rbb ter plekke overeenkomt met het beoogde doeltype waarvoor de steekproefeenheid werd getrokken, wordt aansluitend een celkartering uitgevoerd (zie \@ref(celkartering)).
 
-    -   Als het niet overeenkomt met het doeltype, wordt aansluitend gezocht naar een vervanging door een geschikte rastercel in dezelfde polygoon (zie \@ref(lokalevervanging)).
+  - Als het niet overeenkomt met het doeltype, wordt aansluitend gezocht naar een vervanging door een geschikte rastercel in dezelfde polygoon (zie \@ref(lokalevervanging)).
 
-        -   Indien een geschikte rastercel gevonden wordt, zal deze de originele steekproefeenheid vervangen (maar beide GRTS-rangnummers worden behouden in de databank). Aansluitend wordt een celkartering uitgevoerd in de vervangcel
-        -   Indien geen geschikte vervangcel gevonden wordt, is geen lokale vervanging mogelijk en wordt de steekproefeenheid verwijderd uit de steekproef.
+    - Indien een geschikte rastercel gevonden wordt, zal deze de originele steekproefeenheid vervangen (maar beide GRTS-rangnummers worden behouden in de databank). Aansluitend wordt een celkartering uitgevoerd in de vervangcel
+    - Indien geen geschikte vervangcel gevonden wordt, is geen lokale vervanging mogelijk en wordt de steekproefeenheid verwijderd uit de steekproef.
 
 In de eerste twee stappen wordt beoordeeld of het doeltype kan aanwezig zijn en ter plekke actueel aanwezig is in het celmidden of ergens in de cel van de steekproefeenheid.
 Doeltypes die *ergens* in de cel dienen voor te komen, zijn:
 
--   habitattypes: 1320, 2150, 6210_sk, 6430_bz en 7150
--   rbb‐types: brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp).
+- habitattypes: 1320, 2150, 6210_sk, 6430_bz en 7150
+- rbb‐types: brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp).
 
 Alle andere terrestrische doeltypes (met uitzondering van habitattype 7220) dienen aanwezig te zijn in het celmidden.
 Voor de kalktufbronnen (habitattype 7220) is de populatie‐eenheid de volledige habitatvlek (met variabele, doorgaans beperkte oppervlakte), geïdentificeerd met een punt gekoppeld aan de vlek.
@@ -65,7 +65,7 @@ Indien er geen duidelijke visuele aanwijzingen zijn dat het doeltype er niet kan
 
 Controleer in de GIS-applicatie wie de eigenaar en/of beheerder is van het gebied waarin de steekproefeenheid gelegen is.
 Toets af bij de meetnetverantwoordelijke of projectcoördinator of vergunningen noodzakelijk zijn en je bezoek is gemeld bij de eigenaar en/of beheerder.
-Toegankelijkheid van militaire gebieden dient een week voor het terreinbezoek aangevraagd te worden via mail aan het betreffende kwartier, met de boswachter in cc.
+Toegankelijkheid van militaire gebieden dient door de uitvoerder van de locatie-evaluatie een week voor het terreinbezoek aangevraagd te worden via mail aan het betreffende kwartier, met de boswachter in cc.
 Zij laten weten op welke dagen en tussen welke uren je het terrein mag betreden.
 Bij het betreden en het verlaten van het terrein op de dag zelf dien je telkens telefonisch contact op te nemen met de kwartiercommandant.
 
@@ -88,7 +88,7 @@ Eens je je in de nabijheid van de meetlocatie bevindt (vb. op 10 m), navigeer je
 
 **Let op**: in de rastercel kan een permanent kwadraat van het meetnet biotische habitatkwaliteit aanwezig zijn.
 Het is 3 m op 3 m groot en bevindt zich ten noordwesten van het celmidden: het celmidden van de rastercel is het zuidoostelijk hoekpunt van het permanent kwadraat.
-Vermijd zo veel mogelijk dit kwadrant om vertrappeling van de vegetatie te voorkomen.
+<!-- nog figuur invoegen met kwadraat in rastercel --> Vermijd zo veel mogelijk dit kwadraat om vertrappeling van de vegetatie te voorkomen.
 Dit kan eenvoudig door het celmidden te benaderen vanuit het zuidoosten, indien het terrein dit toelaat.
 
 ### Evalueer of het doeltype aanwezig is {#doeltype}
@@ -96,39 +96,36 @@ Dit kan eenvoudig door het celmidden te benaderen vanuit het zuidoosten, indien 
 De GIS-applicatie geeft aan welk doeltype op een steekproefeenheid aanwezig zou moeten zijn en indien van toepassing de laatste keer dat het type werd bepaald in het veld.
 De wijze waarop het wordt geëvalueerd is afhankelijk van het doeltype:
 
--   voor de evaluatie van de aanwezigheid van habitat(sub)types 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp) is het voldoende dat het doeltype ergens in de 32 m x 32 m rastercel aanwezig is.
--   voor alle andere terrestrische types (behalve 7220) dient het doeltype aanwezig te zijn in het midden van de rastercel.
--   specifiek voor type
+- voor de evaluatie van de aanwezigheid van habitat(sub)types 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp) is het voldoende dat het doeltype ergens in de 32 m x 32 m rastercel aanwezig is.
+- voor alle andere terrestrische types (behalve 7220) dient het doeltype aanwezig te zijn in het midden van de rastercel.
 
 De bepaling van het aanwezige habitat(sub)type of rbb gebeurt met behulp van de [veldsleutels](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/).
-Het doeltype moet op minstens 9 m^2^ aanwezig zijn binnen de rastercel, uitgezonderd bij habitattype 7150, daar wordt de ondergrens van 4 m^2^ gehanteerd.
+Het doeltype moet op minstens 9 m^2^ aanwezig zijn binnen de rastercel.
 
 Door veranderingen op het terrein, onnauwkeurigheden in de afbakening van de types of het voorkomen van complexen in de karteringen kan het in de praktijk voorkomende type afwijken van het type op de Habitatkaart.
 Bijgevolg dienen we steeds het type te bepalen met behulp van de veldsleutels.
 Het schaalniveau waarop de sleutel dient toegepast te worden, is niet dat van het celmidden, maar deze van de min of meer homogene vegetatievlek waarin het celmidden zich bevindt.
-Om de finale beslissing te maken of het punt wordt meegenomen in de steekproef, wordt een denkbeeldig 3 m x 3 m-proefvlak beoordeeld ten noordwesten van het celmidden.
+Om de finale beslissing te maken of het punt wordt meegenomen in de steekproef, wordt een denkbeeldig 3 m x 3 m-vlak beoordeeld.
+In het geval de locatie-evaluatie moet worden uitgevoerd niet enkel voor de MNM maar ook voor een LSVI-bepaling (steekproef) dient dient het het 3 m bij 3 m vlak ten noordwesten van het celmidden beoordeeld te worden.
 
-**Onderstaande beslisregels worden gehanteerd voor het bepalen of de steekproefeenheid al dan niet geschikt is.**
+**Onderstaande beslisregels worden gehanteerd voor het bepalen of de steekproefeenheid geschikt is.**
 
--   De rastercel maakt deel uit van een homogene, grotere vegetatievlek van het doeltype (minimum 9 m^2^) -\> de steekproefeenheid is geschikt.
--   De rastercel bevat naast het doeltype ook (een) ander habitattype en zijn ruimtelijk duidelijk van elkaar gescheiden (bv. bos naast een heideterrein, ven)
-    -   Het doeltype neemt minder dan 50% van de rastercel in -\> de steekproefeenheid is ongeschikt.
-    -   Het doeltype neemt 50% of meer in van de rastercel -\> de steekproefeenheid is geschikt.
-
-Voor de celgebaseerde types geldt enkel dat ze het minimumoppervlakte moeten halen binnen de rastercel.
+- Voor de celmiddengebaseerde types: het celmidden van de rastercel maakt deel uit van een homogene, grotere, aaneengesloten vegetatievlek van het doeltype (minimum 9 m^2^).
+- Voor de celgebaseerde types: de rastercel bevat de minimumoppervlakte van het doeltype.
 
 Geef in de GIS-applicatie de volgende gegevens in:
 
--   je naam
--   de datum waarop je deze evaluatie uitvoert
--   het actueel aanwezige habitat(sub)type of rbb in de cel of in het celmidden
--   eventuele opmerkingen
--   eventueel een foto.
+- je naam
+- de datum waarop je deze evaluatie uitvoert
+- het actueel aanwezige habitat(sub)type of rbb in de cel of in het celmidden
+- eventuele opmerkingen
+- eventueel een foto.
 
-Is de steekproefeenheid niet geschikt, geef dan ook aan dat een lokale vervanging nodig is en geef de volgende gegevens in:
+Voldoet de steekproefeenheid niet aan de voorwaarde, dan is de steekproefeenheid niet geschikt.
+Geef dan ook aan dat een lokale vervanging nodig is en geef de volgende gegevens in:
 
--   de reden van de nodige vervanging, indien je dit kan inschatten: is het een ander habitattype of rbb (habitatwijziging) of is het geen habitat of rbb meer (habitatverlies);
--   een inschatting of het permanent is of niet.
+- de reden van de nodige vervanging, indien je dit kan inschatten: is het een ander habitattype of rbb (habitatwijziging) of is het geen habitat of rbb meer (habitatverlies);
+- een inschatting of het permanent is of niet.
 
 Is de steekproefeenheid **geschikt**, voer aansluitend een markering en celkartering uit (zie \@ref(celkartering)).
 Is de steekproefeenheid **niet geschikt**, start aansluitend met de vervangprocedure (zie \@ref(lokalevervanging)).
@@ -168,6 +165,8 @@ Dit doe je door het meetmerk op de opening van het anker te plaatsen en de plug 
 Hierdoor knelt het meetmerk vast in het buisanker.
 Controleer of het anker vast zit in de grond: als je het gemakkelijk kan uittrekken, plaats dan een langer buisanker.
 Staat er hoge, dichte vegetatie waardoor je het meetmerk moeilijk zou terugvinden (vb. bramenstruweel, riet), plaats een bamboestok met gekleurde top naast het meetmerk.
+
+<!-- nog foto invoegen van meetmerk met bamboestok -->
 
 ### Oriënteer jezelf en de rastercel op het terrein
 
