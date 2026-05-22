@@ -79,7 +79,7 @@ Om de voor de hand liggende fouten efficiënt op te sporen, wordt de steekproefe
 
 Als de steekproefeenheid of vervangeenheid geschikt is, dient in de geschikte rastercel een kartering te worden uitgevoerd van het doeltype, verderop de celkartering genoemd.
 Met deze informatie zijn veldmedewerkers zonder of met minder vegetatiekundige expertise in staat de bemonstering of installatie van meettoestellen op een vegetatiekundig geschikte locatie uit te voeren.
-Dit kan met tussenkomst zijn van een extra randomisatie in de geschikte zone.
+Dit kan met tussenkomst zijn van een extra randomisatie in de geschikte deelzone van de vervangeenheid.
 
 Dit protocol omschrijft de werkwijze van de desktopscreening en de evaluatie van de aanwezigheid van het doeltype in terrestrische celgebaseerde steekproefeenheden van de MNM, en daarmee verbonden het lokaal vervangen van niet-geschikte steekproefeenheden en de celkartering van geschikte terrestrische steekproefeenheden.
 

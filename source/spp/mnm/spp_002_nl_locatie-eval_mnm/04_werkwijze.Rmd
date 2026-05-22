@@ -29,8 +29,8 @@ De evaluatie van een terrestrische steekproefeenheid gebeurt eerst door een desk
 
     -   Als het niet overeenkomt met het doeltype, wordt aansluitend gezocht naar een vervanging door een geschikte rastercel in dezelfde polygoon (zie \@ref(lokalevervanging)).
 
-        -   Indien een geschikte rastercel gevonden wordt, zal deze de originele steekproefeenheid vervangen (maar beide GRTS-rangnummers worden behouden in de databank). Aansluitend wordt een celkartering uitgevoerd.
-        -   Indien geen geschikte rastercel gevonden wordt, is geen lokale vervanging mogelijk en wordt de steekproefeenheid verwijderd uit de steekproef.
+        -   Indien een geschikte rastercel gevonden wordt, zal deze de originele steekproefeenheid vervangen (maar beide GRTS-rangnummers worden behouden in de databank). Aansluitend wordt een celkartering uitgevoerd in de vervangcel
+        -   Indien geen geschikte vervangcel gevonden wordt, is geen lokale vervanging mogelijk en wordt de steekproefeenheid verwijderd uit de steekproef.
 
 In de eerste twee stappen wordt beoordeeld of het doeltype kan aanwezig zijn en ter plekke actueel aanwezig is in het celmidden of ergens in de cel van de steekproefeenheid.
 Doeltypes die *ergens* in de cel dienen voor te komen, zijn:
@@ -40,18 +40,18 @@ Doeltypes die *ergens* in de cel dienen voor te komen, zijn:
 
 Alle andere terrestrische doeltypes (met uitzondering van habitattype 7220) dienen aanwezig te zijn in het celmidden.
 Voor de kalktufbronnen (habitattype 7220) is de populatie‐eenheid de volledige habitatvlek (met variabele, doorgaans beperkte oppervlakte), geïdentificeerd met een punt gekoppeld aan de vlek.
-De evaluatie van dit doeltype gebeurt dus niet op niveau van rastercellen maar de hele vlek.
+De evaluatie van dit doeltype gebeurt dus niet op niveau van rastercellen maar de hele vlek en valt dus buiten het bestek van voorliggend protocol.
 
 **Let op**: een steekproefeenheid kan voor meer dan één doeltype zijn getrokken.
 Dit is het gevolg van het feit dat een polygoon in de Habitatkaart, waarop de waarden van de rastercellen zijn gebaseerd, meer dan één type (habitat of rbb) kan bevatten, in relatieve verhoudingen zoals weergegeven met de zogenaamde phab-waarden.
-In het celmidden kan er echter normaliter maar één type voorkomen en dus sluiten types die celmiddengebaseerd zijn elkaar uit.
+In het celmidden zal er echter in realiteit normaliter maar één type voorkomen en dus sluiten types die celmiddengebaseerd zijn elkaar uit.
 Wel kan een steekproefeenheid meerdere celgebaseerde types bevatten, al dan niet in combinatie met een celmiddengebaseerd type.
 Check dus bij de evaluatie van een terrestrische steekproefeenheid of je deze procedure moet doorlopen voor meer dan één doeltype binnen hetzelfde jaar, dan kan je het werk hiervoor combineren in één procedure.
 
 ## Desktopscreening van steekproefeenheden en zijn vervangeenheden {#desktop}
 
 Om grote, duidelijke fouten in de steekproef op te sporen, dient een steekproefeenheid en zijn steekproefeenheden onderworpen te worden aan een eerste visuele screening.
-Hiervoor dient de rastercel van de steekproefeenheid ruimtelijk gevisualiseerd te worden (vb. met QGIS) in combinatie met een aantal GIS-lagen in de meest recente versie, zoals orthofoto's (zomer- en winteropnames), de Habitatkaart, de Watervlakkenlaag en het Digitaal Hoogtemodel Vlaanderen.
+Hiervoor dient de rastercel van de steekproefeenheid ruimtelijk gevisualiseerd te worden (vb. in QGIS) in combinatie met een aantal GIS-lagen in de meest recente versie, zoals orthofoto's (zomer- en winteropnames), de Habitatkaart, de Watervlakkenlaag en het Digitaal Hoogtemodel Vlaanderen.
 Toets visueel af of de rastercel van de steekproefeenheid het doeltype kan bevatten zoals vermeld in databank.
 Voorbeelden van fouten die hiermee kunnen worden opgespoord zijn: recent verdwenen habitat door ruimtebeslag, recent gewijzigd habitat door beheer, open doelhabitat gelegen in boshabitat of omgekeerd en rastercellen van celmiddengebaseerde types die slechts in een klein hoekpunt overlappen met een polygoon van het doelhabitat.
 Duid aan in de databank met steekproefeenheden of de steekproefeenheid volgens deze screening wel of niet tot het doeltype kan behoren.
@@ -77,9 +77,9 @@ Evalueer of je geplande bezoek gebeurt in de (sub)optimale periode voor karterin
 
 ### Evalueer de toegankelijkheid en bezoek de steekproefeenheid
 
-Is het terrein waar de steekproefeenheid gelegen is ontoegankelijk, duid dit aan in de GIS-applicatie en vermeld de reden en de vermoedelijke duur van ontoegankelijkheid.
+Indien het terrein, waar de steekproefeenheid gelegen is, ontoegankelijk is, duid dit aan in de GIS-applicatie en vermeld de reden en de vermoedelijke duur van ontoegankelijkheid.
 Mogelijke redenen zijn: overstroming, afsluiting, broedseizoen, beheerwerken, enz.
-Is het terrein wel toegankelijk, navigeer je naar het steekproefeenheid.
+Is het terrein wel toegankelijk, navigeer je naar de steekproefeenheid.
 
 ### Bezoek de steekproefeenheid en navigeer naar het celmidden
 
@@ -103,7 +103,7 @@ De wijze waarop het wordt geëvalueerd is afhankelijk van het doeltype:
 De bepaling van het aanwezige habitat(sub)type of rbb gebeurt met behulp van de [veldsleutels](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/).
 Het doeltype moet op minstens 9 m^2^ aanwezig zijn binnen de rastercel, uitgezonderd bij habitattype 7150, daar wordt de ondergrens van 4 m^2^ gehanteerd.
 
-Door veranderingen op het terrein, onnauwkeurigheden in de afbakening van de types of het voorkomen van complexen in de karteringen kan het type afwijken van het type op de Habitatkaart.
+Door veranderingen op het terrein, onnauwkeurigheden in de afbakening van de types of het voorkomen van complexen in de karteringen kan het in de praktijk voorkomende type afwijken van het type op de Habitatkaart.
 Bijgevolg dienen we steeds het type te bepalen met behulp van de veldsleutels.
 Het schaalniveau waarop de sleutel dient toegepast te worden, is niet dat van het celmidden, maar deze van de min of meer homogene vegetatievlek waarin het celmidden zich bevindt.
 Om de finale beslissing te maken of het punt wordt meegenomen in de steekproef, wordt een denkbeeldig 3 m x 3 m-proefvlak beoordeeld ten noordwesten van het celmidden.
@@ -136,7 +136,7 @@ Is de steekproefeenheid **niet geschikt**, start aansluitend met de vervangproce
 ## Lokale vervanging van niet-geschikte steekproefeenheden {#lokalevervanging}
 
 Blijkt, na het doorlopen van bovenstaande stappen, dat de steekproefeenheid **het doeltype niet bevat**, dan doorloop je aansluitend de procedure voor het vinden van een geschikte vervangeenheid.
-Je gaat hierbij in (een deel van) de polygoon waarin de niet-geschikte steekproefeenheid gelegen is, op zoek naar een vervangeenheid dat wel het doeltype bevat.
+Je gaat hierbij in (een deel van) de polygoon waarin de niet-geschikte steekproefeenheid gelegen is, op zoek naar een vervangeenheid die wel het doeltype bevat.
 Volg hiervoor het protocol [sfp-001-nl 2023.01](https://inbo.github.io/protocols/2023.01/index.html).
 In de GIS-applicatie vind je voor elke te evalueren steekproefeenheid een lijst van mogelijke vervangeenheden die je volgens een vooraf vastgelegde volgorde evalueert zoals beschreven in protocol [sfp-001-nl 2023.01](https://inbo.github.io/protocols/2023.01/index.html).
 
@@ -147,13 +147,13 @@ Enkel die GRTS-level03-cel waarin de originele steekproefeenheid gelegen is (én
 Deze ruimtelijke beperking van vervanging bij grote habitatpolygonen is reeds doorgevoerd in de lijst van mogelijke vervangeenheden in de GIS-applicatie.
 
 De mogelijke vervangeenheden worden pas gevisualiseerd in de GIS-applicatie wanneer je hebt aangeduid dat een lokale vervanging nodig is en die gegevens hebt opgeslagen (zoals vermeld in \@ref(terplekke)).
-De mogelijke vervangeenheden zijn genummerd en dienen in die volgorde zoals beschreven in het protocol geëvalueerd te worden tot er een vervanging mogelijk is.
+De mogelijke vervangeenheden zijn genummerd en dienen in die volgorde geëvalueerd te worden tot er een vervanging mogelijk is.
 De evaluatie gebeurt zoals in \@ref(doeltype).
 In de GIS-applicatie duid je bij het in volgorde evalueren van de vervangeenheden telkens aan of een vervangeenheid het doeltype bevat.
 Voldoet een eerstvolgende vervangeenheid, dan vink je dit aan in de GIS-applicatie.
 Op dat moment stopt de vervangprocedure; sla de gegevens op in de GIS-applicatie.
 
-Werd een lokale vervangeenheid gevonden, voer dan de celkartering en markering uit zoals hiervoor beschreven in \@ref(celkartering).
+Eens een lokale vervangeenheid gevonden, voer dan de celkartering en markering uit zoals hiervoor beschreven in \@ref(celkartering).
 
 ## Markering en celkartering van geschikte steekproefeenheden {#celkartering}
 
@@ -174,7 +174,7 @@ Staat er hoge, dichte vegetatie waardoor je het meetmerk moeilijk zou terugvinde
 Oriënteer jezelf op het terrein met behulp van de locatie van het celmidden, de visuele voorstelling van de rastercel en de Habitatkaart in de GIS-applicatie.
 Recente orthofoto's kunnen ook hierbij helpen.
 Je kan ook navigeren naar (één van) de vier hoekpunten van de rastercel om het gebied binnen de rastercel af te bakenen.
-Dit kan ook letterlijk met behulp van bamboestokken.
+Gebruik eventueel 4 bamboestokken om de hoekpunten te markeren
 
 ### Beoordeel het gebied binnen de rastercel en markeer de celkarteringspolygoon
 
