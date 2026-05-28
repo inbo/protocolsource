@@ -6,3 +6,7 @@ Korte omschrijving van de principes waarop het protocol gebaseerd is.
 Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
 -->
 ```
+
+Op het INBO wordt altijd gewerkt met (grond-)waterpeilen t.o.v. een referentiepunt én dat referentiepunt is de bovenkant van de peilbuis of peilschaal.
+Daarom is het van cruciaal belang dat dit referentiepunt correct wordt ingemeten.
+De metingen moeten ook gebeuren volgens de vereisten die beschreven staan onder §6 Werkwijze.

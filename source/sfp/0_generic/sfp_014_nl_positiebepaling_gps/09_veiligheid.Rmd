@@ -5,3 +5,6 @@
 Alle aandachtspunten in verband met veilig werken.
 -->
 ```
+
+Het is vanzelfsprekend dat er met dergelijke landmeetkundige apparatuur voorzichtig mee moet omgesprongen worden.
+Voornamelijk bij het inmeten van peilschalen dient er secuur te werk gegaan worden.

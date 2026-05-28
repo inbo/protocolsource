@@ -1,5 +1,33 @@
 # Kwaliteitszorg
 
+Voor het starten met meten moet er gecontroleerd worden of deze instellingen actief zijn:
+
+-   Horizontale nauwkeurigheid: 0,015m
+-   Verticale nauwkeurigheid: 0,025m
+-   Aantal metingen die gebruikt worden: 3 (minstens), 5 (optimaal)
+-   Geoid model: hBG18 (meest recente)
+
+Daarnaast moet er ook voor gezorgd worden dat volgende zaken bij het exportbestand terug te vinden zijn:
+
+-   Naam meetpunt
+-   Code meetpunt (optioneel)
+-   X-coördinaat (m, precisie 0,001m)
+-   Y-coördinaat (m, precisie 0,001m)
+-   Z-coördinaat (mTAW, precisie 0,001m)
+-   Horizontale precisie ( \<=0,015m)
+-   Verticale precisie (\<=0,025m)
+-   PDOP
+-   Aantal gebruikte satellieten voor meting
+-   Datum
+-   Tijd
+
+| Name | Code | Easting | Northing | Elevation | HzPrec | VtPrec | PDOP | Satellites | Date | Time |
+|:-------:|:-----:|:--------:|:--------:|:------:|:-----:|:-----:|:-----:|:-------:|:-------:|:------:|
+| krgs004a | KRG | 96843.190 | 219796.045 | 3.023 | 0.011 | 0.017 | 1.392 | 17 | 3/01/2020 | 11:58:34 |
+| krgs006a | KRG | 102012.516 | 217481.834 | 2.986 | 0.009 | 0.015 | 1.259 | 20 | 5/01/2020 | 16:02:47 |
+
+: Tabel 1: Voorbeeld exportbestand
+
 ```{=html}
 <!--
 Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen.

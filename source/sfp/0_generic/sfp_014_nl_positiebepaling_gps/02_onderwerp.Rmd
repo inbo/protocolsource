@@ -10,7 +10,7 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 
 **GPS, GLONASS, Galileo & Beidou**: De 4 navigatiesatelliet systemen (VS, Rusland, EU, China) die, mits uitbreiding, gebruikt kunnen worden om een nauwkeurige positie te bepalen.
 
-**Flepos: Flemish Positioning Service**, een dienstverlening van Informatie Vlaanderen waarbij correctiesignalen afkomstig van navigatiesatellieten via mobiel internet worden verspreid.
+**Flepos**: Flemish Positioning Service, een dienstverlening van Informatie Vlaanderen waarbij correctiesignalen afkomstig van navigatiesatellieten via mobiel internet worden verspreid.
 
 **GPS (toestel)**: Gangbare term voor een GNSS-receiver.
 
@@ -23,9 +23,11 @@ Het huidige model is hBG18.
 
 ## Doelstelling en toepassingsgebied
 
-<!-- description: start -->
+Dit protocol beschrijft het bepalen van de positie van peilbuizen en peilschalen m.b.v. een GPS.
+Het type GPS dat hiervoor gebruikt wordt is een GNSS-receiver, al dan niet in combinatie met een Total Station, die verbonden is met het Flepos-netwerk.
 
-<!-- description: end -->
+Aan dit protocol is geen specifiek merk van GNSS-receiver gebonden.
+De werkwijze en vereisten zijn universeel en zijn toepasbaar op elk merk/type.
 
 ```{=html}
 <!--

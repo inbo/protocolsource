@@ -7,3 +7,6 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
+
+De werkwijze om de toestellen van de verschillende merken/leveranciers in te stellen wordt in dit protocol niet beschreven.
+Indien er hier hulp bij nodig is, gelieve de manual van het toestel te raadplegen of de leverancier te contacteren.

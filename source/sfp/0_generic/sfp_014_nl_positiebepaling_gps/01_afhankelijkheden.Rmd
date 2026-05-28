@@ -6,6 +6,7 @@ Hier niets invullen.
 Indien er afhankelijkheden zijn deze invullen in de yaml sectie van `index.Rmd`
 -->
 ```
+
 ```{r dependencies}
 empty_table <- tibble(
   protocol_code = character(),

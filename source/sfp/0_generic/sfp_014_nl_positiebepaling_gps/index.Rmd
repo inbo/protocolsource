@@ -3,24 +3,24 @@ title: "Bepalen van een positie met GPS"
 subtitle: "Van peilbuizen en peilschalen"
 author:
   - name:
-      given: "Lise"
-      family: "Provez"
-    email: "lise.provez@inbo.be"
-    orcid: "0009-0001-4735-3271"
-    affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
-    corresponding: true
-  - name:
       given: "Mathias"
       family: "Wackenier"
     email: "mathias.wackenier@inbo.be"
     orcid: "0000-0001-6934-9241"
     affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    corresponding: true
+  - name:
+      given: ""
+      family: ""
+    email: ""
+    orcid: ""
+    affiliation: ""
 reviewer:
   - name:
-      given: "Karen"
-      family: "Wuyts"
-    email: "karen.wuyts@inbo.be"
-    orcid: "0000-0002-3371-6828"
+      given: "Tom"
+      family: "De Dobbelaer"
+    email: "tom.dedobbelaer@inbo.be"
+    orcid: "0000-0001-7636-997X"
     affiliation: "Instituut voor Natuur- en Bosonderzoek (INBO)"
 file_manager:
   - name:
@@ -67,6 +67,7 @@ Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
 -->
 ```
+
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
