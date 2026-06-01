@@ -11,7 +11,7 @@ Geen herhaling van wat al in subprotocols staat
 Volg de stappen in de GIS-applicatie om er zeker van te zijn dat alle nodige informatie digitaal genoteerd wordt.
 Wanneer je tablet of laptop verbonden is met het internet, worden de in de applicatie ingegeven waarden onmiddellijk doorgestuurd naar de server.
 Heeft je tablet of smartphone tijdelijk geen internetconnectie, controleer dan zeker bij het afronden van je veldwerk (vb. wanneer je in de wagen stapt voor je wegrijdt) dat de informatie is doorgestuurd naar de server.
-Controleer voor je op terrein vertrekt steeds of je alle vermelde benodigdheden (zie \@ref(03_benodigdheden) mee hebt (vb. subprotocollen, materiaal,...).
+Controleer voor je op terrein vertrekt steeds of je alle vermelde benodigdheden (zie \@ref(03_benodigdheden)) mee hebt (vb. subprotocollen, materiaal,...).
 
 ## Vereiste competenties
 
