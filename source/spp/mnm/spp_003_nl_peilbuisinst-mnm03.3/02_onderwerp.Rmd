@@ -43,7 +43,7 @@ In deze online databank kunnen gegevens over waterstanden en de chemische samens
 Dit protocol beschrijft het manueel plaatsen van een koppel ondiepe peilbuis en ondiepe piëzometer met automatische druksensor in een geschikte terrestrische en aquatische steekproefeenheid van het meetnet eutrofiëring via het grondwater (meetnet GW_03.3).
 De installatie dient om de stikstoftoestand van het ondiepe freatische grondwater binnen grondwaterafhankelijke habitattypes op te volgen (met behulp van nitraat- en ammoniumconcentratie in het grondwater), maar ook om de verklarende variabelen (vb. stijghoogte, pH, geleidend vermogen) en variabelen voor kwaliteitscontrole (vb. concentratie van de belangrijkste anionen en katione ter controle van de ionenbalans) te bepalen.
 
-Dit protocol wordt pas doorlopen als de steekproefeenheid recent (minder dan 1,5 jaar voor de installatie) als geschikt werd beoordeeld volgens de locatie-evaluatie (zie protocol [spp-002-nl 2025.03](https://inbo.github.io/protocols/2025.03/index.html) voor terrestrische types).
+Dit protocol wordt pas doorlopen als de steekproefeenheid recent (minder dan 1,5 jaar voor de installatie) als geschikt werd beoordeeld volgens de locatie-evaluatie (zie protocol [spp-002-nl 2026.02](https://inbo.github.io/protocols/2026.02/index.html) voor terrestrische types).
 Een steekproefeenheid is geschikt als in het celmidden van de rastercel, ergens in de rastercel, in het segment, in de plas of in de grot het doeltype voorkomt waarvoor de steekproefeenheid werd getrokken.
 
 Dit protocol is niet van toepassing in de niet voor het publiek opengestelde grotten (type 8310).
