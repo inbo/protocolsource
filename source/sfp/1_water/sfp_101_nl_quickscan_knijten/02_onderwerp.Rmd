@@ -8,7 +8,7 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 -->
 ```
 
--   **Chlo** = Chlorofyl-a
+-   **Chla** = Chlorofyl-a
 
 -   **mTAW** = meter Tweede Algemene Waterpassing
 
