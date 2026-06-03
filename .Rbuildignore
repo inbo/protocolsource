@@ -5,3 +5,5 @@
 ^\.Rproj\.user$
 ^\.github$
 ^test_docker.sh$
+^\.positai$
+^\.claude$
