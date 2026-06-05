@@ -50,7 +50,7 @@ keywords: ['vinknip','weefselstaalname','DNA-barcoding','vissen','genetische sta
 language: nl
 lang: nl-BE
 date: "`r Sys.Date()`"
-protocol_code: sfp-101-nl
+protocol_code: sfp-102-nl
 version_number: "2026.02"
 template_name: sfp
 theme: water
@@ -84,6 +84,7 @@ Niet alle onderdelen zijn altijd van toepassing.
 Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
 -->
 ```
+
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
@@ -133,3 +134,4 @@ rm(revs, fms)
 ```{r results="asis"}
 sprintf("Controleer [deze tabel](../%s.html){target=\"_blank\"} om te zien of een meer recente versie beschikbaar is.", type) |> cat() # nolint
 ```
+
