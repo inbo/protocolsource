@@ -1,4 +1,4 @@
-book_filename: sfp_101_nl_vinknip.Rmd
+book_filename: sfp_102_nl_vinknip.Rmd
 delete_merged_file: true
 rmd_files:
 - index.Rmd
@@ -16,7 +16,7 @@ rmd_files:
 - 11_referenties.Rmd
 - 12_appendices.Rmd
 - 13_subprotocols.Rmd
-output_dir: ../../../../../protocoldocs/docs/sfp/1_water/sfp_101_nl_vinknip
+output_dir: ../../../../../protocoldocs/docs/sfp/1_water/sfp_102_nl_vinknip
 language:
   label:
     fig: 'Figuur '
