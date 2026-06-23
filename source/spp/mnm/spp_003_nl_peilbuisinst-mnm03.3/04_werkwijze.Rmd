@@ -96,7 +96,7 @@ Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 -   aquatische types:
 
     -   stilstaande wateren: in 50 m brede zone rond de plas, beperkt tot een gebied van 30 graden rond de richting van de sterkste helling (bepaald over een range van 500 m);
-    -   stromende wateren (3260): in een zone tussen de 20 en 50 m van de middellijn van de stroom, beperkt door de loodlijnen op de segmenteindes, en aan de kant met de grootste helling
+    -   stromende wateren (type 3260): in een zone tussen de 20 en 50 m van de middellijn van de stroom, beperkt door de loodlijnen op de segmenteindes, en aan de kant met de grootste helling
 
 -   type 7220: in een 20-m-brede zone van de grootste helling, net buiten het habitat (tot 100 m van de habitatvlek hellingopwaarts en tot 10 m van de habitatvlek hellingafwaarts), om betreding van de gevoelige vegetatie te voorkomen.
 
@@ -105,10 +105,10 @@ Open de lijst en loop de punten in de lijst systematisch in volgorde af.
 Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria:
 
 -   voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verstoort;
--   er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
+-   er is geen hinder van obstakels op het punt (vb. een omgevallen boom)
 
 **Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.Het systematisch verplaatsen van meetpunten, bijvoorbeeld naar de rand van een perceel waar minder hinder optreedt, leiden tot een systematische fout in de meting van de milieuvariabelen op de standplaats.
-Het wordt daarom aangeraden om:
+Het is daarom zeer belangrijk om:
 
 -   het beoogde punt voor de plaatsing van een peilbuis en/of piëzometer niet te verplaatsen tenzij het op het beoogde punt zeker beschadigd zou geraken of het door de eigenaar of beheerder absoluut niet wordt toegestaan;
 -   als je afwijkt van het beoogde punt, dit te beperken tot 10 m van het beoogde punt;
@@ -138,9 +138,9 @@ Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van 
 ### Diepte van de boring
 
 Controleer de grondwaterafhankelijkheid van het type in de rastercel in onderstaande tabel.
-Kolom 1-3 betreffen terrestrische types, kolom 4 aquatische types.
+Kolommen 1-3 betreffen terrestrische types met verschillende grondwaterafhankelijkheden (GD2, GD1, GD0), kolom 4 aquatische types (enkel GD2).
 
-| type (ter.) | afh. | type (ter.) | afh. | type (ter.) | afh. | typ (aq.) | afh. |
+| type (ter.) | afh. | type (ter.) | afh. | type (ter.) | afh. | type (aq.) | afh. |
 |-------------|------|-------------|------|-------------|------|-----------|------|
 | 1310_pol    | GD2  | 3260        | GD1  | 6510_hu     | GD0  | 3110      | GD2  |
 | 1330_hpr    | GD2  | 9130_end    | GD1  | 9120        | GD0  | 3130_aom  | GD2  |
@@ -185,7 +185,7 @@ Hier wordt geboord tot je de reductiehorizont of het grondwater tegenkomt in de 
 
 Dit betreft een terrestrisch type dat grondwaterafhankelijk op een deel van de locaties is (GD1) of niet grondwaterafhankelijk is (GD0).
 Wanneer de bovenzijde van de reductiehorizont of de grondwatertafel niet aangetroffen wordt binnen een diepte van 2.5m dan maakt de locatie geen onderdeel uit van de doelpopulatie van GW_03.3.De installatie wordt dan volledig gestaakt.
-Kom je de grondwatertafel of reductiehorizont wel tegen, dan boor je 1m onder de bovenkant van de reductiehorizont.
+Kom je de grondwatertafel of reductiehorizont wel tegen, dan boor je 1m onder de bovenkant van de grondwatertafel of reductiehorizont.
 De bevindingen worden gerapporteerd via de GIS-app.
 
 **Is het type aquatisch en GD2?**
@@ -214,13 +214,13 @@ Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m 
 
 -   plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
 -   voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
--   plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte
--   noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+-   plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte;
+-   noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst;
 -   de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001);
 -   plaats steeds een metalen beschermbuis over de piëzometer;
--   noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, bvb ZWAP101X);
+-   noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, vb. ZWAP101X);
 -   plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
--   breng bijkomende bescherming aan bij begrazingbeheer. Dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder.
+-   breng bijkomende bescherming aan bij begrazingbeheer; dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder;
 -   geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
 
 ## Plaatsen van automatische druksensor
@@ -233,7 +233,7 @@ Wanneer het peil onder de sensor zakt meet de sensor enkel nog de atmosferische 
 
 Neem een druksensor (vb. Troll 100) en selecteer uit de lijst het serienummer van de sensor voor die steekproefeenheid in de GIS-applicatie.
 Programmeer de druksensor via de software op de veldtablet, met behulp van een Bluetooth-verbinding of rechtstreekse connectie.
-Stel de meetfrequentie in (uurlijks) en controleer de vrije opslagruimte en batterij van de druksensor of die kan functioneren bij de gekozen instellingen gedurende de volgende zes maaanden.
+Stel de meetfrequentie in (uurlijks) en controleer de vrije opslagruimte en batterij van de druksensor of die kan functioneren bij de gekozen instellingen gedurende de volgende zes maanden.
 
 Maak de druksensor vast aan het uiteinde van de rol kabel met behulp van de kabelklemmen.
 Laat de sensor met de kabel in de piëzometer zakken, tot onder de laagst mogelijke grondwaterstand maar 10 cm boven de bodem van de peilbuis waar water met slib kan blijven staan zelfs wanneer het grondwaterpeil onder de piëzometer zakt.
