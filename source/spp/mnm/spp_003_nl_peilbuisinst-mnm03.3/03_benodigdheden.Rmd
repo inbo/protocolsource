@@ -7,6 +7,7 @@ Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal 
     -   een kaartlaag met de locatie en informatie van de steekproefeenheid, incl. vermelding terrestrisch of aquatisch habitattype
     -   per steekproefeenheid: een set random getrokken punten waar de installatie kan plaatsvinden, afhankelijk van het habitattype
     -   ondersteunende kaartlagen (vb. orthofoto's, digitaal hoogtemodel, bodemkaart)
+    -   een overzicht van de nabijgelegen meetpunten grondwater uit de Watina-databank binnen een straal van 50m van het middelpunt van het GRTS-adres
 
 -   een rolmeter van minstens 20m lengte
 
@@ -33,3 +34,4 @@ Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal 
 -   telefoonnummer van de boswachter of terreinbeheerder
 
 -   (digitaal) exemplaar van de ontheffing op verbodsbepaling artikel 35, §2
+
