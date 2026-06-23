@@ -107,39 +107,39 @@ Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van 
 ### Diepte van de boring
 
 Controleer de grondwaterafhankelijkheid van het type in de rastercel in onderstaande tabel.
-Kolom 1-3 betreffen terrestrische types, kolom 4 aquatische types.
+Kolommen 1-3 betreffen terrestrische types met verschillende grondwaterafhankelijkheden (GD2, GD1, GD0), kolom 4 aquatische types (enkel GD2).
 
-| type (ter.) | afh. | type (ter.) | afh. | type (ter.) | afh. | typ (aq.) | afh. |
-|-------------|------|-------------|------|-------------|------|-----------|------|
-| 1310_pol    | GD2  | 3260        | GD1  | 6510_hu     | GD0  | 3110      | GD2  |
-| 1330_hpr    | GD2  | 9130_end    | GD1  | 9120        | GD0  | 3130_aom  | GD2  |
-| 2190_a      | GD2  | 9130_fm     | GD1  |             |      | 3130_na   | GD2  |
-| 2190_mp     | GD2  | 9160        | GD1  |             |      | 3140      | GD2  |
-| 2190_overig | GD2  | 9190        | GD1  |             |      | 3150      | GD2  |
-| 4010        | GD2  |             |      |             |      | 3160      | GD2  |
-| 6230_hmo    | GD2  |             |      |             |      | 7220      | GD2  |
-| 4010        | GD2  |             |      |             |      |           |      |
-| 6230_hmo    | GD2  |             |      |             |      |           |      |
-| 6410_mo     | GD2  |             |      |             |      |           |      |
-| 6410_ve     | GD2  |             |      |             |      |           |      |
-| 6430_hf     | GD2  |             |      |             |      |           |      |
-| 6430_hw     | GD2  |             |      |             |      |           |      |
-| 6430_mr     | GD2  |             |      |             |      |           |      |
-| 6510_hua    | GD2  |             |      |             |      |           |      |
-| 6510_hus    | GD2  |             |      |             |      |           |      |
-| 7140_base   | GD2  |             |      |             |      |           |      |
-| 7140_meso   | GD2  |             |      |             |      |           |      |
-| 7140_mrd    | GD2  |             |      |             |      |           |      |
-| 7140_oli    | GD2  |             |      |             |      |           |      |
-| 7150        | GD2  |             |      |             |      |           |      |
-| 7210        | GD2  |             |      |             |      |           |      |
-| 7230        | GD2  |             |      |             |      |           |      |
-| 91E0_sf     | GD2  |             |      |             |      |           |      |
-| 91E0_va     | GD2  |             |      |             |      |           |      |
-| 91E0_vc     | GD2  |             |      |             |      |           |      |
-| 91E0_vm     | GD2  |             |      |             |      |           |      |
-| 91E0_vn     | GD2  |             |      |             |      |           |      |
-| 91E0_vo     | GD2  |             |      |             |      |           |      |
+| type (ter.) | afh. | type (ter.) | afh. | type (ter.) | afh. | type (aq.) | afh. |
+|-------------|------|-------------|------|-------------|------|------------|------|
+| 1310_pol    | GD2  | 3260        | GD1  | 6510_hu     | GD0  | 3110       | GD2  |
+| 1330_hpr    | GD2  | 9130_end    | GD1  | 9120        | GD0  | 3130_aom   | GD2  |
+| 2190_a      | GD2  | 9130_fm     | GD1  |             |      | 3130_na    | GD2  |
+| 2190_mp     | GD2  | 9160        | GD1  |             |      | 3140       | GD2  |
+| 2190_overig | GD2  | 9190        | GD1  |             |      | 3150       | GD2  |
+| 4010        | GD2  |             |      |             |      | 3160       | GD2  |
+| 6230_hmo    | GD2  |             |      |             |      | 7220       | GD2  |
+| 4010        | GD2  |             |      |             |      |            |      |
+| 6230_hmo    | GD2  |             |      |             |      |            |      |
+| 6410_mo     | GD2  |             |      |             |      |            |      |
+| 6410_ve     | GD2  |             |      |             |      |            |      |
+| 6430_hf     | GD2  |             |      |             |      |            |      |
+| 6430_hw     | GD2  |             |      |             |      |            |      |
+| 6430_mr     | GD2  |             |      |             |      |            |      |
+| 6510_hua    | GD2  |             |      |             |      |            |      |
+| 6510_hus    | GD2  |             |      |             |      |            |      |
+| 7140_base   | GD2  |             |      |             |      |            |      |
+| 7140_meso   | GD2  |             |      |             |      |            |      |
+| 7140_mrd    | GD2  |             |      |             |      |            |      |
+| 7140_oli    | GD2  |             |      |             |      |            |      |
+| 7150        | GD2  |             |      |             |      |            |      |
+| 7210        | GD2  |             |      |             |      |            |      |
+| 7230        | GD2  |             |      |             |      |            |      |
+| 91E0_sf     | GD2  |             |      |             |      |            |      |
+| 91E0_va     | GD2  |             |      |             |      |            |      |
+| 91E0_vc     | GD2  |             |      |             |      |            |      |
+| 91E0_vm     | GD2  |             |      |             |      |            |      |
+| 91E0_vn     | GD2  |             |      |             |      |            |      |
+| 91E0_vo     | GD2  |             |      |             |      |            |      |
 
 **Is het type terrestrisch en behoort het tot GD2?**
 
@@ -154,7 +154,7 @@ Initieel wordt hier maximaal 3,5 m diep geboord:
 
 Dit betreft een terrestrisch type dat grondwaterafhankelijk op een deel van de locaties is (GD1) of niet grondwaterafhankelijk is (GD0).
 Wanneer de bovenzijde van de reductiehorizont of de grondwatertafel niet aangetroffen wordt binnen een diepte van 2.5m dan maakt de locatie geen onderdeel uit van de doelpopulatie van GW_03.3.De installatie wordt dan volledig gestaakt.
-Kom je de grondwatertafel of reductiehorizont wel tegen, dan boor je 1m onder de bovenkant van de reductiehorizont.
+Kom je de grondwatertafel of reductiehorizont wel tegen, dan boor je 1m onder de bovenkant van de grondwatertafel of reductiehorizont.
 De bevindingen worden gerapporteerd via de GIS-app.
 
 **Is het type aquatisch en GD2?**
@@ -183,13 +183,13 @@ Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m 
 
 - plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
 - voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
-- plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte
-- noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+- plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte;
+- noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst;
 - de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001);
 - plaats steeds een metalen beschermbuis over de piëzometer;
-- noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, bvb ZWAP101X);
+- noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, vb. ZWAP101X);
 - plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
-- breng bijkomende bescherming aan bij begrazingbeheer. Dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder.
+- breng bijkomende bescherming aan bij begrazingbeheer; dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder;
 - geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
 
 ## Plaatsen van automatische druksensor
@@ -202,7 +202,7 @@ Wanneer het peil onder de sensor zakt meet de sensor enkel nog de atmosferische 
 
 Neem een druksensor (vb. Troll 100) en selecteer uit de lijst het serienummer van de sensor voor die steekproefeenheid in de GIS-applicatie.
 Programmeer de druksensor via de software op de veldtablet, met behulp van een Bluetooth-verbinding of rechtstreekse connectie.
-Stel de meetfrequentie in (uurlijks) en controleer de vrije opslagruimte en batterij van de druksensor of die kan functioneren bij de gekozen instellingen gedurende de volgende zes maaanden.
+Stel de meetfrequentie in (uurlijks) en controleer de vrije opslagruimte en batterij van de druksensor of die kan functioneren bij de gekozen instellingen gedurende de volgende zes maanden.
 
 Maak de druksensor vast aan het uiteinde van de rol kabel met behulp van de kabelklemmen.
 Laat de sensor met de kabel in de piëzometer zakken, tot onder de laagst mogelijke grondwaterstand maar 10 cm boven de bodem van de peilbuis waar water met slib kan blijven staan zelfs wanneer het grondwaterpeil onder de piëzometer zakt.
@@ -241,4 +241,3 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf anderhalve maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
-
