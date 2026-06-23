@@ -2,36 +2,37 @@
 
 Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal en RTK-GPS zoals vermeld in subprotocol [sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html), heb je volgend materiaal nodig:
 
--   een laptop of veldtablet met in een GIS-applicatie:
+- een laptop of veldtablet met in een GIS-applicatie:
 
-    -   een kaartlaag met de locatie en informatie van de steekproefeenheid, incl. vermelding terrestrisch of aquatisch habitattype
-    -   per steekproefeenheid: een set random getrokken punten waar de installatie kan plaatsvinden, afhankelijk van het habitattype
-    -   ondersteunende kaartlagen (vb. orthofoto's, digitaal hoogtemodel, bodemkaart)
-    -   een overzicht van de nabijgelegen meetpunten grondwater uit de Watina-databank binnen een straal van 50m van het middelpunt van het GRTS-adres
+  - een kaartlaag met de locatie en informatie van de steekproefeenheid, incl. vermelding terrestrisch of aquatisch habitattype
+  - per steekproefeenheid: een set random getrokken punten waar de installatie kan plaatsvinden, afhankelijk van het habitattype
+  - ondersteunende kaartlagen (vb. orthofoto's, digitaal hoogtemodel, bodemkaart)
+  - een overzicht van de nabijgelegen meetpunten grondwater uit de Watina-databank binnen een straal van 50m van het middelpunt van het GRTS-adres
 
--   een rolmeter van minstens 20m lengte
+- een rolmeter van minstens 20m lengte
 
--   kompas
+- random point generator tool (vb. random.org/points/2d)
 
--   druksensor
+- kompas
 
--   peilbuisslot met sensorophanging
+- druksensor
 
--   niet-rekkende kabel voor het ophangen van de druksensor
+- peilbuisslot met sensorophanging
 
--   kabelklemmen
+- niet-rekkende kabel voor het ophangen van de druksensor
 
--   schroevendraaier die past op kabelklemmen
+- kabelklemmen
 
--   kniptang
+- schroevendraaier die past op kabelklemmen
 
--   aangepaste kledij (vb. (lies)laarzen) en persoonlijke beschermingsmiddelen (vb. tekenwerende broek en hemd, zonnecrème, pet)
+- kniptang
 
--   je legitimatiekaart
+- aangepaste kledij (vb. (lies)laarzen) en persoonlijke beschermingsmiddelen (vb. tekenwerende broek en hemd, zonnecrème, pet)
 
--   telefoonnummer van de meetnetverantwoordelijke of projectcoördinator
+- je legitimatiekaart
 
--   telefoonnummer van de boswachter of terreinbeheerder
+- telefoonnummer van de meetnetverantwoordelijke of projectcoördinator
 
--   (digitaal) exemplaar van de ontheffing op verbodsbepaling artikel 35, §2
+- telefoonnummer van de boswachter of terreinbeheerder
 
+- (digitaal) exemplaar van de ontheffing op verbodsbepaling artikel 35, §2

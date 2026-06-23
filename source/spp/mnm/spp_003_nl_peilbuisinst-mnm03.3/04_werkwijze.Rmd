@@ -26,12 +26,18 @@ Via een GIS-applicatie (vb. QGIS en QField) worden ze gevisualiseerd aangeboden 
 ## Voorbereiding van het bezoek aan de steekproefeenheid
 
 Controleer in de GIS-applicatie wie de eigenaar en/of beheerder is van het gebied waarin de steekproefeenheid gelegen is.
-Toets af bij de meetnetverantwoordelijke of projectcoördinator of:
 
--   vergunningen of toelatingen voorzien zijn;
--   je bezoek en de plaatsing van de peilbuis en piëzometer is gemeld bij de eigenaar en/of beheerder (vb. privé-eigenaars en openbare besturen, boswachters en regiobeheerders van ANB, consulenten en conservators van Natuurpunt, Limburgs Landschap, vzw Durme, ...);
--   er tijdelijke beperking is van toegang (vb. tijdens het broedseizoen)
--   een controle in het [KLIP-portaal](https://klip.vlaanderen.be/public) noodzakelijk en uitgevoerd is, om graafschade te voorkomen aan kabels en leidingen.
+Controleer de toestand van de piëzometers die binnen een straal van 50m van het middelpunt van de steekproefeenheid liggen: - noteer de eigenaar van de piëzometer - controleer of de piëzometer binnen hetzelfde doeltype ligt als de steekproefeenheid op basis van de habitatkaart - controleer of de piëzometer binnen hetzelfde bodemtype ligt als de steekproefeenheid op basis van de bodemkaart.
+Indien de steekproefeenheid uit een zwaar bodemtype (A,U, E) bestaat, moet de piëzometer zich binnen de steekproefeenheid bevinden om in aanmerking te komen voor hergebruik.
+
+Controleer of de piëzometer voldoet aan volgende voorwaarden: - de buis heeft een filterlengte van 40-60 cm - de buis heeft een diameter van 5cm - de buis bestaat uit Kiwa-gecertificeerd PVC - de buis valt niet droog (bekijk de tijdsreeksen) noteer of de meetstaat van de bodem is beschreven.
+
+Als de piëzometer voldoet aan de voorwaarden, toets dan af bij de eigenaar of de piëzometer voor de PAS-effectmonitoring gebruikt mag worden.Installeer bijkomend een peilbuis.
+
+Als de piëzometer niet voldoet, toets dan af bij de eigenaar of het punt vervangen mag worden, of vraag aan de terreinbeheerder of de plaatsing mag plaatsvinden op de oorspronkelijk voorziene locatie binnen de steekproefeenheid volgens protocol.
+Volg hiervoor de stappen van paragraaf "Bezoek de steekproefeenheid".
+
+Toets af bij de meetnetverantwoordelijke of projectcoördinator of: - vergunningen of toelatingen voorzien zijn; - je bezoek en de plaatsing van de peilbuis en piëzometer is gemeld bij de eigenaar en/of beheerder (vb. privé-eigenaars en openbare besturen, boswachters en regiobeheerders van ANB, consulenten en conservators van Natuurpunt, Limburgs Landschap, vzw Durme, ...); - er tijdelijke beperking is van toegang (vb. tijdens het broedseizoen) - een controle in het [KLIP-portaal](https://klip.vlaanderen.be/public) noodzakelijk en uitgevoerd is, om graafschade te voorkomen aan kabels en leidingen.
 
 Kondig je terreinbezoek minstens twee dagen op voorhand aan bij de terreinbeheerder.
 Toegankelijkheid van militaire gebieden dient een week voor het terreinbezoek aangevraagd te worden via mail aan het betreffende kwartier, met de boswachter in cc.
@@ -48,86 +54,49 @@ Geef dit aan in de GIS-applicatie.
 Het terugvinden van aquatische steekproefeenheden vereist sowieso geen nauwkeurige locatiebepaling; een GPS-ontvanger zal daar volstaan.
 Het vinden van een reeds geselecteerd staalnamepunt van een aquatisch type (zie [protocol spp-116-nl 2024.05](https://inbo.github.io/protocols/2024.05/index.html) en [protocol spp-117-nl 2024.06](https://inbo.github.io/protocols/2024.06/index.html) vereist wel het gebruik van een RTK-GPS-ontvanger.
 
-## Optioneel: gebruik van bestaande meetlocaties
-
-Vele duizenden buizen werden reeds geplaatst in Vlaanderen de voorbije decennia, zoals te zien is in de Watina-databank.
-De kans bestaat dat er reeds een peilbuis of piëzometer aanwezig is in de buurt van de opgegeven steekproefeenheid.
-De keuze om een nabijgelegen bestaande peilbuis of piëzometer op te nemen in het grondwatermeetnet van de MNM in plaats van een nieuwe te plaatsen, is afhankelijk van de afstand tussen de bestaande en de nieuw te plaatsen buis, de kwaliteit van de plaatsing van de bestaande buis, de status van de bestaande buis en de kwaliteit en lengte van de lopende tijdsreeks van de bestaande buis.
-Hieronder worden de criteria in detail beschreven.
-
-### Nabijheid van een bestaand meetpunt
-
-Meetpunten die binnen de steekproefeenheid of een zone van 10 m rond deze eenheid liggen, komen in aanmerking om opgenomen te worden als representatief meetpunt voor de steekproefeenheid.
-Er mogen geen geografische barrières of verschillen aanwezig zijn zoals grachten of hellingen.
-Het meetpunt ligt binnen hetzelfde habitattype als dat van het celkarteringspolygoon.
-
-### Kwaliteit van de plaatsing van de bestaande buis
-
-Volgende gegevens moeten beschikbaar of af te leiden zijn in de Watina-databank en worden gebruikt om de kwaliteit en bruikbaarheid van de instalatie af te toetsen:
-
--   uit de peilbuislengte, de hoogte boven maaiveld en de boorstaat blijkt de filter zich onder de bovenste grens van reductiehorizont te bevinden;
--   volgens de bestaande tijdsreeks is de peilbuis nog nooit drooggevallen;
--   de diameter van de buis bedraagt 5cm;
--   de lengte van de filter bedraagt 40-60 cm;
--   bij voorkeur: de boorstaat is beschreven; als niet, dan kan dit nog worden uitgevoerd.
-
-### Status van de buis, lengte en kwaliteit van de tijdsreeksen
-
-Het overnemen van een bestaand meetpunt mag niet ten koste gaan van lopend onderzoek.
-Controleer steeds de toestand en eigenaar van de buis in de Watina-databank.
-Neem bij actief bemeten buizen steeds contact op met de eigenaar van de buis en vraag toestemming.
-De bestaande buizen die hiervoor in aanmerking komen, zijn gevisualiseerd in de GIS-applicatie.
-Evalueer best toch nog ter plaatse of de bestaande buis kan gebruikt worden en toets dit af met de eigenaar en/of beheerder.
-
 ### Koppeling met bestaande MNM-meetpunten
 
 Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderstaande voorwaarden wordt voldaan:
 
--   de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten. De celkateringspolygonen hoeven elkaar niet te raken.
--   de cellen vertegenwoordigen hetzelfde habitattype.
+- de cellen raken elkaar, inclusief de cellen die diagonaal raken via de hoekpunten. De celkateringspolygonen hoeven elkaar niet te raken.
+- de cellen vertegenwoordigen hetzelfde habitattype.
 
 ## Positionering en evaluatie van installatiepunt(en)
 
 Afhankelijk van het doeltype beschik je over een bepaalde set van random punten waar het doeltype aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleeerd worden.
 Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 
--   terrestrische types: binnen het celkarteringspolygoon in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), met uitsparing van het permanente kwadrant (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en buffer van 1 m errond;
+- terrestrische types: binnen het celkarteringspolygoon in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), met uitsparing van het permanente kwadraat (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en buffer van 1 m errond;
 
--   aquatische types:
+- aquatische types:
 
-    -   stilstaande wateren: in 50 m brede zone rond de plas, beperkt tot een gebied van 30 graden rond de richting van de sterkste helling (bepaald over een range van 500 m);
-    -   stromende wateren (3260): in een zone tussen de 20 en 50 m van de middellijn van de stroom, beperkt door de loodlijnen op de segmenteindes, en aan de kant met de grootste helling
+  - stilstaande wateren: in 50 m brede zone rond de plas, beperkt tot een gebied van 30 graden rond de richting van de sterkste helling (bepaald over een range van 500 m);
+  - stromende wateren (habitattype 3260): in een zone tussen de 20 en 50 m van de middellijn van de stroom, beperkt door de loodlijnen op de segmenteindes, en aan de kant met de grootste helling
 
--   type 7220: in een 20-m-brede zone van de grootste helling, net buiten het habitat (tot 100 m van de habitatvlek hellingopwaarts en tot 10 m van de habitatvlek hellingafwaarts), om betreding van de gevoelige vegetatie te voorkomen.
+- type 7220: in een 20-m-brede zone van de grootste helling, net buiten het habitat (tot 100 m van de habitatvlek hellingopwaarts en tot 10 m van de habitatvlek hellingafwaarts), om betreding van de gevoelige vegetatie te voorkomen.
 
 De lijst met random punten per steekproefeenheid is beschikbaar in de GIS-applicatie.
+De random plaatsingspuntjes zijn toevallig gekozen, maar met een grotere kans voor punten dichter bij het celmidden.
 Open de lijst en loop de punten in de lijst systematisch in volgorde af.
+Werk hierbij van een laag naar hoog volgnummer.
 Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria:
 
--   voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verstoort;
--   er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
+- voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verstoort;
+- er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
 
-**Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.Het systematisch verplaatsen van meetpunten, bijvoorbeeld naar de rand van een perceel waar minder hinder optreedt, leiden tot een systematische fout in de meting van de milieuvariabelen op de standplaats.
-Het wordt daarom aangeraden om:
+**Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.Dit tast echter de ruimtelijke representativiteit van het meetpunt aan.De verzamelde data zijn dan mogelijks niet meer representatief voor de milieuvariabelen van de werkelijke standplaats, waardoor er een systematische vertekening (bias) in de monitoring ontstaat.
 
--   het beoogde punt voor de plaatsing van een peilbuis en/of piëzometer niet te verplaatsen tenzij het op het beoogde punt zeker beschadigd zou geraken of het door de eigenaar of beheerder absoluut niet wordt toegestaan;
--   als je afwijkt van het beoogde punt, dit te beperken tot 10 m van het beoogde punt;
--   als dit niet mogelijk is, de locatie te beoordelen als niet geschikte steekproefeenheid en dan worden de peilbuis en piëzometer niet geplaatst.
+Het is mogelijk dat de laag met random punten (tijdelijk) onbeschikbaar is.
+Contacteer in dit geval de data scientist om de locaties alsnog te verkrijgen.
+Indien de data scientist niet bereikbaar is, genereer dan random nummers aan de hand van je smartphone of tablet.
 
-Indien er een kaartlaag beschikbaar is met toevallige ("random") alternatieve plaatsingspuntjes binnen de cel en binnen het doelpolygoon (celkartering), dan is de volgorde van de benummering (stijgend) bepalend voor de keuze van een alternatieve plaatsingspunt.
-Kies dan bij voorkeur het celmidden (puntje 0), indien onbeschikbaar puntje 1, enz.
+## Conditioneel: gebruik van bestaande meetlocaties
 
-De alternatieve plaatsingspuntjes zijn toevallig gekozen, maar met een grotere kans voor punten dichter bij het celmidden.
-Per uitzondering, bijvoorbeeld als onmiddellijk na een ad-hoc-loceval nog geen toevalspuntjes beschikbaar zijn of bij gebrek aan ontvangst van de precisie-GPS-ontvanger, én na overleg met de meetnetverantwoordelijke kan deze verdelingsfunctie experimenteel nagebootst worden.
-Tracht steeds de random gegenereerde toevalspuntjes te verkrijgen, eventueel door contact op te nemen met de data scientist die deze op vraag kan genereren.
-Gebruik deze aanpak enkel in nood.
-Hiervoor kunnen randomgetallen gegenereerd worden met een app op je telefoon, tussen de minimale en maximale coördinaten van de easting en de northing.
-Als allerlaatste toevluchtsoord kan een bij voorkeur convex voorwerp met een lage elasticiteitsmodulus verticaal naar boven gegooid worden vanuit het celmidden.
-Tracht hierbij rekening te houden met de windrichting en -sterkte.
-Om blessures bij deze procedure te voorkomen mag dit voorwerp niet te zwaar zijn; best geschikt is een WC-rol in een plastieken zakje.
-De plek waar het voorwerp neervalt of waar je terechtkomt na toepassen van het random gegenereerde nummer is de plaats van installatie en mag niet verder verschuiven.
-De procedure wordt herhaald als de zo verkregen installatieplaats buiten de celkarteringspolygoon valt of binnen het MHQ-proefvlak.
-Vraag voor deze uitzonderlijke en ingewikkelde procedure vooraf toestemming van en biotieker, een datawetenschapper, een statisticus, en de meetnetverantwoordelijke.
+Navigeer naar het bestaande meetpunt met behulp van een RTK-GPS-ontvanger of de GPS-ontvanger van je tablet of smartphone.
+Controleer of het meetpunt nog voldoet aan de criteria zoals beschreven in voorgaand hoofdstuk.
+Plaats een peilbuis nabij het punt als het punt voldoet.
+Als het punt niet voldoet, toets dan af bij de terreinbeheerder of het punt vervangen mag worden, of de plaatsing mag plaatsvinden in de steekproefeenheid volgens protocol.
+Volg hiervoor de stappen van paragraaf "Bezoek de steekproefeenheid".
 
 ## Plaatsen en geografisch inmeten van piëzometer en peilbuis
 
@@ -175,11 +144,11 @@ Kolom 1-3 betreffen terrestrische types, kolom 4 aquatische types.
 **Is het type terrestrisch en behoort het tot GD2?**
 
 Dit type is grondwaterafhankelijk op (bijna) alle locaties.
-Hier wordt geboord tot je de reductiehorizont of het grondwater tegenkomt in de bovenste 3,5 m van de bodem:
+Initieel wordt hier maximaal 3,5 m diep geboord:
 
--   kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
--   als je de reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
--   kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
+- kom je de reductiehorizont tegen in die bovenste 3,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
+- als je de reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
+- kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
 
 **Is het type terrestrisch en behoort het tot GD1 of GD0?**
 
@@ -212,16 +181,16 @@ Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m 
 
 ### Plaatsing en naamgeving van de buizen
 
--   plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
--   voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
--   plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte
--   noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
--   de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001);
--   plaats steeds een metalen beschermbuis over de piëzometer;
--   noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, bvb ZWAP101X);
--   plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
--   breng bijkomende bescherming aan bij begrazingbeheer. Dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder.
--   geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
+- plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
+- voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
+- plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte
+- noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+- de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001);
+- plaats steeds een metalen beschermbuis over de piëzometer;
+- noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, bvb ZWAP101X);
+- plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
+- breng bijkomende bescherming aan bij begrazingbeheer. Dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder.
+- geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
 
 ## Plaatsen van automatische druksensor
 
@@ -272,3 +241,4 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf anderhalve maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
+
