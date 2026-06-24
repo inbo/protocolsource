@@ -46,6 +46,8 @@ Bij het betreden en het verlaten van het terrein op de dag zelf dien je telkens 
 
 ## Bezoek de steekproefeenheid
 
+Ga naar de volgende paragraaf als een bestaand meetpunt wordt hergebruikt.
+
 Navigeer naar de steekproefeenheid met behulp van een RTK-GPS-ontvanger of de GPS-ontvanger van je tablet of smartphone.
 In terrestrische steekproefeenheden is het celmidden aangeduid met markeeranker en meetmerk (en eventueel met bamboestok), waardoor een GPS-ontvanger in je tablet of smartphone voldoende zal zijn om het celmidden terug te vinden.
 Als je het markeeranker met meetmerk toch niet terugvindt, dien je een RTK-GPS-ontvanger te gebruiken en moet je misschien later terugkomen.
@@ -150,7 +152,7 @@ Initieel wordt hier maximaal 3,5 m diep geboord:
 - als je de reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
 - kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
 
-Noteer je bevindingen in de GIS-app.
+Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
 
 **Is het type terrestrisch en behoort het tot GD1 of GD0?**
 
@@ -161,7 +163,7 @@ Initieel wordt hier maximaal 2,5 m diep geboord:
 - als je de reductiehorizont niet herkent of tegenkomt in de bovenste 2,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 3,5 m);
 - kom je geen van beide tegen tot op 2,5 m diepte, dan wordt de installatie gestaakt. Neem bij twijfel contact op met de meetnetverantwoordelijke.
 
-Noteer je bevindingen in de GIS-app.
+Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
 
 **Is het type aquatisch en GD2?**
 
@@ -183,7 +185,7 @@ De boordiepte is hier variabel en gerelateerd aan het oppervlaktewaterpeil van d
 -Indien er geen grondwater voorkomt binnen de initiële boordiepte wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
 In dit geval wordt de installatie gestaakt.
 
-Noteer je bevindingen in de GIS-app.
+Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
 
 **Aanwezigheid van ondiepe kleilenzen**
 
@@ -200,16 +202,25 @@ Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m 
 
 ### Plaatsing en naamgeving van de buizen
 
-- plaats buizen in PVC (want de waterstalen genomen voor eutrofiëring via het grondwater worden niet geanalyseerd op zware metalen of andere stoffen die kunnen interageren met het materiaal van de buis);
-- voorzie bij het klaarmaken van de buis onderaan een stuk filterelement van 60 cm;
+Plaats de peilbuizen en piëzometers in overeenstemming met protocol sfp-104-nl.
+Hou hierbij rekening met volgende afwijkingen:
+
+- Gebruik steeds KIWA-gecertififieerde (BRL-651) blinde buizen en filters uit PV;
+- De filterlengte bedraagt 0,6 m;
 - plaats per steekproefeenheid telkens één piëzometer en één peilbuis, tot dezelfde diepte;
-- noteer in de GIS-tool op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst;
-- de peilbuis krijgt steeds een watinacode die 100 volgnummers hoger ligt dan de piëzometer (bijvoorbeeld ZWAP101 en ZWAP001);
-- plaats steeds een metalen beschermbuis over de piëzometer;
-- noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, vb. ZWAP101X);
-- plaats een paal in hoge, dichte vegetatie om de peilbuis terug te vinden en op plaatsen waar gemaaid wordt;
-- breng bijkomende bescherming aan bij begrazingbeheer; dit kan d.m.v. omheining of omplanking. Toets het gebruik van prikkeldraad af met de terreinbeheerder;
-- geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
+- plaats steeds een metalen beschermkoker over de piëzometer
+
+Geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
+
+Geef de buizen een watinacode conform protocol sfp-104-nl.
+Bepaal eerst het volgnummer van de piëzometer op basis van de beschikbaarheid in Watina.
+Voor de peilbuis gebruik je een volgnummer dat 100 volgnummers hoger ligt dan de piëzometer (Vb. ZWAP101 en ZWAP001).
+Gebruik geen volgnummers die eindigen op "0" (Vb. ZWAP100 en ZWAP200).
+
+Noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, vb.
+ZWAP101X).
+
+Plaats op terreinen in maaibeheer of met een hoge, dichte vegetatie een hoge kastanjepaal met oranje markering om de locatie makkelijk terug te vinden en/of ter preventie van maaischade Plaats bijkomende bescherming op steekproefeenheden met begrazingbeheer; dit kan d.m.v. omheining of omplanking.Toets het gebruik van prikkeldraad af met de terreinbeheerder.
 
 ## Plaatsen van automatische druksensor
 
@@ -263,4 +274,3 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf anderhalve maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
-
