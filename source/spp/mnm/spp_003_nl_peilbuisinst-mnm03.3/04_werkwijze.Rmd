@@ -150,21 +150,40 @@ Initieel wordt hier maximaal 3,5 m diep geboord:
 - als je de reductiehorizont niet herkent of tegenkomt in die bovenste 3,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 4,5 m);
 - kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
 
+Noteer je bevindingen in de GIS-app.
+
 **Is het type terrestrisch en behoort het tot GD1 of GD0?**
 
 Dit betreft een terrestrisch type dat grondwaterafhankelijk op een deel van de locaties is (GD1) of niet grondwaterafhankelijk is (GD0).
-Wanneer de bovenzijde van de reductiehorizont of de grondwatertafel niet aangetroffen wordt binnen een diepte van 2.5m dan maakt de locatie geen onderdeel uit van de doelpopulatie van GW_03.3.De installatie wordt dan volledig gestaakt.
-Kom je de grondwatertafel of reductiehorizont wel tegen, dan boor je 1m onder de bovenkant van de grondwatertafel of reductiehorizont.
-De bevindingen worden gerapporteerd via de GIS-app.
+Initieel wordt hier maximaal 2,5 m diep geboord:
+
+- kom je de reductiehorizont tegen in die bovenste 2,5 m, boor dan tot 1 m onder de bovenkant van de reductiehorizont (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 3,5 m);
+- als je de reductiehorizont niet herkent of tegenkomt in de bovenste 2,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 3,5 m);
+- kom je geen van beide tegen tot op 2,5 m diepte, dan wordt de installatie gestaakt. Neem bij twijfel contact op met de meetnetverantwoordelijke.
+
+Noteer je bevindingen in de GIS-app.
 
 **Is het type aquatisch en GD2?**
 
-Hier refereren we aan het (oppervlakte)waterpeil van het nabijgelegen doelhabitat, terwijl we de buis meer stroomopwaarts / veelal buiten habitat plaatsen.
-De filter moet hier dus diep genoeg zitten om het grondwater te treffen dat het oppervlaktewater beïnvloedt.
-Dat is potentieel dieper in steilere situaties.
-We beschouwen de limiet hier het niveau van het oppervlaktewater + 0,5 m.
-Indien er geen grondwater voorkomt binnen deze zone wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
-In dit geval wordt de installatie gestaakt en de bevinding genoteerd in de GIS-app.
+Dit betreft een aquatisch type dat grondwaterafhankelijk is op (bijna) alle locaties (GD2).
+De boordiepte is hier variabel en gerelateerd aan het oppervlaktewaterpeil van de steekproefeenheid.
+
+- Meet het waterpeil van de nabijgelegen steekproefeenheid op met RTK-GPS.
+
+- Bepaal de maaiveldhoogte met RTK-GPS op de random locatie en bereken het verschil met het waterpeil van de steekproefeenheid.
+  Tel bij dit verschil een buffer van 0,5 m en je bekomt de initiële boordiepte.Bv.
+  Het waterpeil van de steekproefeenheid bedraagd 20 m TAW, het maaiveld van random locatie 1 bedraagd 20,70 m TAW.
+  De initiële boordiepte bedraagt dan 20,70 m - 20 m + 0,5 m = 1,2 m.
+
+- Boor vervolgens tot deze diepte.
+  Kom je de reductiehorizont tegen, boor dan tot 1 m onder de bovenkant van de reductiehorizont.
+
+- als je de reductiehorizont niet herkent of tegenkomt boven de initiële boordiepte en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand.
+
+-Indien er geen grondwater voorkomt binnen de initiële boordiepte wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
+In dit geval wordt de installatie gestaakt.
+
+Noteer je bevindingen in de GIS-app.
 
 **Aanwezigheid van ondiepe kleilenzen**
 
@@ -211,6 +230,9 @@ Een vijftal cm voorbij de markering knip je de kabel door met de kniptang.
 Bevestig het uiteinde van de afgeknipte kabel aan de onderzijde van het peilbuisslot en controleer of de druksensor goed bevestigd is.
 Plaats de druksensor aan de draad in de piëzometer.
 Plaats het peilbuisslot in de opening van de buis en draai de vijs op het slot vast.
+Voer een geografisch inmeting uit via RTK-GPS ontvanger, protocol SVP-014.
+Indien geen RTK-GPS ontvanger beschikbaar is, dien je dit binnen de 3 maanden in te halen.
+Geografische inmetingen in bos mogen uitgesteld worden naar de winterperiode.
 
 ## Geografisch inmeten van peilbuis en piëzometer
 
