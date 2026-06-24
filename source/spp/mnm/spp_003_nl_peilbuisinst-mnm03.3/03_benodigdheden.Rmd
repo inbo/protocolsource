@@ -9,6 +9,8 @@ Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal 
   - ondersteunende kaartlagen (vb. orthofoto's, digitaal hoogtemodel, bodemkaart)
   - een overzicht van de nabijgelegen meetpunten grondwater uit de Watina-databank binnen een straal van 50m van het middelpunt van het GRTS-adres
 
+- Een uit Watina afgeleid overzicht van de beschikbare gebiedscode(s) en volgnummer(s)
+
 - een rolmeter van minstens 20m lengte
 
 - random point generator tool (vb. random.org/points/2d)
