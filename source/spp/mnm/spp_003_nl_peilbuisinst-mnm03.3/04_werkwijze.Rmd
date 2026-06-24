@@ -211,6 +211,9 @@ Een vijftal cm voorbij de markering knip je de kabel door met de kniptang.
 Bevestig het uiteinde van de afgeknipte kabel aan de onderzijde van het peilbuisslot en controleer of de druksensor goed bevestigd is.
 Plaats de druksensor aan de draad in de piëzometer.
 Plaats het peilbuisslot in de opening van de buis en draai de vijs op het slot vast.
+Voer een geografisch inmeting uit via RTK-GPS ontvanger, protocol SVP-014.
+Indien geen RTK-GPS ontvanger beschikbaar is, dien je dit binnen de 3 maanden in te halen.
+Geografische inmetingen in bos mogen uitgesteld worden naar de winterperiode.
 
 ## Geografisch inmeten van peilbuis en piëzometer
 
@@ -241,3 +244,4 @@ Controleer na één maand de werking van de peilbuis en piëzometer.
 Controleer of de peilbuis en piëzometer voldoende water aanvoeren door ze leeg te pompen en het hervullen op te volgen.
 Vanaf anderhalve maand na installatie en na controle kunnen ze gebruikt worden voor staalname.
 De controle en het leegpompen voor de staalname kunnen dus samen uitgevoerd worden.
+
