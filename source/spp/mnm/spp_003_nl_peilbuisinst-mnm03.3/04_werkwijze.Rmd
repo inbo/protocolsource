@@ -1,5 +1,3 @@
-# Werkwijze
-
 # Overkoepelende werkwijze met verwijzing naar subprotocols
 
 ```{=html}
@@ -51,7 +49,7 @@ Als je het markeeranker met meetmerk toch niet terugvindt, dien je een RTK-GPS-o
 Geef dit aan in de GIS-applicatie.
 
 Het terugvinden van aquatische steekproefeenheden vereist sowieso geen nauwkeurige locatiebepaling; een GPS-ontvanger zal daar volstaan.
-Het vinden van een reeds geselecteerd staalnamepunt van een aquatisch type (zie [protocol spp-116-nl 2024.05](https://inbo.github.io/protocols/2024.05/index.html) en [protocol spp-117-nl 2024.06](https://inbo.github.io/protocols/2024.06/index.html) vereist wel het gebruik van een RTK-GPS-ontvanger.
+Het vinden van een reeds geselecteerd staalnamepunt van een aquatisch type (zie [protocol spp-116-nl 2024.05](https://inbo.github.io/protocols/2024.05/index.html) en [protocol spp-117-nl 2024.06](https://inbo.github.io/protocols/2024.06/index.html)) vereist wel het gebruik van een RTK-GPS-ontvanger.
 
 ### Koppeling met bestaande MNM-meetpunten
 
@@ -62,7 +60,7 @@ Koppeling met reeds bestaande random MNM-locaties is mogelijk indien aan onderst
 
 ## Positionering en evaluatie van installatiepunt(en)
 
-Afhankelijk van het doeltype beschik je over een bepaalde set van random punten waar het doeltype aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleeerd worden.
+Afhankelijk van het doeltype beschik je over een bepaalde set van random punten waar het doeltype aanwezig is en waar peilbuis en piëzometer kunnen geïnstalleerd worden.
 Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 
 - terrestrische types: binnen het celkarteringspolygoon in celmiddengebaseerde types of waar het type gedetecteerd is in celgebaseerde types (habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), met uitsparing van het permanente kwadraat (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en buffer van 1 m errond;
@@ -78,12 +76,11 @@ De lijst met random punten per steekproefeenheid is beschikbaar in de GIS-applic
 De random plaatsingspuntjes zijn toevallig gekozen, maar met een grotere kans voor punten dichter bij het celmidden.
 Open de lijst en loop de punten in de lijst systematisch in volgorde af.
 Werk hierbij van een laag naar hoog volgnummer.
-Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria:
+Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria: - voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat je bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verstoor; - er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
 
-- voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verstoort;
-- er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
-
-**Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.Dit tast echter de ruimtelijke representativiteit van het meetpunt aan.De verzamelde data zijn dan mogelijks niet meer representatief voor de milieuvariabelen van de werkelijke standplaats, waardoor er een systematische vertekening (bias) in de monitoring ontstaat.
+**Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.
+Dit tast echter de ruimtelijke representativiteit van het meetpunt aan.
+De verzamelde data zijn dan mogelijks niet meer representatief voor de milieuvariabelen van de werkelijke standplaats, waardoor er een systematische vertekening (bias) in de monitoring ontstaat.
 
 Het is mogelijk dat de laag met random punten (tijdelijk) onbeschikbaar is.
 Contacteer in dit geval de data scientist om de locaties alsnog te verkrijgen.
@@ -99,7 +96,7 @@ Volg hiervoor de stappen van paragraaf "Bezoek de steekproefeenheid".
 
 ## Plaatsen en geografisch inmeten van piëzometer en peilbuis
 
-Voor het plaatsen van de peilbuis en de piëzometer volg je het protocol 'Richtlijnen voor het plaatsen van peilbuizen' [sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html).
+Voor het plaatsen van de peilbuis en de piëzometer volg je het protocol 'Richtlijnen voor het plaatsen van peilbuizen' ([sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html)).
 
 Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van de MNM, de volgende projectspecifieke richtlijnen die een (lichte) afwijking of een verfijning zijn van het bovenstaand protocol:
 
@@ -172,8 +169,8 @@ De boordiepte is hier variabel en gerelateerd aan het oppervlaktewaterpeil van d
 - Meet het waterpeil van de nabijgelegen steekproefeenheid op met RTK-GPS.
 
 - Bepaal de maaiveldhoogte met RTK-GPS op de random locatie en bereken het verschil met het waterpeil van de steekproefeenheid.
-  Tel bij dit verschil een buffer van 0,5 m en je bekomt de initiële boordiepte.Bv.
-  Het waterpeil van de steekproefeenheid bedraagt 20 m TAW, het maaiveld van random locatie 1 bedraagt 20,70 m TAW.
+  Tel bij dit verschil een buffer van 0,5 m en je bekomt de initiële boordiepte.
+  Bijvoorbeeld: het waterpeil van de steekproefeenheid bedraagt 20 m TAW, het maaiveld van random locatie 1 bedraagt 20,70 m TAW.
   De initiële boordiepte bedraagt dan 20,70 m - 20 m + 0,5 m = 1,2 m.
 
 - Boor vervolgens tot deze diepte.
@@ -216,10 +213,10 @@ Bepaal eerst het volgnummer van de piëzometer op basis van de beschikbaarheid i
 Voor de peilbuis gebruik je een volgnummer dat 100 volgnummers hoger ligt dan de piëzometer (vb. ZWAP101 en ZWAP001).
 Gebruik geen volgnummers die eindigen op "0" (Vb. ZWAP100 en ZWAP200).
 
-Noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X (vb. ZWAP101X).
+Noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij het versienummer, beginnende bij X (vb. ZWAP101X).
 
-Plaats op terreinen in maaibeheer of met een hoge, dichte vegetatie een hoge kastanjepaal met oranje markering om de locatie makkelijk terug te vinden en/of ter preventie van maaischade.
-Plaats bijkomende bescherming op steekproefeenheden met begrazingbeheer.
+Plaats op terreinen met maaibeheer of met een hoge, dichte vegetatie een hoge kastanjepaal met oranje markering om de locatie makkelijk terug te vinden en/of ter preventie van maaischade.
+Plaats bijkomende bescherming op steekproefeenheden met begrazingsbeheer.
 Dit kan d.m.v. omheining of omplanking.
 Toets het gebruik van prikkeldraad af met de terreinbeheerder.
 
