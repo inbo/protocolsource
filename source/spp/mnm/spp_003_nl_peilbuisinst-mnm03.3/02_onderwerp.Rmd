@@ -23,7 +23,7 @@ Eén meetnet volgt één milieudruk op in een specifiek compartiment (grondwater
 Grondwater kan over de volledige ondergrondse lengte van het instrument door perforaties naar binnen en naar buiten stromen.
 De filter snijdt steeds met de grondwaterstand, behalve als het grondwaterpeil boven het maaiveld uitstijgt.
 Het waterpeil in de buis wijkt weinig of niet af van de grondwaterstand.
-Strikt gezien mzou dit een grondwaterstandsbuis genoemd moeten worden, maar de term peilbuis is zodanig algemeen in gebruik dat het gebruiken van een nieuwe term tot nog veel meer verwarring zou leiden.
+Strikt gezien zou dit een grondwaterstandsbuis genoemd moeten worden, maar de term peilbuis is zodanig algemeen in gebruik dat het gebruiken van een nieuwe term tot nog veel meer verwarring zou leiden.
 
 **piëzometer**: een buis met een filterelement van enkele tientallen centimeter (de INBO afspraak is 50 cm) voor het meten van de stijghoogte (of ook drukhoogte) op een bepaalde diepte.
 Het peil in de buis komt overeen met de druk ter hoogte van de filter en die kan verschillen van het grondwaterpeil.
