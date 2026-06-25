@@ -202,8 +202,8 @@ Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m 
 
 ### Plaatsing en naamgeving van de buizen
 
-Plaats de peilbuizen en piëzometers in overeenstemming met protocol sfp-104-nl.
-Hou hierbij rekening met volgende afwijkingen:
+Plaats de peilbuizen en piëzometers in overeenstemming met Volg hiervoor [sfp-104-nl](https://protocols.inbo.be/2025.01/index.html).
+Houdt hierbij rekening met volgende afwijkingen:
 
 - Gebruik steeds KIWA-gecertififieerde (BRL-651) blinde buizen en filters uit PV;
 - De filterlengte bedraagt 0,6 m;
@@ -212,7 +212,7 @@ Hou hierbij rekening met volgende afwijkingen:
 
 Geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-applicatie (vb. boorverslag) en gebruik papieren veldnotities enkel als het digitaal niet kan (vb. te veel neerslag, te koud).
 
-Geef de buizen een watinacode conform protocol sfp-104-nl.
+Geef de buizen een watinacode conform protocol [sfp-104-nl](https://protocols.inbo.be/2025.01/index.html).
 Bepaal eerst het volgnummer van de piëzometer op basis van de beschikbaarheid in Watina.
 Voor de peilbuis gebruik je een volgnummer dat 100 volgnummers hoger ligt dan de piëzometer (Vb. ZWAP101 en ZWAP001).
 Gebruik geen volgnummers die eindigen op "0" (Vb. ZWAP100 en ZWAP200).
