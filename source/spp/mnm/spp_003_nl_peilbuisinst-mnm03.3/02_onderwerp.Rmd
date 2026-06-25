@@ -8,8 +8,10 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 -->
 ```
 
-**Doeltype**: het habitat(sub)type of regionaal belangrijke biotoop (rbb) waarvoor de steekproeflocatie is getrokken voor een specifiek meetnet. Er komt geen overlap voor tussen sub- en hoofdtypes. De habitat(sub)types en regionaal belangrijke biotopen komen voor terrestrische eenheden in de MNM overeen met de strata.
-+
+**Doeltype**: het habitat(sub)type of regionaal belangrijke biotoop (rbb) waarvoor de steekproeflocatie is getrokken voor een specifiek meetnet.
+Er komt geen overlap voor tussen sub- en hoofdtypes.
+De habitat(sub)types en regionaal belangrijke biotopen komen voor terrestrische eenheden in de MNM overeen met de strata.
+
 **celkarteringspolygoon**: afgebakend polygoon binnen de steekproefeenheid met voorkomen van het beoogde habitattype.
 
 **MNM**: Meetnetten Natuurlijk Milieu.
