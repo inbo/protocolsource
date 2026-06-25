@@ -6,6 +6,7 @@ Hier niets invullen.
 Indien er afhankelijkheden zijn deze invullen in de yaml sectie van `index.Rmd`
 -->
 ```
+
 ```{r dependencies}
 empty_table <- tibble(
   protocol_code = character(),
@@ -22,8 +23,8 @@ empty_table <- tibble(
   pander::pander(split.tables = Inf)
 
 if (exists("params")) {
-  if (!is.null(params$dependencies)) {
-    transpose(params$dependencies) %>%
+  if (!is.null(params$dependencies$value)) {
+    transpose(params$dependencies$value) %>%
       as_tibble() %>%
       mutate(protocol_code = as.character(protocol_code),
              version_number = as.character(version_number),
@@ -47,3 +48,4 @@ if (exists("params")) {
 }
 rm(empty_table)
 ```
+
