@@ -108,37 +108,39 @@ Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van 
 Controleer de grondwaterafhankelijkheid van het type in de rastercel in onderstaande tabel.
 Kolommen 1-3 betreffen terrestrische types met verschillende grondwaterafhankelijkheden (GD2, GD1, GD0), kolom 4 aquatische types (enkel GD2).
 
-| type (ter.) | afh. | type (ter.) | afh. | type (ter.) | afh. | type (aq.) | afh. |
-|-------------|------|-------------|------|-------------|------|------------|------|
-| 1310_pol    | GD2  | 3260        | GD1  | 6510_hu     | GD0  | 3110       | GD2  |
-| 1330_hpr    | GD2  | 9130_end    | GD1  | 9120        | GD0  | 3130_aom   | GD2  |
-| 2190_a      | GD2  | 9130_fm     | GD1  |             |      | 3130_na    | GD2  |
-| 2190_mp     | GD2  | 9160        | GD1  |             |      | 3140       | GD2  |
-| 2190_overig | GD2  | 9190        | GD1  |             |      | 3150       | GD2  |
-| 4010        | GD2  |             |      |             |      | 3160       | GD2  |
-| 6230_hmo    | GD2  |             |      |             |      | 7220       | GD2  |
-| 4010        | GD2  |             |      |             |      |            |      |
-| 6230_hmo    | GD2  |             |      |             |      |            |      |
-| 6410_mo     | GD2  |             |      |             |      |            |      |
-| 6410_ve     | GD2  |             |      |             |      |            |      |
-| 6430_hf     | GD2  |             |      |             |      |            |      |
-| 6430_hw     | GD2  |             |      |             |      |            |      |
-| 6430_mr     | GD2  |             |      |             |      |            |      |
-| 6510_hua    | GD2  |             |      |             |      |            |      |
-| 6510_hus    | GD2  |             |      |             |      |            |      |
-| 7140_base   | GD2  |             |      |             |      |            |      |
-| 7140_meso   | GD2  |             |      |             |      |            |      |
-| 7140_mrd    | GD2  |             |      |             |      |            |      |
-| 7140_oli    | GD2  |             |      |             |      |            |      |
-| 7150        | GD2  |             |      |             |      |            |      |
-| 7210        | GD2  |             |      |             |      |            |      |
-| 7230        | GD2  |             |      |             |      |            |      |
-| 91E0_sf     | GD2  |             |      |             |      |            |      |
-| 91E0_va     | GD2  |             |      |             |      |            |      |
-| 91E0_vc     | GD2  |             |      |             |      |            |      |
-| 91E0_vm     | GD2  |             |      |             |      |            |      |
-| 91E0_vn     | GD2  |             |      |             |      |            |      |
-| 91E0_vo     | GD2  |             |      |             |      |            |      |
+```{r gd-table, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+table_format <- if (knitr::is_html_output()) "html" else "latex"
+
+gd_data <- data.frame(
+  type_ter1 = c("1310_pol", "1330_hpr", "2190_a", "2190_mp", "2190_overig", "4010", "6230_hmo", "4010", "6230_hmo", "6410_mo", "6410_ve", "6430_hf", "6430_hw", "6430_mr", "6510_hua", "6510_hus", "7140_base", "7140_meso", "7140_mrd", "7140_oli", "7150", "7210", "7230", "91E0_sf", "91E0_va", "91E0_vc", "91E0_vm", "91E0_vn", "91E0_vo"),
+  afh_ter1  = rep("GD2", 29),
+  type_ter2 = c("3260", "9130_end", "9130_fm", "9160", "9190", rep("", 24)),
+  afh_ter2  = c("GD1", "GD1", "GD1", "GD1", "GD1", rep("", 24)),
+  type_ter3 = c("6510_hu", "9120", rep("", 27)),
+  afh_ter3  = c("GD0", "GD0", rep("", 27)),
+  type_aq   = c("3110", "3130_aom", "3130_na", "3140", "3150", "3160", "7220", rep("", 22)),
+  afh_aq    = c("GD2", "GD2", "GD2", "GD2", "GD2", "GD2", "GD2", rep("", 22))
+)
+
+output_table <- kbl(gd_data, 
+    format = table_format, 
+    booktabs = TRUE, 
+    col.names = c("type", "afh.", "type", "afh.", "type", "afh.", "type", "afh.")) %>%
+  add_header_above(c("Terrestrische types (GD2)" = 2, 
+                     "Terrestrische types (GD1)" = 2, 
+                     "Terrestrische types (GD0)" = 2, 
+                     "Aquatische types" = 2))
+
+if (table_format == "latex") {
+  output_table %>% kable_styling(latex_options = c("striped", "hold_position"), font_size = 8)
+} else {
+  output_table %>% kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+}
+
+```
 
 **Is het type terrestrisch en behoort het tot GD2?**
 
@@ -179,8 +181,8 @@ De boordiepte is hier variabel en gerelateerd aan het oppervlaktewaterpeil van d
 
 - als je de reductiehorizont niet herkent of tegenkomt boven de initiële boordiepte en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand.
 
--Indien er geen grondwater voorkomt binnen de initiële boordiepte wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
-In dit geval wordt de installatie gestaakt.
+- Indien er geen grondwater voorkomt binnen de initiële boordiepte wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
+  In dit geval wordt de installatie gestaakt.
 
 Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
 
@@ -211,15 +213,15 @@ Geef bij voorkeur de verzamelde gegevens digitaal in, in Watina of via de GIS-ap
 
 Geef de buizen een watinacode conform protocol [sfp-104-nl](https://protocols.inbo.be/2025.01/index.html).
 Bepaal eerst het volgnummer van de piëzometer op basis van de beschikbaarheid in Watina.
-Voor de peilbuis gebruik je een volgnummer dat 100 volgnummers hoger ligt dan de piëzometer (Vb. ZWAP101 en ZWAP001).
+Voor de peilbuis gebruik je een volgnummer dat 100 volgnummers hoger ligt dan de piëzometer (vb. ZWAP101 en ZWAP001).
 Gebruik geen volgnummers die eindigen op "0" (Vb. ZWAP100 en ZWAP200).
 
-Noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X, vb.
-ZWAP101X).
+Noteer de watinacode aan de binnenzijde of op de beschermkap van de beschermkoker, vermeld hierbij de versienummer, beginnende bij X (vb. ZWAP101X).
 
 Plaats op terreinen in maaibeheer of met een hoge, dichte vegetatie een hoge kastanjepaal met oranje markering om de locatie makkelijk terug te vinden en/of ter preventie van maaischade.
 Plaats bijkomende bescherming op steekproefeenheden met begrazingbeheer.
-Dit kan d.m.v. omheining of omplanking.Toets het gebruik van prikkeldraad af met de terreinbeheerder.
+Dit kan d.m.v. omheining of omplanking.
+Toets het gebruik van prikkeldraad af met de terreinbeheerder.
 
 ## Plaatsen van automatische druksensor
 
@@ -247,7 +249,7 @@ Geografische inmetingen in bos mogen uitgesteld worden naar de winterperiode.
 ## Geografisch inmeten van peilbuis en piëzometer
 
 Als geen RTK-GPS-ontvanger beschikbaar was bij het plaatsen van de peilbuis en piëzometer, dien je later (bij voorkeur binnen de 3 maanden) met de RTK-GPS-ontvanger terug te komen om de geografische locatie (x,y,z) ervan nauwkeurig in te meten.
-Volg hier [protocol SVP-014](https://docs.google.com/document/d/1T68iO3-gZ9WrUTxEd551n5EXPrp0vNp9bPs-Y_xSP-U/edit?tab=t.0).
+Volg hiervoor [protocol SVP-014](https://docs.google.com/document/d/1T68iO3-gZ9WrUTxEd551n5EXPrp0vNp9bPs-Y_xSP-U/edit?tab=t.0).
 
 ## Terrestrische types en 7220: inmeten van gemiddelde maaiveldhoogte
 
