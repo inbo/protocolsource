@@ -48,7 +48,7 @@ Dit protocol beschrijft het manueel plaatsen van een koppel ondiepe peilbuis en 
 De installatie dient om de stikstoftoestand van het ondiepe freatische grondwater binnen grondwaterafhankelijke habitattypes op te volgen (met behulp van nitraat- en ammoniumconcentratie in het grondwater), maar ook om de verklarende variabelen (vb. stijghoogte, pH, geleidend vermogen) en variabelen voor kwaliteitscontrole (vb. concentratie van de belangrijkste anionen en kationen ter controle van de ionenbalans) te bepalen.
 
 Dit protocol wordt pas doorlopen als de steekproefeenheid recent (minder dan 1,5 jaar voor de installatie) als geschikt werd beoordeeld volgens de locatie-evaluatie (zie protocol [spp-002-nl 2026.02](https://inbo.github.io/protocols/2026.02/index.html) voor terrestrische types).
-Een steekproefeenheid is geschikt als in het celmidden van de rastercel, ergens in de rastercel, in het segment, in de plas of in de grot het doeltype voorkomt waarvoor de steekproefeenheid werd getrokken.
+Een steekproefeenheid is geschikt als in het celmidden van de rastercel (voor celmiddengekoppelde types), ergens in de rastercel (voor celgekoppelde types: habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)), in het segment van stromend water, in de plas of in de grot het doeltype voorkomt waarvoor de steekproefeenheid werd getrokken.
 
 Dit protocol is niet van toepassing in de niet voor het publiek opengestelde grotten (type 8310).
 
