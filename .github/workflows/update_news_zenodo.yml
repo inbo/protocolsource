@@ -77,7 +77,7 @@ jobs:
     name: "update repo news, zenodo and protocol-specific doi"
     steps:
       - name: Update protocol
-        uses: inbo/actions/protocol_update@main
+        uses: inbo/actions/protocol_update@5ad8ad6a75c216b77713aa14ebaef30d76ee1463 # main
         with:
           PAT: ${{ secrets.PAT }}
           ZENODO: ${{ secrets.ZENODO }}
