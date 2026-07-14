@@ -21,6 +21,6 @@ jobs:
     name: "check protocol"
     steps:
       - name: Check protocol
-        uses: inbo/actions/protocol_check@5ad8ad6a75c216b77713aa14ebaef30d76ee1463 # main
+        uses: inbo/actions/protocol_check@main
         with:
           PAT: ${{ secrets.GITHUB_TOKEN }}
