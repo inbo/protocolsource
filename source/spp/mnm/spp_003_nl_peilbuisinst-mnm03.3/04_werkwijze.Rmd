@@ -65,9 +65,9 @@ Deze zijn via desktop-analyse of analyse ter plaatse reeds gegenereerd:
 
 - celgebaseerde types (terrestrische types zonder 7220):
 
-  - als slechts één type in de rastercel is bevestigd bij de locatie-evaluatie, een celmiddengekoppeld type of een celgekoppeld type (habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)): binnen de celkarteringspolygoon van het type, met uitsparing van het permanente kwadraat (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en een buffer van 1 m errond;
-  - als een celmiddengekoppeld en één of meerdere celgekoppelde types zijn bevestigd bij de locatie-evaluatie: binnen de celkarteringspolygoon van het celmiddengekoppelde type;
-  - als meerdere celgekoppelde types zijn bevestigd bij de locatie-evaluatie in afwezigheid van celmiddengekoppelde types: binnen de som van de celkarteringspolygonen van alle bevestigde types
+  - als slechts één type in de rastercel is bevestigd bij de locatie-evaluatie, nl. een celmiddengekoppeld type óf een celgekoppeld type (habitattypes 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb-types brem- en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp)): binnen de celkarteringspolygoon van het type, met uitsparing van het permanente kwadraat (3 m op 3 m; in bossen 10 m op 10 m) voor de monitoring van de biotische habitatkwaliteit en een buffer van 1 m errond;
+  - als een celmiddengekoppeld en één of meerdere celgekoppelde types zijn bevestigd in de rastercel bij de locatie-evaluatie: binnen de unie van de celkarteringspolygonen van de bevestigde types;
+  - als meerdere celgekoppelde types zijn bevestigd in de rastercel bij de locatie-evaluatie in afwezigheid van celmiddengekoppelde types: binnen de unie van de celkarteringspolygonen van alle bevestigde types
 
 - punt- of lijngebaseerde types (aquatische types):
 
