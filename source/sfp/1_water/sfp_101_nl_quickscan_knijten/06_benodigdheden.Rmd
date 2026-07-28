@@ -2,7 +2,7 @@
 
 ## Apparatuur
 
--   **Trimble gps** (eventueel punten vooraf inladen)
+- **Trimble gps** (eventueel punten vooraf inladen)
 
 ```{=html}
 <!--
@@ -15,37 +15,35 @@ Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur me
 
 ### Veldstaalname
 
--   **Benthossteekbuis** van minimum 15 cm lang met een diameter van 4,5 cm + bijkomende stamper om het staal uit te duwen
+- **Benthossteekbuis** van minimum 20 cm lang met een diameter van 4,5 cm + bijkomende stamper om het staal uit te duwen.
 
--   Gelabelde **potten** (0,5 L) of **zakjes**.
-    De labels worden bij voorkeur vooraf aangebracht met een watervaste stift.
-    Controleer steeds dat de stift water- en wrijfvast is.
+- Gelabelde **potten** (0,5 L) of **zakjes**.
+  De labels worden bij voorkeur vooraf aangebracht met een watervaste stift.
+  Controleer steeds dat de stift water- en wrijfvast is.
 
 ### **Optioneel bij het bemonsteren van sediment:**
 
--   kleine **steekbuis** van minimum 20 cm lang met een diameter van 2 cm
+- kleine **steekbuis** van minimum 20 cm lang met een diameter van 2 cm
 
--   kleine **potjes** voor sediment en chlorofyl-a-stalen
+- kleine **potjes** voor sediment en chlorofyl-a-stalen
 
--   **Kopecky-ring**
+- **kopecky-ring**
 
--   **zakjes** of **potjes** voor Bulk density stalen
+- **zakjes** of **potjes** voor bulk density stalen
 
 ### Verwerking labo
 
--   **Zeef** met maaswijdte **125 µm**
+- **zeef** met maaswijdte **125 µm**
 
--   **Zeef** met maaswijdte **212 µm**
+- **zeef** met maaswijdte **212 µm**
 
--   **Trieerbak**
+- **trieerbak met belichting**
 
--   **Sterke lamp** (met flexibele arm)
+- **binoculaire microscoop**
 
--   **Binoculaire microscoop**
+- **pincet**
 
--   **Pincet**
-
--   **Notitieboekje** en **potlood**/**pen**
+- **notitieboekje** en **potlood**/**pen**
 
 ```{=html}
 <!--
