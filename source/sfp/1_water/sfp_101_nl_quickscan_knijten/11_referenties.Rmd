@@ -1,0 +1,9 @@
+# Referenties {.unnumbered}
+
+::: {#refs}
+\item
+:::
+
+Van Ryckegem, G., Van de Meutter, F., Vandevoorde, B., Vanoverbeke, J., Jocque, M., Mertens, W., & Van den Bergh, E. (2021). Knijtenoverlast in Gentbrugge: ecologische kennisopbouw en doeltreffendheid van maatregelen. (Rapporten van het Instituut voor Natuur- en Bosonderzoek; Nr. 25). Instituut voor Natuur- en Bosonderzoek. <https://doi.org/10.21436/inbor.36325020>
+
+Van Ryckegem, G., Vanoverbeke, J., Van de Meutter, F., Vandevoorde, B., Mertens, A., Mertens, W., Van Braeckel, A., Van Thuyne, G., Maesele, R., Smeekens, V., Thibau, K., Bezdenjesnji, O., Buerms, D., Coudenys, A., De Regge, N., Hessel, K., Lefranc, C., Soors, J., & Van Lierop, F. (2025). MONEOS ‐ geïntegreerd datarapport INBO: toestand Zeeschelde 2024: Monitoringsoverzicht en 1ste lijnsrapportage Geomorfologie, diversiteit Habitats en diversiteit Soorten. (Rapporten van het Instituut voor Natuur- en Bosonderzoek; Nr. 73). Instituut voor Natuur- en Bosonderzoek. <https://doi.org/10.21436/inbor.135546610>
