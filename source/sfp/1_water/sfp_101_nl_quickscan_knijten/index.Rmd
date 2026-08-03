@@ -59,6 +59,7 @@ bibliography: referenties.yaml
 link-citations: true
 license: CC-BY 4.0
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/research-institute-for-nature-and-forest.csl
+doi: 10.5281/zenodo.21773412
 ---
 
 ```{=html}
