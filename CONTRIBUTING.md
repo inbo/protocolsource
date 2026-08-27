@@ -37,10 +37,15 @@ If this tells you `No issues found -- the project is in a consistent state.`, yo
 If not, you will need to follow the instructions and update the packages: run `renv::restore()`.
 When this succeeded, you can proceed to the [workflow](#workflow) section for further guidance.
 
-## Setup your local repository
+## Prepare for GitHub
 
 Are you a first-time GitHub user?
-Make sure you can authenticate to GitHub by following [these guidelines](https://inbo.github.io/tutorials/tutorials/git_authentication/).
+Make sure you can authenticate to GitHub by following [these guidelines](https://inbo.github.io/tutorials/tutorials/git_authentication/) in a clean R session (_not_ from within the RStudio `protocolsource.Rproj` project).
+
+If you are not already a member of the [`inbo` GitHub organisation](https://github.com/orgs/inbo/people), write an e-mail to [IT](mailto:ict.helpdesk@inbo.be) with the request to add `<your-github-username>` to <https://github.com/inbo/>.
+Next, contact one of the `protocolsource` admins (HVC, EL, TW, TO) and ask he/she to add `<your-github-username>` to the [protocols team](https://github.com/orgs/inbo/teams/protocols).
+
+## Setup your local repository
 
 Installing the repository on your local drive:
 
@@ -48,7 +53,9 @@ Installing the repository on your local drive:
 -   select HTTPS and copy the URL to the clipboard
 -   start RStudio and select `File -> New project -> Version Control -> Git` -\> paste the URL
 -   `protocolsource` will be automatically suggested as project directory name (keep it that way)
--   In the field `Create project as subdirectory of` select a folder on your local disc. For instance `C:/R/repositories`.
+-   In the field `Create project as subdirectory of` select a folder _on your local disc_.
+    For instance `C:/R/repositories`.
+    Make sure this is not a folder on Google drive and that you are not syncing your local folder to Google drive.
 -   Click "Create project"
 
 You will now have a local clone of the remote repository as an RStudio project.
@@ -60,11 +67,20 @@ Whenever you want to work in the project, you need to open `protocolsource.Rproj
 ## `renv` R package management
 
 This RStudio project uses [renv](https://rstudio.github.io/renv/articles/renv.html) to manage R package dependencies.
-This ensures that different users have the same versions of packages installed.
+This ensures that different users have the same versions of packages installed and that the automated workflow to publish a protocol works.
 See also [collaborating with renv](https://rstudio.github.io/renv/articles/collaborating.html).
-The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library.
+The first time you open the RStudio project `renv` should automatically download and install the appropriate version of `renv` into the project library, or - in case you have a different `renv` version installed, it will print instructions to the console telling you how to install or restore the `renv` version used in the `protocolsource` project.
+
 After this has completed, you can use `renv::restore()` to restore the R packages in the local project library on your machine.
-If this fails, try `renv::restore(transactional = FALSE)`.
+If you receive messages that some packages could not be installed, it may indicate that within the `renv` environment, your git credentials are not findable (see also [Prepare for GitHub](#prepare-for-github)).
+These git credentials are needed if the installation process is hitting non-authenticated download ...
+To circumvent this, you may need to temporary set a GitHub personal access token within the `renv` environment.
+To do this, open a clean R session and run `gitcreds::gitcreds_get()$password` and copy your token to the clipboard.
+Then, within the `protocolsource` RStudio project, run `Sys.setenv(GITHUB_PAT = "ghp_your_actual_token_here")` in the console, followed by `renv::install("gitcreds")`.
+Then run `renv::restore()` again.
+If after all this, some packages still fail to restore, try `renv::restore(transactional = FALSE)`.
+If all goes well, restarting the R session (in RStudio `Ctrl+Shift+F10` or Session -> Restart R session) should report no issues (other than perhaps a warning about the `fortunes` package, which you can safely ignore).
+Similarly, running `renv::status()` should report `No issues found -- the project is in a consistent state.`.
 
 In case you need another package than the ones installed (see the [DESCRIPTION file](DESCRIPTION)) for this project, ask one of the admins to do this for you.
 It is not allowed to do this in a [protocol-specific branch](#branching).
