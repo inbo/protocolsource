@@ -1,0 +1,24 @@
+# Kwaliteitszorg
+
+-   Zorg bij de veldstaalname dat de staalnamelocatie effectief slik is.
+    Door het dynamische karakter van estuariene natuur kan dit in praktijk niet overeenkomen met vooraf bepaalde sliklocaties.
+    In het veld kan daarom de exacte locatie nog licht verschoven worden (naar effectieve slikoppervlakken).
+    De aangepaste locatie wordt ingemeten met de trimble-gps.
+
+-   Volg nauwgezet de gedocumenteerde staalnamemethodiek om reproduceerdbaare resultaten te bekomen.
+
+-   Check vooraf of alle staalnamepotjes/zakjes correct gelabeld zijn.
+
+-   Check of alle gps-coördinaten correct ingemeten zijn.
+
+-   Zorg dat de monsters goed gekoeld blijven tijdens transport.
+
+```{=html}
+<!--
+Vermeld alle acties bij het uitvoeren van het protocol om tot kwaliteitsvolle resultaten te komen.
+Daarnaast kan ook een checklist toegevoegd worden om na te gaan of alle stappen van het veldprotocol op een correcte manier doorlopen zijn (bv. Zijn alle velden in veldformulier ingevuld, zijn alle stalen gelabeld, ...).
+Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel verwezen worden naar corrigerende maatregelen.
+In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
+-->
+```
+

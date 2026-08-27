@@ -1,0 +1,52 @@
+{
+  "description": "",
+  "title": "Veldstaalnameprotocol quickscan knijtenlarven.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY 4.0",
+  "language": "nld",
+  "keywords": [
+    "knijten; Culicoides; veldstaalname; labo; estuaria; slikken"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Organe, Anouk",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0006-1202-1863",
+      "type": "contactperson"
+    },
+    {
+      "name": "Van Hecke, Florian",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0004-3499-2279",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Organe, Anouk",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0006-1202-1863"
+    },
+    {
+      "name": "Van De Meutter, Frank",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-9850-1860"
+    },
+    {
+      "name": "Jocqué, Merlijn",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-7196-7476"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}

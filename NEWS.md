@@ -1,3 +1,10 @@
+### First version of protocol: sfp-101-nl
+
+- Title: Veldstaalnameprotocol quickscan knijtenlarven
+- Published on: 2026-08-03
+- Version number: 2026.02
+- Link to this version: [sfp-101-nl version 2026.02](2026.02/index.html)
+
 ### First version of protocol: sop-040-nl
 
 - Title: Abundantie- en oppervlaktebepaling van groepsfoto’s met ongewervelden in ImageJ
