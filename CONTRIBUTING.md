@@ -73,7 +73,7 @@ The first time you open the RStudio project `renv` should automatically download
 
 After this has completed, you can use `renv::restore()` to restore the R packages in the local project library on your machine.
 If you receive messages that some packages could not be installed, it may indicate that within the `renv` environment, your git credentials are not findable (see also [Prepare for GitHub](#prepare-for-github)).
-These git credentials are needed if the installation process is hitting non-authenticated download rate limits on the GitHub API (which restricts unauthenticated requests to 60 per hour).
+These git credentials are needed if the installation process is hitting non-authenticated download rate limits on the GitHub API (which restricts unauthenticated requests to 60 per hour - this may sound like a high limit, but it is not because the originating IP address is shared by all INBO employees on the INBO network).
 To circumvent this, you may need to temporary set a GitHub personal access token within the `renv` environment.
 To do this, open a clean R session and run `gitcreds::gitcreds_get()$password` and copy your token to the clipboard.
 Then, within the `protocolsource` RStudio project, run `Sys.setenv(GITHUB_PAT = "ghp_your_actual_token_here")` in the console, followed by `renv::install("gitcreds")`.
