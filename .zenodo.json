@@ -231,6 +231,37 @@
       "orcid": "0000-0003-2758-4723",
       "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
       "corresponding": true
+    },
+    {
+      "name": {
+        "given": "Anouk",
+        "family": "Organe"
+      },
+      "type": "Researcher",
+      "email": "anouk.organe@inbo.be",
+      "orcid": "0009-0006-1202-1863",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+      "corresponding": true
+    },
+    {
+      "name": {
+        "given": "Frank",
+        "family": "Van De Meutter"
+      },
+      "type": "Researcher",
+      "email": "frank.vandemeutter@inbo.be",
+      "orcid": "0000-0002-9850-1860",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
+    },
+    {
+      "name": {
+        "given": "Merlijn",
+        "family": "Jocqué"
+      },
+      "type": "Researcher",
+      "email": "merlijn.jocque@inbo.be",
+      "orcid": "0000-0002-7196-7476",
+      "affiliation": "Instituut voor Natuur- en Bosonderzoek (INBO)"
     }
   ]
 }

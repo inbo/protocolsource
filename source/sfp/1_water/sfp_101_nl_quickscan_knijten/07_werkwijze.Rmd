@@ -1,0 +1,116 @@
+# Werkwijze
+
+## Voorbereidingen
+
+Inspelend op een gedefinieerde onderzoeksvraag wordt een relevant staalname design bepaald met de juiste replicatie en genoeg bemonsteringen om de vraagstelling statistisch te analyseren.\
+
+Zodra het ontwerp en het aantal staalnamepunten vastligt, wordt nagegaan waar deze punten in het veld geplaatst kunnen worden.
+Hiervoor wordt vooraf meestal een recente luchtfoto geraadpleegd waarop het slikoppervlak van het studiegebied duidelijk zichtbaar is.
+Op basis van de luchtfoto’s worden punten of zones geselecteerd die potentieel hebben om geschikt habitat te zijn voor knijten.
+Eerder onderzoek (Van Ryckegem et al., 2021) toont dat vooral hooggelegen, slappe en laagdynamische slikken hoge densiteiten aan knijtenlarven bevatten.
+Er wordt voorlopig aangenomen dat Culicoides riethi als filtervoedende larve vooral te vinden is in laagdynamische stukken op het slik, stukken die vaak gekenmerkt worden door slikdelen met duidelijk groene algenbedekking.
+Geselecteerde punten worden ingeladen in de Trimble-GPS.
+Controleer het getij met het getijdenboekje of via waterinfo.
+
+## Uitvoering
+
+```{=html}
+<!--
+Gedetailleerde omschrijving van alle stappen die doorlopen moeten worden om het protocol uit te voeren.
+Subtitels gebruiken om elke stap te omschrijven.
+-->
+```
+
+### In het veld
+
+#### Locatiebepaling
+
+Bij vooraf geselecteerde en ingegeven punten worden deze gezocht aan de hand van de Trimble-GPS.
+Omdat situaties in het veld kunnen verschillen van de geambieerde condities op basis van luchtfoto's, kunnen bij evaluatie in het veld vooraf geselecteerd punten licht verschoven worden zodat effectief geschikte condities voor de oorspronkelijke vraagstelling (bvb TAW binnen bepaalde range) bemonsterd wordt.
+
+Bij het nemen van bijkomende punten wordt elk punt ingemeten met Trimble-GPS (xyz) en bewaard onder de vooraf gedefinieerde staalnaamcode.
+
+#### Staalname biota
+
+Per staalnamepunt worden twee stalen genomen, op maximum 15 cm van het punt ingemeten met de Trimble-GPS.
+De replica’s worden ongeveer 15 cm van elkaar genomen.
+De benthossteekbuis wordt minstens 7 cm diep verticaal in het slik geduwd.
+Verwijder de buis uit het slik en duw 7 cm uit (met de stamper) in het daarvoor bestemde potje/zakje.
+De twee replica’s worden in afzonderlijke potten/zakjes bewaard.
+Elke knijtenstaal heeft als label de naam van het staalnamepunt gevolgd door “\_a” of” “\_b” (toewijzing mag random).
+Zo is duidelijk dat de stalen bij elkaar horen.
+Er wordt geen bewaarmiddel toegevoegd.
+Tijdens transport worden de stalen bewaard in een koelbox (4-10° C) en nadien bewaard in een koelkast (4°C) tot verwerking.
+Dit moet gebeuren met de levende knijtenlarven omdat deze het gemakkelijkst te vinden en herkennen zijn op basis van hun karakteristieke beweging.
+
+#### Optioneel: staalname sediment
+
+-   Granulometrie en Bulk density
+
+    -   Het sedimentstaal wordt met een kleine steekbuis (diameter 1 cm) 10 cmdiep genomen tussen de 2 replica’s van een staalnamepunt.
+        Dit is een standaard sediment staal cf.
+        MONEOS protocol (Van Ryckegem et al., 2025).
+        Dit sedimentstaal wordt in een potje bewaard en krijgt het label van het staalnamepunt.
+        Het staal wordt ingevroren bewaard (-20°C) tot analyse.
+
+    -   Het bulk density staal wordt genomen met een Kopecky ring (diameter = 5 cm, diepte = 5 cm).
+        Het staal wordt in een zakje/potje overgebracht met het label van het staalnamepunt.
+        Het staal wordt ingevroren bewaard (-20°C) tot analyse.
+
+-   Chlorofyl-a
+
+    -   Met een kleine steekbuis (diameter 1 cm) wordt tussen de 2 replica’s van een staalnamepunt tot 4 cm diep gestoken. Dit chlorofyl-a staal wordt in een potje bewaard en krijgt het label van het staalnamepunt. Het staal wordt ingevroren bewaard (-20°C) tot analyse.
+
+| Doel          | Aantal | Diameter steekbuis | Diepte | Bewaring | Verwerking       |
+|---------------|--------|--------------------|--------|----------|------------------|
+| Knijten       | 2      | 4,5 cm             | 7 cm   | 4 °C     | zo snel mogelijk |
+| **Optioneel** |        |                    |        |          |                  |
+| Granulometrie | 1      | 2 cm               | 10 cm  | -20 °C   | later            |
+| Chlorofyl-a   | 1      | 2 cm               | 4 cm   | -20 °C   | later            |
+| Bulk density  | 1      | Kopecky            | 4 cm   | -20 °C   | later            |
+
+: Tabel 1: Overzicht karakteristieken bemonstering voor verschillende doelvariabelen
+
+### Verwerking in het labo
+
+#### Voorbereiding
+
+Knijtenstalen worden zo snel mogelijk na staalname verwerkt, bij voorkeur binnen de 3 werkdagen, zodat de knijtenlarven nog leven.
+De stalen worden gezeefd in twee fases over zeven met maaswijdtes van respectievelijk 212 µm en 125 µm.
+
+Het sediment weerhouden in de zeeffractie van 212 µm wordt overgebracht in een witte trieërbak met water.
+Het sediment weerhouden op de zeeffractie van 125 µm wordt overgebracht in een pot met een kleine hoeveelheid water om het sediment vochtig te houden.
+
+#### Verwerking stalen
+
+De zeeffractie van 212 µm wordt eerst bekeken in een grote witte trieerbak onder een sterk licht.
+Hierna wordt de zeeffractie van 125 µm bekeken in detail onder de binoculaire microscoop.
+Alle knijtenlarven en -poppen worden handmatig uitgetrieërd en geteld.
+Larven worden in instar klassen opgedeeld (Zie studie INBO, ongepubliceerd), geteld en uitgesorteerd.
+Knijtenlarven worden onderscheiden van ander benthos op basis van hun kenmerkende zwembeweging.
+Indien morfometrische metingen van de larven gepland zijn, worden de larven per staal in epjes met ethanol verzameld.
+
+Voor de bepaling van de benthosbiomassa worden de monsters eerst in kroesjes geplaatst en gedurende één nacht gedroogd bij 105 °C in een droogstoof.
+De droogstoof wordt bij het opzetten gecontroleerd via de knop set temperature om na te gaan of de temperatuur correct op 105 °C staat.
+Na het drogen worden de kroesjes warm gewogen op een analytische balans tot op een duizendste van een gram; dit gewicht wordt genoteerd als het drooggewicht.
+Vervolgens worden de kroesjes gedurende twee uur verast in een moffeloven bij 550 °C.
+Hierbij wordt rekening gehouden met een aanlooptijd van ongeveer twee uur om de oven op 550 °C te brengen, waarna de monsters nog twee uur op deze temperatuur blijven.
+Na het verassen worden de kroesjes opnieuw warm gewogen tot op een duizendste van een gram; dit wordt genoteerd als het asgewicht.
+Het verschil tussen het drooggewicht en het asgewicht geeft het asvrije drooggewicht (AFDW = drooggewicht - asgewicht), wat in deze procedure overeenkomt met de biomassa van het benthos.
+
+Andere benthos organismen (e.g. Oligochaeta) worden in de Quick scan methode standaard niet mee bekeken om snel en efficiënt een groot aantal stalen te kunnen verwerken.
+
+## Registratie en bewaring van resultaten
+
+```{=html}
+<!--
+Opsomming van alle resultaten die bekomen worden na de uitvoering van het protocol en hoe die resultaten geregistreerd, bewaard of opgeslagen moeten worden.
+Voor metingen of observaties: verwijs naar invulformulier (met versienummer; invulformulier toevoegen in bijlage; eventueel bepaalde zaken van invulformulier verduidelijken) en/of naar apparatuur en/of softwareprogramma indien gegevens digitaal worden ingevoerd (verwijs naar `sip` (standaard instrument protocol, `<protocol-code>-YYYY.NN`) indien beschikbaar; indien geen sip beschikbaar, geef de nodige instructies om gegevens op gepaste wijzen in te kunnen geven).
+Voor staalnames: geef aan hoe de stalen bewaard, gelabeld en vervoerd moeten worden.
+Geef aan of de stalen voorbehandeld moeten worden.
+Voor digitale foto’s en/of andere digitale bestanden: geef aan hoe en waar deze bestanden moeten worden opgeslagen.
+Geef eventueel aan welke bestandsnamen aan de bestanden moeten gegeven worden.
+-->
+```
+
+Sla de resultaten op in de relevant digitale spreadsheet.
