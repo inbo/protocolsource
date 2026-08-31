@@ -93,7 +93,7 @@ Dit protocol is van toepassing voor de evaluatie, vervanging en celkartering van
 
 Het veldwerk in dit protocol kan enkel uitgevoerd worden:
 
-- binnen de (sub)optimale periode voor kartering en is afhankelijk van het doeltype (zie [Vriens et al. (2011)](https://purews.inbo.be/ws/portalfiles/portal/1904260/Vriens_etal_2011_BiologischeWaarderingskaart.pdf)).
+- binnen de (sub)optimale periode voor kartering en is afhankelijk van het doeltype [zie @vriensBiologischeWaarderingskaartBiotopen2011].
 - in de gebieden met gelimiteerde toegang: na toelating
 - door een persoon met voldoende vegetatiekundige kennis die de Natura 2000 habitattypes op het terrein kan onderscheiden.
 
