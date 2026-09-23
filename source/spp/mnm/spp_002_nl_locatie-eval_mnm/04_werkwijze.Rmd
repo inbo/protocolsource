@@ -68,6 +68,8 @@ Toets af bij de meetnetverantwoordelijke of projectcoördinator of vergunningen 
 Toegankelijkheid van militaire gebieden dient door de uitvoerder van de locatie-evaluatie een week voor het terreinbezoek aangevraagd te worden via mail aan het betreffende kwartier, met de boswachter in cc.
 Zij laten weten op welke dagen en tussen welke uren je het terrein mag betreden.
 Bij het betreden en het verlaten van het terrein op de dag zelf dien je telkens telefonisch contact op te nemen met de kwartiercommandant.
+Indien je geen toegang verkrijgt tot het gebied waarin de steekproefeenheid gelegen is en verwacht dat dit niet zal wijzigen binnen de twee jaar, dan valt de steekproefeenheid af.
+Noteer deze ontoegankelijkheid in de GIS-applicatie: vink 'geen bezoek gepland/mogelijk' (excluded = true) en vermeld de reden in veld 'reden geen bezoek'.
 
 ### Evalueer de timing van je bezoek
 
