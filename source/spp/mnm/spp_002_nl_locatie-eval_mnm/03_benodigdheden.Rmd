@@ -1,0 +1,24 @@
+# Extra benodigdheden t.o.v. de subprotocols
+
+Naast de benodigdheden vermeld in [sfp-001-nl 2023.01](https://inbo.github.io/protocols/2023.01/index.html), namelijk:
+
+- een RTK-GPS-ontvanger
+- een laptop, smartphone of veldtablet met de te evalueren steekproefeenheden, de vervangcellen en ondersteunende kaartlagen in een GIS-omgeving,
+
+dien je op terrein te beschikken over:
+
+- de veldsleutels, [online](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/) beschikbaar
+- veldgids planten
+- loepe
+- een metalen buisanker met hardstalen spits (30 of 50 cm)
+- een plastic meetmerk met plug
+- hamer om metalen buisanker in de grond te slaan en meetmerk erop te bevestigen
+- bamboestok met één gekleurd uiteinde voor in hoge, dichte vegetaties (vb. riet, bramenstruweel)
+- aangepaste kledij (vb. (lies)laarzen) en persoonlijke beschermingsmiddelen (vb.tekenwerende broek en hemd, zonnecrème, pet)
+- je legitimatiekaart
+- telefoonnummer van de meetnetverantwoordelijke of projectcoördinator
+- telefoonnummer van de boswachter.
+
+De volgende materialen kunnen helpen bij het uitvoeren van het protocol:
+
+- vier bamboestokken.
