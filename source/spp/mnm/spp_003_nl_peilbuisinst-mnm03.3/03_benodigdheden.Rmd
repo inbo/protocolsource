@@ -1,0 +1,40 @@
+# Extra benodigdheden t.o.v. de subprotocollen
+
+Naast de benodigde boor-, buis- en afwerkingsmaterialen, algemeen werkmateriaal en RTK-GPS zoals vermeld in subprotocol [sfp-104-nl 2025.01](https://inbo.github.io/protocols/2025.01/index.html), heb je volgend materiaal nodig:
+
+- een laptop of veldtablet met in een GIS-applicatie:
+
+  - een kaartlaag met de locatie en informatie van de steekproefeenheid, incl. vermelding terrestrisch of aquatisch habitattype
+  - per steekproefeenheid: een set random getrokken punten waar de installatie kan plaatsvinden, afhankelijk van het habitattype
+  - ondersteunende kaartlagen (vb. orthofoto's, digitaal hoogtemodel, bodemkaart)
+  - een overzicht van de nabijgelegen meetpunten grondwater uit de Watina-databank binnen een straal van 50 m van het middelpunt van het GRTS-adres
+
+- Een uit Watina afgeleid overzicht van de beschikbare gebiedscode(s) en volgnummer(s)
+
+- een rolmeter van minstens 20 m lengte
+
+- random point generator tool (vb. random.org/points/2d)
+
+- kompas
+
+- druksensor
+
+- peilbuisslot met sensorophanging
+
+- niet-rekkende kabel voor het ophangen van de druksensor
+
+- kabelklemmen
+
+- schroevendraaier die past op kabelklemmen
+
+- kniptang
+
+- aangepaste kledij (vb. (lies)laarzen) en persoonlijke beschermingsmiddelen (vb. tekenwerende broek en hemd, zonnecrème, pet)
+
+- je legitimatiekaart
+
+- telefoonnummer van de meetnetverantwoordelijke of projectcoördinator
+
+- telefoonnummer van de boswachter of terreinbeheerder
+
+- (digitaal) exemplaar van de ontheffing op verbodsbepaling artikel 35, /§2

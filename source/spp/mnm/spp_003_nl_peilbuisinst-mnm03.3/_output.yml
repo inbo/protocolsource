@@ -1,0 +1,18 @@
+
+bookdown::gitbook:
+  split_by: none
+  split_bib: no
+  template: !expr protocolhelper:::protocol_css()
+  css: css/inbo_rapport.css
+  config:
+    toc:
+      before:
+      - <li class="toc-logo"><a href="https://www.vlaanderen.be/inbo/home/"><img src="css/img/inbo-nl.jpg"></a></li>
+      - <li class="toc-logo"><a href="https://inbo.github.io/protocols/"><button class="btn"><i class="fa fa-home"></i> Protocols homepage</button></li>
+      after:
+        - <li class="cc"><a href="http://creativecommons.org/licenses/by/4.0/"><img src="css/img/cc-by.png"></a></li>
+bookdown::pdf_book:
+  keep_tex: no
+  pandoc_args: --top-level-division=chapter
+  template: !expr protocolhelper:::protocol_tex()
+
