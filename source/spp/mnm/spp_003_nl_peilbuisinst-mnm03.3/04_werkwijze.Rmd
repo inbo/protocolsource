@@ -104,7 +104,7 @@ Voor het plaatsen van de peilbuis en de piëzometer volg je het protocol 'Richtl
 
 Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van de MNM, de volgende projectspecifieke richtlijnen die een (lichte) afwijking of een verfijning zijn van het bovenstaand protocol:
 
-### Diepte van de boring
+### Diepte van de boring {#grondwaterafhankelijkheid}
 
 Controleer de grondwaterafhankelijkheid van het type in de rastercel in onderstaande tabel.
 Kolommen 1-3 betreffen terrestrische types met verschillende grondwaterafhankelijkheden (GD2, GD1, GD0), kolom 4 aquatische types (enkel GD2).
@@ -191,14 +191,58 @@ Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en pië
 
 Deze situatie kan zich voordoen in infiltratiegebieden, vaak met aanwezigheid van vennen, in zandige regio's.
 Bij aanwezigheid van ondiepe kleilenzen in de gereduceerde of waterverzadigde zone mag afgeweken worden van de 1 m-regel onder de reductiehorizont.
-We willen immers voorkomen dat de kleilens doorboord wordt en er verticale drainage optreedt.
-Het geperforeerde deel van zowel peilbuis als piëzometer mag de watervoerende lagen onder en boven de kleilens niet met elkaar verbinden.
-Hier worden de buizen op de kleilens geplaatst.
-Bij eventuele doorboring wordt de ondoorlaatbaarheid van de laag hersteld aan de hand van een bentonietstop.
+Voor plaatsingen in klei gelden volgende bijkomende voorwaarden:
 
-**Drooggevallen reductiehorizont**
+- Plaats de filter van 60cm zodanig dat deze max 40 cm in de kleilaag en 20 cm boven de kleilaag uitsteekt.
+- Indien het een ondiepe kleilens betreft, boor je niet dieper dan de onderkant van de kleilaag.
+- Vul het boorgat ter hoogte van de filter met filterzand.
 
-Indien het een extreem verdroogde locatie betreft (grondwater komt niet voor 1m onder de reductiehorizont) dan wordt de plaatsing gestaakt.
+Om te bepalen of een plaatsing nodig is kan onderstaand stappenplan gebruikt worden:
+
+##### 1. Voer de boring uit volgens protocol en analyseer het bodemprofiel {#stap-1}
+
+- indien een kleilaag wordt vastgesteld → ga naar [stap 2](#stap-2)
+- indien geen kleilaag wordt vastgesteld → voer de plaatsing uit volgens het protocol
+
+##### 2. Er wordt een kleilaag vastgesteld {#stap-2}
+
+- Er wordt grondwater en een reductiehorizont aangetroffen boven een kleilaag → voer de plaatsing uit volgens het protocol, rekening houdend met de bijkomende voorwaarden.
+- Er wordt grondwater, maar geen reductiehorizont aangetroffen → [stap 3](#stap-3)
+- Er wordt een reductiehorizont, maar geen grondwater aangetroffen → [stap 4](#stap-4)
+- er wordt geen grondwater of reductiehorizont aangetroffen → [stap 5](#stap-5)
+
+##### 3. Er wordt grondwater, maar geen reductiehorizont aangetroffen {#stap-3}
+
+Evalueer een plaatsing op basis van het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^04_werkwijze-1] Indien het tijdens de plaatsing een nat seizoen betreft, markeer dan het risico op mogelijk droogval in de in de GIS-applicatie.
+
+[^04_werkwijze-1]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
+
+##### 4. Er wordt een reductiehorizont, maar geen grondwater aangetroffen {#stap-4}
+
+Dit wijst op een recente droogval.
+Evalueer de oorzaak van de droogval (bvb. extreme seizoenale condities, bemaling) en voer een plaatsing uit.
+Markeer het risico op mogelijk droogval in de GIS-applicatie.
+Beperk je tot de plaatsing van de piëzometer.
+Herevalueer de plaatsing in een natter seizoen.
+
+##### 5. Er wordt geen grondwater of reductie waargenomen {#stap-5}
+
+Zoek de [grondwaterafhankelijkheid](#grondwaterafhankelijkheid) van het type op.
+
+- het betreft een obligaat GWA type (GD2) → voer de plaatsing uit volgens het protocol, rekening houdend met de bijkomende voorwaarden.
+- het betreft geen obligaat GWA (GD0, GD1) type → [stap 6](#stap-6)
+
+##### 6. Geen obligaat grondwaterafhankelijk type {#stap-6}
+
+Ga na of er gleyverschijnselen aanwezig zijn boven de kleilaag
+
+- Er zijn geen gleyverschijnselen aanwezig → de plaatsing wordt niet uitgevoerd
+
+- Er wordt gley-aangetroffen → evalueer een plaatsing op basis van het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^04_werkwijze-2], overleg met de meetnetverantwoordelijke bij twijfel.
+  Beperk je tot de plaatsing van de piëzometer.
+  Herevalueer de plaatsing in een natter seizoen.
+
+[^04_werkwijze-2]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
 
 ### Plaatsing en naamgeving van de buizen
 
