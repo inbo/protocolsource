@@ -1,0 +1,102 @@
+# Onderwerp
+
+## Definities en afkortingen
+
+```{=html}
+<!--
+Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te begrijpen en het protocol op een gepaste manier te kunnen uitvoeren.
+-->
+```
+
+**Celgekoppelde type**: celgebaseerde habitat(sub)type of regionaal belangrijk biotoop waarbij de GRTS-rastercel wordt toegewezen op basis van ruimtelijke overlap van het habitat(sub)type of regionaal belangrijke biotoop met de rastercel, maar het type treft niet noodzakelijk het celmidden van de rastercel (in tegenstelling tot een celmiddengekoppelde type)
+
+**Celkartering**: het ruimtelijk in kaart brengen van het voorkomen van het doeltype binnen een rastercel van 32 m op 32 m.
+Dit resulteert in een polygoon die uitsluitend uit het doeltype bestaat (en gelegen is binnen de grenzen van de rastercel), ook celkarteringspolygoon genoemd.
+
+**Celmiddengekoppelde type**: celgebaseerde habitat(sub)type of regionaal belangrijk biotoop waarbij het midden van een GRTS-rastercel het type treft
+
+**Doeltype**: het habitat(sub)type of regionaal belangrijke biotoop (rbb) waarvoor de steekproeflocatie is getrokken voor een specifiek meetnet.
+Er is geen overlap voor tussen sub- en hoofdtypes omdat afzonderlijke steekproeflocaties worden getrokken voor hoofd- en subtypes.
+Technisch: de habitat(sub)types en regionaal belangrijke biotopen komen voor terrestrische eenheden in de MNM overeen met de strata.
+
+**GRTS-steekproef**: ruimtelijk gebalanceerde willekeurige steekproef gebaseerd op het GRTS algoritme (Stevens & Olsen, 2004).
+Een GRTS-steekproef is gebaseerd op een grid van GRTS-rastercellen met een bepaalde dimensie.
+Elke GRTS-rastercel krijgt een uniek GRTS-rangnummer (of GRTS-adres genoemd).
+Een steekproef met grootte n wordt bekomen door de GRTS-rastercellen met de n laagste rangnummers te selecteren binnen de doelpopulatie.
+In de MNM wordt een GRTS-steekproef getrokken voor elk meetnet afzonderlijk.
+
+**MNM**: Meetnetten Natuurlijk Milieu.
+Deze meetnetten hebben als doel de toestand en trend van milieudrukken in het natuurlijk milieu op het niveau van Vlaanderen op te volgen ter ondersteuning van het natuurbeleid.
+Hiervoor dient de abiotiek in Natura 2000-habitats en regionaal belangrijke biotopen te worden gemonitord.
+Eén meetnet volgt één milieudruk op in een specifiek compartiment (grondwater, oppervlaktewater, bodem, inundatiewater of atmosfeer).
+
+**rbb**: regionaal belangrijk biotoop
+
+**steekproefeenheid**: een individueel element van de steekproef van een specifiek meetnet met attribuutwaarden verbonden aan het design (vb. GRTS-rangnummer, doeltype, panelnummer).
+Het ruimtelijke aspect is de **meetlocatie** en is in dit protocol een rastercel van 32 m op 32 m, omdat deze cellen de basis (de zogenaamde *sample support*) zijn van terrestrische types in MNM (met uitzondering van 7220).
+
+**vervangeenheid**: een lokale vervanging van een steekproefeenheid, wanneer de rastercel van de getrokken steekproefeenheid het doeltype niet bevat (al dan niet in het celmidden), en in dit protocol voor celgebaseerde types ook wel **vervangcel** genoemd.
+
+## Doelstelling en toepassingsgebied
+
+```{=html}
+<!--
+Doelstelling: omschrijving in woorden waarvoor het protocol dient.
+Voorbeelden wat er met de gegevens kan gedaan worden.
+Probeer de doelstelling zo veel mogelijk generiek te beschrijven en vermijd projectspecifieke doelstellingen.
+Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt worden.
+-->
+```
+
+### Doelstelling
+
+Dit protocol beschrijft hoe terrestrische steekproefeenheden ("meetlocaties") worden beoordeeld op de aanwezigheid van het doeltype in een meetnet van de Meetnetten Natuurlijk Milieu (MNM).
+De steekproefeenheden zijn het resultaat van een GRTS-trekking voor een specifiek meetnet van de MNM.
+Ze worden getrokken uit het meetnetspecifieke steekproefkader, welke de best beschikbare oplijsting vormt van de eenheden die tot de doelpopulatie van het meetnet behoren.
+Het steekproefkader van een meetnet is een beperking van het basissteekproefkader van alle meetnetten van de MNM op basis van de lijst types die de doelpopulatie van elk meetnet definiëren.
+Per meetnet kunnen er extra ruimtelijke restricties gelden binnen types van het basissteekproefkader.
+Het basissteekproefkader is aangemaakt op basis van originele datalagen en datalagen die zijn afgeleid van de [Habitatkaart](https://www.vlaanderen.be/inbo/natura-2000-monitoring/bwk-en-habitatkaart/) of de Watervlakkenlaag, en houdt rekening met de evaluatie van meetlocaties in het kader van het meetnet biotische habitatkwaliteit en reeds uitgevoerde locatie-evaluaties in het kader van de MNM.
+
+De steekproefeenheid van terrestrische habitats is een GRTS-rastercel van 32 m op 32 m waar het doeltype volgens de Habitatkaart voortkomt.
+Een polygoon behorend tot een habitat of rbb kan dus meerdere GRTS-rastercellen omvatten.
+Een onderscheid wordt gemaakt tussen celmidden- en celgekoppelde types.
+Voor de meeste terrestrische types gebeurt de koppeling van GRTS‐rastercellen aan polygonen via het celmidden: de GRTS‐rastercel krijgt een habitat- of rbb-type toegekend van een polygoon als het centrum van de rastercel ermee overlapt.
+De koppeling van GRTS‐rastercellen aan habitatpolygonen gebeurt evenwel celgebaseerd voor types die vooral voorkomen als kleine of smalle patches of in consequent lage aandelen in het polygoon (nl. de zogenaamde phab‐waarden in de Habitatkaart).
+Hierbij krijgt de GRTS‐rastercel een habitattype toegekend van een polygoon als het ermee overlapt.
+De celgekoppelde types zijn habitat(sub)types 1320, 2150, 6210_sk, 6430_bz en 7150 en de rbb‐types brem‐ en gaspeldoornstruweel (rbbsg) en doornstruweel (rbbsp).
+
+De getrokken steekproefeenheden dienen het doeltype te bevatten waarvoor de eenheid is getrokken, welke is afgeleid van de meest recente Habitatkaart.
+Het doeltype dient voor te komen ofwel in het celmidden bij celmiddengekoppelde types of ergens in de cel bij celgekoppelde types.
+Toch kan het zijn dat in de praktijk de actueel aanwezige vegetatie in (het celmidden van) de rastercel ter plaatse afwijkt en niet behoort tot het doeltype waarvoor de meetlocatie is getrokken.
+Dit kan komen door een fouten of onvolkomenheden in de het (basis)steekproefkader (bronlagen), een verandering op het terrein sinds het vorige terreinbezoek of het voorkomen van een complex in de habitatkaart (waarbij meerdere types binnen één habitatpolygoon voorkomen).
+In het steekproefkader van celmiddengekoppelde types wordt een correctie toegepast op basis van het aandeel habitat in de polygoon (de phab-waarde).
+Die correctie houdt in dat polygonen (of stukken daarvan) met een lagere phab proportioneel minder worden opgenomen in het steekproefkader.
+Hierdoor vergroot de kans dat de terreinmedewerker een positieve locatie-evaluatie kan uitvoeren tijdens het bezoek aan een gebied.
+Echter, waar zulke polygonen dan resteren en getrokken worden, moeten ze wel een geldige eenheid opleveren (als ze die bevatten), anders genereer je bias door ondervertegenwoordiging van populatie-eenheden in polygonen met lagere phab.
+Voor celmiddengekoppelde types is bijgevolg een lokale vervanging vereist.
+
+De aanwezigheid van het doeltype in de rastercel dient dus ter plaatse te worden gecontroleerd.
+Indien het doeltype er niet voorkomt, dient de terreinmedewerker via de procedure in het vervangprotocol binnen een vooraf bepaald gebied een andere steekproefeenheid te selecteren die wel geschikt is: de vervangeenheid.
+Om de voor de hand liggende fouten efficiënt op te sporen, wordt de steekproefeenheid en het geheel van de vervangeenheden voor het terreinbezoek geëvalueerd op basis van een desktopscreening.
+
+Als de steekproefeenheid of vervangeenheid geschikt is, dient in de geschikte rastercel een kartering te worden uitgevoerd van het doeltype, verderop de celkartering genoemd.
+Met deze informatie zijn veldmedewerkers zonder of met minder vegetatiekundige expertise in staat de bemonstering of installatie van meettoestellen op een vegetatiekundig geschikte locatie uit te voeren.
+Dit kan met tussenkomst zijn van een extra randomisatie in de geschikte deelzone van de vervangeenheid.
+
+Dit protocol omschrijft de werkwijze van de desktopscreening en de evaluatie van de aanwezigheid van het doeltype in terrestrische celgebaseerde steekproefeenheden van de MNM, en daarmee verbonden het lokaal vervangen van niet-geschikte steekproefeenheden en de celkartering van geschikte terrestrische steekproefeenheden.
+
+### Toepassingsgebied
+
+Dit protocol is van toepassing voor de evaluatie, vervanging en celkartering van terrestrische eenheden van GRTS-steekproeven getrokken voor abiotische monitoring in een meetnet van de MNM, met uitzondering van het habitattype 7220.
+
+### Beperkingen van de procedure
+
+Het veldwerk in dit protocol kan enkel uitgevoerd worden:
+
+- binnen de (sub)optimale periode voor kartering en is afhankelijk van het doeltype (zie [Vriens et al. (2011)](https://purews.inbo.be/ws/portalfiles/portal/1904260/Vriens_etal_2011_BiologischeWaarderingskaart.pdf)).
+- in de gebieden met gelimiteerde toegang: na toelating
+- door een persoon met voldoende vegetatiekundige kennis die de Natura 2000 habitattypes op het terrein kan onderscheiden.
+
+<!-- description: start -->
+
+<!-- description: end -->
