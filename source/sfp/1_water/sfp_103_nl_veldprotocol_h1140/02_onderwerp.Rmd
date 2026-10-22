@@ -8,6 +8,8 @@ Definities van begrippen en afkortingen die noodzakelijk zijn om dit document te
 -->
 ```
 
+- MDK = Agentschap Mariene Dienstverlening en Kust
+
 ## Doelstelling en toepassingsgebied
 
 <!-- description: start -->

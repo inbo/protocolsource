@@ -1,6 +1,40 @@
 # Werkwijze
 
+## Voorbereidingen
+
+Om een representatieve bemonstering voor het hele habitat(sub)type uit te voeren dienen voldoende gespreide en herhaalde (met replicaten) staalnames uitgevoerd te worden om de finale dataset waarop een uitspraak over het hele habitat(sub)type gedaan wordt te bekomen.
+
+Van zodra de locaties (stranden) gekozen zijn en de planning vastligt kunnen exacte locaties van de transecten vastgelegd worden.
+Belangrijk hiervoor is rekening te houden met de getijdencyclus.
+De staalname moet uitgevoerd worden van hoogwater (de hoogste waterstand) tot laagwater (de laagste waterstand, kort voor het water weer begint te stijgen).
+De tijden van hoog- en laagwater worden op voorhand opgezocht (zie Getijtafels Kust aangeleverd door MDK van Nieuwpoort, Oostende, Blankenberge en Zeebrugge) en het moment van staalname wordt hierop afgestemd.
+
+Elk half uur wordt een nieuw punt bemonsterd, leg deze tijdstippen op voorhand vast in de in te vullen dataset (Appsheet via smartphone is makkelijk raadpleegbaar in het veld).
+
+Er wordt ruim op voorhand op locatie afgesproken om het getij niet te missen.
+Eens aan het hoogwaterpunt op het afgesproken uur van de getijtafel kan er gestart worden met de veldprocedure.
+
 ## Uitvoering
+
+### In het veld
+
+#### Locatiebepaling
+
+Er wordt naar de vooraf bepaalde locatie gegaan.
+Indien het een strand met golfbrekers betreft dan wordt in het midden tussen 2 golfbrekers een transect uitgevoerd, of ver genoeg verwijderd (minimum 50 meter) van een golfbreker (indien er slechts 1 aanwezig is).
+Zorg ervoor dat het transect loodrecht op de kust (en dus ook de golfslag) ligt.
+Begin op het moment van hoogwater aan de hoogwaterlijn (brandingszone).
+Elk half uur wordt er een nieuw punt bemonsterd langs de terugtrekkende zee tot op het moment van laagwater.
+
+#### Staalname benthos
+
+Per staalnamepunt worden 2 stalen (replicaten) genomen.
+Steek de boxcore in het zand (zo diep als comfortabel mogelijk is).
+De boxcore een beetje heen en weer wiegen bij het duwen helpt.
+
+#### Staalname sediment
+
+#### Saliniteit, zuurstof en conductiviteitsmeting
 
 ```{=html}
 <!--
