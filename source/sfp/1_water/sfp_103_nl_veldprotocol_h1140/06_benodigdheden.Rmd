@@ -8,6 +8,13 @@ Opsomming van de apparatuur die nodig is en verwijzingen naar de `sip`'s (Standa
 Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
 -->
 ```
+
+- **Multimeter** om saliniteit, zuurstofgehalte en conductiviteit te meten
+
+- **Trimble-GPS** om bemonsterede locaties digitaal vast te leggen
+
+- **Smartphone** om gegevens in te voeren( Appsheet) en foto's te nemen
+
 ## Materiaal
 
 ```{=html}
@@ -17,6 +24,39 @@ Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen,
 Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit `PE`, met afsluitbare deksel uit `PP`.
 -->
 ```
+
+- **Boxcore**
+
+- **Zeef**
+
+- **Spade**
+
+- **Emmer** en **spuitfles**
+
+- **Raster** van 50\*50 cm (?) voor wadpier/schelpkokerworm-tellingen
+
+- **Waadpak** (eventueel laarzen)
+
+- **Strandkar** om materiaal te vervoeren
+
+- **Stokken** (bamboe of dergelijks) om staalnamepunten te markeren
+
+- **Steekbuis** van \_\_ cm lang en diameter van \_\_ cm + bijkomende **stamper** om het staal uit te duwen
+
+- **1/2L-potten** om gezeefde benthosstalen in te bewaren
+
+- **Potjes** voor sedimentstalen
+
+- Brede **trechter**
+
+- **Schepje** of lepels om zeef mee te legen
+
+- **Handschoenen** om F-solv te hanteren
+
+- Warme en waterdichte kledij en reservekleding
+
+- Notitieboekje en potlood (indien smartphone nat wordt of niet meer werkt)
+
 ## Reagentia en oplossingen (indien van toepassing)
 
 ```{=html}
@@ -29,3 +69,5 @@ bijvoorbeeld: Zwavelzuur `1M`: verdun zwavelzuur geconcentreerd 18 maal met `ult
 Opgelet: giet altijd zwavelzuur bij water en nooit omgekeerd!
 -->
 ```
+
+- **F-solv** om n het veld stalen mee te fixeren
