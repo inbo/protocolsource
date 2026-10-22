@@ -1,0 +1,45 @@
+{
+  "description": "",
+  "title": "Gebruik van Spectra SP100, Trimble TSC5 en S5 voor metingen van geografische positie.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY 4.0",
+  "language": "nld",
+  "keywords": [
+    "geografische positie",
+    "GNSS",
+    "total station",
+    "Trimble"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "De Coster, Yglinga",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0006-3678-4347",
+      "type": "contactperson"
+    },
+    {
+      "name": "De Dobbelaer, Tom",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-7636-997X",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
+    }
+  ],
+  "creators": [
+    {
+      "name": "De Coster, Yglinga",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0006-3678-4347"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}

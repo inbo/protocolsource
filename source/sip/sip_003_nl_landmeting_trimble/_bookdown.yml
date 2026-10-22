@@ -1,0 +1,34 @@
+book_filename: sip_003_nl_landmeting_trimble.Rmd
+delete_merged_file: true
+rmd_files:
+- index.Rmd
+- NEWS.md
+- 01_afhankelijkheden.Rmd
+- 02_specificaties.Rmd
+- 03_definities_afkortingen.Rmd
+- 04_competenties.Rmd
+- 05_principe.Rmd
+- 06_apparatuur_materiaal.Rmd
+- 07_reagentia_oplossingen.Rmd
+- 08_gebruik.Rmd
+- 09_kwaliteitszorg.Rmd
+- 10_veiligheid.Rmd
+- 11_archivering.Rmd
+- 12_referenties.Rmd
+- 13_appendices.Rmd
+- 14_subprotocols.Rmd
+output_dir: ../../../../protocoldocs/docs/sip/sip_003_nl_landmeting_trimble
+language:
+  label:
+    fig: 'Figuur '
+    tab: 'Tabel '
+    eq: 'Vergelijking '
+    thm: 'Theorema '
+    lem: 'Lemma '
+    def: 'Definitie '
+    cor: 'Bijgevolg '
+    prp: 'Propositie '
+    ex: 'Voorbeeld '
+    proof: 'Bewijs. '
+    remark: 'Opmerking. '
+

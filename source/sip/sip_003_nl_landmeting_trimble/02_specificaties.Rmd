@@ -1,0 +1,11 @@
+# Specificaties
+
+## Omgevingsvoorwaarden
+
+## Technische specificaties
+
+## Toepassings- en werkgebied
+
+<!-- description: start -->
+
+<!-- description: end -->
