@@ -1,0 +1,35 @@
+---
+references:
+- id: vriensBiologischeWaarderingskaartBiotopen2011
+  author:
+    - family: Vriens
+      given: L.
+    - family: Bosch
+      given: H.
+    - family: De Knijf
+      given: G.
+    - family: De Saeger
+      given: S.
+    - family: Guelinckx
+      given: R.
+    - family: Oosterlynck
+      given: Patrik
+    - family: Van Hove
+      given: M.
+    - family: Paelinckx
+      given: Desiré
+  citation-key: vriensBiologischeWaarderingskaartBiotopen2011
+  collection-title: Mededelingen van het Instituut voor Natuur- en Bosonderzoek
+  ISBN: 978-90-403-0314-2
+  issued:
+    - year: 2011
+  language: dutch
+  note: 'OCLC: 901649330'
+  number: INBO.M.2011.1
+  page: '416'
+  publisher-place: Brussel
+  title: >-
+    De Biologische Waarderingskaart. Biotopen en hun verspreiding in Vlaanderen
+    en het Brussels Hoofdstedelijk Gewest
+  type: report
+...
