@@ -7,3 +7,9 @@ Bespreek onder welke condities het protocol niet gebruikt kan worden of wanneer 
 Vermeld hier ook mogelijke interferenties, knelpunten, ...
 -->
 ```
+
+- Om een zo groot mogelijke getijdenzone te kunnen bemonsteren dient de staalname te gebeuren bij extreem laagtij, zodat ook de benthosgemeenschap van extreem laagwater bemonsterd kan worden.
+  De omstandigheden zijn hiervoor ideaal in de voorjaars (maart)- of najaarperiode (september/oktober).
+
+- Weersomstandigheden; Bij een sterke wind zal het getij niet zijn normale cyclus volgen en kunnen locaties bij laagwater niet toegankelijk zijn (indien de wind de golven hoger het strand op stuwt).
+  Het is dus aangeraden om bij een relatief kalme zee het veldwerk uit te voeren.

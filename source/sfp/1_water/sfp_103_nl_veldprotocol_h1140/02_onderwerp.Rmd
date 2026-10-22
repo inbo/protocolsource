@@ -25,7 +25,12 @@ Toepassingsgebied: bespreek hier onder welke condities het protocol kan gebruikt
 
 ### Kadering
 
-Voor de zesjaarlijkse habitatrichtlijnrapportage is er nood aan een monitoringsprogramma om toe te laten de ecologische staat (criterium structuur en functie) van beschermde habitattypes te bepalen. Een goede ecologische toestand van het habitattype wordt bereikt bij een voldoende diverse en aanwezige inheemse soortengemeenschap, gekwantificeerd door een benthische index. Habitattype 1140 - "Slik- en zandplaten die bij laagtij droogvallen" wordt gekenmerkt door zijn uniek benthische soortengemeenschap. Dit habitattype komt in Vlaanderen voor langs de getijdenzone van de Noordzeekust (eerder hoogdynamisch milieu blootgesteld aan directe golfslag van de Noordzee) alsook de getijdenzone van de IJzermonding en het Zwin (eerder beschut, laagdynamisch milieu). 
-### Doel
+Voor de zesjaarlijkse habitatrichtlijnrapportage is er nood aan een monitoringsprogramma om toe te laten de ecologische staat (criterium structuur en functie) van beschermde habitattypes te bepalen.
+Een goede ecologische toestand van het habitattype wordt bereikt bij een voldoende diverse en aanwezige inheemse soortengemeenschap, gekwantificeerd door een benthische index.
+Habitattype 1140 - "Slik- en zandplaten die bij laagtij droogvallen" wordt gekenmerkt door zijn uniek benthische soortengemeenschap.
+Dit habitattype komt in Vlaanderen voor langs de getijdenzone van de Noordzeekust (eerder hoogdynamisch milieu blootgesteld aan directe golfslag van de Noordzee) alsook de getijdenzone van de IJzermonding en het Zwin (eerder beschut, laagdynamisch milieu).
 
-Dit veldprotocol beschrijft de staalnamemethodiek voor het Noordzeestrand voor het bepalen van de ecologische toestand van de lokale benthosgemeenschap met als doel een uitspraak te doen voor de ecologische toestand van het hele Noordzeestrand voor habitattype 1140 voor elke 6-jaarlijkse rapportage.
+### Doelstelling
+
+Dit protocol beschrijft de staalnamemethodiek voor het Noordzeestrand voor het bepalen van de ecologische toestand van de lokale benthosgemeenschap met als doel een uitspraak te doen voor de ecologische toestand van het hele Noordzeestrand( hoogdynamische subtype H1140B) voor habitattype 1140 voor elke 6-jaarlijkse rapportage.
+Het protocol omvat de staalname in het veld en de procedure voor verwerking in het labo.
