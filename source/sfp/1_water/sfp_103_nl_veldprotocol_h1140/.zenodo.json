@@ -1,0 +1,57 @@
+{
+  "description": "",
+  "title": "Veldprotocol benthosbemonstering H1140 Noordzeekust. Veldprotocol H1140B.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY 4.0",
+  "language": "nld",
+  "keywords": [
+    "H1140",
+    "Noordzeekust",
+    "benthos",
+    "Biodiversa",
+    "Natura2000",
+    "Natura 2000",
+    "veldprotocol",
+    "Kust",
+    "Noordzee",
+    "laagstrand, getijdenzone, strand"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Van Hecke, Florian",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0004-3499-2279",
+      "type": "contactperson"
+    },
+    {
+      "name": "Organe, Anouk",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0006-1202-1863",
+      "type": "other"
+    },
+    {
+      "name": "Van Colen, Carl",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-9307-4484",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Van Hecke, Florian",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0004-3499-2279"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}
