@@ -6,3 +6,8 @@ Korte omschrijving van de principes waarop het protocol gebaseerd is.
 Bijvoorbeeld het principe achter het nemen van mengmonsters, principe achter visueel inschatten van de bedekking van een plant, ...
 -->
 ```
+
+Dit protocol beschrijft de methodiek voor het bepalen van densiteiten en soortenrijkdom van de benthosgemeenschap aan de Noordzeekust voor habitattype 1140.
+De voorgestelde methode moet garanderen dat het geanalyseerde staal representatief is voor de actuele situatie op het moment van staalname en precieze zone in de getijdenzone tussen hoog- en laagwater.
+
+Via dit protocol zou elke medewerker in staat moeten zijn om op een correcte en repliceerbare manier de benthosstalen (en sedimentstalen) te verzamelen.
