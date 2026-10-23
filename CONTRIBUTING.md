@@ -40,7 +40,7 @@ When this succeeded, you can proceed to the [workflow](#workflow) section for fu
 ## Prepare for GitHub
 
 Are you a first-time GitHub user?
-Make sure you can authenticate to GitHub by following [these guidelines](https://inbo.github.io/tutorials/tutorials/git_authentication/) in a clean R session (_not_ from within the RStudio `protocolsource.Rproj` project).
+Make sure you can authenticate to GitHub by following [these guidelines](https://inbo.github.io/tutorials/tutorials/git_authentication/) in a clean R session or in another RStudio project that does not use `renv` (thus _not_ from within the RStudio `protocolsource.Rproj` project).
 
 If you are not already a member of the [`inbo` GitHub organisation](https://github.com/orgs/inbo/people), write an e-mail to [IT](mailto:ict.helpdesk@inbo.be) with the request to add `<your-github-username>` to <https://github.com/orgs/inbo/people>.
 Next, contact one of the `protocolsource` admins (HVC, EL, TW, TO) and ask he/she to add `<your-github-username>` to the [protocols team](https://github.com/orgs/inbo/teams/protocols).
@@ -76,7 +76,7 @@ If you receive messages that some packages could not be installed, it may indica
 These git credentials are needed if the installation process is hitting non-authenticated download rate limits on the GitHub API (which restricts unauthenticated requests to 60 per hour - this may sound like a high limit, but it is not because the originating IP address is shared by all INBO employees on the INBO network).
 To circumvent this, you may need to temporary set a GitHub personal access token within the `renv` environment.
 To do this, open a clean R session and run `gitcreds::gitcreds_get()$password` and copy your token to the clipboard.
-Then, within the `protocolsource` RStudio project, run `Sys.setenv(GITHUB_PAT = "ghp_your_actual_token_here")` in the console, followed by `renv::install("gitcreds")`.
+Then, within the `protocolsource` RStudio project, run `Sys.setenv(GITHUB_PAT = "<paste_token_here>")` in the console, followed by `renv::install("gitcreds")`.
 Then run `renv::restore()` again.
 If after all this, some packages still fail to restore, try `renv::restore(transactional = FALSE)`.
 If all goes well, restarting the R session (in RStudio `Ctrl+Shift+F10` or Session -> Restart R session) should report no issues (other than perhaps a warning about the `fortunes` package, which you can safely ignore).
