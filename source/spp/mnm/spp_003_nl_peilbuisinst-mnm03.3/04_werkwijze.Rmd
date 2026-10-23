@@ -187,10 +187,9 @@ De boordiepte is hier variabel en gerelateerd aan het oppervlaktewaterpeil van d
 
 Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
 
-**Aanwezigheid van ondiepe kleilenzen**
+**Aanwezigheid van kleilagen en ondiepe kleilenzen**
 
-Deze situatie kan zich voordoen in infiltratiegebieden, vaak met aanwezigheid van vennen, in zandige regio's.
-Bij aanwezigheid van ondiepe kleilenzen in de gereduceerde of waterverzadigde zone mag afgeweken worden van de 1 m-regel onder de reductiehorizont.
+Bij aanwezigheid van kleilagen en ondiepe kleilenzen in de gereduceerde of waterverzadigde zone mag afgeweken worden van de 1 m-regel onder de reductiehorizont.
 Voor plaatsingen in klei gelden volgende bijkomende voorwaarden:
 
 - Plaats de filter van 60cm zodanig dat deze max 40 cm in de kleilaag en 20 cm boven de kleilaag uitsteekt.
@@ -199,41 +198,45 @@ Voor plaatsingen in klei gelden volgende bijkomende voorwaarden:
 
 Om te bepalen of een plaatsing nodig is kan onderstaand stappenplan gebruikt worden:
 
-##### 1. Voer de boring uit volgens protocol en analyseer het bodemprofiel {#stap-1}
+##### 1. Voer de boring uit volgens protocol en analyseer het bodemprofiel {#stap-1 .unnumbered}
 
 - indien een kleilaag wordt vastgesteld → ga naar [stap 2](#stap-2)
 - indien geen kleilaag wordt vastgesteld → voer de plaatsing uit volgens het protocol
 
-##### 2. Er wordt een kleilaag vastgesteld {#stap-2}
+##### 2. Er wordt een kleilaag vastgesteld {#stap-2 .unnumbered}
 
 - Er wordt grondwater en een reductiehorizont aangetroffen boven een kleilaag → voer de plaatsing uit volgens het protocol, rekening houdend met de bijkomende voorwaarden.
 - Er wordt grondwater, maar geen reductiehorizont aangetroffen → [stap 3](#stap-3)
 - Er wordt een reductiehorizont, maar geen grondwater aangetroffen → [stap 4](#stap-4)
 - er wordt geen grondwater of reductiehorizont aangetroffen → [stap 5](#stap-5)
 
-##### 3. Er wordt grondwater, maar geen reductiehorizont aangetroffen {#stap-3}
+##### 3. Er wordt grondwater, maar geen reductiehorizont aangetroffen {#stap-3 .unnumbered}
 
+\
 Evalueer een plaatsing op basis van het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^04_werkwijze-1] Indien het tijdens de plaatsing een nat seizoen betreft, markeer dan het risico op mogelijk droogval in de in de GIS-applicatie.
 
 [^04_werkwijze-1]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
 
-##### 4. Er wordt een reductiehorizont, maar geen grondwater aangetroffen {#stap-4}
+##### 4. Er wordt een reductiehorizont, maar geen grondwater aangetroffen {#stap-4 .unnumbered}
 
+\
 Dit wijst op een recente droogval.
 Evalueer de oorzaak van de droogval (bvb. extreme seizoenale condities, bemaling) en voer een plaatsing uit.
 Markeer het risico op mogelijk droogval in de GIS-applicatie.
 Beperk je tot de plaatsing van de piëzometer.
 Herevalueer de plaatsing in een natter seizoen.
 
-##### 5. Er wordt geen grondwater of reductie waargenomen {#stap-5}
+##### 5. Er wordt geen grondwater of reductie waargenomen {#stap-5 .unnumbered}
 
+\
 Zoek de [grondwaterafhankelijkheid](#grondwaterafhankelijkheid) van het type op.
 
 - het betreft een obligaat GWA type (GD2) → voer de plaatsing uit volgens het protocol, rekening houdend met de bijkomende voorwaarden.
 - het betreft geen obligaat GWA (GD0, GD1) type → [stap 6](#stap-6)
 
-##### 6. Geen obligaat grondwaterafhankelijk type {#stap-6}
+##### 6. Geen obligaat grondwaterafhankelijk type {#stap-6 .unnumbered}
 
+\
 Ga na of er gleyverschijnselen aanwezig zijn boven de kleilaag
 
 - Er zijn geen gleyverschijnselen aanwezig → de plaatsing wordt niet uitgevoerd
