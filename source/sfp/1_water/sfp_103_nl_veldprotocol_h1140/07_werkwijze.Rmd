@@ -14,9 +14,11 @@ Elk half uur wordt een nieuw punt bemonsterd, leg deze tijdstippen op voorhand v
 Er wordt ruim op voorhand op locatie afgesproken om het getij niet te missen.
 Eens aan het hoogwaterpunt op het afgesproken uur van de getijtafel kan er gestart worden met de veldprocedure.
 
+Laad al het materiaal in de strandkar (dubbelcheck dat alles mee is, er is geen tijd om tussendoor nog materiaal te gaan halen).
+
 ## Uitvoering
 
-### In het veld
+### In het veld (deel 1)
 
 #### Locatiebepaling
 
@@ -26,17 +28,46 @@ Zorg ervoor dat het transect loodrecht op de kust (en dus ook de golfslag) ligt.
 Begin op het moment van hoogwater aan de hoogwaterlijn (brandingszone).
 Elk half uur wordt er een nieuw punt bemonsterd langs de terugtrekkende zee tot op het moment van laagwater.
 
+#### Inmeten staalnamepunt
+
+Gebruik de Trimble-GPS om het staalnamepunt te digitaliseren.
+Steek hierna een stok op de exacte plek van inmeten.
+Dit is belangrijk voor deel 2 van het veldwerk (zie In het veld (deel 2)).
+
 #### Staalname benthos
 
-Per staalnamepunt worden 2 stalen (replicaten) genomen.
+Per staalnamepunt worden 2 stalen (replicaten) genomen, label ze als \_A en \_B.
 Steek de boxcore in het zand (zo diep als comfortabel mogelijk is).
 De boxcore een beetje heen en weer wiegen bij het duwen helpt.
 Neem een foto van de boxcore (waarop omliggende strand zichtbaar is) en voer dit in in de Appsheet.
-Noteer de hoogte (vanaf de rand tot de bodem) waar de boxcore uitsteekt (in de Appsheet).
+Per staalnamepunt heb je zo 2 foto's van de boxcore waarop het sediment te zien is.
+Noteer de hoogte (vanaf de rand tot de bodem) tot waar de boxcore uitsteekt (in de Appsheet).
+Fixeer de stalen met F-solv; gebruik hiervoor handschoenen.
+Vul de potten zodat ze volledig ondergedompeld zijn in de vloeistof.
+Schud en keer de potten zodat de vloeistof in het volledige staal gemengd is.
 
 #### Staalname sediment
 
+Per staalnamepunt wordt 1 sedimentstaal genomen.
+Steek de steekbuis zo'n 10 a 15 cm diep in de bodem.
+Haal ze er met een zijwaartse beweging uit (zodat het staal er niet uit valt), en gebruik de stamper om het staal in een potje uit te duwen.
+
 #### Saliniteit, zuurstof en conductiviteitsmeting
+
+Gebruik hiervoor de multimeter.
+Vul de emmer met zeewater en laat hierin de 2 meetsondes liggen.
+Wacht enkele minuten tot de meting uitgevoerd is en de waarden stabiel zijn.
+Noteer de saliniteit (sal), zuurstof (% O2) en conductiviteit (µS/cm) in het notitieboekje onder de juiste staalnamecode.
+
+### In het veld (deel 2)
+
+Nadat er tot aan de laagwaterlijn bemonsterd is wordt er teruggegaan naar elke staalnamelocatie (gemarkeerd met een stok) om de schelpkokerworm-kokertjes en wadpierhoop-densiteiten te bepalen.
+
+#### Schelpkokerworm- en wadpier-telling
+
+Leg het rooster plat op de grond op 2 willekeurige plaatsen bij het staalnamepunt.
+Neem een foto van het rooster van bovenaf (2 in totaal per staalnamepunt) en upload dit in de Appsheet.
+Zorg ervoor dat het frame en de bodem goed zichtbaar is op de foto (genoeg belichting, etc.).
 
 ```{=html}
 <!--
@@ -45,7 +76,20 @@ Subtitels gebruiken om elke stap te omschrijven.
 -->
 ```
 
+### Labo-verwerking
+
+#### Visuele screening schelpkokerworm-kokertjes en wadpier-hoopjes
+
+Laad de foto's in van de roosters (Google drive?) op een desktop/laptop.
+Op elke foto worden de aantallen schelpkokerworm-kokertjes en wadpier-hoopjes geteld en genoteerd naast de staalnamecode.
+
+#### Benthos-verwerking
+
+//////////
+
 ## Registratie en bewaring van resultaten
+
+De soorten per staal en de densiteiten hiervan worden ingegeven op een spreadsheet op online opslaglocatie (Google drive).
 
 ```{=html}
 <!--
