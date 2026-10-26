@@ -30,7 +30,7 @@ Het peil in de buis komt overeen met de druk ter hoogte van de filter en die kan
 De stijghoogte is de resultante van de hydraulische druk die ter hoogte van de filter in de ondergrond heerst.
 De stijghoogte kan hoger, gelijk of lager zijn dan de grondwaterstand.
 Bij de analyse van de chemische samenstelling heeft een piëzometer minder risico op invloed van insijpelend regenwater.
-Bovendien wijkt de hydrostatische druk in de meeste gevallen niet of nauwelijks af van het grondwaterpeil als de piëzometer “kort” is (doorgaans \< 2-3 m).
+Bovendien wijkt het peil in de piëzometer in de meeste gevallen nauwelijks af van het grondwaterpeil als de filter niet veel dieper dan het grondwater zit (doorgaans < 2-3 m).
 
 **steekproefeenheid** of meetlocatie: een individueel element van de steekproef.
 Een steekproefeenheid is een rastercel van 32 m op 32 m in geval van terrestrische types, een 100 m-segment in geval van stromende wateren, de hele plas in geval van stilstaande wateren en de ganse habitatvlek in geval van habitattype 7220.
