@@ -80,7 +80,7 @@ De lijst met random punten per steekproefeenheid is beschikbaar in de GIS-applic
 De random plaatsingspuntjes zijn toevallig gekozen, maar met een grotere kans voor punten dichter bij het celmidden.
 Open de lijst en loop de punten in de lijst systematisch in volgorde af.
 Werk hierbij van een laag naar hoog volgnummer.
-Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria: - voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat je bij het plaatsen van de peilbuis en piëzometer niet de ganse habitatvlek verstoor; - er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
+Evalueer of het eerstvolgende installatiepunt voldoet aan de volgende criteria: - voldoende grote oppervlakte van de habitatvlek: de habitatvlek van het doeltype moet minstens 9 m² groot zijn zodat je bij het plaatsen van de peilbuis en piëzometer niet de habitatvlek verstoort; - er is geen hinder van obstakels op het punt (bvb. een omgevallen boom)
 
 **Let op**: wanneer je een plaats zoekt om een peilbuis of piëzometer te plaatsen, heb je misschien de neiging om het punt voorzien voor installatie te verplaatsen in functie van beheer (vb. hinder bij maaien of ruimen, op een uitsleeppiste,...), de bereikbaarheid, de zichtbaarheid of persoonlijke voorkeur van de eigenaar of beheerder.
 Dit tast echter de ruimtelijke representativiteit van het meetpunt aan.
