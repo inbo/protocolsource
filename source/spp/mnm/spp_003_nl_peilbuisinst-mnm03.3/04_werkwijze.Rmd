@@ -1,3 +1,9 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
 # Overkoepelende werkwijze met verwijzing naar subprotocols
 
 ```{=html}
@@ -106,7 +112,11 @@ Volg hierbij, in het kader van het meetnet eutrofiëring via het grondwater van 
 
 ### Diepte van de boring {#grondwaterafhankelijkheid}
 
-Controleer de grondwaterafhankelijkheid van het type in de rastercel in onderstaande tabel.
+Controleer in onderstaande tabel hoe grondwaterafhankelijk het vegetatietype in de rastercel is; dit bepaalt hoe diep je maximaal moet boren.Een type geldt als grondwaterafhankelijk bij een GLG tot maximaal 1,5 à 2 m onder het maaiveld.Omdat een specifiek jaar natter of droger kan uitvallen, werken we met een vaste veiligheidsmarge voor **terrestrische** types.
+Voor terrestrische types die vrijwel altijd grondwaterafhankelijk zijn (GD2), mag je ruim boren tot een reductie op maximaal 3,5 m.
+Voor GD0 en GD1 geldt een striktere grens van maximaal 2,5 m om te vermijden dat structureel te droge locaties (vals positieven) mee worden opgenomen in het meetnet.
+Bij twijfel kan een locatie alsnog geïnstalleerd worden na overleg met de meetnetverantwoordelijke.
+
 Kolommen 1-3 betreffen terrestrische types met verschillende grondwaterafhankelijkheden (GD2, GD1, GD0), kolom 4 aquatische types (enkel GD2).
 
 ```{r gd-table, echo=FALSE, message=FALSE, warning=FALSE}
@@ -153,6 +163,9 @@ Initieel wordt hier maximaal 3,5 m diep geboord:
 - kom je geen van beide tegen tot op 3,5 m diepte, neem dan contact op met de meetnetverantwoordelijke.
 
 Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+Evalueer bij een plaatsing op basis van grondwaterstand het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^1].
+
+[^1]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
 
 **Is het type terrestrisch en behoort het tot GD1 of GD0?**
 
@@ -163,7 +176,7 @@ Initieel wordt hier maximaal 2,5 m diep geboord:
 - als je de reductiehorizont niet herkent of tegenkomt in de bovenste 2,5 m en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand (de maximale diepte van de onderkant van de peilbuis en piëzometer is dus 3,5 m);
 - kom je geen van beide tegen tot op 2,5 m diepte, dan wordt de installatie gestaakt. Neem bij twijfel contact op met de meetnetverantwoordelijke.
 
-Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.Evalueer bij een plaatsing op basis van grondwaterstand het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator.
 
 **Is het type aquatisch en GD2?**
 
@@ -180,12 +193,12 @@ De boordiepte is hier variabel en gerelateerd aan het oppervlaktewaterpeil van d
 - Boor vervolgens tot deze diepte.
   Kom je de reductiehorizont tegen, boor dan tot 1 m onder de bovenkant van de reductiehorizont.
 
-- als je de reductiehorizont niet herkent of tegenkomt boven de initiële boordiepte en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand.
+- als je de reductiehorizont niet herkent of tegenkomt boven de initiële boordiepte en je komt al grondwater tegen, boor dan tot 1 m onder de huidige grondwaterstand.Evalueer bij een plaatsing op basis van grondwaterstand het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator.
 
-- Indien er geen grondwater voorkomt binnen de initiële boordiepte wijst dit op een op hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.
-  In dit geval wordt de installatie gestaakt.
+- Indien er geen grondwater voorkomt binnen de initiële boordiepte wijst dit op een (seizoenaal) hydrologisch geïsoleerde plas met geen of maar heel beperkte grondwaterinvloed.Evalueer bij een plaatsing op basis van grondwaterstand het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator.
 
 Noteer in de GIS-applicatie op welke diepte de onderkant van de peilbuis en piëzometer is geplaatst en op basis van welk criterium (reductiehorizont of grondwater) of geef aan dat er geen peilbuis of piëzometer is geplaatst.
+Evalueer bij een plaatsing op basis van grondwaterstand het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator.
 
 **Aanwezigheid van kleilagen en ondiepe kleilenzen**
 
@@ -213,9 +226,9 @@ Om te bepalen of een plaatsing nodig is kan onderstaand stappenplan gebruikt wor
 ##### 3. Er wordt grondwater, maar geen reductiehorizont aangetroffen {#stap-3 .unnumbered}
 
 \
-Evalueer een plaatsing op basis van het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^04_werkwijze-1] Indien het tijdens de plaatsing een nat seizoen betreft, markeer dan het risico op mogelijk droogval in de in de GIS-applicatie.
+Evalueer een plaatsing op basis van het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^2] Indien het tijdens de plaatsing een nat seizoen betreft, markeer dan het risico op mogelijk droogval in de in de GIS-applicatie.
 
-[^04_werkwijze-1]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
+[^2]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
 
 ##### 4. Er wordt een reductiehorizont, maar geen grondwater aangetroffen {#stap-4 .unnumbered}
 
@@ -241,11 +254,11 @@ Ga na of er gleyverschijnselen aanwezig zijn boven de kleilaag
 
 - Er zijn geen gleyverschijnselen aanwezig → de plaatsing wordt niet uitgevoerd
 
-- Er wordt gley-aangetroffen → evalueer een plaatsing op basis van het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^04_werkwijze-2], overleg met de meetnetverantwoordelijke bij twijfel.
+- Er wordt gley-aangetroffen → evalueer een plaatsing op basis van het seizoen (Q1/Q4 vs Q2/Q3) en de grondwaterstandindicator[^3], overleg met de meetnetverantwoordelijke bij twijfel.
   Beperk je tot de plaatsing van de piëzometer.
   Herevalueer de plaatsing in een natter seizoen.
 
-[^04_werkwijze-2]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
+[^3]: Droog en nat zijn relatieve begrippen, om dit te standaardiseren kan de [grondwaterstandindicator](https://www.dov.vlaanderen.be/page/actuele-grondwaterstandindicator) van VMM worden gebruikt.
 
 ### Plaatsing en naamgeving van de buizen
 
