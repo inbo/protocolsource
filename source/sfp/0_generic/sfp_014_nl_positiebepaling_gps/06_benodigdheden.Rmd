@@ -2,8 +2,8 @@
 
 ## Apparatuur
 
--   GNSS-receiver verbonden met Flepos
--   Total Station (optioneel)
+- GNSS-receiver verbonden met Flepos
+- Total Station (optioneel)
 
 ```{=html}
 <!--
@@ -14,8 +14,8 @@ Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur me
 
 ## Materiaal
 
--   Houtzaag/bijl/kapmes (optioneel, mogelijks nodig om begroeiing te verwijderen om Total Station te gebruiken)
--   Driepikkel om GNSS-receiver vast te klemmen (optioneel)
+- Houtzaag/bijl/kapmes (optioneel, mogelijks nodig om begroeiing te verwijderen om Total Station te gebruiken)
+- Driepikkel om GNSS-receiver vast te klemmen (optioneel)
 
 ```{=html}
 <!--

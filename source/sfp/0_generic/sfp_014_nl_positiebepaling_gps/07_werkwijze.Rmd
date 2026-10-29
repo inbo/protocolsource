@@ -2,10 +2,10 @@
 
 Alvorens te starten met meten is het belangrijk om de volgende instellingen eerst te controleren en indien nodig aan te passen:
 
--   Horizontale nauwkeurigheid: 0,015 m
--   Verticale nauwkeurigheid: 0,025 m
--   Aantal metingen die gebruikt worden: 3 (minstens), 5 (optimaal)
--   Geoid model: hBG18 (meest recente)
+- Horizontale nauwkeurigheid: 0,015 m
+- Verticale nauwkeurigheid: 0,025 m
+- Aantal metingen die gebruikt worden: 3 (minstens), 5 (optimaal)
+- Geoid model: hBG18 (meest recente)
 
 ## Uitvoering
 
@@ -16,9 +16,9 @@ Indien de peilbuis afgewerkt is met een peilbuisslot omdat er een datalogger/dru
 Voor peilschalen is het principe hetzelfde.
 Bij een peilschaal wordt er dan op de rand van de beschermkoker gemeten.
 
-![*Figuur 1: Afwerking piëzometers met metalen beschermbuis en hangslot (A) en ondergronds afgewerkt met straatpot (B)*.](media/SVP-014 Afwerking piëzometer.jpeg)
+![*Figuur 1: Afwerking piëzometers met metalen beschermbuis en hangslot (A) en ondergronds afgewerkt met straatpot (B)*.](media/SVP-014%20Afwerking%20piëzometer.jpeg)
 
-![*Foto 1: Peilbuis met beschermkoker en peilbuisslot.*](media/SVP-014 Foto beschermkoker.jpeg)
+![*Foto 1: Peilbuis met beschermkoker en peilbuisslot.*](media/SVP-014%20Foto%20beschermkoker.jpeg)
 
 ```{=html}
 <!--
