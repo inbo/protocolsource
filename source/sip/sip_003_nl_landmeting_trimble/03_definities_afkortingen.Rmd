@@ -1,1 +1,4 @@
 # Definities en afkortingen
+
+RTK - Real time kinematic
+
