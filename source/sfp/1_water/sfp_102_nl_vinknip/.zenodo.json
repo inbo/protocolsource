@@ -1,0 +1,69 @@
+{
+  "description": "",
+  "title": "Vinknip van vissen nemen en bewaren.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY 4.0",
+  "language": "nld",
+  "keywords": [
+    "vinknip",
+    "weefselstaalname",
+    "DNA-barcoding",
+    "vissen",
+    "genetische staalname",
+    "veldprotocol"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Van Driessche, Charlotte",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0003-1606-8758",
+      "type": "contactperson"
+    },
+    {
+      "name": "Van Wichelen, Jeroen",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-0255-9591",
+      "type": "other"
+    },
+    {
+      "name": "Deflem, Io",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-9302-5367",
+      "type": "other"
+    },
+    {
+      "name": "Maesele, Rhea",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0009-6756-797X",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Van Driessche, Charlotte",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0003-1606-8758"
+    },
+    {
+      "name": "Halfmaerten, David",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-5105-6328"
+    },
+    {
+      "name": "Brys, Rein",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0002-0688-3268"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}
