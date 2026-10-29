@@ -1,0 +1,53 @@
+{
+  "description": "",
+  "title": "Bepalen van de gemiddelde maaiveldhoogte.",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY 4.0",
+  "language": "nld",
+  "keywords": [
+    "RTK-GPS, maaiveld"
+  ],
+  "publisher": "Instituut voor Natuur- en Bosonderzoek (INBO)",
+  "contributors": [
+    {
+      "name": "Sturtewagen, Wouter",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0001-9017-8894",
+      "type": "contactperson"
+    },
+    {
+      "name": "Adolf, Janne",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-6064-9803",
+      "type": "other"
+    },
+    {
+      "name": "Van Calster, Hans",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-8595-8426",
+      "type": "other"
+    },
+    {
+      "name": "Research Institute for Nature and Forest (INBO)",
+      "type": "rightsholder"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Sturtewagen, Wouter",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0001-9017-8894"
+    },
+    {
+      "name": "De Coster, Yglinga",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0009-0006-3678-4347"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}
