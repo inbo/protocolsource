@@ -1,1 +1,3 @@
 # Definities en afkortingen
+
+FLEPOS: Flemish Positioning Service
