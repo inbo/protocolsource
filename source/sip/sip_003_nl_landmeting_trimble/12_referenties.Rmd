@@ -14,6 +14,8 @@ Trimble S5 Total Station Userguide <https://trl.trimble.com/dscgi/ds.py/Get/File
 
 Trimble Access gebruikershandleiding <https://www.geometius.nl/wp-content/uploads/2024/04/Handleiding-Trimble-Access.pdf>
 
+NGI controlepunten: <https://gdoc.ngi.be/>
+
 ::: {#refs}
 \item
 :::

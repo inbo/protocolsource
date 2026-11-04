@@ -8,16 +8,81 @@ Voor de gedetailleerde omgevingsvoorwaarden wordt verwezen naar de desbetreffend
 
 ### Trimble TSC5 Veldboek (controller)
 
-Om de levensduur van de batterij te verlengen, dient u deze met een doek af te drogen als hij nat is geworden, niet opzettelijk onder te dompelen en blootstelling aan onnodige vallen, mechanische schokken en trillingen te vermijden.
-De batterijen zijn beschermd tegen water en stof en zijn getest op valbestendigheid vanaf een hoogte van maximaal 1,22 m (4,00 ft).
+De batterijen zijn beschermd tegen water en stof en zijn getest op valbestendigheid vanaf een hoogte van maximaal 1,22 m.
 
-De TSC5-controller is ontworpen voor gebruik bij omgevingstemperaturen tussen -30 °C en +60 °C en voor opslag bij temperaturen tussen -40 °C en +70 °C.
-Vermijd blootstelling van het apparaat aan sterke schommelingen in temperatuur of luchtvochtigheid.
-Zorg ervoor dat de controller niet onnodig lang in de zon (bv op de zetel/ dashboard in de auto of op het veld) ligt om beschadiging van het scherm te voorkomen.
+- IEC 529: Onafhankelijk getest en gecertificeerd voor:
+
+  - Bescherming tegen waterindringing: IPx5 (spuitwaterdicht)
+
+  - Bescherming tegen zand en stof: IP6x (stofdicht)
+
+- MIL-STD-810H: Onafhankelijk getest en gecertificeerd voor:
+
+  - Configuratie
+
+  - Bedrijfstemperatuur: -30 °C tot 60 °C
+
+  - Opslagtemperatuur: -40 °C tot 70 °C
+
+  - Opstarttemperatuur: -20 °C tot 60 °C
+
+  - Laadtemperatuur (AC-adapter): 0 °C tot 40 °C
+
+  - Temperatuurschok: Overleeft cycli tussen -30 °C en 60 °C
+
+  - Luchtvochtigheid: 90% RV (relatieve vochtigheid) temperatuurcyclus -30 °C tot 60 °C
+
+  - Trillingen (Vibratie): Algemene minimale integriteit en test voor losse lading
+
+- Val- en schokbescherming:
+
+  - Valtest: 26 vallen bij kamertemperatuur vanaf 1,22 m op beton
+
+  - Temperatuurvaltest: 6 vlakken bij hoge en lage temperatuur (-30 °C en 60 °C)
+
+  - Kogelvalbescherming: Stalen kogel van 50 mm die vanaf 0,5 m op het aanraakscherm valt
+
+- Zonnestraling: Overleeft langdurige blootstelling aan de zon
+
+- Zoutnevel (ASTM B117): 5% zoutoplossing gedurende 96 uur
 
 ### Spectra Geospatial SP100 GNSS antenne
 
+Operatief: -40 °C tot +65 °C.
+De ontvanger werkt normaal tot een temperatuur van -40 °C, de interne batterijen zijn geschikt voor een temperatuur van -20 °C to +54.5 °C (ambient +50 °C).
+
+Opslagtemperatuur: -40 °C tot +75 °C
+
+Vochtigheid 100%, condensering
+
+IP68 Gecertifieerd volgens IEC-60529: waterproof/dustproof (1 m onderdompeling voor 1 uur)
+
+**Schokken en trillingen**
+
+Valbestendigheid: 2 meter poolval (val vanaf een paal) op beton
+
+Schokken (niet in bedrijf): 75 G gedurende 6 ms
+
+Schokken (in bedrijf): 40 G gedurende 10 ms
+
+Trillingen: Mil-Std-810G, FIG 514.6E-1 Cat 24, Mil-Std-202G, FIG 214-1, Conditie D
+
 ### Trimble S5 Totaalstation
+
+Operatief: –20 ºC tot +50 ºC
+
+Opslagtemperatuur: –40 ºC tot +70 ºC in een droge omgeving.
+
+Stof- en waterdichtheid: IP65
+
+Vochtigheid: 100% condensing
+
+Transport en opslag:
+
+Verwijder altijd de batterij.
+Hou het instrument beschermd en rechtop, bij voorkeur in de instrument koffer.
+Draag het totaalstation niet wanneer het nog vastgeschroefd zit op de tripod: dat kan de schroeven beschadigen.
+Draag het totaalstation niet aan de telescoopbuis, maar gebruik het handvat.
 
 ## Technische specificaties
 

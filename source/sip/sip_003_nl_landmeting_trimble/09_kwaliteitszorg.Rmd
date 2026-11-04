@@ -2,7 +2,7 @@
 
 ## Kalibratie
 
-Alle acties betreffende kalibratie worden bijgehouden in het toestel registratieformulier: naam en link.
+Trimble raad aan om elk instrument jaarlijks te laten onderhouden en kalibreren door een ge-autorizeerde Trimble Service Workshop.
 
 ```{r kalibratie}
 kalib <- data.frame(
@@ -16,7 +16,19 @@ pander::pander(kalib, split.tables = Inf)
 
 ## Controle
 
-Alle acties betreffende controle worden bijgehouden in het toestel registratieformulier: naam en link.
+Om na te gaan of de instellingen correct zijn en de bekomen coördinaten ook, kan een controlemeting uitgevoerd worden op een referentiepunt van het Nationaal Geografisch Instituut (NGI).
+
+Surf naar gdoc.ngi.be
+
+In het menu links vink je alle lagen uit behalve de 3D punten.
+
+Zoom naar een punt in jouw buurt, klik erop en klik op "Toon fiche".
+In de fiche vind je alle informatie om het referentiepunt terug te vinden en de coördinaten in ETRS89, Lambert 2008 en Lambert 72.
+
+Meet het referentiepunt op met jouw GNSS toestel en vergelijk de bekomen resultaten met die op de fiche.
+Het verschil moet binnen de beoogde nauwkeurigheid voor jouw project vallen.
+
+Doe dit telkens wanneer je een instelling in de meetmethode of het sjabloon verandert hebt en herhaal dit op regelmatige basis.
 
 ```{r controle}
 controle <- data.frame(
@@ -33,41 +45,64 @@ pander::pander(controle, split.tables = Inf)
 
 ### TSC5
 
-Opladen: U kunt de batterij op elk gewenst moment opladen; deze hoeft niet leeg of bijna leeg te zijn.
+**Schoonmaken**:
+
+Zet het toestel uit en deconnecteer het van externe stroom.
+Gebruik een zachte vod, vochtig gemaakt met water of een mild detergent.
+Laat geen zeepresten achter.
+
+**Batterijen**:
+
+Om de levensduur van de batterij te verlengen, dient u deze met een doek af te drogen als hij nat is geworden, niet opzettelijk onder te dompelen en blootstelling aan onnodige vallen, mechanische schokken en trillingen te vermijden.
+
+U kunt de batterij op elk gewenst moment opladen; deze hoeft niet leeg of bijna leeg te zijn.
 Het is echter raadzaam om de batterij minstens één keer per maand tot onder de 10% te laten ontladen voordat u deze weer oplaadt.
 Opladen is mogelijk bij temperaturen tussen 0 °C en +40 °C.
 Gebruik uitsluitend de door de fabrikant voorgeschreven oplaadaccessoires.
 
-Touchscreen: Regelmatig schoonmaken met een vochtige vod of brillendoek, als het zeer vuil is mag je het ook onder de kraan afspoelen, mits USB poort afgesloten is.
-Hou het scherm uit de zon wanneer het niet gebruikt wordt.
+**Touchscreen**:
+
+Regelmatig schoonmaken met een vochtige vod of brillendoek, als het zeer vuil is mag je het ook onder de kraan afspoelen, mits USB poort afgesloten is.
+Hou het scherm uit de zon en dek het af wanneer het niet gebruikt wordt.
+Bescherm het display tegen stoten, druk en schurende stoffen die krassen of barsten kunnen veroorzaken.
 
 ### Trimble S5 Totaalstation
 
-Opladen: De batterijen hebben 4 LED lichtjes, wanneer je de knop indrukt tonen deze LEDs het batterij percentage.
+**Schoonmaken**:
+
+Hou de lenzen en reflectoren schoon.
+Gebruik enkel specifiek materiaal ontworpen voor het schoonmaken van optische instrumenten.
+Wees zeer voorzichtig bij het schoonmaken, vooral als er zand of stof op de lenzen of reflectors zit.
+Gebruik geen ruwe of vuile vod of hard papier.
+
+**Na gebruik in vochtige omgeving:**
+
+Haal het totaalstation uit de instrumentkoffer, laat het gradueel opdrogen bij kamertemperatuur.
+Als er condensatie vormt op de lenzen, laat dat dan op een natuurlijke manier verdampen.
+
+**Batterijen**:
+
+De batterijen hebben 4 LED lichtjes, wanneer je de knop indrukt tonen deze LEDs het batterij percentage.
 Elke LED correspondeert met 25% batterij.
 Bij minder dan 10% begint 1 LED te knipperen.
 Wanneer alle vier de LED lichtjes knipperen na het indrukken van de knop moet de batterij geconditioneerd worden.
 De batterijlader zelf heeft ook LED lichtjes, de betekenis ervan kun je in de onderstaande tabel vinden:
 
-![Dual Slot Charger Control Panel](images/Dual Slot Charger control panel.png)
+![Dual Slot Charger Control Panel](images/Dual%20Slot%20Charger%20control%20panel.png)
 
-![Dual Slot Charger LED Light description](images/Dual Slot Charger LED description.png)
+![Dual Slot Charger LED Light description](images/Dual%20Slot%20Charger%20LED%20description.png)
 
-Conditioneren van de batterij: \
+Conditioneren van de batterij:\
 1.
 Druk de conditioning button in.
 De rode LED’s worden constant ipv knipperend.
 Alle groene LEDs beginnen te knipperen.
-Laat de knop los.
-\
+Laat de knop los.\
 2.
 laat de conditioning ononderbroken doorgaan.
 Één batterij conditioneren duurt tot 24u, doe dit dus best over een weekend.
 
-![Conditioning Button](images/Conditioning button.png)
-
-Bewaren: Opslag bij temperaturen tussen -40 °C en +70 °C in een droge omgeving.
-Verwijder altijd de batterij voor transport en opslag.
+![Conditioning Button](images/Conditioning%20button.png)
 
 ```{r onderhoud}
 onderhoud <- data.frame(
@@ -79,24 +114,6 @@ onderhoud <- data.frame(
 
 pander::pander(onderhoud, split.tables = Inf)
 ```
-
-### Extern onderhoud
-
-### Intern onderhoud
-
-#### Onderhoud onderdeel
-
-Reagentia en materiaal:
-
-- 
-
-- 
-
-Handeling:
-
-- 
-
-- 
 
 ## Error
 

@@ -2,15 +2,15 @@
 
 Voor uitgebreide handleidingen wordt verwezen naar de desbetreffende gebruikershandleiding of datasheet, vermeld in hoofdstuk 12.Referenties.
 
-## Voorbereiding 
+## Voorbereiding
 
 \- Opladen toestellen
 
 \- Verzamelen materiaal
 
-## Eerste keer instellen TSC5 
+## Eerste keer instellen TSC5
 
-### Meet-Methode 
+### Meet-Methode
 
 Open Trimble Access, klik op de 3 horizontale streepjes bovenaan links.
 Klik op Instellingen.
@@ -72,7 +72,7 @@ Gemiddelde waarnemingen: 5
 Conventioneel: VX & S Series \
 GNSS: NTRIP RTK
 
-Offset prisma-antenne: 0.034m \
+Offset prisma-antenne: 0.034m\
 *Dit is de afstand tussen de onderkant v/d GNSS antenne en het middelpunt van het prisma dat gebruikt wordt voor Totaalstation metingen.* *Deze afstand is afhankelijk van welke prisma gebruikt wordt. Voor het 360° prisma in gebruik op het INBO is dat 0.034m*
 
 ### Sjabloon
@@ -91,8 +91,9 @@ In het INBO worden Lambert72 en HBG18 gebruikt, tenzij anders bepaald door het p
 
 **Sjabloon L72 HBG18**: Belangrijkste instellingen:
 
-*Coord. Sys.		Lambert 72 (correctiegrid) (Belgium/Lambert)\*
-Selecteer in bibliotheek
+\*Coord.
+Sys.
+Lambert 72 (correctiegrid) (Belgium/Lambert)\* Selecteer in bibliotheek
 
 |                      |                             |
 |----------------------|-----------------------------|
@@ -102,7 +103,7 @@ Selecteer in bibliotheek
 | Geoide model         | HBG18 (Belgium) (hbg18.qgf) |
 | Coördinaten          | Grid                        |
 
-*Eenheden (Afst.)	Meters*
+*Eenheden (Afst.) Meters*
 
 |                        |                       |
 |------------------------|-----------------------|
@@ -127,7 +128,7 @@ Bij een nieuwe verbinding, gebruik de volgende instellingen:
 Settings:
 
 |  |  |
-|-----------------------------------|-------------------------------------|
+|----|----|
 | RTX (Internet) Gebruiken | Nee |
 | Gebruik NTRIP | Ja |
 | NTRIP v1.0 gebruiken | Nee |

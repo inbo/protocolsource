@@ -19,7 +19,7 @@ In Vlaanderen wordt er gebruik gemaakt van FLEPOS: een RTK dienstverlening van D
 Correctiesignalen op basis van 46 GNSS-referentiestations op gekende posities verspreid over Vlaanderen worden via mobiel internet verspreid.
 Hiervoor heb je een login en een simkaart nodig.
 
-![](images/Werkingsprincipe FLEPOS.png)
+![](images/Werkingsprincipe%20FLEPOS.png)
 
 Figuur: Werkingsprincipe FLEPOS
 
