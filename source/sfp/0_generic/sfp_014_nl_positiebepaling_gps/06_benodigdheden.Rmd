@@ -2,9 +2,21 @@
 
 ## Apparatuur
 
-Standaard: - GNSS-receiver - Controller voor GNSS-receiver met actieve licentie voor Flepos - Telescopische meetstok
+Standaard:
 
-Bijkomend voor locaties met slechte satellietontvangst: - Total Station - Driepikkel voor totalstation - Prisma & connectie-stuk voor telescopische meetstok
+- GNSS-receiver
+
+- Controller voor GNSS-receiver met actieve licentie voor Flepos
+
+- Telescopische meetstok
+
+Bijkomend voor locaties met slechte satellietontvangst:
+
+- Total Station
+
+- Driepikkel voor totalstation
+
+- Prisma & connectie-stuk voor telescopische meetstok
 
 ```{=html}
 <!--

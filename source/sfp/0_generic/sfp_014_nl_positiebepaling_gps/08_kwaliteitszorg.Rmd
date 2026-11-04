@@ -22,7 +22,7 @@ Daarnaast moet er ook voor gezorgd worden dat volgende zaken bij het exportbesta
 - Tijd
 
 | Name | Code | Easting | Northing | Elevation | HzPrec | VtPrec | PDOP | Satellites | Date | Time |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | KRGS004A | KRG | 96843.190 | 219796.045 | 3.023 | 0.011 | 0.017 | 1.392 | 17 | 3/01/2020 | 11:58:34 |
 | KRGS006A | KRG | 102012.516 | 217481.834 | 2.986 | 0.009 | 0.015 | 1.259 | 20 | 5/01/2020 | 16:02:47 |
 
