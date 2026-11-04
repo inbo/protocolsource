@@ -1,5 +1,7 @@
 # Vereiste competenties
 
+Voor het bepalen van een positie met een GNSS toestel is er een minimale landmeetkundige kennis nodig en is er ook een technische kennis nodig van het gebruikte type GNSS-receiver en totaalstation.
+
 ```{=html}
 <!--
 De toestel verantwoordelijke wordt aangesteld door de labo leiding, volgt alle opleidingen, neemt de handleiding door en schrijft de toestel procedure (SIP).
@@ -10,3 +12,4 @@ Vereisten voor de gebruiker:
 - Een onderhoud uitvoeren.
 -->
 ```
+

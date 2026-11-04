@@ -2,16 +2,23 @@
 
 # Definities en afkortingen
 
+**FLEPOS**: Flemish Positioning Service, een dienstverlening van Informatie Vlaanderen waarbij RTK correctiesignalen via mobiel internet worden verspreid.
+
 **GNSS**: Global navigation satellite system
 
-**RTK**: Real Time Kinematic
+**GNSS-receiver**: Toestel dat a.d.h.v. navigatiesatellieten de positie nauwkeurig kan bepalen.
 
-**FLEPOS**: Flemish Positioning Service
+**GPS (toestel)**: Gangbare term voor een GNSS-receiver.
 
-**GPS**: Global Positioning Service - GNSS van de Verenigde Staten
+**GPS, GLONASS, Galileo & Beidou**: De 4 navigatiesatelliet systemen (Respectievelijk van de Verenigde Staten, Rusland, Europese Unie en China) die gebruikt kunnen worden om een nauwkeurige positie te bepalen.
 
-**GLONASS**: Global Navigation Satellite System - GNSS van Rusland
+**Hoogte-conversiemodel**: Model opgesteld door het Nationaal Geografisch Instituut (NGI) dat gebruikt wordt om de gemeten GNSS hoogte om te rekenen t.o.v. het waterpassingsoppervlak, in België dus TAW (Tweede Algemene Waterpassing).
+Het huidige model is hBG18.
 
-**BeiDou**: GNSS van Volksrepubliek China
+**Lambert 72**: BD72, Belgian Lambert 72, EPSG-code 31370.
+Het standaard coördinatensysteem voor topografische kaarten en geodata in België.
 
-**Galileo**: GNSS van Europa
+**RTK:** Real Time Kinematic is een geavanceerd correctiesignaal voor satellietpositionering die de nauwkeurigheid van GNSS-systemen verbetert van enkele meters naar enkele centimeters.
+
+**Totaalstation**: Instrument dat een combinatie is van een theodoliet en afstandsmeter.
+Wordt gebruikt om op basis van hoekmetingen en trigonometrische hoogtemetingen de posities op locaties met slecht bereik voor de GNSS-receiver te bepalen.
