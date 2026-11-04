@@ -7,4 +7,4 @@ Eventueel kan er verwezen worden naar bepaalde opleidingen.
 -->
 ```
 
-Voor het bepalen van een positie van peilbuizen en peilschalen met een GPS is er een minimale landmeetkundige kennis nodig en is er ook een technische kennis nodig van het gebruikte type GNSS-receiver en Total Station.
+Voor het bepalen van een positie van peilbuizen en peilschalen met een GPS toestel is er een minimale landmeetkundige kennis nodig en is er ook een technische kennis nodig van het gebruikte type GNSS-receiver en Total Station.

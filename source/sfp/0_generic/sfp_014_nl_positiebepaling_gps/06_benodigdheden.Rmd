@@ -2,8 +2,9 @@
 
 ## Apparatuur
 
--   GNSS-receiver verbonden met Flepos
--   Total Station (optioneel)
+Standaard: - GNSS-receiver - Controller voor GNSS-receiver met actieve licentie voor Flepos - Telescopische meetstok
+
+Bijkomend voor locaties met slechte satellietontvangst: - Total Station - Driepikkel voor totalstation - Prisma & connectie-stuk voor telescopische meetstok
 
 ```{=html}
 <!--
@@ -14,8 +15,8 @@ Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur me
 
 ## Materiaal
 
--   Houtzaag/bijl/kapmes (optioneel, mogelijks nodig om begroeiing te verwijderen om Total Station te gebruiken)
--   Driepikkel om GNSS-receiver vast te klemmen (optioneel)
+- Houtzaag/bijl/kapmes (optioneel, mogelijks nodig om begroeiing te verwijderen om Total Station te gebruiken)
+- Driepikkel om GNSS-receiver vast te klemmen (optioneel)
 
 ```{=html}
 <!--
