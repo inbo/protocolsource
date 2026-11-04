@@ -1,11 +1,166 @@
 # Gebruik
 
-## Operationeel maken van het toestel
+Voor uitgebreide handleidingen wordt verwezen naar de desbetreffende gebruikershandleiding of datasheet, vermeld in hoofdstuk 12.Referenties.
 
-## Opstarten en afleggen van het toestel
+## Voorbereiding 
 
-## Functie instellingen
+\- Opladen toestellen
 
-## Meten van een staal
+\- Verzamelen materiaal
+
+## Eerste keer instellen TSC5 
+
+### Meet-Methode 
+
+Open Trimble Access, klik op de 3 horizontale streepjes bovenaan links.
+Klik op Instellingen.
+Klik op Meet-methodes.
+
+Hier worden de verschillende meetmethodes die gehanteerd worden op het INBO gedefinieerd.
+De naamgeving is ook afhankelijk van de gebruiker die dit als eerste instelde.
+
+1.  **NTRIP RTK**: In deze methode stel je alles in voor een vlotte meting met GNSS en RTK correcties. Enkele van de belangrijkste instellingen:
+
+**Rover opties**
+
+Meting type: RTK\
+Uitzend formaat: VRS (RTCM)
+
+Antenne\
+Type: SP100 Internal\
+Gemeten naar: Onderkant van de antenne bevestiging\
+Antenne hoogte: 2.000m\
+*Dit is de default en kun je tijdens het meten wel nog terug aanpassen.\* Serienummer:* Serienummer van de SP100 GNSS antenna die bij de set hoort.\*
+
+**Rover dataverbinding**
+
+GNSS correctiebron: FLEPOS\
+GNSS Internet bron: system
+
+**Topo punt**
+
+Hierin stel je de automatische settings in voor het opmeten van een punt: kwaliteitscontrole etc.
+**Dit kan afhankelijk zijn van je projectvoorwaarden: check deze dus zeker ook.**
+
+Auto punt stap grootte 1\
+Punt auto opslaan ✓\
+Kwaliteitscontrole QC  & QC 2\
+Meettijd: 0m5s\
+Aantal waarnemingen: 5
+
+Precisie\
+Auto tolerantie Nee\
+Horizontale tolerantie (DRMS): 0.020m\
+Verticale tolerantie (1 sigma): 0.025m
+
+Tilt\
+Tilt waarschuwingen: ✓\
+Tilt tolerantie: 0.020m
+
+Auto meten: -\
+Auto wegdoen: -
+
+2.  **VX & S series:** In deze methode stel je alles in voor een vlotte meting met enkel Totaalstation. Enkele van de belangrijkste instellingen:
+
+\*\*Instrument\*\* Fabrikant: Trimble\
+Model: VX/S Series\
+Meetmodus: STD\
+Gemiddelde waarnemingen: 5
+
+3.  **IS Rover**: (IS staat voor Integrated Surveying) geïntegreerde meting met zowel totaalstation, GNSS antenne en RTK correcties. Dit combineert een totaalstation meetmethode met een GNSS meetmethode. 
+
+Conventioneel: VX & S Series \
+GNSS: NTRIP RTK
+
+Offset prisma-antenne: 0.034m \
+*Dit is de afstand tussen de onderkant v/d GNSS antenne en het middelpunt van het prisma dat gebruikt wordt voor Totaalstation metingen.* *Deze afstand is afhankelijk van welke prisma gebruikt wordt. Voor het 360° prisma in gebruik op het INBO is dat 0.034m*
+
+### Sjabloon
+
+Dit zijn de sjablonen voor jobs waarin vooral informatie ivm het gebruikte coördinaatsysteem opgeslaan staat.
+
+Horizontale GNSS metingen gebeuren in ETRS89: de globale coördinaten in latitude en longitude.
+Dit moet worden omgezet in een projectie, waarbij de kaart op een plat vlak wordt geprojecteerd.
+Het INBO werkt hiervoor in het Belgische Lambert 72 correctiegrid. 
+
+Hoogtemetingen van een GNSS zijn obv de globale ellipsoide voor ETRS89.
+Voor hoogtemetingen in meter TAW moeten deze omgezet worden mbv een geoide.
+In België is dit de HBG18 geoide. 
+
+In het INBO worden Lambert72 en HBG18 gebruikt, tenzij anders bepaald door het project. 
+
+**Sjabloon L72 HBG18**: Belangrijkste instellingen:
+
+*Coord. Sys.		Lambert 72 (correctiegrid) (Belgium/Lambert)\*
+Selecteer in bibliotheek
+
+|                      |                             |
+|----------------------|-----------------------------|
+| Systeem              | Belgium/Lambert             |
+| Zone                 | Lambert 72 (correctiegrid)  |
+| Gebruik geoide model | Ja                          |
+| Geoide model         | HBG18 (Belgium) (hbg18.qgf) |
+| Coördinaten          | Grid                        |
+
+*Eenheden (Afst.)	Meters*
+
+|                        |                       |
+|------------------------|-----------------------|
+| Afstand en grid coörd. | Meters                |
+| Hoogte                 | Meters                |
+| Hoeken                 | DDD.MMSS              |
+| Toon                   | Overal 0.001 weergave |
+| Coördinaten volgorde   | Oost-Noord-Elev       |
+| Tijd notatie           | Lokale Datum/tijd     |
+| Precisie weergave      | DRMS                  |
+
+### FLEPOS RTK Service
+
+Stel hier je verbinding met FLEPOS RTK service in.
+
+*Trimble Access \> 3 horizontale streepjes bovenaan links \> Instellingen \> Verbindingen\> GNSS correctiebronnen*
+
+Normaalgezien is de verbinding met FLEPOS al gemaakt, tenzij het de eerste keer is dat dit toestel gebruikt wordt.
+Deze verbinding zal FLEPOS of RTK of NTRIP of gelijkaardig noemen, afhankelijk van de gebruiker die dit de eerste keer heeft aangemaakt.
+Bij een nieuwe verbinding, gebruik de volgende instellingen:
+
+Settings:
+
+|  |  |
+|-----------------------------------|-------------------------------------|
+| RTX (Internet) Gebruiken | Nee |
+| Gebruik NTRIP | Ja |
+| NTRIP v1.0 gebruiken | Nee |
+| Gebruik proxy server | Nee |
+| Direct verbinden met mountpoint | Ja |
+| Mountpoint naam | FLEPOSVRS32GREC |
+| NTRIP gebruikersnaam | *Afhankelijk van je account* |
+| NTRIP wachtwoord | *Afhankelijk van je account* |
+|  | *! Gebruik geen zelfde FLEPOS account op 2 verschillende toestellen om interferentie te vermijden.* |
+| IP-adres | flepos.vlaanderen.be |
+| IP-poort | 2101 |
+| Gebruikers identiteit info verzenden | Nee |
+| TLS versleuteling gebruiken | Nee |
+
+### Project en job settings
+
+Trimble Access werkt volgens projecten en jobs.
+Een project bundelt alle jobs voor eenzelfde project.
+Bij het aanmaken van een nieuw project krijg je de volgende opties: Naam, Beschrijving, Referentie, Locatie & Foto folder.
+Vul in naargelang de noden van jouw project.
+
+Binnen je project heb je meerdere jobs.
+Hoe je dit gebruikt beslis je best binnen je team.
+Maak je voor elke dag een nieuwe job aan, gebruik je 1 job per medewerker,...
+Gebruik bij het aanmaken van een nieuwe job telkens het juiste [Sjabloon]. 
+
+Elke job wordt opgeslagen als een .job bestand in de juiste **\<project\>** map.
+Elke job heeft een \<Jobnaam\> Filesmap, die bestanden bevat zoals afbeeldingen of GNSS databestanden, die worden aangemaakt terwijl er aan de job wordt gewerkt.
+
+## Inmeten met GNSS
+
+## Inmeten met Totaalstation
+
+## Uitzetten met GNSS
 
 ## Resultaten

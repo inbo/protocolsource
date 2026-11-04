@@ -1,5 +1,48 @@
+---
+
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
 # Apparatuur en materiaal
 
 ## Apparatuur
 
+- Trimble TSC5 Veldboek (controller), met:
+
+  - SIM kaart met mobiele data
+
+  - Android besturingssysteem
+
+  - App Trimble Access (Trimble veldapplicatie)
+
+  - App DriveSync (bestanden syncen met Google Drive)
+
+  - actieve licentie voor FLEPOS
+
+- Spectra Geospatial® SP100 GNSS antenne
+
+  *Optioneel, bij opmetingen met slechte GNSS ontvangst:*
+
+- Trimble S5 Totaalstation
+
 ## Materiaal
+
+- Telescopic Range Pole
+
+- Tussenstuk voor meetstok (GNSS adapter) (13,5 cm)
+
+- Reservebatterij SP100
+
+- Transportcase SP100
+
+  *Optioneel, bij opmetingen met slechte GNSS ontvangst:*
+
+- 360° Prisma
+
+- Driepikkel voor totaalstation
+
+- Reservebatterij S5
+
+- Transportcase S5

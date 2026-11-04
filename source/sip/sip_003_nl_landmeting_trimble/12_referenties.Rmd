@@ -1,5 +1,19 @@
 # Referenties {.unnumbered}
 
+FLEPOS info: <https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/flepos-centimeternauwkeurige-positiebepaling>
+
+GNSS info: <https://ngi.be/aanbod/dienstverlening/geodetische-diensten/van-gps-naar-gnss/>
+
+Trimble TSC5 Userguide <https://help.fieldsystems.trimble.com/tsc5-ranger5/PDFs/TSC5-UserGde-RevC.pdf>
+
+Datasheet Spectra Geospatial® SP100 GNSS: <https://trl.trimble.com/dscgi/ds.py/Get/File-1072958/022487-201B-en-UK_SP100_Datasheet_A4_0924_LR_SEC.pdf>
+
+Help centre SP100 GNSS: <https://help.spectrageospatial.com/sp100/home.htm>
+
+Trimble S5 Total Station Userguide <https://trl.trimble.com/dscgi/ds.py/Get/File-860656/Trimble%20S%20Series%20-%20User%20Guide%20-%20English.pdf>
+
+Trimble Access gebruikershandleiding <https://www.geometius.nl/wp-content/uploads/2024/04/Handleiding-Trimble-Access.pdf>
+
 ::: {#refs}
 \item
 :::

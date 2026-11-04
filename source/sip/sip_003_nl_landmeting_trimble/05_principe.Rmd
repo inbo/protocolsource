@@ -1,1 +1,33 @@
 # Principe
+
+De apparatuur beschreven in dit protocol wordt gebruikt om xyz-coördinaten op te meten in het veld.
+
+Het principe van GNSS berust op het nauwkeurig berekenen van een positie door de afstand tot meerdere satellieten te meten.
+Dit gebeurt op basis van de exacte reistijd van radiosignalen tussen de GNSS antenne en de beschikbare satellieten.
+
+Om de coördinaten van een punt op de grond of een object te meten, maken we gebruik van een meetstok waarop de GNSS antenne bevestigd is.
+Het tipje van de meetstok wordt op het gewenste punt gezet, de exacte positie van de antenne wordt dan omgerekend naar dat van het tipje van de meetstok obv de ingegeven lengte van de meetstok en de hoek waaronder de meetstok gehouden wordt.
+Die hoek wordt automatisch opgemeten door een IMU tilt-compensator die ingebouwd is in de SP100 GNSS antenne.
+
+Om de positiebepaling obv satellieten (doorgaans halve meter nauwkeurig) naar centimeter nauwkeurigheid te brengen moet het satelliet signaal gecorrigeerd worden.
+Dit gebeurt via RTK.
+
+Het principe van RTK werkt zo dat een of meerdere GNSS-referentiestations realtime hun GNSS positie vergelijken met hun gekende coördinaat (referentie).
+De afwijking hierop wordt doorgestuurd naar de gebruiker via radioverbinding of internet.
+
+In Vlaanderen wordt er gebruik gemaakt van FLEPOS: een RTK dienstverlening van Digitaal Vlaanderen.
+Correctiesignalen op basis van 46 GNSS-referentiestations op gekende posities verspreid over Vlaanderen worden via mobiel internet verspreid.
+Hiervoor heb je een login en een simkaart nodig.
+
+![](images/Werkingsprincipe FLEPOS.png)
+
+Figuur: Werkingsprincipe FLEPOS
+
+In dichtbegroeide gebieden, bv onder bos, of onder afdaken, tussen hoge gebouwen kan het satellietsignaal onvoldoende zijn om een nauwkeurige positie te bepalen.
+In dat geval kan gebruik gemaakt worden van een totaalstation om de meting alsnog uit te voeren.
+
+Een totaalstation berekent de positie van een punt relatief tot zijn eigen positie mbv een electro-optische afstandsmeting en een verticale en horizontale hoekmeting tov de nulpuntrichting.
+
+D.m.v. twee punten met gekende coördinaten (bv ingemeten met GNSS op een plek waar wel voldoende satellietsignalen zijn, zoals aan de rand van een bos) op te meten kan de positie van het totaalstation ook absoluut berekend worden en zo ook alle verdere metingen die met het totaalstation gebeuren.
+
+De TSC5 veldboek is een draagbare computer en wordt gebruikt om de SP100 GNSS antenne en het S5 Totaalstation te bedienen, om data te capteren, berekeningen uit te voeren en data te delen.

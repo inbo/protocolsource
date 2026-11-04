@@ -1,5 +1,17 @@
+------------------------------------------------------------------------
+
 # Definities en afkortingen
 
-RTK - Real time kinematic
+**GNSS**: Global navigation satellite system
 
-FLEPOS: Flemish Positioning Service
+**RTK**: Real Time Kinematic
+
+**FLEPOS**: Flemish Positioning Service
+
+**GPS**: Global Positioning Service - GNSS van de Verenigde Staten
+
+**GLONASS**: Global Navigation Satellite System - GNSS van Rusland
+
+**BeiDou**: GNSS van Volksrepubliek China
+
+**Galileo**: GNSS van Europa

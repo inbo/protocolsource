@@ -9,10 +9,10 @@ Meer info hierover is terug te vinden in de [procedure](https://drive.google.com
 
 Bij het uitvoeren van de procedure zijn volgende `PBM`'s en `CBM`'s van toepassing:
 
--   `PBM`:
-    -   Draag werkkledij: labojas - laboschoenen
-    -   Draag handbescherming: `nitrilrubber` handschoenen of thermische handschoenen
-    -   Draag oogbescherming: veiligheidsbril
-    -   Draag gelaatsbescherming: masker type `FFP1` of `FFP2` of `FFP3` of halfgelaatsmasker of volgelaatsmasker
--   `CBM`:
-    -   Werk in een trekkast of Gebruik een puntafzuiging
+- `PBM`:
+  - Draag werkkledij: labojas - laboschoenen
+  - Draag handbescherming: `nitrilrubber` handschoenen of thermische handschoenen
+  - Draag oogbescherming: veiligheidsbril
+  - Draag gelaatsbescherming: masker type `FFP1` of `FFP2` of `FFP3` of halfgelaatsmasker of volgelaatsmasker
+- `CBM`:
+  - Werk in een trekkast of Gebruik een puntafzuiging

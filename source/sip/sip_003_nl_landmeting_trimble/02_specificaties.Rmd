@@ -1,10 +1,31 @@
 # Specificaties
 
+Deze werkinstructie beschrijft het proces dat dient gevolgd te worden bij het gebruik, de kalibratie, de controle en het onderhoud van landmeetkundige apparatuur, met name de Trimble TSC5 veldboek, Spectra Geospatial® SP100 GNSS antenne en Trimble S5 Totaalstation.
+
 ## Omgevingsvoorwaarden
+
+Voor de gedetailleerde omgevingsvoorwaarden wordt verwezen naar de desbetreffende gebruikershandleiding of datasheet, vermeld in hoofdstuk 12.Referenties.
+
+### Trimble TSC5 Veldboek (controller)
+
+Om de levensduur van de batterij te verlengen, dient u deze met een doek af te drogen als hij nat is geworden, niet opzettelijk onder te dompelen en blootstelling aan onnodige vallen, mechanische schokken en trillingen te vermijden.
+De batterijen zijn beschermd tegen water en stof en zijn getest op valbestendigheid vanaf een hoogte van maximaal 1,22 m (4,00 ft).
+
+De TSC5-controller is ontworpen voor gebruik bij omgevingstemperaturen tussen -30 °C en +60 °C en voor opslag bij temperaturen tussen -40 °C en +70 °C.
+Vermijd blootstelling van het apparaat aan sterke schommelingen in temperatuur of luchtvochtigheid.
+Zorg ervoor dat de controller niet onnodig lang in de zon (bv op de zetel/ dashboard in de auto of op het veld) ligt om beschadiging van het scherm te voorkomen.
+
+### Spectra Geospatial SP100 GNSS antenne
+
+### Trimble S5 Totaalstation
 
 ## Technische specificaties
 
+Voor de technische specificaties wordt verwezen naar de desbetreffende gebruikershandleiding of datasheet, vermeld in hoofdstuk 12.Referenties.
+
 ## Toepassings- en werkgebied
+
+Deze apparatuur wordt gebruikt om landmeetkundige metingen te doen en absolute posities te bepalen.
 
 <!-- description: start -->
 
