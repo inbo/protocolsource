@@ -4,7 +4,7 @@ Deze werkinstructie beschrijft het proces dat dient gevolgd te worden bij het ge
 
 ## Omgevingsvoorwaarden
 
-Voor de gedetailleerde omgevingsvoorwaarden wordt verwezen naar de desbetreffende gebruikershandleiding of datasheet, vermeld in hoofdstuk 12.Referenties.
+Voor de gedetailleerde omgevingsvoorwaarden wordt verwezen naar de desbetreffende gebruikershandleiding of datasheet, vermeld in hoofdstuk \@ref(sec-refs) Referenties.
 
 ### Trimble TSC5 Veldboek (controller)
 
