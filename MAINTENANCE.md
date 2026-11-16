@@ -4,22 +4,23 @@ These instructions are for admins only.
 
 Making changes to `renv.lock`:
 
--   create a new branch `docker-renv-update`
--   adding a new package: add the package name to the `DESCRIPTION` file, install the package and snapshot it
--   after an upgrade of R x.y to x.z:
-    -   [see tutorial website](https://inbo.github.io/tutorials/tutorials/r_renv_update/#updating-r-and-packages)
-    -   update pandoc version in the `Dockerfile` to the current version used locally (run `rmarkdown::pandoc_version()` in the console to see which version is used)
--   add, commit and push modified files
--   make a Pull Request
--   ask for a review
--   wait until docker successfully built message appears before merging
+- create a new branch `docker-renv-update`
+- adding a new package: add the package name to the `DESCRIPTION` file, install the package and snapshot it
+- after an upgrade of R x.y to x.z:
+  - [see tutorial website](https://inbo.github.io/tutorials/tutorials/r_renv_update/#updating-r-and-packages)
+  - update pandoc version in the `Dockerfile` to the current version used locally (run `rmarkdown::pandoc_version()` in the console to see which version is used)
+  - update `rocker/verse:x.y.z` in the `Dockerfile`: change `x.y.z` to the same version of R that is recorded in the `renv.lock` file
+- add, commit and push modified files
+- make a Pull Request
+- ask for a review
+- wait until docker successfully built message appears before merging
 
 Making changes to `docker` or `dockerfile` (and possibly also `renv.lock`):
 
--   create a new branch `docker-update`
--   make changes and add, commit, push them
--   ask for a review
--   wait until docker successfully built message appears before merging
+- create a new branch `docker-update`
+- make changes and add, commit, push them
+- ask for a review
+- wait until docker successfully built message appears before merging
 
 Whenever the above branches are merged to main, a git tag `docker-<sha-1>` will be automatically added via GHA.
 Here, <sha-1> refers to the SHA-1 identifier of the merge commit.
