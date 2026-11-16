@@ -1,4 +1,4 @@
-FROM rocker/verse
+FROM rocker/verse:4.6.1
 ARG BUILD_DATE
 ARG VCS_REF
 LABEL org.label-schema.build-date=$BUILD_DATE \
@@ -35,7 +35,7 @@ COPY docker/Rprofile.site $R_HOME/etc/Rprofile.site
 
 ## Extend the existing TeXLive installation with additional packages needed
 ## see https://github.com/rocker-org/rocker-versioned2/blob/master/scripts/install_texlive.sh
-RUN tlmgr update --self && \
+RUN tlmgr update --self --all && \
      tlmgr install \
      booktabs \
      babel-dutch \
