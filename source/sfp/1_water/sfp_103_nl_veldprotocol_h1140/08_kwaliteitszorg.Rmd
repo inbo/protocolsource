@@ -8,3 +8,7 @@ Indien er niet aan bepaalde kwaliteitscriteria voldaan wordt, kan er eventueel v
 In dit onderdeel kunnen ook bepaalde interkalibratie-oefeningen vermeld worden, die bijvoorbeeld voorafgaand aan elk veldseizoen worden uitgevoerd door de gebruikers van het protocol. 
 -->
 ```
+
+Volg het protocol nauwgelet om de reproduceerbaarheid van de resultaten te garanderen.
+Gezien de monitoring over meerdere jaren doorgaat is dit van groot belang.
+
