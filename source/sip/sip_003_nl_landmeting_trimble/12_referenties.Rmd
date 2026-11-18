@@ -1,4 +1,4 @@
-# Referenties {.unnumbered}
+# Referenties {.unnumbered #sec-refs}
 
 FLEPOS info: <https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/flepos-centimeternauwkeurige-positiebepaling>
 
