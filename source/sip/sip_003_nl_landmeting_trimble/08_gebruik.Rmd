@@ -29,8 +29,9 @@ Uitzend formaat: VRS (RTCM)
 Antenne\
 Type: SP100 Internal\
 Gemeten naar: Onderkant van de antenne bevestiging\
-Antenne hoogte: 2.000m\
-*Dit is de default en kun je tijdens het meten wel nog terug aanpassen.\* Serienummer:* Serienummer van de SP100 GNSS antenna die bij de set hoort.\*
+Antenne hoogte: 2.000m *Dit is de default en kun je tijdens het meten wel nog terug aanpassen.*
+
+Serienummer*:* \**Serienummer van de SP100 GNSS antenna die bij de set hoort.*\*
 
 **Rover dataverbinding**
 
@@ -73,7 +74,7 @@ Conventioneel: VX & S Series \
 GNSS: NTRIP RTK
 
 Offset prisma-antenne: 0.034m\
-*Dit is de afstand tussen de onderkant v/d GNSS antenne en het middelpunt van het prisma dat gebruikt wordt voor Totaalstation metingen.* *Deze afstand is afhankelijk van welke prisma gebruikt wordt. Voor het 360° prisma in gebruik op het INBO is dat 0.034m*
+*Dit is de afstand tussen de referentie (de onderkant) v/d GNSS antenne en het middelpunt van het prisma dat gebruikt wordt voor Totaalstation metingen.* *Deze afstand is afhankelijk van welke prisma gebruikt wordt. Voor het 360° prisma in gebruik op het INBO is dat 0.034m*
 
 ### Sjabloon
 
@@ -115,7 +116,9 @@ Lambert 72 (correctiegrid) (Belgium/Lambert)\* Selecteer in bibliotheek
 | Tijd notatie           | Lokale Datum/tijd     |
 | Precisie weergave      | DRMS                  |
 
-### FLEPOS RTK Service
+### Verbindingen
+
+#### GNSS Correctiebronnen
 
 Stel hier je verbinding met FLEPOS RTK service in.
 
@@ -128,7 +131,7 @@ Bij een nieuwe verbinding, gebruik de volgende instellingen:
 Settings:
 
 |  |  |
-|----|----|
+|------------------------------------|------------------------------------|
 | RTX (Internet) Gebruiken | Nee |
 | Gebruik NTRIP | Ja |
 | NTRIP v1.0 gebruiken | Nee |
@@ -142,6 +145,16 @@ Settings:
 | IP-poort | 2101 |
 | Gebruikers identiteit info verzenden | Nee |
 | TLS versleuteling gebruiken | Nee |
+
+#### Radio instellingen
+
+Deze instelling is belangrijk voor het connecteren met het totaalstation.
+
+*Trimble Access \> 3 horizontale streepjes bovenaan links \> Instellingen \> Verbindingen\> Radio instellingen*
+
+Radiokanaal:
+
+Netwerk ID:
 
 ### Project en job settings
 
@@ -159,6 +172,118 @@ Elke job wordt opgeslagen als een .job bestand in de juiste **\<project\>** map.
 Elke job heeft een \<Jobnaam\> Filesmap, die bestanden bevat zoals afbeeldingen of GNSS databestanden, die worden aangemaakt terwijl er aan de job wordt gewerkt.
 
 ## Inmeten met GNSS
+
+Bij aankomst op de meetlocatie:
+
+1.  Start je materiaal op:
+
+    - Start de Trimble TSC5 Veldboek (controller)
+
+    - Steek de batterij in de GNSS SP100 antenna en start het toestel op
+
+2.  Bevestig de GNSS SP100 antenna op de Telescopic Range Pole mét tussenstuk voor meetstok (GNSS adapter) van 13,5 cm lang.
+
+    Controleer:
+
+    - Of de punt van de telescopic range pole goed vasthangt (kan losgeschroefd worden en los komen te zitten door trillingen etc.)
+
+    - Of de totale lengte van de range pole (met punt én tussenstuk) overeenkomt met de lengte op de markeringen.
+      Voor het gemak zetten we de range pole meestal op **2m**.
+
+3.  Stel je job in
+
+    Op de controller open je de software 'Trimble Access'.
+
+    Kies het gepaste project en open daarna de gepaste job.
+    Zie vorig hoofdstuk voor een leidraad rond het aanmaken van projecten en jobs.
+
+4.  Start Meten
+
+    - Klik rechtsonder in het scherm op 'Meet', of klik op de 3 horizontale streepjes (menu) linksboven en klik op 'Meten'.
+
+    - Selecteer de gepaste Meet-Methode, gewoonlijk "NTRIP RTK".
+
+    - De controller zal de verbinding met de GNSS antenna (rover) via Bluetooth opstarten.
+      De pop-up toont het type rover en het verwachte serienummer, ingesteld in je Meet-Methode.
+      Indien dit niet juist is zal je verbinding niet lukken.
+
+    Op het meetscherm zijn de volgende zaken te zien, het is uitermate belangrijk dat dit allemaal correct is!
+    ![startscherm meten](images/startscherm%20meten.png) Menubalk bovenaan, van links naar rechts:
+
+    - menu (drie horizontale streepjes)
+
+    - datum/uur
+
+    - batterij percentage controller
+
+    - batterij percentage rover
+
+    - aantal satellieten
+
+    - status van de IMU unit voor tiltcompensatie
+
+      - ! Moet groen zijn om accurate metingen te doen
+
+    - ingestelde lengte van de telescopic range pole
+
+      - ! Check of deze juist ingesteld is. Je kunt hierop klikken om aan te passen.
+
+    - Status van de RTK correcties (FLEPOS) die binnenkomen via je dataverbinding van de controller (via simkaart).
+      Je kunt hierop klikken om meer details te zien.
+
+    - Status en accuracy van de GNSS metingen:
+
+      - Bij start van de meting staat hier "*IMU niet gealineerd*"
+
+        –\> beweeg de GNSS rover in cirkeltjes of achtjes tot de melding weg is.
+        Dit moet je telkens opnieuw doen als je de lengte van de range pole aanpast of soms als je een abrupte beweging doet met de rover.
+
+      - RTK+IMU H: x.xxm V:x.xxm
+
+        - H staat voor horizontale accuracy, V voor verticale accuracy, beide in meter.
+          Zorg ervoor dat dit voldoet aan de voorwaarden van de uit te voeren meting.
+          De accuracy kan beïnvloed worden door obstructie van het GNSS signaal: zorg ervoor dat je open lucht ziet en dat de rover niet afgedekt is.
+
+        - Er zal rechts een groen vinkje te zien zijn wanneer de accuracy voldoet aan de projectinstellingen.
+
+        Zorg ervoor dat al deze parameters correct zijn, dan kun je starten met meten.
+
+5.  **Positioneer de punt van de range pole op het op te meten object en meet**:
+
+    Het menu rechts in het scherm toont je de gegevens van je eerstvolgende in te meten locatie.
+
+    - Punt naam: Kies een gepaste naam voor je punt.
+      Dit moet een unieke waarde zijn binnen je job.
+
+    - Code: Kies een gepaste code voor je punt, of laat leeg.
+      Dit kan je zien als een code voor een categorie/soort waaronder je meetpunt valt.
+      Meerdere ingemeten punten kunnen dezelfde code krijgen.
+
+    - Methode:
+
+      - **Topo punt**: meest gebruikt methode die een punt opmeet onder vooraf ingestelde meettijd en aantal epochs.
+        De data van het meettijd wordt in een bepaald formaat opgeslaan waardoor het geschikt is voor post-processing.
+
+      - Rapid punt: Snel meten zonder minimum meettijd.
+        De software wint direct één (of zeer enkele) roving-epoch in zodra de ingestelde precisie is bereikt.
+        Wordt ook automatisch direct opgeslagen.
+        Kans op een foute meting is groter en er is geen post-processing mogelijk.
+        Enkel aanbevolen voor snelle, minder kritische metingen bij zeer goede satellietontvangst.
+
+      - Gemeten controlepunt; kalibratiepunt en Hz tilt offset: niet relevant voor dit document.
+
+    - Antenne Hgt (ongecorr)
+
+      - Vul hier de juiste hoogte van de telescopic range pole in. Standaard gebruiken we 2m.
+
+    - Gemeten naar: Onderkant v/d antenne bevestiging
+
+6.  Tik op Meet.
+
+    Als de vooraf ingestelde meettijd en precisies bereikt zijn, wordt het punt automatisch opgeslagen als **Punt automatisch opslaan** ingeschakeld is.
+    Als **Punt automatisch opslaan** niet ingeschakeld is, komt er een popup met een overzicht van de meetgegevens, controleer en tik op **Opsl**.
+
+7.  Positioneer de ontvanger op het volgende punt en herhaal bovenstaande stappen.
 
 ## Inmeten met Totaalstation
 

@@ -1,9 +1,6 @@
----
+------------------------------------------------------------------------
 
-editor_options: 
-  markdown: 
-    wrap: 72
----
+editor_options: markdown: wrap: 72 ---
 
 # Apparatuur en materiaal
 
@@ -21,11 +18,15 @@ editor_options:
 
   - actieve licentie voor FLEPOS
 
+  ![Trimble TSC5 Veldboek](https://www.allterra-belux.com/web/image/45995-905982be/Trimble%20TC510%20DC__36A8586.webp)
+
 - Spectra Geospatial® SP100 GNSS antenne
+
+  ![Spectra Geospatial® SP100 GNSS antenne](https://www.allterra-belux.com/web/image/product.product/25377/image_1024/%5BSP100-111-00%5D%20GNSS%20Receiver%20-%20SP100%2C%20No%20Radio?unique=d23252b)
 
   *Optioneel, bij opmetingen met slechte GNSS ontvangst:*
 
-- Trimble S5 Totaalstation
+- Trimble S5 Totaalstation ![Trimble S5 Totaalstation](images/Trimble%20S5.png)
 
 ## Materiaal
 
@@ -42,6 +43,8 @@ editor_options:
 - 360° Prisma
 
 - Driepikkel voor totaalstation
+
+- Radio-opzetstuk voor de TSC5 Controller
 
 - Reservebatterij S5
 
